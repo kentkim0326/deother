@@ -88,6 +88,16 @@ const PAGES = {
           ]
         }
       ],
+      slides: [
+        "서울 도심을 격자로 자른 타일. 국기 색으로 소유가 드러난다",
+        "전장 실시간 콕핏 — Open-Meteo 기상값과 천문 계산을 그대로 띄운다",
+        "자동 전투. 도시 상위 랭커의 영토를 우선으로 노린다",
+        "전투 알고리즘 대시보드 — 10개 변수와 계산식을 플레이어에게 공개한다",
+        "전장이 되는 실제 도시 50곳. 도시마다 홈 어드밴티지가 다르다",
+        "글로벌 리더보드. 지휘관마다 국기와 거점 도시가 붙는다",
+        "지도 위 액션 — 자동배치·동맹·연합작전·거래소·포로수용소",
+        "접속 보상. 연속 접속이 길수록 지급이 커진다"
+      ],
       cta: "밀리버스 해보기", back: "디아더로 돌아가기"
     },
 
@@ -167,6 +177,16 @@ const PAGES = {
             "Open data is exactly what the live data section describes — Open-Meteo weather and OpenStreetMap-derived map data feed the actual game logic. Not decoration: inputs that change the outcome of a fight."
           ]
         }
+      ],
+      slides: [
+        "Downtown Seoul cut into a tile grid — ownership shows as national flags",
+        "Live battlefield cockpit — Open-Meteo readings and astronomical values, shown raw",
+        "Auto battle, targeting the territory of the city's top-ranked commanders first",
+        "Combat algorithm dashboard — all ten variables and the formula, open to the player",
+        "The fifty real cities you can fight over, each with its own home advantage",
+        "Global leaderboard. Every commander carries a flag and a home city",
+        "Map actions — auto-deploy, alliances, joint ops, marketplace, POW camp",
+        "Daily check-in. The longer the streak, the larger the payout"
       ],
       cta: "Play Milliverse", back: "Back to Deother"
     }

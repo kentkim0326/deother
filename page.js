@@ -5,6 +5,11 @@
 const P_STORE = "deother.lang";
 const P_LANGS = { ko: "한국어", en: "English" };
 
+// 슬라이드 설명. pSetup 이 슬라이드쇼를 한 번만 만들고,
+// pRender 가 언어를 바꿀 때마다 이 둘을 갈아끼운다.
+let pSlideCaps = [];
+let pShowCap = () => {};
+
 function pEl(tag, cls, text) {
   const n = document.createElement(tag);
   if (cls) n.className = cls;
@@ -33,6 +38,9 @@ function pRender(code) {
   document.getElementById("pTitle").textContent   = t.title;
   document.getElementById("pTagline").textContent = t.tagline;
   document.getElementById("pIntro").textContent   = t.intro;
+
+  pSlideCaps = t.slides || [];
+  pShowCap();
 
   const cta = document.getElementById("pCta");
   cta.textContent = t.cta;
@@ -89,6 +97,13 @@ function pSetup() {
   const dots  = document.getElementById("pDots");
   let idx = 0, timer = null;
 
+  // 설명을 붙인다 — 공모전 심사에서는 "무슨 화면인지"가 그림만큼 중요하다.
+  // 언어를 바꾸면 pRender 가 pSlideCaps 를 갈아끼우므로 여기서는 자리만 만든다.
+  const cap = pEl("p", "slide-cap");
+  cap.id = "pCap";
+  track.after(cap);
+  pShowCap = () => { cap.textContent = pSlideCaps[idx] || ""; };
+
   set.files.forEach((f, i) => {
     const img = document.createElement("img");
     img.src = set.folder + f;
@@ -106,7 +121,9 @@ function pSetup() {
     idx = (n + set.files.length) % set.files.length;
     [...track.children].forEach((c, i) => c.classList.toggle("on", i === idx));
     [...dots.children].forEach((c, i) => c.classList.toggle("on", i === idx));
+    pShowCap();
   }
+  pShowCap();
   const start = () => { timer = setInterval(() => show(idx + 1), 4500); };
   start();
   box2.addEventListener("mouseenter", () => clearInterval(timer));

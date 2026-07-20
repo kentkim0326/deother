@@ -384,3 +384,7 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
 /* 세 게임을 관통하는 관점 — 카드 아래 한 문단. 인용처럼 보이게 왼쪽에 선을 둔다 */
 .works-note { margin: 34px 0 0; padding-inline-start: 18px; border-inline-start: 2px solid var(--accent);
   color: var(--muted); font-size: clamp(15px, 1.7vw, 17px); line-height: 1.75; max-width: 62ch; }
+
+/* 슬라이드 설명 — 무슨 화면인지 알려준다. 그림만 있으면 심사자가 해석을 해야 한다 */
+.slide-cap { margin: 12px 0 0; text-align: center; color: var(--muted);
+  font-size: 14px; line-height: 1.6; min-height: 1.6em; }

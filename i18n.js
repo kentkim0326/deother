@@ -19,7 +19,7 @@ const LINKS = {
 //   FN_SLIDES → assets/slides-fn/    (히어로의 정지 이미지를 대체한다)
 //   KW_SLIDES → assets/slides-kw/    ('우리가 만든 것' 아래에 붙는다)
 const FN_SLIDES = ["fn-08.jpg", "fn-11.jpg", "fn-05.jpg", "fn-16.jpg", "fn-15.jpg", "fn-09.jpg", "fn-06.jpg", "fn-04.jpg"];
-const MV_SLIDES = ["mv-01.jpg", "mv-02.jpg", "mv-03.jpg", "mv-04.jpg", "mv-05.jpg", "mv-06.jpg", "mv-07.jpg", "mv-08.jpg", "mv-09.jpg", "mv-10.jpg", "mv-11.jpg", "mv-12.jpg", "mv-13.jpg"];   // assets/slides-mv/ — 밀리버스 상세 페이지에서 쓴다
+const MV_SLIDES = ["mv-01.jpg", "mv-02.jpg", "mv-03.jpg", "mv-04.jpg", "mv-05.jpg", "mv-06.jpg", "mv-07.jpg", "mv-08.jpg"];   // assets/slides-mv/ — 밀리버스 상세 페이지에서 쓴다
 const KW_SLIDES = ["kw-09.jpg", "kw-14.jpg", "kw-08.jpg", "kw-05.jpg", "kw-13.jpg", "kw-23.jpg", "kw-20.jpg", "kw-17.jpg"];
 
 const WORKS = [
