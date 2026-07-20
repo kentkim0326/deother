@@ -137,16 +137,30 @@ function render(code) {
   set("wkLead", t.works.lead);
   document.getElementById("workCards").replaceChildren(...WORKS.map(w => {
     const it = t.works.items[w.key];
-    const a = el("a", "card work");
-    a.href = w.url; a.target = "_blank"; a.rel = "noopener";
+    // ※ 카드 전체를 <a> 로 감싸면 안에 페이스북 링크를 못 넣는다(중첩 링크는 잘못된 HTML).
+    //   그래서 카드는 article 이고, 제목과 SNS 가 각각 링크다.
+    const card = el("article", "card work");
+
     // 로고가 있는 것만 마크를 얹는다 (없으면 제목이 그 자리를 차지해 어색하지 않다)
     if (w.logo) {
       const img = document.createElement("img");
       img.src = w.logo; img.alt = ""; img.className = "work-logo"; img.loading = "lazy";
-      a.append(img);
+      card.append(img);
     }
-    a.append(el("div", "work-tag", w.tag), el("h3", null, it.t), el("p", null, it.b));
-    return a;
+    card.append(el("div", "work-tag", w.tag));
+
+    const h = el("h3");
+    const link = el("a", "work-title", it.t);
+    link.href = w.url; link.target = "_blank"; link.rel = "noopener";
+    h.append(link);
+    card.append(h, el("p", null, it.b));
+
+    if (w.fb) {
+      const fb = el("a", "work-sns", "Facebook →");
+      fb.href = w.fb; fb.target = "_blank"; fb.rel = "noopener";
+      card.append(fb);
+    }
+    return card;
   }));
 
   // --- 발표 자료 ---

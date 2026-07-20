@@ -180,18 +180,24 @@ section.alt { background: var(--bg-2); }
 .card h3 { margin: 0 0 10px; font-size: 18px; font-weight: 700; }
 .card p { margin: 0; color: var(--fg-dim); font-size: 15px; }
 
-/* 만든 것 카드 — 링크라서 밑줄을 지우고 카드 전체가 눌리게 한다 */
-.card.work { text-decoration: none; display: block; }
+/* 만든 것 카드 — 카드 안에 링크가 둘(제품·SNS)이라 카드 자체는 링크가 아니다 */
+.card.work { display: flex; flex-direction: column; }
 .card.work .work-tag {
   color: var(--fg-faint); font-size: 12px; letter-spacing: .08em;
   text-transform: uppercase; margin-bottom: 10px;
 }
-.card.work:hover h3 { color: var(--accent); }
 .card.work .work-logo {
-  display: block; width: 52px; height: auto; margin-bottom: 14px;
+  display: block; width: 56px; height: auto; margin-bottom: 16px;
   opacity: .92; transition: .2s;
 }
 .card.work:hover .work-logo { opacity: 1; transform: scale(1.06); }
+.work-title { text-decoration: none; }
+.work-title:hover { color: var(--accent); }
+.work-sns {
+  margin-top: auto; padding-top: 16px; align-self: flex-start;
+  color: var(--fg-faint); font-size: 13px; text-decoration: none;
+}
+.work-sns:hover { color: var(--accent); }
 
 /* ---------- 연표 ---------- */
 .events { margin-top: 44px; display: grid; gap: 2px; }
