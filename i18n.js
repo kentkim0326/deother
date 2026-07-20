@@ -134,7 +134,7 @@ const I18N = {
     songs: { heading: "In your language", lead: "Theme song and gameplay, recorded in the languages our fighters speak." },
     works: { heading: "What we have built", lead: "Deother ships. Three products, all live.", items: {
       fn: { t: "Fighting Nations", b: "3D bare-handed martial arts fighter. In development, playable now." },
-      kingdom: { t: "Kingdom Wars", b: "Browser turn-based conquest — the Moon, then Mars, then deep space. Early access in four languages." },
+      kingdom: { t: "Kingdom Wars", b: "Turn-based conquest you play straight in the browser: 49 sectors on the Moon. Killstreaks, battle grades and loot drops. Live in four languages." },
       miliverse: { t: "Milliverse", b: "Web3 strategy game played on the real world map. Buy tiles, deploy weapons and troops, fight other players for territory. Live in four languages, with real weather and day-night data feeding the battles." }
     } },
     decks: { heading: "Pitch deck", en: "English version", ko: "한국어 버전" },
@@ -228,7 +228,7 @@ const I18N = {
     songs: { heading: "당신의 언어로", lead: "파이터들이 쓰는 언어로 녹음한 주제가와 게임플레이." },
     works: { heading: "우리가 만든 것", lead: "디아더는 만들어서 띄웁니다. 세 개 모두 살아 있습니다.", items: {
       fn: { t: "Fighting Nations", b: "3D 맨손 무술 격투게임. 개발 중이며 지금 플레이할 수 있습니다." },
-      kingdom: { t: "Kingdom Wars", b: "브라우저 턴제 정복 전략 — 달에서 화성으로, 그다음 심우주로. 4개 언어 얼리액세스." },
+      kingdom: { t: "Kingdom Wars", b: "브라우저에서 바로 하는 턴제 정복 전략. 달의 49개 섹터를 두고 싸웁니다. 연승 배수, 전투 등급, 전리품 드랍까지. 4개 언어로 서비스 중." },
       miliverse: { t: "밀리버스", b: "실제 세계 지도 위에서 벌어지는 Web3 전략 게임. 타일을 사고 무기와 병사를 배치해 다른 플레이어와 영토를 두고 싸웁니다. 4개 언어로 서비스 중이며, 실제 날씨와 낮밤 데이터가 전투에 반영됩니다." }
     } },
     decks: { heading: "발표 자료", en: "English version", ko: "한국어 버전" },
@@ -319,7 +319,7 @@ const I18N = {
     songs: { heading: "用你的语言", lead: "主题曲与实机画面，以角色们所说的语言录制。" },
     works: { heading: "我们做出来的东西", lead: "Deother 做出来并让它上线。三个产品，都还活着。", items: {
       fn: { t: "Fighting Nations", b: "3D 赤手武术格斗游戏。开发中，现在即可试玩。" },
-      kingdom: { t: "Kingdom Wars", b: "浏览器回合制征服战略——从月球到火星，再到深空。四种语言的抢先体验。" },
+      kingdom: { t: "Kingdom Wars", b: "打开浏览器即可上手的回合制征服战略：月球 49 个区块。连胜加成、战斗评级、战利品掉落。四种语言运营中。" },
       miliverse: { t: "Milliverse", b: "在真实世界地图上进行的 Web3 战略游戏。购买地块、部署武器与士兵，与其他玩家争夺领土。四种语言上线运营，真实天气与昼夜数据会影响战斗。" }
     } },
     decks: { heading: "企划书", en: "English version", ko: "한국어 버전" },
@@ -410,7 +410,7 @@ const I18N = {
     songs: { heading: "あなたの言語で", lead: "ファイターたちが話す言語で録音した主題歌とゲームプレイ。" },
     works: { heading: "作ってきたもの", lead: "ディアザーは作って世に出します。三つとも生きています。", items: {
       fn: { t: "Fighting Nations", b: "3D素手武術の格闘ゲーム。開発中、今すぐ遊べます。" },
-      kingdom: { t: "Kingdom Wars", b: "ブラウザのターン制征服ストラテジー——月から火星、そして深宇宙へ。4言語のアーリーアクセス。" },
+      kingdom: { t: "Kingdom Wars", b: "ブラウザですぐ遊べるターン制征服ストラテジー。月の49セクターを奪い合います。連勝ボーナス、戦闘評価、戦利品ドロップつき。4言語で稼働中。" },
       miliverse: { t: "Milliverse", b: "現実の世界地図の上で戦うWeb3ストラテジー。タイルを買い、武器と兵士を配置し、他のプレイヤーと領土を奪い合います。4言語で稼働中、実際の天候と昼夜のデータが戦闘に反映されます。" }
     } },
     decks: { heading: "企画書", en: "English version", ko: "한국어 버전" },
@@ -501,7 +501,7 @@ const I18N = {
     songs: { heading: "En tu idioma", lead: "Tema musical y gameplay, grabados en las lenguas que hablan nuestros luchadores." },
     works: { heading: "Lo que hemos construido", lead: "Deother entrega. Tres productos, los tres en línea.", items: {
       fn: { t: "Fighting Nations", b: "Juego de lucha 3D a mano limpia. En desarrollo, jugable ya." },
-      kingdom: { t: "Kingdom Wars", b: "Conquista por turnos en el navegador: la Luna, luego Marte, luego el espacio profundo. Acceso anticipado en cuatro idiomas." },
+      kingdom: { t: "Kingdom Wars", b: "Conquista por turnos directamente en el navegador: 49 sectores en la Luna. Rachas de victorias, calificación de combate y botín. Disponible en cuatro idiomas." },
       miliverse: { t: "Milliverse", b: "Juego de estrategia Web3 sobre el mapa del mundo real. Compra casillas, despliega armas y tropas y disputa territorio a otros jugadores. Activo en cuatro idiomas, con clima real y ciclo día-noche influyendo en los combates." }
     } },
     decks: { heading: "Dossier", en: "English version", ko: "한국어 버전" },
@@ -592,7 +592,7 @@ const I18N = {
     songs: { heading: "Na tua língua", lead: "Tema musical e gameplay, gravados nas línguas que os nossos lutadores falam." },
     works: { heading: "O que construímos", lead: "A Deother entrega. Três produtos, todos no ar.", items: {
       fn: { t: "Fighting Nations", b: "Jogo de luta 3D de mãos livres. Em desenvolvimento, já jogável." },
-      kingdom: { t: "Kingdom Wars", b: "Conquista por turnos no navegador — a Lua, depois Marte, depois o espaço profundo. Acesso antecipado em quatro línguas." },
+      kingdom: { t: "Kingdom Wars", b: "Conquista por turnos diretamente no navegador: 49 setores na Lua. Sequências de vitórias, classificação de combate e loot. Disponível em quatro línguas." },
       miliverse: { t: "Milliverse", b: "Jogo de estratégia Web3 sobre o mapa do mundo real. Compra tiles, coloca armas e tropas e disputa território com outros jogadores. Ativo em quatro línguas, com clima real e ciclo dia-noite a influenciar os combates." }
     } },
     decks: { heading: "Apresentação", en: "English version", ko: "한국어 버전" },
@@ -683,7 +683,7 @@ const I18N = {
     songs: { heading: "Dans votre langue", lead: "Thème musical et séquences de jeu, enregistrés dans les langues que parlent nos combattants." },
     works: { heading: "Ce que nous avons construit", lead: "Deother livre. Trois produits, tous en ligne.", items: {
       fn: { t: "Fighting Nations", b: "Jeu de combat 3D à mains nues. En développement, jouable dès maintenant." },
-      kingdom: { t: "Kingdom Wars", b: "Conquête au tour par tour dans le navigateur — la Lune, puis Mars, puis l'espace lointain. Accès anticipé en quatre langues." },
+      kingdom: { t: "Kingdom Wars", b: "Conquête au tour par tour directement dans le navigateur : 49 secteurs sur la Lune. Séries de victoires, notes de combat et butin. Disponible en quatre langues." },
       miliverse: { t: "Milliverse", b: "Jeu de stratégie Web3 sur la carte du monde réel. Achetez des tuiles, déployez armes et troupes, disputez le territoire aux autres joueurs. En ligne en quatre langues, avec météo réelle et cycle jour-nuit qui pèsent sur les combats." }
     } },
     decks: { heading: "Dossier de présentation", en: "English version", ko: "한국어 버전" },
@@ -774,7 +774,7 @@ const I18N = {
     songs: { heading: "In deiner Sprache", lead: "Titelsong und Spielszenen, aufgenommen in den Sprachen unserer Kämpfer." },
     works: { heading: "Was wir gebaut haben", lead: "Deother liefert. Drei Produkte, alle online.", items: {
       fn: { t: "Fighting Nations", b: "3D-Kampfspiel mit bloßen Händen. In Entwicklung, jetzt spielbar." },
-      kingdom: { t: "Kingdom Wars", b: "Rundenbasierte Eroberung im Browser — Mond, dann Mars, dann Tiefraum. Early Access in vier Sprachen." },
+      kingdom: { t: "Kingdom Wars", b: "Rundenbasierte Eroberung direkt im Browser: 49 Sektoren auf dem Mond. Siegesserien, Kampfwertungen und Beute. In vier Sprachen verfügbar." },
       miliverse: { t: "Milliverse", b: "Web3-Strategiespiel auf der echten Weltkarte. Kacheln kaufen, Waffen und Truppen stationieren, mit anderen Spielern um Gebiete kämpfen. In vier Sprachen live, echtes Wetter und Tag-Nacht-Daten fließen in die Kämpfe ein." }
     } },
     decks: { heading: "Pitch Deck", en: "English version", ko: "한국어 버전" },
@@ -865,7 +865,7 @@ const I18N = {
     songs: { heading: "На вашем языке", lead: "Заглавная тема и игровой процесс, записанные на языках наших бойцов." },
     works: { heading: "Что мы построили", lead: "Deother доводит до релиза. Три продукта, все работают.", items: {
       fn: { t: "Fighting Nations", b: "3D-файтинг без оружия. В разработке, играть можно уже сейчас." },
-      kingdom: { t: "Kingdom Wars", b: "Пошаговая стратегия в браузере — Луна, затем Марс, затем дальний космос. Ранний доступ на четырёх языках." },
+      kingdom: { t: "Kingdom Wars", b: "Пошаговая стратегия прямо в браузере: 49 секторов на Луне. Серии побед, оценки боя и трофеи. Доступна на четырёх языках." },
       miliverse: { t: "Milliverse", b: "Web3-стратегия на настоящей карте мира. Покупайте тайлы, размещайте оружие и войска, отбивайте территорию у других игроков. Работает на четырёх языках, реальная погода и смена дня и ночи влияют на бой." }
     } },
     decks: { heading: "Презентация", en: "English version", ko: "한국어 버전" },
@@ -956,7 +956,7 @@ const I18N = {
     songs: { heading: "بلغتك", lead: "أغنية الشارة ولقطات من اللعب، مسجّلة بلغات مقاتلينا." },
     works: { heading: "ما بنيناه", lead: "‏Deother تُنجز وتُطلق. ثلاثة منتجات، جميعها تعمل.", items: {
       fn: { t: "Fighting Nations", b: "لعبة قتال ثلاثية الأبعاد بالأيدي المجردة. قيد التطوير وقابلة للعب الآن." },
-      kingdom: { t: "Kingdom Wars", b: "استراتيجية غزو بالأدوار عبر المتصفح — القمر ثم المريخ ثم الفضاء العميق. وصول مبكر بأربع لغات." },
+      kingdom: { t: "Kingdom Wars", b: "استراتيجية غزو بالأدوار تُلعب من المتصفح مباشرة: 49 قطاعًا على القمر. سلاسل انتصارات وتقييمات للمعارك وغنائم. متاحة بأربع لغات." },
       miliverse: { t: "Milliverse", b: "لعبة استراتيجية Web3 على خريطة العالم الحقيقية. اشترِ المربّعات وانشر الأسلحة والجنود ونازع اللاعبين الآخرين على الأرض. تعمل بأربع لغات، وبيانات الطقس الحقيقي والليل والنهار تؤثر في المعارك." }
     } },
     decks: { heading: "ملف العرض", en: "English version", ko: "한국어 버전" },
