@@ -187,8 +187,8 @@ section.alt { background: var(--bg-2); }
   text-transform: uppercase; margin-bottom: 10px;
 }
 .card.work .work-logo {
-  display: block; width: 56px; height: auto; margin-bottom: 16px;
-  opacity: .92; transition: .2s;
+  display: block; width: 78px; height: auto; margin-bottom: 16px;
+  opacity: .95; transition: .2s;
 }
 .card.work:hover .work-logo { opacity: 1; transform: scale(1.06); }
 .work-title { text-decoration: none; }
@@ -273,8 +273,18 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
 }
 
 @media (max-width: 760px) {
-  nav { display: none; }             /* 모바일에선 메뉴를 숨기고 언어 버튼만 남긴다 */
+  /* 예전엔 메뉴를 통째로 숨겼는데, 그러면 모바일에서 섹션 이동을 아예 못 한다.
+     대신 두 줄로 나누고 메뉴는 가로로 밀어서 보게 한다. */
+  .bar { flex-wrap: wrap; height: auto; padding-block: 12px; row-gap: 10px; }
   .lang { margin-inline-start: auto; }
+  nav {
+    order: 3; width: 100%; margin-inline-start: 0;
+    gap: 18px; overflow-x: auto; padding-bottom: 4px;
+    scrollbar-width: none;              /* 스크롤바는 숨기고 손가락으로만 민다 */
+  }
+  nav::-webkit-scrollbar { display: none; }
+  nav a { white-space: nowrap; font-size: 13px; }
+
   .step, .event { grid-template-columns: 1fr; gap: 8px; }
   .tagline { max-width: none; }
 }
