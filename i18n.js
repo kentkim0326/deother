@@ -44,7 +44,7 @@ const I18N = {
     hero: {
       studio: "Deother Co., Ltd. — IP-based game studio",
       title: "Fighting Nations",
-      tagline: "No guns. No blades. Bare-handed martial arts only — starting 1v1, built toward 2v2 team battle royale.",
+      tagline: "No guns. No blades. Bare-handed martial arts only — starting 1v1, built toward a 64-fighter martial arts battle royale.",
       cta: "Play the build",
       ctaSub: "Free · Windows · 4.2 GB"
     },
@@ -78,7 +78,7 @@ const I18N = {
       heading: "What makes it different",
       items: [
         { t: "No weapons, ever", b: "Muay Thai, Taekwondo, kung fu, judo, Pencak Silat and more — twelve styles and growing. Weapons stay out, partly by design and partly because parents shouldn't have to worry." },
-        { t: "Team play, not just duels", b: "It begins 1v1 with two gamepads on one screen. Multiplayer is in testing now. Then 2v2 — and the goal is a full martial arts battle royale." },
+        { t: "Team play, not just duels", b: "It begins 1v1 with two gamepads on one screen. Multiplayer is in testing now. Then 2v2, larger teams — and a 64-fighter battle royale as the destination." },
         { t: "Skills are the item, not just skins", b: "You buy and deepen martial arts styles themselves, not only cosmetics. Free to play, with progression that means something." },
         { t: "Your country's martial art", b: "Every fighter carries a nation and its fighting tradition. Characters from 13 countries speak their own language, so players hear themselves in the game. Character models are being rebuilt with MetaHuman." }
       ]
@@ -93,7 +93,8 @@ const I18N = {
         { d: "October 2025", t: "Rebuilt in Unreal Engine — multiplayer needed it" },
         { d: "31 October 2025", t: "Gyeonggi Content Agency Game Connect — one of 10 studios pitching to VCs" },
         { d: "29 November 2025", t: "Chung-Ang University indie game showcase" },
-        { d: "31 December 2025", t: "Submitted to NC Soft's 2nd VARCO Game Contest" }
+        { d: "31 December 2025", t: "Submitted to NC Soft's 2nd VARCO Game Contest" },
+        { d: "16 January 2026", t: "Entered NEOWIZ Quest, a narrative indie game competition with a ₩165M prize pool" }
       ]
     },
     roadmap: {
@@ -102,7 +103,7 @@ const I18N = {
         { date: "15 August 2026", title: "GWB Game Awards", body: "Submission to Tencent's international indie competition." },
         { date: "2026", title: "Steam & Epic Games Store", body: "PC release as the first commercial step, with MetaHuman characters replacing placeholder models." },
         { date: "Next", title: "Xbox console", body: "Bringing Fighting Nations to Microsoft's ID@Xbox programme." },
-        { date: "The goal", title: "Martial arts battle royale", body: "1v1 today. 2v2 next. Then N-vs-N, and finally a hundred fighters in one arena with nothing but their hands." }
+        { date: "The goal", title: "Martial arts battle royale", body: "1v1 today. 2v2 next. Then larger team modes — and finally a 64-fighter bracket in one arena, nothing but bare hands. Sixty-four is not an arbitrary number: it is a tournament bracket, and this game came from a tournament." }
       ]
     },
     team: {
@@ -130,7 +131,7 @@ const I18N = {
     hero: {
       studio: "주식회사 디아더 — IP 기반 게임 스튜디오",
       title: "Fighting Nations",
-      tagline: "총·칼 없이 오직 맨손 무술로. 1:1에서 시작해 2:2 팀 배틀로얄을 지향합니다.",
+      tagline: "총·칼 없이 오직 맨손 무술로. 1:1에서 시작해 64인 무술 배틀로얄을 지향합니다.",
       cta: "빌드 플레이하기",
       ctaSub: "무료 · Windows · 4.2 GB"
     },
@@ -164,7 +165,7 @@ const I18N = {
       heading: "이 게임만의 것",
       items: [
         { t: "무기는 없습니다", b: "무에타이, 태권도, 쿵푸, 유도, 펜짝 실랏 — 12가지 무술에서 계속 늘려갑니다. 무기를 빼는 건 설계이기도 하고, 부모가 걱정하지 않아도 되게 하려는 것이기도 합니다." },
-        { t: "1:1을 넘어 팀전으로", b: "지금은 게임패드 두 개로 한 화면에서 1:1입니다. 멀티플레이어는 테스트 중입니다. 다음이 2:2이고, 목표는 무술 배틀로얄입니다." },
+        { t: "1:1을 넘어 팀전으로", b: "지금은 게임패드 두 개로 한 화면에서 1:1입니다. 멀티플레이어는 테스트 중입니다. 다음이 2:2, 그다음 팀 규모 확대 — 종착점은 64인 무술 배틀로얄입니다." },
         { t: "스킨이 아니라 기술을 삽니다", b: "외형만이 아니라 무술 스킬 자체를 구매하고 키웁니다. 무료 게임이되, 성장에 의미가 있습니다." },
         { t: "당신 나라의 무술", b: "각 파이터는 한 나라와 그 나라의 무술을 대표합니다. 13개국 캐릭터가 각자의 모국어로 말합니다 — 인도, 중국, 파키스탄, 미국, 영국, 브라질, 러시아, 태국, 인도네시아, 나이지리아, 한국, 일본. 캐릭터 모델은 메타휴먼으로 다시 만들고 있습니다." }
       ]
@@ -179,7 +180,8 @@ const I18N = {
         { d: "2025년 10월", t: "언리얼 엔진으로 재제작 — 멀티플레이어에는 언리얼이 필요했습니다" },
         { d: "2025년 10월 31일", t: "경기콘텐츠진흥원 게임 커넥트 — 10개사 중 하나로 선발, VC 대상 피칭" },
         { d: "2025년 11월 29일", t: "중앙대학교 인디게임 부스 전시" },
-        { d: "2025년 12월 31일", t: "NC소프트 제2회 바르코 게임 공모전 접수" }
+        { d: "2025년 12월 31일", t: "NC소프트 제2회 바르코 게임 공모전 접수" },
+        { d: "2026년 1월 16일", t: "네오위즈 퀘스트 내러티브 인디게임 공모전 접수 (총 상금 1억 6,500만원)" }
       ]
     },
     roadmap: {
@@ -188,7 +190,7 @@ const I18N = {
         { date: "2026년 8월 15일", title: "GWB 게임 어워드", body: "텐센트가 주최하는 국제 인디 게임 대회에 출품합니다." },
         { date: "2026년", title: "스팀 · 에픽 게임즈 스토어", body: "PC 출시가 첫 상업적 단계입니다. 임시 모델을 메타휴먼으로 교체해 나갑니다." },
         { date: "다음 단계", title: "엑스박스 콘솔", body: "마이크로소프트 ID@Xbox 프로그램을 통해 콘솔로 갑니다." },
-        { date: "목표", title: "무술 배틀로얄", body: "지금은 1:1. 다음은 2:2. 그다음 N:N, 그리고 마지막에는 맨손 100명이 한 경기장에." }
+        { date: "목표", title: "무술 배틀로얄", body: "지금은 1:1. 다음은 2:2. 그다음 팀 규모를 키우고, 마지막에는 맨손 64명이 한 경기장에. 64는 임의의 숫자가 아닙니다 — 토너먼트 대진표이고, 이 게임은 대회에서 시작됐습니다." }
       ]
     },
     team: {
@@ -216,7 +218,7 @@ const I18N = {
     hero: {
       studio: "Deother 有限公司 — 以 IP 为核心的游戏工作室",
       title: "Fighting Nations",
-      tagline: "没有枪，没有刀，只有赤手空拳的武术。从 1v1 起步，走向 2v2 团队大逃杀。",
+      tagline: "没有枪，没有刀，只有赤手空拳的武术。从 1v1 起步，走向 64 人武术大逃杀。",
       cta: "开始试玩", ctaSub: "免费 · Windows · 4.2 GB"
     },
     why: {
@@ -263,7 +265,8 @@ const I18N = {
         { d: "2025 年 10 月", t: "改用虚幻引擎重做——联机需要它" },
         { d: "2025 年 10 月 31 日", t: "京畿内容振兴院 Game Connect——十家之一，向 VC 路演" },
         { d: "2025 年 11 月 29 日", t: "中央大学独立游戏展出" },
-        { d: "2025 年 12 月 31 日", t: "报名 NC Soft 第二届 VARCO 游戏大赛" }
+        { d: "2025 年 12 月 31 日", t: "报名 NC Soft 第二届 VARCO 游戏大赛" },
+        { d: "2026 年 1 月 16 日", t: "报名 NEOWIZ Quest 叙事独立游戏大赛（总奖金 1.65 亿韩元）" }
       ]
     },
     roadmap: {
@@ -272,7 +275,7 @@ const I18N = {
         { date: "2026 年 8 月 15 日", title: "GWB 游戏大奖", body: "参加腾讯主办的国际独立游戏大赛。" },
         { date: "2026 年", title: "Steam 与 Epic 商店", body: "PC 发行是第一个商业步骤，并以 MetaHuman 替换临时模型。" },
         { date: "下一步", title: "Xbox 主机", body: "通过微软 ID@Xbox 计划登陆主机。" },
-        { date: "终点", title: "武术大逃杀", body: "今天是 1v1，接着 2v2，然后 N 对 N，最终一百名格斗家赤手同场。" }
+        { date: "终点", title: "武术大逃杀", body: "今天是 1v1，接着 2v2，随后扩大团队规模，最终 64 人赤手同场。64 并非随意选定——那是一张淘汰赛对阵表，而这款游戏正源自一场大赛。" }
       ]
     },
     team: {
@@ -299,7 +302,7 @@ const I18N = {
     hero: {
       studio: "株式会社ディアザー — IP発のゲームスタジオ",
       title: "Fighting Nations",
-      tagline: "銃も刀もなし。素手の武術だけ。1対1から始め、2対2のチーム・バトルロイヤルを目指します。",
+      tagline: "銃も刀もなし。素手の武術だけ。1対1から始め、64人の武術バトルロイヤルを目指します。",
       cta: "ビルドをプレイ", ctaSub: "無料 · Windows · 4.2 GB"
     },
     why: {
@@ -346,7 +349,8 @@ const I18N = {
         { d: "2025年10月", t: "Unreal Engineで作り直し——マルチプレイに必要でした" },
         { d: "2025年10月31日", t: "京畿コンテンツ振興院 Game Connect——10社の一つとしてVCへピッチ" },
         { d: "2025年11月29日", t: "中央大学インディーゲーム展示" },
-        { d: "2025年12月31日", t: "NCソフト第2回VARCOゲームコンテストに応募" }
+        { d: "2025年12月31日", t: "NCソフト第2回VARCOゲームコンテストに応募" },
+        { d: "2026年1月16日", t: "ネオウィズ・クエスト（ナラティブ系インディーゲームコンペ、賞金総額1億6500万ウォン）に応募" }
       ]
     },
     roadmap: {
@@ -355,7 +359,7 @@ const I18N = {
         { date: "2026年8月15日", title: "GWB ゲームアワード", body: "テンセント主催の国際インディーコンペに応募します。" },
         { date: "2026年", title: "Steam と Epic Games Store", body: "PC版が最初の商用ステップ。仮モデルをMetaHumanへ置き換えていきます。" },
         { date: "次の一歩", title: "Xbox コンソール", body: "マイクロソフトのID@Xboxプログラムを通じてコンソールへ。" },
-        { date: "目標", title: "武術バトルロイヤル", body: "今は1対1。次に2対2。そしてN対N、最後は素手の百人が一つのアリーナに。" }
+        { date: "目標", title: "武術バトルロイヤル", body: "今は1対1。次に2対2。さらにチーム規模を広げ、最後は素手の64人が一つのアリーナに。64は適当な数字ではありません——トーナメント表であり、この作品は大会から生まれました。" }
       ]
     },
     team: {
@@ -382,7 +386,7 @@ const I18N = {
     hero: {
       studio: "Deother Co., Ltd. — estudio de juegos basado en IP",
       title: "Fighting Nations",
-      tagline: "Sin armas de fuego ni cuchillas. Solo artes marciales a mano limpia: empieza en 1v1, apunta al battle royale por equipos 2v2.",
+      tagline: "Sin armas de fuego ni cuchillas. Solo artes marciales a mano limpia: empieza en 1v1, apunta a un battle royale de 64 luchadores.",
       cta: "Jugar la versión", ctaSub: "Gratis · Windows · 4,2 GB"
     },
     why: {
@@ -429,7 +433,8 @@ const I18N = {
         { d: "Octubre 2025", t: "Reconstruido en Unreal Engine: el multijugador lo exigía" },
         { d: "31 octubre 2025", t: "Gyeonggi Content Agency Game Connect: uno de 10 estudios presentando ante VC" },
         { d: "29 noviembre 2025", t: "Muestra de juegos indie en la Universidad Chung-Ang" },
-        { d: "31 diciembre 2025", t: "Presentado al 2.º Concurso VARCO de NC Soft" }
+        { d: "31 diciembre 2025", t: "Presentado al 2.º Concurso VARCO de NC Soft" },
+        { d: "16 enero 2026", t: "Presentado a NEOWIZ Quest, concurso de juegos indie narrativos (bolsa de 165 millones de wones)" }
       ]
     },
     roadmap: {
@@ -438,7 +443,7 @@ const I18N = {
         { date: "15 agosto 2026", title: "GWB Game Awards", body: "Candidatura al concurso internacional indie de Tencent." },
         { date: "2026", title: "Steam y Epic Games Store", body: "El lanzamiento en PC es el primer paso comercial, sustituyendo los modelos provisionales por MetaHumans." },
         { date: "Después", title: "Consola Xbox", body: "Llevar el juego al programa ID@Xbox de Microsoft." },
-        { date: "La meta", title: "Battle royale de artes marciales", body: "Hoy 1v1. Luego 2v2. Después N contra N y, al final, cien luchadores en una arena sin nada más que sus manos." }
+        { date: "La meta", title: "Battle royale de artes marciales", body: "Hoy 1v1. Luego 2v2. Después modos por equipos más grandes y, al final, un cuadro de 64 luchadores en una arena, solo con las manos. El 64 no es arbitrario: es un cuadro de torneo, y este juego nació de un torneo." }
       ]
     },
     team: {
@@ -465,7 +470,7 @@ const I18N = {
     hero: {
       studio: "Deother Co., Ltd. — estúdio de jogos baseado em IP",
       title: "Fighting Nations",
-      tagline: "Sem armas de fogo nem lâminas. Só artes marciais de mãos livres: começa em 1v1 e caminha para o battle royale por equipas 2v2.",
+      tagline: "Sem armas de fogo nem lâminas. Só artes marciais de mãos livres: começa em 1v1 e caminha para um battle royale de 64 lutadores.",
       cta: "Jogar a versão", ctaSub: "Grátis · Windows · 4,2 GB"
     },
     why: {
@@ -512,7 +517,8 @@ const I18N = {
         { d: "Outubro 2025", t: "Reconstruído em Unreal Engine — o multijogador exigia-o" },
         { d: "31 outubro 2025", t: "Gyeonggi Content Agency Game Connect — um de 10 estúdios a apresentar a VC" },
         { d: "29 novembro 2025", t: "Mostra de jogos indie na Universidade Chung-Ang" },
-        { d: "31 dezembro 2025", t: "Inscrito no 2.º Concurso VARCO da NC Soft" }
+        { d: "31 dezembro 2025", t: "Inscrito no 2.º Concurso VARCO da NC Soft" },
+        { d: "16 janeiro 2026", t: "Inscrito no NEOWIZ Quest, concurso de jogos indie narrativos (prémios de 165 milhões de wones)" }
       ]
     },
     roadmap: {
@@ -521,7 +527,7 @@ const I18N = {
         { date: "15 agosto 2026", title: "GWB Game Awards", body: "Candidatura ao concurso internacional de jogos indie da Tencent." },
         { date: "2026", title: "Steam e Epic Games Store", body: "O lançamento em PC é o primeiro passo comercial, com MetaHumans a substituir os modelos provisórios." },
         { date: "A seguir", title: "Consola Xbox", body: "Levar o jogo ao programa ID@Xbox da Microsoft." },
-        { date: "O objetivo", title: "Battle royale de artes marciais", body: "Hoje 1v1. Depois 2v2. A seguir N contra N e, por fim, cem lutadores numa arena apenas com as mãos." }
+        { date: "O objetivo", title: "Battle royale de artes marciais", body: "Hoje 1v1. Depois 2v2. A seguir modos de equipa maiores e, por fim, um quadro de 64 lutadores numa arena, só com as mãos. O 64 não é arbitrário: é um quadro de torneio, e este jogo nasceu de um torneio." }
       ]
     },
     team: {
@@ -548,7 +554,7 @@ const I18N = {
     hero: {
       studio: "Deother Co., Ltd. — studio de jeux fondé sur ses IP",
       title: "Fighting Nations",
-      tagline: "Ni armes à feu ni lames. Uniquement les arts martiaux à mains nues : du 1v1 aujourd'hui vers un battle royale en équipe 2v2.",
+      tagline: "Ni armes à feu ni lames. Uniquement les arts martiaux à mains nues : du 1v1 aujourd'hui vers un battle royale à 64 combattants.",
       cta: "Jouer la version", ctaSub: "Gratuit · Windows · 4,2 Go"
     },
     why: {
@@ -595,7 +601,8 @@ const I18N = {
         { d: "Octobre 2025", t: "Reconstruit sous Unreal Engine — le multijoueur l'imposait" },
         { d: "31 octobre 2025", t: "Gyeonggi Content Agency Game Connect — l'un des 10 studios présentés aux investisseurs" },
         { d: "29 novembre 2025", t: "Exposition de jeux indépendants à l'université Chung-Ang" },
-        { d: "31 décembre 2025", t: "Candidature au 2e concours VARCO de NC Soft" }
+        { d: "31 décembre 2025", t: "Candidature au 2e concours VARCO de NC Soft" },
+        { d: "16 janvier 2026", t: "Candidature à NEOWIZ Quest, concours de jeux indépendants narratifs (165 M₩ de dotation)" }
       ]
     },
     roadmap: {
@@ -604,7 +611,7 @@ const I18N = {
         { date: "15 août 2026", title: "GWB Game Awards", body: "Candidature au concours international de jeux indépendants de Tencent." },
         { date: "2026", title: "Steam et Epic Games Store", body: "La sortie PC est la première étape commerciale, avec des MetaHumans à la place des modèles provisoires." },
         { date: "Ensuite", title: "Console Xbox", body: "Amener le jeu vers le programme ID@Xbox de Microsoft." },
-        { date: "L'objectif", title: "Battle royale d'arts martiaux", body: "1v1 aujourd'hui. 2v2 ensuite. Puis du N contre N, et enfin cent combattants dans une même arène, à mains nues." }
+        { date: "L'objectif", title: "Battle royale d'arts martiaux", body: "1v1 aujourd'hui. 2v2 ensuite. Puis des modes d'équipe plus larges, et enfin un tableau de 64 combattants dans une même arène, à mains nues. Soixante-quatre n'est pas un chiffre au hasard : c'est un tableau de tournoi, et ce jeu est né d'un tournoi." }
       ]
     },
     team: {
@@ -631,7 +638,7 @@ const I18N = {
     hero: {
       studio: "Deother Co., Ltd. — IP-basiertes Spielestudio",
       title: "Fighting Nations",
-      tagline: "Keine Schusswaffen, keine Klingen. Nur Kampfkunst mit bloßen Händen — Start bei 1v1, Ziel ist die 2v2-Team-Battle-Royale.",
+      tagline: "Keine Schusswaffen, keine Klingen. Nur Kampfkunst mit bloßen Händen — Start bei 1v1, Ziel ist eine Battle Royale mit 64 Kämpfern.",
       cta: "Build spielen", ctaSub: "Kostenlos · Windows · 4,2 GB"
     },
     why: {
@@ -678,7 +685,8 @@ const I18N = {
         { d: "Oktober 2025", t: "Neu gebaut in der Unreal Engine — der Multiplayer verlangte es" },
         { d: "31. Oktober 2025", t: "Gyeonggi Content Agency Game Connect — eines von 10 Studios im VC-Pitch" },
         { d: "29. November 2025", t: "Indie-Game-Ausstellung an der Chung-Ang-Universität" },
-        { d: "31. Dezember 2025", t: "Einreichung beim 2. VARCO Game Contest von NC Soft" }
+        { d: "31. Dezember 2025", t: "Einreichung beim 2. VARCO Game Contest von NC Soft" },
+        { d: "16. Januar 2026", t: "Teilnahme an NEOWIZ Quest, einem Wettbewerb für narrative Indie-Spiele (165 Mio. ₩ Preisgeld)" }
       ]
     },
     roadmap: {
@@ -687,7 +695,7 @@ const I18N = {
         { date: "15. August 2026", title: "GWB Game Awards", body: "Einreichung beim internationalen Indie-Wettbewerb von Tencent." },
         { date: "2026", title: "Steam und Epic Games Store", body: "Der PC-Release ist der erste kommerzielle Schritt; MetaHumans ersetzen die Platzhaltermodelle." },
         { date: "Als Nächstes", title: "Xbox-Konsole", body: "Über Microsofts ID@Xbox-Programm auf die Konsole." },
-        { date: "Das Ziel", title: "Kampfkunst-Battle-Royale", body: "Heute 1v1. Dann 2v2. Danach N gegen N — und am Ende hundert Kämpfer in einer Arena, nur mit den Händen." }
+        { date: "Das Ziel", title: "Kampfkunst-Battle-Royale", body: "Heute 1v1. Dann 2v2. Danach größere Teammodi — und am Ende ein Feld von 64 Kämpfern in einer Arena, nur mit bloßen Händen. 64 ist keine willkürliche Zahl: Es ist ein Turnierbaum, und dieses Spiel stammt aus einem Turnier." }
       ]
     },
     team: {
@@ -714,7 +722,7 @@ const I18N = {
     hero: {
       studio: "Deother Co., Ltd. — студия, растущая из собственных IP",
       title: "Fighting Nations",
-      tagline: "Ни огнестрела, ни клинков. Только боевые искусства голыми руками — начинаем с 1 на 1, идём к командной королевской битве 2 на 2.",
+      tagline: "Ни огнестрела, ни клинков. Только боевые искусства голыми руками — начинаем с 1 на 1, идём к королевской битве на 64 бойца.",
       cta: "Сыграть в сборку", ctaSub: "Бесплатно · Windows · 4,2 ГБ"
     },
     why: {
@@ -761,7 +769,8 @@ const I18N = {
         { d: "Октябрь 2025", t: "Пересобрано на Unreal Engine — этого требовал сетевой режим" },
         { d: "31 октября 2025", t: "Gyeonggi Content Agency Game Connect — одна из 10 студий с питчем перед инвесторами" },
         { d: "29 ноября 2025", t: "Выставка инди-игр в Университете Чунг-Ан" },
-        { d: "31 декабря 2025", t: "Заявка на 2-й конкурс VARCO от NC Soft" }
+        { d: "31 декабря 2025", t: "Заявка на 2-й конкурс VARCO от NC Soft" },
+        { d: "16 января 2026", t: "Заявка на NEOWIZ Quest — конкурс нарративных инди-игр с призовым фондом 165 млн вон" }
       ]
     },
     roadmap: {
@@ -770,7 +779,7 @@ const I18N = {
         { date: "15 августа 2026", title: "GWB Game Awards", body: "Заявка на международный конкурс инди-игр от Tencent." },
         { date: "2026", title: "Steam и Epic Games Store", body: "Релиз на PC — первый коммерческий шаг; временные модели заменяются MetaHuman." },
         { date: "Далее", title: "Консоль Xbox", body: "Выход на консоль через программу Microsoft ID@Xbox." },
-        { date: "Цель", title: "Королевская битва боевых искусств", body: "Сегодня 1 на 1. Затем 2 на 2. Потом N на N — и в итоге сто бойцов на одной арене, только руками." }
+        { date: "Цель", title: "Королевская битва боевых искусств", body: "Сегодня 1 на 1. Затем 2 на 2. Потом более крупные командные режимы — и в итоге сетка из 64 бойцов на одной арене, только голыми руками. 64 — не случайное число: это турнирная сетка, а игра выросла из турнира." }
       ]
     },
     team: {
@@ -797,7 +806,7 @@ const I18N = {
     hero: {
       studio: "شركة Deother — استوديو ألعاب قائم على ملكيته الفكرية",
       title: "Fighting Nations",
-      tagline: "لا أسلحة نارية ولا نصال. فنون قتالية بالأيدي المجردة فقط — نبدأ بمواجهة فردية ونتجه إلى باتل رويال جماعي 2 ضد 2.",
+      tagline: "لا أسلحة نارية ولا نصال. فنون قتالية بالأيدي المجردة فقط — نبدأ بمواجهة فردية ونتجه إلى باتل رويال بـ64 مقاتلًا.",
       cta: "جرّب النسخة", ctaSub: "مجاني · ويندوز · 4.2 غيغابايت"
     },
     why: {
@@ -844,7 +853,8 @@ const I18N = {
         { d: "أكتوبر 2025", t: "أُعيد بناؤها على Unreal Engine — اللعب الشبكي تطلّب ذلك" },
         { d: "‏31 أكتوبر 2025", t: "‏Gyeonggi Content Agency Game Connect — أحد 10 استوديوهات قدّمت عرضًا للمستثمرين" },
         { d: "‏29 نوفمبر 2025", t: "عرض ألعاب مستقلة في جامعة تشونغ-آنغ" },
-        { d: "‏31 ديسمبر 2025", t: "التقديم لمسابقة VARCO الثانية من NC Soft" }
+        { d: "‏31 ديسمبر 2025", t: "التقديم لمسابقة VARCO الثانية من NC Soft" },
+        { d: "‏16 يناير 2026", t: "المشاركة في NEOWIZ Quest لألعاب الإندي السردية (مجموع الجوائز 165 مليون وون)" }
       ]
     },
     roadmap: {
@@ -853,7 +863,7 @@ const I18N = {
         { date: "‏15 أغسطس 2026", title: "جوائز GWB", body: "المشاركة في مسابقة Tencent الدولية للألعاب المستقلة." },
         { date: "‏2026", title: "‏Steam و Epic Games Store", body: "إصدار الحاسب هو الخطوة التجارية الأولى، مع استبدال النماذج المؤقتة بشخصيات MetaHuman." },
         { date: "الخطوة التالية", title: "منصة Xbox", body: "الوصول إلى المنصات المنزلية عبر برنامج ID@Xbox من مايكروسوفت." },
-        { date: "الهدف", title: "باتل رويال للفنون القتالية", body: "اليوم واحد ضد واحد. ثم 2 ضد 2. ثم جماعي ضد جماعي، وأخيرًا مئة مقاتل في حلبة واحدة بأيديهم فقط." }
+        { date: "الهدف", title: "باتل رويال للفنون القتالية", body: "اليوم واحد ضد واحد. ثم 2 ضد 2. ثم أطوار جماعية أكبر، وأخيرًا 64 مقاتلًا في حلبة واحدة بأيديهم المجردة. والرقم 64 ليس اعتباطيًا: إنه جدول بطولة، وهذه اللعبة وُلدت من بطولة." }
       ]
     },
     team: {
