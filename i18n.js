@@ -8,6 +8,7 @@ const LINKS = {
   deckEn: "https://gamma.app/docs/1020-English-Version-t5roxmlyf9rfi4c",
   deckKo: "https://gamma.app/docs/1020--aavkhdyq423puwv",
   facebook: "https://www.facebook.com/deotherme",
+  youtube: "https://www.youtube.com/channel/UCQaEcI1xWOg_tvTqZBYBbGw",
   mail:   "mailto:kentkim@gmail.com"
 };
 
@@ -21,13 +22,14 @@ const FN_SLIDES = [];
 const KW_SLIDES = [];
 
 const WORKS = [
-  { key: "fn",       url: LINKS.itch,                            tag: "2026" },
+  { key: "fn",       url: LINKS.itch,                            tag: "2026",
+    sns:  { label: "YouTube", url: "https://www.youtube.com/channel/UCQaEcI1xWOg_tvTqZBYBbGw" } },
   { key: "kingdom",  url: "https://kingdom-wars-puce.vercel.app", tag: "2026",
     logo: "assets/kingdom-wars-logo.png",
-    fb:   "https://www.facebook.com/profile.php?id=61591748124601" },
+    sns:  { label: "Facebook", url: "https://www.facebook.com/profile.php?id=61591748124601" } },
   { key: "miliverse",url: "https://miliverse-ten.vercel.app",     tag: "2022 · 2026",
     logo: "assets/miliverse-logo.png",
-    fb:   "https://www.facebook.com/miliverse2022" }
+    sns:  { label: "Facebook", url: "https://www.facebook.com/miliverse2022" } }
 ];
 
 // 개발 연표 영상 — 오래된 것부터. 제목은 영어 그대로 둔다(유튜브 원제와 맞추기 위해).

@@ -155,10 +155,10 @@ function render(code) {
     h.append(link);
     card.append(h, el("p", null, it.b));
 
-    if (w.fb) {
-      const fb = el("a", "work-sns", "Facebook →");
-      fb.href = w.fb; fb.target = "_blank"; fb.rel = "noopener";
-      card.append(fb);
+    if (w.sns) {
+      const s = el("a", "work-sns", w.sns.label + " →");
+      s.href = w.sns.url; s.target = "_blank"; s.rel = "noopener";
+      card.append(s);
     }
     return card;
   }));
@@ -175,6 +175,7 @@ function render(code) {
   // --- 푸터 ---
   const contact = document.getElementById("ftContact");
   contact.href = LINKS.mail; contact.textContent = t.footer.contact;
+  document.getElementById("ftYouTube").href = LINKS.youtube;
   document.getElementById("ftFacebook").href = LINKS.facebook;
   document.getElementById("ftItch").href = LINKS.itch;
   set("ftRights", `© ${new Date().getFullYear()} ${t.footer.studio}. ${t.footer.rights}`);
