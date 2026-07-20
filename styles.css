@@ -413,3 +413,8 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
   background: rgba(0,0,0,.66); color: #fff; font-size: 13px; line-height: 1;
   border: 1px solid rgba(255,255,255,.35); transition: background .2s ease; }
 .cover-play:hover .play { background: var(--accent); }
+
+/* 상세 페이지 소개 영상 — 슬라이드쇼 바로 위 */
+.page-video { margin: 40px 0 0; }
+.page-video .video-frame { border-radius: 12px; overflow: hidden; border: 1px solid var(--line); }
+.page-video figcaption { margin-top: 12px; text-align: center; color: var(--muted); font-size: 14px; }

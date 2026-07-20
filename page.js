@@ -42,6 +42,24 @@ function pRender(code) {
   pSlideCaps = t.slides || [];
   pShowCap();
 
+  // 소개 영상 — 자막이 언어를 타므로 언어를 바꿀 때마다 설명을 다시 쓴다
+  const vid = (typeof PAGE_VIDEOS !== "undefined") ? PAGE_VIDEOS[game] : null;
+  const vbox = document.getElementById("pVideo");
+  if (vbox && vid && vid.id) {
+    vbox.hidden = false;
+    const frame = document.getElementById("pVideoFrame");
+    if (!frame.firstChild) {
+      const f = document.createElement("iframe");
+      f.src = `https://www.youtube-nocookie.com/embed/${vid.id}`;   // 재생 전에는 추적 쿠키를 심지 않는다
+      f.loading = "lazy";
+      f.allow = "accelerometer; clipboard-write; encrypted-media; picture-in-picture";
+      f.allowFullscreen = true;
+      frame.append(f);
+    }
+    frame.firstChild.title = vid[code] || vid.en;
+    document.getElementById("pVideoCap").textContent = vid[code] || vid.en;
+  }
+
   const cta = document.getElementById("pCta");
   cta.textContent = t.cta;
   const back = document.getElementById("pBack");
