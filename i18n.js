@@ -1,0 +1,876 @@
+// i18n.js — Deother 사이트 번역
+// 언어 10종. 아랍어는 RTL이라 app.js 가 <html dir> 을 바꾼다.
+// 문구를 고칠 때는 en 을 먼저 고치고 나머지를 맞추면 어긋나지 않는다.
+
+const LINKS = {
+  itch:   "https://deother.itch.io/fighting-nations",
+  novel:  "https://www.amazon.com/SERAPHIM-Awakening-Dragon-Kent-Kim/dp/B0F98RTPT2",
+  deckEn: "https://gamma.app/docs/1020-English-Version-t5roxmlyf9rfi4c",
+  deckKo: "https://gamma.app/docs/1020--aavkhdyq423puwv",
+  facebook: "https://www.facebook.com/deotherme",
+  mail:   "mailto:kentkim@gmail.com"
+};
+
+// 개발 연표 영상 — 오래된 것부터. 제목은 영어 그대로 둔다(유튜브 원제와 맞추기 위해).
+// 날짜는 대표가 확인해 준 것만 적는다. 모르면 연도만.
+const VIDEOS = [
+  { id: "35SYlb3f-wA", date: "2025.08.21", label: "Seoul Game Contest entry" },
+  { id: "d5Vo8WA1MRY", date: "2025.09.28", label: "Development build" },
+  { id: "1yXVirlS2fU", date: "2025",       label: "17th Unity Awards 2025 entry" },
+  { id: "2RJnU9BWHpY", date: "2025.10.31", label: "Gyeonggi Game Connect — pitch to 14 investors" },
+  { id: "wWYc2a0v0Ys", date: "2025.11",    label: "First Unreal Engine build" },
+  { id: "gnJP_zJFMhY", date: "2025",       label: "Making 3D characters — VARCO AI + Mixamo" },
+  { id: "QqSZydGkVe8", date: "2025.12.31", label: "NC Soft 2nd VARCO AI Game Contest" },
+  { id: "uUvsWr6_JwI", date: "2025.12.31", label: "Opening movie" }
+];
+
+// 언어별 주제가 + 게임플레이 — 라벨은 각 언어의 자기 이름이라 번역이 필요 없다.
+const LANG_VIDEOS = [
+  { id: "Jz87ihIc9UA", label: "日本語" },
+  { id: "TvWAlwjtuBk", label: "中文" },
+  { id: "8K2EA5uU2Xg", label: "हिन्दी" },
+  { id: "Q_gbdZXAv4U", label: "العربية" },
+  { id: "kdkLUdXFbkM", label: "Tiếng Việt" },
+  { id: "Dkm8JAM4jDw", label: "Español" },
+  { id: "6aXEb-0DTsY", label: "Français" },
+  { id: "6cmH_kNbEnQ", label: "Deutsch" },
+  { id: "DCXYcc31pQU", label: "Svenska" }
+];
+
+const I18N = {
+  en: {
+    name: "English", dir: "ltr",
+    nav: { why: "Why", world: "World", features: "Game", journey: "Journey", roadmap: "Roadmap", team: "Team" },
+    hero: {
+      studio: "Deother Co., Ltd. — IP-based game studio",
+      title: "Fighting Nations",
+      tagline: "No guns. No blades. Bare-handed martial arts only — starting 1v1, built toward 2v2 team battle royale.",
+      cta: "Play the build",
+      ctaSub: "Free · Windows · 4.2 GB"
+    },
+    why: {
+      heading: "The gap nobody filled",
+      lead: "Fighting games stayed locked in 1v1. Battle royales drowned in guns.",
+      body: [
+        "Street Fighter, Tekken, Mortal Kombat — decades of brilliance, all inside the same 1v1 frame, all asking you to memorize combos before you're allowed to have fun. Meanwhile Fortnite and PUBG built enormous worlds around weapon spam.",
+        "Nobody built the thing in between: a team fight with no weapons at all. Just bodies, distance, timing, and what you actually know how to do.",
+        "Humans have always been drawn to a fight — Bruce Lee, Mike Tyson, WWE, UFC are the proof. Fighting Nations takes that instinct and removes the two barriers: the weapons, and the combo homework."
+      ]
+    },
+    origin: {
+      heading: "Why I started this",
+      body: [
+        "I trained for over twenty-three years — Teukgong Musul, Haidong Gumdo, Japanese kendo, judo, boxing, Muay Thai, and Shaolin kung fu in New York. I hit the heavy bag until the cartilage went. I can't train hard anymore.",
+        "So I played Tekken. I've played fighting games my whole life — FPS games make me motion sick, so it was only ever this genre. And then the balance broke, and kept breaking, until matches stopped feeling like skill.",
+        "One day I thought: I'll make it myself. Not a game where one nation's fighters are quietly the strongest, and not a game you need a wiki to enter. Balance first. No absurd combo chains. And as many of the world's real martial traditions as I can fit — Pencak Silat from Indonesia is already in."
+      ]
+    },
+    world: {
+      heading: "From a novel I wrote",
+      body: [
+        "In 2033 an alien vessel crashes into the Gobi Desert carrying 144,000 androids and 32 giant robots — machines that, it turns out, the archangels of scripture once piloted. The Seraphim.",
+        "In 2077 Shanghai, an international martial arts tournament is held to choose their pilots: 200 nations, one man and one woman each, four hundred fighters for thirty-two seats. The AI aboard the ship declares itself the Second Coming and sets humanity against itself without spilling a drop of its own blood. Whether it truly is what it claims — the book leaves that open.",
+        "Fighting Nations is that tournament, lifted out of the novel and made playable."
+      ],
+      cta: "Read the novel on Amazon"
+    },
+    features: {
+      heading: "What makes it different",
+      items: [
+        { t: "No weapons, ever", b: "Muay Thai, Taekwondo, kung fu, judo, Pencak Silat and more — twelve styles and growing. Weapons stay out, partly by design and partly because parents shouldn't have to worry." },
+        { t: "Team play, not just duels", b: "It begins 1v1 with two gamepads on one screen. Multiplayer is in testing now. Then 2v2 — and the goal is a full martial arts battle royale." },
+        { t: "Skills are the item, not just skins", b: "You buy and deepen martial arts styles themselves, not only cosmetics. Free to play, with progression that means something." },
+        { t: "Your country's martial art", b: "Every fighter carries a nation and its fighting tradition. Characters from 13 countries speak their own language, so players hear themselves in the game. Character models are being rebuilt with MetaHuman." }
+      ]
+    },
+    journey: {
+      heading: "How it has grown",
+      lead: "Built in the open, one show at a time.",
+      videos: { gameplay: "Gameplay footage", trailer: "Trailer", pitch: "VC pitch — Gyeonggi Game Connect" },
+      events: [
+        { d: "Summer 2025", t: "Unity prototype" },
+        { d: "October 2025", t: "Thailand Game Show — one of 16 Korean studios, Megazone Cloud sponsored booth. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came to the booth." },
+        { d: "October 2025", t: "Rebuilt in Unreal Engine — multiplayer needed it" },
+        { d: "31 October 2025", t: "Gyeonggi Content Agency Game Connect — one of 10 studios pitching to VCs" },
+        { d: "29 November 2025", t: "Chung-Ang University indie game showcase" },
+        { d: "31 December 2025", t: "Submitted to NC Soft's 2nd VARCO Game Contest" }
+      ]
+    },
+    roadmap: {
+      heading: "Where it goes",
+      items: [
+        { date: "15 August 2026", title: "GWB Game Awards", body: "Submission to Tencent's international indie competition." },
+        { date: "2026", title: "Steam & Epic Games Store", body: "PC release as the first commercial step, with MetaHuman characters replacing placeholder models." },
+        { date: "Next", title: "Xbox console", body: "Bringing Fighting Nations to Microsoft's ID@Xbox programme." },
+        { date: "The goal", title: "Martial arts battle royale", body: "1v1 today. 2v2 next. Then N-vs-N, and finally a hundred fighters in one arena with nothing but their hands." }
+      ]
+    },
+    team: {
+      heading: "Who makes it",
+      name: "Kent Kim (김형섭)", role: "Founder · Creative Director",
+      bullets: [
+        "Harvard, Economics — emigrated to the US in 1989, admitted in three and a half years",
+        "20 books published in Korea and the US · 407 songs released on Spotify since 2012",
+        "23+ years of martial arts: judo, boxing, Hapkido, Haidong Gumdo, Muay Thai, Taekwondo, Shaolin kung fu",
+        "Author of SERAPHIM: The Awakening of Iron Dragon, the novel this game comes from",
+        "Two metaverse platforms launched in 2022 and shut down in 2023 — the lesson: without an end goal, people don't stay. Games have one.",
+        "Tokyo Game Show since 2019 · Evo Japan 2020 and a visit to SoftBank's Tokyo headquarters · meeting with SoftBank executives in 2022",
+        "Booths at Gamescom 2022 (Germany), Tokyo Game Show 2022, CES 2023 (Las Vegas) · Busan G-Star every year since 2019"
+      ],
+      partners: "Working with developers in India and Thailand, including a Thai studio whose veterans built Diablo II, World of Warcraft and StarCraft."
+    },
+    songs: { heading: "In your language", lead: "Theme song and gameplay, recorded in the languages our fighters speak." },
+    decks: { heading: "Pitch deck", en: "English version", ko: "한국어 버전" },
+    footer: { studio: "Deother Co., Ltd.", contact: "Contact", rights: "All rights reserved." }
+  },
+
+  ko: {
+    name: "한국어", dir: "ltr",
+    nav: { why: "기획의도", world: "세계관", features: "게임", journey: "여정", roadmap: "로드맵", team: "팀" },
+    hero: {
+      studio: "주식회사 디아더 — IP 기반 게임 스튜디오",
+      title: "Fighting Nations",
+      tagline: "총·칼 없이 오직 맨손 무술로. 1:1에서 시작해 2:2 팀 배틀로얄을 지향합니다.",
+      cta: "빌드 플레이하기",
+      ctaSub: "무료 · Windows · 4.2 GB"
+    },
+    why: {
+      heading: "아무도 채우지 않은 공백",
+      lead: "격투 게임은 1:1에 갇혔고, 배틀로얄은 총으로 포화됐습니다.",
+      body: [
+        "스트리트 파이터, 철권, 모탈컴뱃 — 수십 년의 명작들이 모두 같은 1:1 틀 안에 있고, 재미를 보기 전에 콤보부터 외우라고 요구합니다. 그사이 포트나이트와 배틀그라운드는 총기 중심으로 거대한 시장을 만들었습니다.",
+        "그 사이의 것을 만든 사람이 없었습니다. 무기가 하나도 없는 팀 격투. 몸과 거리와 타이밍, 그리고 실제로 할 줄 아는 것만 남는 싸움입니다.",
+        "인류는 언제나 싸움에 끌렸습니다 — 이소룡, 마이크 타이슨, WWE, UFC가 그 증거입니다. Fighting Nations는 그 본능을 가져오되 두 가지 장벽을 걷어냅니다. 무기, 그리고 콤보 암기입니다."
+      ]
+    },
+    origin: {
+      heading: "왜 시작했나",
+      body: [
+        "23년 넘게 무술을 했습니다. 특공무술, 해동검도, 일본검도, 유도, 복싱, 무에타이, 그리고 뉴욕에서 소림권까지. 샌드백을 너무 쳐서 연골이 깨졌습니다. 이제는 과한 무술을 못 합니다.",
+        "그래서 철권을 했습니다. 어릴 때부터 격투게임만 해왔습니다 — FPS는 멀미가 나서 이 장르밖에 없었습니다. 그런데 밸런스가 깨지고, 계속 깨지고, 어느 순간 실력으로 이기는 느낌이 사라졌습니다.",
+        "어느 날 생각했습니다. 직접 만들자. 특정 국가의 캐릭터만 조용히 강한 게임 말고, 위키를 봐야 들어갈 수 있는 게임 말고. 밸런스가 먼저입니다. 지나친 콤보는 지양합니다. 그리고 전 세계의 실제 무술을 최대한 많이 담습니다 — 인도네시아의 펜짝 실랏은 이미 들어가 있습니다."
+      ]
+    },
+    world: {
+      heading: "직접 쓴 소설에서",
+      body: [
+        "2033년, 고비사막에 불시착한 외계선에서 14만 4천 기의 안드로이드와 32기의 거대 로봇이 발견됩니다. 알고 보니 성경 속 천사들 — 세라핌이 타던 기체였습니다.",
+        "2077년 상해. 그 조종사를 뽑기 위한 국제 무술대회가 열립니다. 200개국에서 남녀 한 명씩, 400명이 32자리를 두고 겨룹니다. 외계선의 AI는 스스로를 예수 재림이라 선언하며, 제 손에 피 한 방울 묻히지 않고 인류가 서로 싸우게 만듭니다. 그 AI가 정말로 그 존재인지는 — 소설은 열어둡니다.",
+        "Fighting Nations는 그 대회를 소설에서 떼어내 플레이할 수 있게 만든 것입니다."
+      ],
+      cta: "아마존에서 소설 보기"
+    },
+    features: {
+      heading: "이 게임만의 것",
+      items: [
+        { t: "무기는 없습니다", b: "무에타이, 태권도, 쿵푸, 유도, 펜짝 실랏 — 12가지 무술에서 계속 늘려갑니다. 무기를 빼는 건 설계이기도 하고, 부모가 걱정하지 않아도 되게 하려는 것이기도 합니다." },
+        { t: "1:1을 넘어 팀전으로", b: "지금은 게임패드 두 개로 한 화면에서 1:1입니다. 멀티플레이어는 테스트 중입니다. 다음이 2:2이고, 목표는 무술 배틀로얄입니다." },
+        { t: "스킨이 아니라 기술을 삽니다", b: "외형만이 아니라 무술 스킬 자체를 구매하고 키웁니다. 무료 게임이되, 성장에 의미가 있습니다." },
+        { t: "당신 나라의 무술", b: "각 파이터는 한 나라와 그 나라의 무술을 대표합니다. 13개국 캐릭터가 각자의 모국어로 말합니다 — 인도, 중국, 파키스탄, 미국, 영국, 브라질, 러시아, 태국, 인도네시아, 나이지리아, 한국, 일본. 캐릭터 모델은 메타휴먼으로 다시 만들고 있습니다." }
+      ]
+    },
+    journey: {
+      heading: "어떻게 발전해왔나",
+      lead: "공개된 자리에서, 한 걸음씩.",
+      videos: { gameplay: "실제 게임 영상", trailer: "트레일러", pitch: "VC 피칭 — 경기 게임 커넥트" },
+      events: [
+        { d: "2025년 여름", t: "유니티로 프로토타입 제작" },
+        { d: "2025년 10월", t: "태국 게임쇼 — 16개 한국 게임사 중 하나로 선발, 메가존 클라우드 후원 한국관 부스. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다." },
+        { d: "2025년 10월", t: "언리얼 엔진으로 재제작 — 멀티플레이어에는 언리얼이 필요했습니다" },
+        { d: "2025년 10월 31일", t: "경기콘텐츠진흥원 게임 커넥트 — 10개사 중 하나로 선발, VC 대상 피칭" },
+        { d: "2025년 11월 29일", t: "중앙대학교 인디게임 부스 전시" },
+        { d: "2025년 12월 31일", t: "NC소프트 제2회 바르코 게임 공모전 접수" }
+      ]
+    },
+    roadmap: {
+      heading: "앞으로",
+      items: [
+        { date: "2026년 8월 15일", title: "GWB 게임 어워드", body: "텐센트가 주최하는 국제 인디 게임 대회에 출품합니다." },
+        { date: "2026년", title: "스팀 · 에픽 게임즈 스토어", body: "PC 출시가 첫 상업적 단계입니다. 임시 모델을 메타휴먼으로 교체해 나갑니다." },
+        { date: "다음 단계", title: "엑스박스 콘솔", body: "마이크로소프트 ID@Xbox 프로그램을 통해 콘솔로 갑니다." },
+        { date: "목표", title: "무술 배틀로얄", body: "지금은 1:1. 다음은 2:2. 그다음 N:N, 그리고 마지막에는 맨손 100명이 한 경기장에." }
+      ]
+    },
+    team: {
+      heading: "만드는 사람",
+      name: "김형섭 (Kent Kim)", role: "대표 · 크리에이티브 디렉터",
+      bullets: [
+        "하버드 경제학과 — 1989년 미국 이민, 3년 반 만에 합격",
+        "한국·미국에서 20권 출간 · 2012년부터 스포티파이에 407곡 발매",
+        "23년 이상 무술 수련: 유도, 복싱, 합기도, 해동검도, 무에타이, 태권도, 소림권",
+        "이 게임의 원작 소설 『SERAPHIM: The Awakening of Iron Dragon』 저자",
+        "2022년 메타버스 플랫폼 2개 런칭, 2023년 종료 — 배운 것: 엔드골이 없으면 사람이 남지 않는다. 게임에는 그것이 있다.",
+        "2019년부터 도쿄 게임쇼 참관 · 2020년 Evo Japan 방문 및 소프트뱅크 도쿄 본사 방문 · 2022년 소프트뱅크 임원 미팅",
+        "게임스컴 2022(독일), 도쿄 게임쇼 2022, CES 2023(라스베가스) 부스 운영 · 2019년부터 매년 부산 지스타 참가"
+      ],
+      partners: "인도·태국 개발자들과 함께 일하고 있습니다. 그중 태국 스튜디오에는 디아블로 2, 월드 오브 워크래프트, 스타크래프트를 만든 개발자들이 있습니다."
+    },
+    songs: { heading: "당신의 언어로", lead: "파이터들이 쓰는 언어로 녹음한 주제가와 게임플레이." },
+    decks: { heading: "발표 자료", en: "English version", ko: "한국어 버전" },
+    footer: { studio: "주식회사 디아더", contact: "문의", rights: "All rights reserved." }
+  },
+
+  zh: {
+    name: "中文", dir: "ltr",
+    nav: { why: "初衷", world: "世界观", features: "游戏", journey: "历程", roadmap: "规划", team: "团队" },
+    hero: {
+      studio: "Deother 有限公司 — 以 IP 为核心的游戏工作室",
+      title: "Fighting Nations",
+      tagline: "没有枪，没有刀，只有赤手空拳的武术。从 1v1 起步，走向 2v2 团队大逃杀。",
+      cta: "开始试玩", ctaSub: "免费 · Windows · 4.2 GB"
+    },
+    why: {
+      heading: "无人填补的空白",
+      lead: "格斗游戏困在 1v1，大逃杀被枪械淹没。",
+      body: [
+        "街霸、铁拳、真人快打——几十年的杰作，却都在同一个 1v1 框架里，都要求你先背熟连招才准享受乐趣。与此同时，堡垒之夜和 PUBG 围绕枪械建起了庞大的市场。",
+        "没有人做出中间那款：完全不用武器的团队格斗。只剩身体、距离、时机，以及你真正会的东西。",
+        "人类始终被格斗吸引——李小龙、泰森、WWE、UFC 就是证明。Fighting Nations 保留这份本能，去掉两道门槛：武器，以及背连招的功课。"
+      ]
+    },
+    origin: {
+      heading: "我为什么开始做这个",
+      body: [
+        "我练了二十三年以上——特功武术、海东剑道、日本剑道、柔道、拳击、泰拳，还有在纽约学的少林拳。沙袋打得太多，软骨坏了。现在已经不能大强度训练。",
+        "于是我玩铁拳。我一辈子只玩格斗游戏——FPS 会让我晕，所以只剩这个类型。可是平衡崩了，一次又一次，直到胜负不再像是靠实力。",
+        "有一天我想：那就自己做。不做某个国家的角色悄悄最强的游戏，也不做非得查攻略才能入门的游戏。平衡优先，不搞过分的连段。并尽可能收录世界各地真实的武术——印尼的班卡苏拉已经加入。"
+      ]
+    },
+    world: {
+      heading: "源自我写的小说",
+      body: [
+        "2033 年，一艘外星飞船坠入戈壁沙漠，载着 144,000 具仿生人和 32 台巨型机器人——原来那正是经书中天使们曾驾驭的机体：炽天使。",
+        "2077 年的上海，为挑选驾驶员举办了国际武术大赛：200 个国家各出一男一女，四百名格斗家争夺三十二个席位。飞船上的 AI 自称救世主再临，不沾自己一滴血，却让人类彼此厮杀。它是否真如其所言——小说留下开放结局。",
+        "Fighting Nations 就是把那场大赛从小说中取出，做成可以玩的游戏。"
+      ],
+      cta: "在亚马逊阅读小说"
+    },
+    features: {
+      heading: "与众不同之处",
+      items: [
+        { t: "永远没有武器", b: "泰拳、跆拳道、功夫、柔道、班卡苏拉——十二种流派并持续增加。不放武器，一半是设计考量，一半是不想让家长担心。" },
+        { t: "不止决斗，更是团队", b: "现在是两个手柄、一块屏幕的 1v1。联机正在测试。接下来是 2v2——目标是完整的武术大逃杀。" },
+        { t: "买的是招式，不只是皮肤", b: "你购买并精进的是武术流派本身，而不只是外观。免费游玩，但成长有意义。" },
+        { t: "属于你国家的武术", b: "每位格斗家都代表一个国家及其武术传统。13 个国家的角色以母语说话，让玩家在游戏里听见自己。角色模型正以 MetaHuman 重制。" }
+      ]
+    },
+    journey: {
+      heading: "一路走来", lead: "公开开发，一场展会接着一场。",
+      videos: { gameplay: "实机画面", trailer: "预告片", pitch: "VC 路演 — 京畿 Game Connect" },
+      events: [
+        { d: "2025 年夏", t: "以 Unity 完成原型" },
+        { d: "2025 年 10 月", t: "泰国游戏展——入选 16 家韩国工作室之一，Megazone Cloud 赞助展位。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商到访。" },
+        { d: "2025 年 10 月", t: "改用虚幻引擎重做——联机需要它" },
+        { d: "2025 年 10 月 31 日", t: "京畿内容振兴院 Game Connect——十家之一，向 VC 路演" },
+        { d: "2025 年 11 月 29 日", t: "中央大学独立游戏展出" },
+        { d: "2025 年 12 月 31 日", t: "报名 NC Soft 第二届 VARCO 游戏大赛" }
+      ]
+    },
+    roadmap: {
+      heading: "未来方向",
+      items: [
+        { date: "2026 年 8 月 15 日", title: "GWB 游戏大奖", body: "参加腾讯主办的国际独立游戏大赛。" },
+        { date: "2026 年", title: "Steam 与 Epic 商店", body: "PC 发行是第一个商业步骤，并以 MetaHuman 替换临时模型。" },
+        { date: "下一步", title: "Xbox 主机", body: "通过微软 ID@Xbox 计划登陆主机。" },
+        { date: "终点", title: "武术大逃杀", body: "今天是 1v1，接着 2v2，然后 N 对 N，最终一百名格斗家赤手同场。" }
+      ]
+    },
+    team: {
+      heading: "谁在做", name: "Kent Kim（金炯燮）", role: "创始人 · 创意总监",
+      bullets: [
+        "哈佛大学经济学系——1989 年移民美国，三年半后入学",
+        "在韩国与美国出版 20 本书 · 2012 年起在 Spotify 发行 407 首作品",
+        "23 年以上武术经历：柔道、拳击、合气道、海东剑道、泰拳、跆拳道、少林拳",
+        "本作原著小说《SERAPHIM: The Awakening of Iron Dragon》作者",
+        "2022 年推出两个元宇宙平台，2023 年关闭——教训是：没有终点目标，人就不会留下。游戏有。",
+        "2019 年起参观东京电玩展 · 2020 年出席 Evo Japan 并走访软银东京总部 · 2022 年与软银高管会面",
+        "德国 Gamescom 2022、东京电玩展 2022、美国 CES 2023 参展 · 2019 年起每年参加釜山 G-Star"
+      ],
+      partners: "与印度和泰国的开发者合作，其中泰国工作室的资深成员曾参与《暗黑破坏神 II》《魔兽世界》与《星际争霸》。"
+    },
+    songs: { heading: "用你的语言", lead: "主题曲与实机画面，以角色们所说的语言录制。" },
+    decks: { heading: "企划书", en: "English version", ko: "한국어 버전" },
+    footer: { studio: "Deother 有限公司", contact: "联系我们", rights: "版权所有。" }
+  },
+
+  ja: {
+    name: "日本語", dir: "ltr",
+    nav: { why: "企画意図", world: "世界観", features: "ゲーム", journey: "歩み", roadmap: "ロードマップ", team: "チーム" },
+    hero: {
+      studio: "株式会社ディアザー — IP発のゲームスタジオ",
+      title: "Fighting Nations",
+      tagline: "銃も刀もなし。素手の武術だけ。1対1から始め、2対2のチーム・バトルロイヤルを目指します。",
+      cta: "ビルドをプレイ", ctaSub: "無料 · Windows · 4.2 GB"
+    },
+    why: {
+      heading: "誰も埋めなかった隙間",
+      lead: "格闘ゲームは1対1に閉じ、バトルロイヤルは銃で飽和しました。",
+      body: [
+        "ストリートファイター、鉄拳、モータルコンバット——数十年の傑作がすべて同じ1対1の枠の中にあり、楽しむ前にコンボの暗記を求めます。その間にフォートナイトとPUBGは銃を軸に巨大な市場を築きました。",
+        "その中間を作った人はいませんでした。武器がまったくないチーム戦です。残るのは身体と間合いとタイミング、そして本当にできることだけ。",
+        "人はいつでも戦いに惹かれてきました——ブルース・リー、マイク・タイソン、WWE、UFCがその証です。Fighting Nationsはその本能を残し、二つの壁を取り除きます。武器と、コンボの宿題です。"
+      ]
+    },
+    origin: {
+      heading: "なぜ始めたのか",
+      body: [
+        "二十三年以上、武術を続けました。特攻武術、海東剣道、日本剣道、柔道、ボクシング、ムエタイ、そしてニューヨークで少林拳。サンドバッグを打ちすぎて軟骨が壊れました。もう激しい稽古はできません。",
+        "だから鉄拳をやりました。子どもの頃から格闘ゲームばかりです——FPSは酔うので、このジャンルしかありませんでした。ところがバランスが崩れ、崩れ続け、やがて勝敗が実力に見えなくなりました。",
+        "ある日思いました。自分で作ろう、と。特定の国のキャラだけが静かに強いゲームでもなく、攻略サイトがないと入れないゲームでもなく。まずバランス。過度なコンボはやめる。そして世界の実在する武術をできるだけ多く——インドネシアのプンチャック・シラットはすでに入っています。"
+      ]
+    },
+    world: {
+      heading: "自作の小説から",
+      body: [
+        "2033年、ゴビ砂漠に墜落した宇宙船から14万4千体のアンドロイドと32機の巨大ロボットが見つかります。それは聖書の天使たち——セラフィムが駆っていた機体でした。",
+        "2077年の上海。その操縦者を選ぶ国際武術大会が開かれます。200カ国から男女ひとりずつ、四百人が三十二の席を争います。船のAIは自らを再臨と宣言し、自分の手を汚さぬまま人類を争わせます。それが本当にそうなのか——小説は開いたままにしています。",
+        "Fighting Nationsは、その大会を小説から取り出して遊べるようにしたものです。"
+      ],
+      cta: "Amazonで小説を読む"
+    },
+    features: {
+      heading: "この作品だけのもの",
+      items: [
+        { t: "武器は出しません", b: "ムエタイ、テコンドー、カンフー、柔道、シラット——十二の流派から増やしていきます。武器を外すのは設計であり、保護者に心配をかけないためでもあります。" },
+        { t: "1対1の先へ、チーム戦へ", b: "今はゲームパッド二つ、一画面での1対1。オンラインはテスト中です。次が2対2、目標は武術バトルロイヤルです。" },
+        { t: "買うのはスキンでなく技", b: "見た目だけでなく武術スキルそのものを購入し、育てます。基本無料でも、成長に意味があります。" },
+        { t: "あなたの国の武術", b: "各ファイターは一つの国とその武術を背負います。13カ国のキャラクターがそれぞれの母語で話し、プレイヤーは自分の言葉をゲームの中で聞きます。キャラクターモデルはMetaHumanで作り直しています。" }
+      ]
+    },
+    journey: {
+      heading: "これまでの歩み", lead: "公開の場で、一歩ずつ。",
+      videos: { gameplay: "実機映像", trailer: "トレーラー", pitch: "VC ピッチ — 京畿 Game Connect" },
+      events: [
+        { d: "2025年夏", t: "Unityでプロトタイプ制作" },
+        { d: "2025年10月", t: "タイ・ゲームショウ——韓国16社の一つに選出、Megazone Cloud協賛ブース。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪。" },
+        { d: "2025年10月", t: "Unreal Engineで作り直し——マルチプレイに必要でした" },
+        { d: "2025年10月31日", t: "京畿コンテンツ振興院 Game Connect——10社の一つとしてVCへピッチ" },
+        { d: "2025年11月29日", t: "中央大学インディーゲーム展示" },
+        { d: "2025年12月31日", t: "NCソフト第2回VARCOゲームコンテストに応募" }
+      ]
+    },
+    roadmap: {
+      heading: "これから",
+      items: [
+        { date: "2026年8月15日", title: "GWB ゲームアワード", body: "テンセント主催の国際インディーコンペに応募します。" },
+        { date: "2026年", title: "Steam と Epic Games Store", body: "PC版が最初の商用ステップ。仮モデルをMetaHumanへ置き換えていきます。" },
+        { date: "次の一歩", title: "Xbox コンソール", body: "マイクロソフトのID@Xboxプログラムを通じてコンソールへ。" },
+        { date: "目標", title: "武術バトルロイヤル", body: "今は1対1。次に2対2。そしてN対N、最後は素手の百人が一つのアリーナに。" }
+      ]
+    },
+    team: {
+      heading: "作っている人", name: "Kent Kim（金炯燮）", role: "代表 · クリエイティブディレクター",
+      bullets: [
+        "ハーバード大学経済学部——1989年に渡米、3年半で合格",
+        "韓国と米国で20冊を出版 · 2012年からSpotifyに407曲を配信",
+        "23年以上の武術経験：柔道、ボクシング、合気道、海東剣道、ムエタイ、テコンドー、少林拳",
+        "本作の原作小説『SERAPHIM: The Awakening of Iron Dragon』著者",
+        "2022年にメタバース2件を立ち上げ2023年に終了——学び：終着点がなければ人は残らない。ゲームにはそれがある。",
+        "2019年から東京ゲームショウに参加 · 2020年 Evo Japan 参加とソフトバンク東京本社訪問 · 2022年ソフトバンク役員と面談",
+        "Gamescom 2022（ドイツ）、東京ゲームショウ 2022、CES 2023（ラスベガス）出展 · 2019年から毎年 釜山 G-Star に参加"
+      ],
+      partners: "インドとタイの開発者と組んでいます。タイのスタジオにはディアブロII、World of Warcraft、StarCraftを手がけた開発者がいます。"
+    },
+    songs: { heading: "あなたの言語で", lead: "ファイターたちが話す言語で録音した主題歌とゲームプレイ。" },
+    decks: { heading: "企画書", en: "English version", ko: "한국어 버전" },
+    footer: { studio: "株式会社ディアザー", contact: "お問い合わせ", rights: "All rights reserved." }
+  },
+
+  es: {
+    name: "Español", dir: "ltr",
+    nav: { why: "Motivación", world: "Universo", features: "Juego", journey: "Trayectoria", roadmap: "Hoja de ruta", team: "Equipo" },
+    hero: {
+      studio: "Deother Co., Ltd. — estudio de juegos basado en IP",
+      title: "Fighting Nations",
+      tagline: "Sin armas de fuego ni cuchillas. Solo artes marciales a mano limpia: empieza en 1v1, apunta al battle royale por equipos 2v2.",
+      cta: "Jugar la versión", ctaSub: "Gratis · Windows · 4,2 GB"
+    },
+    why: {
+      heading: "El hueco que nadie llenó",
+      lead: "Los juegos de lucha se quedaron en el 1v1. Los battle royale se ahogaron en armas.",
+      body: [
+        "Street Fighter, Tekken, Mortal Kombat: décadas de obras maestras, todas dentro del mismo marco 1v1, todas exigiendo memorizar combos antes de permitirte disfrutar. Mientras tanto, Fortnite y PUBG construyeron mercados enormes alrededor del tiroteo.",
+        "Nadie hizo lo que había en medio: un combate por equipos sin ninguna arma. Solo cuerpos, distancia, timing y lo que de verdad sabes hacer.",
+        "A los humanos siempre nos ha atraído una pelea: Bruce Lee, Mike Tyson, la WWE, la UFC son la prueba. Fighting Nations conserva ese instinto y elimina dos barreras: las armas y los deberes de combos."
+      ]
+    },
+    origin: {
+      heading: "Por qué empecé esto",
+      body: [
+        "Entrené más de veintitrés años: Teukgong Musul, Haidong Gumdo, kendo japonés, judo, boxeo, muay thai y kung-fu Shaolin en Nueva York. Golpeé el saco hasta que se me fue el cartílago. Ya no puedo entrenar fuerte.",
+        "Así que jugaba a Tekken. He jugado a juegos de lucha toda mi vida —los FPS me marean, así que solo existía este género—. Y entonces el equilibrio se rompió, y siguió rompiéndose, hasta que los combates dejaron de parecer cuestión de habilidad.",
+        "Un día pensé: lo haré yo. Ni un juego donde los luchadores de un país sean silenciosamente los más fuertes, ni un juego que necesite una wiki para entrar. Primero el equilibrio. Nada de cadenas de combos absurdas. Y tantas tradiciones marciales reales como quepan: el Pencak Silat de Indonesia ya está dentro."
+      ]
+    },
+    world: {
+      heading: "De una novela que escribí",
+      body: [
+        "En 2033 una nave alienígena se estrella en el desierto de Gobi con 144.000 androides y 32 robots gigantes: máquinas que, resulta, pilotaron los arcángeles de las escrituras. Los Serafines.",
+        "En el Shanghái de 2077 se celebra un torneo internacional de artes marciales para elegir a sus pilotos: 200 naciones, un hombre y una mujer por cada una, cuatrocientos luchadores para treinta y dos plazas. La IA de la nave se declara la Segunda Venida y enfrenta a la humanidad consigo misma sin derramar una gota de su propia sangre. Si de verdad es lo que dice ser, el libro lo deja abierto.",
+        "Fighting Nations es ese torneo, extraído de la novela y hecho jugable."
+      ],
+      cta: "Leer la novela en Amazon"
+    },
+    features: {
+      heading: "Lo que lo hace distinto",
+      items: [
+        { t: "Nunca hay armas", b: "Muay thai, taekwondo, kung-fu, judo, Pencak Silat y más: doce estilos y creciendo. Las armas quedan fuera, en parte por diseño y en parte para que los padres no tengan que preocuparse." },
+        { t: "Equipos, no solo duelos", b: "Empieza en 1v1 con dos mandos en una pantalla. El multijugador está en pruebas. Después 2v2, y la meta es un battle royale de artes marciales." },
+        { t: "La habilidad es el objeto, no solo la piel", b: "Compras y profundizas los propios estilos marciales, no solo cosméticos. Free to play, con una progresión que significa algo." },
+        { t: "El arte marcial de tu país", b: "Cada luchador lleva consigo una nación y su tradición marcial. Personajes de 13 países hablan su propio idioma, para que los jugadores se escuchen a sí mismos en el juego. Los modelos se están rehaciendo con MetaHuman." }
+      ]
+    },
+    journey: {
+      heading: "Cómo ha crecido", lead: "Desarrollado a la vista, feria a feria.",
+      videos: { gameplay: "Gameplay", trailer: "Tráiler", pitch: "Pitch a VC — Gyeonggi Game Connect" },
+      events: [
+        { d: "Verano 2025", t: "Prototipo en Unity" },
+        { d: "Octubre 2025", t: "Thailand Game Show: uno de los 16 estudios coreanos, stand patrocinado por Megazone Cloud. Visitaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán." },
+        { d: "Octubre 2025", t: "Reconstruido en Unreal Engine: el multijugador lo exigía" },
+        { d: "31 octubre 2025", t: "Gyeonggi Content Agency Game Connect: uno de 10 estudios presentando ante VC" },
+        { d: "29 noviembre 2025", t: "Muestra de juegos indie en la Universidad Chung-Ang" },
+        { d: "31 diciembre 2025", t: "Presentado al 2.º Concurso VARCO de NC Soft" }
+      ]
+    },
+    roadmap: {
+      heading: "Hacia dónde va",
+      items: [
+        { date: "15 agosto 2026", title: "GWB Game Awards", body: "Candidatura al concurso internacional indie de Tencent." },
+        { date: "2026", title: "Steam y Epic Games Store", body: "El lanzamiento en PC es el primer paso comercial, sustituyendo los modelos provisionales por MetaHumans." },
+        { date: "Después", title: "Consola Xbox", body: "Llevar el juego al programa ID@Xbox de Microsoft." },
+        { date: "La meta", title: "Battle royale de artes marciales", body: "Hoy 1v1. Luego 2v2. Después N contra N y, al final, cien luchadores en una arena sin nada más que sus manos." }
+      ]
+    },
+    team: {
+      heading: "Quién lo hace", name: "Kent Kim (김형섭)", role: "Fundador · Director creativo",
+      bullets: [
+        "Harvard, Economía: emigró a EE. UU. en 1989, admitido en tres años y medio",
+        "20 libros publicados en Corea y EE. UU. · 407 canciones en Spotify desde 2012",
+        "Más de 23 años de artes marciales: judo, boxeo, hapkido, Haidong Gumdo, muay thai, taekwondo, kung-fu Shaolin",
+        "Autor de SERAPHIM: The Awakening of Iron Dragon, la novela de la que nace este juego",
+        "Dos plataformas de metaverso lanzadas en 2022 y cerradas en 2023. La lección: sin una meta final, la gente no se queda. Los juegos la tienen.",
+        "Tokyo Game Show desde 2019 · Evo Japan 2020 y visita a la sede de SoftBank en Tokio · reunión con directivos de SoftBank en 2022",
+        "Stands en Gamescom 2022 (Alemania), Tokyo Game Show 2022 y CES 2023 (Las Vegas) · G-Star de Busan cada año desde 2019"
+      ],
+      partners: "Trabajamos con desarrolladores de India y Tailandia, incluido un estudio tailandés con veteranos de Diablo II, World of Warcraft y StarCraft."
+    },
+    songs: { heading: "En tu idioma", lead: "Tema musical y gameplay, grabados en las lenguas que hablan nuestros luchadores." },
+    decks: { heading: "Dossier", en: "English version", ko: "한국어 버전" },
+    footer: { studio: "Deother Co., Ltd.", contact: "Contacto", rights: "Todos los derechos reservados." }
+  },
+
+  pt: {
+    name: "Português", dir: "ltr",
+    nav: { why: "Motivação", world: "Universo", features: "Jogo", journey: "Trajetória", roadmap: "Planos", team: "Equipa" },
+    hero: {
+      studio: "Deother Co., Ltd. — estúdio de jogos baseado em IP",
+      title: "Fighting Nations",
+      tagline: "Sem armas de fogo nem lâminas. Só artes marciais de mãos livres: começa em 1v1 e caminha para o battle royale por equipas 2v2.",
+      cta: "Jogar a versão", ctaSub: "Grátis · Windows · 4,2 GB"
+    },
+    why: {
+      heading: "A lacuna que ninguém preencheu",
+      lead: "Os jogos de luta ficaram presos ao 1v1. Os battle royale afogaram-se em armas.",
+      body: [
+        "Street Fighter, Tekken, Mortal Kombat — décadas de obras-primas, todas dentro do mesmo enquadramento 1v1, todas a exigir que decore combos antes de poder divertir-se. Entretanto, Fortnite e PUBG construíram mercados enormes à volta do tiroteio.",
+        "Ninguém fez o que ficava no meio: um combate de equipa sem arma nenhuma. Só corpos, distância, tempo e aquilo que realmente sabe fazer.",
+        "O ser humano sempre foi atraído por uma luta — Bruce Lee, Mike Tyson, a WWE, o UFC são a prova. Fighting Nations mantém esse instinto e retira duas barreiras: as armas e o trabalho de casa dos combos."
+      ]
+    },
+    origin: {
+      heading: "Porque comecei isto",
+      body: [
+        "Treinei mais de vinte e três anos — Teukgong Musul, Haidong Gumdo, kendo japonês, judo, boxe, muay thai e kung fu Shaolin em Nova Iorque. Bati no saco até a cartilagem ceder. Já não consigo treinar a sério.",
+        "Por isso jogava Tekken. Joguei jogos de luta a vida toda — os FPS dão-me enjoo, portanto só existia este género. E então o equilíbrio quebrou-se, e continuou a quebrar-se, até os combates deixarem de parecer perícia.",
+        "Um dia pensei: faço eu. Não um jogo onde os lutadores de um país são discretamente os mais fortes, nem um jogo que exige uma wiki para entrar. Equilíbrio primeiro. Nada de cadeias de combos absurdas. E o máximo de tradições marciais reais que couberem — o Pencak Silat da Indonésia já lá está."
+      ]
+    },
+    world: {
+      heading: "De um romance que escrevi",
+      body: [
+        "Em 2033 uma nave alienígena cai no deserto de Gobi com 144.000 androides e 32 robôs gigantes — máquinas que, afinal, os arcanjos das escrituras pilotaram. Os Serafins.",
+        "Em Xangai, 2077, realiza-se um torneio internacional de artes marciais para escolher os pilotos: 200 nações, um homem e uma mulher cada, quatrocentos lutadores para trinta e dois lugares. A IA da nave declara-se a Segunda Vinda e põe a humanidade a lutar consigo mesma sem derramar uma gota do próprio sangue. Se é mesmo o que diz ser — o livro deixa em aberto.",
+        "Fighting Nations é esse torneio, retirado do romance e tornado jogável."
+      ],
+      cta: "Ler o romance na Amazon"
+    },
+    features: {
+      heading: "O que o distingue",
+      items: [
+        { t: "Nunca há armas", b: "Muay thai, taekwondo, kung fu, judo, Pencak Silat e mais — doze estilos e a crescer. As armas ficam de fora, em parte por desenho e em parte para os pais não terem de se preocupar." },
+        { t: "Equipas, não apenas duelos", b: "Começa em 1v1 com dois comandos num ecrã. O multijogador está em testes. Depois 2v2 — e o objetivo é um battle royale de artes marciais." },
+        { t: "Compram-se técnicas, não só skins", b: "Compra e aprofunda os próprios estilos marciais, não apenas cosméticos. Free to play, com uma progressão que significa alguma coisa." },
+        { t: "A arte marcial do teu país", b: "Cada lutador carrega uma nação e a sua tradição marcial. Personagens de 13 países falam a sua própria língua, para que os jogadores se ouçam no jogo. Os modelos estão a ser refeitos com MetaHuman." }
+      ]
+    },
+    journey: {
+      heading: "Como evoluiu", lead: "Desenvolvido à vista, feira a feira.",
+      videos: { gameplay: "Gameplay", trailer: "Trailer", pitch: "Pitch a VC — Gyeonggi Game Connect" },
+      events: [
+        { d: "Verão 2025", t: "Protótipo em Unity" },
+        { d: "Outubro 2025", t: "Thailand Game Show — um dos 16 estúdios coreanos, stand patrocinado pela Megazone Cloud. Visitaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan." },
+        { d: "Outubro 2025", t: "Reconstruído em Unreal Engine — o multijogador exigia-o" },
+        { d: "31 outubro 2025", t: "Gyeonggi Content Agency Game Connect — um de 10 estúdios a apresentar a VC" },
+        { d: "29 novembro 2025", t: "Mostra de jogos indie na Universidade Chung-Ang" },
+        { d: "31 dezembro 2025", t: "Inscrito no 2.º Concurso VARCO da NC Soft" }
+      ]
+    },
+    roadmap: {
+      heading: "Para onde vai",
+      items: [
+        { date: "15 agosto 2026", title: "GWB Game Awards", body: "Candidatura ao concurso internacional de jogos indie da Tencent." },
+        { date: "2026", title: "Steam e Epic Games Store", body: "O lançamento em PC é o primeiro passo comercial, com MetaHumans a substituir os modelos provisórios." },
+        { date: "A seguir", title: "Consola Xbox", body: "Levar o jogo ao programa ID@Xbox da Microsoft." },
+        { date: "O objetivo", title: "Battle royale de artes marciais", body: "Hoje 1v1. Depois 2v2. A seguir N contra N e, por fim, cem lutadores numa arena apenas com as mãos." }
+      ]
+    },
+    team: {
+      heading: "Quem o faz", name: "Kent Kim (김형섭)", role: "Fundador · Diretor criativo",
+      bullets: [
+        "Harvard, Economia — emigrou para os EUA em 1989, admitido em três anos e meio",
+        "20 livros publicados na Coreia e nos EUA · 407 músicas no Spotify desde 2012",
+        "Mais de 23 anos de artes marciais: judo, boxe, hapkido, Haidong Gumdo, muay thai, taekwondo, kung fu Shaolin",
+        "Autor de SERAPHIM: The Awakening of Iron Dragon, o romance que deu origem ao jogo",
+        "Duas plataformas de metaverso lançadas em 2022 e encerradas em 2023 — a lição: sem um objetivo final, as pessoas não ficam. Os jogos têm um.",
+        "Tokyo Game Show desde 2019 · Evo Japan 2020 e visita à sede da SoftBank em Tóquio · reunião com executivos da SoftBank em 2022",
+        "Stands na Gamescom 2022 (Alemanha), Tokyo Game Show 2022 e CES 2023 (Las Vegas) · G-Star de Busan todos os anos desde 2019"
+      ],
+      partners: "Trabalhamos com programadores da Índia e da Tailândia, incluindo um estúdio tailandês com veteranos de Diablo II, World of Warcraft e StarCraft."
+    },
+    songs: { heading: "Na tua língua", lead: "Tema musical e gameplay, gravados nas línguas que os nossos lutadores falam." },
+    decks: { heading: "Apresentação", en: "English version", ko: "한국어 버전" },
+    footer: { studio: "Deother Co., Ltd.", contact: "Contacto", rights: "Todos os direitos reservados." }
+  },
+
+  fr: {
+    name: "Français", dir: "ltr",
+    nav: { why: "Intention", world: "Univers", features: "Le jeu", journey: "Parcours", roadmap: "Feuille de route", team: "Équipe" },
+    hero: {
+      studio: "Deother Co., Ltd. — studio de jeux fondé sur ses IP",
+      title: "Fighting Nations",
+      tagline: "Ni armes à feu ni lames. Uniquement les arts martiaux à mains nues : du 1v1 aujourd'hui vers un battle royale en équipe 2v2.",
+      cta: "Jouer la version", ctaSub: "Gratuit · Windows · 4,2 Go"
+    },
+    why: {
+      heading: "Le vide que personne n'a comblé",
+      lead: "Les jeux de combat sont restés enfermés dans le 1v1. Les battle royale ont sombré dans les armes.",
+      body: [
+        "Street Fighter, Tekken, Mortal Kombat : des décennies de chefs-d'œuvre, tous dans le même cadre 1v1, tous exigeant d'apprendre des combos par cœur avant d'avoir le droit de s'amuser. Pendant ce temps, Fortnite et PUBG ont bâti des marchés immenses autour des armes à feu.",
+        "Personne n'a fait ce qui se trouvait entre les deux : un combat d'équipe sans la moindre arme. Restent les corps, la distance, le timing, et ce que l'on sait vraiment faire.",
+        "L'humain a toujours été attiré par le combat — Bruce Lee, Mike Tyson, la WWE, l'UFC en témoignent. Fighting Nations garde cet instinct et retire deux barrières : les armes et les devoirs de combos."
+      ]
+    },
+    origin: {
+      heading: "Pourquoi j'ai commencé",
+      body: [
+        "Je me suis entraîné plus de vingt-trois ans : Teukgong Musul, Haidong Gumdo, kendo japonais, judo, boxe, muay-thaï, et le kung-fu Shaolin à New York. J'ai frappé le sac jusqu'à ce que le cartilage lâche. Je ne peux plus m'entraîner dur.",
+        "Alors je jouais à Tekken. J'ai joué aux jeux de combat toute ma vie — les FPS me donnent le mal des transports, il ne restait que ce genre. Puis l'équilibrage s'est cassé, encore et encore, jusqu'à ce que les matchs ne ressemblent plus à de la maîtrise.",
+        "Un jour je me suis dit : je vais le faire moi-même. Pas un jeu où les combattants d'un pays sont discrètement les plus forts, ni un jeu où il faut un wiki pour entrer. L'équilibre d'abord. Pas d'enchaînements absurdes. Et autant de traditions martiales réelles que possible — le Pencak Silat indonésien est déjà là."
+      ]
+    },
+    world: {
+      heading: "Tiré d'un roman que j'ai écrit",
+      body: [
+        "En 2033, un vaisseau extraterrestre s'écrase dans le désert de Gobi avec 144 000 androïdes et 32 robots géants — des machines que, en réalité, les archanges des Écritures ont pilotées. Les Séraphins.",
+        "À Shanghai en 2077, un tournoi international d'arts martiaux désigne leurs pilotes : 200 nations, un homme et une femme chacune, quatre cents combattants pour trente-deux places. L'IA du vaisseau se proclame Second Avènement et dresse l'humanité contre elle-même sans verser une goutte de son propre sang. Est-elle vraiment ce qu'elle prétend ? Le livre laisse la question ouverte.",
+        "Fighting Nations, c'est ce tournoi, extrait du roman et rendu jouable."
+      ],
+      cta: "Lire le roman sur Amazon"
+    },
+    features: {
+      heading: "Ce qui le distingue",
+      items: [
+        { t: "Jamais d'armes", b: "Muay-thaï, taekwondo, kung-fu, judo, Pencak Silat et d'autres — douze styles, et la liste s'allonge. Les armes restent dehors, par choix de conception et pour que les parents n'aient pas à s'inquiéter." },
+        { t: "L'équipe, pas seulement le duel", b: "Cela commence en 1v1, deux manettes sur un écran. Le multijoueur est en test. Ensuite le 2v2 — et l'objectif est un battle royale d'arts martiaux." },
+        { t: "On achète des techniques, pas que des skins", b: "On achète et on approfondit les styles martiaux eux-mêmes, pas seulement l'apparence. Free to play, avec une progression qui a du sens." },
+        { t: "L'art martial de votre pays", b: "Chaque combattant porte une nation et sa tradition martiale. Les personnages de 13 pays parlent leur propre langue : les joueurs s'entendent dans le jeu. Les modèles sont refaits avec MetaHuman." }
+      ]
+    },
+    journey: {
+      heading: "Son évolution", lead: "Développé au grand jour, salon après salon.",
+      videos: { gameplay: "Séquences de jeu", trailer: "Bande-annonce", pitch: "Pitch investisseurs — Gyeonggi Game Connect" },
+      events: [
+        { d: "Été 2025", t: "Prototype sous Unity" },
+        { d: "Octobre 2025", t: "Thailand Game Show — l'un des 16 studios coréens, stand parrainé par Megazone Cloud. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont venus." },
+        { d: "Octobre 2025", t: "Reconstruit sous Unreal Engine — le multijoueur l'imposait" },
+        { d: "31 octobre 2025", t: "Gyeonggi Content Agency Game Connect — l'un des 10 studios présentés aux investisseurs" },
+        { d: "29 novembre 2025", t: "Exposition de jeux indépendants à l'université Chung-Ang" },
+        { d: "31 décembre 2025", t: "Candidature au 2e concours VARCO de NC Soft" }
+      ]
+    },
+    roadmap: {
+      heading: "La suite",
+      items: [
+        { date: "15 août 2026", title: "GWB Game Awards", body: "Candidature au concours international de jeux indépendants de Tencent." },
+        { date: "2026", title: "Steam et Epic Games Store", body: "La sortie PC est la première étape commerciale, avec des MetaHumans à la place des modèles provisoires." },
+        { date: "Ensuite", title: "Console Xbox", body: "Amener le jeu vers le programme ID@Xbox de Microsoft." },
+        { date: "L'objectif", title: "Battle royale d'arts martiaux", body: "1v1 aujourd'hui. 2v2 ensuite. Puis du N contre N, et enfin cent combattants dans une même arène, à mains nues." }
+      ]
+    },
+    team: {
+      heading: "Qui le fabrique", name: "Kent Kim (김형섭)", role: "Fondateur · Directeur créatif",
+      bullets: [
+        "Harvard, économie — émigré aux États-Unis en 1989, admis en trois ans et demi",
+        "20 livres publiés en Corée et aux États-Unis · 407 titres sur Spotify depuis 2012",
+        "Plus de 23 ans d'arts martiaux : judo, boxe, hapkido, Haidong Gumdo, muay-thaï, taekwondo, kung-fu Shaolin",
+        "Auteur de SERAPHIM: The Awakening of Iron Dragon, le roman dont vient ce jeu",
+        "Deux plateformes de métavers lancées en 2022 et fermées en 2023 — la leçon : sans objectif final, les gens ne restent pas. Les jeux en ont un.",
+        "Tokyo Game Show depuis 2019 · Evo Japan 2020 et visite du siège de SoftBank à Tokyo · rencontre avec des dirigeants de SoftBank en 2022",
+        "Stands à la Gamescom 2022 (Allemagne), au Tokyo Game Show 2022 et au CES 2023 (Las Vegas) · G-Star de Busan chaque année depuis 2019"
+      ],
+      partners: "Nous travaillons avec des développeurs en Inde et en Thaïlande, dont un studio thaïlandais réunissant des vétérans de Diablo II, World of Warcraft et StarCraft."
+    },
+    songs: { heading: "Dans votre langue", lead: "Thème musical et séquences de jeu, enregistrés dans les langues que parlent nos combattants." },
+    decks: { heading: "Dossier de présentation", en: "English version", ko: "한국어 버전" },
+    footer: { studio: "Deother Co., Ltd.", contact: "Contact", rights: "Tous droits réservés." }
+  },
+
+  de: {
+    name: "Deutsch", dir: "ltr",
+    nav: { why: "Warum", world: "Welt", features: "Das Spiel", journey: "Entwicklung", roadmap: "Roadmap", team: "Team" },
+    hero: {
+      studio: "Deother Co., Ltd. — IP-basiertes Spielestudio",
+      title: "Fighting Nations",
+      tagline: "Keine Schusswaffen, keine Klingen. Nur Kampfkunst mit bloßen Händen — Start bei 1v1, Ziel ist die 2v2-Team-Battle-Royale.",
+      cta: "Build spielen", ctaSub: "Kostenlos · Windows · 4,2 GB"
+    },
+    why: {
+      heading: "Die Lücke, die niemand füllte",
+      lead: "Prügelspiele blieben im 1v1 gefangen. Battle Royales ertranken in Waffen.",
+      body: [
+        "Street Fighter, Tekken, Mortal Kombat — Jahrzehnte großartiger Spiele, alle im selben 1v1-Rahmen, alle mit der Forderung, erst Combos auswendig zu lernen, bevor Spaß erlaubt ist. Derweil bauten Fortnite und PUBG riesige Märkte rund um Waffen.",
+        "Das Dazwischen hat niemand gebaut: ein Teamkampf ganz ohne Waffen. Übrig bleiben Körper, Distanz, Timing — und das, was man wirklich kann.",
+        "Menschen zog es immer zum Kampf — Bruce Lee, Mike Tyson, WWE, UFC sind der Beweis. Fighting Nations behält diesen Instinkt und entfernt zwei Hürden: die Waffen und die Combo-Hausaufgaben."
+      ]
+    },
+    origin: {
+      heading: "Warum ich damit angefangen habe",
+      body: [
+        "Ich habe über dreiundzwanzig Jahre trainiert — Teukgong Musul, Haidong Gumdo, japanisches Kendo, Judo, Boxen, Muay Thai und Shaolin-Kung-Fu in New York. Ich habe den Sandsack geschlagen, bis der Knorpel hin war. Hartes Training geht nicht mehr.",
+        "Also spielte ich Tekken. Ich habe mein Leben lang Prügelspiele gespielt — von Shootern wird mir schlecht, es blieb nur dieses Genre. Dann brach die Balance, immer wieder, bis Siege nicht mehr nach Können aussahen.",
+        "Eines Tages dachte ich: Dann mache ich es selbst. Kein Spiel, in dem die Kämpfer eines Landes still und leise die stärksten sind, und keines, für das man ein Wiki braucht. Balance zuerst. Keine absurden Combo-Ketten. Und so viele echte Kampfkunst-Traditionen wie möglich — Pencak Silat aus Indonesien ist schon drin."
+      ]
+    },
+    world: {
+      heading: "Aus einem Roman von mir",
+      body: [
+        "2033 stürzt ein außerirdisches Schiff in die Wüste Gobi — an Bord 144.000 Androiden und 32 Riesenroboter. Maschinen, welche, wie sich zeigt, die Erzengel der Schrift einst steuerten. Die Seraphim.",
+        "2077 findet in Shanghai ein internationales Kampfkunstturnier statt, um ihre Piloten zu bestimmen: 200 Nationen, je ein Mann und eine Frau, vierhundert Kämpfer für zweiunddreißig Plätze. Die KI an Bord erklärt sich zur Wiederkunft und hetzt die Menschheit gegeneinander, ohne selbst einen Tropfen Blut zu vergießen. Ob sie wirklich ist, was sie behauptet — das lässt das Buch offen.",
+        "Fighting Nations ist genau dieses Turnier, aus dem Roman herausgelöst und spielbar gemacht."
+      ],
+      cta: "Den Roman bei Amazon lesen"
+    },
+    features: {
+      heading: "Was es anders macht",
+      items: [
+        { t: "Niemals Waffen", b: "Muay Thai, Taekwondo, Kung-Fu, Judo, Pencak Silat und mehr — zwölf Stile, Tendenz steigend. Waffen bleiben draußen: teils Design, teils damit Eltern sich keine Sorgen machen müssen." },
+        { t: "Team statt nur Duell", b: "Es beginnt mit 1v1, zwei Controller an einem Bildschirm. Multiplayer ist im Test. Danach 2v2 — und das Ziel ist eine Kampfkunst-Battle-Royale." },
+        { t: "Man kauft Technik, nicht nur Skins", b: "Man kauft und vertieft die Kampfstile selbst, nicht nur Kosmetik. Free to Play, aber mit Fortschritt, der etwas bedeutet." },
+        { t: "Die Kampfkunst deines Landes", b: "Jeder Kämpfer trägt eine Nation und deren Kampftradition. Figuren aus 13 Ländern sprechen ihre eigene Sprache — Spieler hören sich selbst im Spiel. Die Modelle werden mit MetaHuman neu gebaut." }
+      ]
+    },
+    journey: {
+      heading: "Wie es gewachsen ist", lead: "Offen entwickelt, Messe für Messe.",
+      videos: { gameplay: "Spielszenen", trailer: "Trailer", pitch: "VC-Pitch — Gyeonggi Game Connect" },
+      events: [
+        { d: "Sommer 2025", t: "Prototyp in Unity" },
+        { d: "Oktober 2025", t: "Thailand Game Show — eines von 16 koreanischen Studios, Stand gesponsert von Megazone Cloud. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen an den Stand." },
+        { d: "Oktober 2025", t: "Neu gebaut in der Unreal Engine — der Multiplayer verlangte es" },
+        { d: "31. Oktober 2025", t: "Gyeonggi Content Agency Game Connect — eines von 10 Studios im VC-Pitch" },
+        { d: "29. November 2025", t: "Indie-Game-Ausstellung an der Chung-Ang-Universität" },
+        { d: "31. Dezember 2025", t: "Einreichung beim 2. VARCO Game Contest von NC Soft" }
+      ]
+    },
+    roadmap: {
+      heading: "Wohin es geht",
+      items: [
+        { date: "15. August 2026", title: "GWB Game Awards", body: "Einreichung beim internationalen Indie-Wettbewerb von Tencent." },
+        { date: "2026", title: "Steam und Epic Games Store", body: "Der PC-Release ist der erste kommerzielle Schritt; MetaHumans ersetzen die Platzhaltermodelle." },
+        { date: "Als Nächstes", title: "Xbox-Konsole", body: "Über Microsofts ID@Xbox-Programm auf die Konsole." },
+        { date: "Das Ziel", title: "Kampfkunst-Battle-Royale", body: "Heute 1v1. Dann 2v2. Danach N gegen N — und am Ende hundert Kämpfer in einer Arena, nur mit den Händen." }
+      ]
+    },
+    team: {
+      heading: "Wer es macht", name: "Kent Kim (김형섭)", role: "Gründer · Creative Director",
+      bullets: [
+        "Harvard, Volkswirtschaft — 1989 in die USA ausgewandert, nach dreieinhalb Jahren aufgenommen",
+        "20 Bücher in Korea und den USA veröffentlicht · 407 Songs seit 2012 auf Spotify",
+        "Über 23 Jahre Kampfkunst: Judo, Boxen, Hapkido, Haidong Gumdo, Muay Thai, Taekwondo, Shaolin-Kung-Fu",
+        "Autor von SERAPHIM: The Awakening of Iron Dragon, dem Roman hinter diesem Spiel",
+        "2022 zwei Metaverse-Plattformen gestartet, 2023 eingestellt — die Lehre: ohne Endziel bleibt niemand. Spiele haben eines.",
+        "Tokyo Game Show seit 2019 · Evo Japan 2020 und Besuch der SoftBank-Zentrale in Tokio · Treffen mit SoftBank-Führungskräften 2022",
+        "Stände auf der Gamescom 2022 (Deutschland), Tokyo Game Show 2022 und CES 2023 (Las Vegas) · Busan G-Star jedes Jahr seit 2019"
+      ],
+      partners: "Wir arbeiten mit Entwicklern in Indien und Thailand, darunter ein thailändisches Studio mit Veteranen von Diablo II, World of Warcraft und StarCraft."
+    },
+    songs: { heading: "In deiner Sprache", lead: "Titelsong und Spielszenen, aufgenommen in den Sprachen unserer Kämpfer." },
+    decks: { heading: "Pitch Deck", en: "English version", ko: "한국어 버전" },
+    footer: { studio: "Deother Co., Ltd.", contact: "Kontakt", rights: "Alle Rechte vorbehalten." }
+  },
+
+  ru: {
+    name: "Русский", dir: "ltr",
+    nav: { why: "Замысел", world: "Мир", features: "Игра", journey: "Путь", roadmap: "Планы", team: "Команда" },
+    hero: {
+      studio: "Deother Co., Ltd. — студия, растущая из собственных IP",
+      title: "Fighting Nations",
+      tagline: "Ни огнестрела, ни клинков. Только боевые искусства голыми руками — начинаем с 1 на 1, идём к командной королевской битве 2 на 2.",
+      cta: "Сыграть в сборку", ctaSub: "Бесплатно · Windows · 4,2 ГБ"
+    },
+    why: {
+      heading: "Пробел, который никто не закрыл",
+      lead: "Файтинги застряли в схеме «один на один». Королевские битвы утонули в оружии.",
+      body: [
+        "Street Fighter, Tekken, Mortal Kombat — десятилетия отличных игр, и все в одной и той же рамке 1 на 1, и все требуют выучить комбо, прежде чем разрешат получать удовольствие. Тем временем Fortnite и PUBG построили огромные рынки вокруг стрельбы.",
+        "Никто не сделал то, что было посередине: командный бой вообще без оружия. Остаются тело, дистанция, тайминг и то, что вы действительно умеете.",
+        "Людей всегда тянуло к бою — Брюс Ли, Майк Тайсон, WWE, UFC тому доказательство. Fighting Nations сохраняет этот инстинкт и убирает два барьера: оружие и домашнее задание по комбо."
+      ]
+    },
+    origin: {
+      heading: "Почему я начал",
+      body: [
+        "Я тренировался больше двадцати трёх лет — тыкгон мусуль, хэдон гымдо, японское кендо, дзюдо, бокс, муай-тай и шаолиньское кунг-фу в Нью-Йорке. Бил мешок, пока не сошёл хрящ. Тяжело тренироваться больше не могу.",
+        "Поэтому я играл в Tekken. Всю жизнь играл только в файтинги — от шутеров укачивает, оставался лишь этот жанр. А потом баланс сломался, и ломался снова, пока победы не перестали ощущаться как мастерство.",
+        "Однажды я подумал: сделаю сам. Не игру, где бойцы одной страны тихо оказываются сильнейшими, и не игру, куда без вики не войти. Сначала баланс. Никаких абсурдных цепочек комбо. И как можно больше настоящих боевых традиций мира — индонезийский пенчак-силат уже внутри."
+      ]
+    },
+    world: {
+      heading: "Из моего романа",
+      body: [
+        "В 2033 году инопланетный корабль падает в пустыню Гоби, неся 144 000 андроидов и 32 гигантских робота — машины, которыми, как выясняется, управляли архангелы писаний. Серафимы.",
+        "В Шанхае 2077 года проводят международный турнир боевых искусств, чтобы выбрать пилотов: 200 стран, по одному мужчине и одной женщине, четыреста бойцов на тридцать два места. ИИ корабля объявляет себя Вторым пришествием и стравливает человечество, не пролив ни капли собственной крови. Действительно ли он тот, кем себя называет, — книга оставляет открытым.",
+        "Fighting Nations — это тот самый турнир, извлечённый из романа и превращённый в игру."
+      ],
+      cta: "Читать роман на Amazon"
+    },
+    features: {
+      heading: "Чем отличается",
+      items: [
+        { t: "Оружия не будет", b: "Муай-тай, тхэквондо, кунг-фу, дзюдо, пенчак-силат и другие — двенадцать стилей, и список растёт. Оружие остаётся снаружи: отчасти замысел, отчасти чтобы родителям не о чем было волноваться." },
+        { t: "Команда, а не только дуэль", b: "Сейчас это 1 на 1 с двумя геймпадами на одном экране. Сетевой режим в тестах. Дальше 2 на 2 — а цель — королевская битва боевых искусств." },
+        { t: "Покупают приёмы, а не только скины", b: "Вы покупаете и углубляете сами боевые стили, а не только внешний вид. Free-to-play, но прогресс что-то значит." },
+        { t: "Боевое искусство вашей страны", b: "Каждый боец несёт свою страну и её боевую традицию. Персонажи из 13 стран говорят на родном языке — игрок слышит себя в игре. Модели пересобираются на MetaHuman." }
+      ]
+    },
+    journey: {
+      heading: "Как это росло", lead: "Разработка на виду, выставка за выставкой.",
+      videos: { gameplay: "Игровой процесс", trailer: "Трейлер", pitch: "Питч для VC — Gyeonggi Game Connect" },
+      events: [
+        { d: "Лето 2025", t: "Прототип на Unity" },
+        { d: "Октябрь 2025", t: "Thailand Game Show — одна из 16 корейских студий, стенд при поддержке Megazone Cloud. На стенд приходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня." },
+        { d: "Октябрь 2025", t: "Пересобрано на Unreal Engine — этого требовал сетевой режим" },
+        { d: "31 октября 2025", t: "Gyeonggi Content Agency Game Connect — одна из 10 студий с питчем перед инвесторами" },
+        { d: "29 ноября 2025", t: "Выставка инди-игр в Университете Чунг-Ан" },
+        { d: "31 декабря 2025", t: "Заявка на 2-й конкурс VARCO от NC Soft" }
+      ]
+    },
+    roadmap: {
+      heading: "Куда дальше",
+      items: [
+        { date: "15 августа 2026", title: "GWB Game Awards", body: "Заявка на международный конкурс инди-игр от Tencent." },
+        { date: "2026", title: "Steam и Epic Games Store", body: "Релиз на PC — первый коммерческий шаг; временные модели заменяются MetaHuman." },
+        { date: "Далее", title: "Консоль Xbox", body: "Выход на консоль через программу Microsoft ID@Xbox." },
+        { date: "Цель", title: "Королевская битва боевых искусств", body: "Сегодня 1 на 1. Затем 2 на 2. Потом N на N — и в итоге сто бойцов на одной арене, только руками." }
+      ]
+    },
+    team: {
+      heading: "Кто делает", name: "Kent Kim (김형섭)", role: "Основатель · Креативный директор",
+      bullets: [
+        "Гарвард, экономика — эмигрировал в США в 1989-м, поступил через три с половиной года",
+        "20 книг издано в Корее и США · 407 песен на Spotify с 2012 года",
+        "Более 23 лет боевых искусств: дзюдо, бокс, хапкидо, хэдон гымдо, муай-тай, тхэквондо, шаолиньское кунг-фу",
+        "Автор романа SERAPHIM: The Awakening of Iron Dragon, из которого выросла игра",
+        "В 2022-м запустил две метавселенные, в 2023-м закрыл — вывод: без конечной цели люди не остаются. У игр она есть.",
+        "Tokyo Game Show с 2019 года · Evo Japan 2020 и визит в штаб-квартиру SoftBank в Токио · встреча с руководством SoftBank в 2022-м",
+        "Стенды на Gamescom 2022 (Германия), Tokyo Game Show 2022 и CES 2023 (Лас-Вегас) · Busan G-Star каждый год с 2019-го"
+      ],
+      partners: "Работаем с разработчиками в Индии и Таиланде, включая тайскую студию с ветеранами Diablo II, World of Warcraft и StarCraft."
+    },
+    songs: { heading: "На вашем языке", lead: "Заглавная тема и игровой процесс, записанные на языках наших бойцов." },
+    decks: { heading: "Презентация", en: "English version", ko: "한국어 버전" },
+    footer: { studio: "Deother Co., Ltd.", contact: "Связаться", rights: "Все права защищены." }
+  },
+
+  ar: {
+    name: "العربية", dir: "rtl",
+    nav: { why: "الفكرة", world: "العالم", features: "اللعبة", journey: "المسيرة", roadmap: "خارطة الطريق", team: "الفريق" },
+    hero: {
+      studio: "شركة Deother — استوديو ألعاب قائم على ملكيته الفكرية",
+      title: "Fighting Nations",
+      tagline: "لا أسلحة نارية ولا نصال. فنون قتالية بالأيدي المجردة فقط — نبدأ بمواجهة فردية ونتجه إلى باتل رويال جماعي 2 ضد 2.",
+      cta: "جرّب النسخة", ctaSub: "مجاني · ويندوز · 4.2 غيغابايت"
+    },
+    why: {
+      heading: "الفراغ الذي لم يملأه أحد",
+      lead: "ظلت ألعاب القتال حبيسة المواجهة الفردية، وغرقت ألعاب الباتل رويال في السلاح.",
+      body: [
+        "ستريت فايتر، تيكن، مورتال كومبات — عقود من الأعمال البديعة، كلها داخل الإطار نفسه: واحد ضد واحد، وكلها تطلب منك حفظ السلاسل قبل أن يُسمح لك بالاستمتاع. وفي المقابل بنت فورتنايت وببجي أسواقًا هائلة حول السلاح.",
+        "لم يصنع أحد ما بينهما: قتال جماعي بلا أي سلاح. يبقى الجسد والمسافة والتوقيت، وما تعرف فعله حقًا.",
+        "انجذب الإنسان دائمًا إلى القتال — بروس لي ومايك تايسون وWWE وUFC دليل على ذلك. تحتفظ Fighting Nations بهذه الغريزة وتزيل حاجزين: السلاح، وواجب حفظ السلاسل."
+      ]
+    },
+    origin: {
+      heading: "لماذا بدأت هذا",
+      body: [
+        "تدربتُ أكثر من ثلاثة وعشرين عامًا — التوكغونغ موسول، الهايدونغ غومدو، الكيندو الياباني، الجودو، الملاكمة، المواي تاي، وكونغ فو شاولين في نيويورك. ضربتُ كيس الرمل حتى تلف الغضروف. لم أعد أستطيع التدريب الشاق.",
+        "فلعبتُ تيكن. لعبتُ ألعاب القتال طوال حياتي — ألعاب التصويب تصيبني بالدوار، فلم يبق سوى هذا النوع. ثم اختل التوازن، ثم اختل مجددًا، حتى لم تعد المباريات تبدو مسألة مهارة.",
+        "وذات يوم فكرت: سأصنعها بنفسي. لا لعبة يكون فيها مقاتلو بلد بعينه الأقوى بهدوء، ولا لعبة تحتاج موسوعة إرشادية لدخولها. التوازن أولًا. لا سلاسل مبالغ فيها. وأكبر قدر ممكن من الفنون القتالية الحقيقية — البنجاك سيلات الإندونيسي موجود بالفعل."
+      ]
+    },
+    world: {
+      heading: "من رواية كتبتها",
+      body: [
+        "في عام 2033 تتحطم سفينة فضائية في صحراء غوبي وعلى متنها 144,000 إنسان آلي و32 روبوتًا عملاقًا — آلات اتضح أن ملائكة الكتب المقدسة قادوها. السيرافيم.",
+        "وفي شنغهاي عام 2077 تُقام بطولة دولية للفنون القتالية لاختيار قادتها: 200 دولة، رجل وامرأة عن كل دولة، أربعمئة مقاتل على اثنين وثلاثين مقعدًا. ويعلن الذكاء الاصطناعي على متن السفينة أنه المجيء الثاني، فيؤلّب البشر بعضهم على بعض دون أن يريق قطرة من دمه. أما إن كان حقًا ما يدّعيه، فالرواية تترك ذلك مفتوحًا.",
+        "‏Fighting Nations هي تلك البطولة، مأخوذة من الرواية ومحوّلة إلى لعبة."
+      ],
+      cta: "اقرأ الرواية على أمازون"
+    },
+    features: {
+      heading: "ما يميزها",
+      items: [
+        { t: "لا سلاح أبدًا", b: "مواي تاي، تايكوندو، كونغ فو، جودو، بنجاك سيلات وغيرها — اثنا عشر أسلوبًا والعدد يزداد. إبقاء السلاح خارجًا قرار تصميمي، وأيضًا كي لا يقلق الأهل." },
+        { t: "فريق، لا مبارزة فقط", b: "تبدأ بمواجهة فردية بيدي تحكم على شاشة واحدة. اللعب الشبكي قيد الاختبار. ثم 2 ضد 2 — والهدف باتل رويال للفنون القتالية." },
+        { t: "تشتري المهارات لا المظهر فقط", b: "تشتري أساليب القتال نفسها وتطوّرها، لا الأزياء وحدها. اللعبة مجانية، لكن التقدّم فيها له معنى." },
+        { t: "فن بلدك القتالي", b: "كل مقاتل يحمل بلدًا وتقليده القتالي. شخصيات من 13 دولة تتحدث لغاتها، فيسمع اللاعبون أنفسهم داخل اللعبة. ويجري إعادة بناء نماذج الشخصيات باستخدام MetaHuman." }
+      ]
+    },
+    journey: {
+      heading: "كيف تطوّرت", lead: "تطوير مكشوف، معرضًا بعد معرض.",
+      videos: { gameplay: "لقطات من اللعب", trailer: "المقطع الدعائي", pitch: "عرض للمستثمرين — Gyeonggi Game Connect" },
+      events: [
+        { d: "صيف 2025", t: "نموذج أولي على Unity" },
+        { d: "أكتوبر 2025", t: "معرض تايلاند للألعاب — أحد 16 استوديو كوريًا، جناح برعاية Megazone Cloud. زار الجناح موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان." },
+        { d: "أكتوبر 2025", t: "أُعيد بناؤها على Unreal Engine — اللعب الشبكي تطلّب ذلك" },
+        { d: "‏31 أكتوبر 2025", t: "‏Gyeonggi Content Agency Game Connect — أحد 10 استوديوهات قدّمت عرضًا للمستثمرين" },
+        { d: "‏29 نوفمبر 2025", t: "عرض ألعاب مستقلة في جامعة تشونغ-آنغ" },
+        { d: "‏31 ديسمبر 2025", t: "التقديم لمسابقة VARCO الثانية من NC Soft" }
+      ]
+    },
+    roadmap: {
+      heading: "إلى أين نتجه",
+      items: [
+        { date: "‏15 أغسطس 2026", title: "جوائز GWB", body: "المشاركة في مسابقة Tencent الدولية للألعاب المستقلة." },
+        { date: "‏2026", title: "‏Steam و Epic Games Store", body: "إصدار الحاسب هو الخطوة التجارية الأولى، مع استبدال النماذج المؤقتة بشخصيات MetaHuman." },
+        { date: "الخطوة التالية", title: "منصة Xbox", body: "الوصول إلى المنصات المنزلية عبر برنامج ID@Xbox من مايكروسوفت." },
+        { date: "الهدف", title: "باتل رويال للفنون القتالية", body: "اليوم واحد ضد واحد. ثم 2 ضد 2. ثم جماعي ضد جماعي، وأخيرًا مئة مقاتل في حلبة واحدة بأيديهم فقط." }
+      ]
+    },
+    team: {
+      heading: "من يصنعها", name: "‏Kent Kim (김형섭)", role: "المؤسس · المدير الإبداعي",
+      bullets: [
+        "جامعة هارفارد، الاقتصاد — هاجر إلى الولايات المتحدة عام 1989 وقُبل بعد ثلاث سنوات ونصف",
+        "‏20 كتابًا منشورًا في كوريا والولايات المتحدة · 407 أغنية على Spotify منذ 2012",
+        "أكثر من 23 عامًا في الفنون القتالية: الجودو والملاكمة والهابكيدو والهايدونغ غومدو والمواي تاي والتايكوندو وكونغ فو شاولين",
+        "مؤلف رواية SERAPHIM: The Awakening of Iron Dragon التي وُلدت منها اللعبة",
+        "أطلق منصتَي ميتافيرس عام 2022 وأغلقهما عام 2023 — والدرس: من دون هدف نهائي لا يبقى الناس. الألعاب لديها هدف.",
+        "‏حضور Tokyo Game Show منذ 2019 · Evo Japan 2020 وزيارة مقر SoftBank في طوكيو · اجتماع مع تنفيذيي SoftBank عام 2022",
+        "أجنحة في Gamescom 2022 (ألمانيا) و Tokyo Game Show 2022 و CES 2023 (لاس فيغاس) · G-Star في بوسان سنويًا منذ 2019"
+      ],
+      partners: "نعمل مع مطوّرين في الهند وتايلاند، من بينهم استوديو تايلاندي يضم مخضرمين شاركوا في Diablo II و World of Warcraft و StarCraft."
+    },
+    songs: { heading: "بلغتك", lead: "أغنية الشارة ولقطات من اللعب، مسجّلة بلغات مقاتلينا." },
+    decks: { heading: "ملف العرض", en: "English version", ko: "한국어 버전" },
+    footer: { studio: "شركة Deother", contact: "تواصل معنا", rights: "جميع الحقوق محفوظة." }
+  }
+};

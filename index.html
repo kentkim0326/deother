@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deother — Fighting Nations</title>
+<meta name="description" content="Deother Co., Ltd. — the world's first bare-handed martial arts battle royale. No guns, no blades. From 1v1 to team battle.">
+
+<meta property="og:title" content="Deother — Fighting Nations">
+<meta property="og:description" content="No guns. No blades. Bare-handed martial arts only.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0a0a0c">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="#top">
+      <img src="assets/deother-logo.png" alt="" width="26" height="26">
+      DE<span>OTHER</span>
+    </a>
+    <nav id="nav"><!-- app.js --></nav>
+    <div class="lang">
+      <button class="lang-btn" id="langBtn" type="button" aria-haspopup="true" aria-expanded="false">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="12" cy="12" r="9"/><path d="M3 12h18"/>
+          <path d="M12 3a15 15 0 0 1 0 18a15 15 0 0 1 0-18"/>
+        </svg>
+        <span id="langLabel">English</span>
+      </button>
+      <div class="lang-menu" id="langMenu" role="menu"><!-- app.js --></div>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow" id="eyebrow"></p>
+        <h1 id="title"></h1>
+        <p class="tagline" id="tagline"></p>
+        <a class="cta" id="cta" target="_blank" rel="noopener"></a>
+      </div>
+      <img class="hero-art" src="assets/fn-cover.png"
+           alt="Fighting Nations — national representative fighters" loading="eager">
+    </div>
+  </div>
+
+  <!-- 기획의도 -->
+  <section id="why">
+    <div class="wrap">
+      <h2 id="whyHeading"></h2>
+      <p class="lead" id="whyLead"></p>
+      <div class="prose" id="whyBody"></div>
+    </div>
+  </section>
+
+  <!-- 왜 시작했나 (개인 이야기) — 배경을 달리해 강조 -->
+  <section id="origin" class="alt">
+    <div class="wrap">
+      <h2 id="orHeading"></h2>
+      <div class="prose quote" id="orBody"></div>
+    </div>
+  </section>
+
+  <!-- 세계관 -->
+  <section id="world">
+    <div class="wrap">
+      <h2 id="wdHeading"></h2>
+      <div class="world-grid">
+        <div>
+          <div class="prose" id="wdBody"></div>
+          <a class="link-out" id="wdCta" target="_blank" rel="noopener"></a>
+        </div>
+        <a class="book" id="bookLink" target="_blank" rel="noopener">
+          <img src="assets/seraphim-cover.jpg"
+               alt="SERAPHIM: The Awakening of Iron Dragon — Kent Kim" loading="lazy">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 게임 특징 -->
+  <section id="features">
+    <div class="wrap">
+      <h2 id="ftHeading"></h2>
+      <div class="cards" id="featureCards"></div>
+    </div>
+  </section>
+
+  <!-- 여정: 영상 + 연표 -->
+  <section id="journey">
+    <div class="wrap">
+      <h2 id="jrHeading"></h2>
+      <p class="lead" id="jrLead"></p>
+      <div class="videos" id="videos"></div>
+      <div class="events" id="events"></div>
+    </div>
+  </section>
+
+  <!-- 언어별 주제가 -->
+  <section id="songs" class="alt">
+    <div class="wrap">
+      <h2 id="sgHeading"></h2>
+      <p class="lead" id="sgLead"></p>
+      <div class="videos small" id="langVideos"></div>
+    </div>
+  </section>
+
+  <!-- 로드맵 -->
+  <section id="roadmap">
+    <div class="wrap">
+      <h2 id="rmHeading"></h2>
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </section>
+
+  <!-- 팀 -->
+  <section id="team" class="alt">
+    <div class="wrap">
+      <h2 id="tmHeading"></h2>
+      <p class="person" id="tmName"></p>
+      <p class="role" id="tmRole"></p>
+      <ul class="bullets" id="tmBullets"></ul>
+      <p class="partners" id="tmPartners"></p>
+    </div>
+  </section>
+
+  <!-- 발표 자료 -->
+  <section id="decks">
+    <div class="wrap">
+      <h2 id="dkHeading"></h2>
+      <div class="deck-links">
+        <a class="deck" id="dkEn" target="_blank" rel="noopener"></a>
+        <a class="deck" id="dkKo" target="_blank" rel="noopener"></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span id="ftRights"></span>
+    <a class="sp" id="ftContact"></a>
+    <a id="ftFacebook" target="_blank" rel="noopener">Facebook</a>
+    <a id="ftItch" target="_blank" rel="noopener">itch.io</a>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

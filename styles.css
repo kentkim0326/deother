@@ -1,0 +1,264 @@
+/* Deother — 사이트 스타일
+   격투게임 스튜디오답게 어둡고 대비가 강한 화면. 붉은 강조색 하나만 쓴다.
+   RTL(아랍어)은 html[dir="rtl"] 로 방향만 뒤집으면 되도록 논리 속성을 썼다. */
+
+:root {
+  --bg: #0a0a0c;
+  --bg-2: #121217;
+  --bg-3: #1a1a22;
+  --fg: #f2f2f4;
+  --fg-dim: #a0a0ad;
+  --fg-faint: #6a6a78;
+  --accent: #e63030;
+  --accent-dim: #8f1d1d;
+  --line: #26262f;
+  --max: 1080px;
+  --pad: clamp(20px, 5vw, 48px);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "Inter", "Pretendard", -apple-system, BlinkMacSystemFont,
+               "Segoe UI", "Noto Sans KR", "Noto Sans SC", "Noto Sans JP",
+               "Noto Sans Arabic", sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 아랍어는 글자가 작아 보여서 살짝 키운다 */
+html[dir="rtl"] body { font-size: 18px; line-height: 1.9; }
+
+a { color: inherit; }
+
+.wrap { max-width: var(--max); margin: 0 auto; padding-inline: var(--pad); }
+
+/* ---------- 상단 바 ---------- */
+header {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(10, 10, 12, 0.82);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+.bar { display: flex; align-items: center; gap: 24px; height: 64px; }
+
+.logo {
+  font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase;
+  font-size: 15px; text-decoration: none; white-space: nowrap;
+  display: flex; align-items: center; gap: 9px;
+}
+.logo img { display: block; }
+.logo span { color: var(--accent); }
+
+nav { display: flex; gap: 22px; margin-inline-start: auto; }
+nav a {
+  color: var(--fg-dim); text-decoration: none; font-size: 14px;
+  padding: 6px 0; border-bottom: 1px solid transparent; transition: .18s;
+}
+nav a:hover { color: var(--fg); border-bottom-color: var(--accent); }
+
+/* 언어 선택 */
+.lang { position: relative; }
+.lang-btn {
+  background: var(--bg-3); color: var(--fg); border: 1px solid var(--line);
+  border-radius: 6px; padding: 7px 12px; font-size: 13px; cursor: pointer;
+  display: flex; align-items: center; gap: 8px; font-family: inherit;
+}
+.lang-btn:hover { border-color: var(--accent-dim); }
+.lang-menu {
+  position: absolute; inset-inline-end: 0; top: calc(100% + 8px);
+  background: var(--bg-2); border: 1px solid var(--line); border-radius: 8px;
+  min-width: 168px; padding: 6px; display: none;
+  box-shadow: 0 18px 40px rgba(0,0,0,.6);
+  max-height: 60vh; overflow-y: auto;
+}
+.lang-menu.open { display: block; }
+.lang-menu button {
+  display: block; width: 100%; text-align: start; background: none;
+  border: 0; color: var(--fg-dim); padding: 9px 12px; border-radius: 5px;
+  cursor: pointer; font-size: 14px; font-family: inherit;
+}
+.lang-menu button:hover { background: var(--bg-3); color: var(--fg); }
+.lang-menu button[aria-current="true"] { color: var(--accent); font-weight: 600; }
+
+/* ---------- 히어로 ---------- */
+.hero {
+  padding: clamp(72px, 13vw, 148px) 0 clamp(56px, 9vw, 104px);
+  border-bottom: 1px solid var(--line);
+  position: relative; overflow: hidden;
+}
+/* 배경에 은은한 붉은 광원 — 이미지 없이 분위기만 */
+.hero::before {
+  content: ""; position: absolute; inset: 0;
+  background: radial-gradient(720px 380px at 22% 0%, rgba(230,48,48,.14), transparent 66%);
+  pointer-events: none;
+}
+.hero .wrap { position: relative; }
+/* 히어로: 왼쪽 글, 오른쪽 커버 아트 */
+.hero-grid {
+  display: grid; grid-template-columns: 1.1fr 0.9fr;
+  gap: clamp(28px, 5vw, 64px); align-items: center;
+}
+.hero-art {
+  width: 100%; height: auto; border-radius: 12px;
+  border: 1px solid var(--line);
+  box-shadow: 0 26px 70px rgba(0,0,0,.6);
+}
+
+.eyebrow {
+  color: var(--accent); font-size: 13px; letter-spacing: .2em;
+  text-transform: uppercase; font-weight: 700; margin: 0 0 18px;
+}
+h1 {
+  font-size: clamp(42px, 9vw, 88px); line-height: 1.02; margin: 0 0 22px;
+  font-weight: 800; letter-spacing: -0.025em;
+}
+.tagline {
+  font-size: clamp(18px, 2.4vw, 24px); color: var(--fg-dim);
+  max-width: 30ch; margin: 0 0 40px;
+}
+.cta {
+  display: inline-flex; flex-direction: column; gap: 4px;
+  background: var(--accent); color: #fff; text-decoration: none;
+  padding: 16px 32px; border-radius: 8px; font-weight: 700;
+  transition: .18s;
+}
+.cta:hover { background: #ff3c3c; transform: translateY(-2px); }
+.cta small { font-weight: 400; opacity: .82; font-size: 13px; }
+
+/* ---------- 섹션 공통 ---------- */
+section { padding: clamp(64px, 10vw, 112px) 0; border-bottom: 1px solid var(--line); }
+h2 {
+  font-size: clamp(28px, 4.2vw, 42px); margin: 0 0 14px;
+  font-weight: 800; letter-spacing: -0.02em;
+}
+.lead { color: var(--accent); font-size: clamp(17px, 2vw, 20px); margin: 0 0 36px; max-width: 46ch; }
+.prose p { color: var(--fg-dim); max-width: 62ch; margin: 0 0 20px; }
+
+/* 배경을 한 단계 밝혀 강조하는 섹션 (개인 이야기·팀) */
+section.alt { background: var(--bg-2); }
+
+/* 창업자의 1인칭 이야기 — 왼쪽에 붉은 선을 그어 인용처럼 */
+.quote {
+  border-inline-start: 3px solid var(--accent);
+  padding-inline-start: 26px;
+}
+.quote p { color: var(--fg); font-size: 18px; }
+
+/* 세계관: 글 + 소설 표지 */
+.world-grid {
+  display: grid; grid-template-columns: 1fr 260px;
+  gap: clamp(28px, 5vw, 56px); align-items: start;
+}
+.book { display: block; transition: .2s; }
+.book:hover { transform: translateY(-4px); }
+.book img {
+  width: 100%; height: auto; border-radius: 8px;
+  box-shadow: 0 20px 50px rgba(0,0,0,.65);
+}
+
+/* 바깥으로 나가는 링크 (소설·자료) */
+.link-out {
+  display: inline-block; margin-top: 10px; color: var(--accent);
+  text-decoration: none; font-weight: 600; border-bottom: 1px solid transparent;
+}
+.link-out:hover { border-bottom-color: var(--accent); }
+
+/* ---------- 특징 카드 ---------- */
+.cards { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.card {
+  background: var(--bg-2); border: 1px solid var(--line);
+  border-radius: 10px; padding: 26px 24px; transition: .18s;
+}
+.card:hover { border-color: var(--accent-dim); transform: translateY(-2px); }
+.card h3 { margin: 0 0 10px; font-size: 18px; font-weight: 700; }
+.card p { margin: 0; color: var(--fg-dim); font-size: 15px; }
+
+/* ---------- 연표 ---------- */
+.events { margin-top: 44px; display: grid; gap: 2px; }
+.event {
+  display: grid; grid-template-columns: 175px 1fr; gap: 24px;
+  padding: 16px 0; border-top: 1px solid var(--line);
+}
+.event:last-child { border-bottom: 1px solid var(--line); }
+.event .when { color: var(--accent); font-size: 13px; font-weight: 700; }
+.event .what { color: var(--fg-dim); font-size: 15px; }
+
+/* ---------- 팀 ---------- */
+.person { font-size: 26px; font-weight: 800; margin: 0 0 4px; }
+.role { color: var(--accent); font-weight: 600; margin: 0 0 26px; font-size: 15px; }
+.bullets { margin: 0 0 26px; padding-inline-start: 20px; color: var(--fg-dim); max-width: 66ch; }
+.bullets li { margin-bottom: 10px; }
+.partners { color: var(--fg-dim); max-width: 66ch; margin: 0; }
+
+/* ---------- 발표 자료 ---------- */
+.deck-links { display: flex; flex-wrap: wrap; gap: 14px; }
+.deck {
+  background: var(--bg-3); border: 1px solid var(--line); border-radius: 8px;
+  padding: 15px 26px; text-decoration: none; font-weight: 600; transition: .18s;
+}
+.deck:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ---------- 여정(영상) ---------- */
+.videos { display: grid; gap: 26px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+.video-card {
+  background: var(--bg-2); border: 1px solid var(--line); border-radius: 10px;
+  overflow: hidden; transition: .18s;
+}
+.video-card:hover { border-color: var(--accent-dim); }
+.video-frame { position: relative; aspect-ratio: 16 / 9; background: #000; }
+.video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video-meta { padding: 14px 18px 18px; }
+.video-meta .t { font-weight: 600; font-size: 15px; }
+.video-meta .d { color: var(--fg-faint); font-size: 13px; margin-top: 3px; }
+.note { color: var(--fg-faint); font-size: 14px; margin-top: 28px; }
+
+/* 언어별 주제가는 개수가 많아 카드를 작게 — 한 화면에 여러 나라가 보이는 게 요점이다 */
+.videos.small { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; }
+.videos.small .video-meta { padding: 10px 14px 13px; }
+.videos.small .video-meta .t { font-size: 14px; }
+
+/* ---------- 로드맵 ---------- */
+.timeline { display: grid; gap: 4px; }
+.step {
+  display: grid; grid-template-columns: 190px 1fr; gap: 28px;
+  padding: 30px 0; border-top: 1px solid var(--line);
+}
+.step:last-child { border-bottom: 1px solid var(--line); }
+.step .when {
+  color: var(--accent); font-weight: 700; font-size: 14px;
+  letter-spacing: .05em; text-transform: uppercase; padding-top: 3px;
+}
+.step h3 { margin: 0 0 8px; font-size: 21px; font-weight: 700; }
+.step p { margin: 0; color: var(--fg-dim); max-width: 60ch; }
+
+/* ---------- 푸터 ---------- */
+footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
+.foot { display: flex; flex-wrap: wrap; gap: 18px; align-items: center; }
+.foot a { color: var(--fg-dim); text-decoration: none; }
+.foot a:hover { color: var(--accent); }
+.foot .sp { margin-inline-start: auto; }
+
+/* ---------- 좁은 화면 ---------- */
+@media (max-width: 900px) {
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero-art { max-width: 460px; }
+  .world-grid { grid-template-columns: 1fr; }
+  .book { max-width: 220px; }
+}
+
+@media (max-width: 760px) {
+  nav { display: none; }             /* 모바일에선 메뉴를 숨기고 언어 버튼만 남긴다 */
+  .lang { margin-inline-start: auto; }
+  .step, .event { grid-template-columns: 1fr; gap: 8px; }
+  .tagline { max-width: none; }
+}
+
+/* 키보드 사용자를 위한 포커스 표시 */
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }

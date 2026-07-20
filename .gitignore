@@ -1,0 +1,12 @@
+node_modules/
+package-lock.json
+package.json
+.vercel/
+_pdf.js
+_pdf2.js
+*.log
+Thumbs.db
+.DS_Store
+
+# 원본 전체 표지 — 사이트는 잘라낸 seraphim-cover.jpg 만 쓴다
+assets/seraphim.png
