@@ -155,11 +155,19 @@ function render(code) {
     h.append(link);
     card.append(h, el("p", null, it.b));
 
+    // 상세 페이지가 있는 게임은 그쪽을 먼저 보여준다 — 철학·전투·데이터 활용이 거기 있다
+    const links = el("div", "work-links");
+    if (w.detail) {
+      const d = el("a", "work-more", t.works.more + " →");
+      d.href = w.detail;
+      links.append(d);
+    }
     if (w.sns) {
       const s = el("a", "work-sns", w.sns.label + " →");
       s.href = w.sns.url; s.target = "_blank"; s.rel = "noopener";
-      card.append(s);
+      links.append(s);
     }
+    if (links.children.length) card.append(links);
     return card;
   }));
 
