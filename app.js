@@ -131,7 +131,6 @@ function render(code) {
   set("tmRole", t.team.role);
   document.getElementById("tmBullets")
     .replaceChildren(...t.team.bullets.map(b => el("li", null, b)));
-  set("tmPartners", t.team.partners);
 
   // --- 발표 자료 ---
   set("dkHeading", t.decks.heading);

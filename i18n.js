@@ -100,9 +100,11 @@ const I18N = {
     roadmap: {
       heading: "Where it goes",
       items: [
-        { date: "15 August 2026", title: "GWB Game Awards", body: "Submission to Tencent's international indie competition." },
-        { date: "2026", title: "Steam & Epic Games Store", body: "PC release as the first commercial step, with MetaHuman characters replacing placeholder models." },
-        { date: "Next", title: "Xbox console", body: "Bringing Fighting Nations to Microsoft's ID@Xbox programme." },
+        { date: "15 August 2026", title: "GWB Game Awards — Tencent", body: "Submission to the international indie competition. Judges get the current build: 21 fighters, six stages." },
+        { date: "Autumn 2026", title: "Steam page", body: "Registering through Steamworks Direct and putting up a Coming Soon page, so wishlists start building before release." },
+        { date: "Autumn 2026", title: "Epic Games Store", body: "Applying for distribution alongside Steam." },
+        { date: "In development", title: "Online multiplayer", body: "1v1 netcode first, then 2v2 team play. Character models move to MetaHuman along the way." },
+        { date: "2026–2027", title: "Xbox console", body: "Applying to Microsoft's ID@Xbox programme to bring the game onto console." },
         { date: "The goal", title: "Martial arts battle royale", body: "1v1 today. 2v2 next. Then larger team modes — and finally a 64-fighter bracket in one arena, nothing but bare hands. Sixty-four is not an arbitrary number: it is a tournament bracket, and this game came from a tournament." }
       ]
     },
@@ -117,8 +119,7 @@ const I18N = {
         "Two metaverse platforms launched in 2022 and shut down in 2023 — the lesson: without an end goal, people don't stay. Games have one.",
         "Tokyo Game Show since 2019 · Evo Japan 2020 and a visit to SoftBank's Tokyo headquarters · meeting with SoftBank executives in 2022",
         "Booths at Gamescom 2022 (Germany), Tokyo Game Show 2022, CES 2023 (Las Vegas) · Busan G-Star every year since 2019"
-      ],
-      partners: "Working with developers in India and Thailand, including a Thai studio whose veterans built Diablo II, World of Warcraft and StarCraft."
+      ]
     },
     songs: { heading: "In your language", lead: "Theme song and gameplay, recorded in the languages our fighters speak." },
     decks: { heading: "Pitch deck", en: "English version", ko: "한국어 버전" },
@@ -187,9 +188,11 @@ const I18N = {
     roadmap: {
       heading: "앞으로",
       items: [
-        { date: "2026년 8월 15일", title: "GWB 게임 어워드", body: "텐센트가 주최하는 국제 인디 게임 대회에 출품합니다." },
-        { date: "2026년", title: "스팀 · 에픽 게임즈 스토어", body: "PC 출시가 첫 상업적 단계입니다. 임시 모델을 메타휴먼으로 교체해 나갑니다." },
-        { date: "다음 단계", title: "엑스박스 콘솔", body: "마이크로소프트 ID@Xbox 프로그램을 통해 콘솔로 갑니다." },
+        { date: "2026년 8월 15일", title: "GWB 게임 어워드 — 텐센트", body: "국제 인디 게임 대회에 출품합니다. 심사위원에게 현재 빌드를 제공합니다 — 21명의 파이터, 6개 스테이지." },
+        { date: "2026년 가을", title: "스팀 페이지", body: "Steamworks Direct로 등록하고 출시 예정 페이지를 올립니다. 출시 전부터 위시리스트를 모으기 위해서입니다." },
+        { date: "2026년 가을", title: "에픽 게임즈 스토어", body: "스팀과 함께 유통 신청을 넣습니다." },
+        { date: "개발 중", title: "온라인 멀티플레이어", body: "1:1 넷코드가 먼저이고 그다음이 2:2 팀전입니다. 그 사이 캐릭터 모델을 메타휴먼으로 옮깁니다." },
+        { date: "2026~2027년", title: "엑스박스 콘솔", body: "마이크로소프트 ID@Xbox 프로그램에 신청해 콘솔로 갑니다." },
         { date: "목표", title: "무술 배틀로얄", body: "지금은 1:1. 다음은 2:2. 그다음 팀 규모를 키우고, 마지막에는 맨손 64명이 한 경기장에. 64는 임의의 숫자가 아닙니다 — 토너먼트 대진표이고, 이 게임은 대회에서 시작됐습니다." }
       ]
     },
@@ -204,8 +207,7 @@ const I18N = {
         "2022년 메타버스 플랫폼 2개 런칭, 2023년 종료 — 배운 것: 엔드골이 없으면 사람이 남지 않는다. 게임에는 그것이 있다.",
         "2019년부터 도쿄 게임쇼 참관 · 2020년 Evo Japan 방문 및 소프트뱅크 도쿄 본사 방문 · 2022년 소프트뱅크 임원 미팅",
         "게임스컴 2022(독일), 도쿄 게임쇼 2022, CES 2023(라스베가스) 부스 운영 · 2019년부터 매년 부산 지스타 참가"
-      ],
-      partners: "인도·태국 개발자들과 함께 일하고 있습니다. 그중 태국 스튜디오에는 디아블로 2, 월드 오브 워크래프트, 스타크래프트를 만든 개발자들이 있습니다."
+      ]
     },
     songs: { heading: "당신의 언어로", lead: "파이터들이 쓰는 언어로 녹음한 주제가와 게임플레이." },
     decks: { heading: "발표 자료", en: "English version", ko: "한국어 버전" },
@@ -272,9 +274,11 @@ const I18N = {
     roadmap: {
       heading: "未来方向",
       items: [
-        { date: "2026 年 8 月 15 日", title: "GWB 游戏大奖", body: "参加腾讯主办的国际独立游戏大赛。" },
-        { date: "2026 年", title: "Steam 与 Epic 商店", body: "PC 发行是第一个商业步骤，并以 MetaHuman 替换临时模型。" },
-        { date: "下一步", title: "Xbox 主机", body: "通过微软 ID@Xbox 计划登陆主机。" },
+        { date: "2026 年 8 月 15 日", title: "GWB 游戏大奖 — 腾讯", body: "参加国际独立游戏大赛。评委将拿到当前版本：21 位格斗家、六个舞台。" },
+        { date: "2026 年秋", title: "Steam 页面", body: "通过 Steamworks Direct 注册并上线「即将推出」页面，让愿望单在发行前就开始累积。" },
+        { date: "2026 年秋", title: "Epic 游戏商城", body: "与 Steam 同步提交发行申请。" },
+        { date: "开发中", title: "在线多人", body: "先做 1v1 联机，再做 2v2 团队战。期间角色模型迁移到 MetaHuman。" },
+        { date: "2026–2027 年", title: "Xbox 主机", body: "申请微软 ID@Xbox 计划，将游戏带上主机。" },
         { date: "终点", title: "武术大逃杀", body: "今天是 1v1，接着 2v2，随后扩大团队规模，最终 64 人赤手同场。64 并非随意选定——那是一张淘汰赛对阵表，而这款游戏正源自一场大赛。" }
       ]
     },
@@ -288,8 +292,7 @@ const I18N = {
         "2022 年推出两个元宇宙平台，2023 年关闭——教训是：没有终点目标，人就不会留下。游戏有。",
         "2019 年起参观东京电玩展 · 2020 年出席 Evo Japan 并走访软银东京总部 · 2022 年与软银高管会面",
         "德国 Gamescom 2022、东京电玩展 2022、美国 CES 2023 参展 · 2019 年起每年参加釜山 G-Star"
-      ],
-      partners: "与印度和泰国的开发者合作，其中泰国工作室的资深成员曾参与《暗黑破坏神 II》《魔兽世界》与《星际争霸》。"
+      ]
     },
     songs: { heading: "用你的语言", lead: "主题曲与实机画面，以角色们所说的语言录制。" },
     decks: { heading: "企划书", en: "English version", ko: "한국어 버전" },
@@ -356,9 +359,11 @@ const I18N = {
     roadmap: {
       heading: "これから",
       items: [
-        { date: "2026年8月15日", title: "GWB ゲームアワード", body: "テンセント主催の国際インディーコンペに応募します。" },
-        { date: "2026年", title: "Steam と Epic Games Store", body: "PC版が最初の商用ステップ。仮モデルをMetaHumanへ置き換えていきます。" },
-        { date: "次の一歩", title: "Xbox コンソール", body: "マイクロソフトのID@Xboxプログラムを通じてコンソールへ。" },
+        { date: "2026年8月15日", title: "GWB ゲームアワード — テンセント", body: "国際インディーコンペに応募します。審査員には現ビルドを渡します——21人のファイター、6ステージ。" },
+        { date: "2026年秋", title: "Steam ページ", body: "Steamworks Direct で登録し「近日公開」ページを公開。発売前からウィッシュリストを積み上げます。" },
+        { date: "2026年秋", title: "Epic Games Store", body: "Steam と並行して配信申請を出します。" },
+        { date: "開発中", title: "オンライン対戦", body: "まず1対1のネットコード、次に2対2のチーム戦。並行してキャラクターモデルをMetaHumanへ移行します。" },
+        { date: "2026〜2027年", title: "Xbox コンソール", body: "マイクロソフトのID@Xboxプログラムに申請し、コンソールへ。" },
         { date: "目標", title: "武術バトルロイヤル", body: "今は1対1。次に2対2。さらにチーム規模を広げ、最後は素手の64人が一つのアリーナに。64は適当な数字ではありません——トーナメント表であり、この作品は大会から生まれました。" }
       ]
     },
@@ -372,8 +377,7 @@ const I18N = {
         "2022年にメタバース2件を立ち上げ2023年に終了——学び：終着点がなければ人は残らない。ゲームにはそれがある。",
         "2019年から東京ゲームショウに参加 · 2020年 Evo Japan 参加とソフトバンク東京本社訪問 · 2022年ソフトバンク役員と面談",
         "Gamescom 2022（ドイツ）、東京ゲームショウ 2022、CES 2023（ラスベガス）出展 · 2019年から毎年 釜山 G-Star に参加"
-      ],
-      partners: "インドとタイの開発者と組んでいます。タイのスタジオにはディアブロII、World of Warcraft、StarCraftを手がけた開発者がいます。"
+      ]
     },
     songs: { heading: "あなたの言語で", lead: "ファイターたちが話す言語で録音した主題歌とゲームプレイ。" },
     decks: { heading: "企画書", en: "English version", ko: "한국어 버전" },
@@ -440,9 +444,11 @@ const I18N = {
     roadmap: {
       heading: "Hacia dónde va",
       items: [
-        { date: "15 agosto 2026", title: "GWB Game Awards", body: "Candidatura al concurso internacional indie de Tencent." },
-        { date: "2026", title: "Steam y Epic Games Store", body: "El lanzamiento en PC es el primer paso comercial, sustituyendo los modelos provisionales por MetaHumans." },
-        { date: "Después", title: "Consola Xbox", body: "Llevar el juego al programa ID@Xbox de Microsoft." },
+        { date: "15 agosto 2026", title: "GWB Game Awards — Tencent", body: "Candidatura al concurso internacional indie. El jurado recibe la versión actual: 21 luchadores y seis escenarios." },
+        { date: "Otoño 2026", title: "Página de Steam", body: "Registro por Steamworks Direct y página de Próximamente, para acumular listas de deseos antes del lanzamiento." },
+        { date: "Otoño 2026", title: "Epic Games Store", body: "Solicitud de distribución en paralelo a Steam." },
+        { date: "En desarrollo", title: "Multijugador en línea", body: "Primero el netcode 1v1, después el 2v2. Por el camino, los modelos pasan a MetaHuman." },
+        { date: "2026–2027", title: "Consola Xbox", body: "Solicitud al programa ID@Xbox de Microsoft para llegar a consola." },
         { date: "La meta", title: "Battle royale de artes marciales", body: "Hoy 1v1. Luego 2v2. Después modos por equipos más grandes y, al final, un cuadro de 64 luchadores en una arena, solo con las manos. El 64 no es arbitrario: es un cuadro de torneo, y este juego nació de un torneo." }
       ]
     },
@@ -456,8 +462,7 @@ const I18N = {
         "Dos plataformas de metaverso lanzadas en 2022 y cerradas en 2023. La lección: sin una meta final, la gente no se queda. Los juegos la tienen.",
         "Tokyo Game Show desde 2019 · Evo Japan 2020 y visita a la sede de SoftBank en Tokio · reunión con directivos de SoftBank en 2022",
         "Stands en Gamescom 2022 (Alemania), Tokyo Game Show 2022 y CES 2023 (Las Vegas) · G-Star de Busan cada año desde 2019"
-      ],
-      partners: "Trabajamos con desarrolladores de India y Tailandia, incluido un estudio tailandés con veteranos de Diablo II, World of Warcraft y StarCraft."
+      ]
     },
     songs: { heading: "En tu idioma", lead: "Tema musical y gameplay, grabados en las lenguas que hablan nuestros luchadores." },
     decks: { heading: "Dossier", en: "English version", ko: "한국어 버전" },
@@ -524,9 +529,11 @@ const I18N = {
     roadmap: {
       heading: "Para onde vai",
       items: [
-        { date: "15 agosto 2026", title: "GWB Game Awards", body: "Candidatura ao concurso internacional de jogos indie da Tencent." },
-        { date: "2026", title: "Steam e Epic Games Store", body: "O lançamento em PC é o primeiro passo comercial, com MetaHumans a substituir os modelos provisórios." },
-        { date: "A seguir", title: "Consola Xbox", body: "Levar o jogo ao programa ID@Xbox da Microsoft." },
+        { date: "15 agosto 2026", title: "GWB Game Awards — Tencent", body: "Candidatura ao concurso internacional indie. O júri recebe a versão atual: 21 lutadores e seis cenários." },
+        { date: "Outono 2026", title: "Página Steam", body: "Registo via Steamworks Direct e página Brevemente, para juntar wishlists antes do lançamento." },
+        { date: "Outono 2026", title: "Epic Games Store", body: "Pedido de distribuição em paralelo com a Steam." },
+        { date: "Em desenvolvimento", title: "Multijogador online", body: "Primeiro o netcode 1v1, depois o 2v2. Pelo caminho, os modelos passam para MetaHuman." },
+        { date: "2026–2027", title: "Consola Xbox", body: "Candidatura ao programa ID@Xbox da Microsoft para chegar à consola." },
         { date: "O objetivo", title: "Battle royale de artes marciais", body: "Hoje 1v1. Depois 2v2. A seguir modos de equipa maiores e, por fim, um quadro de 64 lutadores numa arena, só com as mãos. O 64 não é arbitrário: é um quadro de torneio, e este jogo nasceu de um torneio." }
       ]
     },
@@ -540,8 +547,7 @@ const I18N = {
         "Duas plataformas de metaverso lançadas em 2022 e encerradas em 2023 — a lição: sem um objetivo final, as pessoas não ficam. Os jogos têm um.",
         "Tokyo Game Show desde 2019 · Evo Japan 2020 e visita à sede da SoftBank em Tóquio · reunião com executivos da SoftBank em 2022",
         "Stands na Gamescom 2022 (Alemanha), Tokyo Game Show 2022 e CES 2023 (Las Vegas) · G-Star de Busan todos os anos desde 2019"
-      ],
-      partners: "Trabalhamos com programadores da Índia e da Tailândia, incluindo um estúdio tailandês com veteranos de Diablo II, World of Warcraft e StarCraft."
+      ]
     },
     songs: { heading: "Na tua língua", lead: "Tema musical e gameplay, gravados nas línguas que os nossos lutadores falam." },
     decks: { heading: "Apresentação", en: "English version", ko: "한국어 버전" },
@@ -608,9 +614,11 @@ const I18N = {
     roadmap: {
       heading: "La suite",
       items: [
-        { date: "15 août 2026", title: "GWB Game Awards", body: "Candidature au concours international de jeux indépendants de Tencent." },
-        { date: "2026", title: "Steam et Epic Games Store", body: "La sortie PC est la première étape commerciale, avec des MetaHumans à la place des modèles provisoires." },
-        { date: "Ensuite", title: "Console Xbox", body: "Amener le jeu vers le programme ID@Xbox de Microsoft." },
+        { date: "15 août 2026", title: "GWB Game Awards — Tencent", body: "Candidature au concours international de jeux indépendants. Le jury reçoit la version actuelle : 21 combattants, six décors." },
+        { date: "Automne 2026", title: "Page Steam", body: "Inscription via Steamworks Direct et page « Prochainement », pour accumuler des listes de souhaits avant la sortie." },
+        { date: "Automne 2026", title: "Epic Games Store", body: "Demande de distribution en parallèle de Steam." },
+        { date: "En développement", title: "Multijoueur en ligne", body: "D'abord le netcode 1v1, ensuite le 2v2. En chemin, les modèles passent à MetaHuman." },
+        { date: "2026–2027", title: "Console Xbox", body: "Candidature au programme ID@Xbox de Microsoft pour arriver sur console." },
         { date: "L'objectif", title: "Battle royale d'arts martiaux", body: "1v1 aujourd'hui. 2v2 ensuite. Puis des modes d'équipe plus larges, et enfin un tableau de 64 combattants dans une même arène, à mains nues. Soixante-quatre n'est pas un chiffre au hasard : c'est un tableau de tournoi, et ce jeu est né d'un tournoi." }
       ]
     },
@@ -624,8 +632,7 @@ const I18N = {
         "Deux plateformes de métavers lancées en 2022 et fermées en 2023 — la leçon : sans objectif final, les gens ne restent pas. Les jeux en ont un.",
         "Tokyo Game Show depuis 2019 · Evo Japan 2020 et visite du siège de SoftBank à Tokyo · rencontre avec des dirigeants de SoftBank en 2022",
         "Stands à la Gamescom 2022 (Allemagne), au Tokyo Game Show 2022 et au CES 2023 (Las Vegas) · G-Star de Busan chaque année depuis 2019"
-      ],
-      partners: "Nous travaillons avec des développeurs en Inde et en Thaïlande, dont un studio thaïlandais réunissant des vétérans de Diablo II, World of Warcraft et StarCraft."
+      ]
     },
     songs: { heading: "Dans votre langue", lead: "Thème musical et séquences de jeu, enregistrés dans les langues que parlent nos combattants." },
     decks: { heading: "Dossier de présentation", en: "English version", ko: "한국어 버전" },
@@ -692,9 +699,11 @@ const I18N = {
     roadmap: {
       heading: "Wohin es geht",
       items: [
-        { date: "15. August 2026", title: "GWB Game Awards", body: "Einreichung beim internationalen Indie-Wettbewerb von Tencent." },
-        { date: "2026", title: "Steam und Epic Games Store", body: "Der PC-Release ist der erste kommerzielle Schritt; MetaHumans ersetzen die Platzhaltermodelle." },
-        { date: "Als Nächstes", title: "Xbox-Konsole", body: "Über Microsofts ID@Xbox-Programm auf die Konsole." },
+        { date: "15. August 2026", title: "GWB Game Awards — Tencent", body: "Einreichung beim internationalen Indie-Wettbewerb. Die Jury erhält den aktuellen Build: 21 Kämpfer, sechs Bühnen." },
+        { date: "Herbst 2026", title: "Steam-Seite", body: "Registrierung über Steamworks Direct und eine „Demnächst\"-Seite, damit Wunschlisten schon vor dem Release wachsen." },
+        { date: "Herbst 2026", title: "Epic Games Store", body: "Vertriebsantrag parallel zu Steam." },
+        { date: "In Arbeit", title: "Online-Multiplayer", body: "Zuerst 1v1-Netcode, dann 2v2-Teamspiel. Unterwegs wechseln die Charaktermodelle auf MetaHuman." },
+        { date: "2026–2027", title: "Xbox-Konsole", body: "Bewerbung bei Microsofts ID@Xbox-Programm für den Weg auf die Konsole." },
         { date: "Das Ziel", title: "Kampfkunst-Battle-Royale", body: "Heute 1v1. Dann 2v2. Danach größere Teammodi — und am Ende ein Feld von 64 Kämpfern in einer Arena, nur mit bloßen Händen. 64 ist keine willkürliche Zahl: Es ist ein Turnierbaum, und dieses Spiel stammt aus einem Turnier." }
       ]
     },
@@ -708,8 +717,7 @@ const I18N = {
         "2022 zwei Metaverse-Plattformen gestartet, 2023 eingestellt — die Lehre: ohne Endziel bleibt niemand. Spiele haben eines.",
         "Tokyo Game Show seit 2019 · Evo Japan 2020 und Besuch der SoftBank-Zentrale in Tokio · Treffen mit SoftBank-Führungskräften 2022",
         "Stände auf der Gamescom 2022 (Deutschland), Tokyo Game Show 2022 und CES 2023 (Las Vegas) · Busan G-Star jedes Jahr seit 2019"
-      ],
-      partners: "Wir arbeiten mit Entwicklern in Indien und Thailand, darunter ein thailändisches Studio mit Veteranen von Diablo II, World of Warcraft und StarCraft."
+      ]
     },
     songs: { heading: "In deiner Sprache", lead: "Titelsong und Spielszenen, aufgenommen in den Sprachen unserer Kämpfer." },
     decks: { heading: "Pitch Deck", en: "English version", ko: "한국어 버전" },
@@ -776,9 +784,11 @@ const I18N = {
     roadmap: {
       heading: "Куда дальше",
       items: [
-        { date: "15 августа 2026", title: "GWB Game Awards", body: "Заявка на международный конкурс инди-игр от Tencent." },
-        { date: "2026", title: "Steam и Epic Games Store", body: "Релиз на PC — первый коммерческий шаг; временные модели заменяются MetaHuman." },
-        { date: "Далее", title: "Консоль Xbox", body: "Выход на консоль через программу Microsoft ID@Xbox." },
+        { date: "15 августа 2026", title: "GWB Game Awards — Tencent", body: "Заявка на международный конкурс инди-игр. Жюри получает текущую сборку: 21 боец, шесть арен." },
+        { date: "Осень 2026", title: "Страница в Steam", body: "Регистрация через Steamworks Direct и страница «Скоро», чтобы списки желаемого росли ещё до релиза." },
+        { date: "Осень 2026", title: "Epic Games Store", body: "Заявка на дистрибуцию параллельно со Steam." },
+        { date: "В разработке", title: "Онлайн-мультиплеер", body: "Сначала нет­код 1 на 1, затем командный режим 2 на 2. Попутно модели переводим на MetaHuman." },
+        { date: "2026–2027", title: "Консоль Xbox", body: "Заявка в программу Microsoft ID@Xbox для выхода на консоль." },
         { date: "Цель", title: "Королевская битва боевых искусств", body: "Сегодня 1 на 1. Затем 2 на 2. Потом более крупные командные режимы — и в итоге сетка из 64 бойцов на одной арене, только голыми руками. 64 — не случайное число: это турнирная сетка, а игра выросла из турнира." }
       ]
     },
@@ -792,8 +802,7 @@ const I18N = {
         "В 2022-м запустил две метавселенные, в 2023-м закрыл — вывод: без конечной цели люди не остаются. У игр она есть.",
         "Tokyo Game Show с 2019 года · Evo Japan 2020 и визит в штаб-квартиру SoftBank в Токио · встреча с руководством SoftBank в 2022-м",
         "Стенды на Gamescom 2022 (Германия), Tokyo Game Show 2022 и CES 2023 (Лас-Вегас) · Busan G-Star каждый год с 2019-го"
-      ],
-      partners: "Работаем с разработчиками в Индии и Таиланде, включая тайскую студию с ветеранами Diablo II, World of Warcraft и StarCraft."
+      ]
     },
     songs: { heading: "На вашем языке", lead: "Заглавная тема и игровой процесс, записанные на языках наших бойцов." },
     decks: { heading: "Презентация", en: "English version", ko: "한국어 버전" },
@@ -860,9 +869,11 @@ const I18N = {
     roadmap: {
       heading: "إلى أين نتجه",
       items: [
-        { date: "‏15 أغسطس 2026", title: "جوائز GWB", body: "المشاركة في مسابقة Tencent الدولية للألعاب المستقلة." },
-        { date: "‏2026", title: "‏Steam و Epic Games Store", body: "إصدار الحاسب هو الخطوة التجارية الأولى، مع استبدال النماذج المؤقتة بشخصيات MetaHuman." },
-        { date: "الخطوة التالية", title: "منصة Xbox", body: "الوصول إلى المنصات المنزلية عبر برنامج ID@Xbox من مايكروسوفت." },
+        { date: "‏15 أغسطس 2026", title: "جوائز GWB — Tencent", body: "المشاركة في المسابقة الدولية للألعاب المستقلة. تحصل لجنة التحكيم على النسخة الحالية: 21 مقاتلًا وست ساحات." },
+        { date: "خريف 2026", title: "صفحة Steam", body: "التسجيل عبر Steamworks Direct وإطلاق صفحة «قريبًا» لتتراكم قوائم الرغبات قبل الإصدار." },
+        { date: "خريف 2026", title: "‏Epic Games Store", body: "تقديم طلب التوزيع بالتوازي مع Steam." },
+        { date: "قيد التطوير", title: "اللعب الجماعي عبر الإنترنت", body: "أولًا شبكة المواجهة الفردية، ثم الطور الجماعي 2 ضد 2. وفي الأثناء تنتقل نماذج الشخصيات إلى MetaHuman." },
+        { date: "‏2026–2027", title: "منصة Xbox", body: "التقديم إلى برنامج ID@Xbox من مايكروسوفت للوصول إلى المنصات المنزلية." },
         { date: "الهدف", title: "باتل رويال للفنون القتالية", body: "اليوم واحد ضد واحد. ثم 2 ضد 2. ثم أطوار جماعية أكبر، وأخيرًا 64 مقاتلًا في حلبة واحدة بأيديهم المجردة. والرقم 64 ليس اعتباطيًا: إنه جدول بطولة، وهذه اللعبة وُلدت من بطولة." }
       ]
     },
@@ -876,8 +887,7 @@ const I18N = {
         "أطلق منصتَي ميتافيرس عام 2022 وأغلقهما عام 2023 — والدرس: من دون هدف نهائي لا يبقى الناس. الألعاب لديها هدف.",
         "‏حضور Tokyo Game Show منذ 2019 · Evo Japan 2020 وزيارة مقر SoftBank في طوكيو · اجتماع مع تنفيذيي SoftBank عام 2022",
         "أجنحة في Gamescom 2022 (ألمانيا) و Tokyo Game Show 2022 و CES 2023 (لاس فيغاس) · G-Star في بوسان سنويًا منذ 2019"
-      ],
-      partners: "نعمل مع مطوّرين في الهند وتايلاند، من بينهم استوديو تايلاندي يضم مخضرمين شاركوا في Diablo II و World of Warcraft و StarCraft."
+      ]
     },
     songs: { heading: "بلغتك", lead: "أغنية الشارة ولقطات من اللعب، مسجّلة بلغات مقاتلينا." },
     decks: { heading: "ملف العرض", en: "English version", ko: "한국어 버전" },
