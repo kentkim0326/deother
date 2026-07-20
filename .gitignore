@@ -8,5 +8,6 @@ _pdf2.js
 Thumbs.db
 .DS_Store
 
-# 원본 전체 표지 — 사이트는 잘라낸 seraphim-cover.jpg 만 쓴다
+# 원본 전체 표지 — 사이트는 잘라낸 seraphim-cover.jpg 만 쓴다.
+# (원본은 Downloads 에 있고 저장소에는 두지 않는다)
 assets/seraphim.png
