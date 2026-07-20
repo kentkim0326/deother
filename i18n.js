@@ -21,6 +21,9 @@ const LINKS = {
 const FN_SLIDES = ["fn-08.jpg", "fn-11.jpg", "fn-05.jpg", "fn-16.jpg", "fn-15.jpg", "fn-09.jpg", "fn-06.jpg", "fn-04.jpg"];
 const MV_SLIDES = ["mv-01.jpg", "mv-02.jpg", "mv-03.jpg", "mv-04.jpg", "mv-05.jpg", "mv-06.jpg", "mv-07.jpg", "mv-08.jpg"];   // assets/slides-mv/ — 밀리버스 상세 페이지에서 쓴다
 const KW_SLIDES = ["kw-09.jpg", "kw-14.jpg", "kw-08.jpg", "kw-05.jpg", "kw-13.jpg", "kw-23.jpg", "kw-20.jpg", "kw-17.jpg"];
+const IP_COVERS = [];   // assets/covers/ — .\add-slides.ps1 ip 가 채운다
+// 표지에 제목이 이미 박혀 있으므로 번역하지 않고 원제를 쓴다. 순서는 IP_COVERS 와 같다.
+const IP_TITLES = [];
 
 const WORKS = [
   { key: "fn",       url: LINKS.itch,                            tag: "2026",
@@ -147,6 +150,7 @@ const I18N = {
       ]
     },
     songs: { heading: "In your language", lead: "Theme song and gameplay, recorded in the languages our fighters speak." },
+    ip: { heading: "The stories behind them", lead: "Novels and web serials, written in-house.", note: "Every world our games are set in started as a manuscript. We are not licensing someone else's IP — we write it, and a game is one way of telling it." },
     works: { more: "Read more", heading: "What we have built", lead: "Three games built and live, and the IP behind them — novels and web serials — written in-house.", note: "Martial arts from 200 nations, the coordinates of real cities, squads wearing their flags — there is always a country in our games. Not to make any one of them stronger, but so that a player from anywhere can find their place in it.", items: {
       fn: { t: "Fighting Nations", b: "3D bare-handed martial arts fighter. In development, playable now." },
       kingdom: { t: "Kingdom Wars", b: "Pick a nation and a commander, then take the Moon sector by sector — 49 of them, turn by turn, in the browser. Killstreaks, battle grades and loot drops. Live in four languages." },
@@ -241,6 +245,7 @@ const I18N = {
       ]
     },
     songs: { heading: "당신의 언어로", lead: "파이터들이 쓰는 언어로 녹음한 주제가와 게임플레이." },
+    ip: { heading: "우리가 가진 이야기", lead: "소설과 웹소설. 직접 씁니다.", note: "게임의 배경이 되는 세계는 모두 원고에서 시작했습니다. 남의 IP를 빌려 쓰는 것이 아니라 우리가 쓰고, 게임은 그 이야기를 전하는 하나의 방식입니다." },
     works: { more: "자세히", heading: "우리가 만든 것", lead: "게임 세 개를 만들어 띄웠습니다. 그 바탕이 되는 IP — 소설·웹소설 — 도 직접 씁니다.", note: "200개국의 무술, 실제 도시의 좌표, 국기를 단 부대 — 우리 게임에는 늘 국가가 있습니다. 어느 나라를 강하게 만들기 위해서가 아니라, 어느 나라 사람이든 자기 자리를 찾을 수 있게 하기 위해서입니다.", items: {
       fn: { t: "Fighting Nations", b: "3D 맨손 무술 격투게임. 개발 중이며 지금 플레이할 수 있습니다." },
       kingdom: { t: "Kingdom Wars", b: "국가와 사령관을 고르고 달의 49개 섹터를 한 칸씩 빼앗는 턴제 전략. 브라우저에서 바로 합니다. 연승 배수, 전투 등급, 전리품 드랍까지. 4개 언어로 서비스 중." },
@@ -332,6 +337,7 @@ const I18N = {
       ]
     },
     songs: { heading: "用你的语言", lead: "主题曲与实机画面，以角色们所说的语言录制。" },
+    ip: { heading: "支撑作品的故事", lead: "小说与网络连载，全部自己创作。", note: "我们游戏所在的世界，都始于一份手稿。这不是借用他人的 IP——我们自己写，而游戏是讲述这些故事的一种方式。" },
     works: { more: "了解更多", heading: "我们做出来的东西", lead: "三款游戏，都已上线。支撑它们的 IP——小说与网络连载——也全部自己创作。", note: "两百个国家的武术、真实城市的坐标、佩戴国旗的部队——我们的游戏里始终有国家。不是为了让某一国更强，而是让来自任何地方的玩家都能找到自己的位置。", items: {
       fn: { t: "Fighting Nations", b: "3D 赤手武术格斗游戏。开发中，现在即可试玩。" },
       kingdom: { t: "Kingdom Wars", b: "选择国家与指挥官，在浏览器里一格一格拿下月球的 49 个区块。连胜加成、战斗评级、战利品掉落。四种语言运营中。" },
@@ -423,6 +429,7 @@ const I18N = {
       ]
     },
     songs: { heading: "あなたの言語で", lead: "ファイターたちが話す言語で録音した主題歌とゲームプレイ。" },
+    ip: { heading: "その背後にある物語", lead: "小説とウェブ小説。自分たちで書いています。", note: "ゲームの舞台となる世界は、すべて原稿から始まりました。他社のIPを借りるのではなく、自分たちで書く。ゲームはその物語を伝える一つの方法です。" },
     works: { more: "詳しく", heading: "作ってきたもの", lead: "三本のゲームを作り、世に出しました。その土台となるIP——小説とウェブ小説——も自分たちで書いています。", note: "200カ国の武術、実在する都市の座標、国旗を掲げた部隊——私たちのゲームにはいつも国があります。どこか一国を強くするためではなく、どの国の人でも自分の居場所を見つけられるようにするためです。", items: {
       fn: { t: "Fighting Nations", b: "3D素手武術の格闘ゲーム。開発中、今すぐ遊べます。" },
       kingdom: { t: "Kingdom Wars", b: "国と司令官を選び、月の49セクターを一つずつ奪っていくターン制ストラテジー。ブラウザですぐ遊べます。連勝ボーナス、戦闘評価、戦利品ドロップつき。4言語で稼働中。" },
@@ -514,6 +521,7 @@ const I18N = {
       ]
     },
     songs: { heading: "En tu idioma", lead: "Tema musical y gameplay, grabados en las lenguas que hablan nuestros luchadores." },
+    ip: { heading: "Las historias detrás", lead: "Novelas y seriales, escritos por nosotros.", note: "Todos los mundos donde ocurren nuestros juegos empezaron siendo un manuscrito. No licenciamos la IP de nadie: la escribimos, y el juego es una forma de contarla." },
     works: { more: "Saber más", heading: "Lo que hemos construido", lead: "Tres juegos construidos y en línea. Y la IP que hay detrás —novelas y seriales— la escribimos nosotros.", note: "Artes marciales de doscientas naciones, coordenadas de ciudades reales, escuadrones con su bandera: en nuestros juegos siempre hay un país. No para hacer más fuerte a ninguno, sino para que un jugador de cualquier lugar encuentre su sitio.", items: {
       fn: { t: "Fighting Nations", b: "Juego de lucha 3D a mano limpia. En desarrollo, jugable ya." },
       kingdom: { t: "Kingdom Wars", b: "Elige nación y comandante y toma la Luna sector a sector: 49 en total, por turnos, en el navegador. Rachas de victorias, calificación de combate y botín. Disponible en cuatro idiomas." },
@@ -605,6 +613,7 @@ const I18N = {
       ]
     },
     songs: { heading: "Na tua língua", lead: "Tema musical e gameplay, gravados nas línguas que os nossos lutadores falam." },
+    ip: { heading: "As histórias por trás", lead: "Romances e séries web, escritos por nós.", note: "Todos os mundos onde os nossos jogos acontecem começaram como um manuscrito. Não licenciamos a IP de ninguém: escrevemo-la, e o jogo é uma forma de a contar." },
     works: { more: "Saber mais", heading: "O que construímos", lead: "Três jogos construídos e no ar. E a IP por trás deles — romances e séries web — é escrita internamente.", note: "Artes marciais de duzentas nações, coordenadas de cidades reais, esquadrões com a sua bandeira — há sempre um país nos nossos jogos. Não para tornar algum deles mais forte, mas para que um jogador de qualquer lugar encontre o seu lugar.", items: {
       fn: { t: "Fighting Nations", b: "Jogo de luta 3D de mãos livres. Em desenvolvimento, já jogável." },
       kingdom: { t: "Kingdom Wars", b: "Escolhe nação e comandante e toma a Lua setor a setor: 49 ao todo, por turnos, no navegador. Sequências de vitórias, classificação de combate e loot. Disponível em quatro línguas." },
@@ -696,6 +705,7 @@ const I18N = {
       ]
     },
     songs: { heading: "Dans votre langue", lead: "Thème musical et séquences de jeu, enregistrés dans les langues que parlent nos combattants." },
+    ip: { heading: "Les histoires derrière", lead: "Romans et feuilletons, écrits en interne.", note: "Chaque monde où se déroulent nos jeux a commencé par un manuscrit. Nous n'exploitons pas la propriété intellectuelle d'un autre : nous l'écrivons, et le jeu est une façon de la raconter." },
     works: { more: "En savoir plus", heading: "Ce que nous avons construit", lead: "Trois jeux construits et en ligne. Et la propriété intellectuelle qui les porte — romans et feuilletons — est écrite en interne.", note: "Les arts martiaux de deux cents nations, les coordonnées de villes réelles, des escouades portant leur drapeau : il y a toujours un pays dans nos jeux. Non pour en rendre un plus fort, mais pour qu'un joueur de n'importe où y trouve sa place.", items: {
       fn: { t: "Fighting Nations", b: "Jeu de combat 3D à mains nues. En développement, jouable dès maintenant." },
       kingdom: { t: "Kingdom Wars", b: "Choisissez une nation et un commandant, puis prenez la Lune secteur par secteur : 49 en tout, au tour par tour, dans le navigateur. Séries de victoires, notes de combat et butin. Disponible en quatre langues." },
@@ -787,6 +797,7 @@ const I18N = {
       ]
     },
     songs: { heading: "In deiner Sprache", lead: "Titelsong und Spielszenen, aufgenommen in den Sprachen unserer Kämpfer." },
+    ip: { heading: "Die Geschichten dahinter", lead: "Romane und Web-Serials, selbst geschrieben.", note: "Jede Welt, in der unsere Spiele stattfinden, begann als Manuskript. Wir lizenzieren keine fremde IP — wir schreiben sie, und ein Spiel ist eine Art, sie zu erzählen." },
     works: { more: "Mehr erfahren", heading: "Was wir gebaut haben", lead: "Drei Spiele gebaut und online. Und die IP dahinter — Romane und Web-Serials — schreiben wir selbst.", note: "Kampfkünste aus zweihundert Nationen, Koordinaten echter Städte, Trupps mit ihrer Flagge — in unseren Spielen gibt es immer ein Land. Nicht um eines davon stärker zu machen, sondern damit Spielerinnen und Spieler von überall ihren Platz darin finden.", items: {
       fn: { t: "Fighting Nations", b: "3D-Kampfspiel mit bloßen Händen. In Entwicklung, jetzt spielbar." },
       kingdom: { t: "Kingdom Wars", b: "Nation und Kommandant wählen, dann den Mond Sektor für Sektor nehmen — 49 davon, rundenbasiert, im Browser. Siegesserien, Kampfwertungen und Beute. In vier Sprachen verfügbar." },
@@ -878,6 +889,7 @@ const I18N = {
       ]
     },
     songs: { heading: "На вашем языке", lead: "Заглавная тема и игровой процесс, записанные на языках наших бойцов." },
+    ip: { heading: "Истории, которые за ними стоят", lead: "Романы и веб-сериалы. Мы пишем их сами.", note: "Каждый мир, в котором происходят наши игры, начинался с рукописи. Мы не берём чужую интеллектуальную собственность — мы пишем свою, а игра лишь один из способов её рассказать." },
     works: { more: "Подробнее", heading: "Что мы построили", lead: "Три игры сделаны и работают. И IP за ними — романы и веб-сериалы — мы пишем сами.", note: "Боевые искусства двухсот стран, координаты настоящих городов, отряды под своими флагами — в наших играх всегда есть страна. Не для того, чтобы сделать какую-то сильнее, а чтобы игрок откуда угодно нашёл в ней своё место.", items: {
       fn: { t: "Fighting Nations", b: "3D-файтинг без оружия. В разработке, играть можно уже сейчас." },
       kingdom: { t: "Kingdom Wars", b: "Выберите страну и командира и забирайте Луну сектор за сектором — всего 49, пошагово, прямо в браузере. Серии побед, оценки боя и трофеи. Доступна на четырёх языках." },
@@ -969,6 +981,7 @@ const I18N = {
       ]
     },
     songs: { heading: "بلغتك", lead: "أغنية الشارة ولقطات من اللعب، مسجّلة بلغات مقاتلينا." },
+    ip: { heading: "الحكايات التي وراءها", lead: "روايات وسلاسل إلكترونية، نكتبها بأنفسنا.", note: "كل عالَم تدور فيه ألعابنا بدأ مخطوطةً. نحن لا نستأجر ملكية فكرية لأحد — نكتبها، واللعبة إحدى طرق روايتها." },
     works: { more: "اقرأ المزيد", heading: "ما بنيناه", lead: "ثلاث ألعاب مبنية وتعمل. والملكية الفكرية خلفها — روايات وسلاسل إلكترونية — نكتبها بأنفسنا.", note: "فنون قتالية من مئتَي دولة، وإحداثيات مدن حقيقية، وفرق ترفع أعلامها — في ألعابنا حضور دائم للأوطان. لا لنجعل واحدة منها أقوى، بل ليجد اللاعب من أي مكان موضعه فيها.", items: {
       fn: { t: "Fighting Nations", b: "لعبة قتال ثلاثية الأبعاد بالأيدي المجردة. قيد التطوير وقابلة للعب الآن." },
       kingdom: { t: "Kingdom Wars", b: "اختر دولة وقائدًا ثم استولِ على القمر قطاعًا بعد قطاع — 49 قطاعًا، بالأدوار، من المتصفح مباشرة. سلاسل انتصارات وتقييمات للمعارك وغنائم. متاحة بأربع لغات." },

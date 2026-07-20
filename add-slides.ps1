@@ -7,7 +7,7 @@
 # 하는 일: 가로 1600px 로 줄이고 JPEG 82% 로 저장한 뒤,
 #          i18n.js 의 FN_SLIDES / KW_SLIDES 배열을 파일 목록으로 갱신한다.
 
-param([Parameter(Mandatory=$true)][ValidateSet('fn','kingdom','miliverse')][string]$Which)
+param([Parameter(Mandatory=$true)][ValidateSet('fn','kingdom','miliverse','ip')][string]$Which)
 
 Add-Type -AssemblyName System.Drawing
 
@@ -15,7 +15,11 @@ $cfg = @{
   fn        = @{ src = "$env:USERPROFILE\Downloads\fn-slides";        out = "assets\slides-fn"; var = 'FN_SLIDES'; prefix = 'fn' }
   kingdom   = @{ src = "$env:USERPROFILE\Downloads\kingdom-slides";   out = "assets\slides-kw"; var = 'KW_SLIDES'; prefix = 'kw' }
   miliverse = @{ src = "$env:USERPROFILE\Downloads\miliverse-slides"; out = "assets\slides-mv"; var = 'MV_SLIDES'; prefix = 'mv' }
+  # 소설 표지는 세로로 긴 그림이라 가로 1600 은 과하다. 책장처럼 늘어놓을 것이므로 640 이면 충분.
+  ip        = @{ src = "$env:USERPROFILE\Downloads\ip-slides";        out = "assets\covers";    var = 'IP_COVERS'; prefix = 'ip'; width = 640 }
 }[$Which]
+
+$maxW = if ($cfg.width) { $cfg.width } else { 1600 }
 
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $out  = Join-Path $root $cfg.out
@@ -42,7 +46,7 @@ foreach ($f in $files) {
   $i++
   $before += $f.Length
   $img = [System.Drawing.Image]::FromFile($f.FullName)
-  $w = [Math]::Min(1600, $img.Width)
+  $w = [Math]::Min($maxW, $img.Width)
   $h = [int]($img.Height * $w / $img.Width)
   $bmp = New-Object System.Drawing.Bitmap $w, $h
   $g = [System.Drawing.Graphics]::FromImage($bmp)

@@ -174,6 +174,29 @@ function render(code) {
   // 세 게임을 관통하는 관점 — 카드를 다 본 뒤에 읽어야 뜻이 산다
   set("wkNote", t.works.note);
 
+  // --- 우리가 가진 이야기 (소설 표지) ---
+  // 표지가 하나도 없으면 섹션째로 숨긴다. 빈 제목만 뜨는 것보다 낫다.
+  const ipSec = document.getElementById("ip");
+  if (ipSec) {
+    ipSec.hidden = !IP_COVERS.length;
+    if (IP_COVERS.length) {
+      set("ipHeading", t.ip.heading);
+      set("ipLead", t.ip.lead);
+      set("ipNote", t.ip.note);
+      document.getElementById("ipCovers").replaceChildren(...IP_COVERS.map((file, i) => {
+        const fig = el("figure", "cover");
+        const img = document.createElement("img");
+        img.src = "assets/covers/" + file;
+        img.alt = IP_TITLES[i] || "";
+        img.loading = "lazy";
+        fig.append(img);
+        // 표지 그림에 제목이 이미 박혀 있으므로 원제를 그대로 쓴다 (번역하지 않는다)
+        if (IP_TITLES[i]) fig.append(el("figcaption", null, IP_TITLES[i]));
+        return fig;
+      }));
+    }
+  }
+
   buildSlideshow();
 
   // --- 발표 자료 ---

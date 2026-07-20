@@ -388,3 +388,13 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
 /* 슬라이드 설명 — 무슨 화면인지 알려준다. 그림만 있으면 심사자가 해석을 해야 한다 */
 .slide-cap { margin: 12px 0 0; text-align: center; color: var(--muted);
   font-size: 14px; line-height: 1.6; min-height: 1.6em; }
+
+/* 소설 표지 — 책장처럼 늘어놓는다. 표지는 세로로 긴 그림(2:3)이다 */
+.covers { display: grid; gap: 22px; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+.cover { margin: 0; }
+.cover img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; display: block;
+  border-radius: 8px; border: 1px solid var(--line); background: #000;
+  transition: transform .25s ease, box-shadow .25s ease; }
+.cover:hover img { transform: translateY(-4px); box-shadow: 0 14px 34px rgba(0,0,0,.55); }
+.cover figcaption { margin-top: 10px; font-size: 13px; color: var(--muted); line-height: 1.5; }
+@media (prefers-reduced-motion: reduce) { .cover img { transition: none; } }
