@@ -144,7 +144,9 @@ function render(code) {
     // 로고가 있는 것만 마크를 얹는다 (없으면 제목이 그 자리를 차지해 어색하지 않다)
     if (w.logo) {
       const img = document.createElement("img");
-      img.src = w.logo; img.alt = ""; img.className = "work-logo"; img.loading = "lazy";
+      img.src = w.logo; img.alt = ""; img.loading = "lazy";
+      // FN 은 정사각 엠블럼이 없고 가로로 긴 워드마크라 더 넓게 놓는다
+      img.className = w.logoWide ? "work-logo wide" : "work-logo";
       card.append(img);
     }
     card.append(el("div", "work-tag", w.tag));
@@ -154,6 +156,13 @@ function render(code) {
     link.href = w.url; link.target = "_blank"; link.rel = "noopener";
     h.append(link);
     card.append(h, el("p", null, it.b));
+
+    // 숫자가 있으면 붙인다 — 설명 한 줄보다 "얼마나 만들었나"가 빨리 읽힌다
+    if (it.s) {
+      const row = el("ul", "work-stats");
+      it.s.forEach(x => row.append(el("li", null, x)));
+      card.append(row);
+    }
 
     // 상세 페이지가 있는 게임은 그쪽을 먼저 보여준다 — 철학·전투·데이터 활용이 거기 있다
     const links = el("div", "work-links");
