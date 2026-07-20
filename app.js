@@ -183,6 +183,14 @@ function render(code) {
       set("ipHeading", t.ip.heading);
       set("ipLead", t.ip.lead);
       set("ipNote", t.ip.note);
+
+      // 하드커버 전개도 — 실제로 종이책이 나왔다는 증거라 격자보다 앞에 둔다
+      const book = document.getElementById("ipBook");
+      if (book) {
+        book.hidden = false;
+        document.getElementById("ipBookLink").href = LINKS.novel;
+        set("ipBookCap", t.ip.book);
+      }
       document.getElementById("ipCovers").replaceChildren(...IP_COVERS.map((file, i) => {
         const fig = el("figure", "cover");
         const img = document.createElement("img");
