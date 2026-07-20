@@ -18,7 +18,7 @@ const LINKS = {
 // 배열이 비어 있으면 그 슬라이드쇼는 아예 렌더되지 않으므로 이미지가 없어도 안전하다.
 //   FN_SLIDES → assets/slides-fn/    (히어로의 정지 이미지를 대체한다)
 //   KW_SLIDES → assets/slides-kw/    ('우리가 만든 것' 아래에 붙는다)
-const FN_SLIDES = [];
+const FN_SLIDES = ["fn-08.jpg", "fn-11.jpg", "fn-05.jpg", "fn-16.jpg", "fn-15.jpg", "fn-09.jpg", "fn-06.jpg", "fn-04.jpg"];
 const KW_SLIDES = [];
 
 const WORKS = [

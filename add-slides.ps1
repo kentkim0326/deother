@@ -20,8 +20,16 @@ $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $out  = Join-Path $root $cfg.out
 New-Item -ItemType Directory -Path $out -Force | Out-Null
 
-$files = Get-ChildItem $cfg.src -Include *.png,*.jpg,*.jpeg,*.webp -File -Recurse -EA SilentlyContinue | Sort-Object Name
-if (-not $files) { Write-Host "  $($cfg.src) 에 이미지가 없습니다." -ForegroundColor Yellow; exit }
+$all = Get-ChildItem $cfg.src -Include *.png,*.jpg,*.jpeg,*.webp -File -Recurse -EA SilentlyContinue | Sort-Object Name
+if (-not $all) { Write-Host "  $($cfg.src) 에 이미지가 없습니다." -ForegroundColor Yellow; exit }
+
+# 같은 그림을 두 번 받아둔 경우가 흔하다 ("파일 (1).png"). 내용 해시로 걸러낸다.
+$seen = @{}; $files = @(); $dup = 0
+foreach ($x in $all) {
+  $h = (Get-FileHash $x.FullName -Algorithm MD5).Hash
+  if ($seen[$h]) { $dup++ } else { $seen[$h] = 1; $files += $x }
+}
+if ($dup) { "  중복 $dup 장 제외 ($($all.Count) → $($files.Count))" }
 
 # JPEG 인코더 (82% — 이 그림들은 디테일이 많아 그 아래로 내리면 뭉개진다)
 $enc = [System.Drawing.Imaging.ImageCodecInfo]::GetImageEncoders() | Where-Object { $_.MimeType -eq 'image/jpeg' }
