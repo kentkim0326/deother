@@ -245,6 +245,7 @@ function render(code) {
   contact.href = LINKS.mail; contact.textContent = t.footer.contact;
   document.getElementById("ftYouTube").href = LINKS.youtube;
   document.getElementById("ftFacebook").href = LINKS.facebook;
+  document.getElementById("ftFounder").href = LINKS.founderFb;
   document.getElementById("ftItch").href = LINKS.itch;
   set("ftRights", `© ${new Date().getFullYear()} ${t.footer.studio}. ${t.footer.rights}`);
 }

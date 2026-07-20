@@ -8,6 +8,8 @@ const LINKS = {
   deckEn: "https://gamma.app/docs/1020-English-Version-t5roxmlyf9rfi4c",
   deckKo: "https://gamma.app/docs/1020--aavkhdyq423puwv",
   facebook: "https://www.facebook.com/deotherme",
+  // 회사 페이지와 별개로 대표 개인 계정. 1인 스튜디오라 사람이 곧 회사다.
+  founderFb: "https://www.facebook.com/kentkim009/",
   youtube: "https://www.youtube.com/channel/UCQaEcI1xWOg_tvTqZBYBbGw",
   mail:   "mailto:kentkim@gmail.com"
 };
