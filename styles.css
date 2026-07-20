@@ -199,6 +199,31 @@ section.alt { background: var(--bg-2); }
 }
 .work-sns:hover { color: var(--accent); }
 
+/* ---------- 슬라이드쇼 (Kingdom Wars) ---------- */
+.slideshow { margin-top: 40px; }
+.slide-track {
+  position: relative; aspect-ratio: 16 / 9; border-radius: 12px;
+  overflow: hidden; border: 1px solid var(--line); background: #000;
+}
+.slide-track img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; opacity: 0; transition: opacity .7s ease;
+}
+.slide-track img.on { opacity: 1; }
+
+.slide-dots { display: flex; gap: 8px; justify-content: center; margin-top: 16px; flex-wrap: wrap; }
+.slide-dots button {
+  width: 8px; height: 8px; padding: 0; border-radius: 50%;
+  border: 0; background: var(--line); cursor: pointer; transition: .2s;
+}
+.slide-dots button:hover { background: var(--fg-faint); }
+.slide-dots button.on { background: var(--accent); transform: scale(1.3); }
+
+/* 움직임을 불편해하는 사용자를 위해 전환을 끈다 */
+@media (prefers-reduced-motion: reduce) {
+  .slide-track img { transition: none; }
+}
+
 /* ---------- 연표 ---------- */
 .events { margin-top: 44px; display: grid; gap: 2px; }
 .event {

@@ -13,6 +13,10 @@ const LINKS = {
 
 // 디아더가 만들어 띄운 것들. 링크가 살아 있는 것만 넣는다.
 // logo 는 '진짜 로고 마크'가 있을 때만 넣는다. 커버 아트를 작게 줄여 넣으면 마크처럼 안 보인다.
+// Kingdom Wars 슬라이드쇼. 파일을 assets/slides/ 에 넣고 여기 이름만 더하면 늘어난다.
+// 비어 있으면 슬라이드쇼 자체가 렌더되지 않으므로 이미지가 없어도 안전하다.
+const KW_SLIDES = [];
+
 const WORKS = [
   { key: "fn",       url: LINKS.itch,                            tag: "2026" },
   { key: "kingdom",  url: "https://kingdom-wars-puce.vercel.app", tag: "2026",
