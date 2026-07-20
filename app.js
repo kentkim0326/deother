@@ -180,24 +180,23 @@ function render(code) {
   set("ftRights", `© ${new Date().getFullYear()} ${t.footer.studio}. ${t.footer.rights}`);
 }
 
-/** Kingdom Wars 슬라이드쇼. 언어와 무관해서 언어 전환 때 다시 만들지 않는다. */
-let slideTimer = null;
-function buildSlideshow() {
-  const box = document.getElementById("kwSlides");
-  if (!box || !KW_SLIDES.length) return;      // 이미지가 없으면 통째로 숨긴 채 둔다
-  if (box.dataset.built) return;              // 언어를 바꿔도 다시 만들지 않는다
+/** 슬라이드쇼 하나를 만든다. 언어와 무관하므로 언어 전환 때 다시 만들지 않는다.
+ *  files 가 비어 있으면 아무것도 하지 않는다 — 이미지가 없어도 안전하다. */
+function makeSlideshow({ boxId, trackId, dotsId, folder, files, interval = 4500 }) {
+  const box = document.getElementById(boxId);
+  if (!box || !files.length || box.dataset.built) return;
   box.dataset.built = "1";
   box.hidden = false;
 
-  const track = document.getElementById("kwTrack");
-  const dots  = document.getElementById("kwDots");
-  let idx = 0;
+  const track = document.getElementById(trackId);
+  const dots  = document.getElementById(dotsId);
+  let idx = 0, timer = null;
 
-  KW_SLIDES.forEach((file, i) => {
+  files.forEach((file, i) => {
     const img = document.createElement("img");
-    img.src = "assets/slides/" + file;
+    img.src = folder + file;
     img.alt = "";
-    // 첫 장만 즉시 불러오고 나머지는 지연 — 15장을 한꺼번에 받으면 느려진다
+    // 첫 장만 즉시 불러오고 나머지는 지연 — 15장을 한꺼번에 받으면 첫 화면이 느려진다
     img.loading = i === 0 ? "eager" : "lazy";
     if (i === 0) img.className = "on";
     track.append(img);
@@ -210,17 +209,29 @@ function buildSlideshow() {
   });
 
   function show(n) {
-    idx = (n + KW_SLIDES.length) % KW_SLIDES.length;
+    idx = (n + files.length) % files.length;
     [...track.children].forEach((c, i) => c.classList.toggle("on", i === idx));
     [...dots.children].forEach((c, i) => c.classList.toggle("on", i === idx));
   }
-  const next = () => show(idx + 1);
+  const start = () => { timer = setInterval(() => show(idx + 1), interval); };
+  const stop  = () => clearInterval(timer);
 
-  clearInterval(slideTimer);
-  slideTimer = setInterval(next, 4000);
+  start();
   // 마우스를 올리면 멈춘다 — 보고 있는 장면이 넘어가면 성가시다
-  box.addEventListener("mouseenter", () => clearInterval(slideTimer));
-  box.addEventListener("mouseleave", () => { slideTimer = setInterval(next, 4000); });
+  box.addEventListener("mouseenter", stop);
+  box.addEventListener("mouseleave", start);
+}
+
+function buildSlideshow() {
+  // Fighting Nations — 히어로의 정지 커버를 대신한다 (이미지가 있을 때만)
+  const heroArt = document.getElementById("heroArt");
+  if (FN_SLIDES.length && heroArt) heroArt.hidden = true;
+  makeSlideshow({ boxId: "fnSlides", trackId: "fnTrack", dotsId: "fnDots",
+                  folder: "assets/slides-fn/", files: FN_SLIDES });
+
+  // Kingdom Wars — '우리가 만든 것' 아래
+  makeSlideshow({ boxId: "kwSlides", trackId: "kwTrack", dotsId: "kwDots",
+                  folder: "assets/slides-kw/", files: KW_SLIDES });
 }
 
 function setupLangMenu() {

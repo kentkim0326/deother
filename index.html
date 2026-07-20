@@ -55,8 +55,13 @@
         <p class="tagline" id="tagline"></p>
         <a class="cta" id="cta" target="_blank" rel="noopener"></a>
       </div>
-      <img class="hero-art" src="assets/fn-cover.png"
+      <!-- FN_SLIDES 에 이미지가 있으면 아래 정지 이미지 대신 슬라이드쇼가 나온다 -->
+      <img class="hero-art" id="heroArt" src="assets/fn-cover.png"
            alt="Fighting Nations — national representative fighters" loading="eager">
+      <div class="slideshow hero-slides" id="fnSlides" hidden>
+        <div class="slide-track" id="fnTrack"></div>
+        <div class="slide-dots" id="fnDots"></div>
+      </div>
     </div>
   </div>
 

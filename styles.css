@@ -199,8 +199,11 @@ section.alt { background: var(--bg-2); }
 }
 .work-sns:hover { color: var(--accent); }
 
-/* ---------- 슬라이드쇼 (Kingdom Wars) ---------- */
+/* ---------- 슬라이드쇼 ---------- */
 .slideshow { margin-top: 40px; }
+/* 히어로 안에서는 위 여백 없이 커버 이미지 자리를 그대로 차지한다 */
+.hero-slides { margin-top: 0; }
+.hero-slides .slide-track { box-shadow: 0 26px 70px rgba(0,0,0,.6); }
 .slide-track {
   position: relative; aspect-ratio: 16 / 9; border-radius: 12px;
   overflow: hidden; border: 1px solid var(--line); background: #000;
