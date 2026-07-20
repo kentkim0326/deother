@@ -139,6 +139,12 @@ function render(code) {
     const it = t.works.items[w.key];
     const a = el("a", "card work");
     a.href = w.url; a.target = "_blank"; a.rel = "noopener";
+    // 로고가 있는 것만 마크를 얹는다 (없으면 제목이 그 자리를 차지해 어색하지 않다)
+    if (w.logo) {
+      const img = document.createElement("img");
+      img.src = w.logo; img.alt = ""; img.className = "work-logo"; img.loading = "lazy";
+      a.append(img);
+    }
     a.append(el("div", "work-tag", w.tag), el("h3", null, it.t), el("p", null, it.b));
     return a;
   }));

@@ -187,6 +187,11 @@ section.alt { background: var(--bg-2); }
   text-transform: uppercase; margin-bottom: 10px;
 }
 .card.work:hover h3 { color: var(--accent); }
+.card.work .work-logo {
+  display: block; width: 52px; height: auto; margin-bottom: 14px;
+  opacity: .92; transition: .2s;
+}
+.card.work:hover .work-logo { opacity: 1; transform: scale(1.06); }
 
 /* ---------- 연표 ---------- */
 .events { margin-top: 44px; display: grid; gap: 2px; }

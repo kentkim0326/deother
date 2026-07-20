@@ -12,10 +12,12 @@ const LINKS = {
 };
 
 // 디아더가 만들어 띄운 것들. 링크가 살아 있는 것만 넣는다.
+// logo 는 '진짜 로고 마크'가 있을 때만 넣는다. 커버 아트를 작게 줄여 넣으면 마크처럼 안 보인다.
 const WORKS = [
-  { key: "fn",       url: LINKS.itch,                          tag: "2026" },
-  { key: "kingdom",  url: "https://kingdom-wars-puce.vercel.app", tag: "2026" },
-  { key: "miliverse",url: "https://miliverse-ten.vercel.app",  tag: "2022 · 2026" }
+  { key: "fn",       url: LINKS.itch,                            tag: "2026" },
+  { key: "kingdom",  url: "https://kingdom-wars-puce.vercel.app", tag: "2026",
+    logo: "assets/kingdom-wars-logo.png" },
+  { key: "miliverse",url: "https://miliverse-ten.vercel.app",     tag: "2022 · 2026" }
 ];
 
 // 개발 연표 영상 — 오래된 것부터. 제목은 영어 그대로 둔다(유튜브 원제와 맞추기 위해).
