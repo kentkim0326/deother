@@ -405,3 +405,11 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
   border: 1px solid var(--line); box-shadow: 0 22px 60px rgba(0,0,0,.5); }
 .book-wrap figcaption { margin-top: 14px; color: var(--muted); font-size: 14px;
   line-height: 1.6; max-width: 62ch; }
+
+/* 영상이 있는 표지 — 재생 표시를 얹는다 */
+.cover-play { position: relative; display: block; }
+.cover-play .play { position: absolute; inset-block-end: 10px; inset-inline-end: 10px;
+  width: 34px; height: 34px; display: grid; place-items: center; border-radius: 50%;
+  background: rgba(0,0,0,.66); color: #fff; font-size: 13px; line-height: 1;
+  border: 1px solid rgba(255,255,255,.35); transition: background .2s ease; }
+.cover-play:hover .play { background: var(--accent); }

@@ -197,7 +197,18 @@ function render(code) {
         img.src = "assets/covers/" + file;
         img.alt = IP_TITLES[i] || "";
         img.loading = "lazy";
-        fig.append(img);
+
+        // 영상이 있는 작품은 표지를 눌러 볼 수 있게 한다 (없으면 그냥 그림)
+        const url = IP_LINKS[i];
+        if (url) {
+          const a = el("a", "cover-play");
+          a.href = url; a.target = "_blank"; a.rel = "noopener";
+          a.setAttribute("aria-label", IP_TITLES[i] || "");
+          a.append(img, el("span", "play", "▶"));
+          fig.append(a);
+        } else {
+          fig.append(img);
+        }
         // 표지 그림에 제목이 이미 박혀 있으므로 원제를 그대로 쓴다 (번역하지 않는다)
         if (IP_TITLES[i]) fig.append(el("figcaption", null, IP_TITLES[i]));
         return fig;
