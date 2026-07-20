@@ -166,6 +166,12 @@ function render(code) {
 
     // 상세 페이지가 있는 게임은 그쪽을 먼저 보여준다 — 철학·전투·데이터 활용이 거기 있다
     const links = el("div", "work-links");
+    // 트레일러가 있으면 맨 앞 — 처음 보는 사람에게는 글보다 2분 영상이 빠르다
+    if (w.trailer) {
+      const tr = el("a", "work-more", "▶ " + t.works.trailer);
+      tr.href = w.trailer; tr.target = "_blank"; tr.rel = "noopener";
+      links.append(tr);
+    }
     if (w.detail) {
       const d = el("a", "work-more", t.works.more + " →");
       d.href = w.detail;
