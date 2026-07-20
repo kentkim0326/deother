@@ -103,8 +103,8 @@ const I18N = {
       heading: "Where it goes",
       items: [
         { date: "15 August 2026", title: "GWB Game Awards — Tencent", body: "Submission to the international indie competition. Judges get the current build: 21 fighters, six stages." },
-        { date: "Autumn 2026", title: "Steam page", body: "Registering through Steamworks Direct and putting up a Coming Soon page, so wishlists start building before release." },
-        { date: "Autumn 2026", title: "Epic Games Store", body: "Applying for distribution alongside Steam." },
+        { date: "September 2026", title: "Steam page", body: "Registering through Steamworks Direct and putting up a Coming Soon page, so wishlists start building before release." },
+        { date: "October 2026", title: "Epic Games Store", body: "Applying for distribution alongside Steam." },
         { date: "In development", title: "Online multiplayer", body: "1v1 netcode first, then 2v2 team play. Character models move to MetaHuman along the way." },
         { date: "2026–2027", title: "Xbox console", body: "Applying to Microsoft's ID@Xbox programme to bring the game onto console." },
         { date: "The goal", title: "Martial arts battle royale", body: "1v1 today. 2v2 next. Then larger team modes — and finally a 64-fighter bracket in one arena, nothing but bare hands. Sixty-four is not an arbitrary number: it is a tournament bracket, and this game came from a tournament." }
@@ -192,8 +192,8 @@ const I18N = {
       heading: "앞으로",
       items: [
         { date: "2026년 8월 15일", title: "GWB 게임 어워드 — 텐센트", body: "국제 인디 게임 대회에 출품합니다. 심사위원에게 현재 빌드를 제공합니다 — 21명의 파이터, 6개 스테이지." },
-        { date: "2026년 가을", title: "스팀 페이지", body: "Steamworks Direct로 등록하고 출시 예정 페이지를 올립니다. 출시 전부터 위시리스트를 모으기 위해서입니다." },
-        { date: "2026년 가을", title: "에픽 게임즈 스토어", body: "스팀과 함께 유통 신청을 넣습니다." },
+        { date: "2026년 9월", title: "스팀 페이지", body: "Steamworks Direct로 등록하고 출시 예정 페이지를 올립니다. 출시 전부터 위시리스트를 모으기 위해서입니다." },
+        { date: "2026년 10월", title: "에픽 게임즈 스토어", body: "스팀과 함께 유통 신청을 넣습니다." },
         { date: "개발 중", title: "온라인 멀티플레이어", body: "1:1 넷코드가 먼저이고 그다음이 2:2 팀전입니다. 그 사이 캐릭터 모델을 메타휴먼으로 옮깁니다." },
         { date: "2026~2027년", title: "엑스박스 콘솔", body: "마이크로소프트 ID@Xbox 프로그램에 신청해 콘솔로 갑니다." },
         { date: "목표", title: "무술 배틀로얄", body: "지금은 1:1. 다음은 2:2. 그다음 팀 규모를 키우고, 마지막에는 맨손 64명이 한 경기장에. 64는 임의의 숫자가 아닙니다 — 토너먼트 대진표이고, 이 게임은 대회에서 시작됐습니다." }
@@ -279,8 +279,8 @@ const I18N = {
       heading: "未来方向",
       items: [
         { date: "2026 年 8 月 15 日", title: "GWB 游戏大奖 — 腾讯", body: "参加国际独立游戏大赛。评委将拿到当前版本：21 位格斗家、六个舞台。" },
-        { date: "2026 年秋", title: "Steam 页面", body: "通过 Steamworks Direct 注册并上线「即将推出」页面，让愿望单在发行前就开始累积。" },
-        { date: "2026 年秋", title: "Epic 游戏商城", body: "与 Steam 同步提交发行申请。" },
+        { date: "2026 年 9 月", title: "Steam 页面", body: "通过 Steamworks Direct 注册并上线「即将推出」页面，让愿望单在发行前就开始累积。" },
+        { date: "2026 年 10 月", title: "Epic 游戏商城", body: "与 Steam 同步提交发行申请。" },
         { date: "开发中", title: "在线多人", body: "先做 1v1 联机，再做 2v2 团队战。期间角色模型迁移到 MetaHuman。" },
         { date: "2026–2027 年", title: "Xbox 主机", body: "申请微软 ID@Xbox 计划，将游戏带上主机。" },
         { date: "终点", title: "武术大逃杀", body: "今天是 1v1，接着 2v2，随后扩大团队规模，最终 64 人赤手同场。64 并非随意选定——那是一张淘汰赛对阵表，而这款游戏正源自一场大赛。" }
@@ -365,8 +365,8 @@ const I18N = {
       heading: "これから",
       items: [
         { date: "2026年8月15日", title: "GWB ゲームアワード — テンセント", body: "国際インディーコンペに応募します。審査員には現ビルドを渡します——21人のファイター、6ステージ。" },
-        { date: "2026年秋", title: "Steam ページ", body: "Steamworks Direct で登録し「近日公開」ページを公開。発売前からウィッシュリストを積み上げます。" },
-        { date: "2026年秋", title: "Epic Games Store", body: "Steam と並行して配信申請を出します。" },
+        { date: "2026年9月", title: "Steam ページ", body: "Steamworks Direct で登録し「近日公開」ページを公開。発売前からウィッシュリストを積み上げます。" },
+        { date: "2026年10月", title: "Epic Games Store", body: "Steam と並行して配信申請を出します。" },
         { date: "開発中", title: "オンライン対戦", body: "まず1対1のネットコード、次に2対2のチーム戦。並行してキャラクターモデルをMetaHumanへ移行します。" },
         { date: "2026〜2027年", title: "Xbox コンソール", body: "マイクロソフトのID@Xboxプログラムに申請し、コンソールへ。" },
         { date: "目標", title: "武術バトルロイヤル", body: "今は1対1。次に2対2。さらにチーム規模を広げ、最後は素手の64人が一つのアリーナに。64は適当な数字ではありません——トーナメント表であり、この作品は大会から生まれました。" }
@@ -451,8 +451,8 @@ const I18N = {
       heading: "Hacia dónde va",
       items: [
         { date: "15 agosto 2026", title: "GWB Game Awards — Tencent", body: "Candidatura al concurso internacional indie. El jurado recibe la versión actual: 21 luchadores y seis escenarios." },
-        { date: "Otoño 2026", title: "Página de Steam", body: "Registro por Steamworks Direct y página de Próximamente, para acumular listas de deseos antes del lanzamiento." },
-        { date: "Otoño 2026", title: "Epic Games Store", body: "Solicitud de distribución en paralelo a Steam." },
+        { date: "Septiembre 2026", title: "Página de Steam", body: "Registro por Steamworks Direct y página de Próximamente, para acumular listas de deseos antes del lanzamiento." },
+        { date: "Octubre 2026", title: "Epic Games Store", body: "Solicitud de distribución en paralelo a Steam." },
         { date: "En desarrollo", title: "Multijugador en línea", body: "Primero el netcode 1v1, después el 2v2. Por el camino, los modelos pasan a MetaHuman." },
         { date: "2026–2027", title: "Consola Xbox", body: "Solicitud al programa ID@Xbox de Microsoft para llegar a consola." },
         { date: "La meta", title: "Battle royale de artes marciales", body: "Hoy 1v1. Luego 2v2. Después modos por equipos más grandes y, al final, un cuadro de 64 luchadores en una arena, solo con las manos. El 64 no es arbitrario: es un cuadro de torneo, y este juego nació de un torneo." }
@@ -537,8 +537,8 @@ const I18N = {
       heading: "Para onde vai",
       items: [
         { date: "15 agosto 2026", title: "GWB Game Awards — Tencent", body: "Candidatura ao concurso internacional indie. O júri recebe a versão atual: 21 lutadores e seis cenários." },
-        { date: "Outono 2026", title: "Página Steam", body: "Registo via Steamworks Direct e página Brevemente, para juntar wishlists antes do lançamento." },
-        { date: "Outono 2026", title: "Epic Games Store", body: "Pedido de distribuição em paralelo com a Steam." },
+        { date: "Setembro 2026", title: "Página Steam", body: "Registo via Steamworks Direct e página Brevemente, para juntar wishlists antes do lançamento." },
+        { date: "Outubro 2026", title: "Epic Games Store", body: "Pedido de distribuição em paralelo com a Steam." },
         { date: "Em desenvolvimento", title: "Multijogador online", body: "Primeiro o netcode 1v1, depois o 2v2. Pelo caminho, os modelos passam para MetaHuman." },
         { date: "2026–2027", title: "Consola Xbox", body: "Candidatura ao programa ID@Xbox da Microsoft para chegar à consola." },
         { date: "O objetivo", title: "Battle royale de artes marciais", body: "Hoje 1v1. Depois 2v2. A seguir modos de equipa maiores e, por fim, um quadro de 64 lutadores numa arena, só com as mãos. O 64 não é arbitrário: é um quadro de torneio, e este jogo nasceu de um torneio." }
@@ -623,8 +623,8 @@ const I18N = {
       heading: "La suite",
       items: [
         { date: "15 août 2026", title: "GWB Game Awards — Tencent", body: "Candidature au concours international de jeux indépendants. Le jury reçoit la version actuelle : 21 combattants, six décors." },
-        { date: "Automne 2026", title: "Page Steam", body: "Inscription via Steamworks Direct et page « Prochainement », pour accumuler des listes de souhaits avant la sortie." },
-        { date: "Automne 2026", title: "Epic Games Store", body: "Demande de distribution en parallèle de Steam." },
+        { date: "Septembre 2026", title: "Page Steam", body: "Inscription via Steamworks Direct et page « Prochainement », pour accumuler des listes de souhaits avant la sortie." },
+        { date: "Octobre 2026", title: "Epic Games Store", body: "Demande de distribution en parallèle de Steam." },
         { date: "En développement", title: "Multijoueur en ligne", body: "D'abord le netcode 1v1, ensuite le 2v2. En chemin, les modèles passent à MetaHuman." },
         { date: "2026–2027", title: "Console Xbox", body: "Candidature au programme ID@Xbox de Microsoft pour arriver sur console." },
         { date: "L'objectif", title: "Battle royale d'arts martiaux", body: "1v1 aujourd'hui. 2v2 ensuite. Puis des modes d'équipe plus larges, et enfin un tableau de 64 combattants dans une même arène, à mains nues. Soixante-quatre n'est pas un chiffre au hasard : c'est un tableau de tournoi, et ce jeu est né d'un tournoi." }
@@ -709,8 +709,8 @@ const I18N = {
       heading: "Wohin es geht",
       items: [
         { date: "15. August 2026", title: "GWB Game Awards — Tencent", body: "Einreichung beim internationalen Indie-Wettbewerb. Die Jury erhält den aktuellen Build: 21 Kämpfer, sechs Bühnen." },
-        { date: "Herbst 2026", title: "Steam-Seite", body: "Registrierung über Steamworks Direct und eine „Demnächst\"-Seite, damit Wunschlisten schon vor dem Release wachsen." },
-        { date: "Herbst 2026", title: "Epic Games Store", body: "Vertriebsantrag parallel zu Steam." },
+        { date: "September 2026", title: "Steam-Seite", body: "Registrierung über Steamworks Direct und eine „Demnächst\"-Seite, damit Wunschlisten schon vor dem Release wachsen." },
+        { date: "Oktober 2026", title: "Epic Games Store", body: "Vertriebsantrag parallel zu Steam." },
         { date: "In Arbeit", title: "Online-Multiplayer", body: "Zuerst 1v1-Netcode, dann 2v2-Teamspiel. Unterwegs wechseln die Charaktermodelle auf MetaHuman." },
         { date: "2026–2027", title: "Xbox-Konsole", body: "Bewerbung bei Microsofts ID@Xbox-Programm für den Weg auf die Konsole." },
         { date: "Das Ziel", title: "Kampfkunst-Battle-Royale", body: "Heute 1v1. Dann 2v2. Danach größere Teammodi — und am Ende ein Feld von 64 Kämpfern in einer Arena, nur mit bloßen Händen. 64 ist keine willkürliche Zahl: Es ist ein Turnierbaum, und dieses Spiel stammt aus einem Turnier." }
@@ -795,8 +795,8 @@ const I18N = {
       heading: "Куда дальше",
       items: [
         { date: "15 августа 2026", title: "GWB Game Awards — Tencent", body: "Заявка на международный конкурс инди-игр. Жюри получает текущую сборку: 21 боец, шесть арен." },
-        { date: "Осень 2026", title: "Страница в Steam", body: "Регистрация через Steamworks Direct и страница «Скоро», чтобы списки желаемого росли ещё до релиза." },
-        { date: "Осень 2026", title: "Epic Games Store", body: "Заявка на дистрибуцию параллельно со Steam." },
+        { date: "Сентябрь 2026", title: "Страница в Steam", body: "Регистрация через Steamworks Direct и страница «Скоро», чтобы списки желаемого росли ещё до релиза." },
+        { date: "Октябрь 2026", title: "Epic Games Store", body: "Заявка на дистрибуцию параллельно со Steam." },
         { date: "В разработке", title: "Онлайн-мультиплеер", body: "Сначала нет­код 1 на 1, затем командный режим 2 на 2. Попутно модели переводим на MetaHuman." },
         { date: "2026–2027", title: "Консоль Xbox", body: "Заявка в программу Microsoft ID@Xbox для выхода на консоль." },
         { date: "Цель", title: "Королевская битва боевых искусств", body: "Сегодня 1 на 1. Затем 2 на 2. Потом более крупные командные режимы — и в итоге сетка из 64 бойцов на одной арене, только голыми руками. 64 — не случайное число: это турнирная сетка, а игра выросла из турнира." }
@@ -881,8 +881,8 @@ const I18N = {
       heading: "إلى أين نتجه",
       items: [
         { date: "‏15 أغسطس 2026", title: "جوائز GWB — Tencent", body: "المشاركة في المسابقة الدولية للألعاب المستقلة. تحصل لجنة التحكيم على النسخة الحالية: 21 مقاتلًا وست ساحات." },
-        { date: "خريف 2026", title: "صفحة Steam", body: "التسجيل عبر Steamworks Direct وإطلاق صفحة «قريبًا» لتتراكم قوائم الرغبات قبل الإصدار." },
-        { date: "خريف 2026", title: "‏Epic Games Store", body: "تقديم طلب التوزيع بالتوازي مع Steam." },
+        { date: "سبتمبر 2026", title: "صفحة Steam", body: "التسجيل عبر Steamworks Direct وإطلاق صفحة «قريبًا» لتتراكم قوائم الرغبات قبل الإصدار." },
+        { date: "أكتوبر 2026", title: "‏Epic Games Store", body: "تقديم طلب التوزيع بالتوازي مع Steam." },
         { date: "قيد التطوير", title: "اللعب الجماعي عبر الإنترنت", body: "أولًا شبكة المواجهة الفردية، ثم الطور الجماعي 2 ضد 2. وفي الأثناء تنتقل نماذج الشخصيات إلى MetaHuman." },
         { date: "‏2026–2027", title: "منصة Xbox", body: "التقديم إلى برنامج ID@Xbox من مايكروسوفت للوصول إلى المنصات المنزلية." },
         { date: "الهدف", title: "باتل رويال للفنون القتالية", body: "اليوم واحد ضد واحد. ثم 2 ضد 2. ثم أطوار جماعية أكبر، وأخيرًا 64 مقاتلًا في حلبة واحدة بأيديهم المجردة. والرقم 64 ليس اعتباطيًا: إنه جدول بطولة، وهذه اللعبة وُلدت من بطولة." }
