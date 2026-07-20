@@ -30,7 +30,7 @@ const IP_LINKS = ["","","","","","","","","","","","https://youtu.be/ZSuRacp6JI8
 const WORKS = [
   { key: "fn",       url: LINKS.itch,                            tag: "2026",
     logo: "assets/fn-logo.png", logoWide: true,
-    trailer: "https://youtu.be/JOZwYUQ4cd8",
+    trailer: "https://youtu.be/JOZwYUQ4cd8", detail: "#why",
     sns:  { label: "YouTube", url: "https://www.youtube.com/channel/UCQaEcI1xWOg_tvTqZBYBbGw" } },
   { key: "kingdom",  url: "https://kingdom-wars-puce.vercel.app", tag: "2026",
     logo: "assets/kingdom-wars-logo.png", detail: "kingdom-wars.html",
