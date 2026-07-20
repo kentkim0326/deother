@@ -7,13 +7,14 @@
 # 하는 일: 가로 1600px 로 줄이고 JPEG 82% 로 저장한 뒤,
 #          i18n.js 의 FN_SLIDES / KW_SLIDES 배열을 파일 목록으로 갱신한다.
 
-param([Parameter(Mandatory=$true)][ValidateSet('fn','kingdom')][string]$Which)
+param([Parameter(Mandatory=$true)][ValidateSet('fn','kingdom','miliverse')][string]$Which)
 
 Add-Type -AssemblyName System.Drawing
 
 $cfg = @{
-  fn      = @{ src = "$env:USERPROFILE\Downloads\fn-slides";      out = "assets\slides-fn"; var = 'FN_SLIDES'; prefix = 'fn' }
-  kingdom = @{ src = "$env:USERPROFILE\Downloads\kingdom-slides"; out = "assets\slides-kw"; var = 'KW_SLIDES'; prefix = 'kw' }
+  fn        = @{ src = "$env:USERPROFILE\Downloads\fn-slides";        out = "assets\slides-fn"; var = 'FN_SLIDES'; prefix = 'fn' }
+  kingdom   = @{ src = "$env:USERPROFILE\Downloads\kingdom-slides";   out = "assets\slides-kw"; var = 'KW_SLIDES'; prefix = 'kw' }
+  miliverse = @{ src = "$env:USERPROFILE\Downloads\miliverse-slides"; out = "assets\slides-mv"; var = 'MV_SLIDES'; prefix = 'mv' }
 }[$Which]
 
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path

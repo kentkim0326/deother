@@ -171,6 +171,9 @@ function render(code) {
     return card;
   }));
 
+  // 세 게임을 관통하는 관점 — 카드를 다 본 뒤에 읽어야 뜻이 산다
+  set("wkNote", t.works.note);
+
   buildSlideshow();
 
   // --- 발표 자료 ---
