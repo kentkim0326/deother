@@ -11,6 +11,13 @@ const LINKS = {
   mail:   "mailto:kentkim@gmail.com"
 };
 
+// 디아더가 만들어 띄운 것들. 링크가 살아 있는 것만 넣는다.
+const WORKS = [
+  { key: "fn",       url: LINKS.itch,                          tag: "2026" },
+  { key: "kingdom",  url: "https://kingdom-wars-puce.vercel.app", tag: "2026" },
+  { key: "miliverse",url: "https://miliverse-ten.vercel.app",  tag: "2022 · 2026" }
+];
+
 // 개발 연표 영상 — 오래된 것부터. 제목은 영어 그대로 둔다(유튜브 원제와 맞추기 위해).
 // 날짜는 대표가 확인해 준 것만 적는다. 모르면 연도만.
 const VIDEOS = [
@@ -119,12 +126,17 @@ const I18N = {
         "23+ years of martial arts: judo, boxing, Hapkido, Haidong Gumdo, Muay Thai, Taekwondo, Shaolin kung fu",
         "Excellence Award, Incheon Airport AI competition · Jeju Governor's Award, national AI music competition · selected for the 3rd cohort of the Ahn Cheol-soo Foundation's AI vibe-coding programme",
         "Author of SERAPHIM: The Awakening of Iron Dragon, the novel this game comes from",
-        "Two metaverse platforms launched in 2022 and shut down in 2023 — the lesson: without an end goal, people don't stay. Games have one.",
+        "Launched two metaverse platforms in 2022. When the funding market turned, the servers came down — but the lesson stayed: without an end goal, people don't stay, and games have one. Milliverse is back and still being built.",
         "Tokyo Game Show since 2019 · Evo Japan 2020 and a visit to SoftBank's Tokyo headquarters · meeting with SoftBank executives in 2022",
         "Booths at Gamescom 2022 (Germany), Tokyo Game Show 2022, CES 2023 (Las Vegas) · Busan G-Star every year since 2019"
       ]
     },
     songs: { heading: "In your language", lead: "Theme song and gameplay, recorded in the languages our fighters speak." },
+    works: { heading: "What we have built", lead: "Deother ships. Three products, all live.", items: {
+      fn: { t: "Fighting Nations", b: "3D bare-handed martial arts fighter. In development, playable now." },
+      kingdom: { t: "Kingdom Wars", b: "Browser turn-based conquest — the Moon, then Mars, then deep space. Early access in four languages." },
+      miliverse: { t: "Milliverse", b: "Web3 strategy game played on the real world map. Buy tiles, deploy weapons and troops, fight other players for territory. Live in four languages, with real weather and day-night data feeding the battles." }
+    } },
     decks: { heading: "Pitch deck", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Contact", rights: "All rights reserved." }
   },
@@ -208,12 +220,17 @@ const I18N = {
         "23년 이상 무술 수련: 유도, 복싱, 합기도, 해동검도, 무에타이, 태권도, 소림권",
         "AI 인천공항 공모전 최우수상 · AI 음원 전국체전 공모전 제주도지사상 · 안철수재단 AI 바이브 코딩 3기 선발",
         "이 게임의 원작 소설 『SERAPHIM: The Awakening of Iron Dragon』 저자",
-        "2022년 메타버스 플랫폼 2개 런칭, 2023년 종료 — 배운 것: 엔드골이 없으면 사람이 남지 않는다. 게임에는 그것이 있다.",
+        "2022년 메타버스 플랫폼 2개 런칭. 투자 시장이 얼어붙어 서버는 내렸지만 배운 것은 남았습니다 — 엔드골이 없으면 사람이 남지 않는다, 그리고 게임에는 그것이 있다. 밀리버스는 다시 살아나 지금도 만들고 있습니다.",
         "2019년부터 도쿄 게임쇼 참관 · 2020년 Evo Japan 방문 및 소프트뱅크 도쿄 본사 방문 · 2022년 소프트뱅크 임원 미팅",
         "게임스컴 2022(독일), 도쿄 게임쇼 2022, CES 2023(라스베가스) 부스 운영 · 2019년부터 매년 부산 지스타 참가"
       ]
     },
     songs: { heading: "당신의 언어로", lead: "파이터들이 쓰는 언어로 녹음한 주제가와 게임플레이." },
+    works: { heading: "우리가 만든 것", lead: "디아더는 만들어서 띄웁니다. 세 개 모두 살아 있습니다.", items: {
+      fn: { t: "Fighting Nations", b: "3D 맨손 무술 격투게임. 개발 중이며 지금 플레이할 수 있습니다." },
+      kingdom: { t: "Kingdom Wars", b: "브라우저 턴제 정복 전략 — 달에서 화성으로, 그다음 심우주로. 4개 언어 얼리액세스." },
+      miliverse: { t: "밀리버스", b: "실제 세계 지도 위에서 벌어지는 Web3 전략 게임. 타일을 사고 무기와 병사를 배치해 다른 플레이어와 영토를 두고 싸웁니다. 4개 언어로 서비스 중이며, 실제 날씨와 낮밤 데이터가 전투에 반영됩니다." }
+    } },
     decks: { heading: "발표 자료", en: "English version", ko: "한국어 버전" },
     footer: { studio: "주식회사 디아더", contact: "문의", rights: "All rights reserved." }
   },
@@ -294,12 +311,17 @@ const I18N = {
         "23 年以上武术经历：柔道、拳击、合气道、海东剑道、泰拳、跆拳道、少林拳",
         "仁川机场 AI 大赛最优秀奖 · 全国 AI 音乐大赛济州道知事奖 · 入选安哲秀财团 AI Vibe Coding 第三期",
         "本作原著小说《SERAPHIM: The Awakening of Iron Dragon》作者",
-        "2022 年推出两个元宇宙平台，2023 年关闭——教训是：没有终点目标，人就不会留下。游戏有。",
+        "2022 年推出两个元宇宙平台。投资市场转冷后服务器下线，但教训留了下来——没有终点目标，人就不会留下，而游戏有。Milliverse 已经重启，至今仍在打磨。",
         "2019 年起参观东京电玩展 · 2020 年出席 Evo Japan 并走访软银东京总部 · 2022 年与软银高管会面",
         "德国 Gamescom 2022、东京电玩展 2022、美国 CES 2023 参展 · 2019 年起每年参加釜山 G-Star"
       ]
     },
     songs: { heading: "用你的语言", lead: "主题曲与实机画面，以角色们所说的语言录制。" },
+    works: { heading: "我们做出来的东西", lead: "Deother 做出来并让它上线。三个产品，都还活着。", items: {
+      fn: { t: "Fighting Nations", b: "3D 赤手武术格斗游戏。开发中，现在即可试玩。" },
+      kingdom: { t: "Kingdom Wars", b: "浏览器回合制征服战略——从月球到火星，再到深空。四种语言的抢先体验。" },
+      miliverse: { t: "Milliverse", b: "在真实世界地图上进行的 Web3 战略游戏。购买地块、部署武器与士兵，与其他玩家争夺领土。四种语言上线运营，真实天气与昼夜数据会影响战斗。" }
+    } },
     decks: { heading: "企划书", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother 有限公司", contact: "联系我们", rights: "版权所有。" }
   },
@@ -380,12 +402,17 @@ const I18N = {
         "23年以上の武術経験：柔道、ボクシング、合気道、海東剣道、ムエタイ、テコンドー、少林拳",
         "仁川空港AIコンペ最優秀賞 · 全国AI音楽コンペ済州道知事賞 · 安哲秀財団AIバイブコーディング3期に選出",
         "本作の原作小説『SERAPHIM: The Awakening of Iron Dragon』著者",
-        "2022年にメタバース2件を立ち上げ2023年に終了——学び：終着点がなければ人は残らない。ゲームにはそれがある。",
+        "2022年にメタバースを2件立ち上げました。投資環境が冷え込みサーバーは落としましたが、学びは残りました——終着点がなければ人は残らない、そしてゲームにはそれがある。Milliverse は復活し、今も作り続けています。",
         "2019年から東京ゲームショウに参加 · 2020年 Evo Japan 参加とソフトバンク東京本社訪問 · 2022年ソフトバンク役員と面談",
         "Gamescom 2022（ドイツ）、東京ゲームショウ 2022、CES 2023（ラスベガス）出展 · 2019年から毎年 釜山 G-Star に参加"
       ]
     },
     songs: { heading: "あなたの言語で", lead: "ファイターたちが話す言語で録音した主題歌とゲームプレイ。" },
+    works: { heading: "作ってきたもの", lead: "ディアザーは作って世に出します。三つとも生きています。", items: {
+      fn: { t: "Fighting Nations", b: "3D素手武術の格闘ゲーム。開発中、今すぐ遊べます。" },
+      kingdom: { t: "Kingdom Wars", b: "ブラウザのターン制征服ストラテジー——月から火星、そして深宇宙へ。4言語のアーリーアクセス。" },
+      miliverse: { t: "Milliverse", b: "現実の世界地図の上で戦うWeb3ストラテジー。タイルを買い、武器と兵士を配置し、他のプレイヤーと領土を奪い合います。4言語で稼働中、実際の天候と昼夜のデータが戦闘に反映されます。" }
+    } },
     decks: { heading: "企画書", en: "English version", ko: "한국어 버전" },
     footer: { studio: "株式会社ディアザー", contact: "お問い合わせ", rights: "All rights reserved." }
   },
@@ -466,12 +493,17 @@ const I18N = {
         "Más de 23 años de artes marciales: judo, boxeo, hapkido, Haidong Gumdo, muay thai, taekwondo, kung-fu Shaolin",
         "Premio a la Excelencia en el concurso de IA del Aeropuerto de Incheon · Premio del Gobernador de Jeju en el concurso nacional de música con IA · seleccionado para la 3.ª promoción del programa de vibe coding con IA de la Fundación Ahn Cheol-soo",
         "Autor de SERAPHIM: The Awakening of Iron Dragon, la novela de la que nace este juego",
-        "Dos plataformas de metaverso lanzadas en 2022 y cerradas en 2023. La lección: sin una meta final, la gente no se queda. Los juegos la tienen.",
+        "Dos plataformas de metaverso lanzadas en 2022. Cuando el mercado de inversión se enfrió, los servidores cayeron, pero la lección quedó: sin una meta final la gente no se queda, y los juegos la tienen. Milliverse ha vuelto y sigue en construcción.",
         "Tokyo Game Show desde 2019 · Evo Japan 2020 y visita a la sede de SoftBank en Tokio · reunión con directivos de SoftBank en 2022",
         "Stands en Gamescom 2022 (Alemania), Tokyo Game Show 2022 y CES 2023 (Las Vegas) · G-Star de Busan cada año desde 2019"
       ]
     },
     songs: { heading: "En tu idioma", lead: "Tema musical y gameplay, grabados en las lenguas que hablan nuestros luchadores." },
+    works: { heading: "Lo que hemos construido", lead: "Deother entrega. Tres productos, los tres en línea.", items: {
+      fn: { t: "Fighting Nations", b: "Juego de lucha 3D a mano limpia. En desarrollo, jugable ya." },
+      kingdom: { t: "Kingdom Wars", b: "Conquista por turnos en el navegador: la Luna, luego Marte, luego el espacio profundo. Acceso anticipado en cuatro idiomas." },
+      miliverse: { t: "Milliverse", b: "Juego de estrategia Web3 sobre el mapa del mundo real. Compra casillas, despliega armas y tropas y disputa territorio a otros jugadores. Activo en cuatro idiomas, con clima real y ciclo día-noche influyendo en los combates." }
+    } },
     decks: { heading: "Dossier", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Contacto", rights: "Todos los derechos reservados." }
   },
@@ -552,12 +584,17 @@ const I18N = {
         "Mais de 23 anos de artes marciais: judo, boxe, hapkido, Haidong Gumdo, muay thai, taekwondo, kung fu Shaolin",
         "Prémio de Excelência no concurso de IA do Aeroporto de Incheon · Prémio do Governador de Jeju no concurso nacional de música com IA · selecionado para a 3.ª turma do programa de vibe coding com IA da Fundação Ahn Cheol-soo",
         "Autor de SERAPHIM: The Awakening of Iron Dragon, o romance que deu origem ao jogo",
-        "Duas plataformas de metaverso lançadas em 2022 e encerradas em 2023 — a lição: sem um objetivo final, as pessoas não ficam. Os jogos têm um.",
+        "Duas plataformas de metaverso lançadas em 2022. Quando o mercado de investimento arrefeceu, os servidores caíram, mas a lição ficou: sem um objetivo final as pessoas não ficam, e os jogos têm um. O Milliverse voltou e continua a ser construído.",
         "Tokyo Game Show desde 2019 · Evo Japan 2020 e visita à sede da SoftBank em Tóquio · reunião com executivos da SoftBank em 2022",
         "Stands na Gamescom 2022 (Alemanha), Tokyo Game Show 2022 e CES 2023 (Las Vegas) · G-Star de Busan todos os anos desde 2019"
       ]
     },
     songs: { heading: "Na tua língua", lead: "Tema musical e gameplay, gravados nas línguas que os nossos lutadores falam." },
+    works: { heading: "O que construímos", lead: "A Deother entrega. Três produtos, todos no ar.", items: {
+      fn: { t: "Fighting Nations", b: "Jogo de luta 3D de mãos livres. Em desenvolvimento, já jogável." },
+      kingdom: { t: "Kingdom Wars", b: "Conquista por turnos no navegador — a Lua, depois Marte, depois o espaço profundo. Acesso antecipado em quatro línguas." },
+      miliverse: { t: "Milliverse", b: "Jogo de estratégia Web3 sobre o mapa do mundo real. Compra tiles, coloca armas e tropas e disputa território com outros jogadores. Ativo em quatro línguas, com clima real e ciclo dia-noite a influenciar os combates." }
+    } },
     decks: { heading: "Apresentação", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Contacto", rights: "Todos os direitos reservados." }
   },
@@ -638,12 +675,17 @@ const I18N = {
         "Plus de 23 ans d'arts martiaux : judo, boxe, hapkido, Haidong Gumdo, muay-thaï, taekwondo, kung-fu Shaolin",
         "Prix d'excellence au concours d'IA de l'aéroport d'Incheon · Prix du gouverneur de Jeju au concours national de musique par IA · sélectionné pour la 3e promotion du programme de vibe coding IA de la Fondation Ahn Cheol-soo",
         "Auteur de SERAPHIM: The Awakening of Iron Dragon, le roman dont vient ce jeu",
-        "Deux plateformes de métavers lancées en 2022 et fermées en 2023 — la leçon : sans objectif final, les gens ne restent pas. Les jeux en ont un.",
+        "Deux plateformes de métavers lancées en 2022. Quand le marché du financement s'est retourné, les serveurs sont tombés, mais la leçon est restée : sans objectif final les gens ne restent pas, et les jeux en ont un. Milliverse est de retour et se construit encore.",
         "Tokyo Game Show depuis 2019 · Evo Japan 2020 et visite du siège de SoftBank à Tokyo · rencontre avec des dirigeants de SoftBank en 2022",
         "Stands à la Gamescom 2022 (Allemagne), au Tokyo Game Show 2022 et au CES 2023 (Las Vegas) · G-Star de Busan chaque année depuis 2019"
       ]
     },
     songs: { heading: "Dans votre langue", lead: "Thème musical et séquences de jeu, enregistrés dans les langues que parlent nos combattants." },
+    works: { heading: "Ce que nous avons construit", lead: "Deother livre. Trois produits, tous en ligne.", items: {
+      fn: { t: "Fighting Nations", b: "Jeu de combat 3D à mains nues. En développement, jouable dès maintenant." },
+      kingdom: { t: "Kingdom Wars", b: "Conquête au tour par tour dans le navigateur — la Lune, puis Mars, puis l'espace lointain. Accès anticipé en quatre langues." },
+      miliverse: { t: "Milliverse", b: "Jeu de stratégie Web3 sur la carte du monde réel. Achetez des tuiles, déployez armes et troupes, disputez le territoire aux autres joueurs. En ligne en quatre langues, avec météo réelle et cycle jour-nuit qui pèsent sur les combats." }
+    } },
     decks: { heading: "Dossier de présentation", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Contact", rights: "Tous droits réservés." }
   },
@@ -724,12 +766,17 @@ const I18N = {
         "Über 23 Jahre Kampfkunst: Judo, Boxen, Hapkido, Haidong Gumdo, Muay Thai, Taekwondo, Shaolin-Kung-Fu",
         "Exzellenzpreis beim KI-Wettbewerb des Flughafens Incheon · Preis des Gouverneurs von Jeju beim nationalen KI-Musikwettbewerb · ausgewählt für den 3. Jahrgang des KI-Vibe-Coding-Programms der Ahn-Cheol-soo-Stiftung",
         "Autor von SERAPHIM: The Awakening of Iron Dragon, dem Roman hinter diesem Spiel",
-        "2022 zwei Metaverse-Plattformen gestartet, 2023 eingestellt — die Lehre: ohne Endziel bleibt niemand. Spiele haben eines.",
+        "2022 zwei Metaverse-Plattformen gestartet. Als der Finanzierungsmarkt kippte, gingen die Server vom Netz — die Lehre blieb: ohne Endziel bleibt niemand, und Spiele haben eines. Milliverse ist zurück und wird weiter gebaut.",
         "Tokyo Game Show seit 2019 · Evo Japan 2020 und Besuch der SoftBank-Zentrale in Tokio · Treffen mit SoftBank-Führungskräften 2022",
         "Stände auf der Gamescom 2022 (Deutschland), Tokyo Game Show 2022 und CES 2023 (Las Vegas) · Busan G-Star jedes Jahr seit 2019"
       ]
     },
     songs: { heading: "In deiner Sprache", lead: "Titelsong und Spielszenen, aufgenommen in den Sprachen unserer Kämpfer." },
+    works: { heading: "Was wir gebaut haben", lead: "Deother liefert. Drei Produkte, alle online.", items: {
+      fn: { t: "Fighting Nations", b: "3D-Kampfspiel mit bloßen Händen. In Entwicklung, jetzt spielbar." },
+      kingdom: { t: "Kingdom Wars", b: "Rundenbasierte Eroberung im Browser — Mond, dann Mars, dann Tiefraum. Early Access in vier Sprachen." },
+      miliverse: { t: "Milliverse", b: "Web3-Strategiespiel auf der echten Weltkarte. Kacheln kaufen, Waffen und Truppen stationieren, mit anderen Spielern um Gebiete kämpfen. In vier Sprachen live, echtes Wetter und Tag-Nacht-Daten fließen in die Kämpfe ein." }
+    } },
     decks: { heading: "Pitch Deck", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Kontakt", rights: "Alle Rechte vorbehalten." }
   },
@@ -810,12 +857,17 @@ const I18N = {
         "Более 23 лет боевых искусств: дзюдо, бокс, хапкидо, хэдон гымдо, муай-тай, тхэквондо, шаолиньское кунг-фу",
         "Премия за выдающиеся достижения на конкурсе ИИ аэропорта Инчхон · приз губернатора Чеджу на национальном конкурсе ИИ-музыки · отобран в 3-й поток программы ИИ vibe coding фонда Ан Чхоль Су",
         "Автор романа SERAPHIM: The Awakening of Iron Dragon, из которого выросла игра",
-        "В 2022-м запустил две метавселенные, в 2023-м закрыл — вывод: без конечной цели люди не остаются. У игр она есть.",
+        "В 2022-м запустил две метавселенные. Когда инвестиционный рынок развернулся, серверы пришлось выключить, но вывод остался: без конечной цели люди не остаются, а у игр она есть. Milliverse вернулся и продолжает развиваться.",
         "Tokyo Game Show с 2019 года · Evo Japan 2020 и визит в штаб-квартиру SoftBank в Токио · встреча с руководством SoftBank в 2022-м",
         "Стенды на Gamescom 2022 (Германия), Tokyo Game Show 2022 и CES 2023 (Лас-Вегас) · Busan G-Star каждый год с 2019-го"
       ]
     },
     songs: { heading: "На вашем языке", lead: "Заглавная тема и игровой процесс, записанные на языках наших бойцов." },
+    works: { heading: "Что мы построили", lead: "Deother доводит до релиза. Три продукта, все работают.", items: {
+      fn: { t: "Fighting Nations", b: "3D-файтинг без оружия. В разработке, играть можно уже сейчас." },
+      kingdom: { t: "Kingdom Wars", b: "Пошаговая стратегия в браузере — Луна, затем Марс, затем дальний космос. Ранний доступ на четырёх языках." },
+      miliverse: { t: "Milliverse", b: "Web3-стратегия на настоящей карте мира. Покупайте тайлы, размещайте оружие и войска, отбивайте территорию у других игроков. Работает на четырёх языках, реальная погода и смена дня и ночи влияют на бой." }
+    } },
     decks: { heading: "Презентация", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Связаться", rights: "Все права защищены." }
   },
@@ -896,12 +948,17 @@ const I18N = {
         "أكثر من 23 عامًا في الفنون القتالية: الجودو والملاكمة والهابكيدو والهايدونغ غومدو والمواي تاي والتايكوندو وكونغ فو شاولين",
         "جائزة التميّز في مسابقة الذكاء الاصطناعي بمطار إنتشون · جائزة حاكم جيجو في المسابقة الوطنية للموسيقى بالذكاء الاصطناعي · الاختيار ضمن الدفعة الثالثة لبرنامج AI Vibe Coding من مؤسسة آن تشول-سو",
         "مؤلف رواية SERAPHIM: The Awakening of Iron Dragon التي وُلدت منها اللعبة",
-        "أطلق منصتَي ميتافيرس عام 2022 وأغلقهما عام 2023 — والدرس: من دون هدف نهائي لا يبقى الناس. الألعاب لديها هدف.",
+        "أطلق منصتَي ميتافيرس عام 2022. وحين انقلب سوق الاستثمار أُوقفت الخوادم، لكن الدرس بقي: من دون هدف نهائي لا يبقى الناس، والألعاب لديها هدف. وقد عاد Milliverse ولا يزال قيد البناء.",
         "‏حضور Tokyo Game Show منذ 2019 · Evo Japan 2020 وزيارة مقر SoftBank في طوكيو · اجتماع مع تنفيذيي SoftBank عام 2022",
         "أجنحة في Gamescom 2022 (ألمانيا) و Tokyo Game Show 2022 و CES 2023 (لاس فيغاس) · G-Star في بوسان سنويًا منذ 2019"
       ]
     },
     songs: { heading: "بلغتك", lead: "أغنية الشارة ولقطات من اللعب، مسجّلة بلغات مقاتلينا." },
+    works: { heading: "ما بنيناه", lead: "‏Deother تُنجز وتُطلق. ثلاثة منتجات، جميعها تعمل.", items: {
+      fn: { t: "Fighting Nations", b: "لعبة قتال ثلاثية الأبعاد بالأيدي المجردة. قيد التطوير وقابلة للعب الآن." },
+      kingdom: { t: "Kingdom Wars", b: "استراتيجية غزو بالأدوار عبر المتصفح — القمر ثم المريخ ثم الفضاء العميق. وصول مبكر بأربع لغات." },
+      miliverse: { t: "Milliverse", b: "لعبة استراتيجية Web3 على خريطة العالم الحقيقية. اشترِ المربّعات وانشر الأسلحة والجنود ونازع اللاعبين الآخرين على الأرض. تعمل بأربع لغات، وبيانات الطقس الحقيقي والليل والنهار تؤثر في المعارك." }
+    } },
     decks: { heading: "ملف العرض", en: "English version", ko: "한국어 버전" },
     footer: { studio: "شركة Deother", contact: "تواصل معنا", rights: "جميع الحقوق محفوظة." }
   }

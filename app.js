@@ -132,6 +132,17 @@ function render(code) {
   document.getElementById("tmBullets")
     .replaceChildren(...t.team.bullets.map(b => el("li", null, b)));
 
+  // --- 디아더가 만든 것 ---
+  set("wkHeading", t.works.heading);
+  set("wkLead", t.works.lead);
+  document.getElementById("workCards").replaceChildren(...WORKS.map(w => {
+    const it = t.works.items[w.key];
+    const a = el("a", "card work");
+    a.href = w.url; a.target = "_blank"; a.rel = "noopener";
+    a.append(el("div", "work-tag", w.tag), el("h3", null, it.t), el("p", null, it.b));
+    return a;
+  }));
+
   // --- 발표 자료 ---
   set("dkHeading", t.decks.heading);
   const dkEn = document.getElementById("dkEn");
