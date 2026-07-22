@@ -59,10 +59,8 @@ const VIDEOS = [
   { id: "kKeMb2ytC-M", date: "2026",       label: "Fighting Nations — opening movie" }
 ];
 
-// 언어별 주제가 + 게임플레이 — 라벨은 각 언어의 자기 이름(또는 한국어 곡 제목)이라 번역이 필요 없다.
+// 언어별 주제가 + 게임플레이 — 라벨은 각 언어의 자기 이름이라 번역이 필요 없다.
 const LANG_VIDEOS = [
-  { id: "fZEfON-kWpM", label: "혼민정음" },
-  { id: "KxaBZNQu4tU", label: "장보고" },
   { id: "kUbEnMCuwvU", label: "日本語" },
   { id: "fKPyUueHmmM", label: "中文" },
   { id: "60tNhXeN2qg", label: "Tiếng Việt" },
