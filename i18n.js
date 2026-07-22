@@ -55,7 +55,6 @@ const VIDEOS = [
   { id: "wWYc2a0v0Ys", date: "2025.11",    label: "First Unreal Engine build" },
   { id: "gnJP_zJFMhY", date: "2025",       label: "Making 3D characters — VARCO AI + Mixamo" },
   { id: "QqSZydGkVe8", date: "2025.12.31", label: "NC Soft 2nd VARCO AI Game Contest" },
-  { id: "uUvsWr6_JwI", date: "2025.12.31", label: "Opening movie" },
   { id: "JOZwYUQ4cd8", date: "2026",       label: "Fighting Nations — 2 minute trailer" },
   { id: "kKeMb2ytC-M", date: "2026",       label: "Fighting Nations — opening movie" }
 ];
