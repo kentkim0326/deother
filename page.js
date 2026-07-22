@@ -1,9 +1,21 @@
 // page.js — 게임 상세 페이지(밀리버스 / 킹덤워즈) 렌더
-// 메인 페이지의 app.js 와 별개다. 여기는 ko / en 두 언어만 쓴다.
+// 메인 페이지의 app.js 와 별개다. 메인에서 고른 언어를 그대로 잇는다.
 // 어느 게임인지는 <body data-game="miliverse"> 로 알려준다.
 
 const P_STORE = "deother.lang";
-const P_LANGS = { ko: "한국어", en: "English" };
+// 이름·순서는 메인 페이지(i18n.js)와 맞춘다. 실제 노출은 그 게임에 번역이 있는 언어만.
+const P_LANGS = {
+  en: "English", ko: "한국어", zh: "中文", ja: "日本語", es: "Español",
+  pt: "Português", fr: "Français", de: "Deutsch", ru: "Русский", ar: "العربية"
+};
+
+// 이 게임(PAGES[game])에 실제 번역이 들어있는 언어만 캐논 순서대로 돌려준다.
+// 킹덤워즈처럼 아직 ko/en 만 있는 페이지는 나머지 버튼이 뜨지 않는다 —
+// 번역을 채우면 자동으로 버튼이 늘어난다.
+function pAvailLangs() {
+  const game = document.body.dataset.game;
+  return Object.keys(P_LANGS).filter(code => PAGES[game] && PAGES[game][code]);
+}
 
 // 슬라이드 설명. pSetup 이 슬라이드쇼를 한 번만 만들고,
 // pRender 가 언어를 바꿀 때마다 이 둘을 갈아끼운다.
@@ -18,12 +30,14 @@ function pEl(tag, cls, text) {
 }
 
 function pDetectLang() {
-  // 메인 페이지에서 고른 언어를 이어받되, 여기 없는 언어면 영어로 떨어뜨린다
+  // 메인 페이지에서 고른 언어를 이어받되, 이 게임에 번역이 없는 언어면 영어로 떨어뜨린다
+  const avail = pAvailLangs();
+  const has = code => avail.includes(code);
   const saved = localStorage.getItem(P_STORE);
-  if (saved && P_LANGS[saved]) return saved;
+  if (saved && has(saved)) return saved;
   for (const tag of navigator.languages || [navigator.language || ""]) {
     const base = tag.toLowerCase().split("-")[0];
-    if (P_LANGS[base]) return base;
+    if (has(base)) return base;
   }
   return "en";
 }
@@ -32,6 +46,7 @@ function pRender(code) {
   const game = document.body.dataset.game;          // "miliverse" | "kingdom"
   const t = PAGES[game][code] || PAGES[game].en;
   document.documentElement.lang = code;
+  document.documentElement.dir = code === "ar" ? "rtl" : "ltr";   // 아랍어만 RTL (app.js 와 동일)
   localStorage.setItem(P_STORE, code);
 
   document.title = t.title + " — Deother";
@@ -94,8 +109,8 @@ function pRender(code) {
 
 function pSetup() {
   const box = document.getElementById("pLang");
-  box.replaceChildren(...Object.entries(P_LANGS).map(([code, name]) => {
-    const b = pEl("button", null, name);
+  box.replaceChildren(...pAvailLangs().map(code => {
+    const b = pEl("button", null, P_LANGS[code]);
     b.type = "button";
     b.dataset.code = code;
     b.addEventListener("click", () => pRender(code));
