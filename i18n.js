@@ -47,7 +47,7 @@ const IP_LINKS = [
   "https://youtu.be/aKkhj94jd1U",            // 12 도깨비왕
   [ { label: "📖 웹툰",  url: "https://canva.link/r8xr2318d77bxep" },
     { label: "▶ 영상",   url: "https://youtube.com/shorts/ZQZ5STV82f0" } ],       // 13 Ring of Solomon: Dino Wars
-  "",                                        // 14 Kingdom Wars
+  "https://youtu.be/blHdmtxBQn0",            // 14 Kingdom Wars
   "",                                        // 15 Empire of Hearts
   "https://youtube.com/shorts/EgHXbVjl9gA",  // 16 Seraphim
 ];
