@@ -7,12 +7,12 @@
 // 언어: 우선 ko / en 두 가지. 공모전(국내·국제) 제출에 쓰이는 언어가 이 둘이라
 //      먼저 정확하게 만들고, 나머지는 내용이 굳은 뒤에 옮긴다.
 
-// 게임 소개 영상. 없는 게임은 빈 문자열이면 영상 자리가 통째로 숨는다.
 // 게임별 소개/추가 영상. 배열이 비면 영상 자리가 통째로 숨는다. 자막은 언어를 탄다.
 const PAGE_VIDEOS = {
   miliverse: [
     { id: "0ojvADdKOqA", ko: "밀리버스 소개 영상",        en: "Milliverse — introduction" },
     { id: "A4Gcz7P1bPE", ko: "밀리버스 — 2분 소개 (영어)", en: "Milliverse — 2-minute overview" },
+    { id: "g10AAzbmNEQ", ko: "밀리버스 v2.4 업데이트",     en: "Milliverse — v2.4 update" },
   ],
   kingdom: [],
 };
