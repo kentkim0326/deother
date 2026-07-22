@@ -26,8 +26,31 @@ const KW_SLIDES = ["kw-09.jpg", "kw-14.jpg", "kw-08.jpg", "kw-05.jpg", "kw-13.jp
 const IP_COVERS = ["ip-01.jpg","ip-02.jpg","ip-03.jpg","ip-04.jpg","ip-05.jpg","ip-06.jpg","ip-07.jpg","ip-08.jpg","ip-09.jpg","ip-10.jpg","ip-11.jpg","ip-14.jpg","ip-15.jpg","ip-12.jpg","ip-13.jpg","ip-16.jpg","ip-17.jpg"];   // assets/covers/ — .\add-slides.ps1 ip 가 채운다
 // 표지에 제목이 이미 박혀 있으므로 번역하지 않고 원제를 쓴다. 순서는 IP_COVERS 와 같다.
 const IP_TITLES = ["훈민정음","판문점","조선늑대","저승사자","장보고","아리랑전사단","총기허용의 날","문신귀","아파트","요양원","전원주택","조선닌자 일지매","도깨비왕","Ring of Solomon: Dino Wars","Kingdom Wars","Empire of Hearts","Seraphim"];
-// 영상이 있는 작품의 링크. IP_COVERS 와 같은 순서, 없으면 "".
-const IP_LINKS = ["https://youtu.be/fZEfON-kWpM","","","https://youtube.com/shorts/tlCci--34As","https://youtu.be/KxaBZNQu4tU","https://youtube.com/shorts/UJqLrqdCiT4","","","","","","https://youtube.com/shorts/5GLWerJEs0w","https://youtu.be/aKkhj94jd1U","https://canva.link/r8xr2318d77bxep","","","https://youtube.com/shorts/EgHXbVjl9gA"];
+// 작품 링크. IP_COVERS 와 같은 순서. 값은 세 가지:
+//   ""            링크 없음
+//   "url"         하나 — 표지를 눌러 연다
+//   [{label,url}] 여러 개 — 표지 아래에 라벨 버튼으로 붙는다 (웹툰/영상/노래 등)
+const IP_LINKS = [
+  "https://youtu.be/fZEfON-kWpM",            // 0 훈민정음
+  "",                                        // 1 판문점
+  "",                                        // 2 조선늑대
+  "https://youtube.com/shorts/tlCci--34As",  // 3 저승사자
+  "https://youtu.be/KxaBZNQu4tU",            // 4 장보고
+  "https://youtube.com/shorts/UJqLrqdCiT4",  // 5 아리랑전사단
+  "",                                        // 6 총기허용의 날
+  "",                                        // 7 문신귀
+  "",                                        // 8 아파트
+  "",                                        // 9 요양원
+  "",                                        // 10 전원주택
+  [ { label: "🎬 뮤직비디오", url: "https://youtu.be/ZSuRacp6JI8" },
+    { label: "🎵 노래",       url: "https://youtube.com/shorts/5GLWerJEs0w" } ],  // 11 조선닌자 일지매
+  "https://youtu.be/aKkhj94jd1U",            // 12 도깨비왕
+  [ { label: "📖 웹툰",  url: "https://canva.link/r8xr2318d77bxep" },
+    { label: "▶ 영상",   url: "https://youtube.com/shorts/ZQZ5STV82f0" } ],       // 13 Ring of Solomon: Dino Wars
+  "",                                        // 14 Kingdom Wars
+  "",                                        // 15 Empire of Hearts
+  "https://youtube.com/shorts/EgHXbVjl9gA",  // 16 Seraphim
+];
 
 const WORKS = [
   { key: "fn",       url: LINKS.itch,                            tag: "2026",

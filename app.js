@@ -215,11 +215,12 @@ function render(code) {
         img.alt = IP_TITLES[i] || "";
         img.loading = "lazy";
 
-        // 영상이 있는 작품은 표지를 눌러 볼 수 있게 한다 (없으면 그냥 그림)
-        const url = IP_LINKS[i];
-        if (url) {
+        // IP_LINKS[i] 는 세 가지: "" (링크 없음) · "url" (하나) · [{label,url}, …] (여러 개)
+        const link = IP_LINKS[i];
+        if (typeof link === "string" && link) {
+          // 링크 하나 — 표지를 눌러 연다
           const a = el("a", "cover-play");
-          a.href = url; a.target = "_blank"; a.rel = "noopener";
+          a.href = link; a.target = "_blank"; a.rel = "noopener";
           a.setAttribute("aria-label", IP_TITLES[i] || "");
           a.append(img, el("span", "play", "▶"));
           fig.append(a);
@@ -228,6 +229,17 @@ function render(code) {
         }
         // 표지 그림에 제목이 이미 박혀 있으므로 원제를 그대로 쓴다 (번역하지 않는다)
         if (IP_TITLES[i]) fig.append(el("figcaption", null, IP_TITLES[i]));
+        // 링크 여러 개 — 표지 아래에 라벨 버튼(웹툰/영상/노래 등)을 붙여 둘 다 볼 수 있게
+        if (Array.isArray(link) && link.length) {
+          const row = el("div", "cover-links");
+          link.forEach(it => {
+            const a = el("a", "cover-link");
+            a.href = it.url; a.target = "_blank"; a.rel = "noopener";
+            a.textContent = it.label || "▶";
+            row.append(a);
+          });
+          fig.append(row);
+        }
         return fig;
       }));
     }

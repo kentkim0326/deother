@@ -417,6 +417,15 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
   border: 1px solid rgba(255,255,255,.35); transition: background .2s ease; }
 .cover-play:hover .play { background: var(--accent); }
 
+/* 링크 여러 개인 표지 — 아래에 라벨 버튼(웹툰/영상/노래 등) */
+.cover-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.cover-link {
+  font-size: 12px; padding: 4px 10px; border-radius: 999px;
+  background: var(--bg-3); color: var(--fg-dim); border: 1px solid var(--line);
+  text-decoration: none; white-space: nowrap; line-height: 1.4;
+}
+.cover-link:hover { color: var(--fg); border-color: var(--accent-dim); }
+
 /* 상세 페이지 소개 영상 — 슬라이드쇼 바로 위 */
 /* 상세 페이지 영상 — 폴백(킹덤워즈): 여러 개면 넓은 화면에서 나란히, 좁으면 세로로 쌓인다 */
 .page-videos { margin: 40px 0 0; display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
