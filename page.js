@@ -103,19 +103,39 @@ function pRender(code) {
   }));
   [...body.children].forEach((s, i) => { s.id = "sec-" + i; });
 
-  document.querySelectorAll("#pLang button").forEach(b =>
+  const pf = document.getElementById("pLangFlag"); if (pf) pf.src = `assets/flags/${code}.svg`;
+  const pl = document.getElementById("pLangLabel"); if (pl) pl.textContent = P_LANGS[code];
+  document.querySelectorAll("#pLangMenu button").forEach(b =>
     b.setAttribute("aria-current", String(b.dataset.code === code)));
 }
 
 function pSetup() {
+  // 언어 선택 — 메인 페이지와 같은 드롭다운(.lang-btn + .lang-menu). 국기 포함.
   const box = document.getElementById("pLang");
-  box.replaceChildren(...pAvailLangs().map(code => {
-    const b = pEl("button", null, P_LANGS[code]);
-    b.type = "button";
-    b.dataset.code = code;
-    b.addEventListener("click", () => pRender(code));
-    return b;
-  }));
+  const btn = pEl("button", "lang-btn"); btn.type = "button"; btn.id = "pLangBtn";
+  btn.setAttribute("aria-haspopup", "true"); btn.setAttribute("aria-expanded", "false");
+  const bFlag = pEl("img", "flag"); bFlag.id = "pLangFlag"; bFlag.alt = ""; bFlag.width = 21; bFlag.height = 14;
+  const bLabel = pEl("span", null, ""); bLabel.id = "pLangLabel";
+  const caret = pEl("span", "caret", "▾"); caret.setAttribute("aria-hidden", "true");
+  btn.append(bFlag, bLabel, caret);
+
+  const menu = pEl("div", "lang-menu"); menu.id = "pLangMenu"; menu.setAttribute("role", "menu");
+  const closeMenu = () => { menu.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); };
+  pAvailLangs().forEach(code => {
+    const b = pEl("button", null); b.type = "button"; b.dataset.code = code;
+    const flag = pEl("img", "flag"); flag.src = `assets/flags/${code}.svg`; flag.alt = ""; flag.width = 21; flag.height = 14;
+    b.append(flag, pEl("span", null, P_LANGS[code]));
+    b.addEventListener("click", () => { pRender(code); closeMenu(); });
+    menu.append(b);
+  });
+  btn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const open = menu.classList.toggle("open");
+    btn.setAttribute("aria-expanded", String(open));
+  });
+  document.addEventListener("click", closeMenu);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeMenu(); });
+  box.replaceChildren(btn, menu);
 
   // 슬라이드쇼 — 게임별 이미지가 있으면 붙인다 (메인 페이지와 같은 파일을 쓴다)
   const game = document.body.dataset.game;

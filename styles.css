@@ -80,12 +80,19 @@ nav a:hover { color: var(--fg); border-bottom-color: var(--accent); }
 }
 .lang-menu.open { display: block; }
 .lang-menu button {
-  display: block; width: 100%; text-align: start; background: none;
-  border: 0; color: var(--fg-dim); padding: 9px 12px; border-radius: 5px;
-  cursor: pointer; font-size: 14px; font-family: inherit;
+  display: flex; align-items: center; gap: 10px; width: 100%; text-align: start;
+  background: none; border: 0; color: var(--fg-dim); padding: 9px 12px;
+  border-radius: 5px; cursor: pointer; font-size: 14px; font-family: inherit;
 }
 .lang-menu button:hover { background: var(--bg-3); color: var(--fg); }
 .lang-menu button[aria-current="true"] { color: var(--accent); font-weight: 600; }
+
+/* 언어 국기 — assets/flags/<code>.svg. 이모지 국기가 안 뜨는 환경(윈도우 등) 대비 SVG */
+.flag {
+  width: 21px; height: 14px; flex: none; border-radius: 2px; object-fit: cover;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.14);
+}
+.lang-btn .caret { font-size: 10px; opacity: .55; margin-inline-start: 2px; }
 
 /* ---------- 히어로 ---------- */
 .hero {
@@ -202,13 +209,9 @@ section.alt { background: var(--bg-2); }
 .work-sns:hover, .work-more:hover { text-decoration: underline; }
 
 /* ---------- 게임 상세 페이지 ---------- */
-.doc-lang { display: flex; gap: 6px; margin-inline-start: auto; }
-.doc-lang button {
-  background: var(--bg-3); color: var(--fg-dim); border: 1px solid var(--line);
-  border-radius: 6px; padding: 7px 14px; font-size: 13px; cursor: pointer; font-family: inherit;
-}
-.doc-lang button:hover { color: var(--fg); border-color: var(--accent-dim); }
-.doc-lang button[aria-current="true"] { color: var(--accent); border-color: var(--accent); }
+/* 상세 페이지 언어 선택 — 메인과 같은 .lang / .lang-btn / .lang-menu 를 쓴다.
+   여기서는 헤더 오른쪽으로 밀어주기만 한다. */
+.doc-lang { margin-inline-start: auto; }
 
 .doc-hero {
   padding: clamp(48px, 8vw, 88px) 0 clamp(40px, 6vw, 64px);

@@ -43,6 +43,8 @@ function render(code) {
       nav.appendChild(a);
     });
   set("langLabel", t.name);
+  const langFlag = document.getElementById("langFlag");
+  if (langFlag) { langFlag.src = `assets/flags/${code}.svg`; }
 
   // --- 히어로 ---
   set("eyebrow", t.hero.studio);
@@ -309,9 +311,12 @@ function setupLangMenu() {
   const menu = document.getElementById("langMenu");
 
   menu.replaceChildren(...Object.entries(I18N).map(([code, t]) => {
-    const b = el("button", null, t.name);
+    const b = el("button", null);
     b.type = "button";
     b.dataset.code = code;
+    const flag = el("img", "flag");
+    flag.src = `assets/flags/${code}.svg`; flag.alt = ""; flag.width = 21; flag.height = 14;
+    b.append(flag, el("span", null, t.name));
     b.addEventListener("click", () => {
       render(code); markCurrent(code); close();
     });
