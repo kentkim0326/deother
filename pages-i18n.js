@@ -12,7 +12,7 @@ const PAGE_VIDEOS = {
   miliverse: [
     { id: "0ojvADdKOqA", ko: "밀리버스 소개 영상",        en: "Milliverse — introduction" },
     { id: "A4Gcz7P1bPE", ko: "밀리버스 — 2분 소개 (영어)", en: "Milliverse — 2-minute overview" },
-    { id: "g10AAzbmNEQ", ko: "밀리버스 v2.4 업데이트",     en: "Milliverse — v2.4 update" },
+    { id: "g10AAzbmNEQ", ko: "밀리버스 v2.4 업데이트",     en: "Milliverse — v2.4 update", vertical: true },
   ],
   kingdom: [],
 };

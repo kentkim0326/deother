@@ -418,11 +418,19 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
 .cover-play:hover .play { background: var(--accent); }
 
 /* 상세 페이지 소개 영상 — 슬라이드쇼 바로 위 */
-/* 상세 페이지 영상 — 여러 개면 넓은 화면에서 나란히, 좁으면 세로로 쌓인다 */
+/* 상세 페이지 영상 — 폴백(킹덤워즈): 여러 개면 넓은 화면에서 나란히, 좁으면 세로로 쌓인다 */
 .page-videos { margin: 40px 0 0; display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
-.page-video { margin: 0; }
+.page-videos .page-video { margin: 0; }
+.page-video { margin: 34px 0; }
 .page-video .video-frame { border-radius: 12px; overflow: hidden; border: 1px solid var(--line); }
+/* 세로 영상(쇼츠) — 9:16 프레임, 폭 제한 + 가운데 정렬 */
+.page-video.vertical .video-frame { aspect-ratio: 9 / 16; max-width: 300px; margin-inline: auto; }
 .page-video figcaption { margin-top: 12px; text-align: center; color: var(--muted); font-size: 14px; }
+
+/* 본문 사이에 끼우는 스크린샷 (밀리버스 인터리브 배치) */
+.doc-shot { margin: 34px 0; }
+.doc-shot img { width: 100%; display: block; border-radius: 12px; border: 1px solid var(--line); }
+.doc-shot figcaption { margin-top: 10px; text-align: center; color: var(--muted); font-size: 14px; }
 
 /* 작품 카드의 숫자 — 얼마나 만들었는지가 설명보다 빨리 읽힌다 */
 .work-stats { list-style: none; margin: 16px 0 0; padding: 0;

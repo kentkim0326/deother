@@ -9,18 +9,33 @@ const P_LANGS = {
   pt: "Português", fr: "Français", de: "Deutsch", ru: "Русский", ar: "العربية"
 };
 
-// 이 게임(PAGES[game])에 실제 번역이 들어있는 언어만 캐논 순서대로 돌려준다.
-// 킹덤워즈처럼 아직 ko/en 만 있는 페이지는 나머지 버튼이 뜨지 않는다 —
-// 번역을 채우면 자동으로 버튼이 늘어난다.
-function pAvailLangs() {
-  const game = document.body.dataset.game;
-  return Object.keys(P_LANGS).filter(code => PAGES[game] && PAGES[game][code]);
-}
+// 섹션 사이에 이미지·영상을 끼워 넣는 배치. 게임별로 정의하면 그 게임은
+// "글만 위, 그림은 아래"가 아니라 글·그림·영상이 번갈아 나온다.
+//   top     : 섹션 시작 전(인트로 아래)에 넣을 미디어
+//   after[i]: i 번째 섹션 뒤에 넣을 미디어들
+//   { v: n } → PAGE_VIDEOS[game][n],  { s: n } → n 번째 슬라이드(+자막)
+// 레이아웃이 없는 게임(킹덤워즈)은 예전처럼 아래에 영상 + 슬라이드쇼로 붙는다.
+const P_LAYOUT = {
+  miliverse: {
+    top: [{ v: 0 }],                          // 소개 영상 — 맨 위에서 붙잡는다
+    after: {
+      0: [{ s: 0 }],                          // 왜 만들었나 → 서울 타일 격자
+      1: [{ s: 2 }],                          // 전쟁 → 자동전투 집중포화
+      2: [{ s: 1 }, { v: 1 }],                // 실시간 데이터 → 콕핏 + 2분 영상
+      3: [{ s: 6 }],                          // 무기/배치 → 지도 위 액션
+      4: [{ s: 5 }, { s: 3 }],                // 하는 방법 → 리더보드 + 알고리즘 대시보드
+      5: [{ s: 4 }, { s: 7 }, { v: 2 }],      // AI/데이터 → 도시 50곳 + 접속보상 + v2.4 쇼츠
+    },
+  },
+};
 
-// 슬라이드 설명. pSetup 이 슬라이드쇼를 한 번만 만들고,
-// pRender 가 언어를 바꿀 때마다 이 둘을 갈아끼운다.
+// 슬라이드 설명(슬라이드쇼 방식·킹덤워즈용). pSetup 이 한 번 만들고 pRender 가 갈아끼운다.
 let pSlideCaps = [];
 let pShowCap = () => {};
+
+// 인터리브(밀리버스) 방식에서 만든 요소 참조. 언어를 바꿔도 요소를 다시 만들지 않고
+// 텍스트만 갈아끼운다 — 그래야 재생 중인 영상이 안 끊긴다.
+let pRefs = null;
 
 function pEl(tag, cls, text) {
   const n = document.createElement(tag);
@@ -42,6 +57,104 @@ function pDetectLang() {
   return "en";
 }
 
+// 이 게임(PAGES[game])에 실제 번역이 들어있는 언어만 캐논 순서대로 돌려준다.
+function pAvailLangs() {
+  const game = document.body.dataset.game;
+  return Object.keys(P_LANGS).filter(code => PAGES[game] && PAGES[game][code]);
+}
+
+// 영상 figure 하나. 세로 영상(쇼츠)은 vertical 클래스로 9:16 프레임을 쓴다.
+function pVideoFig(v) {
+  const fig = pEl("figure", "page-video" + (v.vertical ? " vertical" : ""));
+  const frame = pEl("div", "video-frame");
+  const f = document.createElement("iframe");
+  f.src = `https://www.youtube-nocookie.com/embed/${v.id}`;   // 재생 전에는 추적 쿠키를 심지 않는다
+  f.loading = "lazy";
+  f.allow = "accelerometer; clipboard-write; encrypted-media; picture-in-picture";
+  f.allowFullscreen = true;
+  frame.append(f);
+  const cap = pEl("figcaption");
+  fig.append(frame, cap);
+  return { fig, cap };
+}
+
+// 인터리브 본문을 한 번만 짓는다. 텍스트는 비워두고 pRefs 에 참조만 담는다 (pRender 가 채운다).
+function pBuildInterleaved(game, layout) {
+  const en = PAGES[game].en;                       // 구조(섹션·문단·항목 수)의 기준
+  const vids = (typeof PAGE_VIDEOS !== "undefined") ? (PAGE_VIDEOS[game] || []) : [];
+  const folder = game === "miliverse" ? "assets/slides-mv/" : "assets/slides-kw/";
+  const files = game === "miliverse"
+    ? (typeof MV_SLIDES !== "undefined" ? MV_SLIDES : [])
+    : (typeof KW_SLIDES !== "undefined" ? KW_SLIDES : []);
+
+  const body = document.getElementById("pBody");
+  body.replaceChildren();
+  const refs = { secs: [], slideCaps: {}, videoCaps: {}, toc: [] };
+
+  const addMedia = (items) => (items || []).forEach(m => {
+    if (m.v != null && vids[m.v]) {
+      const { fig, cap } = pVideoFig(vids[m.v]);
+      body.append(fig);
+      refs.videoCaps[m.v] = cap;
+    } else if (m.s != null && files[m.s]) {
+      const fig = pEl("figure", "doc-shot");
+      const img = document.createElement("img");
+      img.src = folder + files[m.s]; img.alt = ""; img.loading = "lazy";
+      const cap = pEl("figcaption");
+      fig.append(img, cap);
+      body.append(fig);
+      refs.slideCaps[m.s] = cap;
+    }
+  });
+
+  addMedia(layout.top);
+
+  en.sections.forEach((sec, i) => {
+    const s = pEl("section", "doc-section");
+    s.id = "sec-" + i;
+    const h = pEl("h2"); s.append(h);
+    const ps = (sec.p || []).map(() => { const p = pEl("p"); s.append(p); return p; });
+    let listH = null; let lis = [];
+    if (sec.list) {
+      if (sec.list.h) { listH = pEl("h3"); s.append(listH); }
+      const ul = pEl("ul", "doc-list");
+      lis = sec.list.items.map(() => { const li = pEl("li"); ul.append(li); return li; });
+      s.append(ul);
+    }
+    body.append(s);
+    refs.secs.push({ h, ps, listH, lis });
+    addMedia(layout.after && layout.after[i]);
+  });
+
+  const toc = document.getElementById("pToc");
+  toc.replaceChildren(...en.sections.map((sec, i) => {
+    const a = pEl("a"); a.href = "#sec-" + i; refs.toc.push(a); return a;
+  }));
+
+  pRefs = refs;
+}
+
+// 인터리브 본문의 텍스트만 언어에 맞춰 갈아끼운다.
+function pUpdateInterleaved(t, code, vids) {
+  t.sections.forEach((sec, i) => {
+    const r = pRefs.secs[i]; if (!r) return;
+    r.h.textContent = sec.h;
+    (sec.p || []).forEach((x, j) => { if (r.ps[j]) r.ps[j].textContent = x; });
+    if (r.listH && sec.list) r.listH.textContent = sec.list.h;
+    if (sec.list) sec.list.items.forEach((x, j) => { if (r.lis[j]) r.lis[j].textContent = x; });
+  });
+  const caps = t.slides || [];
+  Object.keys(pRefs.slideCaps).forEach(si => { pRefs.slideCaps[si].textContent = caps[+si] || ""; });
+  Object.keys(pRefs.videoCaps).forEach(vi => {
+    const v = vids[+vi];
+    const label = v ? (v[code] || v.en || "") : "";
+    const cap = pRefs.videoCaps[vi];
+    cap.textContent = label;
+    const f = cap.parentElement.querySelector("iframe"); if (f) f.title = label;
+  });
+  pRefs.toc.forEach((a, i) => { a.textContent = t.sections[i] ? t.sections[i].h : ""; });
+}
+
 function pRender(code) {
   const game = document.body.dataset.game;          // "miliverse" | "kingdom"
   const t = PAGES[game][code] || PAGES[game].en;
@@ -54,47 +167,43 @@ function pRender(code) {
   document.getElementById("pTagline").textContent = t.tagline;
   document.getElementById("pIntro").textContent   = t.intro;
 
-  pSlideCaps = t.slides || [];
-  pShowCap();
+  const cta = document.getElementById("pCta");   cta.textContent = t.cta;
+  const back = document.getElementById("pBack"); back.textContent = "← " + t.back;
 
-  // 영상 자막 — iframe 은 pSetup 에서 한 번만 만든다. 여기서는 언어별 설명만 갈아끼운다.
   const vids = (typeof PAGE_VIDEOS !== "undefined") ? (PAGE_VIDEOS[game] || []) : [];
-  document.querySelectorAll("#pVideos figcaption").forEach(cap => {
-    const v = vids[+cap.dataset.vi];
-    if (!v) return;
-    const label = v[code] || v.en || "";
-    cap.textContent = label;
-    const f = cap.parentElement.querySelector("iframe");
-    if (f) f.title = label;
-  });
 
-  const cta = document.getElementById("pCta");
-  cta.textContent = t.cta;
-  const back = document.getElementById("pBack");
-  back.textContent = "← " + t.back;
-
-  const body = document.getElementById("pBody");
-  body.replaceChildren(...t.sections.map(sec => {
-    const s = pEl("section", "doc-section");
-    s.append(pEl("h2", null, sec.h));
-    (sec.p || []).forEach(x => s.append(pEl("p", null, x)));
-    if (sec.list) {
-      if (sec.list.h) s.append(pEl("h3", null, sec.list.h));
-      const ul = pEl("ul", "doc-list");
-      sec.list.items.forEach(x => ul.append(pEl("li", null, x)));
-      s.append(ul);
-    }
-    return s;
-  }));
-
-  // 목차 — 내용이 길어서 위에서 훑을 수 있게 한다
-  const toc = document.getElementById("pToc");
-  toc.replaceChildren(...t.sections.map((sec, i) => {
-    const a = pEl("a", null, sec.h);
-    a.href = "#sec-" + i;
-    return a;
-  }));
-  [...body.children].forEach((s, i) => { s.id = "sec-" + i; });
+  if (pRefs) {
+    // 인터리브(밀리버스) — 요소는 그대로 두고 텍스트만 갱신
+    pUpdateInterleaved(t, code, vids);
+  } else {
+    // 폴백(킹덤워즈) — 본문은 다시 그리고, 영상/슬라이드는 아래에 따로
+    pSlideCaps = t.slides || [];
+    pShowCap();
+    document.querySelectorAll("#pVideos figcaption").forEach(cap => {
+      const v = vids[+cap.dataset.vi]; if (!v) return;
+      const label = v[code] || v.en || "";
+      cap.textContent = label;
+      const f = cap.parentElement.querySelector("iframe"); if (f) f.title = label;
+    });
+    const body = document.getElementById("pBody");
+    body.replaceChildren(...t.sections.map(sec => {
+      const s = pEl("section", "doc-section");
+      s.append(pEl("h2", null, sec.h));
+      (sec.p || []).forEach(x => s.append(pEl("p", null, x)));
+      if (sec.list) {
+        if (sec.list.h) s.append(pEl("h3", null, sec.list.h));
+        const ul = pEl("ul", "doc-list");
+        sec.list.items.forEach(x => ul.append(pEl("li", null, x)));
+        s.append(ul);
+      }
+      return s;
+    }));
+    const toc = document.getElementById("pToc");
+    toc.replaceChildren(...t.sections.map((sec, i) => {
+      const a = pEl("a", null, sec.h); a.href = "#sec-" + i; return a;
+    }));
+    [...body.children].forEach((s, i) => { s.id = "sec-" + i; });
+  }
 
   const pf = document.getElementById("pLangFlag"); if (pf) pf.src = `assets/flags/${code}.svg`;
   const pl = document.getElementById("pLangLabel"); if (pl) pl.textContent = P_LANGS[code];
@@ -130,30 +239,26 @@ function pSetup() {
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeMenu(); });
   box.replaceChildren(btn, menu);
 
-  // 영상 — 언어와 무관하므로 iframe 은 한 번만 만든다 (재생 중 언어를 바꿔도 안 끊긴다).
-  // PAGE_VIDEOS[game] 배열이 비면 컨테이너는 hidden 그대로 → 자리째 숨는다.
-  const vgame = document.body.dataset.game;
-  const vids = (typeof PAGE_VIDEOS !== "undefined") ? (PAGE_VIDEOS[vgame] || []) : [];
+  const game = document.body.dataset.game;
+  const layout = (typeof P_LAYOUT !== "undefined") ? P_LAYOUT[game] : null;
+  if (layout) {
+    // 인터리브 방식 — 본문 안에 섹션·이미지·영상을 섞어 짓는다. 아래 슬라이드쇼/영상은 안 쓴다.
+    pBuildInterleaved(game, layout);
+    return;
+  }
+
+  // ── 폴백(킹덤워즈): 영상은 아래 #pVideos 에 한 번만, 슬라이드는 슬라이드쇼로 ──
+  const vids = (typeof PAGE_VIDEOS !== "undefined") ? (PAGE_VIDEOS[game] || []) : [];
   const vbox = document.getElementById("pVideos");
   if (vbox && vids.length) {
     vbox.hidden = false;
     vids.forEach((v, i) => {
-      const fig = pEl("figure", "page-video");
-      const frame = pEl("div", "video-frame");
-      const f = document.createElement("iframe");
-      f.src = `https://www.youtube-nocookie.com/embed/${v.id}`;   // 재생 전에는 추적 쿠키를 심지 않는다
-      f.loading = "lazy";
-      f.allow = "accelerometer; clipboard-write; encrypted-media; picture-in-picture";
-      f.allowFullscreen = true;
-      frame.append(f);
-      const cap = pEl("figcaption"); cap.dataset.vi = String(i);
-      fig.append(frame, cap);
+      const { fig, cap } = pVideoFig(v);
+      cap.dataset.vi = String(i);
       vbox.append(fig);
     });
   }
 
-  // 슬라이드쇼 — 게임별 이미지가 있으면 붙인다 (메인 페이지와 같은 파일을 쓴다)
-  const game = document.body.dataset.game;
   const set = game === "miliverse"
     ? { files: (typeof MV_SLIDES !== "undefined" ? MV_SLIDES : []), folder: "assets/slides-mv/" }
     : { files: (typeof KW_SLIDES !== "undefined" ? KW_SLIDES : []), folder: "assets/slides-kw/" };
@@ -165,8 +270,6 @@ function pSetup() {
   const dots  = document.getElementById("pDots");
   let idx = 0, timer = null;
 
-  // 설명을 붙인다 — 공모전 심사에서는 "무슨 화면인지"가 그림만큼 중요하다.
-  // 언어를 바꾸면 pRender 가 pSlideCaps 를 갈아끼우므로 여기서는 자리만 만든다.
   const cap = pEl("p", "slide-cap");
   cap.id = "pCap";
   track.after(cap);
