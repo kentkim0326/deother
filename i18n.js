@@ -27,7 +27,7 @@ const IP_COVERS = ["ip-01.jpg","ip-02.jpg","ip-03.jpg","ip-04.jpg","ip-05.jpg","
 // 표지에 제목이 이미 박혀 있으므로 번역하지 않고 원제를 쓴다. 순서는 IP_COVERS 와 같다.
 const IP_TITLES = ["훈민정음","판문점","조선늑대","저승사자","장보고","아리랑전사단","총기허용의 날","문신귀","아파트","요양원","전원주택","조선닌자 일지매","도깨비왕","Ring of Solomon: Dino Wars","Kingdom Wars"];
 // 영상이 있는 작품의 링크. IP_COVERS 와 같은 순서, 없으면 "".
-const IP_LINKS = ["","","","","","","","","","","","https://youtu.be/ZSuRacp6JI8","https://youtu.be/aKkhj94jd1U","",""];
+const IP_LINKS = ["https://youtu.be/fZEfON-kWpM","","","","https://youtu.be/KxaBZNQu4tU","","","","","","","https://youtu.be/ZSuRacp6JI8","https://youtu.be/aKkhj94jd1U","",""];
 
 const WORKS = [
   { key: "fn",       url: LINKS.itch,                            tag: "2026",
