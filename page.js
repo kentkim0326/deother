@@ -57,23 +57,16 @@ function pRender(code) {
   pSlideCaps = t.slides || [];
   pShowCap();
 
-  // 소개 영상 — 자막이 언어를 타므로 언어를 바꿀 때마다 설명을 다시 쓴다
-  const vid = (typeof PAGE_VIDEOS !== "undefined") ? PAGE_VIDEOS[game] : null;
-  const vbox = document.getElementById("pVideo");
-  if (vbox && vid && vid.id) {
-    vbox.hidden = false;
-    const frame = document.getElementById("pVideoFrame");
-    if (!frame.firstChild) {
-      const f = document.createElement("iframe");
-      f.src = `https://www.youtube-nocookie.com/embed/${vid.id}`;   // 재생 전에는 추적 쿠키를 심지 않는다
-      f.loading = "lazy";
-      f.allow = "accelerometer; clipboard-write; encrypted-media; picture-in-picture";
-      f.allowFullscreen = true;
-      frame.append(f);
-    }
-    frame.firstChild.title = vid[code] || vid.en;
-    document.getElementById("pVideoCap").textContent = vid[code] || vid.en;
-  }
+  // 영상 자막 — iframe 은 pSetup 에서 한 번만 만든다. 여기서는 언어별 설명만 갈아끼운다.
+  const vids = (typeof PAGE_VIDEOS !== "undefined") ? (PAGE_VIDEOS[game] || []) : [];
+  document.querySelectorAll("#pVideos figcaption").forEach(cap => {
+    const v = vids[+cap.dataset.vi];
+    if (!v) return;
+    const label = v[code] || v.en || "";
+    cap.textContent = label;
+    const f = cap.parentElement.querySelector("iframe");
+    if (f) f.title = label;
+  });
 
   const cta = document.getElementById("pCta");
   cta.textContent = t.cta;
@@ -136,6 +129,28 @@ function pSetup() {
   document.addEventListener("click", closeMenu);
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeMenu(); });
   box.replaceChildren(btn, menu);
+
+  // 영상 — 언어와 무관하므로 iframe 은 한 번만 만든다 (재생 중 언어를 바꿔도 안 끊긴다).
+  // PAGE_VIDEOS[game] 배열이 비면 컨테이너는 hidden 그대로 → 자리째 숨는다.
+  const vgame = document.body.dataset.game;
+  const vids = (typeof PAGE_VIDEOS !== "undefined") ? (PAGE_VIDEOS[vgame] || []) : [];
+  const vbox = document.getElementById("pVideos");
+  if (vbox && vids.length) {
+    vbox.hidden = false;
+    vids.forEach((v, i) => {
+      const fig = pEl("figure", "page-video");
+      const frame = pEl("div", "video-frame");
+      const f = document.createElement("iframe");
+      f.src = `https://www.youtube-nocookie.com/embed/${v.id}`;   // 재생 전에는 추적 쿠키를 심지 않는다
+      f.loading = "lazy";
+      f.allow = "accelerometer; clipboard-write; encrypted-media; picture-in-picture";
+      f.allowFullscreen = true;
+      frame.append(f);
+      const cap = pEl("figcaption"); cap.dataset.vi = String(i);
+      fig.append(frame, cap);
+      vbox.append(fig);
+    });
+  }
 
   // 슬라이드쇼 — 게임별 이미지가 있으면 붙인다 (메인 페이지와 같은 파일을 쓴다)
   const game = document.body.dataset.game;

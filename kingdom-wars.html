@@ -38,11 +38,8 @@
   </div>
 
   <div class="wrap">
-    <!-- 소개 영상 — PAGE_VIDEOS 에 id 가 없으면 숨는다 -->
-    <figure class="page-video" id="pVideo" hidden>
-      <div class="video-frame" id="pVideoFrame"></div>
-      <figcaption id="pVideoCap"></figcaption>
-    </figure>
+    <!-- 소개/추가 영상 — PAGE_VIDEOS[game] 배열이 비면 숨는다 (page.js 가 채운다) -->
+    <div class="page-videos" id="pVideos" hidden></div>
 
     <div class="slideshow" id="pSlides" hidden>
       <div class="slide-track" id="pTrack"></div>

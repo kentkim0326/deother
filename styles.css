@@ -89,7 +89,7 @@ nav a:hover { color: var(--fg); border-bottom-color: var(--accent); }
 
 /* 언어 국기 — assets/flags/<code>.svg. 이모지 국기가 안 뜨는 환경(윈도우 등) 대비 SVG */
 .flag {
-  width: 21px; height: 14px; flex: none; border-radius: 2px; object-fit: cover;
+  width: 20px; height: 15px; flex: none; border-radius: 2px; object-fit: cover;
   box-shadow: 0 0 0 1px rgba(255,255,255,.14);
 }
 .lang-btn .caret { font-size: 10px; opacity: .55; margin-inline-start: 2px; }
@@ -418,7 +418,9 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
 .cover-play:hover .play { background: var(--accent); }
 
 /* 상세 페이지 소개 영상 — 슬라이드쇼 바로 위 */
-.page-video { margin: 40px 0 0; }
+/* 상세 페이지 영상 — 여러 개면 넓은 화면에서 나란히, 좁으면 세로로 쌓인다 */
+.page-videos { margin: 40px 0 0; display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.page-video { margin: 0; }
 .page-video .video-frame { border-radius: 12px; overflow: hidden; border: 1px solid var(--line); }
 .page-video figcaption { margin-top: 12px; text-align: center; color: var(--muted); font-size: 14px; }
 

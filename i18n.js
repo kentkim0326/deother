@@ -60,15 +60,17 @@ const VIDEOS = [
 
 // 언어별 주제가 + 게임플레이 — 라벨은 각 언어의 자기 이름이라 번역이 필요 없다.
 const LANG_VIDEOS = [
-  { id: "Jz87ihIc9UA", label: "日本語" },
-  { id: "TvWAlwjtuBk", label: "中文" },
-  { id: "8K2EA5uU2Xg", label: "हिन्दी" },
-  { id: "Q_gbdZXAv4U", label: "العربية" },
-  { id: "kdkLUdXFbkM", label: "Tiếng Việt" },
-  { id: "Dkm8JAM4jDw", label: "Español" },
-  { id: "6aXEb-0DTsY", label: "Français" },
-  { id: "6cmH_kNbEnQ", label: "Deutsch" },
-  { id: "DCXYcc31pQU", label: "Svenska" }
+  { id: "fZEfON-kWpM", label: "한국어" },
+  { id: "kUbEnMCuwvU", label: "日本語" },
+  { id: "fKPyUueHmmM", label: "中文" },
+  { id: "60tNhXeN2qg", label: "Tiếng Việt" },
+  { id: "xN0Hb8UstME", label: "हिन्दी" },
+  { id: "Os9h28-oQaY", label: "العربية" },
+  { id: "nJQ5-_m5AoE", label: "Español" },
+  { id: "PfKVs99MzlU", label: "Italiano" },
+  { id: "ygjB8m8CJvw", label: "Français" },
+  { id: "VF1E55L7Kd8", label: "Deutsch" },
+  { id: "1qi2pz7ePPg", label: "Svenska" }
 ];
 
 const I18N = {
