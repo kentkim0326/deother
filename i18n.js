@@ -31,26 +31,31 @@ const IP_TITLES = ["훈민정음","판문점","조선늑대","저승사자","장
 //   "url"         하나 — 표지를 눌러 연다
 //   [{label,url}] 여러 개 — 표지 아래에 라벨 버튼으로 붙는다 (웹툰/영상/노래 등)
 const IP_LINKS = [
-  "https://youtu.be/fZEfON-kWpM",            // 0 훈민정음
-  "",                                        // 1 판문점
-  "",                                        // 2 조선늑대
-  "https://youtube.com/shorts/tlCci--34As",  // 3 저승사자
-  "https://youtu.be/KxaBZNQu4tU",            // 4 장보고
+  [ { label: "🎵 노래",       url: "https://youtu.be/fZEfON-kWpM" },
+    { label: "📖 밀리의 서재", url: "https://short.millie.co.kr/u9o68u" } ],           // 0 훈민정음
+  [ { label: "📖 밀리의 서재", url: "https://short.millie.co.kr/m3tvb3" } ],           // 1 판문점
+  [ { label: "📖 밀리의 서재", url: "https://short.millie.co.kr/x3kjwg" } ],           // 2 조선늑대
+  [ { label: "🎵 노래",       url: "https://youtube.com/shorts/tlCci--34As" },
+    { label: "📖 밀리의 서재", url: "https://short.millie.co.kr/vhyblr" } ],           // 3 저승사자
+  [ { label: "🎵 노래",       url: "https://youtu.be/KxaBZNQu4tU" },
+    { label: "📖 밀리의 서재", url: "https://short.millie.co.kr/v9taflr" } ],           // 4 장보고
   "https://youtube.com/shorts/UJqLrqdCiT4",  // 5 아리랑전사단
-  "",                                        // 6 총기허용의 날
+  [ { label: "📖 밀리의 서재", url: "https://short.millie.co.kr/dwm1yh" } ],           // 6 총기허용의 날
   "",                                        // 7 문신귀
   "",                                        // 8 아파트
   "",                                        // 9 요양원
   "",                                        // 10 전원주택
   [ { label: "🎬 뮤직비디오", url: "https://youtu.be/ZSuRacp6JI8" },
-    { label: "🎵 노래",       url: "https://youtube.com/shorts/5GLWerJEs0w" } ],  // 11 조선닌자 일지매
+    { label: "🎵 노래",       url: "https://youtube.com/shorts/5GLWerJEs0w" },
+    { label: "📖 밀리의 서재", url: "https://short.millie.co.kr/o8f6op" } ],           // 11 조선닌자 일지매
   "https://youtu.be/aKkhj94jd1U",            // 12 도깨비왕
   [ { label: "📖 웹툰",  url: "https://canva.link/r8xr2318d77bxep" },
-    { label: "▶ 영상",   url: "https://youtube.com/shorts/ZQZ5STV82f0" } ],       // 13 Ring of Solomon: Dino Wars
+    { label: "▶ 영상",   url: "https://youtube.com/shorts/ZQZ5STV82f0" } ],           // 13 Ring of Solomon: Dino Wars
   "https://youtu.be/blHdmtxBQn0",            // 14 Kingdom Wars
   "",                                        // 15 Empire of Hearts
-  [ { label: "🎵 테마송", url: "https://youtube.com/shorts/EgHXbVjl9gA" },
-    { label: "🖼 이미지", url: "https://canva.link/xir1gnpfs3m068j" } ],           // 16 Seraphim
+  [ { label: "🎵 테마송",     url: "https://youtube.com/shorts/EgHXbVjl9gA" },
+    { label: "🖼 이미지",     url: "https://canva.link/xir1gnpfs3m068j" },
+    { label: "📖 밀리의 서재", url: "https://short.millie.co.kr/l0am4h" } ],           // 16 Seraphim
 ];
 
 const WORKS = [
