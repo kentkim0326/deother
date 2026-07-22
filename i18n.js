@@ -55,12 +55,14 @@ const VIDEOS = [
   { id: "gnJP_zJFMhY", date: "2025",       label: "Making 3D characters — VARCO AI + Mixamo" },
   { id: "QqSZydGkVe8", date: "2025.12.31", label: "NC Soft 2nd VARCO AI Game Contest" },
   { id: "uUvsWr6_JwI", date: "2025.12.31", label: "Opening movie" },
-  { id: "JOZwYUQ4cd8", date: "2026",       label: "Fighting Nations — 2 minute trailer" }
+  { id: "JOZwYUQ4cd8", date: "2026",       label: "Fighting Nations — 2 minute trailer" },
+  { id: "kKeMb2ytC-M", date: "2026",       label: "Fighting Nations — opening movie" }
 ];
 
-// 언어별 주제가 + 게임플레이 — 라벨은 각 언어의 자기 이름이라 번역이 필요 없다.
+// 언어별 주제가 + 게임플레이 — 라벨은 각 언어의 자기 이름(또는 한국어 곡 제목)이라 번역이 필요 없다.
 const LANG_VIDEOS = [
-  { id: "fZEfON-kWpM", label: "한국어" },
+  { id: "fZEfON-kWpM", label: "혼민정음" },
+  { id: "KxaBZNQu4tU", label: "장보고" },
   { id: "kUbEnMCuwvU", label: "日本語" },
   { id: "fKPyUueHmmM", label: "中文" },
   { id: "60tNhXeN2qg", label: "Tiếng Việt" },
