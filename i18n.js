@@ -49,7 +49,8 @@ const IP_LINKS = [
     { label: "▶ 영상",   url: "https://youtube.com/shorts/ZQZ5STV82f0" } ],       // 13 Ring of Solomon: Dino Wars
   "https://youtu.be/blHdmtxBQn0",            // 14 Kingdom Wars
   "",                                        // 15 Empire of Hearts
-  "https://youtube.com/shorts/EgHXbVjl9gA",  // 16 Seraphim
+  [ { label: "🎵 테마송", url: "https://youtube.com/shorts/EgHXbVjl9gA" },
+    { label: "🖼 이미지", url: "https://canva.link/xir1gnpfs3m068j" } ],           // 16 Seraphim
 ];
 
 const WORKS = [
