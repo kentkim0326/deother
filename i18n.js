@@ -70,7 +70,7 @@ const WORKS = [
   { key: "miliverse",url: "https://miliverse-ten.vercel.app",     tag: "2022 · 2026",
     logo: "assets/miliverse-logo.png", detail: "miliverse.html",
     sns:  { label: "Facebook", url: "https://www.facebook.com/miliverse2022" } },
-  { key: "jangbogo", url: "https://jangbogo.vercel.app",          tag: "2026",
+  { key: "jangbogo", url: "https://jangbogo-nine.vercel.app",     tag: "2026",
     logo: "assets/jangbogo-logo.svg" }
 ];
 
