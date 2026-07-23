@@ -24,6 +24,8 @@ const FN_SLIDES = ["fn-08.jpg", "fn-11.jpg", "fn-05.jpg", "fn-16.jpg", "fn-15.jp
 // 밀리버스 상세 — 군대·지휘관 콘셉트 아트(자막 없이 시네마틱 밴드로). 실제 게임 화면은 영상이 담당.
 const MV_SLIDES = ["mv-art-01.jpg", "mv-art-05.jpg", "mv-art-06.jpg", "mv-art-09.jpg", "mv-art-10.jpg"];   // assets/slides-mv/
 const KW_SLIDES = ["kw-09.jpg", "kw-14.jpg", "kw-08.jpg", "kw-05.jpg", "kw-13.jpg", "kw-23.jpg", "kw-20.jpg", "kw-17.jpg"];
+// 장보고 상세 — 게임 시작화면 아트(세계 교역 가문). 자막 없이 시네마틱 밴드로.
+const JB_SLIDES = ["jb-01.jpg", "jb-02.jpg", "jb-03.jpg", "jb-04.jpg"];   // assets/slides-jb/
 const IP_COVERS = ["ip-01.jpg","ip-02.jpg","ip-03.jpg","ip-04.jpg","ip-05.jpg","ip-06.jpg","ip-07.jpg","ip-08.jpg","ip-09.jpg","ip-10.jpg","ip-11.jpg","ip-14.jpg","ip-15.jpg","ip-12.jpg","ip-13.jpg","ip-16.jpg","ip-17.jpg"];   // assets/covers/ — .\add-slides.ps1 ip 가 채운다
 // 표지에 제목이 이미 박혀 있으므로 번역하지 않고 원제를 쓴다. 순서는 IP_COVERS 와 같다.
 const IP_TITLES = ["훈민정음","판문점","조선늑대","저승사자","장보고","아리랑전사단","총기허용의 날","문신귀","아파트","요양원","전원주택","조선닌자 일지매","도깨비왕","Ring of Solomon: Dino Wars","Kingdom Wars","Empire of Hearts","Seraphim"];
@@ -71,7 +73,7 @@ const WORKS = [
     logo: "assets/miliverse-logo.png", detail: "miliverse.html",
     sns:  { label: "Facebook", url: "https://www.facebook.com/miliverse2022" } },
   { key: "jangbogo", url: "https://jangbogo-nine.vercel.app",     tag: "2026",
-    logo: "assets/jangbogo-logo.svg" }
+    logo: "assets/jangbogo-logo.svg", detail: "jangbogo.html" }
 ];
 
 // 개발 연표 영상 — 오래된 것부터. 제목은 영어 그대로 둔다(유튜브 원제와 맞추기 위해).

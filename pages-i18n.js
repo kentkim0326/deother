@@ -385,5 +385,148 @@ const PAGES = {
     "de": {"title":"Kingdom Wars","tagline":"Eine Nation wählen und den Mond Sektor für Sektor nehmen","intro":"Wählen Sie eine Nation und einen Kommandanten und nehmen Sie die 49 Sektoren des Mondes einen nach dem anderen ein. Es läuft im Browser, ohne Installation. Am unteren Bildschirmrand ziehen die echten Nachrichten von heute vorbei.","sections":[{"h":"Warum es so gebaut ist","p":["Strategiespiele sind meist schwerfällig. Herunterladen, installieren, ein Tutorial über sich ergehen lassen — und erst dann beginnt die erste Partie. Irgendwo dazwischen springen die Leute ab.","Also haben wir die Installation weggelassen. Sie öffnen den Link und stehen auf dem Auswahlbildschirm für die Nation; ein paar Klicks später sind Sie im Gefecht. Das ganze Spiel läuft aus einer einzigen HTML-Datei.","Leicht, aber wir wollten es nicht seicht machen. Siegesserien bauen einen Multiplikator auf, jeder Kampf wird bewertet, und Siege lassen Einheiten fallen. Der Reiz von 'nur noch eine Runde' ist Absicht."]},{"h":"Wie ein Krieg beginnt","p":["Der Mond ist ein 7×7-Raster, 49 Sektoren. Jeder hat sein eigenes Gelände und seine eigenen Ressourcen, und Sie können nur angreifen, was an bereits gehaltenes Gebiet grenzt. Was Sie zuerst nehmen, entscheidet also, wohin Sie als Nächstes gelangen.","Es gibt drei Wege hinein: geradeaus, ein geschickter Flankenangriff (+20%) oder das Einkesseln aus mehreren angrenzenden Sektoren zugleich (+15%). Dieselbe Streitmacht erzielt je nach Vorgehen unterschiedliche Ergebnisse.","Jeder Kampf endet mit einer Kampfwertung — S, A, B oder C, wobei S doppelt auszahlt. Gewinnen und gut gewinnen sind nicht dasselbe."],"list":{"h":"Was in einen Kampf einfließt","items":["Einheitenzusammenstellung — 5 Schiffe, 5 Mechs, ein Ass. Seltenheit N / R / SR / UR","Vorgehen — direkt, geschickter Flankenangriff (+20%), Einkesseln (+15% aus angrenzenden Sektoren)","Moral — der Zustand einer Streitmacht fließt in ihre Kampfkraft ein","Siegesserie — +8% pro Sieg in Folge, bis zu +60%","Kritische Treffer — 15% Chance auf 1.6×"]}},{"h":"Echtzeitdaten — echte Nachrichten ziehen vorbei","p":["Ein Laufband am unteren Rand trägt echte Nachrichten von genau jetzt, abgerufen in der vom Spieler gewählten Sprache.","Wenn die echten Ereignisse von heute unter einem im Weltraum ausgetragenen Krieg entlanglaufen, liegen das Jahr 2077 des Spiels und die Gegenwart auf einer Linie. Schließen Sie es und kommen Sie zurück — die Welt hat sich weitergedreht.","Für blockierte Netzwerke oder ausbleibende Antworten gibt es Ersatznachrichten aus dem Weltraum, und Ergebnisse werden zehn Minuten lang zwischengespeichert, damit dieselbe Anfrage nicht wiederholt wird."],"list":{"h":"Verwendete offene Daten","items":["Google News RSS — Echtzeit-Nachrichtenfeeds je Sprache","Sprachbewusst — Nachrichten auf Koreanisch, Englisch, Japanisch und Chinesisch","Fallback und Cache — Ersatzmeldungen, wenn nichts antwortet, zehn Minuten Cache"]}},{"h":"Einheiten und Aufstellung","p":["Fünf Schiffsklassen, fünf Mech-Klassen und eine Ass-Einheit, in vier Seltenheiten: N, R, SR, UR. Siege lassen Einheiten als Beute fallen, mit mehr als 8%.","Es gibt vier Ressourcen — Helium-3, Münzen, Wasser und Regolith. Sektoren liefern jeweils andere, sodass das, was Sie nehmen, bestimmt, was Sie bauen können.","Sie starten mit fünf Jägern und zwei Zerstörern, 3,500 Helium-3 und 1,500 Münzen, und am Ende jeder Runde kommt ein Jäger hinzu — eine Untergrenze, niedrig genug, dass eine schwere Niederlage den Lauf nicht beendet."]},{"h":"So wird gespielt","list":{"h":"","items":["Eine Nation wählen — Korea, die Vereinigten Staaten und andere","Einen Kommandanten wählen; jeder spielt sich anders","Auf der Karte einen Sektor anklicken, der an Ihr Gebiet grenzt","Die zu entsendenden Einheiten und das Vorgehen wählen — direkt, Flanke oder Einkesseln — und dann angreifen","Im Ergebnisbildschirm Kampfwertung und Beute ablesen und dann die Runde beenden","Auf dem Handy werden Einheiten über die Leiste am unteren Bildschirmrand ausgewählt"]}},{"h":"KI und offene Daten","p":["Nur, was wir belegen können.","KI-Programmierwerkzeuge kommen in der gesamten Entwicklung zum Einsatz — Spiellogik, die Lokalisierung in vier Sprachen (UI-Texte und über 270 Spieldaten-Einträge in zwei getrennten Schichten gehalten) und automatisierte Tests entstanden allesamt auf diese Weise.","Die Bild-Assets im Spiel werden mit generativer KI erstellt.","Die offenen Daten sind Google News RSS: Echtzeit-Schlagzeilen, die in der Sprache des Spielers abgerufen und über den Bildschirm laufen."]}],"cta":"Kingdom Wars spielen","back":"Zurück zu Deother"},
     "ru": {"title":"Kingdom Wars","tagline":"Выберите страну и забирайте Луну сектор за сектором","intro":"Выберите страну и командира и забирайте 49 секторов Луны по одному. Игра работает прямо в браузере, ничего устанавливать не нужно. Внизу экрана бегущей строкой идут сегодняшние настоящие новости.","sections":[{"h":"Почему мы сделали именно так","p":["Стратегии обычно тяжёлые. Скачать, установить, отсидеть обучение — и только потом начинается первый бой. Где-то на этом пути люди уходят.","Поэтому мы убрали установку. Открываете ссылку — и вы на экране выбора страны; ещё пара кликов, и вы уже в бою. Вся игра работает из одного HTML-файла.","Лёгкая, но мы старались не сделать её поверхностной. Серии побед наращивают множитель, каждый бой получает оценку боя, а победа приносит юниты. Крючок «ещё один раунд» задуман намеренно."]},{"h":"Как начинается война","p":["Луна — это сетка 7×7, 49 секторов. У каждого свой рельеф и свои ресурсы, а атаковать можно только то, что граничит с уже вашей территорией. Поэтому то, что вы захватите первым, определяет, куда можно пойти дальше.","Есть три способа зайти: в лоб, грамотный фланг (+20%) или охват сразу с нескольких соседних секторов (+15%). Одни и те же силы дают разный результат в зависимости от подхода.","Каждый бой заканчивается оценкой боя — S, A, B или C, причём S даёт двойную награду. Победить и победить красиво — не одно и то же."],"list":{"h":"Что влияет на бой","items":["Состав отряда — 5 кораблей, 5 мехов, ас. Редкость N / R / SR / UR","Подход — в лоб, грамотный фланг (+20%), охват (+15% с соседних секторов)","Боевой дух — состояние отряда влияет на его боевую мощь","Серия побед — +8% за каждую победу подряд, до +60%","Критические удары — 15% шанс на 1.6×"]}},{"h":"Данные в реальном времени — настоящие новости бегущей строкой","p":["Бегущая строка внизу несёт настоящие новости прямо сейчас, подобранные на языке, который выбрал игрок.","Когда под космической войной идут сегодняшние реальные события, игровой 2077 год и настоящее оказываются на одной строке. Закройте игру и вернитесь — мир всё это время продолжал жить.","На случай заблокированной сети или отсутствия ответа есть резервные космические новости, а результаты кешируются на десять минут, чтобы не повторять один и тот же запрос."],"list":{"h":"Используемые открытые данные","items":["Google News RSS — ленты новостей в реальном времени по языкам","Учёт языка — новости на корейском, английском, японском и китайском","Резерв и кеш — замещающие новости, когда ничего не отвечает, кеш на десять минут"]}},{"h":"Юниты и развёртывание","p":["Пять классов кораблей, пять классов мехов и юнит-ас, четыре уровня редкости: N, R, SR, UR. Победа приносит юниты в виде трофеев с шансом выше 8%.","Ресурсов четыре — Helium-3, монеты, вода и реголит. Разные секторы дают разное, поэтому то, что вы захватываете, определяет, что вы сможете построить.","Вы начинаете с пятью истребителями и двумя эсминцами, 3,500 Helium-3 и 1,500 монет, и в конце каждого хода прибывает один истребитель — минимальная подушка, при которой тяжёлое поражение не обрывает партию."]},{"h":"Как играть","list":{"h":"","items":["Выберите страну — Корея, США и другие","Выберите командира; каждый играется по-своему","Нажмите на карте сектор, граничащий с вашей территорией","Выберите юниты для отправки и подход — в лоб, фланг или охват — и запускайте атаку","Посмотрите оценку боя и трофеи на экране результата и завершите ход","На мобильном юниты выбираются на панели внизу экрана"]}},{"h":"ИИ и открытые данные","p":["Только то, что мы можем подтвердить.","Инструменты ИИ для написания кода используются на всём протяжении разработки — игровая логика, локализация на четыре языка (фиксированные строки интерфейса и более 270 записей игровых данных, разнесённые по двум отдельным слоям) и автоматические тесты сделаны именно так.","Графические ассеты в игре создаются с помощью генеративного ИИ.","Открытые данные — это Google News RSS: заголовки в реальном времени, загружаемые на языке игрока и бегущие по экрану."]}],"cta":"Играть в Kingdom Wars","back":"Вернуться в Deother"},
     "ar": {"title":"Kingdom Wars","tagline":"اختر دولة واستولِ على القمر قطاعًا بعد قطاع","intro":"اختر دولة وقائدًا، ثم استولِ على قطاعات القمر الـ49 قطاعًا تلو الآخر. تعمل اللعبة في المتصفح مباشرة دون أي تثبيت. وعلى أسفل الشاشة تمرّ أخبار اليوم الحقيقية.","sections":[{"h":"لماذا صُنعت بهذه الطريقة","p":["ألعاب الاستراتيجية ثقيلة في العادة: تنزيل، ثم تثبيت، ثم درس تعليمي طويل، وعندها فقط تبدأ أول مباراة. وفي مكان ما خلال ذلك يغادر الناس.","لذلك ألغينا التثبيت. تفتح الرابط فتجد نفسك في شاشة اختيار الدولة، وبعد نقرات قليلة تكون في خضمّ معركة. تعمل اللعبة بأكملها من ملف HTML واحد.","خفيفة، لكننا حرصنا ألا تكون سطحية. سلاسل الانتصارات تبني مضاعِفًا، وكل معركة تنال تقييمًا، والفوز يُسقط وحدات. أما جاذبية «جولة أخرى فقط» فمقصودة بالتصميم."]},{"h":"كيف تبدأ الحرب","p":["القمر شبكة من 7×7، أي 49 قطاعًا. لكل قطاع تضاريسه وموارده الخاصة، ولا يمكنك مهاجمة إلا ما يجاور أرضًا تسيطر عليها بالفعل. لذا فإن ما تستولي عليه أولًا يحدّد إلى أين تمضي بعد ذلك.","هناك ثلاث طرق للاقتحام: هجوم مباشر، أو التفاف ذكي (+20%)، أو إطباق من عدة قطاعات متجاورة دفعة واحدة (+15%). القوة نفسها تحقق نتائج مختلفة تبعًا لأسلوب الاقتحام.","تنتهي كل معركة بتقييم — S أو A أو B أو C، وتقييم S يمنح مكافأة مضاعفة. فالفوز شيء والفوز بإتقان شيء آخر."],"list":{"h":"ما الذي يدخل في المعركة","items":["تشكيلة الوحدات — 5 سفن و5 ميكات ووحدة نخبة. ندرة N / R / SR / UR","أسلوب الاقتحام — مباشر، أو التفاف ذكي (+20%)، أو إطباق (+15% من القطاعات المجاورة)","الروح المعنوية — حالة القوة تنعكس على قدرتها القتالية","سلسلة الانتصارات — +8% عن كل فوز متتالٍ، حتى +60%","الضربات الحاسمة — احتمال 15% بمعامل 1.6×"]}},{"h":"بيانات حية — أخبار حقيقية تمرّ على الشاشة","p":["يحمل شريط في أسفل الشاشة أخبارًا حقيقية من هذه اللحظة، مجلوبةً باللغة التي اختارها اللاعب.","ومع مرور أحداث اليوم الحقيقية تحت حرب تدور في الفضاء، يلتقي عام 2077 في اللعبة والحاضر على سطر واحد. أغلق اللعبة ثم عُد، فتجد العالم قد واصل حركته.","وتحسبًا للشبكات المحجوبة أو الاستجابات المتوقفة، هناك أخبار فضائية بديلة، وتُخزَّن النتائج مؤقتًا لمدة عشر دقائق حتى لا يتكرر الطلب نفسه."],"list":{"h":"البيانات المفتوحة المستخدَمة","items":["Google News RSS — تغذية أخبار حية لكل لغة","متوافقة مع اللغة — أخبار بالكورية والإنجليزية واليابانية والصينية","بديل وتخزين مؤقت — أخبار بديلة عند غياب أي استجابة، وتخزين مؤقت لعشر دقائق"]}},{"h":"الوحدات والانتشار العسكري","p":["خمس فئات من السفن، وخمس فئات من الميكات، ووحدة نخبة، بأربع درجات ندرة: N وR وSR وUR. والفوز يُسقط وحدات كغنائم باحتمال يتجاوز 8%.","هناك أربعة موارد — Helium-3 والعملات والماء والثرى القمري. تنتج القطاعات موارد مختلفة، لذا فإن ما تستولي عليه يحدّد ما يمكنك بناؤه.","تبدأ بخمس مقاتلات ومدمّرتين، و3,500 من Helium-3 و1,500 عملة، وتصل مقاتلة واحدة في نهاية كل دور — حدٌّ أدنى منخفض بما يكفي لئلا تنهي هزيمةٌ قاسية مسيرتك."]},{"h":"كيف تلعب","list":{"h":"","items":["اختر دولة — كوريا والولايات المتحدة وغيرها","اختر قائدًا؛ لكل قائد أسلوب لعب مختلف","انقر على قطاع في الخريطة يجاور أرضك","اختر الوحدات التي سترسلها وأسلوب الاقتحام — مباشر أو التفاف أو إطباق — ثم انطلق","اطّلع على تقييمك وغنائمك في شاشة النتائج، ثم أنهِ الدور","على الأجهزة المحمولة، تُختار الوحدات من الشريط الممتد على أسفل الشاشة"]}},{"h":"الذكاء الاصطناعي والبيانات المفتوحة","p":["لا نذكر هنا إلا ما يمكننا إثباته.","نستخدم أدوات البرمجة بالذكاء الاصطناعي في كل مراحل التطوير — فمنطق اللعبة، والتوطين بأربع لغات (نصوص الواجهة وأكثر من 270 مُدخلًا من بيانات اللعبة محفوظة في طبقتين منفصلتين)، والاختبارات الآلية، بُنيت جميعها بهذه الطريقة.","وتُصنع الأصول التصويرية داخل اللعبة بالذكاء الاصطناعي التوليدي.","أما البيانات المفتوحة فهي Google News RSS: عناوين حية تُجلب بلغة اللاعب وتُمرَّر على الشاشة."]}],"cta":"جرّب Kingdom Wars","back":"العودة إلى Deother"}
+  },
+
+  /* ===================== 장보고 ===================== */
+  jangbogo: {
+    ko: {
+      title: "북미대륙을 발견한 장보고", tagline: "실제 세계 지도 위에서 벌이는 9세기 해상무역 경영",
+      intro: "완도 어부의 아들이 당나라를 거쳐 해상왕이 된다. 실제 좌표의 항구를 오가며 교역으로 부를 쌓고, 거북선으로 해적을 소탕하며, 각지의 인물과 관계를 맺어 세계로 뻗는 교역 가문을 이룬다. 정사 위에 원작 소설의 대체역사를 얹었다 — 콜럼버스보다 650년 먼저 북미에 닿는 길.",
+      sections: [
+        {
+          h: "왜 이렇게 만들었나",
+          p: [
+            "9세기에 실제로 황해를 주름잡은 해상왕 장보고가 있었다. 그 정사 위에, 장보고가 염장의 암살을 피해 살아남았다면 어디까지 갔을까 하는 원작 소설의 대체역사를 얹었다. 완도에서 당나라로, 다시 쿠로시오 해류를 타고 콜럼버스보다 650년 먼저 북미로.",
+            "가상의 지도를 그리지 않았다. 양주·등주·청해진·경주·쓰시마·하카타·나니와, 그리고 시애틀 — 실제로 존재하는 항구의 실제 좌표를 쓴다. 항해 거리도 그 좌표로 계산된다.",
+            "전략·경영 게임은 무겁다는 통념을 깼다. 설치 없이 브라우저에서 바로 돌아간다. 완도 출생부터 시작하는 프롤로그로 인물에 정을 붙인 뒤에 교역의 바다를 연다."
+          ]
+        },
+        {
+          h: "어떻게 부를 쌓는가 — 해상 교역",
+          p: [
+            "항구마다 상품 시세가 다르다. 비단·청자·차·인삼·은·서적·모피·삼나무를 싼 곳에서 사서 비싼 곳에 판다. 사면 오르고 팔면 내리는 시장 반응이 있어 한 항구에 몰아 팔 수는 없다.",
+            "매입에는 나라별 관세가, 매도에는 저잣거리와 독점 교역권 보너스가 붙는다. 어느 항로를 여느냐가 곧 시세차익이고, 번 돈은 배와 거점을 키우는 데 들어간다."
+          ],
+          list: {
+            h: "교역에 들어가는 값",
+            items: [
+              "상품 시세 — 기준가 × 항구별 계수 × 동적 변동",
+              "관세 — 당·신라·일본 등 나라마다 다른 매입세",
+              "저잣거리·독점 교역권 — 매도 보너스",
+              "강화 — 배(적재·속도·무장)와 거점(창고·저잣거리·병영)"
+            ]
+          }
+        },
+        {
+          h: "항해와 거북선 해전",
+          p: [
+            "항해 일수는 실제 좌표 사이의 거리로 계산된다. 배가 항로를 따라 움직이고, 북미(시애틀)는 하카타에서 쿠로시오 곡선 경로(일본→알류샨→북미)로만 닿는다.",
+            "도착할 때마다 사건이 기다린다 — 해적 조우, 폭풍, 뇌물을 요구하는 부패 관리, 난파선, 순풍. 곁에 둔 인재의 행운이 악재 확률을 낮춘다.",
+            "해적은 거북선 기함으로 소탕한다. 충파·화공·궁수·철갑 방어의 턴제 해전이고, 무장과 병영이 공격·방어·체력에 반영된다. 소탕은 곧 그 항로를 여는 일이다."
+          ]
+        },
+        {
+          h: "세계로 뻗는 교역 가문",
+          p: [
+            "삼국지식 인물 관계 시스템이 있다. 각지의 인물을 그 거점 항구에서 만나 호감을 세 단계로 쌓는다.",
+            "무역상은 영입해 매매를 유리하게 만들고, 각지의 여인과는 혼인해 가문을 이룬다 — 가문은 항해마다 자동 수익을 낳는다. 왕에게 진상하면 그 나라의 독점 교역권이 열린다. 각 지역의 여인이 앵커가 되고 자녀가 그 지역 교역망을 맡는다.",
+            "성공할수록 진골 귀족의 경계가 커진다. 반복되는 자객을 정보망으로 막아야 하고, 4막에서 정사(염장의 암살)와 소설(탈출과 대항해)이 갈린다."
+          ]
+        },
+        {
+          h: "하는 방법",
+          list: {
+            h: "",
+            items: [
+              "완도 출생부터 시작하는 프롤로그로 장보고의 성장을 따라간다",
+              "항구를 골라 시장에서 상품을 사고판다",
+              "항로를 정해 항해한다 — 도착 시 사건이나 전투가 벌어진다",
+              "거북선 해전은 공격 방식(충파·화공·궁수)과 방어를 골라 턴제로 싸운다",
+              "배와 거점을 강화하고, 각지 인물과 관계를 맺어 가문을 넓힌다",
+              "순자산 마일스톤을 밟는다 — 청해진 → 황해의 지배자 → 해상왕"
+            ]
+          }
+        },
+        {
+          h: "AI와 공개 지도 데이터",
+          p: [
+            "이 항목은 확인된 것만 적는다.",
+            "개발 전 과정에 AI 코딩 도구를 쓴다. 단일 HTML 파일 하나로 지도·경제·전투·인물 관계·다국어·오디오가 모두 도는 것이 그 결과다. 게임 안의 이미지 자산은 생성형 AI로 만든다.",
+            "지도는 MapLibre GL JS 위에 OpenFreeMap(OpenStreetMap 계열 공개 지도 데이터)을 얹는다. 현대의 라벨과 도로를 걷어내 고지도 무드로 칠하고, 실제 좌표 위에 9세기 교역로와 오가는 배들을 그린다. 실좌표는 장식이 아니라 항해 거리 계산의 입력값이다."
+          ]
+        }
+      ],
+      cta: "장보고 해보기", back: "디아더로 돌아가기"
+    },
+
+    en: {
+      title: "Jang Bogo: King of the Seas", tagline: "9th-century maritime trade, played on the real world map",
+      intro: "The son of a Wando fisherman rises through Tang China to become the king of the seas. Sailing between ports at their real coordinates, you build wealth through trade, sweep pirates aside with turtle ships, and forge ties with people across the world into a trading house that spans it. Alternate history from the original novel, laid over the historical record — reaching North America 650 years before Columbus.",
+      sections: [
+        {
+          h: "Why it is built this way",
+          p: [
+            "There really was a sea king, Jang Bogo, who commanded the Yellow Sea in the 9th century. Over that history we laid a question from the original novel — how far might he have gone had he survived the assassination? From Wando to Tang China, then on the Kuroshio current to North America, 650 years before Columbus.",
+            "We didn't draw a fictional map. Yangzhou, Dengzhou, Cheonghaejin, Gyeongju, Tsushima, Hakata, Naniwa — and Seattle. Real ports at real coordinates. Even the length of a voyage is computed from them.",
+            "Strategy and management games are supposed to be heavy. This one runs in the browser with nothing to install. A prologue that begins at your birth in Wando ties you to the character before the sea of trade opens."
+          ]
+        },
+        {
+          h: "How you build wealth — maritime trade",
+          p: [
+            "Prices differ from port to port. Buy silk, celadon, tea, ginseng, silver, books, fur and cedar where they are cheap, and sell them where they are dear. The market reacts — buying pushes a price up, selling pushes it down — so you can't dump everything in one harbour.",
+            "Buying carries each realm's tariff; selling earns marketplace and monopoly-charter bonuses. Which route you open is your margin, and what you earn goes into your ship and your base."
+          ],
+          list: {
+            h: "What goes into trade",
+            items: [
+              "Prices — base price × per-port factor × dynamic swing",
+              "Tariffs — a different purchase tax per realm (Tang, Silla, Japan…)",
+              "Marketplace & monopoly charter — selling bonuses",
+              "Upgrades — the ship (cargo, speed, arms) and the base (warehouse, market, barracks)"
+            ]
+          }
+        },
+        {
+          h: "Sailing and turtle-ship battles",
+          p: [
+            "The length of a voyage is the real distance between coordinates. Your ship moves along its route, and North America (Seattle) is reached only from Hakata, on the curved Kuroshio path — Japan, the Aleutians, then the coast.",
+            "Every arrival holds an event — a pirate encounter, a storm, a corrupt official demanding a bribe, a wreck, a fair wind. The luck of a talent at your side lowers the odds of misfortune.",
+            "Pirates are cleared with your turtle-ship flagship: a turn-based battle of ramming, fire, archers and iron-clad defence, with your arms and barracks feeding attack, defence and health. Clearing them opens the route."
+          ]
+        },
+        {
+          h: "A trading house that spans the world",
+          p: [
+            "There is a relationship system in the spirit of the old strategy epics. You meet people at their home ports and build regard over three stages.",
+            "Recruit a merchant to tip trade in your favour; marry a woman from a distant land and found a house — a house that pays you automatically on every voyage. Present tribute to a king and a monopoly charter for that realm opens. Each region's woman is an anchor; her children run that region's network.",
+            "The more you succeed, the warier the true-bone nobility grow. You fend off repeated assassins through your information network, and in the fourth act the historical record (assassination) and the novel (escape and a great voyage) part ways."
+          ]
+        },
+        {
+          h: "How to play",
+          list: {
+            h: "",
+            items: [
+              "Follow Jang Bogo's rise through a prologue that begins at his birth in Wando",
+              "Pick a port and buy and sell goods at its market",
+              "Set a route and sail — an event or a battle awaits on arrival",
+              "In a turtle-ship battle, choose your attack (ram, fire, archers) and your defence, turn by turn",
+              "Upgrade your ship and base, and grow your house through ties across the seas",
+              "Hit the net-worth milestones — Cheonghaejin → master of the Yellow Sea → king of the seas"
+            ]
+          }
+        },
+        {
+          h: "AI and open map data",
+          p: [
+            "Only what we can point to.",
+            "AI coding tools are used throughout development. The result is a single HTML file that runs the map, the economy, battles, relationships, localisation and audio all at once. Image assets in the game are made with generative AI.",
+            "The map is MapLibre GL JS over OpenFreeMap — open map data from the OpenStreetMap family. Modern labels and roads are stripped away and repainted into an old-chart mood, and over the real coordinates we draw 9th-century trade routes and the ships that ply them. The real coordinates are not decoration: they are the input to every voyage's distance."
+          ]
+        }
+      ],
+      cta: "Play Jang Bogo", back: "Back to Deother"
+    }
   }
 };

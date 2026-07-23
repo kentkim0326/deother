@@ -29,6 +29,15 @@ const P_LAYOUT = {
       5: [{ img: 4 }, { v: 2 }],              // AI/데이터    → 파워아머 + v2.4 쇼츠
     },
   },
+  jangbogo: {
+    // 게임 시작화면 아트(세계 교역 가문)를 자막 없이 밴드로. 영상 없음.
+    after: {
+      0: [{ img: 0 }],                        // 왜 만들었나  → 장보고와 각지 여인들
+      2: [{ img: 1 }],                        // 항해·해전
+      3: [{ img: 2 }],                        // 교역 가문    → 다문화 가문 아트
+      4: [{ img: 3 }],                        // 하는 방법
+    },
+  },
 };
 
 // 슬라이드 설명(슬라이드쇼 방식·킹덤워즈용). pSetup 이 한 번 만들고 pRender 가 갈아끼운다.
@@ -65,6 +74,14 @@ function pAvailLangs() {
   return Object.keys(P_LANGS).filter(code => PAGES[game] && PAGES[game][code]);
 }
 
+// 게임별 슬라이드 파일·폴더. 새 게임은 여기 한 줄만 추가하면 된다.
+function pSlideSet(game) {
+  if (game === "miliverse") return { files: (typeof MV_SLIDES !== "undefined" ? MV_SLIDES : []), folder: "assets/slides-mv/" };
+  if (game === "kingdom")   return { files: (typeof KW_SLIDES !== "undefined" ? KW_SLIDES : []), folder: "assets/slides-kw/" };
+  if (game === "jangbogo")  return { files: (typeof JB_SLIDES !== "undefined" ? JB_SLIDES : []), folder: "assets/slides-jb/" };
+  return { files: [], folder: "" };
+}
+
 // 영상 figure 하나. 세로 영상(쇼츠)은 vertical 클래스로 9:16 프레임을 쓴다.
 function pVideoFig(v) {
   const fig = pEl("figure", "page-video" + (v.vertical ? " vertical" : ""));
@@ -84,10 +101,7 @@ function pVideoFig(v) {
 function pBuildInterleaved(game, layout) {
   const en = PAGES[game].en;                       // 구조(섹션·문단·항목 수)의 기준
   const vids = (typeof PAGE_VIDEOS !== "undefined") ? (PAGE_VIDEOS[game] || []) : [];
-  const folder = game === "miliverse" ? "assets/slides-mv/" : "assets/slides-kw/";
-  const files = game === "miliverse"
-    ? (typeof MV_SLIDES !== "undefined" ? MV_SLIDES : [])
-    : (typeof KW_SLIDES !== "undefined" ? KW_SLIDES : []);
+  const { files, folder } = pSlideSet(game);
 
   const body = document.getElementById("pBody");
   body.replaceChildren();
@@ -268,9 +282,7 @@ function pSetup() {
     });
   }
 
-  const set = game === "miliverse"
-    ? { files: (typeof MV_SLIDES !== "undefined" ? MV_SLIDES : []), folder: "assets/slides-mv/" }
-    : { files: (typeof KW_SLIDES !== "undefined" ? KW_SLIDES : []), folder: "assets/slides-kw/" };
+  const set = pSlideSet(game);
 
   const box2 = document.getElementById("pSlides");
   if (!set.files.length || !box2) return;
