@@ -441,6 +441,10 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
 .doc-shot img { width: 100%; display: block; border-radius: 12px; border: 1px solid var(--line); }
 .doc-shot figcaption { margin-top: 10px; text-align: center; color: var(--muted); font-size: 14px; }
 
+/* 자막 없는 시네마틱 아트 밴드 (콘셉트 아트로 텍스트 사이를 끊어준다) */
+.doc-band { margin: 40px 0; }
+.doc-band img { width: 100%; display: block; border-radius: 14px; border: 1px solid var(--line); }
+
 /* 작품 카드의 숫자 — 얼마나 만들었는지가 설명보다 빨리 읽힌다 */
 .work-stats { list-style: none; margin: 16px 0 0; padding: 0;
   display: flex; flex-wrap: wrap; gap: 8px; }

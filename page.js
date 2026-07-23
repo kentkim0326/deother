@@ -17,14 +17,16 @@ const P_LANGS = {
 // 레이아웃이 없는 게임(킹덤워즈)은 예전처럼 아래에 영상 + 슬라이드쇼로 붙는다.
 const P_LAYOUT = {
   miliverse: {
+    // 이미지는 게임 화면이 아니라 콘셉트 아트라 자막 없이 시네마틱 밴드({img})로 넣는다.
+    // 실제 게임플레이 증거는 영상({v})이 담당. 글 → 아트 → 글 → 영상 리듬.
     top: [{ v: 0 }],                          // 소개 영상 — 맨 위에서 붙잡는다
     after: {
-      0: [{ s: 0 }],                          // 왜 만들었나 → 서울 타일 격자
-      1: [{ s: 2 }],                          // 전쟁 → 자동전투 집중포화
-      2: [{ s: 1 }, { v: 1 }],                // 실시간 데이터 → 콕핏 + 2분 영상
-      3: [{ s: 6 }],                          // 무기/배치 → 지도 위 액션
-      4: [{ s: 5 }, { s: 3 }],                // 하는 방법 → 리더보드 + 알고리즘 대시보드
-      5: [{ s: 4 }, { s: 7 }, { v: 2 }],      // AI/데이터 → 도시 50곳 + 접속보상 + v2.4 쇼츠
+      0: [{ img: 0 }],                        // 왜 만들었나  → WWII 사단(석양)
+      1: [{ img: 1 }],                        // 전쟁         → 파워아머 노장
+      2: [{ v: 1 }],                          // 실시간 데이터 → 2분 소개 영상
+      3: [{ img: 2 }],                        // 무기/배치    → 파워아머 근접
+      4: [{ img: 3 }],                        // 하는 방법    → WWII 무디
+      5: [{ img: 4 }, { v: 2 }],              // AI/데이터    → 파워아머 + v2.4 쇼츠
     },
   },
 };
@@ -104,6 +106,13 @@ function pBuildInterleaved(game, layout) {
       fig.append(img, cap);
       body.append(fig);
       refs.slideCaps[m.s] = cap;
+    } else if (m.img != null && files[m.img]) {
+      // 자막 없는 시네마틱 아트 밴드 — 언어 무관이라 refs 에 넣지 않는다
+      const fig = pEl("figure", "doc-band");
+      const img = document.createElement("img");
+      img.src = folder + files[m.img]; img.alt = ""; img.loading = "lazy";
+      fig.append(img);
+      body.append(fig);
     }
   });
 
