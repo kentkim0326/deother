@@ -69,7 +69,9 @@ const WORKS = [
     sns:  { label: "Facebook", url: "https://www.facebook.com/profile.php?id=61591748124601" } },
   { key: "miliverse",url: "https://miliverse-ten.vercel.app",     tag: "2022 · 2026",
     logo: "assets/miliverse-logo.png", detail: "miliverse.html",
-    sns:  { label: "Facebook", url: "https://www.facebook.com/miliverse2022" } }
+    sns:  { label: "Facebook", url: "https://www.facebook.com/miliverse2022" } },
+  { key: "jangbogo", url: "https://jangbogo.vercel.app",          tag: "2026",
+    logo: "assets/jangbogo-logo.svg" }
 ];
 
 // 개발 연표 영상 — 오래된 것부터. 제목은 영어 그대로 둔다(유튜브 원제와 맞추기 위해).
@@ -193,7 +195,8 @@ const I18N = {
     works: { trailer: "Trailer", more: "Read more", heading: "What we have built", lead: "Three games built and live, and the IP behind them — novels and web serials — written in-house.", note: "Martial arts from 200 nations, the coordinates of real cities, squads wearing their flags — there is always a country in our games. Not to make any one of them stronger, but so that a player from anywhere can find their place in it.", items: {
       fn: { t: "Fighting Nations", b: "A 3D fighting game with no weapons — just the martial arts of the world, one style per fighter. Team battles on destructible stages, with the long-term goal of 64-player battle royale. In development and playable now.", s: ["21 fighters","11 martial arts","6 stages"] },
       kingdom: { t: "Kingdom Wars", b: "Pick a nation and a commander, then take the Moon sector by sector — 49 of them, turn by turn, in the browser. Killstreaks, battle grades and loot drops. Live in four languages." },
-      miliverse: { t: "Milliverse", b: "Web3 strategy game played on the real world map. Buy tiles, deploy weapons and troops, fight other players for territory. Live in four languages, with real weather and day-night data feeding the battles." }
+      miliverse: { t: "Milliverse", b: "Web3 strategy game played on the real world map. Buy tiles, deploy weapons and troops, fight other players for territory. Live in four languages, with real weather and day-night data feeding the battles." },
+      jangbogo: { t: "Jang Bogo: King of the Seas", b: "A 9th-century maritime-trade management sim about the sea king Jang Bogo. Build wealth through trade on a real world map, sweep pirates aside with turtle ships, and grow your power through ties with people across the seas. Alternate history from the original novel — reaching North America 650 years before Columbus. Playable right in the browser." }
     } },
     decks: { heading: "Pitch deck", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Contact", rights: "All rights reserved." }
@@ -288,7 +291,8 @@ const I18N = {
     works: { trailer: "트레일러", more: "자세히", heading: "우리가 만든 것", lead: "게임 세 개를 만들어 띄웠습니다. 그 바탕이 되는 IP — 소설·웹소설 — 도 직접 씁니다.", note: "200개국의 무술, 실제 도시의 좌표, 국기를 단 부대 — 우리 게임에는 늘 국가가 있습니다. 어느 나라를 강하게 만들기 위해서가 아니라, 어느 나라 사람이든 자기 자리를 찾을 수 있게 하기 위해서입니다.", items: {
       fn: { t: "Fighting Nations", b: "무기가 없는 3D 격투게임입니다. 세계의 무술만으로 싸우고, 파이터마다 다른 유파를 씁니다. 부서지는 스테이지 위에서 팀으로 붙으며, 최종 목표는 64인 배틀로얄입니다. 개발 중이며 지금 플레이할 수 있습니다.", s: ["파이터 21명","무술 11종","스테이지 6곳"] },
       kingdom: { t: "Kingdom Wars", b: "국가와 사령관을 고르고 달의 49개 섹터를 한 칸씩 빼앗는 턴제 전략. 브라우저에서 바로 합니다. 연승 배수, 전투 등급, 전리품 드랍까지. 4개 언어로 서비스 중." },
-      miliverse: { t: "밀리버스", b: "실제 세계 지도 위에서 벌어지는 Web3 전략 게임. 타일을 사고 무기와 병사를 배치해 다른 플레이어와 영토를 두고 싸웁니다. 4개 언어로 서비스 중이며, 실제 날씨와 낮밤 데이터가 전투에 반영됩니다." }
+      miliverse: { t: "밀리버스", b: "실제 세계 지도 위에서 벌어지는 Web3 전략 게임. 타일을 사고 무기와 병사를 배치해 다른 플레이어와 영토를 두고 싸웁니다. 4개 언어로 서비스 중이며, 실제 날씨와 낮밤 데이터가 전투에 반영됩니다." },
+      jangbogo: { t: "북미대륙을 발견한 장보고", b: "9세기 해상왕 장보고의 해상무역 경영 시뮬레이션. 실제 세계 지도 위에서 교역으로 부를 쌓고, 거북선으로 해적을 소탕하며, 각지의 인물과 관계를 맺어 세력을 넓힙니다. 원작 소설의 대체역사 — 콜럼버스보다 650년 먼저 북미에 닿는 길. 브라우저에서 바로 플레이." }
     } },
     decks: { heading: "발표 자료", en: "English version", ko: "한국어 버전" },
     footer: { studio: "주식회사 디아더", contact: "문의", rights: "All rights reserved." }
@@ -380,7 +384,8 @@ const I18N = {
     works: { trailer: "预告片", more: "了解更多", heading: "我们做出来的东西", lead: "三款游戏，都已上线。支撑它们的 IP——小说与网络连载——也全部自己创作。", note: "两百个国家的武术、真实城市的坐标、佩戴国旗的部队——我们的游戏里始终有国家。不是为了让某一国更强，而是让来自任何地方的玩家都能找到自己的位置。", items: {
       fn: { t: "Fighting Nations", b: "一款没有武器的 3D 格斗游戏——只用世界各地的武术，每位角色一种流派。在可破坏的场景中进行团队对战，长期目标是 64 人大逃杀。开发中，现已可玩。", s: ["21 名角色","11 种武术","6 个场景"] },
       kingdom: { t: "Kingdom Wars", b: "选择国家与指挥官，在浏览器里一格一格拿下月球的 49 个区块。连胜加成、战斗评级、战利品掉落。四种语言运营中。" },
-      miliverse: { t: "Milliverse", b: "在真实世界地图上进行的 Web3 战略游戏。购买地块、部署武器与士兵，与其他玩家争夺领土。四种语言上线运营，真实天气与昼夜数据会影响战斗。" }
+      miliverse: { t: "Milliverse", b: "在真实世界地图上进行的 Web3 战略游戏。购买地块、部署武器与士兵，与其他玩家争夺领土。四种语言上线运营，真实天气与昼夜数据会影响战斗。" },
+      jangbogo: { t: "张保皋：海上之王", b: "以9世纪海上王张保皋为主角的海上贸易经营模拟。在真实世界地图上通过贸易积累财富，用龟船扫荡海盗，并与各地人物结缘以扩张势力。源自原著小说的架空历史——比哥伦布早650年抵达北美。在浏览器中即可畅玩。" }
     } },
     decks: { heading: "企划书", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother 有限公司", contact: "联系我们", rights: "版权所有。" }
@@ -472,7 +477,8 @@ const I18N = {
     works: { trailer: "トレーラー", more: "詳しく", heading: "作ってきたもの", lead: "三本のゲームを作り、世に出しました。その土台となるIP——小説とウェブ小説——も自分たちで書いています。", note: "200カ国の武術、実在する都市の座標、国旗を掲げた部隊——私たちのゲームにはいつも国があります。どこか一国を強くするためではなく、どの国の人でも自分の居場所を見つけられるようにするためです。", items: {
       fn: { t: "Fighting Nations", b: "武器のない3D格闘ゲームです。世界の武術だけで戦い、ファイターごとに流派が違います。壊れるステージでのチーム戦、最終目標は64人バトルロイヤル。開発中、いま遊べます。", s: ["ファイター21人","武術11種","ステージ6"] },
       kingdom: { t: "Kingdom Wars", b: "国と司令官を選び、月の49セクターを一つずつ奪っていくターン制ストラテジー。ブラウザですぐ遊べます。連勝ボーナス、戦闘評価、戦利品ドロップつき。4言語で稼働中。" },
-      miliverse: { t: "Milliverse", b: "現実の世界地図の上で戦うWeb3ストラテジー。タイルを買い、武器と兵士を配置し、他のプレイヤーと領土を奪い合います。4言語で稼働中、実際の天候と昼夜のデータが戦闘に反映されます。" }
+      miliverse: { t: "Milliverse", b: "現実の世界地図の上で戦うWeb3ストラテジー。タイルを買い、武器と兵士を配置し、他のプレイヤーと領土を奪い合います。4言語で稼働中、実際の天候と昼夜のデータが戦闘に反映されます。" },
+      jangbogo: { t: "チャン・ボゴ：海の王", b: "9世紀の海の王チャン・ボゴ（張保皋）を主人公にした海上交易経営シミュレーション。現実の世界地図の上で交易によって富を築き、亀甲船で海賊を掃討し、各地の人物と縁を結んで勢力を広げます。原作小説の改変歴史——コロンブスより650年早く北米に到達する物語。ブラウザですぐに遊べます。" }
     } },
     decks: { heading: "企画書", en: "English version", ko: "한국어 버전" },
     footer: { studio: "株式会社ディアザー", contact: "お問い合わせ", rights: "All rights reserved." }
@@ -564,7 +570,8 @@ const I18N = {
     works: { trailer: "Tráiler", more: "Saber más", heading: "Lo que hemos construido", lead: "Tres juegos construidos y en línea. Y la IP que hay detrás —novelas y seriales— la escribimos nosotros.", note: "Artes marciales de doscientas naciones, coordenadas de ciudades reales, escuadrones con su bandera: en nuestros juegos siempre hay un país. No para hacer más fuerte a ninguno, sino para que un jugador de cualquier lugar encuentre su sitio.", items: {
       fn: { t: "Fighting Nations", b: "Un juego de lucha en 3D sin armas: solo las artes marciales del mundo, un estilo por luchador. Combates por equipos en escenarios destructibles, con el objetivo a largo plazo de un battle royale de 64 jugadores. En desarrollo y jugable ya.", s: ["21 luchadores","11 artes marciales","6 escenarios"] },
       kingdom: { t: "Kingdom Wars", b: "Elige nación y comandante y toma la Luna sector a sector: 49 en total, por turnos, en el navegador. Rachas de victorias, calificación de combate y botín. Disponible en cuatro idiomas." },
-      miliverse: { t: "Milliverse", b: "Juego de estrategia Web3 sobre el mapa del mundo real. Compra casillas, despliega armas y tropas y disputa territorio a otros jugadores. Activo en cuatro idiomas, con clima real y ciclo día-noche influyendo en los combates." }
+      miliverse: { t: "Milliverse", b: "Juego de estrategia Web3 sobre el mapa del mundo real. Compra casillas, despliega armas y tropas y disputa territorio a otros jugadores. Activo en cuatro idiomas, con clima real y ciclo día-noche influyendo en los combates." },
+      jangbogo: { t: "Jang Bogo: Rey de los Mares", b: "Un simulador de gestión de comercio marítimo del siglo IX protagonizado por el rey del mar Jang Bogo. Sobre un mapa del mundo real acumulas riqueza comerciando, barres a los piratas con barcos tortuga y amplías tu poder tejiendo lazos con gente de todos los mares. Historia alternativa de la novela original: llegar a Norteamérica 650 años antes que Colón. Se juega directamente en el navegador." }
     } },
     decks: { heading: "Dossier", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Contacto", rights: "Todos los derechos reservados." }
@@ -656,7 +663,8 @@ const I18N = {
     works: { trailer: "Trailer", more: "Saber mais", heading: "O que construímos", lead: "Três jogos construídos e no ar. E a IP por trás deles — romances e séries web — é escrita internamente.", note: "Artes marciais de duzentas nações, coordenadas de cidades reais, esquadrões com a sua bandeira — há sempre um país nos nossos jogos. Não para tornar algum deles mais forte, mas para que um jogador de qualquer lugar encontre o seu lugar.", items: {
       fn: { t: "Fighting Nations", b: "Um jogo de luta 3D sem armas — apenas as artes marciais do mundo, um estilo por lutador. Combates por equipas em cenários destrutíveis, com o objetivo a longo prazo de um battle royale de 64 jogadores. Em desenvolvimento e já jogável.", s: ["21 lutadores","11 artes marciais","6 cenários"] },
       kingdom: { t: "Kingdom Wars", b: "Escolhe nação e comandante e toma a Lua setor a setor: 49 ao todo, por turnos, no navegador. Sequências de vitórias, classificação de combate e loot. Disponível em quatro línguas." },
-      miliverse: { t: "Milliverse", b: "Jogo de estratégia Web3 sobre o mapa do mundo real. Compra tiles, coloca armas e tropas e disputa território com outros jogadores. Ativo em quatro línguas, com clima real e ciclo dia-noite a influenciar os combates." }
+      miliverse: { t: "Milliverse", b: "Jogo de estratégia Web3 sobre o mapa do mundo real. Compra tiles, coloca armas e tropas e disputa território com outros jogadores. Ativo em quatro línguas, com clima real e ciclo dia-noite a influenciar os combates." },
+      jangbogo: { t: "Jang Bogo: Rei dos Mares", b: "Um simulador de gestão de comércio marítimo do século IX protagonizado pelo rei do mar Jang Bogo. Num mapa do mundo real, acumulas riqueza a comerciar, varres os piratas com navios-tartaruga e alargas o teu poder criando laços com gente de todos os mares. História alternativa do romance original — chegar à América do Norte 650 anos antes de Colombo. Joga-se diretamente no navegador." }
     } },
     decks: { heading: "Apresentação", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Contacto", rights: "Todos os direitos reservados." }
@@ -748,7 +756,8 @@ const I18N = {
     works: { trailer: "Bande-annonce", more: "En savoir plus", heading: "Ce que nous avons construit", lead: "Trois jeux construits et en ligne. Et la propriété intellectuelle qui les porte — romans et feuilletons — est écrite en interne.", note: "Les arts martiaux de deux cents nations, les coordonnées de villes réelles, des escouades portant leur drapeau : il y a toujours un pays dans nos jeux. Non pour en rendre un plus fort, mais pour qu'un joueur de n'importe où y trouve sa place.", items: {
       fn: { t: "Fighting Nations", b: "Un jeu de combat en 3D sans armes : rien que les arts martiaux du monde, un style par combattant. Des affrontements en équipe sur des décors destructibles, avec pour objectif à terme un battle royale à 64 joueurs. En développement, jouable dès maintenant.", s: ["21 combattants","11 arts martiaux","6 décors"] },
       kingdom: { t: "Kingdom Wars", b: "Choisissez une nation et un commandant, puis prenez la Lune secteur par secteur : 49 en tout, au tour par tour, dans le navigateur. Séries de victoires, notes de combat et butin. Disponible en quatre langues." },
-      miliverse: { t: "Milliverse", b: "Jeu de stratégie Web3 sur la carte du monde réel. Achetez des tuiles, déployez armes et troupes, disputez le territoire aux autres joueurs. En ligne en quatre langues, avec météo réelle et cycle jour-nuit qui pèsent sur les combats." }
+      miliverse: { t: "Milliverse", b: "Jeu de stratégie Web3 sur la carte du monde réel. Achetez des tuiles, déployez armes et troupes, disputez le territoire aux autres joueurs. En ligne en quatre langues, avec météo réelle et cycle jour-nuit qui pèsent sur les combats." },
+      jangbogo: { t: "Jang Bogo : Roi des Mers", b: "Un simulateur de gestion du commerce maritime au IXe siècle, avec pour héros le roi des mers Jang Bogo. Sur une carte du monde réel, vous bâtissez votre fortune par le commerce, balayez les pirates avec des navires-tortues et étendez votre puissance en nouant des liens avec les gens de toutes les mers. Une uchronie tirée du roman original — atteindre l'Amérique du Nord 650 ans avant Colomb. Jouable directement dans le navigateur." }
     } },
     decks: { heading: "Dossier de présentation", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Contact", rights: "Tous droits réservés." }
@@ -840,7 +849,8 @@ const I18N = {
     works: { trailer: "Trailer", more: "Mehr erfahren", heading: "Was wir gebaut haben", lead: "Drei Spiele gebaut und online. Und die IP dahinter — Romane und Web-Serials — schreiben wir selbst.", note: "Kampfkünste aus zweihundert Nationen, Koordinaten echter Städte, Trupps mit ihrer Flagge — in unseren Spielen gibt es immer ein Land. Nicht um eines davon stärker zu machen, sondern damit Spielerinnen und Spieler von überall ihren Platz darin finden.", items: {
       fn: { t: "Fighting Nations", b: "Ein 3D-Kampfspiel ohne Waffen — nur die Kampfkünste der Welt, pro Kämpfer ein Stil. Teamkämpfe auf zerstörbaren Bühnen, langfristiges Ziel ist eine Battle Royale für 64 Spielerinnen und Spieler. In Entwicklung und schon spielbar.", s: ["21 Kämpfer","11 Kampfkünste","6 Bühnen"] },
       kingdom: { t: "Kingdom Wars", b: "Nation und Kommandant wählen, dann den Mond Sektor für Sektor nehmen — 49 davon, rundenbasiert, im Browser. Siegesserien, Kampfwertungen und Beute. In vier Sprachen verfügbar." },
-      miliverse: { t: "Milliverse", b: "Web3-Strategiespiel auf der echten Weltkarte. Kacheln kaufen, Waffen und Truppen stationieren, mit anderen Spielern um Gebiete kämpfen. In vier Sprachen live, echtes Wetter und Tag-Nacht-Daten fließen in die Kämpfe ein." }
+      miliverse: { t: "Milliverse", b: "Web3-Strategiespiel auf der echten Weltkarte. Kacheln kaufen, Waffen und Truppen stationieren, mit anderen Spielern um Gebiete kämpfen. In vier Sprachen live, echtes Wetter und Tag-Nacht-Daten fließen in die Kämpfe ein." },
+      jangbogo: { t: "Jang Bogo: König der Meere", b: "Eine Handels-Wirtschaftssimulation aus dem 9. Jahrhundert um den Seekönig Jang Bogo. Auf einer echten Weltkarte häufst du durch Handel Reichtum an, fegst Piraten mit Schildkrötenschiffen beiseite und mehrst deine Macht durch Bündnisse mit Menschen aller Meere. Alternative Geschichte aus dem Originalroman — Nordamerika 650 Jahre vor Kolumbus erreichen. Direkt im Browser spielbar." }
     } },
     decks: { heading: "Pitch Deck", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Kontakt", rights: "Alle Rechte vorbehalten." }
@@ -932,7 +942,8 @@ const I18N = {
     works: { trailer: "Трейлер", more: "Подробнее", heading: "Что мы построили", lead: "Три игры сделаны и работают. И IP за ними — романы и веб-сериалы — мы пишем сами.", note: "Боевые искусства двухсот стран, координаты настоящих городов, отряды под своими флагами — в наших играх всегда есть страна. Не для того, чтобы сделать какую-то сильнее, а чтобы игрок откуда угодно нашёл в ней своё место.", items: {
       fn: { t: "Fighting Nations", b: "3D-файтинг без оружия — только боевые искусства мира, у каждого бойца свой стиль. Командные бои на разрушаемых аренах; дальняя цель — королевская битва на 64 игрока. В разработке, играть можно уже сейчас.", s: ["21 боец","11 боевых искусств","6 арен"] },
       kingdom: { t: "Kingdom Wars", b: "Выберите страну и командира и забирайте Луну сектор за сектором — всего 49, пошагово, прямо в браузере. Серии побед, оценки боя и трофеи. Доступна на четырёх языках." },
-      miliverse: { t: "Milliverse", b: "Web3-стратегия на настоящей карте мира. Покупайте тайлы, размещайте оружие и войска, отбивайте территорию у других игроков. Работает на четырёх языках, реальная погода и смена дня и ночи влияют на бой." }
+      miliverse: { t: "Milliverse", b: "Web3-стратегия на настоящей карте мира. Покупайте тайлы, размещайте оружие и войска, отбивайте территорию у других игроков. Работает на четырёх языках, реальная погода и смена дня и ночи влияют на бой." },
+      jangbogo: { t: "Чан Бого: Король морей", b: "Симулятор управления морской торговлей IX века о морском короле Чан Бого. На настоящей карте мира вы копите богатство торговлей, сметаете пиратов кораблями-черепахами и расширяете влияние, заводя связи с людьми всех морей. Альтернативная история из оригинального романа — достичь Северной Америки на 650 лет раньше Колумба. Играется прямо в браузере." }
     } },
     decks: { heading: "Презентация", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Связаться", rights: "Все права защищены." }
@@ -1024,7 +1035,8 @@ const I18N = {
     works: { trailer: "المقطع الدعائي", more: "اقرأ المزيد", heading: "ما بنيناه", lead: "ثلاث ألعاب مبنية وتعمل. والملكية الفكرية خلفها — روايات وسلاسل إلكترونية — نكتبها بأنفسنا.", note: "فنون قتالية من مئتَي دولة، وإحداثيات مدن حقيقية، وفرق ترفع أعلامها — في ألعابنا حضور دائم للأوطان. لا لنجعل واحدة منها أقوى، بل ليجد اللاعب من أي مكان موضعه فيها.", items: {
       fn: { t: "Fighting Nations", b: "لعبة قتال ثلاثية الأبعاد بلا أسلحة — فنون العالم القتالية وحدها، لكل مقاتل أسلوبه. معارك جماعية على ساحات قابلة للتحطيم، والهدف البعيد معركة ملكية لأربعة وستين لاعبًا. قيد التطوير ويمكن لعبها الآن.", s: ["21 مقاتلًا","11 فنًا قتاليًا","6 ساحات"] },
       kingdom: { t: "Kingdom Wars", b: "اختر دولة وقائدًا ثم استولِ على القمر قطاعًا بعد قطاع — 49 قطاعًا، بالأدوار، من المتصفح مباشرة. سلاسل انتصارات وتقييمات للمعارك وغنائم. متاحة بأربع لغات." },
-      miliverse: { t: "Milliverse", b: "لعبة استراتيجية Web3 على خريطة العالم الحقيقية. اشترِ المربّعات وانشر الأسلحة والجنود ونازع اللاعبين الآخرين على الأرض. تعمل بأربع لغات، وبيانات الطقس الحقيقي والليل والنهار تؤثر في المعارك." }
+      miliverse: { t: "Milliverse", b: "لعبة استراتيجية Web3 على خريطة العالم الحقيقية. اشترِ المربّعات وانشر الأسلحة والجنود ونازع اللاعبين الآخرين على الأرض. تعمل بأربع لغات، وبيانات الطقس الحقيقي والليل والنهار تؤثر في المعارك." },
+      jangbogo: { t: "جانغ بوغو: ملك البحار", b: "محاكاة لإدارة التجارة البحرية في القرن التاسع، بطلها ملك البحار جانغ بوغو. على خريطة العالم الحقيقية تراكم الثروة بالتجارة، وتكتسح القراصنة بسفن السلحفاة، وتوسّع نفوذك بعقد صلات مع أهل البحار جميعًا. تاريخ بديل من الرواية الأصلية — بلوغ أمريكا الشمالية قبل كولومبوس بـ650 عامًا. تُلعب مباشرة في المتصفح." }
     } },
     decks: { heading: "ملف العرض", en: "English version", ko: "한국어 버전" },
     footer: { studio: "شركة Deother", contact: "تواصل معنا", rights: "جميع الحقوق محفوظة." }
