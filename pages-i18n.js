@@ -454,6 +454,26 @@ const PAGES = {
             "개발 전 과정에 AI 코딩 도구를 쓴다. 단일 HTML 파일 하나로 지도·경제·전투·인물 관계·다국어·오디오가 모두 도는 것이 그 결과다. 게임 안의 이미지 자산은 생성형 AI로 만든다.",
             "지도는 MapLibre GL JS 위에 OpenFreeMap(OpenStreetMap 계열 공개 지도 데이터)을 얹는다. 현대의 라벨과 도로를 걷어내 고지도 무드로 칠하고, 실제 좌표 위에 9세기 교역로와 오가는 배들을 그린다. 실좌표는 장식이 아니라 항해 거리 계산의 입력값이다."
           ]
+        },
+        {
+          h: "항해의 과학 — 7~11세기",
+          p: [
+            "게임 속 교역과 항해는 그 시대에 실제로 쓰인 과학과 기술 위에 세웠다. 아래는 7~11세기 원양 항해를 떠받친 도구·기술·자연 지식이다.",
+            "다만 두 가지는 재미를 위해 시대를 앞당긴 창작임을 밝혀둔다 — 철갑 거북선은 실제로는 15~16세기 조선의 배이고, ‘콜럼버스보다 먼저 북미 도달’은 원작 소설의 대체역사다."
+          ],
+          list: {
+            h: "7~11세기에 실제로 쓰인 항해 과학",
+            items: [
+              "계절풍(몬순) — 인도양의 여름·겨울 바람. 아랍·페르시아 상인이 그 주기에 맞춰 원양을 왕복했다",
+              "별자리 항법 — 북극성 등 별의 고도로 위도를 가늠하던 밤바다의 길잡이",
+              "카말(kamal) — 나뭇조각과 매듭 끈으로 별 고도를 재는 아랍·인도양 뱃사람의 간이 도구",
+              "아스트롤라베 — 이슬람 천문학이 정교화한 관측기구(8~10세기). 별·해의 고도와 방위·시각을 잰다 (바다 전용 간이형은 후대)",
+              "측심연(납추 줄) — 수심을 재고 추 밑의 기름으로 바닥 흙을 떠 위치를 짐작하던 연안 항해의 필수 도구",
+              "축 방향타·수밀 격벽 — 중국 정크선의 기술. 큰 배의 조종과 침수 대비를 가능케 했다",
+              "쿠로시오 해류(흑조) — 일본 동쪽을 북동으로 흐르는 따뜻한 해류. 해류를 읽는 것은 원양 항해의 기본이었고, 게임에선 이 물길을 타고 북미로 간다",
+              "자석 나침반 — 자화된 바늘은 심괄 『몽계필담』(1088)에 또렷이 기록됐고, 배 항해에 쓴 기록은 12세기 초다. 장보고 시대(9세기)엔 아직 별과 바람에 의지했다"
+            ]
+          }
         }
       ],
       cta: "장보고 해보기", back: "디아더로 돌아가기"
@@ -524,6 +544,26 @@ const PAGES = {
             "AI coding tools are used throughout development. The result is a single HTML file that runs the map, the economy, battles, relationships, localisation and audio all at once. Image assets in the game are made with generative AI.",
             "The map is MapLibre GL JS over OpenFreeMap — open map data from the OpenStreetMap family. Modern labels and roads are stripped away and repainted into an old-chart mood, and over the real coordinates we draw 9th-century trade routes and the ships that ply them. The real coordinates are not decoration: they are the input to every voyage's distance."
           ]
+        },
+        {
+          h: "The science of seafaring — 7th to 11th century",
+          p: [
+            "The trade and voyages in the game sit on science and technology that were really in use at the time. Below are the tools, techniques and natural knowledge that carried open-sea trade in the 7th–11th centuries.",
+            "Two things, though, are pulled forward in time for the game: the iron-clad turtle ship is really a 15th–16th-century Korean vessel, and “reaching North America before Columbus” is the original novel's alternate history."
+          ],
+          list: {
+            h: "Navigation science actually used, 7th–11th century",
+            items: [
+              "Monsoon winds — the Indian Ocean's summer and winter winds; Arab and Persian traders crossed the open sea on their rhythm",
+              "Star navigation — reading latitude from the altitude of stars such as Polaris, the guide of the night sea",
+              "The kamal — a simple board-and-knotted-cord tool that Arab and Indian Ocean sailors used to measure a star's altitude",
+              "The astrolabe — an instrument refined by Islamic astronomy (8th–10th c.) to read the altitude of stars and sun, and bearing and time (the simplified sea version came later)",
+              "The sounding lead — a weighted line to measure depth and, with tallow on its base, sample the seabed; essential for coastal piloting",
+              "Axial rudder and watertight bulkheads — Chinese junk technology that made large ships steerable and kept a breach from sinking them",
+              "The Kuroshio Current — the warm current running north-east off eastern Japan; reading currents was basic seamanship, and in the game this is the path to North America",
+              "The magnetic compass — a magnetized needle is clearly recorded in Shen Kuo's Dream Pool Essays (1088), and its use for navigation at sea appears in the early 12th century. In Jang Bogo's 9th century, sailors still went by stars and wind"
+            ]
+          }
         }
       ],
       cta: "Play Jang Bogo", back: "Back to Deother"
