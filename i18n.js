@@ -78,7 +78,9 @@ const WORKS = [
   // ⚠️ trycloudflare 주소는 터널을 다시 띄울 때마다 바뀐다 — 끊기면 이 url 을 갱신할 것.
   //    (url 을 지우면 카드 제목이 링크 대신 텍스트로 나온다)
   { key: "kwmmo",    url: "https://kw-mmo.vercel.app/?server=wss://paso-checkout-pendant-got.trycloudflare.com",
-    tag: "2026" }
+    tag: "2026",
+    // 개발 중이라 '트레일러'가 아니라 '테스트 영상'이다. 라벨을 과장하지 않는다.
+    sns:  { label: "▶ Test footage", url: "https://youtu.be/oobYlh5wgXg" } }
 ];
 
 // 개발 연표 영상 — 오래된 것부터. 제목은 영어 그대로 둔다(유튜브 원제와 맞추기 위해).
