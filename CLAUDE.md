@@ -237,3 +237,34 @@ KWO 본체 프로젝트: `F:\KW_MMO\` — `README.md`, `server/PROTOCOL.md`,
 - [ ] GWB Game Awards 마감 **2026-08-15**, 재제출 허용.
       소개글·영상·플레이 가능한 빌드는 준비됨. **스크린샷 3~5장이 남았다.**
       그 전에 7번 캐릭터 복장 확인 필요 (일부 캐릭터 복장/머티리얼 문제)
+
+### 배포 확인 (2026-07-25)
+
+`deother.vercel.app` 에서 실측했다. 추측이 아니라 브라우저에서 DOM 을 조회한 결과다.
+
+```
+메인          카드 5장 · 상세 링크 4개(kingdom-wars / miliverse / jangbogo / kwonline)
+상세 4종      전부 10개 언어 · 구조 en 기준 일치 · 한글 누출 0
+kwonline      태그라인 10개 언어 모두 AI/MMORPG 로 시작 · 테스트 영상 3장 뒤에 삽입
+jangbogo(zh)  염장 → 阎长 수정 반영됨
+```
+
+### 다음 세션 시작점 (우선순위)
+
+1. **KWO 서버 상시 호스팅.** `F:\KW_MMO\server\` 에 `Dockerfile` · `fly.toml` 이
+   이미 있다 (`auto_stop_machines = false` 가 핵심 — 머신이 자면 WebSocket 이 다 끊긴다).
+   `fly deploy` 한 번이면 `wss://<app>.fly.dev` 가 나온다.
+   **그 주소로 두 곳을 갱신할 것** — `i18n.js` 의 `kwmmo.url`, `kwonline.html` 의 `#pCta`.
+   이게 끝나면 터널이 죽어도 링크가 안 죽는다. **가장 먼저 할 일이다.**
+   ※ `F:\KW_MMO` 의 변경분은 아직 커밋 안 됨. 대표님이 확인 후 커밋할 것.
+
+2. **KWO 게임 화면 캡처.** 지금 `kwonline.html` 은 미디어가 테스트 영상 하나뿐이라
+   글이 길다. 캡처가 나오면 `page.js` 의 `P_LAYOUT.kwonline` 에 `{img}` 를 늘려
+   글·그림 리듬을 촘촘하게 만들 것.
+
+3. **밀리버스 실게임 캡처** (Google 로그인이 필요해 대표님만 가능).
+
+4. **KWO 전용 로고** — 지금은 기존 Kingdom Wars 로고를 임시로 돌려쓰고 있다.
+   `i18n.js` 의 `kwmmo.logo` 주석에 임시라고 적어 뒀다.
+   로고는 카드에서 **78px** 로 나온다. 얇은 선화는 뭉개진다 —
+   장보고 때 실측해서 **작은 카드용(굵고 단순) / 히어로용(정밀)** 두 벌로 나눴다. 같은 방식으로.
