@@ -11,3 +11,6 @@ Thumbs.db
 # 원본 전체 표지 — 사이트는 잘라낸 seraphim-cover.jpg 만 쓴다.
 # (원본은 Downloads 에 있고 저장소에는 두지 않는다)
 assets/seraphim.png
+
+# 슬라이드 원본 묶음 - add-slides.ps1 로 최적화한 결과만 커밋한다
+*.zip
