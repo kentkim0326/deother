@@ -81,6 +81,8 @@ const WORKS = [
     tag: "2026",
     // 임시 — 기존 Kingdom Wars 와 같은 로고를 쓴다. 전용 로고가 나오면 교체할 것.
     logo: "assets/kingdom-wars-logo.png",
+    // 상세 페이지는 ko / en 두 언어뿐이다. 다른 언어로 들어오면 page.js 가 en 으로 떨어뜨린다.
+    detail: "kwonline.html",
     // 개발 중이라 '트레일러'가 아니라 '테스트 영상'이다. 라벨을 과장하지 않는다.
     sns:  { label: "▶ Test footage", url: "https://youtu.be/oobYlh5wgXg" } }
 ];

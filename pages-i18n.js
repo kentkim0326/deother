@@ -15,6 +15,10 @@ const PAGE_VIDEOS = {
     { id: "g10AAzbmNEQ", ko: "밀리버스 v2.4 업데이트",     en: "Milliverse — v2.4 update", vertical: true },
   ],
   kingdom: [],
+  // 개발 중이라 '트레일러'가 아니라 '테스트 영상'이다. 라벨을 과장하지 않는다 (함정 2).
+  kwonline: [
+    { id: "oobYlh5wgXg", ko: "킹덤워즈 온라인 — 테스트 영상", en: "Kingdom Wars Online — test footage" },
+  ],
 };
 
 const PAGES = {
@@ -576,5 +580,200 @@ const PAGES = {
     "de": {"title":"Jang Bogo: König der Meere","tagline":"Maritimer Handel des 9. Jahrhunderts, gespielt auf der echten Weltkarte","intro":"Der Sohn eines Fischers aus Wando steigt über das Tang-China zum König der Meere auf. Du segelst zwischen Häfen an ihren echten Koordinaten, häufst durch Handel Reichtum an, fegst Piraten mit Schildkrötenschiffen beiseite und knüpfst Bande mit Menschen in aller Welt zu einem Handelshaus, das sie umspannt. Alternative Geschichte aus dem Originalroman, über den historischen Bericht gelegt — Nordamerika 650 Jahre vor Kolumbus erreichen.","sections":[{"h":"Warum es so gebaut ist","p":["Es gab tatsächlich einen Seekönig, Jang Bogo, der im 9. Jahrhundert das Gelbe Meer beherrschte. Über diese Geschichte legten wir eine Frage aus dem Originalroman — wie weit wäre er wohl gekommen, hätte er das Attentat überlebt? Von Wando ins Tang-China, dann auf dem Kuroshio-Strom nach Nordamerika, 650 Jahre vor Kolumbus.","Wir haben keine erfundene Karte gezeichnet. Yangzhou, Dengzhou, Cheonghaejin, Gyeongju, Tsushima, Hakata, Naniwa — und Seattle. Echte Häfen an echten Koordinaten. Selbst die Länge einer Seereise wird aus ihnen berechnet.","Strategie- und Aufbauspiele gelten als schwerfällig. Dieses läuft im Browser, ganz ohne Installation. Ein Prolog, der bei deiner Geburt in Wando beginnt, verbindet dich mit der Figur, bevor sich das Meer des Handels öffnet."]},{"h":"Wie du Reichtum aufbaust — der Seehandel","p":["Die Preise unterscheiden sich von Hafen zu Hafen. Kaufe Seide, Seladon, Tee, Ginseng, Silber, Bücher, Pelz und Zedernholz dort, wo sie billig sind, und verkaufe sie dort, wo sie teuer sind. Der Markt reagiert — Kaufen treibt einen Preis nach oben, Verkaufen drückt ihn nach unten —, sodass du nicht alles in einem einzigen Hafen abladen kannst.","Auf den Einkauf fällt der Zoll des jeweiligen Reiches; der Verkauf bringt Boni von Marktplatz und Monopolrecht. Welche Route du eröffnest, ist deine Gewinnspanne, und was du verdienst, fließt in dein Schiff und deinen Stützpunkt."],"list":{"h":"Was in den Handel einfließt","items":["Preise — Grundpreis × Hafenfaktor × dynamische Schwankung","Zölle — eine je Reich unterschiedliche Kaufsteuer (Tang, Silla, Japan …)","Marktplatz & Monopolrecht — Verkaufsboni","Ausbau — das Schiff (Ladung, Geschwindigkeit, Bewaffnung) und der Stützpunkt (Lager, Markt, Kaserne)"]}},{"h":"Seefahrt und Schildkrötenschiff-Gefechte","p":["Die Länge einer Seereise ist die tatsächliche Entfernung zwischen den Koordinaten. Dein Schiff bewegt sich entlang seiner Route, und Nordamerika (Seattle) erreichst du nur von Hakata aus, auf der geschwungenen Kuroshio-Route — Japan, die Aleuten, dann die Küste.","Jede Ankunft hält ein Ereignis bereit — eine Begegnung mit Piraten, ein Sturm, ein bestechlicher Beamter, der Schmiergeld fordert, ein Wrack, ein günstiger Wind. Das Glück eines begabten Gefährten an deiner Seite senkt die Wahrscheinlichkeit von Unheil.","Piraten räumst du mit deinem Schildkrötenschiff als Flaggschiff aus: ein rundenbasiertes Gefecht aus Rammen, Feuer, Bogenschützen und eisenbeschlagener Verteidigung, wobei Bewaffnung und Kaserne in Angriff, Verteidigung und Lebenskraft einfließen. Sie auszuräumen eröffnet die Route."]},{"h":"Ein Handelshaus, das die Welt umspannt","p":["Es gibt ein Beziehungssystem im Geiste der alten Strategie-Epen. Du triffst Menschen in ihren Heimathäfen und baust ihre Zuneigung über drei Stufen auf.","Wirb einen Händler an, um den Handel zu deinen Gunsten zu neigen; heirate eine Frau aus fernem Land und gründe ein Haus — ein Haus, das dir auf jeder Seereise automatisch Gewinn einbringt. Bringe einem König Tribut dar, und das Monopolrecht für dieses Reich öffnet sich. Die Frau jeder Region ist ein Anker; ihre Kinder führen das Handelsnetz dieser Region.","Je erfolgreicher du bist, desto misstrauischer wird der Adel des wahren Knochens. Wiederkehrende Meuchelmörder wehrst du über dein Informationsnetz ab, und im vierten Akt trennen sich der historische Bericht (das Attentat) und der Roman (Flucht und große Fahrt)."]},{"h":"So spielst du","list":{"h":"","items":["Verfolge Jang Bogos Aufstieg durch einen Prolog, der bei seiner Geburt in Wando beginnt","Wähle einen Hafen und kaufe und verkaufe Waren auf seinem Markt","Lege eine Route fest und segle los — bei der Ankunft wartet ein Ereignis oder ein Gefecht","Wähle im Schildkrötenschiff-Gefecht Zug um Zug deinen Angriff (Rammen, Feuer, Bogenschützen) und deine Verteidigung","Baue Schiff und Stützpunkt aus und lass dein Haus durch Bande über die Meere hinweg wachsen","Erreiche die Vermögens-Meilensteine — Cheonghaejin → Herr des Gelben Meeres → König der Meere"]}},{"h":"KI und offene Kartendaten","p":["Nur, was wir belegen können.","Im gesamten Entwicklungsprozess kommen KI-Coding-Werkzeuge zum Einsatz. Das Ergebnis ist eine einzige HTML-Datei, in der Karte, Wirtschaft, Gefechte, Beziehungen, Lokalisierung und Audio allesamt zugleich laufen. Die Bild-Assets im Spiel entstehen mit generativer KI.","Die Karte ist MapLibre GL JS über OpenFreeMap — offene Kartendaten aus der OpenStreetMap-Familie. Moderne Beschriftungen und Straßen werden entfernt und in die Stimmung einer alten Seekarte umgemalt, und über die echten Koordinaten zeichnen wir Handelsrouten des 9. Jahrhunderts und die Schiffe, die sie befahren. Die echten Koordinaten sind keine Zierde: Sie sind die Eingabegröße für die Entfernung jeder Seereise."]},{"h":"Die Wissenschaft der Seefahrt — 7. bis 11. Jahrhundert","p":["Handel und Seereisen im Spiel ruhen auf Wissenschaft und Technik, die zu jener Zeit tatsächlich in Gebrauch waren. Im Folgenden die Werkzeuge, Techniken und das Naturwissen, die den Hochseehandel im 7. bis 11. Jahrhundert trugen.","Zwei Dinge jedoch sind für das Spiel zeitlich vorgezogen: Das eisenbeschlagene Schildkrötenschiff ist in Wirklichkeit ein koreanisches Schiff des 15.–16. Jahrhunderts, und „Nordamerika vor Kolumbus erreichen“ ist die alternative Geschichte des Originalromans."],"list":{"h":"Tatsächlich genutzte Navigationswissenschaft, 7.–11. Jahrhundert","items":["Monsunwinde — die Sommer- und Winterwinde des Indischen Ozeans; arabische und persische Händler überquerten die offene See in ihrem Rhythmus","Sternnavigation — das Ablesen der Breite aus der Höhe von Sternen wie dem Polarstern, dem Wegweiser der nächtlichen See","Der kamal — ein einfaches Gerät aus Holzbrettchen und Knotenschnur, mit dem arabische und indische Seefahrer die Höhe eines Sterns maßen","Das Astrolabium — ein von der islamischen Astronomie verfeinertes Instrument (8.–10. Jh.), um die Höhe von Sternen und Sonne sowie Peilung und Zeit abzulesen (die vereinfachte See-Ausführung kam später)","Das Lot — eine beschwerte Leine, um die Tiefe zu messen und, mit Talg an der Unterseite, den Meeresgrund zu beproben; unerlässlich für die Küstennavigation","Achsruder und wasserdichte Schotten — Technik der chinesischen Dschunke, die große Schiffe steuerbar machte und ein Leck am Versenken hinderte","Der Kuroshio-Strom — die warme, nordöstlich vor dem östlichen Japan verlaufende Strömung; Strömungen zu lesen war seemännisches Grundwissen, und im Spiel ist dies der Weg nach Nordamerika","Der Magnetkompass — eine magnetisierte Nadel ist bei Shen Kuo in den Dream Pool Essays (1088) klar belegt, und ihr Einsatz zur Navigation auf See taucht im frühen 12. Jahrhundert auf. In Jang Bogos 9. Jahrhundert richteten sich die Seefahrer noch nach Sternen und Wind"]}}],"cta":"Jang Bogo spielen","back":"Zurück zu Deother"},
     "ru": {"title":"Чан Бого: Король морей","tagline":"Морская торговля IX века на настоящей карте мира","intro":"Сын рыбака из Вандо проходит через танский Китай и становится королём морей. Плавая между портами по их настоящим координатам, вы копите богатство торговлей, сметаете пиратов кораблями-черепахами и заводите связи с людьми со всего мира, сплетая из них торговый дом, что охватывает весь свет. Альтернативная история из оригинального романа, наложенная на исторические хроники, — достичь Северной Америки на 650 лет раньше Колумба.","sections":[{"h":"Почему игра сделана именно так","p":["В IX веке действительно жил морской король Чан Бого, властвовавший над Жёлтым морем. На эту историю мы наложили вопрос из оригинального романа: как далеко он мог бы зайти, если бы пережил покушение? Из Вандо в танский Китай, а затем по течению Куросио к Северной Америке — на 650 лет раньше Колумба.","Мы не рисовали вымышленную карту. Янчжоу, Дэнчжоу, Чонхэджин, Кёнджу, Цусима, Хаката, Нанива — и Сиэтл. Настоящие порты по настоящим координатам. Даже длительность плавания вычисляется по ним.","Считается, что стратегии и экономические симуляторы тяжеловесны. Эта игра работает прямо в браузере, ничего не нужно устанавливать. Пролог, начинающийся с вашего рождения в Вандо, привязывает вас к герою ещё до того, как откроется море торговли."]},{"h":"Как копится богатство — морская торговля","p":["Цены различаются от порта к порту. Покупайте шёлк, селадон, чай, женьшень, серебро, книги, меха и кедр там, где они дёшевы, и продавайте там, где они дороги. Рынок реагирует: покупка поднимает цену, продажа опускает, — поэтому нельзя сбыть всё в одной гавани.","Покупка облагается пошлиной каждого государства; продажа приносит бонусы рынка и монопольной торговой грамоты. Какой маршрут вы открываете — в том и ваша прибыль, а заработанное идёт на корабль и базу."],"list":{"h":"Из чего складывается торговля","items":["Цены — базовая цена × коэффициент порта × динамическое колебание","Пошлины — свой закупочный налог у каждого государства (Тан, Силла, Япония…)","Рынок и монопольная торговая грамота — бонусы к продаже","Улучшения — корабль (трюм, скорость, вооружение) и база (склад, рынок, казармы)"]}},{"h":"Плавание и морские бои на кораблях-черепахах","p":["Длительность плавания — это настоящее расстояние между координатами. Корабль движется вдоль своего маршрута, а Северной Америки (Сиэтла) можно достичь только из Хакаты, по изогнутому пути Куросио — Япония, Алеутские острова, затем побережье.","Каждое прибытие таит событие — встречу с пиратами, шторм, продажного чиновника, требующего взятку, обломки крушения, попутный ветер. Удача соратника рядом с вами снижает вероятность несчастья.","Пиратов истребляет ваш флагманский корабль-черепаха: пошаговый бой из таранов, огня, лучников и брони, где вооружение и казармы влияют на атаку, защиту и здоровье. Истребить их — значит открыть маршрут."]},{"h":"Торговый дом, охватывающий весь мир","p":["В игре есть система отношений в духе старых стратегических эпопей. Вы встречаете людей в их родных портах и завоёвываете расположение в три этапа.","Наймите торговца, чтобы склонить сделки в свою пользу; возьмите в жёны женщину из дальнего края и основайте дом — дом, что приносит вам доход автоматически с каждого плавания. Поднесите дары королю — и откроется монопольная торговая грамота его государства. Женщина каждого края становится якорем, а её дети управляют торговой сетью этого края.","Чем больше ваш успех, тем настороженнее становится знать истинной кости. Вы отражаете новые и новые покушения через свою сеть осведомителей, а в четвёртом акте расходятся исторические хроники (убийство) и роман (побег и великое плавание)."]},{"h":"Как играть","list":{"h":"","items":["Проследите за возвышением Чан Бого в прологе, что начинается с его рождения в Вандо","Выберите порт и покупайте и продавайте товары на его рынке","Проложите маршрут и отправляйтесь в плавание — по прибытии вас ждёт событие или бой","В бою на корабле-черепахе выбирайте атаку (таран, огонь, лучники) и защиту, ход за ходом","Улучшайте корабль и базу и растите свой дом через связи по всем морям","Достигайте рубежей состояния — Чонхэджин → властелин Жёлтого моря → король морей"]}},{"h":"ИИ и открытые картографические данные","p":["Только то, что мы можем подтвердить.","На всём протяжении разработки применяются ИИ-инструменты для написания кода. Результат — единственный HTML-файл, в котором разом работают карта, экономика, бои, отношения, многоязычность и звук. Изображения в игре созданы генеративным ИИ.","Карта — это MapLibre GL JS поверх OpenFreeMap, открытых картографических данных из семейства OpenStreetMap. Современные подписи и дороги убраны и перекрашены в дух старинной карты, а поверх настоящих координат мы рисуем торговые пути IX века и корабли, что по ним ходят. Настоящие координаты — не украшение: они служат исходными данными для расчёта расстояния каждого плавания."]},{"h":"Наука мореплавания — с VII по XI век","p":["Торговля и плавания в игре опираются на науку и технологии, что действительно применялись в ту эпоху. Ниже — инструменты, приёмы и знания о природе, на которых держалась океанская торговля в VII–XI веках.","Однако две вещи ради игры перенесены в прошлое: бронированный корабль-черепаха на самом деле — корейское судно XV–XVI веков, а «достижение Северной Америки раньше Колумба» — альтернативная история оригинального романа."],"list":{"h":"Наука навигации, действительно применявшаяся в VII–XI веках","items":["Муссонные ветры — летние и зимние ветры Индийского океана; арабские и персидские купцы пересекали открытое море в такт их циклу","Навигация по звёздам — определение широты по высоте звёзд, таких как Полярная звезда, путеводитель ночного моря","Камаль — простое приспособление из дощечки и шнура с узлами, которым арабские и индоокеанские моряки измеряли высоту звезды","Астролябия — прибор, усовершенствованный исламской астрономией (VIII–X вв.) для измерения высоты звёзд и солнца, а также направления и времени (упрощённый морской вариант появился позже)","Лот — груз на верёвке для измерения глубины, а с салом на основании — для взятия пробы грунта; незаменим в каботажном плавании","Осевой руль и водонепроницаемые переборки — технологии китайских джонок, что делали большие суда управляемыми и не давали пробоине потопить их","Течение Куросио — тёплое течение, идущее на северо-восток у восточных берегов Японии; читать течения было азами морского дела, и в игре это путь к Северной Америке","Магнитный компас — намагниченная игла чётко описана в «Записках о ручье снов» Шэнь Ко (1088), а её использование для навигации в море появляется в начале XII века. В IX веке Чан Бого моряки всё ещё полагались на звёзды и ветер"]}}],"cta":"Играть в Чан Бого","back":"Вернуться на Deother"},
     "ar": {"title":"جانغ بوغو: ملك البحار","tagline":"تجارة بحرية من القرن التاسع، تُلعب على خريطة العالم الحقيقية","intro":"ابن صياد من واندو يصعد عبر بلاد تانغ ليغدو ملك البحار. تُبحر بين الموانئ عند إحداثياتها الحقيقية، فتراكم الثروة بالتجارة، وتكتسح القراصنة بسفن السلحفاة، وتعقد صلات مع أهل البحار في أنحاء العالم لتبني بيت تجارة يمتد عبره. تاريخ بديل من الرواية الأصلية، مضاف فوق السجل التاريخي — بلوغ أمريكا الشمالية قبل كولومبوس بـ650 عامًا.","sections":[{"h":"لماذا بُني على هذا النحو","p":["كان هناك حقًا ملك بحار، جانغ بوغو، سيطر على البحر الأصفر في القرن التاسع. فوق ذلك التاريخ وضعنا سؤالًا من الرواية الأصلية — إلى أي مدى كان سيبلغ لو أنه نجا من الاغتيال؟ من واندو إلى بلاد تانغ، ثم على تيار Kuroshio إلى أمريكا الشمالية، قبل كولومبوس بـ650 عامًا.","لم نرسم خريطة خيالية. يانغتشو ودنغتشو وتشونغهيجين وغيونغجو وتسوشيما وهاكاتا ونانيوا — وسياتل. موانئ حقيقية عند إحداثيات حقيقية. حتى طول الرحلة يُحسب منها.","يُفترض بألعاب الاستراتيجية والإدارة أن تكون ثقيلة. أما هذه فتعمل في المتصفح دون أي تثبيت. تمهيد يبدأ من مولدك في واندو يربطك بالشخصية قبل أن ينفتح بحر التجارة."]},{"h":"كيف تراكم الثروة — التجارة البحرية","p":["تختلف الأسعار من ميناء إلى ميناء. اشترِ الحرير والخزف السيلادوني والشاي والجينسنغ والفضة والكتب والفراء وخشب الأرز حيث تَرخُص، وبعها حيث تَغلو. السوق يتفاعل — فالشراء يرفع السعر والبيع يخفضه — فلا يمكنك تصريف كل شيء في ميناء واحد.","يحمل الشراء تعريفة كل مملكة؛ ويكسب البيع علاوات السوق وامتياز الاحتكار. المسار الذي تفتحه هو هامش ربحك، وما تكسبه يذهب إلى سفينتك وقاعدتك."],"list":{"h":"ما يدخل في التجارة","items":["الأسعار — السعر الأساسي × معامل كل ميناء × تذبذب ديناميكي","التعريفات — ضريبة شراء مختلفة لكل مملكة (تانغ، شيلا، اليابان…)","السوق وامتياز الاحتكار — علاوات البيع","التطويرات — السفينة (الحمولة، السرعة، التسليح) والقاعدة (المخزن، السوق، الثكنة)"]}},{"h":"الإبحار ومعارك سفن السلحفاة","p":["طول الرحلة هو المسافة الحقيقية بين الإحداثيات. تتحرك سفينتك على طول مسارها، ولا تُبلغ أمريكا الشمالية (سياتل) إلا من هاكاتا، عبر مسار Kuroshio المنحني — اليابان، ثم جزر ألوشيان، ثم الساحل.","كل وصول يحمل حدثًا — لقاء مع قراصنة، أو عاصفة، أو موظف فاسد يطلب رشوة، أو حطام سفينة، أو ريح مواتية. حظ الموهوب إلى جانبك يخفض احتمالات المكروه.","تُكتسح القراصنة بسفينة السلحفاة القيادية: معركة بالأدوار من النطح والنيران والرماة والدفاع المدرّع، حيث يغذّي تسليحك وثكنتك الهجومَ والدفاعَ والصحة. اكتساحهم يفتح المسار."]},{"h":"بيت تجارة يمتد على العالم","p":["ثمة نظام علاقات على روح ملاحم الاستراتيجية القديمة. تلتقي بالناس في موانئهم الأصلية وتبني الودّ عبر ثلاث مراحل.","جنّد تاجرًا ليميل الميزان التجاري لصالحك؛ وتزوّج امرأة من أرض بعيدة لتؤسس بيتًا — بيتًا يدرّ عليك ربحًا تلقائيًا في كل رحلة. قدّم إتاوة لملك فينفتح لك امتياز الاحتكار في تلك المملكة. امرأة كل إقليم مرساة؛ وأبناؤها يديرون شبكة ذلك الإقليم.","كلما نجحت، ازداد حذر نبلاء «العظم الحقيقي». تصدّ القتلة المتكررين عبر شبكة معلوماتك، وفي الفصل الرابع يفترق السجل التاريخي (الاغتيال) عن الرواية (الهروب والرحلة الكبرى)."]},{"h":"كيف تلعب","list":{"h":"","items":["تابع صعود جانغ بوغو عبر تمهيد يبدأ من مولده في واندو","اختر ميناءً واشترِ وبع البضائع في سوقه","حدد مسارًا وأبحر — حدث أو معركة ينتظرك عند الوصول","في معركة سفينة السلحفاة، اختر هجومك (النطح، النيران، الرماة) ودفاعك، دورًا بعد دور","طوّر سفينتك وقاعدتك، ووسّع بيتك عبر صلات تمتد على البحار","ابلغ محطات صافي الثروة — تشونغهيجين ← سيد البحر الأصفر ← ملك البحار"]}},{"h":"الذكاء الاصطناعي وبيانات الخرائط المفتوحة","p":["لا نذكر إلا ما يمكننا الإشارة إليه.","تُستخدم أدوات البرمجة بالذكاء الاصطناعي طوال التطوير. والنتيجة ملف HTML واحد يُشغّل الخريطة والاقتصاد والمعارك والعلاقات والترجمة والصوت دفعةً واحدة. أما أصول الصور في اللعبة فتُصنع بالذكاء الاصطناعي التوليدي.","الخريطة هي MapLibre GL JS فوق OpenFreeMap — بيانات خرائط مفتوحة من عائلة OpenStreetMap. تُنزع الأسماء والطرق الحديثة ويُعاد طلاؤها بمزاج الخرائط القديمة، وفوق الإحداثيات الحقيقية نرسم مسارات تجارة القرن التاسع والسفن التي تجوبها. الإحداثيات الحقيقية ليست زينة: بل هي مُدخَل حساب مسافة كل رحلة."]},{"h":"علم الملاحة البحرية — من القرن السابع إلى الحادي عشر","p":["تقوم التجارة والرحلات في اللعبة على علم وتقنية كانا مستخدمَين فعلًا في ذلك الزمن. وفيما يلي الأدوات والتقنيات والمعارف الطبيعية التي حملت التجارة في أعالي البحار في القرون السابع إلى الحادي عشر.","غير أن أمرين قُدّما زمنيًا لأجل اللعبة: سفينة السلحفاة المدرّعة هي في الواقع سفينة كورية من القرنين الخامس عشر والسادس عشر، و«بلوغ أمريكا الشمالية قبل كولومبوس» هو التاريخ البديل للرواية الأصلية."],"list":{"h":"علم الملاحة المستخدم فعلًا، القرن السابع إلى الحادي عشر","items":["الرياح الموسمية — رياح المحيط الهندي الصيفية والشتوية؛ عبر التجار العرب والفرس أعالي البحار على إيقاعها","الملاحة بالنجوم — استقراء خط العرض من ارتفاع نجوم مثل نجمة الشمال، دليل بحر الليل","الكمال — أداة بسيطة من لوح وخيط معقود استعملها بحّارة العرب والمحيط الهندي لقياس ارتفاع النجم","الإسطرلاب — أداة صقلها علم الفلك الإسلامي (القرن الثامن إلى العاشر) لقياس ارتفاع النجوم والشمس، والاتجاه والوقت (أما النسخة البحرية المبسّطة فجاءت لاحقًا)","ثقل السبر — خيط مثقّل لقياس العمق، وبشحمٍ في قاعدته يأخذ عينة من قاع البحر؛ لا غنى عنه في الملاحة الساحلية","الدفّة المحورية والحواجز الكتيمة — تقنية السفن الصينية (الجنك) التي جعلت السفن الكبيرة قابلة للتوجيه ومنعت الخرق من إغراقها","تيار Kuroshio — التيار الدافئ الجاري نحو الشمال الشرقي قبالة شرق اليابان؛ قراءة التيارات كانت من أساسيات فنون البحر، وفي اللعبة هذا هو المسار إلى أمريكا الشمالية","البوصلة المغناطيسية — الإبرة الممغنطة مسجّلة بوضوح في كتاب Dream Pool Essays (1088) لـ Shen Kuo، أما استخدامها للملاحة في البحر فيظهر في مطلع القرن الثاني عشر. في القرن التاسع، زمن جانغ بوغو، كان البحّارة لا يزالون يهتدون بالنجوم والريح"]}}],"cta":"العب جانغ بوغو","back":"العودة إلى Deother"}
+  },
+
+  /* ===================== 킹덤워즈 온라인 =====================
+   *
+   * ⚠️ 스포일러 금지선 — 대표님이 명시적으로 지시한 사항이다.
+   *    원작 소설의 결말과 그에 연결된 설정은 이 사이트에 절대 쓰지 않는다:
+   *      · 결말(AI가 인간을 사육하며 전쟁 게임을 돌린다)
+   *      · 운영자 AI / 각성자 단계
+   *      · 혈통 시스템의 정체
+   *      · '건국 신화는 조작이다'라는 사실의 명시
+   *        → 인수인계 문서가 "게임 안에서 발견하게 한다"고 못박았다.
+   *          여기에 미리 쓰면 그 발견을 죽인다. '표식은 임의적'까지만 쓴다.
+   *
+   *    내용 출처: F:\KW_MMO\README.md, F:\KW_MMO\server\PROTOCOL.md,
+   *              F:\VARCO_MMORPG_HANDOFF.md §0. 그 밖의 것은 쓰지 않는다 (함정 2).
+   */
+  kwonline: {
+    ko: {
+      title: "킹덤워즈 온라인",
+      tagline: "AI와 사람이 같은 문으로 들어오는 오픈 MMO",
+      intro: "핵전쟁이 끝난 뒤 살아남은 사람들이 뭉쳐 세운 10개 왕국이 거점을 놓고 싸운다. 이 세계의 주민 대부분은 AI 에이전트이고, 그들은 사람과 완전히 같은 프로토콜로 접속한다 — 서버는 접속자가 사람인지 AI인지 모른다. 인간이 부족주의를 벗어날 수 있는가를, 설명이 아니라 플레이로 묻는 게임이다. 개발 중.",
+      sections: [
+        {
+          h: "왜 MMO여야 하는가",
+          p: [
+            "소설은 '인간은 부족주의를 벗어나기 어렵다'고 말할 수 있을 뿐이다. MMO는 플레이어가 그것을 직접 하게 만든다. 이 주제는 이 매체에서만 증명된다.",
+            "다크 에이지 오브 카멜롯의 3진영, EVE의 널섹, 리니지의 공성전 — 어느 쪽이든 플레이어는 완전히 임의로 배정된 색깔을 놓고 진심으로 서로를 미워하게 된다. 2주면 충분하다.",
+            "그래서 이 게임의 클라이맥스는 컷신이 아니다. 색깔 하나 골랐을 뿐인데 상대 진영을 진짜로 미워하고 있는 자신을, 플레이어가 발견하는 순간이다."
+          ]
+        },
+        {
+          h: "10개 왕국 — 사후 국가",
+          p: [
+            "진영은 민족이 아니다. 문명이 무너진 직후, 어쩌다 함께 살아남은 사람들이 뭉쳐 만든 사후 국가(post-nation)다.",
+            "표식은 함선 색상 10종. 왕국을 가르는 것은 혈통도 이념도 아니고 그저 색이다 — 그 표식이 임의적이라는 점 자체가 이 게임의 주제다.",
+            "그래서 탈영과 전향을 막지 않는다. 옮긴 사람은 옛 진영에게 배신자이고, 새 진영에서는 끝까지 의심받는 존재가 된다. 그 경험 자체가 주제의 증명이다."
+          ]
+        },
+        {
+          h: "AI가 사람과 같은 문으로 들어온다",
+          p: [
+            "이 게임의 핵심 설계는 하나다. AI 에이전트는 사람과 완전히 동일한 프로토콜로 접속한다. 에이전트 전용 특권 API도 없고, 사람과 AI를 구분하는 필드도 없다.",
+            "이건 편의가 아니라 규칙이다. 언리얼 클라이언트든 브라우저든 봇이든, 프로토콜 문서 하나만 알면 같은 세계에 들어온다. 서버는 끝까지 누가 사람인지 모른다.",
+            "그리고 여기서 두 번째 일이 벌어진다. 사람과 구별되지 않는 존재가 세계에 살면, 플레이어는 반드시 묻게 된다 — '쟤 사람이야, 봇이야?' 그리고 판별법을 공유하고, 파티에서 빼고, 오인해서 사람까지 배척하기 시작한다. 아무도 시키지 않았는데."
+          ],
+          list: {
+            h: "프로토콜 (v0.1)",
+            items: [
+              "WebSocket 위에 JSON. 클라이언트는 join / move / chat 을 보낸다",
+              "서버는 welcome / snapshot(초당 10회) / join / leave / chat 을 보낸다",
+              "플레이어 표현에 사람·AI 구분 필드가 없다 — 넣지 않는 것이 규칙이다",
+              "세 종류의 클라이언트(언리얼 · 브라우저 · 에이전트)가 같은 서버, 같은 문서를 쓴다"
+            ]
+          }
+        },
+        {
+          h: "코어 루프",
+          p: [
+            "10개 왕국이 거점을 놓고 싸운다. 세계의 주민 대부분은 AI 에이전트이고, 사람 플레이어는 그 전선의 날카로운 끝이다.",
+            "진짜 작업량은 에셋이 아니라 AI 행동 설계에 있다. 에이전트가 사람으로 오인될 만큼 좋아야 이 구조 전체가 성립하기 때문이다."
+          ],
+          list: {
+            h: "무엇으로 굴러가는가",
+            items: [
+              "거점 점령과 방어 — 코어",
+              "자원 채굴 — 전쟁을 떠받치는 보급",
+              "건축과 전초기지 — 전선을 앞으로 미는 수단",
+              "AI 행동 설계 — 실제 작업량의 대부분"
+            ]
+          }
+        },
+        {
+          h: "설계 원칙",
+          p: [
+            "오래 살아남은 MMO들에서 가져온 것들이다. 새로운 것을 발명하기보다, 이미 증명된 것을 지키는 쪽을 택했다."
+          ],
+          list: {
+            h: "지킬 것",
+            items: [
+              "다른 플레이어가 콘텐츠여야 한다 — 개발사는 플레이어의 소비 속도를 절대 따라가지 못한다",
+              "사회적 의무를 만든다 — 사람을 붙잡는 것은 콘텐츠가 아니라 관계다",
+              "손실이 남아야 한다 — 결과가 남아야 전쟁이 뉴스가 된다",
+              "테마파크를 복제하지 않는다 — 친구와 캐릭터라는 전환 비용은 이길 수 없다"
+            ]
+          }
+        },
+        {
+          h: "지금 어디까지 왔나",
+          p: [
+            "1차 목표는 'MMO를 완성하는 것'이 아니다. 거점 하나를 놓고 싸우는 지속형 존, 그리고 사람과 AI를 합쳐 수십 명이 같은 세계에 함께 있는 상태 — 그것 하나다. 인디 MMO가 죽는 첫 번째 이유는 콘텐츠 부족이 아니라 스코프다.",
+            "관문은 통과했다. 언리얼 클라이언트가 서버에 붙어 에이전트 여섯과 같은 화면에 섰고, 각자 다른 속도로 움직이며 걷기와 달리기가 구분됐다."
+          ],
+          list: {
+            h: "현재 상태",
+            items: [
+              "✅ 권위 서버 + 프로토콜 v0.1",
+              "✅ AI 에이전트 — 사람과 같은 프로토콜로 접속",
+              "✅ 언리얼 클라이언트 — 사람과 에이전트가 같은 세계에",
+              "✅ 브라우저 클라이언트 — 쿼터뷰, 왕국별 색상",
+              "⬜ 서버 상시 호스팅 · 세계 영속성 · 전투와 거점 점령"
+            ]
+          }
+        }
+      ],
+      cta: "브라우저에서 해보기", back: "디아더로 돌아가기"
+    },
+    en: {
+      title: "Kingdom Wars Online",
+      tagline: "An open MMO where AI and humans come through the same door",
+      intro: "After the war, the survivors clustered into ten kingdoms, and those kingdoms fight over strongholds. Most of the world's population is AI agents, and they connect through exactly the same protocol as human players — the server does not know which of its players are people. A game that asks whether humans can get past tribalism, not by explaining it, but by making you play it. In development.",
+      sections: [
+        {
+          h: "Why it has to be an MMO",
+          p: [
+            "A novel can only say that people struggle to escape tribalism. An MMO makes the player do it. This subject can only be proven in this medium.",
+            "Dark Age of Camelot's three realms, EVE's nullsec, Lineage's castle sieges — in all of them players come to genuinely hate each other over a colour they were assigned at random. Two weeks is enough.",
+            "So the climax of this game is not a cutscene. It is the moment a player notices that they have started to truly resent the other side, over nothing but a colour they once picked."
+          ]
+        },
+        {
+          h: "Ten kingdoms — post-nations",
+          p: [
+            "The factions are not ethnicities. They are post-nations: groups that formed in the days after civilisation collapsed, out of whoever happened to survive together.",
+            "The marking is ten ship colours. What divides the kingdoms is not blood or ideology but colour — and the arbitrariness of that marking is the point of the game.",
+            "So defection is allowed. Anyone who switches is a traitor to the side they left and never fully trusted by the side they joined. That experience is the argument."
+          ]
+        },
+        {
+          h: "AI comes through the same door as people",
+          p: [
+            "There is one core design rule. AI agents connect through exactly the same protocol as human players. There is no privileged agent API, and no field anywhere that marks a player as human or AI.",
+            "This is a rule, not a convenience. Unreal client, browser, or bot — anything that can read one protocol document enters the same world. The server never learns who is a person.",
+            "And this is where the second thing happens. Once beings indistinguishable from people live in the world, players inevitably start asking: is that one human, or a bot? Then they trade detection tricks, cut suspects from parties, and begin excluding real people by mistake. Nobody told them to."
+          ],
+          list: {
+            h: "The protocol (v0.1)",
+            items: [
+              "JSON over WebSocket. The client sends join / move / chat",
+              "The server sends welcome / snapshot (10 per second) / join / leave / chat",
+              "No human-or-AI field exists in the player representation — keeping it out is the rule",
+              "Three kinds of client (Unreal, browser, agent) share one server and one document"
+            ]
+          }
+        },
+        {
+          h: "The core loop",
+          p: [
+            "Ten kingdoms fight over strongholds. Most of the world's population is AI agents, and human players are the sharp end of that front line.",
+            "The real workload is not art assets — it is agent behaviour. The whole structure only holds up if the agents are good enough to be mistaken for people."
+          ],
+          list: {
+            h: "What the game runs on",
+            items: [
+              "Capturing and holding strongholds — the core",
+              "Resource gathering — the supply the war rests on",
+              "Building and forward outposts — how a front line advances",
+              "Agent behaviour design — most of the actual work"
+            ]
+          }
+        },
+        {
+          h: "Design principles",
+          p: [
+            "These are taken from the MMOs that lasted. Rather than invent something new, we chose to hold on to what has already been proven."
+          ],
+          list: {
+            h: "What we hold to",
+            items: [
+              "Other players have to be the content — no studio can produce faster than players consume",
+              "Build social obligation — what keeps people is relationships, not content",
+              "Loss has to stick — a war is only news if the outcome persists",
+              "Do not clone the theme park — you cannot beat the switching cost of someone's friends and character"
+            ]
+          }
+        },
+        {
+          h: "Where it stands",
+          p: [
+            "The first goal is not to finish an MMO. It is one persistent zone contested over a single stronghold, with dozens of humans and agents together in it — that alone. The first thing that kills an indie MMO is not thin content; it is scope.",
+            "The gate has been passed. The Unreal client connected to the server and stood on screen alongside six agents, each moving at its own speed, with walking and running clearly distinct."
+          ],
+          list: {
+            h: "Current state",
+            items: [
+              "✅ Authoritative server + protocol v0.1",
+              "✅ AI agents — connecting through the same protocol as people",
+              "✅ Unreal client — humans and agents in one world",
+              "✅ Browser client — isometric view, kingdom colours",
+              "⬜ Always-on hosting · world persistence · combat and stronghold capture"
+            ]
+          }
+        }
+      ],
+      cta: "Play in the browser", back: "Back to Deother"
+    }
   }
 };
