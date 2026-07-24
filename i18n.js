@@ -73,7 +73,7 @@ const WORKS = [
     logo: "assets/miliverse-logo.png", detail: "miliverse.html",
     sns:  { label: "Facebook", url: "https://www.facebook.com/miliverse2022" } },
   { key: "jangbogo", url: "https://jangbogo-nine.vercel.app",     tag: "2026",
-    logo: "assets/jangbogo-logo.svg", detail: "jangbogo.html" }
+    logo: "assets/jangbogo-logo.png", detail: "jangbogo.html" }
 ];
 
 // 개발 연표 영상 — 오래된 것부터. 제목은 영어 그대로 둔다(유튜브 원제와 맞추기 위해).
