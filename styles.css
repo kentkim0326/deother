@@ -223,6 +223,16 @@ section.alt { background: var(--bg-2); }
   pointer-events: none;
 }
 .doc-hero .wrap { position: relative; }
+/* 상세 히어로에 게임 아트를 옆에 두는 배치 (장보고). 좁은 화면에선 아래로 쌓인다 */
+.doc-hero-grid { display: grid; gap: clamp(24px, 4vw, 48px); align-items: center; }
+.doc-hero-art {
+  width: 100%; max-width: 300px; height: auto; display: block;
+  border-radius: 16px; border: 1px solid var(--line); justify-self: center;
+}
+@media (min-width: 900px) {
+  .doc-hero-grid { grid-template-columns: 1fr 300px; }
+  .doc-hero-art { justify-self: end; }
+}
 .doc-back { display: inline-block; margin-bottom: 22px; font-size: 14px; }
 .doc-intro { color: var(--fg-dim); max-width: 62ch; margin: 0 0 34px; font-size: 17px; }
 
