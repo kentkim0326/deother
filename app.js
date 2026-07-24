@@ -154,9 +154,14 @@ function render(code) {
     card.append(el("div", "work-tag", w.tag));
 
     const h = el("h3");
-    const link = el("a", "work-title", it.t);
-    link.href = w.url; link.target = "_blank"; link.rel = "noopener";
-    h.append(link);
+    if (w.url) {
+      const link = el("a", "work-title", it.t);
+      link.href = w.url; link.target = "_blank"; link.rel = "noopener";
+      h.append(link);
+    } else {
+      // 아직 플레이 링크가 없는 개발중 항목 — 제목만 (빈 href 로 깨진 링크가 생기지 않게)
+      h.append(el("span", "work-title", it.t));
+    }
     card.append(h, el("p", null, it.b));
 
     // 숫자가 있으면 붙인다 — 설명 한 줄보다 "얼마나 만들었나"가 빨리 읽힌다
