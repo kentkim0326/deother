@@ -79,6 +79,8 @@ const WORKS = [
   //    (url 을 지우면 카드 제목이 링크 대신 텍스트로 나온다)
   { key: "kwmmo",    url: "https://kw-mmo.vercel.app/?server=wss://paso-checkout-pendant-got.trycloudflare.com",
     tag: "2026",
+    // 임시 — 기존 Kingdom Wars 와 같은 로고를 쓴다. 전용 로고가 나오면 교체할 것.
+    logo: "assets/kingdom-wars-logo.png",
     // 개발 중이라 '트레일러'가 아니라 '테스트 영상'이다. 라벨을 과장하지 않는다.
     sns:  { label: "▶ Test footage", url: "https://youtu.be/oobYlh5wgXg" } }
 ];
