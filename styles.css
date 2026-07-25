@@ -462,3 +462,24 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
   border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; }
 /* FN 은 가로로 긴 워드마크라 엠블럼보다 넓게 */
 .card.work .work-logo.wide { width: 150px; }
+
+/* 주제가 토글 — kwonline.html 전용. 우하단 고정. RTL 을 위해 left/right 대신 논리 속성. */
+.audio-toggle {
+  position: fixed;
+  inset-block-end: 20px;
+  inset-inline-end: 20px;
+  z-index: 60;
+  width: 48px; height: 48px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: rgba(18, 18, 23, .85);
+  color: var(--accent);
+  font-size: 17px; line-height: 1;
+  cursor: pointer;
+  display: grid; place-items: center;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .4);
+  transition: transform .15s ease, background .15s ease, color .15s ease;
+}
+.audio-toggle:hover { transform: scale(1.08); }
+.audio-toggle.playing { color: #fff; background: var(--accent); border-color: var(--accent); }

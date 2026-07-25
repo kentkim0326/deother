@@ -244,6 +244,49 @@ function pRender(code) {
     b.setAttribute("aria-current", String(b.dataset.code === code)));
 }
 
+// 주제가 재생 — #pAudio 가 있는 페이지(kwonline)에서만 동작한다. 없으면 조용히 지나간다.
+// 브라우저는 소리 있는 오디오의 무조건 자동재생을 막는다. 그래서:
+//   1) 진입하면 한 번 시도하고(대개 막힌다),
+//   2) 사용자가 페이지를 처음 건드리는 순간 다시 시도하며,
+//   3) 우하단 토글 버튼으로 언제든 끄고 켤 수 있다.
+function pSetupAudio() {
+  const audio = document.getElementById("pAudio");
+  const btn = document.getElementById("pAudioToggle");
+  if (!audio || !btn) return;
+  audio.volume = 0.7;
+  btn.hidden = false;
+
+  const sync = () => {
+    const playing = !audio.paused;
+    btn.textContent = playing ? "❚❚" : "♪";
+    btn.classList.toggle("playing", playing);
+    btn.setAttribute("aria-label", playing ? "주제가 정지" : "주제가 재생");
+  };
+  audio.addEventListener("play", sync);
+  audio.addEventListener("pause", sync);
+
+  let armed = true;                         // 첫 상호작용 자동시작이 아직 유효한가
+  btn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    armed = false;                          // 직접 제어했으니 자동시작 로직은 끈다
+    if (audio.paused) audio.play().catch(() => {}); else audio.pause();
+  });
+
+  const tryPlay = () => audio.play().then(sync).catch(() => {});
+  tryPlay();                                // 진입 즉시 시도
+
+  const onFirst = (e) => {
+    if (e.target === btn) return;           // 버튼 클릭은 위 핸들러가 처리한다
+    if (armed && audio.paused) tryPlay();
+    armed = false;
+    window.removeEventListener("pointerdown", onFirst);
+    window.removeEventListener("keydown", onFirst);
+  };
+  window.addEventListener("pointerdown", onFirst);
+  window.addEventListener("keydown", onFirst);
+  sync();
+}
+
 function pSetup() {
   // 언어 선택 — 메인 페이지와 같은 드롭다운(.lang-btn + .lang-menu). 국기 포함.
   const box = document.getElementById("pLang");
@@ -271,6 +314,8 @@ function pSetup() {
   document.addEventListener("click", closeMenu);
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeMenu(); });
   box.replaceChildren(btn, menu);
+
+  pSetupAudio();
 
   const game = document.body.dataset.game;
   const layout = (typeof P_LAYOUT !== "undefined") ? P_LAYOUT[game] : null;
