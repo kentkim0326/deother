@@ -77,7 +77,7 @@ const WORKS = [
   // 개발 중. 클라이언트는 Vercel 정적 배포지만 게임 서버는 Kent PC + Cloudflare 터널이다.
   // ⚠️ trycloudflare 주소는 터널을 다시 띄울 때마다 바뀐다 — 끊기면 이 url 을 갱신할 것.
   //    (url 을 지우면 카드 제목이 링크 대신 텍스트로 나온다)
-  { key: "kwmmo",    url: "https://kw-mmo.vercel.app/?server=wss://paso-checkout-pendant-got.trycloudflare.com",
+  { key: "kwmmo",    url: "https://kw-mmo.vercel.app/?server=wss://streaming-means-increasing-adjustments.trycloudflare.com",
     tag: "2026",
     // 임시 — 기존 Kingdom Wars 와 같은 로고를 쓴다. 전용 로고가 나오면 교체할 것.
     logo: "assets/kingdom-wars-logo.png",
