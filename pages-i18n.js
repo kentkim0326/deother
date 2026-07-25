@@ -16,8 +16,13 @@ const PAGE_VIDEOS = {
   ],
   kingdom: [],
   // 개발 중이라 '트레일러'가 아니라 '테스트 영상'이다. 라벨을 과장하지 않는다 (함정 2).
+  // [1],[2],[3] 은 킹덤워즈 세계관 영어 주제가. P_LAYOUT.kwonline 이 배치를 정한다.
+  // O423 은 쇼츠(세로)라 vertical:true — 9:16 프레임으로 나온다. 나머지 둘은 가로.
   kwonline: [
-    { id: "oobYlh5wgXg", ko: "킹덤워즈 온라인 — 테스트 영상", en: "Kingdom Wars Online — test footage" },
+    { id: "oobYlh5wgXg", ko: "킹덤워즈 온라인 — 테스트 영상",     en: "Kingdom Wars Online — test footage" },
+    { id: "O423zD04If4", ko: "킹덤워즈 — 주제가 (영어, 쇼츠)",   en: "Kingdom Wars — theme song (English, short)", vertical: true },
+    { id: "_OoWRRC9ozI", ko: "킹덤워즈 — 주제가 (영어 록)",       en: "Kingdom Wars — theme song (English rock)" },
+    { id: "4A2KKRz7ux8", ko: "킹덤워즈 — 주제가 (영어)",         en: "Kingdom Wars — theme song (English)" },
   ],
 };
 
