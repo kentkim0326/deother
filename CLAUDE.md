@@ -202,10 +202,12 @@ KWO 본체 프로젝트: `F:\KW_MMO\` — `README.md`, `server/PROTOCOL.md`,
 
 ### ⚠️ KWO 관련 두 가지
 
-**1. 플레이 주소가 휘발성이다.** 클라이언트는 Vercel 정적 배포지만 게임 서버는
-대표님 PC + Cloudflare 터널이라, 터널을 다시 띄우면 `trycloudflare` 주소가 바뀐다.
-링크가 죽으면 `i18n.js` 의 `kwmmo.url` 과 `kwonline.html` 의 `#pCta` 를 같이 갱신할 것.
-`F:\KW_MMO\server\fly.toml` 로 상시 호스팅하면 이 문제가 사라진다 (아직 배포 안 함).
+**1. 플레이 서버는 Fly.io 고정 주소다 (2026-07-25 배포 완료).**
+`wss://kw-mmo-server.fly.dev` — 주소가 고정이라 예전 터널처럼 갱신할 일이 없다.
+클라이언트(`kw-mmo.vercel.app`)는 Vercel, 게임 서버는 Fly 로 나뉜다.
+서버 재배포·관리·요금은 `F:\KW_MMO\server\DEPLOY.md` 에 정리돼 있다.
+**재배포는 반드시 `fly deploy --ha=false`** — 안 그러면 머신이 2개로 늘어
+월드가 갈라진다(플레이어가 서로 안 보임). 게임 서버는 단일 머신이어야 한다.
 
 **2. 스포일러 금지선 — 대표님이 명시적으로 지시했다.**
 원작 소설의 **결말과 거기 연결된 설정은 사이트에 절대 쓰지 않는다**:

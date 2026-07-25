@@ -74,10 +74,11 @@ const WORKS = [
     sns:  { label: "Facebook", url: "https://www.facebook.com/miliverse2022" } },
   { key: "jangbogo", url: "https://jangbogo-nine.vercel.app",     tag: "2026",
     logo: "assets/jangbogo-logo.png", detail: "jangbogo.html" },
-  // 개발 중. 클라이언트는 Vercel 정적 배포지만 게임 서버는 Kent PC + Cloudflare 터널이다.
-  // ⚠️ trycloudflare 주소는 터널을 다시 띄울 때마다 바뀐다 — 끊기면 이 url 을 갱신할 것.
-  //    (url 을 지우면 카드 제목이 링크 대신 텍스트로 나온다)
-  { key: "kwmmo",    url: "https://kw-mmo.vercel.app/?server=wss://streaming-means-increasing-adjustments.trycloudflare.com",
+  // 개발 중. 클라이언트는 Vercel 정적 배포, 게임 서버는 Fly.io 상시 호스팅이다.
+  // 주소가 고정이라(wss://kw-mmo-server.fly.dev) 더는 갱신할 일이 없다 — 예전 터널과 다르다.
+  // 서버 재배포·관리는 F:\KW_MMO\server\DEPLOY.md 참고.
+  //    (혹시 url 을 지우면 카드 제목이 링크 대신 텍스트로 나온다)
+  { key: "kwmmo",    url: "https://kw-mmo.vercel.app/?server=wss://kw-mmo-server.fly.dev",
     tag: "2026",
     // 임시 — 기존 Kingdom Wars 와 같은 로고를 쓴다. 전용 로고가 나오면 교체할 것.
     logo: "assets/kingdom-wars-logo.png",
