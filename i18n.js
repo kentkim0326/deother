@@ -85,7 +85,14 @@ const WORKS = [
     // 상세 페이지는 ko / en 두 언어뿐이다. 다른 언어로 들어오면 page.js 가 en 으로 떨어뜨린다.
     detail: "kwonline.html",
     // 개발 중이라 '트레일러'가 아니라 '테스트 영상'이다. 라벨을 과장하지 않는다.
-    sns:  { label: "▶ Test footage", url: "https://youtu.be/oobYlh5wgXg" } }
+    sns:  { label: "▶ Test footage", url: "https://youtu.be/oobYlh5wgXg" } },
+  // Soomba — 조선 궁궐 도주 게임. 얼리 프로토타입(v0.1)이라 '개발 중'이다.
+  // ⚠️ itch 가 아직 draft 다. Public(+Unlisted) 로 바꾸기 전에는 방문자에게 404 (함정 4).
+  //    FN 과 같은 설정으로 바꾸면 이 url 이 열린다. secret 파라미터는 넣지 않는다.
+  // 로고는 게임 스크린샷을 정사각 크롭한 임시본. 전용 로고가 나오면 교체할 것.
+  { key: "soomba",   url: "https://deother.itch.io/soomba",       tag: "2026",
+    logo: "assets/soomba-logo.jpg",
+    sns:  { label: "▶ Video", url: "https://youtu.be/vM_dYTpVA3U" } }
 ];
 
 // 개발 연표 영상 — 오래된 것부터. 제목은 영어 그대로 둔다(유튜브 원제와 맞추기 위해).
@@ -211,7 +218,8 @@ const I18N = {
       kingdom: { t: "Kingdom Wars", b: "Pick a nation and a commander, then take the Moon sector by sector — 49 of them, turn by turn, in the browser. Killstreaks, battle grades and loot drops. Live in four languages." },
       miliverse: { t: "Milliverse", b: "Web3 strategy game played on the real world map. Buy tiles, deploy weapons and troops, fight other players for territory. Live in four languages, with real weather and day-night data feeding the battles." },
       jangbogo: { t: "Jang Bogo: King of the Seas", b: "A 9th-century maritime-trade management sim about the sea king Jang Bogo. Build wealth through trade on a real world map, sweep pirates aside with turtle ships, and grow your power through ties with people across the seas. Alternate history from the original novel — reaching North America 650 years before Columbus. Playable right in the browser." },
-      kwmmo: { t: "Kingdom Wars Online", b: "An MMORPG where AI takes part as players, not NPCs. AI agents connect through exactly the same protocol as human players and fight in the same world — the server does not know who is human. The setting: ten kingdoms formed by survivors of a nuclear war, fighting over strongholds. It asks whether humanity can outgrow tribalism. In development." }
+      kwmmo: { t: "Kingdom Wars Online", b: "An MMORPG where AI takes part as players, not NPCs. AI agents connect through exactly the same protocol as human players and fight in the same world — the server does not know who is human. The setting: ten kingdoms formed by survivors of a nuclear war, fighting over strongholds. It asks whether humanity can outgrow tribalism. In development." },
+      soomba: { t: "Soomba", b: "A downloadable Windows game. A Korean-American woman who had never set foot in Korea and her American boyfriend are thrown from a summer beach into Joseon, five centuries in the past. The palace is overrun by monsters, he is dragged away before her eyes, and she cannot speak a word of the language. A one-player escape game built on parkour across the palace rooftops. Early prototype (v0.1) — in development." }
     } },
     decks: { heading: "Pitch deck", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Contact", rights: "All rights reserved." }
@@ -308,7 +316,8 @@ const I18N = {
       kingdom: { t: "Kingdom Wars", b: "국가와 사령관을 고르고 달의 49개 섹터를 한 칸씩 빼앗는 턴제 전략. 브라우저에서 바로 합니다. 연승 배수, 전투 등급, 전리품 드랍까지. 4개 언어로 서비스 중." },
       miliverse: { t: "밀리버스", b: "실제 세계 지도 위에서 벌어지는 Web3 전략 게임. 타일을 사고 무기와 병사를 배치해 다른 플레이어와 영토를 두고 싸웁니다. 4개 언어로 서비스 중이며, 실제 날씨와 낮밤 데이터가 전투에 반영됩니다." },
       jangbogo: { t: "북미대륙을 발견한 장보고", b: "9세기 해상왕 장보고의 해상무역 경영 시뮬레이션. 실제 세계 지도 위에서 교역으로 부를 쌓고, 거북선으로 해적을 소탕하며, 각지의 인물과 관계를 맺어 세력을 넓힙니다. 원작 소설의 대체역사 — 콜럼버스보다 650년 먼저 북미에 닿는 길. 브라우저에서 바로 플레이." },
-      kwmmo: { t: "Kingdom Wars Online", b: "AI가 NPC가 아니라 플레이어로 참여하는 MMORPG입니다. AI 에이전트가 사람과 똑같은 프로토콜로 접속해 같은 세계에서 함께 싸우고, 서버는 누가 사람인지 모릅니다. 무대는 핵전쟁 이후 살아남은 사람들이 출신끼리 뭉쳐 세운 10개 왕국. 인류가 부족주의를 벗어날 수 있는가를 묻습니다 — 개발 중입니다." }
+      kwmmo: { t: "Kingdom Wars Online", b: "AI가 NPC가 아니라 플레이어로 참여하는 MMORPG입니다. AI 에이전트가 사람과 똑같은 프로토콜로 접속해 같은 세계에서 함께 싸우고, 서버는 누가 사람인지 모릅니다. 무대는 핵전쟁 이후 살아남은 사람들이 출신끼리 뭉쳐 세운 10개 왕국. 인류가 부족주의를 벗어날 수 있는가를 묻습니다 — 개발 중입니다." },
+      soomba: { t: "숨바", b: "윈도우 다운로드 게임. 한 번도 한국에 와본 적 없는 교포 여성과 미국인 남자친구가 여름 해변에서 오백 년 전 조선으로 떨어집니다. 궁궐은 괴물로 뒤덮였고, 남자친구는 눈앞에서 끌려가며, 그녀는 이 나라 말을 한마디도 못 합니다. 궁궐 지붕을 뛰어넘는 트래버설 중심의 1인용 도주 게임. 얼리 프로토타입(v0.1) — 개발 중입니다." }
     } },
     decks: { heading: "발표 자료", en: "English version", ko: "한국어 버전" },
     footer: { studio: "주식회사 디아더", contact: "문의", rights: "All rights reserved." }
@@ -402,7 +411,8 @@ const I18N = {
       kingdom: { t: "Kingdom Wars", b: "选择国家与指挥官，在浏览器里一格一格拿下月球的 49 个区块。连胜加成、战斗评级、战利品掉落。四种语言运营中。" },
       miliverse: { t: "Milliverse", b: "在真实世界地图上进行的 Web3 战略游戏。购买地块、部署武器与士兵，与其他玩家争夺领土。四种语言上线运营，真实天气与昼夜数据会影响战斗。" },
       jangbogo: { t: "张保皋：海上之王", b: "以9世纪海上王张保皋为主角的海上贸易经营模拟。在真实世界地图上通过贸易积累财富，用龟船扫荡海盗，并与各地人物结缘以扩张势力。源自原著小说的架空历史——比哥伦布早650年抵达北美。在浏览器中即可畅玩。" },
-      kwmmo: { t: "Kingdom Wars Online", b: "一款 AI 不是作为 NPC、而是作为玩家参与的 MMORPG。AI 智能体以与真人完全相同的协议接入，在同一个世界里并肩作战——服务器并不知道谁是人类。舞台设在核战之后：幸存者按出身抱团建立的十个王国为争夺据点而战。它追问人类能否走出部落主义。开发中。" }
+      kwmmo: { t: "Kingdom Wars Online", b: "一款 AI 不是作为 NPC、而是作为玩家参与的 MMORPG。AI 智能体以与真人完全相同的协议接入，在同一个世界里并肩作战——服务器并不知道谁是人类。舞台设在核战之后：幸存者按出身抱团建立的十个王国为争夺据点而战。它追问人类能否走出部落主义。开发中。" },
+      soomba: { t: "Soomba", b: "可下载的 Windows 游戏。一位从未踏足韩国的韩裔美籍女子与她的美国男友，从夏日海滩被抛入五百年前的朝鲜。宫殿被怪物吞没，男友在她眼前被拖走，而她一句当地话也不会说。一款以宫殿屋顶跑酷为核心的单人逃脱游戏。早期原型（v0.1）——开发中。" }
     } },
     decks: { heading: "企划书", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother 有限公司", contact: "联系我们", rights: "版权所有。" }
@@ -496,7 +506,8 @@ const I18N = {
       kingdom: { t: "Kingdom Wars", b: "国と司令官を選び、月の49セクターを一つずつ奪っていくターン制ストラテジー。ブラウザですぐ遊べます。連勝ボーナス、戦闘評価、戦利品ドロップつき。4言語で稼働中。" },
       miliverse: { t: "Milliverse", b: "現実の世界地図の上で戦うWeb3ストラテジー。タイルを買い、武器と兵士を配置し、他のプレイヤーと領土を奪い合います。4言語で稼働中、実際の天候と昼夜のデータが戦闘に反映されます。" },
       jangbogo: { t: "チャン・ボゴ：海の王", b: "9世紀の海の王チャン・ボゴ（張保皋）を主人公にした海上交易経営シミュレーション。現実の世界地図の上で交易によって富を築き、亀甲船で海賊を掃討し、各地の人物と縁を結んで勢力を広げます。原作小説の改変歴史——コロンブスより650年早く北米に到達する物語。ブラウザですぐに遊べます。" },
-      kwmmo: { t: "Kingdom Wars Online", b: "AIがNPCではなくプレイヤーとして参加するMMORPGです。AIエージェントが人間とまったく同じプロトコルで接続し、同じ世界で共に戦います——サーバーは誰が人間かを知りません。舞台は核戦争を生き延びた人々が出自ごとに集まって築いた10の王国。人類が部族主義を抜け出せるのかを問います。開発中。" }
+      kwmmo: { t: "Kingdom Wars Online", b: "AIがNPCではなくプレイヤーとして参加するMMORPGです。AIエージェントが人間とまったく同じプロトコルで接続し、同じ世界で共に戦います——サーバーは誰が人間かを知りません。舞台は核戦争を生き延びた人々が出自ごとに集まって築いた10の王国。人類が部族主義を抜け出せるのかを問います。開発中。" },
+      soomba: { t: "Soomba", b: "ダウンロード版のWindowsゲーム。一度も韓国に来たことのない在米コリアンの女性と、そのアメリカ人の恋人が、夏の海辺から五百年前の朝鮮へ落ちる。宮殿は怪物に覆われ、恋人は目の前で連れ去られ、彼女はこの国の言葉を一言も話せない。宮殿の屋根を駆け抜けるトラバーサル中心の一人用逃走ゲーム。アーリープロトタイプ（v0.1）——開発中。" }
     } },
     decks: { heading: "企画書", en: "English version", ko: "한국어 버전" },
     footer: { studio: "株式会社ディアザー", contact: "お問い合わせ", rights: "All rights reserved." }
@@ -590,7 +601,8 @@ const I18N = {
       kingdom: { t: "Kingdom Wars", b: "Elige nación y comandante y toma la Luna sector a sector: 49 en total, por turnos, en el navegador. Rachas de victorias, calificación de combate y botín. Disponible en cuatro idiomas." },
       miliverse: { t: "Milliverse", b: "Juego de estrategia Web3 sobre el mapa del mundo real. Compra casillas, despliega armas y tropas y disputa territorio a otros jugadores. Activo en cuatro idiomas, con clima real y ciclo día-noche influyendo en los combates." },
       jangbogo: { t: "Jang Bogo: Rey de los Mares", b: "Un simulador de gestión de comercio marítimo del siglo IX protagonizado por el rey del mar Jang Bogo. Sobre un mapa del mundo real acumulas riqueza comerciando, barres a los piratas con barcos tortuga y amplías tu poder tejiendo lazos con gente de todos los mares. Historia alternativa de la novela original: llegar a Norteamérica 650 años antes que Colón. Se juega directamente en el navegador." },
-      kwmmo: { t: "Kingdom Wars Online", b: "Un MMORPG en el que la IA participa como jugadora y no como NPC. Los agentes de IA se conectan con exactamente el mismo protocolo que los jugadores humanos y combaten en el mismo mundo: el servidor no sabe quién es humano. El escenario: diez reinos formados por supervivientes de una guerra nuclear que luchan por enclaves. Pregunta si la humanidad puede superar el tribalismo. En desarrollo." }
+      kwmmo: { t: "Kingdom Wars Online", b: "Un MMORPG en el que la IA participa como jugadora y no como NPC. Los agentes de IA se conectan con exactamente el mismo protocolo que los jugadores humanos y combaten en el mismo mundo: el servidor no sabe quién es humano. El escenario: diez reinos formados por supervivientes de una guerra nuclear que luchan por enclaves. Pregunta si la humanidad puede superar el tribalismo. En desarrollo." },
+      soomba: { t: "Soomba", b: "Un juego descargable para Windows. Una mujer coreano-estadounidense que nunca había pisado Corea y su novio estadounidense son arrojados desde una playa de verano al Joseon de hace cinco siglos. El palacio está invadido por monstruos, a él se lo llevan a rastras ante sus ojos, y ella no habla una palabra del idioma. Un juego de escape para un jugador basado en el parkour por los tejados del palacio. Prototipo temprano (v0.1) — en desarrollo." }
     } },
     decks: { heading: "Dossier", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Contacto", rights: "Todos los derechos reservados." }
@@ -684,7 +696,8 @@ const I18N = {
       kingdom: { t: "Kingdom Wars", b: "Escolhe nação e comandante e toma a Lua setor a setor: 49 ao todo, por turnos, no navegador. Sequências de vitórias, classificação de combate e loot. Disponível em quatro línguas." },
       miliverse: { t: "Milliverse", b: "Jogo de estratégia Web3 sobre o mapa do mundo real. Compra tiles, coloca armas e tropas e disputa território com outros jogadores. Ativo em quatro línguas, com clima real e ciclo dia-noite a influenciar os combates." },
       jangbogo: { t: "Jang Bogo: Rei dos Mares", b: "Um simulador de gestão de comércio marítimo do século IX protagonizado pelo rei do mar Jang Bogo. Num mapa do mundo real, acumulas riqueza a comerciar, varres os piratas com navios-tartaruga e alargas o teu poder criando laços com gente de todos os mares. História alternativa do romance original — chegar à América do Norte 650 anos antes de Colombo. Joga-se diretamente no navegador." },
-      kwmmo: { t: "Kingdom Wars Online", b: "Um MMORPG em que a IA participa como jogadora e não como NPC. Os agentes de IA ligam-se exatamente pelo mesmo protocolo que os jogadores humanos e combatem no mesmo mundo — o servidor não sabe quem é humano. O cenário: dez reinos formados por sobreviventes de uma guerra nuclear que disputam bastiões. Pergunta se a humanidade consegue superar o tribalismo. Em desenvolvimento." }
+      kwmmo: { t: "Kingdom Wars Online", b: "Um MMORPG em que a IA participa como jogadora e não como NPC. Os agentes de IA ligam-se exatamente pelo mesmo protocolo que os jogadores humanos e combatem no mesmo mundo — o servidor não sabe quem é humano. O cenário: dez reinos formados por sobreviventes de uma guerra nuclear que disputam bastiões. Pergunta se a humanidade consegue superar o tribalismo. Em desenvolvimento." },
+      soomba: { t: "Soomba", b: "Um jogo descarregável para Windows. Uma mulher coreano-americana que nunca tinha pisado a Coreia e o seu namorado americano são atirados de uma praia de verão para o Joseon de cinco séculos atrás. O palácio está tomado por monstros, ele é arrastado para longe diante dos seus olhos, e ela não fala uma palavra da língua. Um jogo de fuga para um jogador baseado no parkour pelos telhados do palácio. Protótipo inicial (v0.1) — em desenvolvimento." }
     } },
     decks: { heading: "Apresentação", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Contacto", rights: "Todos os direitos reservados." }
@@ -778,7 +791,8 @@ const I18N = {
       kingdom: { t: "Kingdom Wars", b: "Choisissez une nation et un commandant, puis prenez la Lune secteur par secteur : 49 en tout, au tour par tour, dans le navigateur. Séries de victoires, notes de combat et butin. Disponible en quatre langues." },
       miliverse: { t: "Milliverse", b: "Jeu de stratégie Web3 sur la carte du monde réel. Achetez des tuiles, déployez armes et troupes, disputez le territoire aux autres joueurs. En ligne en quatre langues, avec météo réelle et cycle jour-nuit qui pèsent sur les combats." },
       jangbogo: { t: "Jang Bogo : Roi des Mers", b: "Un simulateur de gestion du commerce maritime au IXe siècle, avec pour héros le roi des mers Jang Bogo. Sur une carte du monde réel, vous bâtissez votre fortune par le commerce, balayez les pirates avec des navires-tortues et étendez votre puissance en nouant des liens avec les gens de toutes les mers. Une uchronie tirée du roman original — atteindre l'Amérique du Nord 650 ans avant Colomb. Jouable directement dans le navigateur." },
-      kwmmo: { t: "Kingdom Wars Online", b: "Un MMORPG où l'IA participe en tant que joueur et non comme PNJ. Les agents IA se connectent exactement par le même protocole que les joueurs humains et combattent dans le même monde : le serveur ignore qui est humain. Le décor : dix royaumes fondés par des survivants d'une guerre nucléaire, qui se disputent des places fortes. Le jeu demande si l'humanité peut dépasser le tribalisme. En développement." }
+      kwmmo: { t: "Kingdom Wars Online", b: "Un MMORPG où l'IA participe en tant que joueur et non comme PNJ. Les agents IA se connectent exactement par le même protocole que les joueurs humains et combattent dans le même monde : le serveur ignore qui est humain. Le décor : dix royaumes fondés par des survivants d'une guerre nucléaire, qui se disputent des places fortes. Le jeu demande si l'humanité peut dépasser le tribalisme. En développement." },
+      soomba: { t: "Soomba", b: "Un jeu téléchargeable pour Windows. Une Américaine d'origine coréenne qui n'avait jamais mis les pieds en Corée et son petit ami américain sont précipités d'une plage estivale dans le Joseon d'il y a cinq siècles. Le palais est envahi par les monstres, on l'emmène de force sous ses yeux, et elle ne parle pas un mot de la langue. Un jeu d'évasion solo fondé sur le parkour sur les toits du palais. Prototype précoce (v0.1) — en développement." }
     } },
     decks: { heading: "Dossier de présentation", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Contact", rights: "Tous droits réservés." }
@@ -872,7 +886,8 @@ const I18N = {
       kingdom: { t: "Kingdom Wars", b: "Nation und Kommandant wählen, dann den Mond Sektor für Sektor nehmen — 49 davon, rundenbasiert, im Browser. Siegesserien, Kampfwertungen und Beute. In vier Sprachen verfügbar." },
       miliverse: { t: "Milliverse", b: "Web3-Strategiespiel auf der echten Weltkarte. Kacheln kaufen, Waffen und Truppen stationieren, mit anderen Spielern um Gebiete kämpfen. In vier Sprachen live, echtes Wetter und Tag-Nacht-Daten fließen in die Kämpfe ein." },
       jangbogo: { t: "Jang Bogo: König der Meere", b: "Eine Handels-Wirtschaftssimulation aus dem 9. Jahrhundert um den Seekönig Jang Bogo. Auf einer echten Weltkarte häufst du durch Handel Reichtum an, fegst Piraten mit Schildkrötenschiffen beiseite und mehrst deine Macht durch Bündnisse mit Menschen aller Meere. Alternative Geschichte aus dem Originalroman — Nordamerika 650 Jahre vor Kolumbus erreichen. Direkt im Browser spielbar." },
-      kwmmo: { t: "Kingdom Wars Online", b: "Ein MMORPG, in dem die KI als Spieler teilnimmt und nicht als NPC. KI-Agenten verbinden sich über exakt dasselbe Protokoll wie menschliche Spieler und kämpfen in derselben Welt — der Server weiß nicht, wer ein Mensch ist. Der Schauplatz: zehn von Überlebenden eines Atomkriegs gebildete Königreiche, die um Stützpunkte kämpfen. Das Spiel fragt, ob die Menschheit den Tribalismus überwinden kann. In Entwicklung." }
+      kwmmo: { t: "Kingdom Wars Online", b: "Ein MMORPG, in dem die KI als Spieler teilnimmt und nicht als NPC. KI-Agenten verbinden sich über exakt dasselbe Protokoll wie menschliche Spieler und kämpfen in derselben Welt — der Server weiß nicht, wer ein Mensch ist. Der Schauplatz: zehn von Überlebenden eines Atomkriegs gebildete Königreiche, die um Stützpunkte kämpfen. Das Spiel fragt, ob die Menschheit den Tribalismus überwinden kann. In Entwicklung." },
+      soomba: { t: "Soomba", b: "Ein herunterladbares Windows-Spiel. Eine koreanisch-amerikanische Frau, die nie koreanischen Boden betreten hatte, und ihr amerikanischer Freund werden von einem Sommerstrand ins Joseon vor fünf Jahrhunderten geworfen. Der Palast ist von Monstern überrannt, er wird vor ihren Augen weggeschleppt, und sie spricht kein Wort der Sprache. Ein Einzelspieler-Fluchtspiel, das auf Parkour über die Palastdächer setzt. Früher Prototyp (v0.1) — in Entwicklung." }
     } },
     decks: { heading: "Pitch Deck", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Kontakt", rights: "Alle Rechte vorbehalten." }
@@ -966,7 +981,8 @@ const I18N = {
       kingdom: { t: "Kingdom Wars", b: "Выберите страну и командира и забирайте Луну сектор за сектором — всего 49, пошагово, прямо в браузере. Серии побед, оценки боя и трофеи. Доступна на четырёх языках." },
       miliverse: { t: "Milliverse", b: "Web3-стратегия на настоящей карте мира. Покупайте тайлы, размещайте оружие и войска, отбивайте территорию у других игроков. Работает на четырёх языках, реальная погода и смена дня и ночи влияют на бой." },
       jangbogo: { t: "Чан Бого: Король морей", b: "Симулятор управления морской торговлей IX века о морском короле Чан Бого. На настоящей карте мира вы копите богатство торговлей, сметаете пиратов кораблями-черепахами и расширяете влияние, заводя связи с людьми всех морей. Альтернативная история из оригинального романа — достичь Северной Америки на 650 лет раньше Колумба. Играется прямо в браузере." },
-      kwmmo: { t: "Kingdom Wars Online", b: "MMORPG, в которой ИИ участвует как игрок, а не как NPC. ИИ-агенты подключаются по точно такому же протоколу, что и живые игроки, и сражаются в том же мире — сервер не знает, кто человек. Действие происходит после ядерной войны: десять королевств, собранных уцелевшими, сражаются за опорные пункты. Игра спрашивает, способно ли человечество перерасти трайбализм. В разработке." }
+      kwmmo: { t: "Kingdom Wars Online", b: "MMORPG, в которой ИИ участвует как игрок, а не как NPC. ИИ-агенты подключаются по точно такому же протоколу, что и живые игроки, и сражаются в том же мире — сервер не знает, кто человек. Действие происходит после ядерной войны: десять королевств, собранных уцелевшими, сражаются за опорные пункты. Игра спрашивает, способно ли человечество перерасти трайбализм. В разработке." },
+      soomba: { t: "Soomba", b: "Загружаемая игра для Windows. Кореянка из Америки, никогда не бывавшая в Корее, и её американский парень с летнего пляжа попадают в Чосон пятивековой давности. Дворец захвачен монстрами, его утаскивают у неё на глазах, а она не знает ни слова на местном языке. Однопользовательская игра-побег, построенная на паркуре по крышам дворца. Ранний прототип (v0.1) — в разработке." }
     } },
     decks: { heading: "Презентация", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Связаться", rights: "Все права защищены." }
@@ -1060,7 +1076,8 @@ const I18N = {
       kingdom: { t: "Kingdom Wars", b: "اختر دولة وقائدًا ثم استولِ على القمر قطاعًا بعد قطاع — 49 قطاعًا، بالأدوار، من المتصفح مباشرة. سلاسل انتصارات وتقييمات للمعارك وغنائم. متاحة بأربع لغات." },
       miliverse: { t: "Milliverse", b: "لعبة استراتيجية Web3 على خريطة العالم الحقيقية. اشترِ المربّعات وانشر الأسلحة والجنود ونازع اللاعبين الآخرين على الأرض. تعمل بأربع لغات، وبيانات الطقس الحقيقي والليل والنهار تؤثر في المعارك." },
       jangbogo: { t: "جانغ بوغو: ملك البحار", b: "محاكاة لإدارة التجارة البحرية في القرن التاسع، بطلها ملك البحار جانغ بوغو. على خريطة العالم الحقيقية تراكم الثروة بالتجارة، وتكتسح القراصنة بسفن السلحفاة، وتوسّع نفوذك بعقد صلات مع أهل البحار جميعًا. تاريخ بديل من الرواية الأصلية — بلوغ أمريكا الشمالية قبل كولومبوس بـ650 عامًا. تُلعب مباشرة في المتصفح." },
-      kwmmo: { t: "Kingdom Wars Online", b: "لعبة MMORPG يشارك فيها الذكاء الاصطناعي بوصفه لاعبًا لا شخصية غير قابلة للعب. يتصل وكلاء الذكاء الاصطناعي بالبروتوكول نفسه تمامًا الذي يستخدمه اللاعبون البشر ويقاتلون في العالم ذاته — والخادم لا يعرف من هو الإنسان. أما المسرح فعشر ممالك أسّسها ناجون من حرب نووية وهي تتنازع على المعاقل. وتسأل اللعبة: هل يستطيع البشر تجاوز النزعة القبلية؟ قيد التطوير." }
+      kwmmo: { t: "Kingdom Wars Online", b: "لعبة MMORPG يشارك فيها الذكاء الاصطناعي بوصفه لاعبًا لا شخصية غير قابلة للعب. يتصل وكلاء الذكاء الاصطناعي بالبروتوكول نفسه تمامًا الذي يستخدمه اللاعبون البشر ويقاتلون في العالم ذاته — والخادم لا يعرف من هو الإنسان. أما المسرح فعشر ممالك أسّسها ناجون من حرب نووية وهي تتنازع على المعاقل. وتسأل اللعبة: هل يستطيع البشر تجاوز النزعة القبلية؟ قيد التطوير." },
+      soomba: { t: "Soomba", b: "لعبة قابلة للتنزيل على ويندوز. امرأة كورية أمريكية لم تطأ قدمها كوريا قط، وحبيبها الأمريكي، يُقذفان من شاطئ صيفي إلى مملكة جوسون قبل خمسة قرون. القصر اجتاحته الوحوش، ويُسحب حبيبها بعيدًا أمام عينيها، وهي لا تعرف كلمة واحدة من لغة المكان. لعبة هروب للاعب واحد قائمة على الباركور فوق أسطح القصر. نموذج أولي مبكر (v0.1) — قيد التطوير." }
     } },
     decks: { heading: "ملف العرض", en: "English version", ko: "한국어 버전" },
     footer: { studio: "شركة Deother", contact: "تواصل معنا", rights: "جميع الحقوق محفوظة." }
