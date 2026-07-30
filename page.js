@@ -38,6 +38,14 @@ const P_LAYOUT = {
       4: [{ img: 3 }],                        // 하는 방법
     },
   },
+  soomba: {
+    // 미디어: 게임 영상 1편 + 커버 스크린샷(궁궐 전경) 1장.
+    // 스크린샷이 늘면 {img}/{s} 를 더 끼워 리듬을 촘촘하게 할 것.
+    top: [{ v: 0 }],                          // 인트로 아래 → 게임 영상으로 붙잡는다
+    after: {
+      1: [{ img: 0 }],                        // 지붕(핵심 메커닉) 뒤 → 궁궐 전경 밴드
+    },
+  },
   kwonline: {
     // 아직 게임 화면 캡처가 없다. 미디어는 테스트 영상 + 영어 주제가 3곡.
     // 글벽 사이에 고르게 흩어 리듬을 준다. 스크린샷이 나오면 {img}/{s} 를 더 끼울 것.
@@ -89,6 +97,7 @@ function pSlideSet(game) {
   if (game === "miliverse") return { files: (typeof MV_SLIDES !== "undefined" ? MV_SLIDES : []), folder: "assets/slides-mv/" };
   if (game === "kingdom")   return { files: (typeof KW_SLIDES !== "undefined" ? KW_SLIDES : []), folder: "assets/slides-kw/" };
   if (game === "jangbogo")  return { files: (typeof JB_SLIDES !== "undefined" ? JB_SLIDES : []), folder: "assets/slides-jb/" };
+  if (game === "soomba")    return { files: (typeof SOOMBA_SLIDES !== "undefined" ? SOOMBA_SLIDES : []), folder: "assets/" };
   return { files: [], folder: "" };
 }
 

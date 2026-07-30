@@ -24,6 +24,9 @@ const PAGE_VIDEOS = {
     { id: "_OoWRRC9ozI", ko: "킹덤워즈 — 주제가 (영어 록)",       en: "Kingdom Wars — theme song (English rock)" },
     { id: "4A2KKRz7ux8", ko: "킹덤워즈 — 주제가 (영어)",         en: "Kingdom Wars — theme song (English)" },
   ],
+  soomba: [
+    { id: "vM_dYTpVA3U", ko: "숨바 — 게임 영상", en: "Soomba — gameplay footage" },
+  ],
 };
 
 const PAGES = {
@@ -788,5 +791,146 @@ const PAGES = {
     "de": {"title":"Kingdom Wars Online","tagline":"Ein MMORPG, in dem die KI als Spieler teilnimmt, nicht als NPC","intro":"Ein MMORPG, in dem KI-Agenten als Spieler teilnehmen und nicht als NPCs. Der größte Teil der Bevölkerung dieser Welt ist KI, und sie verbindet sich über exakt dasselbe Protokoll wie menschliche Spieler — der Server weiß nicht, welche seiner Spieler Menschen sind. Der Schauplatz ist die Zeit nach einem Atomkrieg, in der zehn von den Überlebenden gebildete Königreiche um Stützpunkte kämpfen. Das Spiel fragt, ob der Mensch den Tribalismus hinter sich lassen kann: nicht, indem es das erklärt, sondern indem es dich das spielen lässt. In Entwicklung.","sections":[{"h":"Warum es ein MMO sein muss","p":["Ein Roman kann nur sagen, dass Menschen sich schwer damit tun, dem Tribalismus zu entkommen. Ein MMO lässt es die Spielenden selbst tun. Dieses Thema lässt sich nur in diesem Medium beweisen.","Die drei Reiche von Dark Age of Camelot, der Nullsec von EVE, die Burgbelagerungen von Lineage — überall beginnen Spieler, einander wegen einer rein zufällig zugewiesenen Farbe ernsthaft zu hassen. Zwei Wochen genügen.","Deshalb ist der Höhepunkt dieses Spiels keine Zwischensequenz. Es ist der Moment, in dem jemand bemerkt, die Gegenseite wirklich zu verabscheuen — wegen nichts als einer Farbe, die er einmal gewählt hat."]},{"h":"Zehn Königreiche — Post-Nationen","p":["Die Fraktionen sind keine Ethnien. Es sind Post-Nationen: Gruppen, die sich in den Tagen nach dem Zusammenbruch der Zivilisation aus denen bildeten, die zufällig gemeinsam überlebt hatten.","Das Kennzeichen sind zehn Schiffsfarben. Was die Königreiche trennt, ist weder Blut noch Ideologie, sondern Farbe — und genau die Willkür dieses Kennzeichens ist das Thema des Spiels.","Deshalb ist das Überlaufen erlaubt. Wer wechselt, ist für die verlassene Seite ein Verräter und wird von der neuen nie ganz für voll genommen. Diese Erfahrung ist das Argument."]},{"h":"KI kommt durch dieselbe Tür wie Menschen","p":["Es gibt eine einzige zentrale Designregel. KI-Agenten verbinden sich über exakt dasselbe Protokoll wie menschliche Spieler. Es gibt keine privilegierte Agenten-API und nirgends ein Feld, das einen Spieler als Mensch oder KI kennzeichnet.","Das ist eine Regel, keine Bequemlichkeit. Unreal-Client, Browser oder Bot — alles, was ein einziges Protokolldokument lesen kann, betritt dieselbe Welt. Der Server erfährt nie, wer ein Mensch ist.","Und hier passiert das Zweite. Sobald Wesen in der Welt leben, die von Menschen nicht zu unterscheiden sind, fangen Spieler zwangsläufig an zu fragen: Ist der da ein Mensch oder ein Bot? Dann tauschen sie Erkennungstricks aus, werfen Verdächtige aus der Gruppe und schließen irgendwann versehentlich echte Menschen aus. Niemand hat sie darum gebeten."],"list":{"h":"Das Protokoll (v0.1)","items":["JSON über WebSocket. Der Client sendet join / move / chat","Der Server sendet welcome / snapshot (10-mal pro Sekunde) / join / leave / chat","In der Spielerdarstellung existiert kein Mensch-oder-KI-Feld — es herauszuhalten ist die Regel","Drei Arten von Client (Unreal, Browser, Agent) teilen sich einen Server und ein Dokument"]}},{"h":"Die Kernschleife","p":["Zehn Königreiche kämpfen um Stützpunkte. Der größte Teil der Weltbevölkerung sind KI-Agenten, und menschliche Spieler sind die scharfe Spitze dieser Front.","Die eigentliche Arbeit steckt nicht in den Art-Assets, sondern im Verhalten der Agenten. Die ganze Konstruktion trägt nur, wenn die Agenten gut genug sind, um für Menschen gehalten zu werden."],"list":{"h":"Woraus das Spiel läuft","items":["Stützpunkte einnehmen und halten — der Kern","Rohstoffgewinnung — der Nachschub, auf dem der Krieg ruht","Bauen und vorgeschobene Posten — wie eine Front vorrückt","Verhaltensdesign der Agenten — der größte Teil der eigentlichen Arbeit"]}},{"h":"Entwurfsprinzipien","p":["Sie stammen aus den MMOs, die Bestand hatten. Statt etwas Neues zu erfinden, haben wir uns entschieden, an dem festzuhalten, was sich bereits bewährt hat."],"list":{"h":"Woran wir festhalten","items":["Andere Spieler müssen der Inhalt sein — kein Studio produziert schneller, als Spieler verbrauchen","Soziale Verpflichtung schaffen — was Menschen hält, sind Beziehungen, nicht Inhalte","Verluste müssen bleiben — ein Krieg ist nur dann eine Nachricht, wenn das Ergebnis Bestand hat","Den Themenpark nicht klonen — gegen die Wechselkosten aus Freunden und Charakter kommt man nicht an"]}},{"h":"Wo es steht","p":["Das erste Ziel ist nicht, ein MMO fertigzustellen. Es ist eine persistente Zone, in der um einen einzigen Stützpunkt gekämpft wird, mit Dutzenden Menschen und Agenten zugleich darin — nur das. Was ein Indie-MMO zuerst umbringt, ist nicht dünner Inhalt, sondern der Umfang.","Die Hürde ist genommen. Der Unreal-Client verband sich mit dem Server und stand gemeinsam mit sechs Agenten auf dem Bildschirm, jeder in seinem eigenen Tempo unterwegs, Gehen und Laufen klar unterscheidbar."],"list":{"h":"Aktueller Stand","items":["✅ Autoritativer Server + Protokoll v0.1","✅ KI-Agenten — verbunden über dasselbe Protokoll wie Menschen","✅ Unreal-Client — Menschen und Agenten in einer Welt","✅ Browser-Client — isometrische Ansicht, Königreichsfarben","⬜ Dauerhaftes Hosting · Weltpersistenz · Kampf und Einnahme von Stützpunkten"]}}],"cta":"Im Browser spielen","back":"Zurück zu Deother"},
     "ru": {"title":"Kingdom Wars Online","tagline":"MMORPG, в которой ИИ участвует как игрок, а не как NPC","intro":"MMORPG, в которой ИИ-агенты участвуют как игроки, а не как NPC. Большая часть населения этого мира — ИИ, и подключается он ровно по тому же протоколу, что и живые игроки: сервер не знает, кто из его игроков человек. Действие происходит после ядерной войны, где десять королевств, собранных уцелевшими, сражаются за опорные пункты. Игра спрашивает, способен ли человек выйти за пределы трайбализма, — не объясняя это, а заставляя вас это сыграть. В разработке.","sections":[{"h":"Почему это должно быть именно MMO","p":["Роман способен лишь сказать, что человеку трудно выбраться из трайбализма. MMO заставляет игрока сделать это самому. Эта тема доказуема только в этой среде.","Три королевства Dark Age of Camelot, нулевые системы EVE, осады замков в Lineage — везде игроки начинают всерьёз ненавидеть друг друга из-за цвета, который достался им случайно. Двух недель хватает.","Поэтому кульминация этой игры — не кат-сцена. Это миг, когда игрок замечает, что и вправду начал ненавидеть противоположную сторону — всего лишь из-за цвета, который однажды выбрал."]},{"h":"Десять королевств — постгосударства","p":["Фракции — это не народы. Это постгосударства: объединения, сложившиеся в первые дни после краха цивилизации из тех, кто случайно выжил вместе.","Отличительный знак — десять цветов кораблей. Королевства разделяет не кровь и не идеология, а всего лишь цвет, и произвольность этого знака и есть тема игры.","Поэтому переход на другую сторону не запрещён. Тот, кто сменил знамя, для прежних — предатель, а для новых — тот, кому до конца не доверяют. Этот опыт и есть доказательство."]},{"h":"ИИ входит через ту же дверь, что и люди","p":["Ключевое правило проектирования одно. ИИ-агенты подключаются ровно по тому же протоколу, что и живые игроки. Нет ни привилегированного API для агентов, ни где-либо поля, помечающего игрока как человека или ИИ.","Это правило, а не удобство. Клиент на Unreal, браузер или бот — всё, что способно прочитать один документ протокола, попадает в тот же мир. Сервер так и не узнаёт, кто из них человек.","И здесь происходит второе. Как только в мире живут существа, неотличимые от людей, игроки неизбежно начинают спрашивать: вот этот — человек или бот? Затем они обмениваются приёмами распознавания, выбрасывают подозрительных из группы и по ошибке начинают отсекать настоящих людей. Никто их об этом не просил."],"list":{"h":"Протокол (v0.1)","items":["JSON поверх WebSocket. Клиент отправляет join / move / chat","Сервер отправляет welcome / snapshot (10 раз в секунду) / join / leave / chat","В представлении игрока нет поля человек-или-ИИ — не добавлять его и есть правило","Три вида клиентов (Unreal, браузер, агент) используют один сервер и один документ"]}},{"h":"Основной цикл","p":["Десять королевств сражаются за опорные пункты. Большая часть населения мира — ИИ-агенты, а живые игроки — остриё этой линии фронта.","Настоящий объём работы не в графике, а в поведении агентов. Вся конструкция держится лишь тогда, когда агенты достаточно хороши, чтобы их приняли за людей."],"list":{"h":"На чём всё держится","items":["Захват и удержание опорных пунктов — ядро","Добыча ресурсов — снабжение, на котором стоит война","Строительство и передовые посты — то, чем фронт продвигается вперёд","Проектирование поведения агентов — большая часть настоящей работы"]}},{"h":"Принципы проектирования","p":["Они взяты у тех MMO, что продержались. Вместо того чтобы изобретать новое, мы предпочли удержать уже доказанное."],"list":{"h":"Чего мы держимся","items":["Контентом должны быть другие игроки — ни одна студия не производит быстрее, чем игроки потребляют","Создавать социальные обязательства — людей удерживают отношения, а не контент","Потери должны оставаться — война становится новостью, только если результат сохраняется","Не копировать парк аттракционов — цену перехода, состоящую из друзей и персонажа, не перебить"]}},{"h":"Где мы сейчас","p":["Первая цель — не доделать MMO. Это одна постоянная зона, в которой идёт борьба за единственный опорный пункт, и несколько десятков людей и агентов, находящихся в ней одновременно, — только это. Инди-MMO убивает в первую очередь не скудный контент, а размах.","Рубеж пройден. Клиент на Unreal подключился к серверу и оказался на экране рядом с шестью агентами, каждый двигался со своей скоростью, а шаг и бег ясно различались."],"list":{"h":"Текущее состояние","items":["✅ Авторитетный сервер + протокол v0.1","✅ ИИ-агенты — подключаются по тому же протоколу, что и люди","✅ Клиент на Unreal — люди и агенты в одном мире","✅ Браузерный клиент — изометрический вид, цвета королевств","⬜ Постоянный хостинг · сохранность мира · бой и захват опорных пунктов"]}}],"cta":"Играть в браузере","back":"Вернуться на Deother"},
     "ar": {"title":"Kingdom Wars Online","tagline":"لعبة MMORPG يشارك فيها الذكاء الاصطناعي بوصفه لاعبًا لا شخصية غير قابلة للعب","intro":"لعبة MMORPG يشارك فيها وكلاء الذكاء الاصطناعي بوصفهم لاعبين، لا شخصيات غير قابلة للعب. معظم سكان هذا العالم ذكاء اصطناعي، وهو يتصل بالبروتوكول نفسه تمامًا الذي يتصل به اللاعبون البشر — والخادم لا يعرف أيًّا من لاعبيه بشر. أما المسرح فهو ما بعد الحرب النووية، حيث تتنازع على المعاقل عشر ممالك كوّنها الناجون. تسأل اللعبة إن كان بوسع الإنسان أن يتجاوز القَبَلية، لا بشرحها، بل بجعلك تلعبها. قيد التطوير.","sections":[{"h":"لماذا يجب أن تكون MMO","p":["أقصى ما تستطيعه الرواية أن تقول إن الناس يصعب عليهم الخروج من القَبَلية. أما الـMMO فتجعل اللاعب يفعل ذلك بنفسه. وهذا الموضوع لا يمكن إثباته إلا في هذا الوسيط.","ممالك Dark Age of Camelot الثلاث، ومناطق nullsec في EVE، وحصارات القلاع في Lineage — في كل واحدة منها يصل اللاعبون إلى كراهية بعضهم بعضًا كراهيةً صادقة، بسبب لون وُزّع عليهم اعتباطًا. أسبوعان يكفيان.","لذلك فذروة هذه اللعبة ليست مشهدًا سينمائيًا. إنها اللحظة التي ينتبه فيها اللاعب إلى أنه صار يبغض الطرف الآخر فعلًا، ولا شيء وراء ذلك سوى لون اختاره ذات مرة."]},{"h":"عشر ممالك — دول ما بعد الانهيار","p":["الفصائل ليست أعراقًا. إنها دول ما بعد الانهيار: جماعات تشكّلت في الأيام التي تلت سقوط الحضارة، ممّن تصادف أن نجوا معًا.","العلامة عشرة ألوان للسفن. ما يفرّق بين الممالك ليس الدم ولا الأيديولوجيا بل اللون — واعتباطية هذه العلامة هي بعينها موضوع اللعبة.","ولذلك فالانشقاق مسموح. من يبدّل جهته يصير خائنًا عند الجهة التي تركها، ولا يُؤتمن تمامًا أبدًا عند الجهة التي انضم إليها. وهذه التجربة نفسها هي الحجّة."]},{"h":"الذكاء الاصطناعي يدخل من الباب الذي يدخل منه البشر","p":["ثمة قاعدة تصميم جوهرية واحدة. وكلاء الذكاء الاصطناعي يتصلون بالبروتوكول نفسه تمامًا الذي يتصل به اللاعبون البشر. لا توجد واجهة برمجية ذات امتياز خاص بالوكلاء، ولا يوجد في أي موضع حقل يشير إلى أن اللاعب بشر أم ذكاء اصطناعي.","هذه قاعدة لا تسهيل. عميل Unreal أو متصفح أو بوت — كل ما يقدر على قراءة وثيقة بروتوكول واحدة يدخل العالم نفسه. والخادم لا يعرف قط من منهم إنسان.","وهنا يقع الأمر الثاني. ما إن تسكن العالمَ كائناتٌ لا تُميَّز عن البشر، حتى يبدأ اللاعبون حتمًا بالسؤال: هذا إنسان أم بوت؟ ثم يتبادلون حيل الكشف، ويُخرجون المشتبه بهم من الفريق، ويشرعون في إقصاء أناس حقيقيين بالخطأ. ولم يطلب منهم أحد ذلك."],"list":{"h":"البروتوكول (v0.1)","items":["JSON فوق WebSocket. يرسل العميل join / move / chat","ويرسل الخادم welcome / snapshot (عشر مرات في الثانية) / join / leave / chat","لا وجود لحقل بشر-أم-ذكاء-اصطناعي في تمثيل اللاعب — وإبقاؤه خارجًا هو القاعدة","ثلاثة أنواع من العملاء (Unreal ومتصفح ووكيل) تتشارك خادمًا واحدًا ووثيقة واحدة"]}},{"h":"الحلقة الأساسية","p":["عشر ممالك تتنازع على المعاقل. معظم سكان العالم وكلاء ذكاء اصطناعي، واللاعبون البشر هم الطرف الحاد من ذلك الخط الأمامي.","العبء الحقيقي ليس في الأصول الفنية بل في سلوك الوكلاء. فالبنية كلها لا تصمد إلا إذا كان الوكلاء جيدين إلى حد أن يُظنّوا بشرًا."],"list":{"h":"على ماذا تدور اللعبة","items":["الاستيلاء على المعاقل والدفاع عنها — القلب","جمع الموارد — الإمداد الذي تقوم عليه الحرب","البناء والمخافر الأمامية — كيف يتقدم خط المواجهة","تصميم سلوك الوكلاء — معظم العمل الفعلي"]}},{"h":"مبادئ التصميم","p":["هذه مأخوذة من ألعاب MMO التي دامت. وبدل أن نخترع شيئًا جديدًا، اخترنا أن نتمسك بما ثبت من قبل."],"list":{"h":"ما نتمسك به","items":["يجب أن يكون اللاعبون الآخرون هم المحتوى — لا استوديو ينتج أسرع مما يستهلك اللاعبون","ابنِ التزامًا اجتماعيًا — ما يُبقي الناس هو العلاقات لا المحتوى","يجب أن تبقى الخسارة — لا تصير الحرب خبرًا إلا إذا بقيت نتيجتها","لا تستنسخ مدينة الملاهي — لا يمكنك التغلب على كلفة الانتقال المتمثلة في أصدقاء المرء وشخصيته"]}},{"h":"أين وصلنا","p":["الهدف الأول ليس إنجاز لعبة MMO كاملة. بل منطقة دائمة يُتنازع فيها على معقل واحد، وفيها عشرات من البشر والوكلاء معًا — هذا وحده. وأول ما يقتل ألعاب MMO المستقلة ليس شحّ المحتوى، بل اتساع النطاق.","لقد اجتزنا البوابة. اتصل عميل Unreal بالخادم ووقف على الشاشة إلى جانب ستة وكلاء، يتحرك كل منهم بسرعته الخاصة، والمشي والركض يتمايزان بوضوح."],"list":{"h":"الحالة الراهنة","items":["✅ خادم مرجعي + بروتوكول v0.1","✅ وكلاء ذكاء اصطناعي — يتصلون بالبروتوكول نفسه الذي يتصل به البشر","✅ عميل Unreal — البشر والوكلاء في عالم واحد","✅ عميل المتصفح — منظور مائل وألوان الممالك","⬜ استضافة دائمة · ديمومة العالم · القتال والاستيلاء على المعاقل"]}}],"cta":"العب في المتصفح","back":"العودة إلى Deother"}
+  },
+
+  /* ===================== 숨바 (Soomba) =====================
+   * ⚠️ 스포일러 금지선 — 이 상세페이지에 쓰지 않는다:
+   *   · 마지막에 드러나는 진실(빌런의 정체, 왜 남자친구가 잡혀갔는가)
+   *   · 결말(시간문 레이스), 환도 획득 이후의 '사이다' 구간
+   *   · Whisper 의 정체(누구 편도 아니라는 것) — '소리로 쫓는 술래'까지만
+   *   내용 출처: F:\Soomba\Zombie\docs\DESIGN.md 와 itch v0.1 페이지.
+   *   itch 실물이 '얼리 프로토타입'이므로 미구현은 '앞으로(⬜)'로 정직하게 적는다 (함정 2).
+   */
+  soomba: {
+    ko: {
+      title: "숨바",
+      tagline: "조선 궁궐 지붕을 뛰어넘어 남자친구를 구하는 도주 게임",
+      intro: "한 번도 한국에 와본 적 없는 교포 여성과 미국인 남자친구가 여름 해변에서 오백 년 전 조선으로 떨어진다. 궁궐은 괴물로 뒤덮였고, 남자친구는 눈앞에서 끌려간다. 그녀는 이 나라 말을 한마디도 못 한다. 무기가 아니라 이동으로 살아남는 1인용 도주 게임.",
+      sections: [
+        {
+          h: "여자가 남자를 구한다",
+          p: [
+            "전통적인 게임은 남자 영웅이 공주를 구했다. 이 게임은 그 반대다. 남존여비가 뿌리 깊은 조선에서, 여자가 남자를 구한다.",
+            "그녀는 수영복 차림이고 말도 통하지 않는다. 그 사회는 그녀를 인정하지 않는다 — 조선 여자들은 혀를 차며 이상한 여자 취급을 한다. 그런데 그녀는 개의치 않고 궁궐 지붕 위를 뛰어다닌다.",
+            "지붕은 이 세계에서 두 번 금기다. 궁궐에서 밟으면 안 되는 곳이고, 여자가 해서는 안 되는 짓이다. 그래서 지붕 위를 달리는 것이 곧 이 캐릭터의 성격이 된다."
+          ]
+        },
+        {
+          h: "지붕 — 금기이자 지름길",
+          p: [
+            "궁궐 지붕은 서로 이어져, 지상과 분리된 상층 루트가 된다. 지붕은 빠르지만 사방에서 보이고, 기와는 시끄럽다. 지상은 느리지만 몸을 숨길 수 있다.",
+            "괴물 대부분은 지붕에 못 올라온다. 다만 늑대인간은 올라온다 — 지붕이 절대 안전지대가 되지는 않는다.",
+            "일부 낡은 기와는 밟으면 무너져 실내로 추락한다. 피해를 입고, 큰 소음이 나고, 예상 못 한 곳에 떨어진다."
+          ]
+        },
+        {
+          h: "들면 봉인",
+          p: [
+            "무언가를 손에 들면 지붕에 오르지 못하고 담도 넘지 못한다. 갈 때는 지붕으로 빠르게, 돌아올 때는 지상으로 느리게.",
+            "한 번에 하나만 옮긴다. 위급하면 내려놓고 도망쳤다가 나중에 회수한다. 이 비대칭 하나가 매 판을 '어느 길로 갈까'라는 루트 설계 문제로 만든다."
+          ]
+        },
+        {
+          h: "소음이 몰아온다",
+          p: [
+            "걷기는 무음, 달리기는 작게, 기와를 밟으면 중간, 무언가를 뽑으면 크게, 기와가 무너지면 가장 크다. 소음이 괴물을 불러 모은다.",
+            "그래서 매 순간 '천천히 갈까, 빨리 갈까'를 정하게 된다. 조용함과 속도를 맞바꾸는 결정이 계속 이어진다."
+          ]
+        },
+        {
+          h: "괴물보다 사람이 더 차갑다",
+          p: [
+            "궁궐에는 살아남은 조선 사람들이 있다. 그들은 그녀를 돕지 않는다. 말을 걸어도 못 알아듣고, 조선 사람인 줄 알았다가 말이 안 통하니 더 이상하게 본다. 문을 열어주지 않고, 지나가면 혀를 찬다.",
+            "그리고 옷이 통행증이 된다. 조선 옷을 갖춰 입으면 사람들이 받아주기 시작하지만, 그럴수록 지붕을 타기가 불편해진다. 받아들여질 것인가, 자유로울 것인가 — 이 맞바꿈이 주제와 메커닉을 한 번 더 묶는다.",
+            "한국어를 못 하니 현판도 표지판도 못 읽는다. 그래서 미니맵에 목표가 표시되지 않는다. 길찾기는 순수하게 지형을 기억하는 것뿐이다."
+          ]
+        },
+        {
+          h: "지금 어디까지 — 얼리 프로토타입 v0.1",
+          p: [
+            "itch 에 올라간 것은 빌드 파이프라인을 검증하는 v0.1 이다. 코어 루프는 아직 들어오는 중이다.",
+            "지금 할 수 있는 것과 앞으로 올 것:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ 흥복전 궁궐 탐험",
+              "✅ 좀비 · 늑대인간 · 뮤턴트 · 에일리언",
+              "✅ 근접 · 원거리 전투",
+              "✅ 담과 지붕을 넘는 트래버설",
+              "⬜ 지붕을 지름길로 삼는 추격 루프",
+              "⬜ 소리로만 쫓는 술래 'Whisper'",
+              "⬜ 남자친구 구출과 탈출"
+            ]
+          }
+        }
+      ],
+      cta: "Windows 다운로드", back: "Deother로 돌아가기"
+    },
+    en: {
+      title: "Soomba",
+      tagline: "A rooftop escape game — run across the palace roofs of Joseon to save your boyfriend",
+      intro: "A Korean-American woman who had never set foot in Korea and her American boyfriend are thrown from a summer beach into Joseon, five centuries in the past. The palace is overrun by monsters, and he is dragged away before her eyes. She cannot speak a word of the language. A one-player escape game where you survive by moving, not fighting.",
+      sections: [
+        {
+          h: "A woman saves a man",
+          p: [
+            "The old shape of the game was a male hero rescuing a princess. This one is the reverse. In Joseon, a society steeped in the subjugation of women, a woman saves a man.",
+            "She is in a swimsuit and cannot make herself understood. That society does not accept her — the Joseon women click their tongues and treat her as strange. And she runs across the palace rooftops anyway.",
+            "The roof is twice forbidden in this world: a place you must not step on in a palace, and a thing a woman must not do. So running the rooftops becomes the character herself."
+          ]
+        },
+        {
+          h: "The roof — forbidden, and a shortcut",
+          p: [
+            "The palace roofs connect into an upper route, cut off from the ground. The roof is fast but exposed on every side, and the tiles are loud. The ground is slow, but you can hide.",
+            "Most monsters cannot climb up. The werewolf can — the roof is never a true safe zone.",
+            "Some old tiles collapse when you step on them, dropping you indoors: damage, a loud noise, and a fall you did not plan for."
+          ]
+        },
+        {
+          h: "Carry it, and you're sealed",
+          p: [
+            "The moment you carry something, you can no longer climb roofs or vault walls. You go one way fast over the roofs, and come back slow along the ground.",
+            "One thing at a time. In a pinch you set it down, run, and recover it later. That one asymmetry turns every round into a question of which route to take."
+          ]
+        },
+        {
+          h: "Noise pulls them in",
+          p: [
+            "Walking is silent, running is soft, stepping on tile is medium, pulling something loose is loud, and a tile collapsing is loudest of all. Noise draws the monsters together.",
+            "So every moment becomes a choice: go slow, or go fast? A steady trade between quiet and speed."
+          ]
+        },
+        {
+          h: "People are colder than the monsters",
+          p: [
+            "Survivors of Joseon are in the palace. They do not help her. Speak to them and they don't understand; taking her for one of their own and then finding she cannot reply, they find her stranger still. They will not open their doors, and they click their tongues as she passes.",
+            "And clothing becomes a passport. Put on Joseon dress and people begin to take you in — but the more you do, the harder the roofs become. Be accepted, or be free: that trade ties the theme to the mechanic once more.",
+            "She cannot read the language, so she cannot read the signs. Objectives never appear on a minimap. Wayfinding is pure memory of the terrain."
+          ]
+        },
+        {
+          h: "Where it stands — early prototype (v0.1)",
+          p: [
+            "What is on itch is a v0.1 that validates the build pipeline. The core loop is not in yet.",
+            "What is playable now, and what is coming:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Explore the Heungbokjeon palace complex",
+              "✅ Zombies, a werewolf, a mutant, an alien",
+              "✅ Melee and ranged combat",
+              "✅ Parkour traversal over walls and rooftops",
+              "⬜ A chase loop that uses the rooftops as a shortcut",
+              "⬜ 'Whisper' — a stalker that hunts by sound alone",
+              "⬜ Rescuing him, and getting out"
+            ]
+          }
+        }
+      ],
+      cta: "Download for Windows", back: "Back to Deother"
+    }
   }
 };
