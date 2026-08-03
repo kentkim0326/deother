@@ -1,6 +1,6 @@
 # Deother 회사 소개 사이트 — 프로젝트 가이드
 
-> 주식회사 디아더와 게임 5종을 소개하는 정적 사이트. 빌드 도구 없이 HTML/CSS/JS 파일만으로 동작한다.
+> 주식회사 디아더와 게임 6종을 소개하는 정적 사이트. 빌드 도구 없이 HTML/CSS/JS 파일만으로 동작한다.
 > Live: https://deother.vercel.app · Repo: `kentkim0326/deother` (main 브랜치 → Vercel 자동 배포)
 >
 > **다른 컴퓨터에서 이어서 작업할 때는 이 문서만 읽으면 된다.** 아래 "이어받기"부터 보라.
@@ -31,6 +31,7 @@ miliverse.html      상세 페이지 — 밀리버스
 kingdom-wars.html   상세 페이지 — 킹덤워즈
 jangbogo.html       상세 페이지 — 북미대륙을 발견한 장보고
 kwonline.html       상세 페이지 — Kingdom Wars Online (개발 중)
+soomba.html         상세 페이지 — 숨바 (Soomba, 얼리 프로토타입 v0.1)
 styles.css          어두운 화면 + 붉은 강조색 하나. 다섯 페이지가 공유한다
 
 i18n.js         ★ 메인 페이지 번역 + 링크 + 영상 + 슬라이드 목록. 내용 수정은 대부분 여기다
@@ -183,6 +184,22 @@ AI가 같은 문으로 들어온다(+프로토콜 v0.1) → 코어 루프 → �
 **AI가 플레이어로 참여하는 MMORPG라는 점을 맨 앞에 세운다** — 태그라인·인트로·카드 본문
 셋 다 첫 문장이 그것이다. 진행 상황은 실제로 확인된 것만 적는다.
 
+`soomba.html` 은 조선 궁궐 지붕 도주 게임 숨바다. 아직 얼리 프로토타입(v0.1)이라
+itch 실물이 "pipeline test build, 코어 루프 미탑재"라고 명시하므로, 미구현은
+**'앞으로(⬜)'로 정직하게** 적는다(함정 2). **주제(남존여비 비판·교포 소외·여자가
+남자를 구하는 역전)를 정면으로** 다룬다. 우선 ko / en 두 언어다(카드는 10개 언어).
+스포일러 금지선이 `pages-i18n.js` 의 `soomba` 블록 위에 못박혀 있다 —
+빌런의 정체·결말(시간문 레이스)·환도 이후 구간·Whisper 의 정체는 쓰지 않는다.
+
+### 상세페이지의 오디오 (kwonline 전용)
+
+`kwonline.html` 에는 진입 시 주제가(EDM)가 흐른다. `page.js` 의 `pSetupAudio()` 가
+`#pAudio` 가 있는 페이지에서만 동작한다. **브라우저가 첫 방문 자동재생을 막으므로**,
+막히면 첫 클릭이나 우하단 토글 버튼으로 시작된다 — 우회 불가한 브라우저 정책이다.
+음원은 `assets/kwo-theme.mp3` (원본 WAV 를 ffmpeg 로 mp3 160kbps 로 최적화, 5MB).
+KWO 상세엔 이 배경음 외에 **영어 주제가 영상 3편**도 `P_LAYOUT` 으로 배치돼 있다
+(O423 은 쇼츠라 `vertical:true`, 나머지 둘은 가로).
+
 ## 관련 프로젝트
 
 | 이름 | 정체 | 링크 |
@@ -192,6 +209,7 @@ AI가 같은 문으로 들어온다(+프로토콜 v0.1) → 코어 루프 → �
 | 밀리버스 | 실제 세계 지도 위 Web3 영토 전략. 실제 날씨·낮밤이 전투에 반영 | https://miliverse-ten.vercel.app |
 | 북미대륙을 발견한 장보고 | 9세기 해상무역 경영 시뮬. 원작 소설의 대체역사 | https://jangbogo-nine.vercel.app |
 | Kingdom Wars Online | **개발 중.** AI가 플레이어로 참여하는 MMORPG | 아래 ⚠️ 참고 |
+| 숨바 (Soomba) | **얼리 프로토타입 v0.1.** 조선 궁궐 지붕 도주 게임 (UE, Windows 빌드) | 아래 ⚠️ 참고 |
 
 각 프로젝트 저장소에도 `CLAUDE.md` 가 있다. **그 게임의 내용을 사이트에 쓸 때는 추측하지 말고
 해당 문서를 먼저 읽을 것** — 함정 2번이 그래서 생겼다.
@@ -199,6 +217,8 @@ AI가 같은 문으로 들어온다(+프로토콜 v0.1) → 코어 루프 → �
 FN 본체 프로젝트: `F:\Projects\FightingNations\` (UE 5.8, C++)
 KWO 본체 프로젝트: `F:\KW_MMO\` — `README.md`, `server/PROTOCOL.md`,
 그리고 `F:\VARCO_MMORPG_HANDOFF.md` 0항이 기획 원문이다.
+Soomba 본체 프로젝트: `F:\Soomba\Zombie\` (**UE 5.7 고정 — 5.8 로 열지 말 것**).
+기획 원문은 `docs/DESIGN.md`. Content(11GB)는 git 에 없는 단일 사본이니 주의.
 
 ### ⚠️ KWO 관련 두 가지
 
@@ -217,15 +237,36 @@ KWO 본체 프로젝트: `F:\KW_MMO\` — `README.md`, `server/PROTOCOL.md`,
 사이트에 미리 쓰면 그 발견을 죽인다. **"표식은 임의적"까지만 쓴다.**
 같은 경고가 `pages-i18n.js` 의 `kwonline` 블록 위에도 붙어 있다.
 
-## 진행 상황 (2026-07-25 기준)
+### ⚠️ Soomba 관련 세 가지
+
+**1. itch 가 draft 라 secret 링크로 연결한다 (대표 지시).**
+카드 url(`i18n.js`)과 상세 CTA(`soomba.html` `#pCta`) 둘 다
+`https://deother.itch.io/soomba?secret=XYwuBawp6D6RhLasoqhSwSjdYkg` 다.
+secret 이 있으면 draft 여도 방문자가 열린다. **나중에 Public 으로 바꾸면
+`?secret=...` 를 떼고 두 곳을 함께 갱신할 것.**
+
+**2. 스포일러 금지선 — 원작 소설의 반전은 사이트에 쓰지 않는다.**
+빌런의 정체(남자친구를 짝사랑하던 친구)·왜 남자친구가 잡혀갔는가·결말(시간문
+레이스)·환도 획득 이후의 '사이다' 구간·Whisper 의 정체(누구 편도 아님)는 쓰지 않는다.
+'소리로 쫓는 술래'까지만. 출처는 `F:\Soomba\Zombie\docs\DESIGN.md`.
+
+**3. 이미지는 두 주인공 캐릭터 일러스트다.**
+카드 로고·상세 커버 모두 `Soomba.png`(교포 여성 + 금발 남친 + 궁궐) 기반이다.
+비키니→조선은 **남존여비 비판 장치**이지 선정성이 아니다(대표 확인) — 게임 정체성이라
+그대로 쓴다. 궁궐 전경(인물 없음) 버전을 거쳐 이 일러스트로 확정했다.
+
+## 진행 상황 (2026-07-30 기준)
 
 **끝난 것**
 - 10개 언어 · PWA · 모바일 최적화 · **국기 토글 언어 선택기**(flag-icons SVG)
-- 게임 5종 카드 + 로고 + SNS 링크
-- **상세 페이지 4종이 모두 10개 언어**로 번역 완료
-  (밀리버스 · 킹덤워즈 · 장보고 · KWO)
-- 슬라이드쇼 (FN 8 · KW 8 · MV 13 · JB), 영상 다수, IP 커버 멀티링크
+- **게임 6종** 카드 + 로고 + SNS 링크
+- **상세 페이지 5종** (밀리버스 · 킹덤워즈 · 장보고 · KWO · 숨바)
+  - 앞 넷은 10개 언어, **숨바는 우선 ko/en** (카드는 6종 모두 10개 언어)
+- 슬라이드쇼, 영상 다수, IP 커버 멀티링크
 - 게임들을 관통하는 관점 문구 (`works.note`) — 10개 언어
+- **KWO 서버 Fly.io 상시 호스팅 완료** — 터널 졸업, 고정 주소 `wss://kw-mmo-server.fly.dev`
+- **KWO 상세: 영어 주제가 영상 3편 + 진입 시 EDM 배경음악**(`assets/kwo-theme.mp3`)
+- **Soomba 6번째 게임 추가** — 카드(10개 언어)+상세(ko/en)+캐릭터 일러스트, secret 링크 연결
 
 **남은 것**
 - [ ] **밀리버스 실제 게임 화면 캡처** — 지도·타일 상세·전투 코크핏·**날씨/풍향/태양 궤적**.
@@ -233,32 +274,37 @@ KWO 본체 프로젝트: `F:\KW_MMO\` — `README.md`, `server/PROTOCOL.md`,
       사이트가 Google 로그인을 요구해서 **대표님이 로그인한 뒤에** 캡처해야 한다.
 - [ ] **KWO 게임 화면 캡처** — 지금 kwonline.html 은 미디어가 테스트 영상 하나뿐이라
       글이 길다. 캡처가 나오면 `page.js` 의 `P_LAYOUT.kwonline` 에 `{img}` 를 늘릴 것.
-- [ ] **KWO 서버 상시 호스팅** (`fly deploy`) → 터널 주소를 영구 주소로 교체.
-      위 「⚠️ KWO 관련 두 가지」 참고.
+- [x] ~~KWO 서버 상시 호스팅~~ — **완료** (Fly.io, `wss://kw-mmo-server.fly.dev`). 위 「⚠️ KWO 관련」 참고.
 - [ ] **KWO 전용 로고** — 지금은 기존 Kingdom Wars 로고를 임시로 쓰고 있다.
+- [ ] **Soomba itch 를 Public 으로** — 지금 draft 라 secret 링크로 연결 중.
+      Public 전환하면 카드 url·상세 CTA 에서 `?secret=...` 를 떼고 두 곳을 함께 갱신.
+- [ ] **Soomba 상세 10개 언어 확장** (지금 ko/en). 카드는 이미 10개 언어다.
+- [ ] **Soomba 실제 게임 스크린샷** — 상세 밴드는 지금 캐릭터 일러스트 1장.
+      실제 게임 화면이 늘면 `page.js` 의 `P_LAYOUT.soomba` 에 `{img}` 를 추가.
 - [ ] GWB Game Awards 마감 **2026-08-15**, 재제출 허용.
       소개글·영상·플레이 가능한 빌드는 준비됨. **스크린샷 3~5장이 남았다.**
       그 전에 7번 캐릭터 복장 확인 필요 (일부 캐릭터 복장/머티리얼 문제)
 
-### 배포 확인 (2026-07-25)
+### 배포 확인 (2026-07-30)
 
 `deother.vercel.app` 에서 실측했다. 추측이 아니라 브라우저에서 DOM 을 조회한 결과다.
 
 ```
-메인          카드 5장 · 상세 링크 4개(kingdom-wars / miliverse / jangbogo / kwonline)
-상세 4종      전부 10개 언어 · 구조 en 기준 일치 · 한글 누출 0
-kwonline      태그라인 10개 언어 모두 AI/MMORPG 로 시작 · 테스트 영상 3장 뒤에 삽입
-jangbogo(zh)  염장 → 阎长 수정 반영됨
+메인          카드 6장 · 상세 링크 5개(kingdom-wars/miliverse/jangbogo/kwonline/soomba)
+상세          앞 4종 10개 언어(구조 일치·한글 누출 0), 숨바 ko/en 6섹션
+kwonline      태그라인 10개 언어 모두 AI/MMORPG · 영어 주제가 3편 + 진입 EDM 배경음
+soomba        캐릭터 일러스트 카드 · 상세 스포일러 0 · secret 링크 연결
+KWO 서버      Fly.io healthy — 실접속 확인됨
 ```
 
 ### 다음 세션 시작점 (우선순위)
 
-1. **KWO 서버 상시 호스팅.** `F:\KW_MMO\server\` 에 `Dockerfile` · `fly.toml` 이
-   이미 있다 (`auto_stop_machines = false` 가 핵심 — 머신이 자면 WebSocket 이 다 끊긴다).
-   `fly deploy` 한 번이면 `wss://<app>.fly.dev` 가 나온다.
-   **그 주소로 두 곳을 갱신할 것** — `i18n.js` 의 `kwmmo.url`, `kwonline.html` 의 `#pCta`.
-   이게 끝나면 터널이 죽어도 링크가 안 죽는다. **가장 먼저 할 일이다.**
-   ※ `F:\KW_MMO` 의 변경분은 아직 커밋 안 됨. 대표님이 확인 후 커밋할 것.
+0. ~~KWO 서버 상시 호스팅~~ — **완료**(Fly.io, `wss://kw-mmo-server.fly.dev`). 위 「⚠️ KWO 관련」.
+   ※ `F:\KW_MMO` 변경분(서버·`HOSTING.md`·`DEPLOY.md`·주제가 가사)은 대표님이 커밋 관리.
+
+1. **Soomba itch 를 Public 으로.** 지금 draft 라 secret 링크로만 열린다. Public(+Unlisted)
+   으로 바꾸면 카드 url(`i18n.js`)·상세 CTA(`soomba.html`)에서 `?secret=...` 를 떼고
+   둘을 **함께** 갱신하면 된다. 대표님이 itch 대시보드에서 바꾼 뒤 알려주면 갱신한다.
 
 2. **KWO 게임 화면 캡처.** 지금 `kwonline.html` 은 미디어가 테스트 영상 하나뿐이라
    글이 길다. 캡처가 나오면 `page.js` 의 `P_LAYOUT.kwonline` 에 `{img}` 를 늘려
