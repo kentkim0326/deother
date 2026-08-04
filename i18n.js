@@ -27,6 +27,7 @@ const KW_SLIDES = ["kw-09.jpg", "kw-14.jpg", "kw-08.jpg", "kw-05.jpg", "kw-13.jp
 // 장보고 상세 — 게임 시작화면 아트(세계 교역 가문). 자막 없이 시네마틱 밴드로.
 const JB_SLIDES = ["jb-01.jpg", "jb-02.jpg", "jb-03.jpg", "jb-04.jpg"];   // assets/slides-jb/
 const SOOMBA_SLIDES = ["soomba-cover.jpg"];   // assets/ (커버 = 궁궐 전경. 스크린샷 늘면 여기 추가)
+const DEATHGUIDE_SLIDES = ["deathguide-cover.jpg"];   // assets/ (키비주얼. 게임 스크린샷 나오면 추가)
 const IP_COVERS = ["ip-01.jpg","ip-02.jpg","ip-03.jpg","ip-04.jpg","ip-05.jpg","ip-06.jpg","ip-07.jpg","ip-08.jpg","ip-09.jpg","ip-10.jpg","ip-11.jpg","ip-14.jpg","ip-15.jpg","ip-12.jpg","ip-13.jpg","ip-16.jpg","ip-17.jpg"];   // assets/covers/ — .\add-slides.ps1 ip 가 채운다
 // 표지에 제목이 이미 박혀 있으므로 번역하지 않고 원제를 쓴다. 순서는 IP_COVERS 와 같다.
 const IP_TITLES = ["훈민정음","판문점","조선늑대","저승사자","장보고","아리랑전사단","총기허용의 날","문신귀","아파트","요양원","전원주택","조선닌자 일지매","도깨비왕","Ring of Solomon: Dino Wars","Kingdom Wars","Empire of Hearts","Seraphim"];
@@ -88,13 +89,15 @@ const WORKS = [
     // 개발 중이라 '트레일러'가 아니라 '테스트 영상'이다. 라벨을 과장하지 않는다.
     sns:  { label: "▶ Test footage", url: "https://youtu.be/oobYlh5wgXg" } },
   // Soomba — 조선 궁궐 도주 게임. 얼리 프로토타입(v0.1)이라 '개발 중'이다.
-  // ⚠️ itch 가 아직 draft 라 secret 링크로 연결한다 (대표 지시). 이래야 draft 여도 방문자가 열린다.
-  //    나중에 itch 를 Public 으로 바꾸면 ?secret=... 를 떼고 https://deother.itch.io/soomba 로 갱신할 것.
-  //    같은 secret URL 이 soomba.html 의 #pCta 에도 들어간다 — 둘을 함께 갱신한다.
-  // 로고는 게임 스크린샷(궁궐 전경)을 정사각 크롭한 임시본. 전용 로고가 나오면 교체할 것.
-  { key: "soomba",   url: "https://deother.itch.io/soomba?secret=XYwuBawp6D6RhLasoqhSwSjdYkg", tag: "2026",
+  // itch Public 완료 (2026-07-30). 정식 URL 로 연결한다. 로고는 두 주인공 캐릭터 일러스트.
+  { key: "soomba",   url: "https://deother.itch.io/soomba",       tag: "2026",
     logo: "assets/soomba-logo.jpg", detail: "soomba.html",
-    sns:  { label: "▶ Video", url: "https://youtu.be/vM_dYTpVA3U" } }
+    sns:  { label: "▶ Video", url: "https://youtu.be/vM_dYTpVA3U" } },
+  // Death Guide (저승사자) — 조선 저승사자 DMC류 고어 액션. 얼리 빌드, itch 무료(Name your own price).
+  // ⚠️ MATURE (극심한 고어). 밀리의 서재 연재 웹소설 기반. 본체: F:\Reaper (UE 5.8, C++).
+  { key: "deathguide", url: "https://deother.itch.io/death-guide", tag: "2026",
+    logo: "assets/deathguide-logo.jpg", detail: "deathguide.html",
+    sns:  { label: "Millie 웹소설", url: "https://www.millie.co.kr/v4/millieRoad/28476" } }
 ];
 
 // 개발 연표 영상 — 오래된 것부터. 제목은 영어 그대로 둔다(유튜브 원제와 맞추기 위해).
@@ -221,7 +224,8 @@ const I18N = {
       miliverse: { t: "Milliverse", b: "Web3 strategy game played on the real world map. Buy tiles, deploy weapons and troops, fight other players for territory. Live in four languages, with real weather and day-night data feeding the battles." },
       jangbogo: { t: "Jang Bogo: King of the Seas", b: "A 9th-century maritime-trade management sim about the sea king Jang Bogo. Build wealth through trade on a real world map, sweep pirates aside with turtle ships, and grow your power through ties with people across the seas. Alternate history from the original novel — reaching North America 650 years before Columbus. Playable right in the browser." },
       kwmmo: { t: "Kingdom Wars Online", b: "An MMORPG where AI takes part as players, not NPCs. AI agents connect through exactly the same protocol as human players and fight in the same world — the server does not know who is human. The setting: ten kingdoms formed by survivors of a nuclear war, fighting over strongholds. It asks whether humanity can outgrow tribalism. In development." },
-      soomba: { t: "Soomba", b: "A downloadable Windows game. A Korean-American woman who had never set foot in Korea and her American boyfriend are thrown from a summer beach into Joseon, five centuries in the past. The palace is overrun by monsters, he is dragged away before her eyes, and she cannot speak a word of the language. A one-player escape game built on parkour across the palace rooftops. Early prototype (v0.1) — in development." }
+      soomba: { t: "Soomba", b: "A downloadable Windows game. A Korean-American woman who had never set foot in Korea and her American boyfriend are thrown from a summer beach into Joseon, five centuries in the past. The palace is overrun by monsters, he is dragged away before her eyes, and she cannot speak a word of the language. A one-player escape game built on parkour across the palace rooftops. Early prototype (v0.1) — in development." },
+      deathguide: { t: "Death Guide", b: "A downloadable Windows game. Play as a Joseon-era jeoseung-saja — the black-gat grim reaper who guides souls to the underworld — carving through endless hordes of the risen dead with katana, fists, and kicks. Progressive dismemberment, ragdoll gore, elemental slash trails. Based on the web novel serialized on Millie. ⚠️ Mature — extreme gore. An early build, free to download." }
     } },
     decks: { heading: "Pitch deck", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Contact", rights: "All rights reserved." }
@@ -319,7 +323,8 @@ const I18N = {
       miliverse: { t: "밀리버스", b: "실제 세계 지도 위에서 벌어지는 Web3 전략 게임. 타일을 사고 무기와 병사를 배치해 다른 플레이어와 영토를 두고 싸웁니다. 4개 언어로 서비스 중이며, 실제 날씨와 낮밤 데이터가 전투에 반영됩니다." },
       jangbogo: { t: "북미대륙을 발견한 장보고", b: "9세기 해상왕 장보고의 해상무역 경영 시뮬레이션. 실제 세계 지도 위에서 교역으로 부를 쌓고, 거북선으로 해적을 소탕하며, 각지의 인물과 관계를 맺어 세력을 넓힙니다. 원작 소설의 대체역사 — 콜럼버스보다 650년 먼저 북미에 닿는 길. 브라우저에서 바로 플레이." },
       kwmmo: { t: "Kingdom Wars Online", b: "AI가 NPC가 아니라 플레이어로 참여하는 MMORPG입니다. AI 에이전트가 사람과 똑같은 프로토콜로 접속해 같은 세계에서 함께 싸우고, 서버는 누가 사람인지 모릅니다. 무대는 핵전쟁 이후 살아남은 사람들이 출신끼리 뭉쳐 세운 10개 왕국. 인류가 부족주의를 벗어날 수 있는가를 묻습니다 — 개발 중입니다." },
-      soomba: { t: "숨바", b: "윈도우 다운로드 게임. 한 번도 한국에 와본 적 없는 교포 여성과 미국인 남자친구가 여름 해변에서 오백 년 전 조선으로 떨어집니다. 궁궐은 괴물로 뒤덮였고, 남자친구는 눈앞에서 끌려가며, 그녀는 이 나라 말을 한마디도 못 합니다. 궁궐 지붕을 뛰어넘는 트래버설 중심의 1인용 도주 게임. 얼리 프로토타입(v0.1) — 개발 중입니다." }
+      soomba: { t: "숨바", b: "윈도우 다운로드 게임. 한 번도 한국에 와본 적 없는 교포 여성과 미국인 남자친구가 여름 해변에서 오백 년 전 조선으로 떨어집니다. 궁궐은 괴물로 뒤덮였고, 남자친구는 눈앞에서 끌려가며, 그녀는 이 나라 말을 한마디도 못 합니다. 궁궐 지붕을 뛰어넘는 트래버설 중심의 1인용 도주 게임. 얼리 프로토타입(v0.1) — 개발 중입니다." },
+      deathguide: { t: "저승사자", b: "윈도우 다운로드 게임. 검은 갓을 쓴 조선의 저승사자가 되살아난 망령 떼를 카타나·주먹·발로 벤다. 부위 절단, 래그돌 고어, 원소 슬래시 트레일. 밀리의 서재 연재 웹소설 기반. ⚠️ 성인용 — 극심한 고어. 얼리 빌드, 무료 다운로드." }
     } },
     decks: { heading: "발표 자료", en: "English version", ko: "한국어 버전" },
     footer: { studio: "주식회사 디아더", contact: "문의", rights: "All rights reserved." }
@@ -414,7 +419,8 @@ const I18N = {
       miliverse: { t: "Milliverse", b: "在真实世界地图上进行的 Web3 战略游戏。购买地块、部署武器与士兵，与其他玩家争夺领土。四种语言上线运营，真实天气与昼夜数据会影响战斗。" },
       jangbogo: { t: "张保皋：海上之王", b: "以9世纪海上王张保皋为主角的海上贸易经营模拟。在真实世界地图上通过贸易积累财富，用龟船扫荡海盗，并与各地人物结缘以扩张势力。源自原著小说的架空历史——比哥伦布早650年抵达北美。在浏览器中即可畅玩。" },
       kwmmo: { t: "Kingdom Wars Online", b: "一款 AI 不是作为 NPC、而是作为玩家参与的 MMORPG。AI 智能体以与真人完全相同的协议接入，在同一个世界里并肩作战——服务器并不知道谁是人类。舞台设在核战之后：幸存者按出身抱团建立的十个王国为争夺据点而战。它追问人类能否走出部落主义。开发中。" },
-      soomba: { t: "Soomba", b: "可下载的 Windows 游戏。一位从未踏足韩国的韩裔美籍女子与她的美国男友，从夏日海滩被抛入五百年前的朝鲜。宫殿被怪物吞没，男友在她眼前被拖走，而她一句当地话也不会说。一款以宫殿屋顶跑酷为核心的单人逃脱游戏。早期原型（v0.1）——开发中。" }
+      soomba: { t: "Soomba", b: "可下载的 Windows 游戏。一位从未踏足韩国的韩裔美籍女子与她的美国男友，从夏日海滩被抛入五百年前的朝鲜。宫殿被怪物吞没，男友在她眼前被拖走，而她一句当地话也不会说。一款以宫殿屋顶跑酷为核心的单人逃脱游戏。早期原型（v0.1）——开发中。" },
+      deathguide: { t: "Death Guide", b: "可下载的 Windows 游戏。头戴黑色斗笠的朝鲜引魂使者，用武士刀、拳脚斩杀无尽的还魂尸潮。逐部位断肢、布娃娃血腥效果、元素刀光。改编自 Millie 连载的网络小说。⚠️ 成人向——极致血腥。早期版本，免费下载。" }
     } },
     decks: { heading: "企划书", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother 有限公司", contact: "联系我们", rights: "版权所有。" }
@@ -509,7 +515,8 @@ const I18N = {
       miliverse: { t: "Milliverse", b: "現実の世界地図の上で戦うWeb3ストラテジー。タイルを買い、武器と兵士を配置し、他のプレイヤーと領土を奪い合います。4言語で稼働中、実際の天候と昼夜のデータが戦闘に反映されます。" },
       jangbogo: { t: "チャン・ボゴ：海の王", b: "9世紀の海の王チャン・ボゴ（張保皋）を主人公にした海上交易経営シミュレーション。現実の世界地図の上で交易によって富を築き、亀甲船で海賊を掃討し、各地の人物と縁を結んで勢力を広げます。原作小説の改変歴史——コロンブスより650年早く北米に到達する物語。ブラウザですぐに遊べます。" },
       kwmmo: { t: "Kingdom Wars Online", b: "AIがNPCではなくプレイヤーとして参加するMMORPGです。AIエージェントが人間とまったく同じプロトコルで接続し、同じ世界で共に戦います——サーバーは誰が人間かを知りません。舞台は核戦争を生き延びた人々が出自ごとに集まって築いた10の王国。人類が部族主義を抜け出せるのかを問います。開発中。" },
-      soomba: { t: "Soomba", b: "ダウンロード版のWindowsゲーム。一度も韓国に来たことのない在米コリアンの女性と、そのアメリカ人の恋人が、夏の海辺から五百年前の朝鮮へ落ちる。宮殿は怪物に覆われ、恋人は目の前で連れ去られ、彼女はこの国の言葉を一言も話せない。宮殿の屋根を駆け抜けるトラバーサル中心の一人用逃走ゲーム。アーリープロトタイプ（v0.1）——開発中。" }
+      soomba: { t: "Soomba", b: "ダウンロード版のWindowsゲーム。一度も韓国に来たことのない在米コリアンの女性と、そのアメリカ人の恋人が、夏の海辺から五百年前の朝鮮へ落ちる。宮殿は怪物に覆われ、恋人は目の前で連れ去られ、彼女はこの国の言葉を一言も話せない。宮殿の屋根を駆け抜けるトラバーサル中心の一人用逃走ゲーム。アーリープロトタイプ（v0.1）——開発中。" },
+      deathguide: { t: "Death Guide", b: "ダウンロード版Windowsゲーム。黒い笠をかぶった朝鮮の死者の導き手（チョスンサジャ）が、蘇った亡霊の群れを刀・拳・蹴りで斬る。部位切断、ラグドールのゴア表現、属性の斬撃トレイル。ミリの書斎で連載中のウェブ小説が原作。⚠️ 成人向け——極度のゴア。アーリービルド、無料ダウンロード。" }
     } },
     decks: { heading: "企画書", en: "English version", ko: "한국어 버전" },
     footer: { studio: "株式会社ディアザー", contact: "お問い合わせ", rights: "All rights reserved." }
@@ -604,7 +611,8 @@ const I18N = {
       miliverse: { t: "Milliverse", b: "Juego de estrategia Web3 sobre el mapa del mundo real. Compra casillas, despliega armas y tropas y disputa territorio a otros jugadores. Activo en cuatro idiomas, con clima real y ciclo día-noche influyendo en los combates." },
       jangbogo: { t: "Jang Bogo: Rey de los Mares", b: "Un simulador de gestión de comercio marítimo del siglo IX protagonizado por el rey del mar Jang Bogo. Sobre un mapa del mundo real acumulas riqueza comerciando, barres a los piratas con barcos tortuga y amplías tu poder tejiendo lazos con gente de todos los mares. Historia alternativa de la novela original: llegar a Norteamérica 650 años antes que Colón. Se juega directamente en el navegador." },
       kwmmo: { t: "Kingdom Wars Online", b: "Un MMORPG en el que la IA participa como jugadora y no como NPC. Los agentes de IA se conectan con exactamente el mismo protocolo que los jugadores humanos y combaten en el mismo mundo: el servidor no sabe quién es humano. El escenario: diez reinos formados por supervivientes de una guerra nuclear que luchan por enclaves. Pregunta si la humanidad puede superar el tribalismo. En desarrollo." },
-      soomba: { t: "Soomba", b: "Un juego descargable para Windows. Una mujer coreano-estadounidense que nunca había pisado Corea y su novio estadounidense son arrojados desde una playa de verano al Joseon de hace cinco siglos. El palacio está invadido por monstruos, a él se lo llevan a rastras ante sus ojos, y ella no habla una palabra del idioma. Un juego de escape para un jugador basado en el parkour por los tejados del palacio. Prototipo temprano (v0.1) — en desarrollo." }
+      soomba: { t: "Soomba", b: "Un juego descargable para Windows. Una mujer coreano-estadounidense que nunca había pisado Corea y su novio estadounidense son arrojados desde una playa de verano al Joseon de hace cinco siglos. El palacio está invadido por monstruos, a él se lo llevan a rastras ante sus ojos, y ella no habla una palabra del idioma. Un juego de escape para un jugador basado en el parkour por los tejados del palacio. Prototipo temprano (v0.1) — en desarrollo." },
+      deathguide: { t: "Death Guide", b: "Un juego descargable para Windows. Juegas como un jeoseung-saja de la era Joseon —el segador de gat negro que guía las almas al inframundo— y siegas hordas interminables de muertos resucitados con katana, puños y patadas. Desmembramiento progresivo, gore de ragdoll, estelas de tajo elementales. Basado en la novela web serializada en Millie. ⚠️ Para adultos: gore extremo. Una versión temprana, descarga gratuita." }
     } },
     decks: { heading: "Dossier", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Contacto", rights: "Todos los derechos reservados." }
@@ -699,7 +707,8 @@ const I18N = {
       miliverse: { t: "Milliverse", b: "Jogo de estratégia Web3 sobre o mapa do mundo real. Compra tiles, coloca armas e tropas e disputa território com outros jogadores. Ativo em quatro línguas, com clima real e ciclo dia-noite a influenciar os combates." },
       jangbogo: { t: "Jang Bogo: Rei dos Mares", b: "Um simulador de gestão de comércio marítimo do século IX protagonizado pelo rei do mar Jang Bogo. Num mapa do mundo real, acumulas riqueza a comerciar, varres os piratas com navios-tartaruga e alargas o teu poder criando laços com gente de todos os mares. História alternativa do romance original — chegar à América do Norte 650 anos antes de Colombo. Joga-se diretamente no navegador." },
       kwmmo: { t: "Kingdom Wars Online", b: "Um MMORPG em que a IA participa como jogadora e não como NPC. Os agentes de IA ligam-se exatamente pelo mesmo protocolo que os jogadores humanos e combatem no mesmo mundo — o servidor não sabe quem é humano. O cenário: dez reinos formados por sobreviventes de uma guerra nuclear que disputam bastiões. Pergunta se a humanidade consegue superar o tribalismo. Em desenvolvimento." },
-      soomba: { t: "Soomba", b: "Um jogo descarregável para Windows. Uma mulher coreano-americana que nunca tinha pisado a Coreia e o seu namorado americano são atirados de uma praia de verão para o Joseon de cinco séculos atrás. O palácio está tomado por monstros, ele é arrastado para longe diante dos seus olhos, e ela não fala uma palavra da língua. Um jogo de fuga para um jogador baseado no parkour pelos telhados do palácio. Protótipo inicial (v0.1) — em desenvolvimento." }
+      soomba: { t: "Soomba", b: "Um jogo descarregável para Windows. Uma mulher coreano-americana que nunca tinha pisado a Coreia e o seu namorado americano são atirados de uma praia de verão para o Joseon de cinco séculos atrás. O palácio está tomado por monstros, ele é arrastado para longe diante dos seus olhos, e ela não fala uma palavra da língua. Um jogo de fuga para um jogador baseado no parkour pelos telhados do palácio. Protótipo inicial (v0.1) — em desenvolvimento." },
+      deathguide: { t: "Death Guide", b: "Um jogo descarregável para Windows. Jogas como um jeoseung-saja da era Joseon — o ceifeiro de gat preto que guia as almas para o além — ceifando hordas intermináveis de mortos ressuscitados com catana, punhos e pontapés. Desmembramento progressivo, gore de ragdoll, rastos de golpe elementais. Baseado no romance web publicado na Millie. ⚠️ Para adultos: gore extremo. Uma versão inicial, transferência gratuita." }
     } },
     decks: { heading: "Apresentação", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Contacto", rights: "Todos os direitos reservados." }
@@ -794,7 +803,8 @@ const I18N = {
       miliverse: { t: "Milliverse", b: "Jeu de stratégie Web3 sur la carte du monde réel. Achetez des tuiles, déployez armes et troupes, disputez le territoire aux autres joueurs. En ligne en quatre langues, avec météo réelle et cycle jour-nuit qui pèsent sur les combats." },
       jangbogo: { t: "Jang Bogo : Roi des Mers", b: "Un simulateur de gestion du commerce maritime au IXe siècle, avec pour héros le roi des mers Jang Bogo. Sur une carte du monde réel, vous bâtissez votre fortune par le commerce, balayez les pirates avec des navires-tortues et étendez votre puissance en nouant des liens avec les gens de toutes les mers. Une uchronie tirée du roman original — atteindre l'Amérique du Nord 650 ans avant Colomb. Jouable directement dans le navigateur." },
       kwmmo: { t: "Kingdom Wars Online", b: "Un MMORPG où l'IA participe en tant que joueur et non comme PNJ. Les agents IA se connectent exactement par le même protocole que les joueurs humains et combattent dans le même monde : le serveur ignore qui est humain. Le décor : dix royaumes fondés par des survivants d'une guerre nucléaire, qui se disputent des places fortes. Le jeu demande si l'humanité peut dépasser le tribalisme. En développement." },
-      soomba: { t: "Soomba", b: "Un jeu téléchargeable pour Windows. Une Américaine d'origine coréenne qui n'avait jamais mis les pieds en Corée et son petit ami américain sont précipités d'une plage estivale dans le Joseon d'il y a cinq siècles. Le palais est envahi par les monstres, on l'emmène de force sous ses yeux, et elle ne parle pas un mot de la langue. Un jeu d'évasion solo fondé sur le parkour sur les toits du palais. Prototype précoce (v0.1) — en développement." }
+      soomba: { t: "Soomba", b: "Un jeu téléchargeable pour Windows. Une Américaine d'origine coréenne qui n'avait jamais mis les pieds en Corée et son petit ami américain sont précipités d'une plage estivale dans le Joseon d'il y a cinq siècles. Le palais est envahi par les monstres, on l'emmène de force sous ses yeux, et elle ne parle pas un mot de la langue. Un jeu d'évasion solo fondé sur le parkour sur les toits du palais. Prototype précoce (v0.1) — en développement." },
+      deathguide: { t: "Death Guide", b: "Un jeu téléchargeable pour Windows. Vous incarnez un jeoseung-saja de l'ère Joseon — le faucheur au gat noir qui guide les âmes vers l'au-delà — et fauchez des hordes sans fin de morts relevés au katana, aux poings et aux pieds. Démembrement progressif, gore en ragdoll, traînées de taille élémentaires. D'après le roman-feuilleton publié sur Millie. ⚠️ Pour adultes : gore extrême. Une version précoce, téléchargement gratuit." }
     } },
     decks: { heading: "Dossier de présentation", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Contact", rights: "Tous droits réservés." }
@@ -889,7 +899,8 @@ const I18N = {
       miliverse: { t: "Milliverse", b: "Web3-Strategiespiel auf der echten Weltkarte. Kacheln kaufen, Waffen und Truppen stationieren, mit anderen Spielern um Gebiete kämpfen. In vier Sprachen live, echtes Wetter und Tag-Nacht-Daten fließen in die Kämpfe ein." },
       jangbogo: { t: "Jang Bogo: König der Meere", b: "Eine Handels-Wirtschaftssimulation aus dem 9. Jahrhundert um den Seekönig Jang Bogo. Auf einer echten Weltkarte häufst du durch Handel Reichtum an, fegst Piraten mit Schildkrötenschiffen beiseite und mehrst deine Macht durch Bündnisse mit Menschen aller Meere. Alternative Geschichte aus dem Originalroman — Nordamerika 650 Jahre vor Kolumbus erreichen. Direkt im Browser spielbar." },
       kwmmo: { t: "Kingdom Wars Online", b: "Ein MMORPG, in dem die KI als Spieler teilnimmt und nicht als NPC. KI-Agenten verbinden sich über exakt dasselbe Protokoll wie menschliche Spieler und kämpfen in derselben Welt — der Server weiß nicht, wer ein Mensch ist. Der Schauplatz: zehn von Überlebenden eines Atomkriegs gebildete Königreiche, die um Stützpunkte kämpfen. Das Spiel fragt, ob die Menschheit den Tribalismus überwinden kann. In Entwicklung." },
-      soomba: { t: "Soomba", b: "Ein herunterladbares Windows-Spiel. Eine koreanisch-amerikanische Frau, die nie koreanischen Boden betreten hatte, und ihr amerikanischer Freund werden von einem Sommerstrand ins Joseon vor fünf Jahrhunderten geworfen. Der Palast ist von Monstern überrannt, er wird vor ihren Augen weggeschleppt, und sie spricht kein Wort der Sprache. Ein Einzelspieler-Fluchtspiel, das auf Parkour über die Palastdächer setzt. Früher Prototyp (v0.1) — in Entwicklung." }
+      soomba: { t: "Soomba", b: "Ein herunterladbares Windows-Spiel. Eine koreanisch-amerikanische Frau, die nie koreanischen Boden betreten hatte, und ihr amerikanischer Freund werden von einem Sommerstrand ins Joseon vor fünf Jahrhunderten geworfen. Der Palast ist von Monstern überrannt, er wird vor ihren Augen weggeschleppt, und sie spricht kein Wort der Sprache. Ein Einzelspieler-Fluchtspiel, das auf Parkour über die Palastdächer setzt. Früher Prototyp (v0.1) — in Entwicklung." },
+      deathguide: { t: "Death Guide", b: "Ein herunterladbares Windows-Spiel. Du spielst einen Jeoseung-saja der Joseon-Zeit — den Sensenmann mit schwarzem Gat, der Seelen ins Jenseits geleitet — und mähst endlose Horden auferstandener Toter mit Katana, Fäusten und Tritten nieder. Fortschreitende Zerstückelung, Ragdoll-Gore, elementare Schlagspuren. Nach dem auf Millie erscheinenden Webroman. ⚠️ Ab 18 — extremer Gore. Eine frühe Version, kostenloser Download." }
     } },
     decks: { heading: "Pitch Deck", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Kontakt", rights: "Alle Rechte vorbehalten." }
@@ -984,7 +995,8 @@ const I18N = {
       miliverse: { t: "Milliverse", b: "Web3-стратегия на настоящей карте мира. Покупайте тайлы, размещайте оружие и войска, отбивайте территорию у других игроков. Работает на четырёх языках, реальная погода и смена дня и ночи влияют на бой." },
       jangbogo: { t: "Чан Бого: Король морей", b: "Симулятор управления морской торговлей IX века о морском короле Чан Бого. На настоящей карте мира вы копите богатство торговлей, сметаете пиратов кораблями-черепахами и расширяете влияние, заводя связи с людьми всех морей. Альтернативная история из оригинального романа — достичь Северной Америки на 650 лет раньше Колумба. Играется прямо в браузере." },
       kwmmo: { t: "Kingdom Wars Online", b: "MMORPG, в которой ИИ участвует как игрок, а не как NPC. ИИ-агенты подключаются по точно такому же протоколу, что и живые игроки, и сражаются в том же мире — сервер не знает, кто человек. Действие происходит после ядерной войны: десять королевств, собранных уцелевшими, сражаются за опорные пункты. Игра спрашивает, способно ли человечество перерасти трайбализм. В разработке." },
-      soomba: { t: "Soomba", b: "Загружаемая игра для Windows. Кореянка из Америки, никогда не бывавшая в Корее, и её американский парень с летнего пляжа попадают в Чосон пятивековой давности. Дворец захвачен монстрами, его утаскивают у неё на глазах, а она не знает ни слова на местном языке. Однопользовательская игра-побег, построенная на паркуре по крышам дворца. Ранний прототип (v0.1) — в разработке." }
+      soomba: { t: "Soomba", b: "Загружаемая игра для Windows. Кореянка из Америки, никогда не бывавшая в Корее, и её американский парень с летнего пляжа попадают в Чосон пятивековой давности. Дворец захвачен монстрами, его утаскивают у неё на глазах, а она не знает ни слова на местном языке. Однопользовательская игра-побег, построенная на паркуре по крышам дворца. Ранний прототип (v0.1) — в разработке." },
+      deathguide: { t: "Death Guide", b: "Загружаемая игра для Windows. Вы играете за чосон-саджа эпохи Чосон — жнеца в чёрном кате, что провожает души в загробный мир, — и прорубаетесь сквозь бесконечные орды восставших мертвецов катаной, кулаками и ногами. Последовательное расчленение, рэгдолл-гор, стихийные следы ударов. По веб-роману, выходящему на Millie. ⚠️ Для взрослых — крайний гор. Ранняя версия, бесплатная загрузка." }
     } },
     decks: { heading: "Презентация", en: "English version", ko: "한국어 버전" },
     footer: { studio: "Deother Co., Ltd.", contact: "Связаться", rights: "Все права защищены." }
@@ -1079,7 +1091,8 @@ const I18N = {
       miliverse: { t: "Milliverse", b: "لعبة استراتيجية Web3 على خريطة العالم الحقيقية. اشترِ المربّعات وانشر الأسلحة والجنود ونازع اللاعبين الآخرين على الأرض. تعمل بأربع لغات، وبيانات الطقس الحقيقي والليل والنهار تؤثر في المعارك." },
       jangbogo: { t: "جانغ بوغو: ملك البحار", b: "محاكاة لإدارة التجارة البحرية في القرن التاسع، بطلها ملك البحار جانغ بوغو. على خريطة العالم الحقيقية تراكم الثروة بالتجارة، وتكتسح القراصنة بسفن السلحفاة، وتوسّع نفوذك بعقد صلات مع أهل البحار جميعًا. تاريخ بديل من الرواية الأصلية — بلوغ أمريكا الشمالية قبل كولومبوس بـ650 عامًا. تُلعب مباشرة في المتصفح." },
       kwmmo: { t: "Kingdom Wars Online", b: "لعبة MMORPG يشارك فيها الذكاء الاصطناعي بوصفه لاعبًا لا شخصية غير قابلة للعب. يتصل وكلاء الذكاء الاصطناعي بالبروتوكول نفسه تمامًا الذي يستخدمه اللاعبون البشر ويقاتلون في العالم ذاته — والخادم لا يعرف من هو الإنسان. أما المسرح فعشر ممالك أسّسها ناجون من حرب نووية وهي تتنازع على المعاقل. وتسأل اللعبة: هل يستطيع البشر تجاوز النزعة القبلية؟ قيد التطوير." },
-      soomba: { t: "Soomba", b: "لعبة قابلة للتنزيل على ويندوز. امرأة كورية أمريكية لم تطأ قدمها كوريا قط، وحبيبها الأمريكي، يُقذفان من شاطئ صيفي إلى مملكة جوسون قبل خمسة قرون. القصر اجتاحته الوحوش، ويُسحب حبيبها بعيدًا أمام عينيها، وهي لا تعرف كلمة واحدة من لغة المكان. لعبة هروب للاعب واحد قائمة على الباركور فوق أسطح القصر. نموذج أولي مبكر (v0.1) — قيد التطوير." }
+      soomba: { t: "Soomba", b: "لعبة قابلة للتنزيل على ويندوز. امرأة كورية أمريكية لم تطأ قدمها كوريا قط، وحبيبها الأمريكي، يُقذفان من شاطئ صيفي إلى مملكة جوسون قبل خمسة قرون. القصر اجتاحته الوحوش، ويُسحب حبيبها بعيدًا أمام عينيها، وهي لا تعرف كلمة واحدة من لغة المكان. لعبة هروب للاعب واحد قائمة على الباركور فوق أسطح القصر. نموذج أولي مبكر (v0.1) — قيد التطوير." },
+      deathguide: { t: "Death Guide", b: "لعبة قابلة للتنزيل على ويندوز. تلعب دور «جوسنغ-ساجا» من عصر جوسون — حاصد الأرواح ذو القبعة السوداء الذي يقود الأرواح إلى العالم السفلي — فتحصد جموعًا لا تنتهي من الموتى الناهضين بالكاتانا واللكمات والركلات. تقطيع تدريجي للأطراف، دماء بأسلوب الدمى الرخوة، آثار ضربات عنصرية. مبني على رواية ويب تُنشر تباعًا على Millie. ⚠️ للبالغين — دماء مفرطة. نسخة مبكرة، تنزيل مجاني." }
     } },
     decks: { heading: "ملف العرض", en: "English version", ko: "한국어 버전" },
     footer: { studio: "شركة Deother", contact: "تواصل معنا", rights: "جميع الحقوق محفوظة." }

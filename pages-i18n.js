@@ -932,5 +932,110 @@ const PAGES = {
       ],
       cta: "Download for Windows", back: "Back to Deother"
     }
+  },
+
+  /* ===================== 저승사자 (Death Guide) =====================
+   * 성인용 고어 액션. itch 실물에 명시된 범위만 쓴다 — early build, 미구현은 '앞으로(⬜)'.
+   * 스토리(백무진)는 itch 페이지와 밀리 웹소설에 이미 공개된 도입부 수준까지만.
+   *   웹소설의 결말·반전은 쓰지 않는다. 출처: F:\Reaper\DEATH_GUIDE_HANDOFF.md, itch, Millie.
+   * ⚠️ MATURE 표기를 intro 와 고어 섹션에 명시한다 (itch 도 MATURE 로 공개).
+   */
+  deathguide: {
+    ko: {
+      title: "저승사자",
+      tagline: "조선의 저승사자, 되살아난 망령을 벤다",
+      intro: "검은 갓을 쓴 조선의 저승사자가 되살아난 망령 떼를 카타나·주먹·발로 벤다. 부위를 하나씩 절단하고, 시체는 래그돌로 굴러 벽에 부딪힌다. DMC류 스타일리시 액션. ⚠️ 성인용 — 극심한 고어와 폭력.",
+      sections: [
+        {
+          h: "저승사자 백무진",
+          p: [
+            "밀리의 서재에 연재 중인 원작 웹소설을 바탕으로 한다. 주인공은 백무진 — 고려 말, 멸문한 장군의 아들이다.",
+            "열여섯에 장원급제한 그는 조선 건국기에 아버지가 역적으로 몰리며 온 가족의 비극을 지켜본다. 끝내 망나니의 칼에 목이 잘려 죽지만, 거기서 끝나지 않는다.",
+            "그는 저승사자로 다시 태어나, 억울한 혼들을 저승으로 이끄는 길 위에 선다. 죽고 싶어도 죽을 수 없는 운명이다."
+          ]
+        },
+        {
+          h: "베고, 절단한다",
+          p: [
+            "칼·주먹·발을 스윙마다 랜덤으로 섞어 콤보를 낸다. 검을 휘두를 때마다 불·얼음·번개 같은 원소 슬래시 트레일이 칼에 감긴다.",
+            "2단 점프와, 공격에 맞춰 줌인하는 다이나믹 시네마틱 카메라. 손맛은 스타일리시 액션(DMC류)을 노린다."
+          ]
+        },
+        {
+          h: "끊임없는 망령",
+          p: [
+            "적은 모듈러 좀비다. 팔·다리·머리가 한 부위씩 분리되고, 잘린 부위는 사라지지 않고 땅에 굴러 계속 찰 수 있다. 첫 타격에 몸통이 래그돌로 무너지며 벽으로 날아간다.",
+            "혈흔, 뼈 부러지는 임팩트음, 죽는 비명. 망령은 끝없이 스폰된다 — 떼를 견디는 게임이다. ⚠️ 극심한 고어와 폭력, 성인용."
+          ]
+        },
+        {
+          h: "지금 어디까지 — 얼리 빌드",
+          p: [
+            "itch 에 올라간 것은 초기 빌드다. 무료(원하는 만큼 후원)로 받을 수 있다.",
+            "지금 할 수 있는 것과 앞으로 올 것:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ 저승사자로 망령 떼와 전투 (칼·주먹·발 콤보)",
+              "✅ 부위 절단 · 래그돌 고어 · 원소 슬래시 트레일",
+              "✅ 2단 점프 · 다이나믹 전투 카메라 · 끝없는 스폰",
+              "⬜ 낙선재(창덕궁) 궁궐 스테이지",
+              "⬜ 8방향 회피·구르기",
+              "⬜ 백무진의 이야기"
+            ]
+          }
+        }
+      ],
+      cta: "Windows 무료 다운로드", back: "Deother로 돌아가기"
+    },
+    en: {
+      title: "Death Guide",
+      tagline: "A Joseon grim reaper carves through the risen dead",
+      intro: "A black-gat jeoseung-saja — a Joseon-era grim reaper — carves through hordes of the risen dead with katana, fists, and kicks. Limbs come off one by one; bodies ragdoll and slam into walls. Stylish action in the vein of Devil May Cry. ⚠️ Mature — extreme gore and violence.",
+      sections: [
+        {
+          h: "Baek Mu-jin, the grim reaper",
+          p: [
+            "The game is based on the original web novel serialized on Millie. Its hero is Baek Mu-jin — the son of a general whose house was destroyed at the end of Goryeo.",
+            "A top scholar at sixteen, he watches his whole family fall as his father is branded a traitor in the founding years of Joseon. He is beheaded by an executioner's blade — but it does not end there.",
+            "He is reborn as a jeoseung-saja, set on the road that guides wronged souls to the underworld. His fate is to be unable to die, however much he wishes to."
+          ]
+        },
+        {
+          h: "Slash, and dismember",
+          p: [
+            "Katana, fists, and kicks mix at random with every swing. Each stroke of the sword wraps the blade in an elemental slash trail — fire, ice, lightning.",
+            "A double jump, and a dynamic cinematic camera that zooms with your attacks. The feel aims for stylish action in the Devil May Cry vein."
+          ]
+        },
+        {
+          h: "The endless dead",
+          p: [
+            "The enemies are modular. Arms, legs, and heads come off one part at a time, and severed pieces do not vanish — they roll on the ground and you can keep kicking them. The first hit ragdolls the torso and flings it into a wall.",
+            "Blood, bone-crunch impacts, dying screams. The dead spawn without end — this is a game about surviving the swarm. ⚠️ Extreme gore and violence, for adults."
+          ]
+        },
+        {
+          h: "Where it stands — early build",
+          p: [
+            "What is on itch is an early build. It is free — pay what you want.",
+            "What is playable now, and what is coming:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Fight the hordes as the grim reaper (katana, fist, kick combos)",
+              "✅ Dismemberment · ragdoll gore · elemental slash trails",
+              "✅ Double jump · dynamic combat camera · endless spawns",
+              "⬜ The Nakseonjae (Changdeokgung) palace stage",
+              "⬜ An 8-way dodge / roll system",
+              "⬜ The story of Baek Mu-jin"
+            ]
+          }
+        }
+      ],
+      cta: "Free download for Windows", back: "Back to Deother"
+    }
   }
 };

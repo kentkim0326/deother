@@ -46,6 +46,11 @@ const P_LAYOUT = {
       1: [{ img: 0 }],                        // 지붕(핵심 메커닉) 뒤 → 궁궐 전경 밴드
     },
   },
+  deathguide: {
+    // 아직 게임 영상·스크린샷이 없어 키비주얼(커버) 1장뿐. 인트로 아래에 크게 건다.
+    // 실제 게임 스크린샷이 나오면 DEATHGUIDE_SLIDES 에 추가하고 여기 {img} 를 늘릴 것.
+    top: [{ img: 0 }],                        // 인트로 아래 → 저승사자 키비주얼로 붙잡는다
+  },
   kwonline: {
     // 아직 게임 화면 캡처가 없다. 미디어는 테스트 영상 + 영어 주제가 3곡.
     // 글벽 사이에 고르게 흩어 리듬을 준다. 스크린샷이 나오면 {img}/{s} 를 더 끼울 것.
@@ -98,6 +103,7 @@ function pSlideSet(game) {
   if (game === "kingdom")   return { files: (typeof KW_SLIDES !== "undefined" ? KW_SLIDES : []), folder: "assets/slides-kw/" };
   if (game === "jangbogo")  return { files: (typeof JB_SLIDES !== "undefined" ? JB_SLIDES : []), folder: "assets/slides-jb/" };
   if (game === "soomba")    return { files: (typeof SOOMBA_SLIDES !== "undefined" ? SOOMBA_SLIDES : []), folder: "assets/" };
+  if (game === "deathguide") return { files: (typeof DEATHGUIDE_SLIDES !== "undefined" ? DEATHGUIDE_SLIDES : []), folder: "assets/" };
   return { files: [], folder: "" };
 }
 
