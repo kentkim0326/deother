@@ -28,6 +28,7 @@ const KW_SLIDES = ["kw-09.jpg", "kw-14.jpg", "kw-08.jpg", "kw-05.jpg", "kw-13.jp
 const JB_SLIDES = ["jb-01.jpg", "jb-02.jpg", "jb-03.jpg", "jb-04.jpg"];   // assets/slides-jb/
 const SOOMBA_SLIDES = ["soomba-cover.jpg"];   // assets/ (커버 = 궁궐 전경. 스크린샷 늘면 여기 추가)
 const DEATHGUIDE_SLIDES = ["deathguide-cover.jpg"];   // assets/ (키비주얼. 게임 스크린샷 나오면 추가)
+const KWONLINE_SLIDES = ["kwo-shot-01.jpg", "kwo-shot-02.jpg"];   // assets/ (실제 모바일 플레이 화면, Safari UI 크롭)
 const IP_COVERS = ["ip-01.jpg","ip-02.jpg","ip-03.jpg","ip-04.jpg","ip-05.jpg","ip-06.jpg","ip-07.jpg","ip-08.jpg","ip-09.jpg","ip-10.jpg","ip-11.jpg","ip-14.jpg","ip-15.jpg","ip-12.jpg","ip-13.jpg","ip-16.jpg","ip-17.jpg"];   // assets/covers/ — .\add-slides.ps1 ip 가 채운다
 // 표지에 제목이 이미 박혀 있으므로 번역하지 않고 원제를 쓴다. 순서는 IP_COVERS 와 같다.
 const IP_TITLES = ["훈민정음","판문점","조선늑대","저승사자","장보고","아리랑전사단","총기허용의 날","문신귀","아파트","요양원","전원주택","조선닌자 일지매","도깨비왕","Ring of Solomon: Dino Wars","Kingdom Wars","Empire of Hearts","Seraphim"];

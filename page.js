@@ -59,6 +59,8 @@ const P_LAYOUT = {
       1: [{ v: 1 }],                          // 10개 왕국(세계관) 뒤 → 주제가(영어, 쇼츠·세로)
       2: [{ v: 0 }],                          // AI가 같은 문으로 → 사람·에이전트 동시 접속 테스트 영상
       3: [{ v: 3 }],                          // 코어 루프 뒤 → 주제가(영어, 가로)
+      4: [{ img: 0 }],                        // 설계 원칙 뒤 → 실제 모바일 플레이 화면 1
+      5: [{ img: 1 }],                        // 현재 진행 상황 뒤 → 실제 모바일 플레이 화면 2
     },
   },
 };
@@ -104,6 +106,7 @@ function pSlideSet(game) {
   if (game === "jangbogo")  return { files: (typeof JB_SLIDES !== "undefined" ? JB_SLIDES : []), folder: "assets/slides-jb/" };
   if (game === "soomba")    return { files: (typeof SOOMBA_SLIDES !== "undefined" ? SOOMBA_SLIDES : []), folder: "assets/" };
   if (game === "deathguide") return { files: (typeof DEATHGUIDE_SLIDES !== "undefined" ? DEATHGUIDE_SLIDES : []), folder: "assets/" };
+  if (game === "kwonline")  return { files: (typeof KWONLINE_SLIDES !== "undefined" ? KWONLINE_SLIDES : []), folder: "assets/" };
   return { files: [], folder: "" };
 }
 
