@@ -1,6 +1,6 @@
 # Deother 회사 소개 사이트 — 프로젝트 가이드
 
-> 주식회사 디아더와 게임 7종을 소개하는 정적 사이트. 빌드 도구 없이 HTML/CSS/JS 파일만으로 동작한다.
+> 주식회사 디아더와 게임 8종을 소개하는 정적 사이트. 빌드 도구 없이 HTML/CSS/JS 파일만으로 동작한다.
 > Live: https://deother.vercel.app · Repo: `kentkim0326/deother` (main 브랜치 → Vercel 자동 배포)
 >
 > **다른 컴퓨터에서 이어서 작업할 때는 이 문서만 읽으면 된다.** 아래 "이어받기"부터 보라.
@@ -33,6 +33,7 @@ jangbogo.html       상세 페이지 — 북미대륙을 발견한 장보고
 kwonline.html       상세 페이지 — Kingdom Wars Online (개발 중)
 soomba.html         상세 페이지 — 숨바 (Soomba, 얼리 프로토타입 v0.1)
 deathguide.html     상세 페이지 — 저승사자 (Death Guide, 얼리 빌드, 성인용 고어)
+timewars.html       상세 페이지 — 타임 워즈 (Time Wars, 얼리 빌드, 배경음 있음)
 styles.css          어두운 화면 + 붉은 강조색 하나. 다섯 페이지가 공유한다
 
 i18n.js         ★ 메인 페이지 번역 + 링크 + 영상 + 슬라이드 목록. 내용 수정은 대부분 여기다
@@ -192,12 +193,15 @@ itch 실물이 "pipeline test build, 코어 루프 미탑재"라고 명시하므
 스포일러 금지선이 `pages-i18n.js` 의 `soomba` 블록 위에 못박혀 있다 —
 빌런의 정체·결말(시간문 레이스)·환도 이후 구간·Whisper 의 정체는 쓰지 않는다.
 
-### 상세페이지의 오디오 (kwonline 전용)
+### 상세페이지의 오디오 (kwonline · timewars)
 
-`kwonline.html` 에는 진입 시 주제가(EDM)가 흐른다. `page.js` 의 `pSetupAudio()` 가
+`kwonline.html`·`timewars.html` 에는 진입 시 배경음이 흐른다. `page.js` 의 `pSetupAudio()` 가
 `#pAudio` 가 있는 페이지에서만 동작한다. **브라우저가 첫 방문 자동재생을 막으므로**,
 막히면 첫 클릭이나 우하단 토글 버튼으로 시작된다 — 우회 불가한 브라우저 정책이다.
-음원은 `assets/kwo-theme.mp3` (원본 WAV 를 ffmpeg 로 mp3 160kbps 로 최적화, 5MB).
+음원은 `assets/kwo-theme.mp3`(EDM) · `assets/timewars-theme.mp3`(Coldplay 스타일).
+둘 다 원본 WAV 를 ffmpeg 로 mp3 160kbps 로 최적화했다(각 5MB).
+새 상세에 배경음을 넣으려면 그 html 에 `<audio id="pAudio" src="..." loop>` 한 줄과
+`<button id="pAudioToggle" class="audio-toggle" hidden>♪</button>` 만 넣으면 된다 — 로직은 공용이다.
 KWO 상세엔 이 배경음 외에 **영어 주제가 영상 3편**도 `P_LAYOUT` 으로 배치돼 있다
 (O423 은 쇼츠라 `vertical:true`, 나머지 둘은 가로).
 
@@ -212,6 +216,7 @@ KWO 상세엔 이 배경음 외에 **영어 주제가 영상 3편**도 `P_LAYOUT
 | Kingdom Wars Online | **개발 중.** AI가 플레이어로 참여하는 MMORPG | 아래 ⚠️ 참고 |
 | 숨바 (Soomba) | **얼리 프로토타입 v0.1.** 조선 궁궐 지붕 도주 게임 (UE, Windows 빌드) | 아래 ⚠️ 참고 |
 | 저승사자 (Death Guide) | **얼리 빌드.** 조선 저승사자 DMC류 고어 액션 (UE 5.8, Windows) | 아래 ⚠️ 참고 |
+| 타임 워즈 (Time Wars) | **얼리 빌드 v0.2.** 동서양 전사 16인 근접 배틀로얄 (UE 5.8, MACS 기반) | 아래 ⚠️ 참고 |
 
 각 프로젝트 저장소에도 `CLAUDE.md` 가 있다. **그 게임의 내용을 사이트에 쓸 때는 추측하지 말고
 해당 문서를 먼저 읽을 것** — 함정 2번이 그래서 생겼다.
@@ -221,6 +226,8 @@ KWO 본체 프로젝트: `F:\KW_MMO\` — `README.md`, `server/PROTOCOL.md`,
 그리고 `F:\VARCO_MMORPG_HANDOFF.md` 0항이 기획 원문이다.
 Death Guide 본체 프로젝트: `F:\Reaper\` (UE **5.8**, C++). 인수인계는 `DEATH_GUIDE_HANDOFF.md`,
 기획은 `docs/DESIGN.md`. 원작 웹소설(백무진)은 밀리의 서재 연재 — IP 섹션에도 연결돼 있다.
+Time Wars 본체 프로젝트: `F:\TimeWars\` (UE **5.8**, MACS 기반). 인수인계는 `HANDOFF_*.md`,
+세계관은 `TimeWars/docs/STORY.md`, 설계는 `docs/DESIGN.md`.
 Soomba 본체 프로젝트: `F:\Soomba\Zombie\` (**UE 5.7 고정 — 5.8 로 열지 말 것**).
 기획 원문은 `docs/DESIGN.md`. Content(11GB)는 git 에 없는 단일 사본이니 주의.
 
@@ -272,19 +279,33 @@ itch 페이지, 밀리 연재분. 미구현(낙선재 스테이지·8방향 회�
 `#pSlides` 로 나온다. 원작 웹소설(밀리 28476)은 카드 sns·상세 footer·IP 섹션 세 곳에 연결됨.
 회사 유튜브 채널(FN 과 동일)도 상세 footer 에 있다.
 
-## 진행 상황 (2026-07-30 기준)
+### ⚠️ Time Wars (타임 워즈) 관련 두 가지
+
+**1. 스포일러 금지선 — 스토리는 로그라인/프리미스까지만.**
+주인공 서하(18세 양궁 금메달리스트 → 음주운전 사고 → 소환)와 "총 없는 16인 배틀로얄,
+살아남으면 귀환"까지는 쓴다. **STORY.md 의 3막 결말·열린 결말·적대자(제이=음주운전자)는
+쓰지 않는다.** 출처: `F:\TimeWars\TimeWars\docs\STORY.md`, itch 페이지. itch 가 early build 라
+미구현(온라인 멀티·추가 맵·축소 안전지대)은 '앞으로(⬜)'로. "곧 온라인 멀티"도 예정으로만.
+
+**2. 이미지·배경음.** 카드 로고·상세 밴드는 미드저니 키아트(전사 아레나 + 붉은 시공 균열)다.
+상세는 **인터리브**(게임플레이 영상 top + 키아트 밴드) + **배경음**(`timewars-theme.mp3`,
+Coldplay 스타일). 노래는 Metallica 스타일 버전도 있다(F 드라이브) — 바꾸려면 mp3 교체.
+
+## 진행 상황 (2026-08-06 기준)
 
 **끝난 것**
 - 10개 언어 · PWA · 모바일 최적화 · **국기 토글 언어 선택기**(flag-icons SVG)
-- **게임 7종** 카드 + 로고 + SNS 링크
-- **상세 페이지 6종** (밀리버스 · 킹덤워즈 · 장보고 · KWO · 숨바 · 저승사자)
-  - 앞 넷은 10개 언어, **숨바·저승사자는 우선 ko/en** (카드는 7종 모두 10개 언어)
+- **게임 8종** 카드 + 로고 + SNS 링크
+- **상세 페이지 7종** (밀리버스 · 킹덤워즈 · 장보고 · KWO · 숨바 · 저승사자 · 타임 워즈)
+  - 밀리버스·킹덤워즈·장보고·KWO 는 10개 언어, **숨바·저승사자·타임워즈는 우선 ko/en**
+    (카드는 8종 모두 10개 언어)
 - 슬라이드쇼, 영상 다수, IP 커버 멀티링크
 - 게임들을 관통하는 관점 문구 (`works.note`) — 10개 언어
 - **KWO 서버 Fly.io 상시 호스팅 완료** — 터널 졸업, 고정 주소 `wss://kw-mmo-server.fly.dev`
 - **KWO 상세: 영어 주제가 영상 3편 + 진입 시 EDM 배경음악 + 실제 모바일 플레이 화면 2장**
-- **Soomba 게임 추가** — 카드(10개 언어)+상세(ko/en)+캐릭터 일러스트, itch Public 완료
-- **Death Guide(저승사자) 게임 추가** — 카드(10개 언어)+상세(ko/en, 슬라이드쇼 9장)+MATURE 표기
+- **Soomba 게임 추가** — 카드(10개 언어)+상세(ko/en)+캐릭터 일러스트, itch Public
+- **Death Guide(저승사자) 게임 추가** — 카드+상세(슬라이드쇼 9장)+MATURE 표기
+- **Time Wars(타임 워즈) 게임 추가** — 카드+상세(ko/en)+키아트+게임플레이 영상+Coldplay 배경음
 
 **남은 것**
 - [ ] **밀리버스 실제 게임 화면 캡처** — 지도·타일 상세·전투 코크핏·**날씨/풍향/태양 궤적**.
@@ -294,21 +315,22 @@ itch 페이지, 밀리 연재분. 미구현(낙선재 스테이지·8방향 회�
 - [x] ~~KWO 서버 상시 호스팅~~ — **완료** (Fly.io, `wss://kw-mmo-server.fly.dev`). 위 「⚠️ KWO 관련」 참고.
 - [x] ~~Soomba itch Public~~ — **완료** (2026-07-30). secret 링크 뗐다.
 - [ ] **KWO 전용 로고** — 지금은 기존 Kingdom Wars 로고를 임시로 쓰고 있다.
-- [ ] **Soomba·Death Guide 상세 10개 언어 확장** (지금 ko/en). 카드는 이미 10개 언어다.
+- [ ] **숨바·저승사자·타임워즈 상세 10개 언어 확장** (지금 ko/en). 카드는 이미 10개 언어다.
 - [ ] **Soomba 실제 게임 스크린샷** — 상세 밴드는 지금 캐릭터 일러스트 1장.
       실제 게임 화면이 늘면 `page.js` 의 `P_LAYOUT.soomba` 에 `{img}` 를 추가.
 - [ ] GWB Game Awards 마감 **2026-08-15**, 재제출 허용.
       소개글·영상·플레이 가능한 빌드는 준비됨. **스크린샷 3~5장이 남았다.**
       그 전에 7번 캐릭터 복장 확인 필요 (일부 캐릭터 복장/머티리얼 문제)
 
-### 배포 확인 (2026-07-30)
+### 배포 확인 (2026-08-06)
 
 `deother.vercel.app` 에서 실측했다. 추측이 아니라 브라우저에서 DOM 을 조회한 결과다.
 
 ```
-메인          카드 7장 · 상세 링크 6개(kingdom-wars/miliverse/jangbogo/kwonline/soomba/deathguide)
-상세          앞 4종 10개 언어(구조 일치·한글 누출 0), 숨바·저승사자 ko/en
+메인          카드 8장 · 상세 링크 7개(…/soomba/deathguide/timewars)
+상세          앞 4종 10개 언어(구조 일치·한글 누출 0), 숨바·저승사자·타임워즈 ko/en
 kwonline      태그라인 10개 언어 모두 AI/MMORPG · 주제가 3편 + EDM 배경음 + 모바일 화면 2장
+timewars      16인 배틀로얄 · 스포일러 0 · 게임플레이 영상 + Coldplay 배경음
 soomba        캐릭터 일러스트 카드 · 상세 스포일러 0 · itch Public
 deathguide    키비주얼 카드 · 상세 슬라이드쇼 9장 · MATURE 표기 · Millie·YouTube footer
 KWO 서버      Fly.io healthy — 실접속 확인됨
