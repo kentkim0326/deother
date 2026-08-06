@@ -18,6 +18,9 @@ const PAGE_VIDEOS = {
   // 개발 중이라 '트레일러'가 아니라 '테스트 영상'이다. 라벨을 과장하지 않는다 (함정 2).
   // [1],[2],[3] 은 킹덤워즈 세계관 영어 주제가. P_LAYOUT.kwonline 이 배치를 정한다.
   // O423 은 쇼츠(세로)라 vertical:true — 9:16 프레임으로 나온다. 나머지 둘은 가로.
+  timewars: [
+    { id: "33ZYQTc1_n8", ko: "타임 워즈 — 게임플레이", en: "Time Wars — gameplay" },
+  ],
   kwonline: [
     { id: "oobYlh5wgXg", ko: "킹덤워즈 온라인 — 테스트 영상",     en: "Kingdom Wars Online — test footage" },
     { id: "O423zD04If4", ko: "킹덤워즈 — 주제가 (영어, 쇼츠)",   en: "Kingdom Wars — theme song (English, short)", vertical: true },
@@ -1031,6 +1034,114 @@ const PAGES = {
               "⬜ The Nakseonjae (Changdeokgung) palace stage",
               "⬜ An 8-way dodge / roll system",
               "⬜ The story of Baek Mu-jin"
+            ]
+          }
+        }
+      ],
+      cta: "Free download for Windows", back: "Back to Deother"
+    }
+  },
+
+  /* ===================== Time Wars =====================
+   * itch 실물(v0.2 early build)에 공개된 범위만 쓴다. 미구현은 '앞으로(⬜)'.
+   * 스토리는 로그라인/프리미스까지만 — STORY.md 의 3막 결말·열린 결말·적대자(제이)는
+   *   스포일러라 쓰지 않는다. 출처: F:\TimeWars\TimeWars\docs\STORY.md, itch 페이지.
+   */
+  timewars: {
+    ko: {
+      title: "타임 워즈",
+      tagline: "열여섯 전사, 하나의 채석장, 총은 없다",
+      intro: "죽음의 순간에 각기 다른 시대에서 소환된 동서양 전사 열여섯이 채석장에서 근접 배틀로얄을 벌인다. 살아남은 단 한 사람만 자신이 살던 세계로 돌아간다. 총은 없다 — 칼·활·창·도끼·검뿐. 얼리 빌드이며, 곧 온라인 멀티플레이로 간다.",
+      sections: [
+        {
+          h: "서하 — 아직 집에 못 간 소녀",
+          p: [
+            "주인공은 열여덟 살 서하. 아버지에게 버림받고 홀어머니 밑에서 자라며 미친 듯이 훈련해 양궁 금메달을 목에 걸었다.",
+            "세상이 막 열리려던 밤, 마약에 취한 K팝 스타의 차가 그녀를 덮친다. 의식이 꺼지는 순간, 그녀는 타임 워즈에 서 있다 — 갑옷과 칼을 든 낯선 자들 사이에.",
+            "아무도 현대 옷을 입은 어린 소녀를 위협으로 보지 않는다. 첫 전투에서 그녀는 활을 집는다. 손이 기억한다. 표적이 움직이고 반격한다는 것만 빼면, 그건 그녀가 평생 해온 일이었다."
+          ]
+        },
+        {
+          h: "열여섯, 하나의 자리",
+          p: [
+            "소환된 자들의 공통점은 둘이다 — 죽음 직전의 순간에 있었다는 것, 그리고 육체가 특출났다는 것. 사무라이, 중세 기사, 바이킹, 명나라 협객, 조선 무사, 그리고 서하처럼 뛰어난 현대의 운동선수들.",
+            "규칙은 단순하다. 돌아갈 수 있는 자리는 하나뿐이다. 라스트맨 스탠딩. 시공이 무너지며 전장은 점점 좁아진다.",
+            "동양과 서양, 고대와 현대가 한 아레나에 뒤섞인다. 말은 통하지 않아도 눈빛은 통하고, 돌아갈 자리가 하나이므로 동맹 뒤엔 배신이 따른다."
+          ]
+        },
+        {
+          h: "총은 없다 — 근접무기만",
+          p: [
+            "타임 워즈는 기술이 아니라 육체와 의지를 시험한다. 그래서 총기는 존재하지 않는다. 칼·활·창·도끼·검 — 고전과 중세의 근접무기뿐이다.",
+            "열여섯 명은 저마다 다른 빌드와 무기를 갖는다. 검과 방패, 대도끼, 쌍검, 활. 채석장에 떨어져 열다섯 명의 경쟁자와 부딪히고, 마지막까지 선 자가 이긴다.",
+            "조작: WASD 이동 · 마우스 시점 · 좌클릭 공격 · 우클릭 방어 · 스페이스 점프 · 시프트 대시."
+          ]
+        },
+        {
+          h: "지금 어디까지 — 얼리 빌드",
+          p: [
+            "itch 에 올라간 것은 얼리 빌드(v0.2)다. 무료(원하는 만큼 후원)로 받을 수 있다.",
+            "지금 할 수 있는 것과 앞으로 올 것:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ 16명 캐릭터 선택 (3D 전신 뷰어)",
+              "✅ 채석장 배틀로얄 — 플레이어 + AI 15명",
+              "✅ 근접 전투 (검·활·도끼·창) · 라스트맨 스탠딩",
+              "⬜ 온라인 멀티플레이",
+              "⬜ 추가 아레나 맵",
+              "⬜ 축소되는 안전지대"
+            ]
+          }
+        }
+      ],
+      cta: "Windows 무료 다운로드", back: "Deother로 돌아가기"
+    },
+    en: {
+      title: "Time Wars",
+      tagline: "Sixteen fighters. One quarry. No guns.",
+      intro: "Sixteen warriors from across the ages, each pulled from the moment of their death, fight a melee battle royale in a stone quarry. Only the last one standing returns to the world they came from. There are no guns — sword, bow, spear, axe, blade only. An early build, with online multiplayer coming next.",
+      sections: [
+        {
+          h: "Seoha — the girl who hasn't gone home yet",
+          p: [
+            "The hero is Seoha, eighteen. Abandoned by her father and raised by a single mother, she trained herself half to death and took an archery gold medal.",
+            "On the night it was all about to open up for her, a car driven by a drugged-up K-pop star hits her. As her consciousness goes out, she is standing in the Time Wars — among strangers in armor, holding swords.",
+            "No one sees a young girl in modern clothes as a threat. In her first fight she picks up a bow. Her hands remember. But for the fact that the targets move and hit back, it is the thing she has done all her life."
+          ]
+        },
+        {
+          h: "Sixteen, and one way home",
+          p: [
+            "The summoned share two things — they were at the edge of death, and their bodies were exceptional. A samurai, a medieval knight, a Viking, a Ming swordsman, a Joseon warrior, and modern athletes gifted like Seoha.",
+            "The rule is simple. There is only one seat home. Last one standing. As spacetime collapses, the arena keeps shrinking.",
+            "East and West, ancient and modern, thrown into one arena. Eyes speak where words can't — and because there is only one way home, every alliance is followed by a betrayal."
+          ]
+        },
+        {
+          h: "No guns — melee only",
+          p: [
+            "The Time Wars test the body and the will, not technology. So firearms do not exist here. Sword, bow, spear, axe, blade — classical and medieval melee weapons only.",
+            "Each of the sixteen has their own build and weapon: sword and shield, great axe, dual blades, the bow. You drop into the quarry against fifteen rivals, and the one left standing wins.",
+            "Controls: WASD move · mouse look · LMB attack · RMB block · Space jump · Shift dash."
+          ]
+        },
+        {
+          h: "Where it stands — early build",
+          p: [
+            "What is on itch is an early build (v0.2). It is free — pay what you want.",
+            "What is playable now, and what is coming:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Choose from 16 fighters (full 3D character viewer)",
+              "✅ Quarry battle royale — you plus 15 AI",
+              "✅ Melee combat (sword, bow, axe, spear) · last one standing",
+              "⬜ Online multiplayer",
+              "⬜ Additional arena maps",
+              "⬜ A shrinking safe zone"
             ]
           }
         }
