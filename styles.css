@@ -484,6 +484,8 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
 .audio-toggle:hover { transform: scale(1.08); }
 .audio-toggle.playing { color: #fff; background: var(--accent); border-color: var(--accent); }
 
-/* Turf King 로스터 슬라이드쇼 — 세로 캐릭터 아트라 프레임을 세로(2:3)로. 다른 게임은 16:9 유지. */
-body[data-game="turfking"] .slide-track { aspect-ratio: 2 / 3; max-width: 400px; margin-inline: auto; }
-body[data-game="turfking"] .slide-track img { object-fit: cover; }
+/* Turf King 로스터 — 세로 캐릭터 여러 명을 한 줄에 나란히. 본문 섹션 사이 곳곳에 흩는다.
+   flex-wrap + flex-basis 로 데스크탑은 4~5명 한 줄, 모바일은 2~3명씩 접힌다. */
+.roster-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 22px 0; }
+.roster-row img { flex: 1 1 130px; min-width: 0; aspect-ratio: 2 / 3; object-fit: cover;
+  border-radius: 8px; border: 1px solid var(--line); background: #000; }

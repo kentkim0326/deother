@@ -55,9 +55,17 @@ const P_LAYOUT = {
       1: [{ img: 0 }],                        // 세계관(열여섯 하나의 자리) 뒤 → 키아트 밴드
     },
   },
-  // turfking 은 P_LAYOUT 을 두지 않는다 → 폴백(본문 아래 슬라이드쇼)로 렌더된다.
-  //   TURFKING_SLIDES(로스터 20명, 세로 아트)가 #pSlides 슬라이드쇼로 나온다.
-  //   슬라이드 프레임은 styles.css 에서 turfking 만 세로(2/3)로 오버라이드한다.
+  turfking: {
+    // 개발 중이라 게임 화면이 없다. 로스터 20명(세로 아트)을 본문 곳곳에 가로 줄로 흩는다.
+    // {roster:[...]} 는 TURFKING_SLIDES 인덱스. 세로 캐릭터 여러 명을 한 줄에 나란히 놓는다.
+    top: [{ roster: [0, 1, 2, 3] }],          // 인트로 아래 4명
+    after: {
+      0: [{ roster: [4, 5, 6, 7, 8] }],       // 버림받은 자들 뒤 5명
+      1: [{ roster: [9, 10, 11, 12] }],       // 맨손 4버튼 뒤 4명
+      2: [{ roster: [13, 14, 15, 16] }],      // 함께 뒤 4명
+      3: [{ roster: [17, 18, 19] }],          // 개발 중 뒤 3명
+    },
+  },
   kwonline: {
     // 아직 게임 화면 캡처가 없다. 미디어는 테스트 영상 + 영어 주제가 3곡.
     // 글벽 사이에 고르게 흩어 리듬을 준다. 스크린샷이 나오면 {img}/{s} 를 더 끼울 것.
@@ -164,6 +172,16 @@ function pBuildInterleaved(game, layout) {
       img.src = folder + files[m.img]; img.alt = ""; img.loading = "lazy";
       fig.append(img);
       body.append(fig);
+    } else if (m.roster) {
+      // 세로 캐릭터 여러 명을 한 줄에 나란히 (로스터). 인덱스는 pSlideSet.files. 언어 무관.
+      const row = pEl("div", "roster-row");
+      m.roster.forEach(idx => {
+        if (files[idx] == null) return;
+        const img = document.createElement("img");
+        img.src = folder + files[idx]; img.alt = ""; img.loading = "lazy";
+        row.append(img);
+      });
+      body.append(row);
     }
   });
 
