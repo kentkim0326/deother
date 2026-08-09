@@ -1160,7 +1160,7 @@ const PAGES = {
     ko: {
       title: "터프 킹",
       tagline: "4인 온라인 협동 벨트스크롤 — 네 것을 되찾아라",
-      intro: "자기 조직에 배신당한 다섯 도시의 조폭들이 같은 처지끼리 뭉쳐, 맨손으로 자기 나와바리를 되찾는 4인 협동 벨트스크롤. 「용과 같이」와 「더블드래곤」 사이의 손맛을 노린다. 아직 개발 중이다.",
+      intro: "자기 조직에 배신당한 다섯 도시의 조폭들이 같은 처지끼리 뭉쳐, 맨손으로 자기 나와바리를 되찾는 4인 협동 벨트스크롤. 「용과 같이」와 「더블드래곤」 사이의 손맛을 노린다. 아직 개발 중. ⚠️ 성인용 — 조직 폭력과 유혈이 나온다. 아이들용이 아니다.",
       sections: [
         {
           h: "버림받은 자들",
@@ -1209,7 +1209,7 @@ const PAGES = {
     en: {
       title: "Turf King",
       tagline: "A four-player online co-op brawler — take back what's yours",
-      intro: "Crime bosses from five cities, betrayed by their own crews, band together to take back their turf bare-knuckle. A four-player co-op beat 'em up aiming for the feel of Yakuza meets Double Dragon. Still in development.",
+      intro: "Crime bosses from five cities, betrayed by their own crews, band together to take back their turf bare-knuckle. A four-player co-op beat 'em up aiming for the feel of Yakuza meets Double Dragon. Still in development. ⚠️ Mature — gang violence and blood. Not for kids.",
       sections: [
         {
           h: "They gave you up",
