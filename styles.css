@@ -483,3 +483,7 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
 }
 .audio-toggle:hover { transform: scale(1.08); }
 .audio-toggle.playing { color: #fff; background: var(--accent); border-color: var(--accent); }
+
+/* Turf King 로스터 슬라이드쇼 — 세로 캐릭터 아트라 프레임을 세로(2:3)로. 다른 게임은 16:9 유지. */
+body[data-game="turfking"] .slide-track { aspect-ratio: 2 / 3; max-width: 400px; margin-inline: auto; }
+body[data-game="turfking"] .slide-track img { object-fit: cover; }

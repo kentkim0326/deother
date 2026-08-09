@@ -30,7 +30,8 @@ const SOOMBA_SLIDES = ["soomba-cover.jpg"];   // assets/ (커버 = 궁궐 전경
 const DEATHGUIDE_SLIDES = ["deathguide-cover.jpg", "deathguide-01.jpg", "deathguide-02.jpg", "deathguide-03.jpg", "deathguide-04.jpg", "deathguide-05.jpg", "deathguide-06.jpg", "deathguide-07.jpg", "deathguide-08.jpg"];   // assets/ (키비주얼 + 저승사자 아트 8장)
 const KWONLINE_SLIDES = ["kwo-shot-01.jpg", "kwo-shot-02.jpg"];   // assets/ (실제 모바일 플레이 화면, Safari UI 크롭)
 const TIMEWARS_SLIDES = ["timewars-cover.jpg"];   // assets/ (키아트. 게임 스크린샷 나오면 추가)
-const TURFKING_SLIDES = ["turfking-cover.jpg"];   // assets/ (컨셉 키아트. 개발 중이라 게임 화면 없음)
+// 로스터 20명 (도시별 대표 1장). assets/slides-tk/. 세로 전신 아트 → 슬라이드쇼가 세로 프레임으로 뜬다.
+const TURFKING_SLIDES = ["tk-01.jpg","tk-02.jpg","tk-03.jpg","tk-04.jpg","tk-05.jpg","tk-06.jpg","tk-07.jpg","tk-08.jpg","tk-09.jpg","tk-10.jpg","tk-11.jpg","tk-12.jpg","tk-13.jpg","tk-14.jpg","tk-15.jpg","tk-16.jpg","tk-17.jpg","tk-18.jpg","tk-19.jpg","tk-20.jpg"];
 const IP_COVERS = ["ip-01.jpg","ip-02.jpg","ip-03.jpg","ip-04.jpg","ip-05.jpg","ip-06.jpg","ip-07.jpg","ip-08.jpg","ip-09.jpg","ip-10.jpg","ip-11.jpg","ip-14.jpg","ip-15.jpg","ip-12.jpg","ip-13.jpg","ip-16.jpg","ip-17.jpg"];   // assets/covers/ — .\add-slides.ps1 ip 가 채운다
 // 표지에 제목이 이미 박혀 있으므로 번역하지 않고 원제를 쓴다. 순서는 IP_COVERS 와 같다.
 const IP_TITLES = ["훈민정음","판문점","조선늑대","저승사자","장보고","아리랑전사단","총기허용의 날","문신귀","아파트","요양원","전원주택","조선닌자 일지매","도깨비왕","Ring of Solomon: Dino Wars","Kingdom Wars","Empire of Hearts","Seraphim"];
