@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>터프 킹 (Turf King) — Deother</title>
+<meta name="description" content="Turf King — a four-player online co-op brawler in development. Betrayed crime bosses from five cities take back their turf, bare-knuckle. Four buttons, 200+ animations.">
+<meta name="theme-color" content="#0a0a0c">
+<link rel="icon" href="assets/icon-192.png" sizes="192x192">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-game="turfking">
+
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="index.html">
+      <img src="assets/deother-logo.png" alt="" width="26" height="26">
+      DE<span>OTHER</span>
+    </a>
+    <div class="lang doc-lang" id="pLang"></div>
+  </div>
+</header>
+
+<main>
+  <div class="doc-hero">
+    <div class="wrap">
+      <a class="link-out doc-back" id="pBack" href="index.html"></a>
+      <h1 id="pTitle"></h1>
+      <p class="tagline" id="pTagline"></p>
+      <p class="doc-intro" id="pIntro"></p>
+      <a class="cta" id="pCta" href="https://deother.itch.io/turf-king" target="_blank" rel="noopener"></a>
+    </div>
+  </div>
+
+  <div class="wrap doc-wrap">
+    <nav class="doc-toc" id="pToc"></nav>
+    <div class="doc-body" id="pBody"></div>
+  </div>
+
+  <div class="wrap">
+    <!-- 인터리브(P_LAYOUT)로 본문 안에 이미지가 들어가므로 이 자리는 비어 숨는다 -->
+    <div class="page-videos" id="pVideos" hidden></div>
+    <div class="slideshow" id="pSlides" hidden>
+      <div class="slide-track" id="pTrack"></div>
+      <div class="slide-dots" id="pDots"></div>
+    </div>
+  </div>
+</main>
+
+<!-- 주제가. #pAudio 가 있으면 page.js(pSetupAudio)가 진입 시 재생을 시도한다.
+     브라우저가 첫 방문 자동재생을 막으면 우하단 버튼 또는 첫 클릭으로 시작된다. -->
+<audio id="pAudio" src="assets/turfking-theme.mp3" loop preload="auto"></audio>
+<button id="pAudioToggle" class="audio-toggle" type="button" aria-label="주제가 재생" hidden>♪</button>
+
+<footer>
+  <div class="wrap foot">
+    <span>© 2026 Deother Co., Ltd.</span>
+    <a class="sp" href="index.html">Deother</a>
+    <a href="https://deother.itch.io/turf-king" target="_blank" rel="noopener">itch</a>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="pages-i18n.js"></script>
+<script src="page.js"></script>
+</body>
+</html>

@@ -55,6 +55,10 @@ const P_LAYOUT = {
       1: [{ img: 0 }],                        // 세계관(열여섯 하나의 자리) 뒤 → 키아트 밴드
     },
   },
+  turfking: {
+    // 개발 중이라 게임 화면·영상이 없다. 컨셉 키아트 1장만. 배경음은 timewars-theme 처럼 audio.
+    top: [{ img: 0 }],                        // 인트로 아래 → 컨셉 키아트로 붙잡는다
+  },
   kwonline: {
     // 아직 게임 화면 캡처가 없다. 미디어는 테스트 영상 + 영어 주제가 3곡.
     // 글벽 사이에 고르게 흩어 리듬을 준다. 스크린샷이 나오면 {img}/{s} 를 더 끼울 것.
@@ -112,6 +116,7 @@ function pSlideSet(game) {
   if (game === "deathguide") return { files: (typeof DEATHGUIDE_SLIDES !== "undefined" ? DEATHGUIDE_SLIDES : []), folder: "assets/" };
   if (game === "kwonline")  return { files: (typeof KWONLINE_SLIDES !== "undefined" ? KWONLINE_SLIDES : []), folder: "assets/" };
   if (game === "timewars")  return { files: (typeof TIMEWARS_SLIDES !== "undefined" ? TIMEWARS_SLIDES : []), folder: "assets/" };
+  if (game === "turfking")  return { files: (typeof TURFKING_SLIDES !== "undefined" ? TURFKING_SLIDES : []), folder: "assets/" };
   return { files: [], folder: "" };
 }
 

@@ -1148,5 +1148,112 @@ const PAGES = {
       ],
       cta: "Free download for Windows", back: "Back to Deother"
     }
+  },
+
+  /* ===================== Turf King =====================
+   * ⚠️ 아직 기획 확정 단계다(코드 0줄, 2026-08-07). itch 도 "In development. Follow for updates."
+   *   — 다운로드 빌드가 없다. 그래서 '개발 중'을 명확히 하고, 미구현을 구현인 척 쓰지 않는다(함정 2).
+   *   itch·기획 문서(TK_DESIGN/TK_WORLD/TK_ROSTER)에 공개된 범위까지만.
+   *   본체 착수는 FN(Fighting Nations) 복제로 8/15 이후. 출처: F:\TurfKing\Docs\.
+   */
+  turfking: {
+    ko: {
+      title: "터프 킹",
+      tagline: "4인 온라인 협동 벨트스크롤 — 네 것을 되찾아라",
+      intro: "자기 조직에 배신당한 다섯 도시의 조폭들이 같은 처지끼리 뭉쳐, 맨손으로 자기 나와바리를 되찾는 4인 협동 벨트스크롤. 「용과 같이」와 「더블드래곤」 사이의 손맛을 노린다. 아직 개발 중이다.",
+      sections: [
+        {
+          h: "버림받은 자들",
+          p: [
+            "너는 그들에게 전부를 줬다. 그들은 너를 버렸다.",
+            "도쿄·서울·홍콩·뉴욕·런던 — 다섯 도시를 주름잡던 다섯 남자가 자기 조직에게 팔려나간다. 이제 그들에게 남은 건 서로, 그리고 아주 긴 이름들의 명단뿐이다.",
+            "한 챕터가 그중 한 명의 귀향이다. 나머지 셋이 함께 간다. 배신한 보스를 쓰러뜨리면 그 도시가, 그리고 그 파이터가 내 것이 된다."
+          ]
+        },
+        {
+          h: "맨손, 4버튼",
+          p: [
+            "펀치·킥·잡기·구르기. 커맨드 입력도, 기술표도, 외워야 할 프레임 데이터도 없다.",
+            "각 파이터는 200개가 넘는 고유 타격 애니메이션을 갖고, 게임이 그중 알맞은 것을 대신 골라준다. 플레이어는 그냥 계속 휘두르면 된다.",
+            "이 손맛은 Deother 의 격투게임 Fighting Nations 에서 검증된 무브·타격감을 토대로 만든다 — 백지에서 시작하지 않는다."
+          ]
+        },
+        {
+          h: "서로 등지지 않고, 함께",
+          p: [
+            "최대 4인 드롭인 협동. 빈자리는 등을 봐주는 — 그러면서 잔소리도 하는 — AI 동료가 채운다.",
+            "누군가 이기기 위해 누군가 질 필요가 없다. 등수도, 킬 경쟁도 없다. 각자의 통계(총 KO·최대 콤보·구출 횟수)만 남는다. 협동이 제로섬으로 무너지지 않게 설계한다."
+          ]
+        },
+        {
+          h: "지금 어디까지 — 개발 중",
+          p: [
+            "아직 기획이 확정된 단계다. itch 페이지는 다운로드 빌드가 아니라 개발 소개다 — \"In development. Follow for updates.\"",
+            "확정된 것과 앞으로 만들 것:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ 기획·세계관 확정 (버림받은 자들, 다섯 도시)",
+              "✅ 20명 파이터 로스터 · 컨셉 아트",
+              "✅ FN 의 225개 무브·타격감 자산 재활용 경로",
+              "⬜ 4인 온라인 협동 (온라인은 전부 새 작업)",
+              "⬜ 다섯 도시 캠페인 (도쿄·서울·홍콩·뉴욕·런던)",
+              "⬜ 도시 정복 = 파이터 획득"
+            ]
+          }
+        }
+      ],
+      cta: "itch 에서 팔로우", back: "Deother로 돌아가기"
+    },
+    en: {
+      title: "Turf King",
+      tagline: "A four-player online co-op brawler — take back what's yours",
+      intro: "Crime bosses from five cities, betrayed by their own crews, band together to take back their turf bare-knuckle. A four-player co-op beat 'em up aiming for the feel of Yakuza meets Double Dragon. Still in development.",
+      sections: [
+        {
+          h: "They gave you up",
+          p: [
+            "You gave them everything. They gave you up.",
+            "Tokyo, Seoul, Hong Kong, New York, London — five men who ran those cities, sold out by their own crews. Now they've got nothing left but each other, and a very long list of names.",
+            "Every chapter is one of them going home. The other three come along. Beat the boss who betrayed you and their city — and their fighter — is yours."
+          ]
+        },
+        {
+          h: "Bare knuckles, four buttons",
+          p: [
+            "Punch, kick, grab, roll. No motion inputs, no command lists, no frame data to memorize.",
+            "Every fighter draws from a library of over 200 unique attack animations, and the game picks the good one for you. You just keep swinging.",
+            "The feel is built on the moves and impact tuning proven in Deother's fighting game, Fighting Nations — not from a blank page."
+          ]
+        },
+        {
+          h: "Fight together, not against each other",
+          p: [
+            "Drop-in co-op for up to four. Empty slots fill with AI crew who watch your back and give you grief about it.",
+            "Nobody has to lose for somebody to win. No rankings, no kill-stealing — just each player's own stats (total KOs, best combo, rescues). Built so co-op never collapses into a zero-sum race."
+          ]
+        },
+        {
+          h: "Where it stands — in development",
+          p: [
+            "The design is locked; the code is not started yet. The itch page is a dev intro, not a build — \"In development. Follow for updates.\"",
+            "What's decided, and what's still to build:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Story & world locked (the betrayed, five cities)",
+              "✅ 20-fighter roster · concept art",
+              "✅ A path to reuse 225 moves & impact tech from Fighting Nations",
+              "⬜ Four-player online co-op (all-new netcode work)",
+              "⬜ The five-city campaign (Tokyo, Seoul, Hong Kong, New York, London)",
+              "⬜ Take a city, take a fighter"
+            ]
+          }
+        }
+      ],
+      cta: "Follow on itch", back: "Back to Deother"
+    }
   }
 };
