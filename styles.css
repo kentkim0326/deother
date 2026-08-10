@@ -489,3 +489,6 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
 .roster-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 22px 0; }
 .roster-row img { flex: 1 1 130px; min-width: 0; aspect-ratio: 2 / 3; object-fit: cover;
   border-radius: 8px; border: 1px solid var(--line); background: #000; }
+
+/* origin(왜 시작했나) 섹션의 영상 — 긴 1인칭 텍스트 뒤 단일 영상, 중앙 정렬 */
+.origin-video { margin: 34px auto 0; max-width: 720px; }

@@ -105,6 +105,11 @@ function render(code) {
   document.getElementById("videos")
     .replaceChildren(...VIDEOS.map(v => videoCard(v.id, v.label, v.date)));
 
+  // origin(왜 시작했나) 섹션은 창업자 1인칭 긴 글이라, 남자 캐릭터 영상 하나로 글벽을 끊는다.
+  // set() 처럼 요소가 없어도 안전하게 (함정 1).
+  const orVid = document.getElementById("orVideo");
+  if (orVid) orVid.replaceChildren(videoCard("96R0Zv4hrAo", "Fighting Nations — male fighter", "2026"));
+
   // --- 언어별 주제가 ---
   set("sgHeading", t.songs.heading);
   set("sgLead", t.songs.lead);
