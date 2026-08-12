@@ -7,6 +7,9 @@
 
 ## 이어받기 (새 노트북 / 새 세션)
 
+> **2026-08-10 노트북 반납.** 사무실 복귀 시 최근 세션 요약·바로 다음·반납 전 체크는
+> `HANDOFF_2026-08-10.md` 를 먼저 보라. 이 문서(CLAUDE.md)는 전체 맥락(항상 최신)이다.
+
 ```bash
 git clone https://github.com/kentkim0326/deother.git
 cd deother
@@ -330,6 +333,8 @@ flex-wrap 이라 데스크탑 4~5명/모바일 2~3명씩 접힌다). 처음엔 �
     (카드는 9종 모두 10개 언어)
 - 슬라이드쇼, 영상 다수, IP 커버 멀티링크
 - 게임들을 관통하는 관점 문구 (`works.note`) — 10개 언어
+- **FN `origin`(왜 시작했나) 섹션에 남자 캐릭터 영상** — `index.html #orVideo` + `app.js`(videoCard 재사용).
+  FN 은 상세페이지가 없고 메인 섹션이라, 영상은 메인의 텍스트 긴 섹션에 넣는다.
 - **KWO 서버 Fly.io 상시 호스팅 완료** — 터널 졸업, 고정 주소 `wss://kw-mmo-server.fly.dev`
 - **KWO 상세: 영어 주제가 영상 3편 + 진입 시 EDM 배경음악 + 실제 모바일 플레이 화면 2장**
 - **Soomba 게임 추가** — 카드(10개 언어)+상세(ko/en)+캐릭터 일러스트, itch Public
