@@ -1255,5 +1255,91 @@ const PAGES = {
       ],
       cta: "Follow on itch", back: "Back to Deother"
     }
+  },
+
+  /* ===================== Wall Street the Game =====================
+   * 완성·배포된 브라우저 교육 게임(PWA, wall-street-phi.vercel.app). itch 아님.
+   * 배포 페이지·README/HANDOFF 에 공개된 범위로 쓴다. 출처: F:\stock100.
+   * 교육용이며 투자 조언이 아니라는 것을 명시한다(게임 자체가 그렇게 고지한다).
+   */
+  wallstreet: {
+    ko: {
+      title: "월스트리트 234년",
+      tagline: "다시 태어난 투자자 — 1792년부터 2026년까지",
+      intro: "2026년, 당신은 90세로 세상을 떠났다. 그런데 눈을 떠보니 1792년, 막 뉴욕증시가 태어난 버튼우드 나무 아래다. 불멸의 몸으로 300년을 살게 된 손에는 $10,000이 쥐어져 있다. 미국 주식 234년을 한 해씩 다시 살며 역사와 경제를 온몸으로 배우는 브라우저 교육 게임이다.",
+      sections: [
+        {
+          h: "다시 태어난 투자자",
+          p: [
+            "이번 생엔 미래를 안다. 1792년부터 2026년까지, 미국 주식의 흥망성쇠를 처음부터 다시 지나간다.",
+            "시대마다 새 회사가 상장하고, 대공황·오일쇼크·닷컴버블·금융위기가 시장을 뒤흔든다. 어느 회사를, 언제 사서, 언제 팔 것인가.",
+            "애플처럼 100년을 살아남아 세계 1위가 되는 회사도, 야후·엔론·리먼처럼 0원으로 사라지는 회사도 있다. 2026년, 당신의 $10,000은 얼마가 되어 있을까."
+          ]
+        },
+        {
+          h: "오직 턴제 — 매년 직접 결정한다",
+          p: [
+            "자동으로 흐르면 그냥 구경이 된다. 그래서 이 게임은 오직 턴제다. 매 해에 무엇을 사고팔지 직접 정하고 다음 해로 넘기면, 그 즉시 자산이 얼마 늘었는지 줄었는지 표시된다.",
+            "능동적으로 결정하고 1년 뒤 손익을 바로 체감한다. 살 종목이 적은 초기(1900년 이전)는 5년씩, 1900년부터는 1년씩 진행한다. 자동·속도 모드는 일부러 넣지 않았다."
+          ]
+        },
+        {
+          h: "실제 역사가 데이터다",
+          p: [
+            "41개 실제 종목의 주가는 역사의 추세와 주요 폭락·급등을 반영한 교육용 근사치다(분할 조정 기준). NYSE 와 나스닥을 구분한다.",
+            "'파산'과 '피인수'는 다르다 — 야후·RCA·넷스케이프는 망한 게 아니라 인수되어 주주가 현금을 회수했다. 이 구분이 교훈의 핵심이다.",
+            "내 자산은 다우지수(시장 평균)와 나란히 그래프로 표시된다. 시장을 이겼는가 졌는가를 한눈에 본다."
+          ]
+        },
+        {
+          h: "역사와 경제를 함께",
+          p: [
+            "해마다 '뉴스 & 배경지식' 패널에 그 시대의 경제·역사 해설이 쌓인다. 버튼우드 협정부터 닷컴버블까지, 무슨 일이 왜 일어났는지 함께 배운다.",
+            "아이들과 입문자가 '언제 뭘 샀으면 때돈을 벌고 언제 망했는지'를 실제 데이터로 체감하도록 만들었다. 브라우저에서 무료로, 설치 없이 바로 플레이한다.",
+            "※ 실제 투자 조언이 아니다 — 교육용 게임이다."
+          ]
+        }
+      ],
+      cta: "브라우저에서 플레이", back: "Deother로 돌아가기"
+    },
+    en: {
+      title: "Wall Street the Game",
+      tagline: "A reborn investor — from 1792 to 2026",
+      intro: "In 2026 you die at ninety. Then you open your eyes in 1792, under the buttonwood tree where the New York Stock Exchange has just been born. Reborn to live three hundred years, you hold $10,000. A browser education game where you relive 234 years of the US stock market one year at a time, learning history and economics along the way.",
+      sections: [
+        {
+          h: "A reborn investor",
+          p: [
+            "This life, you know the future. From 1792 to 2026, you pass through the rise and fall of American stocks all over again.",
+            "New companies list in every era, and the Great Depression, the oil shocks, the dot-com bubble, the financial crisis all shake the market. Which company do you buy, when, and when do you sell?",
+            "Some, like Apple, survive a century to become the world's most valuable; others — Yahoo, Enron, Lehman — vanish to zero. In 2026, what has your $10,000 become?"
+          ]
+        },
+        {
+          h: "Turn-based only — you decide every year",
+          p: [
+            "If it runs on its own, you just watch. So this game is turn-based only. Each year you choose what to buy and sell, advance to the next year, and immediately see how much your wealth rose or fell.",
+            "You decide actively and feel the profit or loss a year later, right away. The early years with few stocks (before 1900) move five at a time; from 1900 it's year by year. Auto and fast-forward modes were left out on purpose."
+          ]
+        },
+        {
+          h: "Real history is the data",
+          p: [
+            "The prices of 41 real stocks are educational approximations reflecting the trends and the major crashes and surges of history (split-adjusted). NYSE and Nasdaq are distinguished.",
+            "'Bankrupt' and 'acquired' are not the same — Yahoo, RCA, and Netscape didn't fail; they were bought out and shareholders cashed in. That distinction is the heart of the lesson.",
+            "Your wealth is charted right alongside the Dow (the market average), so you can see at a glance whether you beat the market or lost to it."
+          ]
+        },
+        {
+          h: "History and economics together",
+          p: [
+            "Every year a 'News & Background' panel fills with economic and historical commentary for that era. From the Buttonwood Agreement to the dot-com bubble, you learn what happened and why.",
+            "It's built so that kids and beginners feel, through real data, when buying something would have made a fortune and when it would have wiped them out. Free in the browser, no install, play right away.",
+            "※ This is not investment advice — it is an educational game."
+          ]
+        }
+      ],
+      cta: "Play in the browser", back: "Back to Deother"
+    }
   }
 };
