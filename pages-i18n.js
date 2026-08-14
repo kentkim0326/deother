@@ -33,11 +33,13 @@ const PAGE_VIDEOS = {
   // 대표 소개(founder). 세 편 다 2026-08-14 에 YouTube oEmbed 로 제목·채널을 확인했다.
   //   WL6M1ZloXMs — 채널 '세바시 강연 Sebasi Talk', 154회
   //   14eDA7WNLy8 — 채널 'Kent Kim', AOF Film Festival 2017 수상작
-  //   wWYc2a0v0Ys — 채널 'Kent Kim', Fighting Nations
+  //   yy3G9LZrPf8 — 채널 'Fighting Nations', 「225 Attack Moves」 ← 대표님이 직접 지목(2026-08-14).
+  //     처음엔 wWYc2a0v0Ys(첫 언리얼 빌드, 화면 녹화)를 넣었는데 창 캡처라 화질이 떨어진다.
+  //     대표님이 지목한 영상이 우선이다.
   founder: [
     { id: "WL6M1ZloXMs", ko: "세바시 154회 — 젊을 때 '미치지 않으면' 미친 것이다", en: "Sebasi 154 — a talk on going all in while you're young" },
     { id: "14eDA7WNLy8", ko: "ELEGERE — 2017 헐리우드 AOF 단편영화제 호러 부문 수상작", en: "ELEGERE — winner, horror category, AOF Film Festival 2017 (Hollywood)" },
-    { id: "wWYc2a0v0Ys", ko: "Fighting Nations — 게임 영상", en: "Fighting Nations — game footage" },
+    { id: "yy3G9LZrPf8", ko: "Fighting Nations — 225가지 공격 기술", en: "Fighting Nations — 225 attack moves" },
   ],
 };
 
