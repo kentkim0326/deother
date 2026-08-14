@@ -1371,7 +1371,7 @@ const PAGES = {
         {
           h: "1만 통의 편지",
           p: [
-            "이혼한 어머니를 찾아 미국으로 건너간 것은 고등학교 1학년 때였다. 고생하는 어머니를 보며 독하게 공부해 하버드에 들어갔다.",
+            "이혼한 어머니를 찾아 미국으로 건너간 것은 고등학교 1학년 때였다. 고생하는 어머니를 보며 독하게 공부해, 이민 3년 반 만에 하버드에 들어갔다.",
             "대학 시절 전 세계의 정치·경제 리더 1만 명에게 편지를 썼다. 워런 버핏, 마거릿 대처, 잭 웰치, 코카콜라 회장, 미쓰비시 사장, 바이올리니스트 예후디 메뉴인, 에드워드 케네디 상원의원 등 100명이 넘게 답장을 보내왔다.",
             "2002년 어머니가 세상을 떠난 해부터 간증을 시작해, 전국의 교회와 고아원·대학교·외국어고등학교에서 25년째 강연하고 있다. KBS 아침마당에 세 번 출연했고, 세바시 154회 연사로 섰고, 안동MBC에서 하버드식 학습법을 20강으로 만들어 1년간 방송했다."
           ]
@@ -1456,7 +1456,7 @@ const PAGES = {
         {
           h: "Ten thousand letters",
           p: [
-            "He was a high-school freshman when he crossed the Pacific to find his divorced mother. Watching her struggle, he studied himself into Harvard.",
+            "He was a high-school freshman when he crossed the Pacific to find his divorced mother. Watching her struggle, he studied himself into Harvard — three and a half years after arriving in the US.",
             "As an undergraduate he wrote to ten thousand political and business leaders around the world. More than a hundred wrote back — Warren Buffett, Margaret Thatcher, Jack Welch, the chairman of Coca-Cola, the president of Mitsubishi, the violinist Yehudi Menuhin, Senator Edward Kennedy.",
             "From 2002, the year his mother died, he began speaking publicly, and he has kept it up for twenty-five years — churches, orphanages, universities and foreign-language high schools across Korea. Three appearances on KBS Morning Yard, a Sebasi talk, and a twenty-part series on Harvard study methods broadcast for a year on Andong MBC."
           ]
