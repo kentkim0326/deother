@@ -1356,16 +1356,17 @@ const PAGES = {
      출처: 대표님 Gamma 문서 「김형섭 (Kent Kim)」 18장 (2026-08-14 읽음).
      ※ 여기 수치는 대표님이 직접 확정해 준 것만 단정한다.
         - 곡: "500곡 작곡, 그중 407곡 유통" ← 대표 확인 (2026-08-14)
-        - 책: 문서 안에서 21권/22권이 갈리고 i18n.js team 은 20권이다.
-              사이트 전체와 어긋나지 않게 "스무 권이 넘는"으로 쓴다. 확정되면 숫자로 바꿀 것.
-        - 하버드 입학 연차도 문서(3년)와 team(3년 반)이 달라 아예 쓰지 않았다.
-     ※ 뺀 것: 문서의 "데니스 리치 교수 밑에서 수업" — 리치는 하버드 교수가 아니라
-        벨연구소 연구원이었다. 확인 전에는 쓰지 않는다(함정 2). 청와대 미팅 추진도 뺐다. */
+        - 책: "23권" ← 대표 확인 (2026-08-14). i18n.js 의 team bullet 10개 언어도 23으로 맞춰 놨다.
+              한쪽만 고치면 사이트 안에서 숫자가 어긋난다.
+        - 하버드 입학 연차는 문서(3년)와 team(3년 반)이 달라 아직 아무 데도 쓰지 않았다.
+     ※ 보류: "데니스 리치 교수에게 CS50" — 대표님 말씀이지만 CS50 은 1989년 개설이고
+        리치는 1967년부터 벨연구소였다. 연도가 안 맞아 대기 중(CLAUDE.md 「⚠️ 대표 소개」 3항).
+        청와대 미팅 추진도 뺐다. */
   founder: {
     ko: {
       title: "김형섭 (Kent Kim)",
       tagline: "게임을 만들기 전에, 이미 스무 해를 만들어온 사람",
-      intro: "디아더 대표. 하버드 기숙사에서 전 세계 1만 명에게 편지를 썼고, 동아일보에 만화를 연재했고, 갓을 쓰고 7개 국어로 힙합을 불렀고, 헐리우드 단편영화제에서 호러 부문 상을 받았고, 스무 권이 넘는 책을 냈다. 게임은 그 모든 것이 흘러든 마지막 그릇이다.",
+      intro: "디아더 대표. 하버드 기숙사에서 전 세계 1만 명에게 편지를 썼고, 동아일보에 만화를 연재했고, 갓을 쓰고 7개 국어로 힙합을 불렀고, 헐리우드 단편영화제에서 호러 부문 상을 받았고, 23권의 책을 냈다. 게임은 그 모든 것이 흘러든 마지막 그릇이다.",
       sections: [
         {
           h: "1만 통의 편지",
@@ -1392,9 +1393,9 @@ const PAGES = {
           ]
         },
         {
-          h: "스무 권이 넘는 책",
+          h: "23권의 책",
           p: [
-            "2000년부터 책을 냈다. 1만 명에게 편지를 써 답장을 받은 이야기에서 시작해 공부법, 조기유학, 자기계발로 이어졌다.",
+            "2000년부터 23권을 냈다. 1만 명에게 편지를 써 답장을 받은 이야기에서 시작해 공부법, 조기유학, 자기계발로 이어졌다.",
             "하버드에서 만든 시간관리법을 정리한 『하버드식 시간관리 켄트김의 타임블럭』이 대표작이다."
           ]
         },
@@ -1450,7 +1451,7 @@ const PAGES = {
     en: {
       title: "Kent Kim (김형섭)",
       tagline: "Twenty years of making things, before the games",
-      intro: "Founder of Deother. He wrote to ten thousand people from a Harvard dorm, drew a year-long strip for a national newspaper, rapped in seven languages wearing a Joseon horsehair hat, won the horror category at a Hollywood short film festival, and published more than twenty books. The games are the vessel all of it finally poured into.",
+      intro: "Founder of Deother. He wrote to ten thousand people from a Harvard dorm, drew a year-long strip for a national newspaper, rapped in seven languages wearing a Joseon horsehair hat, won the horror category at a Hollywood short film festival, and published twenty-three books. The games are the vessel all of it finally poured into.",
       sections: [
         {
           h: "Ten thousand letters",
@@ -1477,9 +1478,9 @@ const PAGES = {
           ]
         },
         {
-          h: "More than twenty books",
+          h: "Twenty-three books",
           p: [
-            "He has been publishing since 2000 — starting with the story of writing ten thousand letters and getting answers, then study methods, early study abroad, and self-development.",
+            "He has published twenty-three books since 2000 — starting with the story of writing ten thousand letters and getting answers, then study methods, early study abroad, and self-development.",
             "The best known is Kent Kim's Time Block, the Harvard-style time management method he built as a student."
           ]
         },
