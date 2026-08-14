@@ -228,7 +228,7 @@ const I18N = {
       heading: "Who makes it",
       name: "Kent Kim (김형섭)", role: "Founder · Creative Director",
       bullets: [
-        "Harvard, Economics — emigrated to the US in 1989, admitted in three and a half years",
+        "Harvard, Economics — emigrated to the US in 1989",
         "23 books published in Korea and the US · 407 songs released on Spotify since 2012",
         "23+ years of martial arts: judo, boxing, Hapkido, Haidong Gumdo, Muay Thai, Taekwondo, Shaolin kung fu",
         "Excellence Award, Incheon Airport AI competition · Jeju Governor's Award, national AI music competition · selected for the 3rd cohort of the Ahn Cheol-soo Foundation's AI vibe-coding programme",
@@ -331,7 +331,7 @@ const I18N = {
       heading: "만드는 사람",
       name: "김형섭 (Kent Kim)", role: "대표 · 크리에이티브 디렉터",
       bullets: [
-        "하버드 경제학과 — 1989년 미국 이민, 3년 반 만에 합격",
+        "하버드 경제학과 — 1989년 미국 이민",
         "한국·미국에서 23권 출간 · 2012년부터 스포티파이에 407곡 발매",
         "23년 이상 무술 수련: 유도, 복싱, 합기도, 해동검도, 무에타이, 태권도, 소림권",
         "AI 인천공항 공모전 최우수상 · AI 음원 전국체전 공모전 제주도지사상 · 안철수재단 AI 바이브 코딩 3기 선발",
@@ -431,7 +431,7 @@ const I18N = {
       more: "了解创始人的完整故事 →",
       heading: "谁在做", name: "Kent Kim（金炯燮）", role: "创始人 · 创意总监",
       bullets: [
-        "哈佛大学经济学系——1989 年移民美国，三年半后入学",
+        "哈佛大学经济学系——1989 年移民美国",
         "在韩国与美国出版 23 本书 · 2012 年起在 Spotify 发行 407 首作品",
         "23 年以上武术经历：柔道、拳击、合气道、海东剑道、泰拳、跆拳道、少林拳",
         "仁川机场 AI 大赛最优秀奖 · 全国 AI 音乐大赛济州道知事奖 · 入选安哲秀财团 AI Vibe Coding 第三期",
@@ -531,7 +531,7 @@ const I18N = {
       more: "代表のこれまでを見る →",
       heading: "作っている人", name: "Kent Kim（金炯燮）", role: "代表 · クリエイティブディレクター",
       bullets: [
-        "ハーバード大学経済学部——1989年に渡米、3年半で合格",
+        "ハーバード大学経済学部——1989年に渡米",
         "韓国と米国で23冊を出版 · 2012年からSpotifyに407曲を配信",
         "23年以上の武術経験：柔道、ボクシング、合気道、海東剣道、ムエタイ、テコンドー、少林拳",
         "仁川空港AIコンペ最優秀賞 · 全国AI音楽コンペ済州道知事賞 · 安哲秀財団AIバイブコーディング3期に選出",
@@ -631,7 +631,7 @@ const I18N = {
       more: "La historia completa del fundador →",
       heading: "Quién lo hace", name: "Kent Kim (김형섭)", role: "Fundador · Director creativo",
       bullets: [
-        "Harvard, Economía: emigró a EE. UU. en 1989, admitido en tres años y medio",
+        "Harvard, Economía: emigró a EE. UU. en 1989",
         "23 libros publicados en Corea y EE. UU. · 407 canciones en Spotify desde 2012",
         "Más de 23 años de artes marciales: judo, boxeo, hapkido, Haidong Gumdo, muay thai, taekwondo, kung-fu Shaolin",
         "Premio a la Excelencia en el concurso de IA del Aeropuerto de Incheon · Premio del Gobernador de Jeju en el concurso nacional de música con IA · seleccionado para la 3.ª promoción del programa de vibe coding con IA de la Fundación Ahn Cheol-soo",
@@ -731,7 +731,7 @@ const I18N = {
       more: "A história completa do fundador →",
       heading: "Quem o faz", name: "Kent Kim (김형섭)", role: "Fundador · Diretor criativo",
       bullets: [
-        "Harvard, Economia — emigrou para os EUA em 1989, admitido em três anos e meio",
+        "Harvard, Economia — emigrou para os EUA em 1989",
         "23 livros publicados na Coreia e nos EUA · 407 músicas no Spotify desde 2012",
         "Mais de 23 anos de artes marciais: judo, boxe, hapkido, Haidong Gumdo, muay thai, taekwondo, kung fu Shaolin",
         "Prémio de Excelência no concurso de IA do Aeroporto de Incheon · Prémio do Governador de Jeju no concurso nacional de música com IA · selecionado para a 3.ª turma do programa de vibe coding com IA da Fundação Ahn Cheol-soo",
@@ -831,7 +831,7 @@ const I18N = {
       more: "Le parcours complet du fondateur →",
       heading: "Qui le fabrique", name: "Kent Kim (김형섭)", role: "Fondateur · Directeur créatif",
       bullets: [
-        "Harvard, économie — émigré aux États-Unis en 1989, admis en trois ans et demi",
+        "Harvard, économie — émigré aux États-Unis en 1989",
         "23 livres publiés en Corée et aux États-Unis · 407 titres sur Spotify depuis 2012",
         "Plus de 23 ans d'arts martiaux : judo, boxe, hapkido, Haidong Gumdo, muay-thaï, taekwondo, kung-fu Shaolin",
         "Prix d'excellence au concours d'IA de l'aéroport d'Incheon · Prix du gouverneur de Jeju au concours national de musique par IA · sélectionné pour la 3e promotion du programme de vibe coding IA de la Fondation Ahn Cheol-soo",
@@ -931,7 +931,7 @@ const I18N = {
       more: "Der ganze Weg des Gründers →",
       heading: "Wer es macht", name: "Kent Kim (김형섭)", role: "Gründer · Creative Director",
       bullets: [
-        "Harvard, Volkswirtschaft — 1989 in die USA ausgewandert, nach dreieinhalb Jahren aufgenommen",
+        "Harvard, Volkswirtschaft — 1989 in die USA ausgewandert",
         "23 Bücher in Korea und den USA veröffentlicht · 407 Songs seit 2012 auf Spotify",
         "Über 23 Jahre Kampfkunst: Judo, Boxen, Hapkido, Haidong Gumdo, Muay Thai, Taekwondo, Shaolin-Kung-Fu",
         "Exzellenzpreis beim KI-Wettbewerb des Flughafens Incheon · Preis des Gouverneurs von Jeju beim nationalen KI-Musikwettbewerb · ausgewählt für den 3. Jahrgang des KI-Vibe-Coding-Programms der Ahn-Cheol-soo-Stiftung",
@@ -1031,7 +1031,7 @@ const I18N = {
       more: "Полная история основателя →",
       heading: "Кто делает", name: "Kent Kim (김형섭)", role: "Основатель · Креативный директор",
       bullets: [
-        "Гарвард, экономика — эмигрировал в США в 1989-м, поступил через три с половиной года",
+        "Гарвард, экономика — эмигрировал в США в 1989-м",
         "23 книг издано в Корее и США · 407 песен на Spotify с 2012 года",
         "Более 23 лет боевых искусств: дзюдо, бокс, хапкидо, хэдон гымдо, муай-тай, тхэквондо, шаолиньское кунг-фу",
         "Премия за выдающиеся достижения на конкурсе ИИ аэропорта Инчхон · приз губернатора Чеджу на национальном конкурсе ИИ-музыки · отобран в 3-й поток программы ИИ vibe coding фонда Ан Чхоль Су",
@@ -1131,7 +1131,7 @@ const I18N = {
       more: "قصة المؤسس كاملة ←",
       heading: "من يصنعها", name: "‏Kent Kim (김형섭)", role: "المؤسس · المدير الإبداعي",
       bullets: [
-        "جامعة هارفارد، الاقتصاد — هاجر إلى الولايات المتحدة عام 1989 وقُبل بعد ثلاث سنوات ونصف",
+        "جامعة هارفارد، الاقتصاد — هاجر إلى الولايات المتحدة عام 1989",
         "‏23 كتابًا منشورًا في كوريا والولايات المتحدة · 407 أغنية على Spotify منذ 2012",
         "أكثر من 23 عامًا في الفنون القتالية: الجودو والملاكمة والهابكيدو والهايدونغ غومدو والمواي تاي والتايكوندو وكونغ فو شاولين",
         "جائزة التميّز في مسابقة الذكاء الاصطناعي بمطار إنتشون · جائزة حاكم جيجو في المسابقة الوطنية للموسيقى بالذكاء الاصطناعي · الاختيار ضمن الدفعة الثالثة لبرنامج AI Vibe Coding من مؤسسة آن تشول-سو",
