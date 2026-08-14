@@ -32,6 +32,9 @@ const KWONLINE_SLIDES = ["kwo-shot-01.jpg", "kwo-shot-02.jpg"];   // assets/ (�
 const TIMEWARS_SLIDES = ["timewars-cover.jpg"];   // assets/ (키아트. 게임 스크린샷 나오면 추가)
 // 로스터 20명 (도시별 대표 1장). assets/slides-tk/. 세로 전신 아트 → 슬라이드쇼가 세로 프레임으로 뜬다.
 const TURFKING_SLIDES = ["tk-01.jpg","tk-02.jpg","tk-03.jpg","tk-04.jpg","tk-05.jpg","tk-06.jpg","tk-07.jpg","tk-08.jpg","tk-09.jpg","tk-10.jpg","tk-11.jpg","tk-12.jpg","tk-13.jpg","tk-14.jpg","tk-15.jpg","tk-16.jpg","tk-17.jpg","tk-18.jpg","tk-19.jpg","tk-20.jpg"];
+// 대표 소개(founder.html). assets/ — 세로 표지 4장 + 가로 기사 1장.
+// 0,1 = 책 표지 두 장(한 줄에 나란히), 2 = 신동아 기사(가로 밴드), 3,4 = 호러 표지 + SERAPHIM.
+const FOUNDER_SLIDES = ["founder-manhwa.jpg", "founder-timeblock.jpg", "founder-sindonga.jpg", "founder-horror.jpg", "seraphim-cover.jpg"];
 const IP_COVERS = ["ip-01.jpg","ip-02.jpg","ip-03.jpg","ip-04.jpg","ip-05.jpg","ip-06.jpg","ip-07.jpg","ip-08.jpg","ip-09.jpg","ip-10.jpg","ip-11.jpg","ip-14.jpg","ip-15.jpg","ip-12.jpg","ip-13.jpg","ip-16.jpg","ip-17.jpg"];   // assets/covers/ — .\add-slides.ps1 ip 가 채운다
 // 표지에 제목이 이미 박혀 있으므로 번역하지 않고 원제를 쓴다. 순서는 IP_COVERS 와 같다.
 const IP_TITLES = ["훈민정음","판문점","조선늑대","저승사자","장보고","아리랑전사단","총기허용의 날","문신귀","아파트","요양원","전원주택","조선닌자 일지매","도깨비왕","Ring of Solomon: Dino Wars","Kingdom Wars","Empire of Hearts","Seraphim"];
@@ -221,6 +224,7 @@ const I18N = {
       ]
     },
     team: {
+      more: "The founder's full story →",
       heading: "Who makes it",
       name: "Kent Kim (김형섭)", role: "Founder · Creative Director",
       bullets: [
@@ -323,6 +327,7 @@ const I18N = {
       ]
     },
     team: {
+      more: "대표 소개 자세히 보기 →",
       heading: "만드는 사람",
       name: "김형섭 (Kent Kim)", role: "대표 · 크리에이티브 디렉터",
       bullets: [
@@ -423,6 +428,7 @@ const I18N = {
       ]
     },
     team: {
+      more: "了解创始人的完整故事 →",
       heading: "谁在做", name: "Kent Kim（金炯燮）", role: "创始人 · 创意总监",
       bullets: [
         "哈佛大学经济学系——1989 年移民美国，三年半后入学",
@@ -522,6 +528,7 @@ const I18N = {
       ]
     },
     team: {
+      more: "代表のこれまでを見る →",
       heading: "作っている人", name: "Kent Kim（金炯燮）", role: "代表 · クリエイティブディレクター",
       bullets: [
         "ハーバード大学経済学部——1989年に渡米、3年半で合格",
@@ -621,6 +628,7 @@ const I18N = {
       ]
     },
     team: {
+      more: "La historia completa del fundador →",
       heading: "Quién lo hace", name: "Kent Kim (김형섭)", role: "Fundador · Director creativo",
       bullets: [
         "Harvard, Economía: emigró a EE. UU. en 1989, admitido en tres años y medio",
@@ -720,6 +728,7 @@ const I18N = {
       ]
     },
     team: {
+      more: "A história completa do fundador →",
       heading: "Quem o faz", name: "Kent Kim (김형섭)", role: "Fundador · Diretor criativo",
       bullets: [
         "Harvard, Economia — emigrou para os EUA em 1989, admitido em três anos e meio",
@@ -819,6 +828,7 @@ const I18N = {
       ]
     },
     team: {
+      more: "Le parcours complet du fondateur →",
       heading: "Qui le fabrique", name: "Kent Kim (김형섭)", role: "Fondateur · Directeur créatif",
       bullets: [
         "Harvard, économie — émigré aux États-Unis en 1989, admis en trois ans et demi",
@@ -918,6 +928,7 @@ const I18N = {
       ]
     },
     team: {
+      more: "Der ganze Weg des Gründers →",
       heading: "Wer es macht", name: "Kent Kim (김형섭)", role: "Gründer · Creative Director",
       bullets: [
         "Harvard, Volkswirtschaft — 1989 in die USA ausgewandert, nach dreieinhalb Jahren aufgenommen",
@@ -1017,6 +1028,7 @@ const I18N = {
       ]
     },
     team: {
+      more: "Полная история основателя →",
       heading: "Кто делает", name: "Kent Kim (김형섭)", role: "Основатель · Креативный директор",
       bullets: [
         "Гарвард, экономика — эмигрировал в США в 1989-м, поступил через три с половиной года",
@@ -1116,6 +1128,7 @@ const I18N = {
       ]
     },
     team: {
+      more: "قصة المؤسس كاملة ←",
       heading: "من يصنعها", name: "‏Kent Kim (김형섭)", role: "المؤسس · المدير الإبداعي",
       bullets: [
         "جامعة هارفارد، الاقتصاد — هاجر إلى الولايات المتحدة عام 1989 وقُبل بعد ثلاث سنوات ونصف",

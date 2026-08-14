@@ -138,6 +138,7 @@ function render(code) {
   set("tmRole", t.team.role);
   document.getElementById("tmBullets")
     .replaceChildren(...t.team.bullets.map(b => el("li", null, b)));
+  set("tmMore", t.team.more);
 
   // --- 디아더가 만든 것 ---
   set("wkHeading", t.works.heading);

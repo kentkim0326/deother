@@ -30,6 +30,15 @@ const PAGE_VIDEOS = {
   soomba: [
     { id: "vM_dYTpVA3U", ko: "숨바 — 게임 영상", en: "Soomba — gameplay footage" },
   ],
+  // 대표 소개(founder). 세 편 다 2026-08-14 에 YouTube oEmbed 로 제목·채널을 확인했다.
+  //   WL6M1ZloXMs — 채널 '세바시 강연 Sebasi Talk', 154회
+  //   14eDA7WNLy8 — 채널 'Kent Kim', AOF Film Festival 2017 수상작
+  //   wWYc2a0v0Ys — 채널 'Kent Kim', Fighting Nations
+  founder: [
+    { id: "WL6M1ZloXMs", ko: "세바시 154회 — 젊을 때 '미치지 않으면' 미친 것이다", en: "Sebasi 154 — a talk on going all in while you're young" },
+    { id: "14eDA7WNLy8", ko: "ELEGERE — 2017 헐리우드 AOF 단편영화제 호러 부문 수상작", en: "ELEGERE — winner, horror category, AOF Film Festival 2017 (Hollywood)" },
+    { id: "wWYc2a0v0Ys", ko: "Fighting Nations — 게임 영상", en: "Fighting Nations — game footage" },
+  ],
 };
 
 const PAGES = {
@@ -1340,6 +1349,188 @@ const PAGES = {
         }
       ],
       cta: "Play in the browser", back: "Back to Deother"
+    }
+  },
+
+  /* ===================== 대표 소개 (founder) =====================
+     출처: 대표님 Gamma 문서 「김형섭 (Kent Kim)」 18장 (2026-08-14 읽음).
+     ※ 여기 수치는 대표님이 직접 확정해 준 것만 단정한다.
+        - 곡: "500곡 작곡, 그중 407곡 유통" ← 대표 확인 (2026-08-14)
+        - 책: 문서 안에서 21권/22권이 갈리고 i18n.js team 은 20권이다.
+              사이트 전체와 어긋나지 않게 "스무 권이 넘는"으로 쓴다. 확정되면 숫자로 바꿀 것.
+        - 하버드 입학 연차도 문서(3년)와 team(3년 반)이 달라 아예 쓰지 않았다.
+     ※ 뺀 것: 문서의 "데니스 리치 교수 밑에서 수업" — 리치는 하버드 교수가 아니라
+        벨연구소 연구원이었다. 확인 전에는 쓰지 않는다(함정 2). 청와대 미팅 추진도 뺐다. */
+  founder: {
+    ko: {
+      title: "김형섭 (Kent Kim)",
+      tagline: "게임을 만들기 전에, 이미 스무 해를 만들어온 사람",
+      intro: "디아더 대표. 하버드 기숙사에서 전 세계 1만 명에게 편지를 썼고, 동아일보에 만화를 연재했고, 갓을 쓰고 7개 국어로 힙합을 불렀고, 헐리우드 단편영화제에서 호러 부문 상을 받았고, 스무 권이 넘는 책을 냈다. 게임은 그 모든 것이 흘러든 마지막 그릇이다.",
+      sections: [
+        {
+          h: "1만 통의 편지",
+          p: [
+            "이혼한 어머니를 찾아 미국으로 건너간 것은 고등학교 1학년 때였다. 고생하는 어머니를 보며 독하게 공부해 하버드에 들어갔다.",
+            "대학 시절 전 세계의 정치·경제 리더 1만 명에게 편지를 썼다. 워런 버핏, 마거릿 대처, 잭 웰치, 코카콜라 회장, 미쓰비시 사장, 바이올리니스트 예후디 메뉴인, 에드워드 케네디 상원의원 등 100명이 넘게 답장을 보내왔다.",
+            "2002년 어머니가 세상을 떠난 해부터 간증을 시작해, 전국의 교회와 고아원·대학교·외국어고등학교에서 25년째 강연하고 있다. KBS 아침마당에 세 번 출연했고, 세바시 154회 연사로 섰고, 안동MBC에서 하버드식 학습법을 20강으로 만들어 1년간 방송했다."
+          ]
+        },
+        {
+          h: "만화가에서 강연가로",
+          p: [
+            "경제학을 전공했지만 4학년 때 애니메이션 「하버드맨」을 직접 만들었다. 그 인연으로 2000년 동아일보에 명언만화를 1년간 연재했고, 같은 해 만화시집 『만화보다가 하버드갔습니다』를 냈다.",
+            "월스트리트로 가는 길을 두고 만화를 택한 그때의 선택은 KBS 뉴스 「이 사람」에도 소개되었다."
+          ]
+        },
+        {
+          h: "미술가",
+          p: [
+            "외삼촌 이강소와 어머니 이강자는 모두 서울미대 출신으로 한국 미술에 이바지한 인물들이다. 어린 시절부터 그림의 영향 속에서 자랐다.",
+            "고등학교 시절 백남준을 직접 만나 그 천재성에 영향을 받았다. 뉴저지 고등학교 때부터 한글을 활용한 화가로 뉴욕과 뉴저지에서 전시를 열었고, 백인이 많이 사는 뉴저지의 모리스 박물관에 2년 연속 선정되었다.",
+            "1998년에는 「노인과 바다」의 배우 안소니 퀸이 연 서울 예술의전당 전시회에서 디렉터를 맡았다.",
+            "2023년부터는 전국을 다니며 현장에서 그리는 라이브 페인팅을 이어오고 있다 — 가로수길에서 포항 호미곶까지, 133번째 그림까지 왔다. 2024년에는 한글 유화와 아크릴화를 전 세계 태권도 관장 300명에게 선물했다."
+          ]
+        },
+        {
+          h: "스무 권이 넘는 책",
+          p: [
+            "2000년부터 책을 냈다. 1만 명에게 편지를 써 답장을 받은 이야기에서 시작해 공부법, 조기유학, 자기계발로 이어졌다.",
+            "하버드에서 만든 시간관리법을 정리한 『하버드식 시간관리 켄트김의 타임블럭』이 대표작이다."
+          ]
+        },
+        {
+          h: "TAFA — 500곡",
+          p: [
+            "「학교 종이 땡땡땡」을 만든 김메리 여사를 뉴욕에서 만나 음악적 영감을 받았다.",
+            "2012년부터 야구 모자 대신 조선의 갓을 쓰고 힙합을 부른다. 500곡이 넘는 곡을 직접 작사·작곡하고 한국어·영어·일본어·중국어·광둥어·독일어·베트남어 7개 국어로 직접 불렀다. 그중 407곡이 TAFA라는 이름으로 애플뮤직·스포티파이·아마존·네이버뮤직 등에 유통되고 있다.",
+            "정부와 지자체에는 음원을 무료로 준다. 고용노동부 노동절, 대전 사이언스페스티벌, 대한민국 학생미술대전 로고송이 그렇게 나갔다. 2026년 4월 대전시 세계과학문화포럼 AI 로고송 공모에서는 장려상을 받았다."
+          ]
+        },
+        {
+          h: "연극과 영화",
+          p: [
+            "2012년 연극계의 스승인 여세진 선생의 지도로 연극을 두 번 올렸다.",
+            "2017년에는 미국 헐리우드에서 열리는 AOF 단편영화제에 15분짜리 독립영화 「ELEGERE」를 만들어 출품했고, 호러 부문에서 수상했다."
+          ]
+        },
+        {
+          h: "소설가",
+          p: [
+            "대학 시절 속초와 설악산에서 한 달을 살며 글쓰기를 시작했다. 2025년 5월에는 처음으로 영문 SF 소설 『SERAPHIM: The Awakening of the Iron Dragon』을 미국 아마존에 냈다.",
+            "한국 역사를 바탕으로 조선늑대, 저승사자, 도깨비왕 강도현, 루시퍼와 도깨비왕의 무등산 결전, 북미대륙을 발견한 장보고, 검은 화랑, 판문점, 미국이 사라진 날을 웹소설로 연재하고 있다. 디아더의 게임 여럿이 이 이야기들에서 나왔다.",
+            "스티븐 킹의 영향으로, 그가 싫어하는 숫자 13을 써서 한국형 호러 13편을 준비하고 있다 — 하회탈, 특식, 보청귀, 문신귀, 보신탕, 고주병, 인삼밭, 전원주택, 사이비, 자율주행차, 아파트, 전자담배. 2026년 출간 예정이다."
+          ]
+        },
+        {
+          h: "게임 개발자",
+          p: [
+            "2025년 7월부터 두 달간 유니티를 배워 3D 격투 게임을 직접 만들었다. 그 게임으로 경기도콘텐츠진흥원에 선발되었고, 2025년 10월 태국 게임쇼 한국관에 한국 게임 16개 중 하나로 부스를 열었다.",
+            "10월부터 12월까지 다시 두 달 동안 언리얼 엔진으로 처음부터 개발해 해외 출시를 준비했다. 지금 디아더가 소개하는 게임은 열 종이다."
+          ]
+        },
+        {
+          h: "AI와 공공데이터",
+          p: [
+            "하버드에서 경제학을 전공하면서도 컴퓨터 공학 수업을 들었고, IT에 대한 관심은 그 뒤로도 끊긴 적이 없다.",
+            "최근에는 공공데이터와 AI로 앱과 웹을 만들어, 정부와 지자체가 여는 AI 소프트웨어 공모전에 거의 전부 출품하고 있다. 인천공항 AI 공모전은 1차 심사를 통과했다.",
+            "RAG를 활용한 LLM 애플리케이션 개발 과정을 수료했고, 인공지능 국제표준화 과정을 거쳤으며, 안철수 대표가 만든 동그라미 재단의 AI 바이브코딩 3기에 선발되었다.",
+            "대한민국 정부와 지방자치단체가 여는 공모전 100여 개에 도전하고 있다. 한국콘텐츠진흥원과 경기콘텐츠진흥원에 등록해 미술 전시, 게임, 소설, 웹툰, 힙합, 영화, 웹소설을 가리지 않는다."
+          ]
+        }
+      ],
+      slides: [
+        "만화시집 『만화보다가 하버드갔습니다』 (2000)",
+        "『하버드식 시간관리 켄트김의 타임블럭』",
+        "신동아 기사",
+        "한국형 호러 연작 표지",
+        "『SERAPHIM: The Awakening of the Iron Dragon』"
+      ],
+      cta: "TAFA 음악 듣기", back: "Deother로 돌아가기"
+    },
+    en: {
+      title: "Kent Kim (김형섭)",
+      tagline: "Twenty years of making things, before the games",
+      intro: "Founder of Deother. He wrote to ten thousand people from a Harvard dorm, drew a year-long strip for a national newspaper, rapped in seven languages wearing a Joseon horsehair hat, won the horror category at a Hollywood short film festival, and published more than twenty books. The games are the vessel all of it finally poured into.",
+      sections: [
+        {
+          h: "Ten thousand letters",
+          p: [
+            "He was a high-school freshman when he crossed the Pacific to find his divorced mother. Watching her struggle, he studied himself into Harvard.",
+            "As an undergraduate he wrote to ten thousand political and business leaders around the world. More than a hundred wrote back — Warren Buffett, Margaret Thatcher, Jack Welch, the chairman of Coca-Cola, the president of Mitsubishi, the violinist Yehudi Menuhin, Senator Edward Kennedy.",
+            "From 2002, the year his mother died, he began speaking publicly, and he has kept it up for twenty-five years — churches, orphanages, universities and foreign-language high schools across Korea. Three appearances on KBS Morning Yard, a Sebasi talk, and a twenty-part series on Harvard study methods broadcast for a year on Andong MBC."
+          ]
+        },
+        {
+          h: "From cartoonist to speaker",
+          p: [
+            "He majored in economics, but in his senior year he made an animation called Harvard Man. That led to a year-long aphorism comic in the Dong-A Ilbo in 2000, and a comic poetry collection the same year: I Went to Harvard Reading Comics.",
+            "Choosing comics over the road to Wall Street was covered by KBS News in its This Person segment."
+          ]
+        },
+        {
+          h: "Painter",
+          p: [
+            "His uncle Lee Kang-so and his mother Lee Kang-ja both came out of Seoul National University's College of Fine Arts and gave their lives to Korean art. He grew up inside that influence.",
+            "In high school he met Nam June Paik in person and was marked by it. From his New Jersey school years he exhibited in New York and New Jersey as a painter working with Hangul, and was selected two years running by the Morris Museum in New Jersey.",
+            "In 1998 he directed the Seoul Arts Center exhibition of Anthony Quinn, the actor from The Old Man and the Sea.",
+            "Since 2023 he has painted live on site across the country — from Garosu-gil to Homigot in Pohang, now past his 133rd painting. In 2024 he gave Hangul oil and acrylic works to three hundred taekwondo masters around the world."
+          ]
+        },
+        {
+          h: "More than twenty books",
+          p: [
+            "He has been publishing since 2000 — starting with the story of writing ten thousand letters and getting answers, then study methods, early study abroad, and self-development.",
+            "The best known is Kent Kim's Time Block, the Harvard-style time management method he built as a student."
+          ]
+        },
+        {
+          h: "TAFA — 500 songs",
+          p: [
+            "In New York he met Kim Mary, who wrote the Korean children's song every schoolchild knows, and took musical inspiration from her.",
+            "Since 2012 he has rapped wearing a Joseon gat instead of a baseball cap. He has written, composed and sung more than five hundred songs himself, in seven languages — Korean, English, Japanese, Mandarin, Cantonese, German and Vietnamese. Of those, 407 are distributed under the name TAFA on Apple Music, Spotify, Amazon, Naver Music and others.",
+            "Government bodies get the music for free. That is how the logo songs for the Ministry of Employment and Labour's May Day, the Daejeon Science Festival, and the national student art competition were made. In April 2026 he took an encouragement prize at the Daejeon World Science Culture Forum's AI logo song competition."
+          ]
+        },
+        {
+          h: "Theatre and film",
+          p: [
+            "In 2012, under his mentor in theatre, Yeo Se-jin, he staged two plays.",
+            "In 2017 he made a fifteen-minute independent film, ELEGERE, for the AOF short film festival in Hollywood, and won in the horror category."
+          ]
+        },
+        {
+          h: "Novelist",
+          p: [
+            "He began writing seriously as a student, living for a month in Sokcho and the Seorak mountains. In May 2025 he published his first English-language SF novel, SERAPHIM: The Awakening of the Iron Dragon, on Amazon in the US.",
+            "Drawing on Korean history, he serialises web novels — Joseon Wolf, Death Guide, Goblin King Kang Do-hyun, Lucifer and the Goblin King at Mudeungsan, Jang Bogo Who Discovered North America, Black Hwarang, Panmunjom, The Day America Disappeared. Several of Deother's games came out of these stories.",
+            "Influenced by Stephen King, he is preparing thirteen Korean horror stories built around the number King dislikes — Hahoe Mask, Special Meal, Hearing-Aid Ghost, Tattoo Ghost, Dog Soup, Hangover Sickness, Ginseng Field, The House in the Country, The Cult, The Self-Driving Car, The Apartment, The E-Cigarette. Publication is planned for 2026."
+          ]
+        },
+        {
+          h: "Game developer",
+          p: [
+            "From July 2025 he spent two months learning Unity and built a 3D fighting game himself. That game got him selected by the Gyeonggi Content Agency, and in October 2025 he ran a booth in the Korea pavilion at the Thailand Game Show as one of sixteen Korean games.",
+            "From October to December he spent two more months rebuilding it from scratch in Unreal Engine, preparing an overseas release. Deother now presents ten games."
+          ]
+        },
+        {
+          h: "AI and public data",
+          p: [
+            "He studied economics at Harvard but took computer science courses alongside it, and the interest in IT never stopped.",
+            "Lately he builds apps and web services on public data and AI, and enters nearly every AI software competition the government and local authorities run. The Incheon Airport AI competition passed its first round.",
+            "He completed a course in building LLM applications with RAG, went through an AI international standardisation programme, and was selected for the third cohort of the Ahn Cheol-soo Foundation's AI vibe-coding programme.",
+            "He is competing in around a hundred competitions run by the Korean government and its local authorities, registered with the Korea Creative Content Agency and the Gyeonggi Content Agency — art exhibitions, games, novels, webtoons, hip-hop, film, web novels, no genre excluded."
+          ]
+        }
+      ],
+      slides: [
+        "I Went to Harvard Reading Comics (2000)",
+        "Kent Kim's Time Block",
+        "Shin Dong-A feature",
+        "Korean horror series cover",
+        "SERAPHIM: The Awakening of the Iron Dragon"
+      ],
+      cta: "Listen to TAFA", back: "Back to Deother"
     }
   }
 };

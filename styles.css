@@ -490,5 +490,13 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
 .roster-row img { flex: 1 1 130px; min-width: 0; aspect-ratio: 2 / 3; object-fit: cover;
   border-radius: 8px; border: 1px solid var(--line); background: #000; }
 
+/* 책 표지 줄 (대표 소개) — 로스터와 비슷해 보이지만 규칙이 반대다.
+   로스터는 aspect-ratio + object-fit:cover 로 크기를 맞춰 자르지만, 책 표지는 자르면
+   제목이 잘려나간다. 그래서 높이만 맞추고 비율은 원본을 그대로 둔다. */
+.cover-row { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin: 26px 0; }
+.cover-row img { height: 300px; width: auto; max-width: 100%;
+  border-radius: 8px; border: 1px solid var(--line); background: #000; }
+@media (max-width: 560px) { .cover-row img { height: 210px; } }
+
 /* origin(왜 시작했나) 섹션의 영상 — 긴 1인칭 텍스트 뒤 단일 영상, 중앙 정렬 */
 .origin-video { margin: 34px auto 0; max-width: 720px; }

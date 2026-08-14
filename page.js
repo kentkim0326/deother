@@ -66,6 +66,18 @@ const P_LAYOUT = {
       3: [{ roster: [17, 18, 19] }],          // 개발 중 뒤 3명
     },
   },
+  founder: {
+    // 대표 소개. 글이 아주 길어서(9섹션) 검증된 영상 3편과 표지·기사를 본문 사이에 흩는다.
+    // 세로로 긴 책 표지는 {img} 밴드로 깔면 화면을 다 잡아먹는다 → {roster} 로 두 장씩 나란히.
+    top: [{ v: 0 }],                          // 인트로 아래 → 세바시 154회 강연
+    after: {
+      1: [{ img: 2 }],                        // 만화가에서 강연가로 → 신동아 기사
+      3: [{ covers: [0, 1] }],                // 스무 권이 넘는 책   → 만화시집 + 타임블럭 표지
+      5: [{ v: 1 }],                          // 연극과 영화        → ELEGERE (헐리우드 수상작)
+      6: [{ covers: [3, 4] }],                // 소설가             → 호러 표지 + SERAPHIM
+      7: [{ v: 2 }],                          // 게임 개발자        → Fighting Nations
+    },
+  },
   kwonline: {
     // 아직 게임 화면 캡처가 없다. 미디어는 테스트 영상 + 영어 주제가 3곡.
     // 글벽 사이에 고르게 흩어 리듬을 준다. 스크린샷이 나오면 {img}/{s} 를 더 끼울 것.
@@ -124,6 +136,7 @@ function pSlideSet(game) {
   if (game === "kwonline")  return { files: (typeof KWONLINE_SLIDES !== "undefined" ? KWONLINE_SLIDES : []), folder: "assets/" };
   if (game === "timewars")  return { files: (typeof TIMEWARS_SLIDES !== "undefined" ? TIMEWARS_SLIDES : []), folder: "assets/" };
   if (game === "turfking")  return { files: (typeof TURFKING_SLIDES !== "undefined" ? TURFKING_SLIDES : []), folder: "assets/slides-tk/" };
+  if (game === "founder")   return { files: (typeof FOUNDER_SLIDES !== "undefined" ? FOUNDER_SLIDES : []), folder: "assets/" };
   return { files: [], folder: "" };
 }
 
@@ -172,6 +185,16 @@ function pBuildInterleaved(game, layout) {
       img.src = folder + files[m.img]; img.alt = ""; img.loading = "lazy";
       fig.append(img);
       body.append(fig);
+    } else if (m.covers) {
+      // 책 표지 여러 장을 한 줄에. 로스터와 달리 원본 비율을 지킨다(자르면 제목이 잘린다).
+      const row = pEl("div", "cover-row");
+      m.covers.forEach(idx => {
+        if (files[idx] == null) return;
+        const img = document.createElement("img");
+        img.src = folder + files[idx]; img.alt = ""; img.loading = "lazy";
+        row.append(img);
+      });
+      body.append(row);
     } else if (m.roster) {
       // 세로 캐릭터 여러 명을 한 줄에 나란히 (로스터). 인덱스는 pSlideSet.files. 언어 무관.
       const row = pEl("div", "roster-row");
