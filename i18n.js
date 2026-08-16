@@ -18,6 +18,7 @@ const LINKS = {
 // 링크가 없는 항목(우리가 안에서 한 일, 상시 주소가 없는 공모)은 "" 로 둔다.
 // 주소는 2026-08-16 에 검색으로 확인한 것만 넣었다 — 추측으로 채우지 않는다.
 const JOURNEY_LINKS = [
+  "https://www.amazon.com/SERAPHIM-Awakening-Dragon-Kent-Kim/dp/B0F98RTPT2",  // 원작 소설 세라핌 출간
   "",                              // 유니티 프로토타입 — 우리가 한 일
   "https://gamescom.asia/",        // gamescom asia x Thailand Game Show
   "",                              // 언리얼로 재제작 — 우리가 한 일
@@ -26,7 +27,7 @@ const JOURNEY_LINKS = [
   "",                              // NC 바르코 공모전 — 회차별이라 상시 주소 없음
   "https://neowizquest.com/"       // 네오위즈 퀘스트
 ];
-const JOURNEY_FLAGS = ["", "🇹🇭", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷"];
+const JOURNEY_FLAGS = ["🇺🇸", "", "🇹🇭", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷"];
 
 // 로드맵 각 단계의 공식 사이트. 순서는 각 언어 roadmap.items 와 1:1 로 맞춘다(인덱스로 붙는다).
 // "" 면 그 항목은 링크 없이 제목 텍스트로 나온다 — WORKS 카드와 같은 규칙이다.
@@ -257,6 +258,7 @@ const I18N = {
         "Meeting an Indian distributor during the show. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came by."
       ],
       events: [
+        { d: "24 May 2025", t: "SERAPHIM: The Awakening of Iron Dragon published on Amazon — the world existed before the game did" },
         { d: "Summer 2025", t: "Unity prototype" },
         { d: "October 2025", t: "gamescom asia x Thailand Game Show — one of 16 Korean studios, Megazone Cloud sponsored booth. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came to the booth." },
         { d: "October 2025", t: "Rebuilt in Unreal Engine — multiplayer needed it" },
@@ -368,6 +370,7 @@ const I18N = {
         "행사 기간 중 인도 배급사와의 미팅. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다."
       ],
       events: [
+        { d: "2025년 5월 24일", t: "원작 소설 『SERAPHIM: The Awakening of Iron Dragon』 아마존 출간 — 게임보다 세계가 먼저 있었습니다" },
         { d: "2025년 여름", t: "유니티로 프로토타입 제작" },
         { d: "2025년 10월", t: "gamescom asia x Thailand Game Show — 16개 한국 게임사 중 하나로 선발, 메가존 클라우드 후원 한국관 부스. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다." },
         { d: "2025년 10월", t: "언리얼 엔진으로 재제작 — 멀티플레이어에는 언리얼이 필요했습니다" },
@@ -477,6 +480,7 @@ const I18N = {
         "展会期间与印度发行商会面。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商都来过。"
       ],
       events: [
+        { d: "2025 年 5 月 24 日", t: "原作小说《SERAPHIM: The Awakening of Iron Dragon》在亚马逊出版 —— 世界先于游戏而存在" },
         { d: "2025 年夏", t: "以 Unity 完成原型" },
         { d: "2025 年 10 月", t: "gamescom asia x Thailand Game Show——入选 16 家韩国工作室之一，Megazone Cloud 赞助展位。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商到访。" },
         { d: "2025 年 10 月", t: "改用虚幻引擎重做——联机需要它" },
@@ -585,6 +589,7 @@ const I18N = {
         "会期中、インドのパブリッシャーとの打ち合わせ。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪しました。"
       ],
       events: [
+        { d: "2025年5月24日", t: "原作小説『SERAPHIM: The Awakening of Iron Dragon』を Amazon で刊行 — 世界はゲームより先にありました" },
         { d: "2025年夏", t: "Unityでプロトタイプ制作" },
         { d: "2025年10月", t: "gamescom asia x Thailand Game Show——韓国16社の一つに選出、Megazone Cloud協賛ブース。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪。" },
         { d: "2025年10月", t: "Unreal Engineで作り直し——マルチプレイに必要でした" },
@@ -693,6 +698,7 @@ const I18N = {
         "Reunión con una distribuidora india durante la feria. Pasaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán."
       ],
       events: [
+        { d: "24 de mayo de 2025", t: "Se publica en Amazon SERAPHIM: The Awakening of Iron Dragon — el mundo existía antes que el juego" },
         { d: "Verano 2025", t: "Prototipo en Unity" },
         { d: "Octubre 2025", t: "gamescom asia x Thailand Game Show: uno de los 16 estudios coreanos, stand patrocinado por Megazone Cloud. Visitaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán." },
         { d: "Octubre 2025", t: "Reconstruido en Unreal Engine: el multijugador lo exigía" },
@@ -801,6 +807,7 @@ const I18N = {
         "Reunião com uma distribuidora indiana durante a feira. Passaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan."
       ],
       events: [
+        { d: "24 de maio de 2025", t: "Publicação na Amazon de SERAPHIM: The Awakening of Iron Dragon — o mundo existia antes do jogo" },
         { d: "Verão 2025", t: "Protótipo em Unity" },
         { d: "Outubro 2025", t: "gamescom asia x Thailand Game Show — um dos 16 estúdios coreanos, stand patrocinado pela Megazone Cloud. Visitaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan." },
         { d: "Outubro 2025", t: "Reconstruído em Unreal Engine — o multijogador exigia-o" },
@@ -909,6 +916,7 @@ const I18N = {
         "Rendez-vous avec un distributeur indien pendant le salon. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont passés."
       ],
       events: [
+        { d: "24 mai 2025", t: "Parution sur Amazon de SERAPHIM: The Awakening of Iron Dragon — le monde existait avant le jeu" },
         { d: "Été 2025", t: "Prototype sous Unity" },
         { d: "Octobre 2025", t: "gamescom asia x Thailand Game Show — l'un des 16 studios coréens, stand parrainé par Megazone Cloud. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont venus." },
         { d: "Octobre 2025", t: "Reconstruit sous Unreal Engine — le multijoueur l'imposait" },
@@ -1017,6 +1025,7 @@ const I18N = {
         "Treffen mit einem indischen Distributor während der Messe. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen vorbei."
       ],
       events: [
+        { d: "24. Mai 2025", t: "SERAPHIM: The Awakening of Iron Dragon erscheint bei Amazon — die Welt gab es vor dem Spiel" },
         { d: "Sommer 2025", t: "Prototyp in Unity" },
         { d: "Oktober 2025", t: "gamescom asia x Thailand Game Show — eines von 16 koreanischen Studios, Stand gesponsert von Megazone Cloud. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen an den Stand." },
         { d: "Oktober 2025", t: "Neu gebaut in der Unreal Engine — der Multiplayer verlangte es" },
@@ -1125,6 +1134,7 @@ const I18N = {
         "Встреча с индийским дистрибьютором во время выставки. Заходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня."
       ],
       events: [
+        { d: "24 мая 2025", t: "Роман SERAPHIM: The Awakening of Iron Dragon вышел на Amazon — мир появился раньше игры" },
         { d: "Лето 2025", t: "Прототип на Unity" },
         { d: "Октябрь 2025", t: "gamescom asia x Thailand Game Show — одна из 16 корейских студий, стенд при поддержке Megazone Cloud. На стенд приходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня." },
         { d: "Октябрь 2025", t: "Пересобрано на Unreal Engine — этого требовал сетевой режим" },
@@ -1234,6 +1244,7 @@ const I18N = {
         "لقاء مع موزّع هندي خلال المعرض. مرّ بالمنصّة موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان."
       ],
       events: [
+        { d: "‏24 مايو 2025", t: "صدور رواية SERAPHIM: The Awakening of Iron Dragon على أمازون — العالم وُجد قبل اللعبة" },
         { d: "صيف 2025", t: "نموذج أولي على Unity" },
         { d: "أكتوبر 2025", t: "‏gamescom asia x Thailand Game Show — أحد 16 استوديو كوريًا، جناح برعاية Megazone Cloud. زار الجناح موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان." },
         { d: "أكتوبر 2025", t: "أُعيد بناؤها على Unreal Engine — اللعب الشبكي تطلّب ذلك" },

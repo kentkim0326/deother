@@ -571,6 +571,11 @@ title 의 「Kent Kim (김형섭)」은 본명이라 모든 언어에 한글 그
   캡션은 `journey.photos` 로 10개 언어. **이미지 파일이 없으면 app.js 가 블록을 통째로 숨긴다.**
 - **연표의 행사명 정정** — "Thailand Game Show" → **"gamescom asia x Thailand Game Show"**(정식 명칭)
   10개 언어 + founder 상세(ko/en) 전부.
+- **연표 맨 앞이 원작 소설 출간이다**(2026-08-16 추가) — 2025-05-24 『SERAPHIM: The Awakening of
+  Iron Dragon』 아마존 출간(🇺🇸 + 아마존 링크). 연표가 「유니티 프로토타입」으로 시작하면 게임부터
+  만든 것처럼 읽히는데, **세계가 먼저 있었다는 것이 이 회사의 주장**이라 소설을 앞에 세웠다
+  (`ip.note` 의 "남의 IP를 빌려 쓰는 것이 아니라 우리가 쓴다"와 같은 말이다). 10개 언어.
+  표지 이미지는 이미 `assets/seraphim-cover.jpg` 로 IP 섹션에 있다 — 새로 올릴 것 없다.
 - **연표 항목에 개최국 국기 + 공식 사이트 링크** — `JOURNEY_FLAGS`·`JOURNEY_LINKS`(i18n.js).
   둘 다 `journey.events` 와 **인덱스로** 붙는다 — 연표 항목 순서를 바꾸면 같이 고쳐야 한다.
   국기는 텍스트 앞 별도 `<span>` 이다(텍스트에 섞으면 10개 언어를 다 고쳐야 한다).
