@@ -146,6 +146,8 @@ function render(code) {
     return row;
   }));
 
+  set("jrMore", t.journey.more);          // 연표 아래 → 연도별 행사 로드맵(festivals.html)
+
   // --- 로드맵 ---
   set("rmHeading", t.roadmap.heading);
   document.getElementById("timeline").replaceChildren(...t.roadmap.items.map(item => {

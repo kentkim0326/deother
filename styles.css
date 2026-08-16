@@ -512,3 +512,6 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
   border-radius: 12px; border: 1px solid var(--line); background: #000; }
 .show-photo figcaption { margin-top: 10px; color: var(--fg-faint);
   font-size: 13px; line-height: 1.55; }
+
+/* 여정 연표 아래 → 연도별 행사 로드맵 링크. 연표와 붙어 보이지 않게 여백을 준다. */
+.jr-more { display: inline-block; margin-top: 26px; }

@@ -207,6 +207,7 @@ const I18N = {
       heading: "How it has grown",
       lead: "Built in the open, one show at a time.",
       videos: { gameplay: "Gameplay footage", trailer: "Trailer", pitch: "VC pitch — Gyeonggi Game Connect" },
+      more: "Every show we are entering in 2027 →",
       // 부스 사진 캡션. 파일은 i18n.js 위쪽 SHOW_PHOTOS, 사실관계는 아래 연표와 같아야 한다.
       photos: [
         "gamescom asia x Thailand Game Show, Bangkok, October 2025 — the Korea pavilion booth sponsored by Megazone Cloud",
@@ -316,6 +317,7 @@ const I18N = {
       heading: "어떻게 발전해왔나",
       lead: "공개된 자리에서, 한 걸음씩.",
       videos: { gameplay: "실제 게임 영상", trailer: "트레일러", pitch: "VC 피칭 — 경기 게임 커넥트" },
+      more: "2027년까지 도전할 행사 전부 보기 →",
       photos: [
         "gamescom asia x Thailand Game Show, 2025년 10월 방콕 — 메가존 클라우드가 후원한 한국관 부스",
         "16개 한국 게임사 중 하나로 선발되어 참가했습니다",
@@ -422,6 +424,7 @@ const I18N = {
     journey: {
       heading: "一路走来", lead: "公开开发，一场展会接着一场。",
       videos: { gameplay: "实机画面", trailer: "预告片", pitch: "VC 路演 — 京畿 Game Connect" },
+      more: "我们 2027 年前要挑战的所有展会 →",
       photos: [
         "gamescom asia x Thailand Game Show，2025 年 10 月曼谷 — 由 Megazone Cloud 赞助的韩国馆展位",
         "入选 16 家韩国工作室之一参展",
@@ -527,6 +530,7 @@ const I18N = {
     journey: {
       heading: "これまでの歩み", lead: "公開の場で、一歩ずつ。",
       videos: { gameplay: "実機映像", trailer: "トレーラー", pitch: "VC ピッチ — 京畿 Game Connect" },
+      more: "2027年までに挑む展示会のすべて →",
       photos: [
         "gamescom asia x Thailand Game Show、2025年10月バンコク — Megazone Cloud 協賛の韓国館ブース",
         "韓国16社の一つに選出されて出展しました",
@@ -632,6 +636,7 @@ const I18N = {
     journey: {
       heading: "Cómo ha crecido", lead: "Desarrollado a la vista, feria a feria.",
       videos: { gameplay: "Gameplay", trailer: "Tráiler", pitch: "Pitch a VC — Gyeonggi Game Connect" },
+      more: "Todas las ferias a las que nos presentamos hasta 2027 →",
       photos: [
         "gamescom asia x Thailand Game Show, Bangkok, octubre de 2025: el stand del pabellón coreano patrocinado por Megazone Cloud",
         "Uno de los 16 estudios coreanos seleccionados para la feria",
@@ -737,6 +742,7 @@ const I18N = {
     journey: {
       heading: "Como evoluiu", lead: "Desenvolvido à vista, feira a feira.",
       videos: { gameplay: "Gameplay", trailer: "Trailer", pitch: "Pitch a VC — Gyeonggi Game Connect" },
+      more: "Todos os eventos a que nos candidatamos até 2027 →",
       photos: [
         "gamescom asia x Thailand Game Show, Banguecoque, outubro de 2025 — o stand do pavilhão coreano patrocinado pela Megazone Cloud",
         "Um dos 16 estúdios coreanos selecionados para a feira",
@@ -842,6 +848,7 @@ const I18N = {
     journey: {
       heading: "Son évolution", lead: "Développé au grand jour, salon après salon.",
       videos: { gameplay: "Séquences de jeu", trailer: "Bande-annonce", pitch: "Pitch investisseurs — Gyeonggi Game Connect" },
+      more: "Tous les salons auxquels nous postulons d'ici 2027 →",
       photos: [
         "gamescom asia x Thailand Game Show, Bangkok, octobre 2025 — le stand du pavillon coréen parrainé par Megazone Cloud",
         "L'un des 16 studios coréens sélectionnés pour le salon",
@@ -947,6 +954,7 @@ const I18N = {
     journey: {
       heading: "Wie es gewachsen ist", lead: "Offen entwickelt, Messe für Messe.",
       videos: { gameplay: "Spielszenen", trailer: "Trailer", pitch: "VC-Pitch — Gyeonggi Game Connect" },
+      more: "Alle Messen, für die wir uns bis 2027 bewerben →",
       photos: [
         "gamescom asia x Thailand Game Show, Bangkok, Oktober 2025 — der von Megazone Cloud gesponserte Stand im koreanischen Pavillon",
         "Eines von 16 koreanischen Studios, die für die Messe ausgewählt wurden",
@@ -1052,6 +1060,7 @@ const I18N = {
     journey: {
       heading: "Как это росло", lead: "Разработка на виду, выставка за выставкой.",
       videos: { gameplay: "Игровой процесс", trailer: "Трейлер", pitch: "Питч для VC — Gyeonggi Game Connect" },
+      more: "Все фестивали, на которые мы подаём заявки до 2027 года →",
       photos: [
         "gamescom asia x Thailand Game Show, Бангкок, октябрь 2025 — стенд корейского павильона при поддержке Megazone Cloud",
         "Одна из 16 корейских студий, отобранных на выставку",
@@ -1157,6 +1166,7 @@ const I18N = {
     journey: {
       heading: "كيف تطوّرت", lead: "تطوير مكشوف، معرضًا بعد معرض.",
       videos: { gameplay: "لقطات من اللعب", trailer: "المقطع الدعائي", pitch: "عرض للمستثمرين — Gyeonggi Game Connect" },
+      more: "كل المعارض التي نتقدّم إليها حتى 2027 ←",
       // 라틴 문자로 시작하는 줄에는 RLM(U+200F)을 앞에 둔다 — 없으면 문장 방향이 뒤집혀 보인다.
       photos: [
         "‏gamescom asia x Thailand Game Show، بانكوك، أكتوبر 2025 — منصّة الجناح الكوري برعاية Megazone Cloud",
