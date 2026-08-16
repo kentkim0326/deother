@@ -46,7 +46,8 @@ const KWONLINE_SLIDES = ["kwo-shot-01.jpg", "kwo-shot-02.jpg"];   // assets/ (�
 // 여정(journey) 섹션의 전시 현장 사진 — gamescom asia x Thailand Game Show 2025.10 한국관 부스.
 // 캡션은 언어별로 각 블록의 journey.photos 에 있다 (파일명은 여기, 글은 거기 — 슬라이드 배열과 같은 규칙).
 // 파일이 아직 없으면 app.js 가 통째로 숨기므로, 이미지를 넣기 전에 배포해도 빈 자리가 남지 않는다.
-const SHOW_PHOTOS = ["assets/tgs-01.jpg", "assets/tgs-02.jpg", "assets/tgs-03.jpg"];
+const SHOW_PHOTOS = ["assets/tgs-01.jpg", "assets/tgs-02.jpg", "assets/tgs-03.jpg",
+                     "assets/tgs-04.jpg", "assets/tgs-05.jpg"];
 const TIMEWARS_SLIDES = ["timewars-cover.jpg"];   // assets/ (키아트. 게임 스크린샷 나오면 추가)
 // 로스터 20명 (도시별 대표 1장). assets/slides-tk/. 세로 전신 아트 → 슬라이드쇼가 세로 프레임으로 뜬다.
 const TURFKING_SLIDES = ["tk-01.jpg","tk-02.jpg","tk-03.jpg","tk-04.jpg","tk-05.jpg","tk-06.jpg","tk-07.jpg","tk-08.jpg","tk-09.jpg","tk-10.jpg","tk-11.jpg","tk-12.jpg","tk-13.jpg","tk-14.jpg","tk-15.jpg","tk-16.jpg","tk-17.jpg","tk-18.jpg","tk-19.jpg","tk-20.jpg"];
@@ -225,7 +226,9 @@ const I18N = {
       photos: [
         "gamescom asia x Thailand Game Show, Bangkok, October 2025 — the K-GAME PLAYGROUND Korea pavilion, where 16 Korean studios stood together. Sponsored by Megazone Cloud.",
         "Our booth, with the Fighting Nations poster up and the game playable on the spot.",
-        "At the booth with a visitor. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came by."
+        "At the booth with a visitor.",
+        "At the booth with the Indian developers who build the game with us.",
+        "Meeting an Indian distributor during the show. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came by."
       ],
       events: [
         { d: "Summer 2025", t: "Unity prototype" },
@@ -334,7 +337,9 @@ const I18N = {
       photos: [
         "gamescom asia x Thailand Game Show, 2025년 10월 방콕 — 16개 한국 게임사가 함께 선 한국관 K-GAME PLAYGROUND. 메가존 클라우드가 후원했습니다.",
         "디아더 부스. Fighting Nations 포스터를 걸고, 그 자리에서 게임을 해 볼 수 있게 했습니다.",
-        "부스를 찾아온 관계자와. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 다녀갔습니다."
+        "부스를 찾아온 관계자와.",
+        "함께 게임을 만드는 인도 개발자들과 부스에서.",
+        "행사 기간 중 인도 배급사와의 미팅. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다."
       ],
       events: [
         { d: "2025년 여름", t: "유니티로 프로토타입 제작" },
@@ -441,7 +446,9 @@ const I18N = {
       photos: [
         "gamescom asia x Thailand Game Show，2025 年 10 月曼谷 —— 16 家韩国工作室共同参展的韩国馆 K-GAME PLAYGROUND，由 Megazone Cloud 赞助。",
         "迪亚德展位。挂上《Fighting Nations》海报，让来访者当场试玩。",
-        "与到访展位的业内人士。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商都来过。"
+        "与到访展位的业内人士。",
+        "在展位上，与一起开发游戏的印度开发者们。",
+        "展会期间与印度发行商会面。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商都来过。"
       ],
       events: [
         { d: "2025 年夏", t: "以 Unity 完成原型" },
@@ -547,7 +554,9 @@ const I18N = {
       photos: [
         "gamescom asia x Thailand Game Show、2025年10月バンコク——韓国16社が並んだ韓国館 K-GAME PLAYGROUND。Megazone Cloud 協賛。",
         "Deother ブース。Fighting Nations のポスターを掲げ、その場で遊べるようにしました。",
-        "ブースを訪ねてくれた業界関係者と。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪しました。"
+        "ブースを訪ねてくれた業界関係者と。",
+        "一緒にゲームを作っているインドの開発者たちとブースで。",
+        "会期中、インドのパブリッシャーとの打ち合わせ。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪しました。"
       ],
       events: [
         { d: "2025年夏", t: "Unityでプロトタイプ制作" },
@@ -653,7 +662,9 @@ const I18N = {
       photos: [
         "gamescom asia x Thailand Game Show, Bangkok, octubre de 2025: el pabellón coreano K-GAME PLAYGROUND, donde estuvimos 16 estudios coreanos. Patrocinado por Megazone Cloud.",
         "Nuestro stand, con el póster de Fighting Nations y el juego disponible para probarlo allí mismo.",
-        "En el stand con un visitante. Pasaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán."
+        "En el stand con un visitante.",
+        "En el stand con los desarrolladores indios que hacen el juego con nosotros.",
+        "Reunión con una distribuidora india durante la feria. Pasaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán."
       ],
       events: [
         { d: "Verano 2025", t: "Prototipo en Unity" },
@@ -759,7 +770,9 @@ const I18N = {
       photos: [
         "gamescom asia x Thailand Game Show, Banguecoque, outubro de 2025 — o pavilhão coreano K-GAME PLAYGROUND, onde estivemos 16 estúdios coreanos. Patrocinado pela Megazone Cloud.",
         "O nosso stand, com o cartaz de Fighting Nations e o jogo jogável ali mesmo.",
-        "No stand com um visitante. Passaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan."
+        "No stand com um visitante.",
+        "No stand com os programadores indianos que fazem o jogo connosco.",
+        "Reunião com uma distribuidora indiana durante a feira. Passaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan."
       ],
       events: [
         { d: "Verão 2025", t: "Protótipo em Unity" },
@@ -865,7 +878,9 @@ const I18N = {
       photos: [
         "gamescom asia x Thailand Game Show, Bangkok, octobre 2025 — le pavillon coréen K-GAME PLAYGROUND, où 16 studios coréens étaient réunis. Parrainé par Megazone Cloud.",
         "Notre stand, avec l'affiche de Fighting Nations et le jeu jouable sur place.",
-        "Au stand avec un visiteur. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont passés."
+        "Au stand avec un visiteur.",
+        "Au stand avec les développeurs indiens qui font le jeu avec nous.",
+        "Rendez-vous avec un distributeur indien pendant le salon. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont passés."
       ],
       events: [
         { d: "Été 2025", t: "Prototype sous Unity" },
@@ -971,7 +986,9 @@ const I18N = {
       photos: [
         "gamescom asia x Thailand Game Show, Bangkok, Oktober 2025 — der koreanische Pavillon K-GAME PLAYGROUND, in dem 16 koreanische Studios zusammenstanden. Gesponsert von Megazone Cloud.",
         "Unser Stand, mit dem Fighting-Nations-Plakat und dem Spiel direkt vor Ort spielbar.",
-        "Am Stand mit einem Besucher. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen vorbei."
+        "Am Stand mit einem Besucher.",
+        "Am Stand mit den indischen Entwicklern, die das Spiel mit uns bauen.",
+        "Treffen mit einem indischen Distributor während der Messe. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen vorbei."
       ],
       events: [
         { d: "Sommer 2025", t: "Prototyp in Unity" },
@@ -1077,7 +1094,9 @@ const I18N = {
       photos: [
         "gamescom asia x Thailand Game Show, Бангкок, октябрь 2025 — корейский павильон K-GAME PLAYGROUND, где вместе стояли 16 корейских студий. При поддержке Megazone Cloud.",
         "Наш стенд: постер Fighting Nations и игра, в которую можно было сыграть прямо там.",
-        "На стенде с гостем. Заходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня."
+        "На стенде с гостем.",
+        "На стенде с индийскими разработчиками, которые делают игру вместе с нами.",
+        "Встреча с индийским дистрибьютором во время выставки. Заходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня."
       ],
       events: [
         { d: "Лето 2025", t: "Прототип на Unity" },
@@ -1184,7 +1203,9 @@ const I18N = {
       photos: [
         "‏gamescom asia x Thailand Game Show، بانكوك، أكتوبر 2025 — الجناح الكوري K-GAME PLAYGROUND الذي ضمّ 16 استوديو كوريًا، برعاية Megazone Cloud.",
         "منصّتنا، وعليها ملصق Fighting Nations واللعبة متاحة للتجربة في المكان.",
-        "في المنصّة مع أحد الزوار. مرّ بها موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان."
+        "في المنصّة مع أحد الزوار.",
+        "في المنصّة مع المطوّرين الهنود الذين يصنعون اللعبة معنا.",
+        "لقاء مع موزّع هندي خلال المعرض. مرّ بالمنصّة موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان."
       ],
       events: [
         { d: "صيف 2025", t: "نموذج أولي على Unity" },
