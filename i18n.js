@@ -49,7 +49,11 @@ const KWONLINE_SLIDES = ["kwo-shot-01.jpg", "kwo-shot-02.jpg"];   // assets/ (�
 // 행사 로드맵 상세(festivals.html)에 끼우는 사진. 전부 우리가 실제로 나갔던 자리다.
 // ※ 앞으로 도전할 행사의 포스터·로고를 여기 넣지 말 것 — 남의 저작물이고,
 //   그 행사에 이미 나갔던 것처럼 읽힌다(발표자료 19쪽의 게임스컴·CES 이미지가 그 경우다).
-const FESTIVALS_SLIDES = ["tgs-01.jpg", "tgs-02.jpg", "tgs-05.jpg"];   // assets/
+const FESTIVALS_SLIDES = [
+  "tgs-01.jpg", "tgs-02.jpg", "tgs-05.jpg",              // 우리가 다녀온 자리 (태국 게임쇼)
+  "slides-fn/fn-08.jpg", "slides-fn/fn-15.jpg",          // 들고 나가는 게임 — Fighting Nations
+  "slides-kw/kw-09.jpg"                                  // 킹덤워즈 (온라인 이벤트로 나가는 쪽)
+];   // 앞에 "assets/" 가 붙는다 — 하위 폴더는 이렇게 경로째 적으면 된다
 // ※ 인물 사진을 쓸 때는 그 사람이 누구인지 확인하고 쓴다. 발표자료 19쪽의 지스타 2022 사진을
 //   대표님으로 단정해 넣었다가 뺐다(2026-08-16) — 대표님이 아니었다.
 

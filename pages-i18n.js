@@ -4453,7 +4453,10 @@ const PAGES = {
       slides: [
         "2025년 10월, gamescom asia x Thailand Game Show 한국관. 아래 목록은 앞으로 도전할 자리들입니다.",
         "디아더 부스의 간판과 Fighting Nations 포스터. 위 목록의 행사들에도 이렇게 나가려 합니다.",
-        "태국 게임쇼에서 인도 배급사와. 행사에 나가는 이유는 결국 이런 자리를 만들기 위해서입니다."
+        "태국 게임쇼에서 인도 배급사와. 행사에 나가는 이유는 결국 이런 자리를 만들기 위해서입니다.",
+        "우리가 들고 나가는 게임 — Fighting Nations. 위 목록의 대부분이 이 게임으로 나갑니다.",
+        "각 파이터는 한 나라와 그 나라의 무술을 대표합니다. 13개국 캐릭터, 무기는 없습니다.",
+        "킹덤워즈는 브라우저 게임이라 물리 부스 대신 온라인 이벤트로 나갑니다."
       ],
       cta: "출품작 해보기 — Fighting Nations", back: "디아더로 돌아가기"
     },
@@ -4626,7 +4629,10 @@ const PAGES = {
       slides: [
         "The Korea pavilion at gamescom asia x Thailand Game Show, October 2025. The list below is where we go next.",
         "Our booth sign and the Fighting Nations poster. This is how we mean to show up at the shows listed above.",
-        "Meeting an Indian distributor at Thailand Game Show. Rooms like this are the reason we go."
+        "Meeting an Indian distributor at Thailand Game Show. Rooms like this are the reason we go.",
+        "The game we take with us — Fighting Nations. Most of the tracks above are entered with this title.",
+        "Every fighter carries a nation and its fighting tradition. Characters from 13 countries, bare hands only.",
+        "Kingdom Wars runs in a browser, so it skips the physical booths and goes to online events instead."
       ],
       cta: "Play the game we are entering", back: "Back to Deother"
     },
@@ -4799,7 +4805,10 @@ const PAGES = {
       slides: [
         "2025 年 10 月，gamescom asia x Thailand Game Show 韩国馆。下面的清单是我们接下来要去的地方。",
         "迪亚德展位的招牌与《Fighting Nations》海报。上面列出的展会，我们也打算这样去。",
-        "在泰国游戏展与印度发行商会面。我们参展，最终就是为了促成这样的会面。"
+        "在泰国游戏展与印度发行商会面。我们参展，最终就是为了促成这样的会面。",
+        "我们带出去的游戏——Fighting Nations。上面列出的大多数通道都以这款游戏应征。",
+        "每位格斗家代表一个国家及其武术传统。13 个国家的角色，只用赤手空拳。",
+        "《Kingdom Wars》是浏览器游戏，因此跳过实体展位，改走线上活动。"
       ],
       cta: "试玩我们送去参赛的游戏", back: "返回 Deother"
     },
@@ -4972,7 +4981,10 @@ const PAGES = {
       slides: [
         "2025年10月、gamescom asia x Thailand Game Show の韓国館。下の一覧はこれから向かう場所です。",
         "Deother ブースの看板と Fighting Nations のポスター。上に並べたイベントにも、こうして出ていくつもりです。",
-        "タイ・ゲームショウでインドのパブリッシャーと。イベントに出る理由は、結局こういう席をつくるためです。"
+        "タイ・ゲームショウでインドのパブリッシャーと。イベントに出る理由は、結局こういう席をつくるためです。",
+        "私たちが持って出るゲーム — Fighting Nations。上の一覧の大半はこのタイトルで応募します。",
+        "各ファイターは一つの国とその武術を背負います。13カ国のキャラクター、武器はありません。",
+        "Kingdom Wars はブラウザゲームなので、物理ブースを外してオンラインイベントに回ります。"
       ],
       cta: "出品作を遊んでみる", back: "Deother に戻る"
     },
@@ -5145,7 +5157,10 @@ const PAGES = {
       slides: [
         "El pabellón coreano en gamescom asia x Thailand Game Show, octubre de 2025. La lista de abajo es adonde vamos ahora.",
         "El rótulo de nuestro stand y el póster de Fighting Nations. Así es como pensamos presentarnos en las ferias de arriba.",
-        "Reunión con una distribuidora india en Thailand Game Show. Salas como esta son la razón por la que vamos."
+        "Reunión con una distribuidora india en Thailand Game Show. Salas como esta son la razón por la que vamos.",
+        "El juego que llevamos con nosotros: Fighting Nations. La mayoría de las convocatorias de arriba se presentan con este título.",
+        "Cada luchador representa a un país y su tradición marcial. Personajes de 13 países, solo a puño limpio.",
+        "Kingdom Wars corre en navegador, así que se salta los stands físicos y va a eventos en línea."
       ],
       cta: "Juega al juego que presentamos", back: "Volver a Deother"
     },
@@ -5318,7 +5333,10 @@ const PAGES = {
       slides: [
         "O pavilhão coreano na gamescom asia x Thailand Game Show, outubro de 2025. A lista abaixo é para onde vamos a seguir.",
         "O letreiro do nosso stand e o cartaz de Fighting Nations. É assim que tencionamos aparecer nos eventos listados acima.",
-        "Reunião com uma distribuidora indiana na Thailand Game Show. Salas como esta são a razão por que vamos."
+        "Reunião com uma distribuidora indiana na Thailand Game Show. Salas como esta são a razão por que vamos.",
+        "O jogo que levamos connosco — Fighting Nations. A maioria das candidaturas acima é feita com este título.",
+        "Cada lutador representa um país e a sua tradição marcial. Personagens de 13 países, só a punho limpo.",
+        "O Kingdom Wars corre no navegador, por isso salta os stands físicos e vai a eventos online."
       ],
       cta: "Joga o jogo que apresentamos", back: "Voltar a Deother"
     },
@@ -5491,7 +5509,10 @@ const PAGES = {
       slides: [
         "Le pavillon coréen à la gamescom asia x Thailand Game Show, octobre 2025. La liste ci-dessous, c'est la suite.",
         "L'enseigne de notre stand et l'affiche de Fighting Nations. C'est ainsi que nous comptons nous présenter aux salons listés plus haut.",
-        "Rencontre avec un distributeur indien au Thailand Game Show. Ce sont ces rendez-vous qui justifient le déplacement."
+        "Rencontre avec un distributeur indien au Thailand Game Show. Ce sont ces rendez-vous qui justifient le déplacement.",
+        "Le jeu que nous emportons — Fighting Nations. La plupart des candidatures ci-dessus se font avec ce titre.",
+        "Chaque combattant porte un pays et sa tradition martiale. Des personnages de 13 pays, à mains nues.",
+        "Kingdom Wars tourne dans le navigateur : il saute les stands physiques et part vers les événements en ligne."
       ],
       cta: "Jouer au jeu que nous présentons", back: "Retour à Deother"
     },
@@ -5664,7 +5685,10 @@ const PAGES = {
       slides: [
         "Der koreanische Pavillon auf der gamescom asia x Thailand Game Show, Oktober 2025. Die Liste darunter ist, wohin es als Nächstes geht.",
         "Das Schild unseres Stands und das Fighting-Nations-Plakat. So wollen wir auch bei den oben genannten Messen auftreten.",
-        "Treffen mit einem indischen Distributor auf der Thailand Game Show. Solche Gespräche sind der Grund, warum wir hinfahren."
+        "Treffen mit einem indischen Distributor auf der Thailand Game Show. Solche Gespräche sind der Grund, warum wir hinfahren.",
+        "Das Spiel, das wir mitnehmen — Fighting Nations. Die meisten Ausschreibungen oben laufen über diesen Titel.",
+        "Jeder Kämpfer trägt ein Land und dessen Kampftradition. Figuren aus 13 Ländern, nur mit bloßen Händen.",
+        "Kingdom Wars läuft im Browser und lässt die Stände daher aus — es geht zu Online-Events."
       ],
       cta: "Das Spiel spielen, das wir einreichen", back: "Zurück zu Deother"
     },
@@ -5837,7 +5861,10 @@ const PAGES = {
       slides: [
         "Корейский павильон на gamescom asia x Thailand Game Show, октябрь 2025 года. Список ниже — это то, куда мы едем дальше.",
         "Вывеска нашего стенда и постер Fighting Nations. Именно так мы намерены выходить и на перечисленные выше фестивали.",
-        "Встреча с индийским дистрибьютором на Thailand Game Show. Ради таких разговоров мы и ездим."
+        "Встреча с индийским дистрибьютором на Thailand Game Show. Ради таких разговоров мы и ездим.",
+        "Игра, которую мы берём с собой, — Fighting Nations. Большинство конкурсов выше подаются именно с ней.",
+        "Каждый боец несёт свою страну и её боевую традицию. Персонажи из 13 стран, только голые руки.",
+        "Kingdom Wars работает в браузере, поэтому обходит физические стенды и идёт на онлайн-события."
       ],
       cta: "Сыграть в игру, которую мы подаём", back: "Назад в Deother"
     },
@@ -6010,7 +6037,10 @@ const PAGES = {
       slides: [
         "‏الجناح الكوري في gamescom asia x Thailand Game Show، أكتوبر 2025. القائمة أدناه هي وجهتنا التالية.",
         "‏لافتة منصّتنا وملصق Fighting Nations. هكذا ننوي أن نحضر في المعارض المذكورة أعلاه.",
-        "‏لقاء مع موزّع هندي في Thailand Game Show. مثل هذه الجلسات هي سبب ذهابنا أصلًا."
+        "‏لقاء مع موزّع هندي في Thailand Game Show. مثل هذه الجلسات هي سبب ذهابنا أصلًا.",
+        "‏اللعبة التي نحملها معنا — Fighting Nations. معظم المسارات أعلاه نتقدّم إليها بهذا العنوان.",
+        "كل مقاتل يحمل بلدًا وتقليده القتالي. شخصيات من 13 دولة، بالأيدي العارية فقط.",
+        "‏Kingdom Wars تعمل في المتصفّح، لذا تتخطّى الأجنحة الحضورية وتتّجه إلى الفعاليات الإلكترونية."
       ],
       cta: "‏جرّب اللعبة التي نتقدّم بها", back: "‏العودة إلى Deother"
     }
