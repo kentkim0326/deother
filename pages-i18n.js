@@ -67,46 +67,46 @@ const INDIECADE = "https://www.indiecade.com/";
 const PAGE_LIST_LINKS = {
   festivals: {
     // 1. 2026 하반기 — 지금 접수하는 것
-    "1.0": "https://gameinstitute.tencent.com/awards2026",   // GWB Game Awards
-    "1.1": "https://expoeva.com/",                            // EVA Play
-    "1.2": "https://tgs.tca.org.tw/indie_award_e.php",        // Taipei Indie Game Award
-    "1.3": NEXTFEST, "1.4": "https://mobidictum.com/", "1.5": "https://igf.com/",
-    "1.6": DEVGAMM, "1.7": GSTAR, "1.8": "https://www.demospree.com/",
+    "2.0": "https://gameinstitute.tencent.com/awards2026",   // GWB Game Awards
+    "2.1": "https://expoeva.com/",                            // EVA Play
+    "2.2": "https://tgs.tca.org.tw/indie_award_e.php",        // Taipei Indie Game Award
+    "2.3": NEXTFEST, "2.4": "https://mobidictum.com/", "2.5": "https://igf.com/",
+    "2.6": DEVGAMM, "2.7": GSTAR, "2.8": "https://www.demospree.com/",
     /* 1.9 BGM Game Expo — 공식 주소 확인 못 함 */
-    "1.10": DOTD, "1.11": BITSUM, "1.12": TGS_TW, "1.13": "https://pitchyagame.com/", "1.14": AMAZE,
+    "2.10": DOTD, "2.11": BITSUM, "2.12": TGS_TW, "2.13": "https://pitchyagame.com/", "2.14": AMAZE,
 
     // 2. 2026 하반기 — 열리는 자리
-    "2.0": TGS_JP, "2.1": "https://west.paxsite.com/", "2.2": NEXTFEST,
-    "2.3": GC_ASIA, "2.4": GSTAR, "2.5": DEVGAMM,
+    "3.0": TGS_JP, "3.1": "https://west.paxsite.com/", "3.2": NEXTFEST,
+    "3.3": GC_ASIA, "3.4": GSTAR, "3.5": DEVGAMM,
     /* 2.6 BGM Game Expo */
 
     // 3. 2027 상반기 접수 — 1~3월
-    "3.0": NEXTFEST, "3.1": GC_LATAM, "3.2": "https://neowizquest.com/",
-    "3.3": AMAZE, "3.4": TGS_JP, "3.5": IAB, "3.6": GSTAR,
+    "4.0": NEXTFEST, "4.1": GC_LATAM, "4.2": "https://neowizquest.com/",
+    "4.3": AMAZE, "4.4": TGS_JP, "4.5": IAB, "4.6": GSTAR,
 
     // 4. 2027 상반기 접수 — 4~6월
-    "4.0": DOTD,
+    "5.0": DOTD,
     /* 4.1 스마일게이트 IndieGo — 회차마다 페이지가 달라 상시 주소가 없다 */
-    "4.2": IAB, "4.3": TGS_JP, "4.4": "https://www.yogscast.games/tinyteams", "4.5": GSTAR,
-    "4.6": "https://www.indiecraft.or.kr/",
+    "5.2": IAB, "5.3": TGS_JP, "5.4": "https://www.yogscast.games/tinyteams", "5.5": GSTAR,
+    "5.6": "https://www.indiecraft.or.kr/",
     /* 4.7 NC VARCO — 회차별 공모라 상시 주소가 없다 */
-    "4.8": GC_DEV, "4.9": BIC, "4.10": GSTAR, "4.11": GC_ASIA,
-    "4.12": INDIECADE, "4.13": "https://www.gigdc.or.kr/",
-    "4.14": "https://www.ludonarracon.com/", "4.15": GSTAR,
+    "5.8": GC_DEV, "5.9": BIC, "5.10": GSTAR, "5.11": GC_ASIA,
+    "5.12": INDIECADE, "5.13": "https://www.gigdc.or.kr/",
+    "5.14": "https://www.ludonarracon.com/", "5.15": GSTAR,
 
     // 5. 2027 개최 일정
-    "5.0": TGS_TW, "5.1": INDIECADE, "5.2": NEXTFEST, "5.3": "https://gdconf.com/",
-    "5.4": GC_LATAM, "5.5": AMAZE, "5.6": BITSUM,
-    "5.7": "https://conference.digitaldragons.pl/", "5.8": NEXTFEST,
-    "5.9": "https://www.developconference.com/", "5.10": BIC,
-    "5.11": "https://www.gamescom.global/", "5.12": TGS_JP, "5.13": GSTAR,
+    "6.0": TGS_TW, "6.1": INDIECADE, "6.2": NEXTFEST, "6.3": "https://gdconf.com/",
+    "6.4": GC_LATAM, "6.5": AMAZE, "6.6": BITSUM,
+    "6.7": "https://conference.digitaldragons.pl/", "6.8": NEXTFEST,
+    "6.9": "https://www.developconference.com/", "6.10": BIC,
+    "6.11": "https://www.gamescom.global/", "6.12": TGS_JP, "6.13": GSTAR,
 
     // 6. 마감이 없는 상시 트랙
-    "6.0": "https://www.bigindiepitch.com/",
-    "6.1": "https://www.unrealengine.com/megagrants",
-    "6.2": "https://indie.live-expo.games/en/",
-    "6.3": "https://west.paxsite.com/en-us/features/pax-rising-showcase.html",
-    "6.4": GC_DEV, "6.5": "https://partner.steamgames.com/",
+    "7.0": "https://www.bigindiepitch.com/",
+    "7.1": "https://www.unrealengine.com/megagrants",
+    "7.2": "https://indie.live-expo.games/en/",
+    "7.3": "https://west.paxsite.com/en-us/features/pax-rising-showcase.html",
+    "7.4": GC_DEV, "7.5": "https://partner.steamgames.com/",
   },
 };
 
@@ -116,23 +116,23 @@ const PAGE_LIST_LINKS = {
 const PAGE_LIST_FLAGS = {
   festivals: {
     // 1. 2026 하반기 접수
-    "1.0": "🇨🇳", "1.1": "🇦🇷", "1.2": "🇹🇼", "1.3": "🌐", "1.4": "🇹🇷", "1.5": "🇺🇸",
-    "1.6": "🌐", "1.7": "🇰🇷", "1.8": "🌐", "1.9": "🇨🇳", "1.10": "🌐", "1.11": "🇯🇵",
-    "1.12": "🇹🇼", "1.13": "🌐", "1.14": "🇩🇪",
+    "2.0": "🇨🇳", "2.1": "🇦🇷", "2.2": "🇹🇼", "2.3": "🌐", "2.4": "🇹🇷", "2.5": "🇺🇸",
+    "2.6": "🌐", "2.7": "🇰🇷", "2.8": "🌐", "2.9": "🇨🇳", "2.10": "🌐", "2.11": "🇯🇵",
+    "2.12": "🇹🇼", "2.13": "🌐", "2.14": "🇩🇪",
     // 2. 2026 하반기 개최
-    "2.0": "🇯🇵", "2.1": "🇺🇸", "2.2": "🌐", "2.3": "🇹🇭", "2.4": "🇰🇷", "2.5": "🌐", "2.6": "🇨🇳",
+    "3.0": "🇯🇵", "3.1": "🇺🇸", "3.2": "🌐", "3.3": "🇹🇭", "3.4": "🇰🇷", "3.5": "🌐", "3.6": "🇨🇳",
     // 3. 2027 1~3월 접수
-    "3.0": "🌐", "3.1": "🇧🇷", "3.2": "🇰🇷", "3.3": "🇩🇪", "3.4": "🇯🇵", "3.5": "🇩🇪", "3.6": "🇰🇷",
+    "4.0": "🌐", "4.1": "🇧🇷", "4.2": "🇰🇷", "4.3": "🇩🇪", "4.4": "🇯🇵", "4.5": "🇩🇪", "4.6": "🇰🇷",
     // 4. 2027 4~6월 접수
-    "4.0": "🌐", "4.1": "🇰🇷", "4.2": "🇩🇪", "4.3": "🇯🇵", "4.4": "🌐", "4.5": "🇰🇷",
-    "4.6": "🇰🇷", "4.7": "🇰🇷", "4.8": "🇩🇪", "4.9": "🇰🇷", "4.10": "🇰🇷", "4.11": "🇹🇭",
-    "4.12": "🇺🇸", "4.13": "🇰🇷", "4.14": "🌐", "4.15": "🇰🇷",
+    "5.0": "🌐", "5.1": "🇰🇷", "5.2": "🇩🇪", "5.3": "🇯🇵", "5.4": "🌐", "5.5": "🇰🇷",
+    "5.6": "🇰🇷", "5.7": "🇰🇷", "5.8": "🇩🇪", "5.9": "🇰🇷", "5.10": "🇰🇷", "5.11": "🇹🇭",
+    "5.12": "🇺🇸", "5.13": "🇰🇷", "5.14": "🌐", "5.15": "🇰🇷",
     // 5. 2027 개최 일정
-    "5.0": "🇹🇼", "5.1": "🇺🇸", "5.2": "🌐", "5.3": "🇺🇸", "5.4": "🇧🇷", "5.5": "🇩🇪",
-    "5.6": "🇯🇵", "5.7": "🇵🇱", "5.8": "🌐", "5.9": "🇬🇧", "5.10": "🇰🇷", "5.11": "🇩🇪",
-    "5.12": "🇯🇵", "5.13": "🇰🇷",
+    "6.0": "🇹🇼", "6.1": "🇺🇸", "6.2": "🌐", "6.3": "🇺🇸", "6.4": "🇧🇷", "6.5": "🇩🇪",
+    "6.6": "🇯🇵", "6.7": "🇵🇱", "6.8": "🌐", "6.9": "🇬🇧", "6.10": "🇰🇷", "6.11": "🇩🇪",
+    "6.12": "🇯🇵", "6.13": "🇰🇷",
     // 6. 상시 트랙 — 전부 온라인이거나 여러 도시를 도는 것
-    "6.0": "🌐", "6.1": "🌐", "6.2": "🌐", "6.3": "🇺🇸", "6.4": "🇩🇪", "6.5": "🌐",
+    "7.0": "🌐", "7.1": "🌐", "7.2": "🌐", "7.3": "🇺🇸", "7.4": "🇩🇪", "7.5": "🌐",
   },
 };
 
@@ -4383,6 +4383,20 @@ const PAGES = {
       intro: "응모할 수 있는 트랙 38개를 전수조사해 달마다 정리했습니다. 무료 19 · 유료 11 · 상금 6 · 상시 2. 아래는 선정 결과가 아니라 도전 계획입니다 — 결과는 나오는 대로 메인 페이지 여정 연표에 적습니다.",
       sections: [
         {
+          h: "지금까지 넣은 것",
+          p: ["계획만 적어 두지 않았습니다. 아래는 실제로 접수한 것이고, 결과가 나오면 이 줄의 상태가 바뀝니다."],
+          list: {
+            h: "제출 이력",
+            items: [
+              "2025년 12월 31일 · NC 바르코 게임 공모전 — Fighting Nations · 접수 완료",
+              "2026년 1월 16일 · 네오위즈 퀘스트 — Fighting Nations · 접수 완료",
+              "2026년 8월 · Taipei Indie Game Award 2027 — Fighting Nations · 접수 완료, 파이널리스트 발표 10월 14일",
+              "2026년 8월 · Epic MegaGrants — Fighting Nations · 접수 완료, 심사 중",
+              "2026년 8월 · Xsolla Funding Club — Fighting Nations · 접수 완료, 검토 중"
+            ]
+          }
+        },
+        {
           h: "왜 계획을 공개하나",
           p: [
             "게임을 만드는 일과 그 게임을 세상에 내보내는 일은 다른 일입니다. 1인 개발이라 후자를 즉흥으로 하면 그해를 통째로 놓칩니다. 그래서 응모 가능한 트랙을 전부 세어 달력에 붙였고, 그 달력을 그대로 공개합니다.",
@@ -4560,6 +4574,20 @@ const PAGES = {
       intro: "We counted every track we can enter — 38 of them — and put them on a calendar: 19 free, 11 paid, 6 with prize money, 2 open all year. What follows is a plan we are entering, not a list of results. Results go on the journey timeline on the front page as they come in.",
       sections: [
         {
+          h: "What we have actually entered",
+          p: ["This is not only a plan. Below is what has actually been submitted; when results come, the status on these lines changes."],
+          list: {
+            h: "Submission log",
+            items: [
+              "31 December 2025 · NC VARCO Game Contest — Fighting Nations · submitted",
+              "16 January 2026 · NEOWIZ Quest — Fighting Nations · submitted",
+              "August 2026 · Taipei Indie Game Award 2027 — Fighting Nations · submitted, finalists announced 14 October",
+              "August 2026 · Epic MegaGrants — Fighting Nations · submitted, under review",
+              "August 2026 · Xsolla Funding Club — Fighting Nations · submitted, under review"
+            ]
+          }
+        },
+        {
           h: "Why publish the plan",
           p: [
             "Making a game and getting it in front of people are two different jobs. As a one-person studio, improvising the second one costs you a whole year. So we counted every track we can enter, pinned them to a calendar, and are publishing that calendar as it is.",
@@ -4735,6 +4763,20 @@ const PAGES = {
       tagline: "从 2026 下半年到 2027 年，我们要挑战的全部展会",
       intro: "我们把可以报名的 38 个通道全部清点出来，按月排进日历：免费 19 个、收费 11 个、设有奖金 6 个、常年开放 2 个。以下是我们的挑战计划，不是入选结果——结果一旦出来，会写进首页的历程年表。",
       sections: [
+        {
+          h: "到目前为止实际投出去的",
+          p: ["这不只是计划。以下是已经实际递交的，结果出来后这些行的状态会改变。"],
+          list: {
+            h: "提交记录",
+            items: [
+              "2025 年 12 月 31 日 · NC VARCO 游戏公募 — Fighting Nations · 已递交",
+              "2026 年 1 月 16 日 · NEOWIZ Quest — Fighting Nations · 已递交",
+              "2026 年 8 月 · Taipei Indie Game Award 2027 — Fighting Nations · 已递交，10 月 14 日公布入围名单",
+              "2026 年 8 月 · Epic MegaGrants — Fighting Nations · 已递交，审核中",
+              "2026 年 8 月 · Xsolla Funding Club — Fighting Nations · 已递交，审核中"
+            ]
+          }
+        },
         {
           h: "为什么把计划公开",
           p: [
@@ -4912,6 +4954,20 @@ const PAGES = {
       intro: "応募できるトラックを38本すべて数え上げ、月ごとにカレンダーへ並べました。無料19・有料11・賞金あり6・通年2。以下は挑戦する計画であって、選出結果ではありません。結果はトップページの歩みの年表に順次書き入れます。",
       sections: [
         {
+          h: "これまでに実際に出したもの",
+          p: ["計画だけではありません。以下は実際に応募したもので、結果が出ればこの行の状態が変わります。"],
+          list: {
+            h: "応募履歴",
+            items: [
+              "2025年12月31日 · NC VARCO ゲームコンテスト — Fighting Nations · 応募済み",
+              "2026年1月16日 · NEOWIZ Quest — Fighting Nations · 応募済み",
+              "2026年8月 · Taipei Indie Game Award 2027 — Fighting Nations · 応募済み、ファイナリスト発表は10月14日",
+              "2026年8月 · Epic MegaGrants — Fighting Nations · 応募済み、審査中",
+              "2026年8月 · Xsolla Funding Club — Fighting Nations · 応募済み、審査中"
+            ]
+          }
+        },
+        {
           h: "なぜ計画を公開するのか",
           p: [
             "ゲームを作ることと、そのゲームを人前に届けることは別の仕事です。一人スタジオで後者を場当たりにやると、その年が丸ごと消えます。だから応募できるトラックを全部数えてカレンダーに貼り、そのカレンダーをそのまま公開します。",
@@ -5087,6 +5143,20 @@ const PAGES = {
       tagline: "Todas las ferias a las que nos presentamos, de finales de 2026 a 2027",
       intro: "Contamos todas las convocatorias a las que podemos presentarnos —38— y las pusimos en un calendario: 19 gratuitas, 11 de pago, 6 con premio en metálico y 2 abiertas todo el año. Lo que sigue es un plan al que nos presentamos, no una lista de resultados. Los resultados se publican en la línea de tiempo de la portada según llegan.",
       sections: [
+        {
+          h: "Lo que ya hemos presentado",
+          p: ["Esto no es solo un plan. Abajo está lo que se ha presentado de verdad; cuando lleguen los resultados, cambia el estado de estas líneas."],
+          list: {
+            h: "Registro de envíos",
+            items: [
+              "31 de diciembre de 2025 · Concurso NC VARCO — Fighting Nations · presentado",
+              "16 de enero de 2026 · NEOWIZ Quest — Fighting Nations · presentado",
+              "Agosto de 2026 · Taipei Indie Game Award 2027 — Fighting Nations · presentado; finalistas el 14 de octubre",
+              "Agosto de 2026 · Epic MegaGrants — Fighting Nations · presentado, en revisión",
+              "Agosto de 2026 · Xsolla Funding Club — Fighting Nations · presentado, en revisión"
+            ]
+          }
+        },
         {
           h: "Por qué publicamos el plan",
           p: [
@@ -5264,6 +5334,20 @@ const PAGES = {
       intro: "Contámos todas as candidaturas a que podemos concorrer — 38 — e pusemo-las num calendário: 19 gratuitas, 11 pagas, 6 com prémio monetário e 2 abertas todo o ano. O que se segue é um plano a que nos candidatamos, não uma lista de resultados. Os resultados vão para a cronologia da página inicial à medida que chegam.",
       sections: [
         {
+          h: "O que já submetemos",
+          p: ["Isto não é apenas um plano. Abaixo está o que foi mesmo submetido; quando chegarem os resultados, o estado destas linhas muda."],
+          list: {
+            h: "Registo de submissões",
+            items: [
+              "31 de dezembro de 2025 · Concurso NC VARCO — Fighting Nations · submetido",
+              "16 de janeiro de 2026 · NEOWIZ Quest — Fighting Nations · submetido",
+              "Agosto de 2026 · Taipei Indie Game Award 2027 — Fighting Nations · submetido; finalistas a 14 de outubro",
+              "Agosto de 2026 · Epic MegaGrants — Fighting Nations · submetido, em análise",
+              "Agosto de 2026 · Xsolla Funding Club — Fighting Nations · submetido, em análise"
+            ]
+          }
+        },
+        {
           h: "Porque publicamos o plano",
           p: [
             "Fazer um jogo e pô-lo à frente das pessoas são dois trabalhos diferentes. Num estúdio de uma pessoa, improvisar o segundo custa um ano inteiro. Por isso contámos todas as candidaturas possíveis, fixámo-las num calendário e publicamos esse calendário tal como está.",
@@ -5439,6 +5523,20 @@ const PAGES = {
       tagline: "Tous les salons auxquels nous postulons, de fin 2026 à 2027",
       intro: "Nous avons recensé toutes les candidatures possibles — 38 — et les avons posées sur un calendrier : 19 gratuites, 11 payantes, 6 dotées d'un prix, 2 ouvertes toute l'année. Ce qui suit est un plan auquel nous postulons, pas une liste de résultats. Les résultats vont sur la frise du parcours, en page d'accueil, au fur et à mesure.",
       sections: [
+        {
+          h: "Ce que nous avons déjà déposé",
+          p: ["Ce n'est pas qu'un plan. Voici ce qui a réellement été déposé ; quand les résultats tombent, le statut de ces lignes change."],
+          list: {
+            h: "Journal des dépôts",
+            items: [
+              "31 décembre 2025 · Concours NC VARCO — Fighting Nations · déposé",
+              "16 janvier 2026 · NEOWIZ Quest — Fighting Nations · déposé",
+              "Août 2026 · Taipei Indie Game Award 2027 — Fighting Nations · déposé ; finalistes le 14 octobre",
+              "Août 2026 · Epic MegaGrants — Fighting Nations · déposé, en cours d'examen",
+              "Août 2026 · Xsolla Funding Club — Fighting Nations · déposé, en cours d'examen"
+            ]
+          }
+        },
         {
           h: "Pourquoi publier le plan",
           p: [
@@ -5616,6 +5714,20 @@ const PAGES = {
       intro: "Wir haben jede Ausschreibung gezählt, für die wir uns bewerben können — 38 — und sie in einen Kalender eingetragen: 19 kostenlos, 11 kostenpflichtig, 6 mit Preisgeld, 2 ganzjährig offen. Was folgt, ist ein Plan, für den wir uns bewerben, keine Liste von Ergebnissen. Ergebnisse kommen auf die Zeitleiste der Startseite, sobald sie eintreffen.",
       sections: [
         {
+          h: "Was wir tatsächlich eingereicht haben",
+          p: ["Das ist nicht nur ein Plan. Unten steht, was wirklich eingereicht wurde; kommen die Ergebnisse, ändert sich der Status dieser Zeilen."],
+          list: {
+            h: "Einreichungsprotokoll",
+            items: [
+              "31. Dezember 2025 · NC-VARCO-Wettbewerb — Fighting Nations · eingereicht",
+              "16. Januar 2026 · NEOWIZ Quest — Fighting Nations · eingereicht",
+              "August 2026 · Taipei Indie Game Award 2027 — Fighting Nations · eingereicht; Finalisten am 14. Oktober",
+              "August 2026 · Epic MegaGrants — Fighting Nations · eingereicht, in Prüfung",
+              "August 2026 · Xsolla Funding Club — Fighting Nations · eingereicht, in Prüfung"
+            ]
+          }
+        },
+        {
           h: "Warum wir den Plan veröffentlichen",
           p: [
             "Ein Spiel zu bauen und es vor Menschen zu bringen sind zwei verschiedene Arbeiten. In einem Ein-Personen-Studio kostet es ein ganzes Jahr, die zweite zu improvisieren. Also haben wir jede mögliche Ausschreibung gezählt, in einen Kalender geheftet und veröffentlichen diesen Kalender, wie er ist.",
@@ -5792,6 +5904,20 @@ const PAGES = {
       intro: "Мы пересчитали все конкурсы, куда можем подать заявку, — их 38 — и разложили по календарю: 19 бесплатных, 11 платных, 6 с призовым фондом, 2 открыты круглый год. Ниже — план, по которому мы подаёмся, а не список результатов. Результаты появляются на ленте пути на главной странице по мере поступления.",
       sections: [
         {
+          h: "Что мы уже подали",
+          p: ["Это не только план. Ниже — то, что действительно подано; когда придут результаты, статус этих строк изменится."],
+          list: {
+            h: "Журнал заявок",
+            items: [
+              "31 декабря 2025 · Конкурс NC VARCO — Fighting Nations · подано",
+              "16 января 2026 · NEOWIZ Quest — Fighting Nations · подано",
+              "Август 2026 · Taipei Indie Game Award 2027 — Fighting Nations · подано; финалисты 14 октября",
+              "Август 2026 · Epic MegaGrants — Fighting Nations · подано, на рассмотрении",
+              "Август 2026 · Xsolla Funding Club — Fighting Nations · подано, на рассмотрении"
+            ]
+          }
+        },
+        {
           h: "Зачем публиковать план",
           p: [
             "Сделать игру и донести её до людей — две разные работы. В студии из одного человека вторую нельзя делать наугад: так теряется целый год. Поэтому мы пересчитали все доступные конкурсы, разложили их по календарю и публикуем этот календарь как есть.",
@@ -5967,6 +6093,20 @@ const PAGES = {
       tagline: "كل المعارض التي نتقدّم إليها، من أواخر 2026 حتى 2027",
       intro: "أحصينا كل المسارات التي يمكننا التقدّم إليها — ثمانية وثلاثون — ووضعناها في تقويم: 19 مجانيًا، و11 مدفوعًا، و6 بجوائز مالية، واثنان مفتوحان طوال العام. ما يلي خطة نتقدّم بها، وليست قائمة نتائج. النتائج تُكتب في خط مسيرتنا على الصفحة الرئيسية أولًا بأول.",
       sections: [
+        {
+          h: "ما قدّمناه فعلًا حتى الآن",
+          p: ["هذه ليست خطة فحسب. في ما يلي ما قُدِّم فعلًا، وحين تصدر النتائج تتغيّر حالة هذه السطور."],
+          list: {
+            h: "سجلّ التقديمات",
+            items: [
+              "‏31 ديسمبر 2025 · مسابقة NC VARCO — Fighting Nations · قُدِّم",
+              "‏16 يناير 2026 · NEOWIZ Quest — Fighting Nations · قُدِّم",
+              "‏أغسطس 2026 · Taipei Indie Game Award 2027 — Fighting Nations · قُدِّم، وتُعلن القائمة النهائية في 14 أكتوبر",
+              "‏أغسطس 2026 · Epic MegaGrants — Fighting Nations · قُدِّم، قيد المراجعة",
+              "‏أغسطس 2026 · Xsolla Funding Club — Fighting Nations · قُدِّم، قيد المراجعة"
+            ]
+          }
+        },
         {
           h: "لماذا ننشر الخطة",
           p: [
