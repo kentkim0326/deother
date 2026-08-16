@@ -1893,6 +1893,1390 @@ const PAGES = {
         "Meeting an Indian distributor at Thailand Game Show. Rooms like this are the reason we go."
       ],
       cta: "Play the game we are entering", back: "Back to Deother"
+    },
+
+    zh: {
+      title: "年度展会路线图",
+      tagline: "从 2026 下半年到 2027 年，我们要挑战的全部展会",
+      intro: "我们把可以报名的 38 个通道全部清点出来，按月排进日历：免费 19 个、收费 11 个、设有奖金 6 个、常年开放 2 个。以下是我们的挑战计划，不是入选结果——结果一旦出来，会写进首页的历程年表。",
+      sections: [
+        {
+          h: "为什么把计划公开",
+          p: [
+            "做游戏和把游戏送到玩家面前是两件事。一人工作室如果临时应付后者，一整年就白白过去。所以我们数清了所有能报名的通道，钉进日历，然后把这份日历原样公开。",
+            "有一个规律很明显：报名集中在上半年，展会本身在下半年。38 个中有 24 个在 1 月到 6 月截止。8 月才开始动，这一年的大半已经过去了。2027 年我们从 1 月开始。"
+          ],
+          list: {
+            h: "38 个通道的构成",
+            items: [
+              "免费 19 个 —— 一旦入选，参展费用由主办方承担",
+              "收费 11 个 —— 需要报名费或展位费",
+              "奖金或制作补助 6 个",
+              "常年开放、没有截止日期 2 个"
+            ]
+          }
+        },
+        {
+          h: "2026 下半年 —— 正在报名的",
+          p: ["以整理本页的 2026 年 8 月为准，仍然开放或即将开放的报名。"],
+          list: {
+            h: "8 月至 12 月截止",
+            items: [
+              "GWB 游戏大奖（腾讯）—— 8 月中旬 · 免费。之后是 11 月颁奖礼与 Steam 活动",
+              "EVA Play（布宜诺斯艾利斯）—— 约 8 月 17 日 · 免费。可远程参加",
+              "Taipei Indie Game Award —— 8 月 19 日 · 免费。每队一款，资料上传 8 月 26 日至 9 月 2 日",
+              "Steam 新品节 10 月场 —— 8 月 31 日前登记。试玩版 9 月 21 日截止",
+              "Mobidictum Showcase（伊斯坦布尔）—— 8 月 31 日 · 免费。50 个 Indie Spot 与奖项",
+              "IGF —— 约 9 月 7 日 · 75 美元（可申请豁免）。仅入围就有履历价值",
+              "DevGAMM Awards —— 约 9 月 7 日 · 免费。150 名以上评审，11 月于 IGN 直播",
+              "G-Star 独立游戏展区 —— 9 月内 · 免费。10 月 17 日通知入选",
+              "Demospree —— 约 10 月 5 日 · 免费。1 月的试玩直播马拉松",
+              "BGM Game Expo Winter（中国）—— 约 10 月 17 日 · 免费。12 月线下活动与奖项",
+              "Day of the Devs 冬季场 —— 8 至 10 月 · 免费。策展制",
+              "BitSummit 一般参展报名开始 —— 约 11 月 · 33,000 日元。一次一款",
+              "台北 INDIE HOUSE 展位 —— 秋季 · 收费。展会在 1 月",
+              "pitchyagame —— 11 月 · 免费。现场路演",
+              "A MAZE. 柏林开始报名 —— 12 月 16 日 · 收费。1 月 31 日截止"
+            ]
+          }
+        },
+        {
+          h: "2026 下半年 —— 开门的场合",
+          p: ["与报名无关，下半年实际举办的展会。"],
+          list: {
+            h: "9 月至 12 月举办",
+            items: [
+              "东京电玩展 —— 9 月底",
+              "PAX West —— 9 月初",
+              "Steam 新品节 10 月场 —— 10 月 19 至 26 日",
+              "gamescom asia x Thailand Game Show —— 10 月 29 日至 11 月 1 日，曼谷。2025 年我们以韩国馆展位参加过",
+              "G-Star + G-CON —— 11 月 19 至 22 日，釜山",
+              "DevGAMM 与 GWB 颁奖礼 —— 11 月",
+              "BGM Game Expo Winter —— 12 月，中国"
+            ]
+          }
+        },
+        {
+          h: "2027 上半年报名 —— 1 月到 3 月",
+          p: ["这里是胜负所在。仅第一季度就有八个通道关闭。"],
+          list: {
+            h: "1 月至 3 月截止",
+            items: [
+              "Steam 新品节 2 月场 —— 约 1 月 5 日登记。开展前七周截止，且每款游戏一生只能参加一次",
+              "gamescom latam BIG Festival —— 约 1 月 15 日 · 免费。圣保罗，17 个类别，4 月底举办",
+              "NEOWIZ Quest —— 1 月 16 日 · 免费。总奖金 1.65 亿韩元",
+              "A MAZE. 柏林 —— 1 月 31 日（延期至约 2 月 10 日）· 收费",
+              "东京电玩展 SELECTED INDIE 80 开始报名 —— 2 月 10 日 · 免费。4 月 30 日截止",
+              "Indie Arena Booth —— 3 至 4 月 · 收费，另有免费策展名额。约 100 名评审，4 月底至 5 月初通知",
+              "G-Star 早鸟报名开始 —— 3 月 3 日 · 收费。展位费九折"
+            ]
+          }
+        },
+        {
+          h: "2027 上半年报名 —— 4 月到 6 月",
+          p: ["韩国的扶持项目与欧洲的独立游戏展位在这一段重叠。"],
+          list: {
+            h: "4 月至 6 月截止",
+            items: [
+              "Day of the Devs（Summer Game Fest 场）—— 约 4 月 6 日 · 免费。策展制",
+              "Smilegate IndieGo —— 4 月 12 日 · 免费。1,000 万韩元",
+              "Indie Arena Booth —— 约 4 月 20 日 · 收费。gamescom 共享展位",
+              "东京电玩展 SELECTED INDIE 80 —— 4 月 30 日 · 免费。选出 80 款，自动进入 SOWN 候选",
+              "Tiny Teams —— 约 4 月 30 日 · 免费。五人以下团队，须有试玩版",
+              "G-Star 早鸟报名截止 —— 4 月 30 日 · 收费",
+              "IndieCraft —— 5 月 6 日 · 免费。最高 4,000 万韩元",
+              "NC VARCO —— 5 月 7 日 · 免费",
+              "gamescom dev 独立游戏展 —— 5 月 8 日 · 免费。30 个名额中选 20 队。前身为 devcom，截止日不是 5 月 31 日",
+              "BIC Festival —— 5 月 25 日 · 免费。釜山，8 月举办",
+              "G-Star 一般报名开始 —— 5 月 26 日 · 收费",
+              "gamescom asia 独立游戏 —— 约 6 月 15 日 · 收费。曼谷",
+              "IndieCade 常规报名 —— 约 6 月中旬 · 135 美元。展会在 1 月",
+              "GIGDC —— 6 月 25 日 · 免费",
+              "LudoNarraCon —— 约 6 月 26 日 · 免费。以叙事为主，与我们的类型契合度较低",
+              "G-Star 一般报名截止 —— 7 月 31 日 · 收费"
+            ]
+          }
+        },
+        {
+          h: "2027 举办日程",
+          p: ["报名成功后实际要去的日子。只列出已公布的日期。"],
+          list: {
+            h: "1 月至 11 月",
+            items: [
+              "台北电玩展 + INDIE HOUSE —— 1 月 21 至 24 日。Indie Game Award 颁奖礼在 1 月 20 日",
+              "IndieCade 展会与 Demospree 直播 —— 1 月",
+              "Steam 新品节 2 月场 —— 2 月",
+              "GDC + IGF 颁奖 —— 3 月初，旧金山",
+              "gamescom latam —— 4 月 30 日至 5 月 3 日，圣保罗",
+              "A MAZE. 柏林 —— 5 月中旬",
+              "BitSummit —— 5 月 21 至 23 日，京都",
+              "Digital Dragons 与 Nordic Game —— 5 月",
+              "Steam 新品节 6 月场 —— 6 月",
+              "Develop:Brighton —— 7 月 13 至 15 日",
+              "BIC Festival —— 8 月中旬，釜山",
+              "gamescom dev 与 gamescom —— 8 月底，科隆",
+              "东京电玩展 —— 9 月底",
+              "G-Star —— 11 月，釜山"
+            ]
+          }
+        },
+        {
+          h: "没有截止日期的常年通道",
+          p: ["与日历无关，随时都能投。没有日期逼着走，也就意味着要靠我们自己在版本就绪的那一刻把它推出去。"],
+          list: {
+            h: "常年 6 种",
+            items: [
+              "Big Indie Pitch —— 免费。全年在多个城市举办，唯一常年开放的路演",
+              "Epic MegaGrants —— 免费。虚幻引擎项目随时受理",
+              "INDIE Live Expo —— 免费。每年两次，线上",
+              "PAX Rising —— 收费。West / East / Aus 分别申请",
+              "gamescom dev B2B 展台 —— 1,499 欧元。8 支独立团队，gamescom 4.1 馆",
+              "Steam Direct —— 每款应用 100 美元，收入超过 1,000 美元后返还"
+            ]
+          }
+        },
+        {
+          h: "我们按什么顺序去",
+          p: [
+            "对一人工作室来说，差旅与住宿比展位更贵。欧洲或北美的展会即使免费报名，实际成本也最高。所以顺序事先定好。",
+            "主力始终是 Fighting Nations。格斗游戏在大型综合展会与奖项上有优势，在限定单一类型的 Steam 活动上则较弱。Kingdom Wars 是浏览器游戏，因此退出实体展位通道，改走策略类线上活动与免费 Steam 活动。"
+          ],
+          list: {
+            h: "优先顺序",
+            items: [
+              "① 线上与评审制的免费通道 —— 不产生差旅费",
+              "② 韩国国内 —— G-Star、BIC Festival",
+              "③ 亚洲近距离 —— 台北、曼谷、京都",
+              "④ 欧洲与北美 —— 入选时，或有随行支持时"
+            ]
+          }
+        },
+        {
+          h: "什么已经确定，什么还没有",
+          p: [
+            "这一页是我们的挑战计划，不是入选名单。实际入选了哪些，等结果出来后写进首页的历程年表——一直以来我们都是这么做的。",
+            "日期综合了各展会的公告与往年惯例。官方公告与此不同时，以公告为准，我们逐一确认后修正本页。",
+            "最后更新：2026 年 8 月 16 日。"
+          ]
+        }
+      ],
+      slides: [
+        "2025 年 10 月，gamescom asia x Thailand Game Show 韩国馆。下面的清单是我们接下来要去的地方。",
+        "G-Star 2022，釜山 BEXCO。G-Star 我们从 2019 年起每年都去。",
+        "在泰国游戏展与印度发行商会面。我们参展，最终就是为了促成这样的会面。"
+      ],
+      cta: "试玩我们送去参赛的游戏", back: "返回 Deother"
+    },
+
+    ja: {
+      title: "年度別イベントロードマップ",
+      tagline: "2026年後半から2027年まで、私たちが挑むイベントのすべて",
+      intro: "応募できるトラックを38本すべて数え上げ、月ごとにカレンダーへ並べました。無料19・有料11・賞金あり6・通年2。以下は挑戦する計画であって、選出結果ではありません。結果はトップページの歩みの年表に順次書き入れます。",
+      sections: [
+        {
+          h: "なぜ計画を公開するのか",
+          p: [
+            "ゲームを作ることと、そのゲームを人前に届けることは別の仕事です。一人スタジオで後者を場当たりにやると、その年が丸ごと消えます。だから応募できるトラックを全部数えてカレンダーに貼り、そのカレンダーをそのまま公開します。",
+            "はっきりした傾向が一つありました。応募は年の前半に集中し、開催は後半です。38本のうち24本が1月から6月に締め切られます。8月に動き出したときには、その年の大半はもう過ぎています。2027年は1月から始めます。"
+          ],
+          list: {
+            h: "38トラックの内訳",
+            items: [
+              "無料19 —— 選ばれれば出展費用は主催者が負担",
+              "有料11 —— 参加費または小間料がかかる",
+              "賞金・制作支援金つき6",
+              "締め切りのない通年2"
+            ]
+          }
+        },
+        {
+          h: "2026年後半 —— いま応募しているもの",
+          p: ["このページをまとめた2026年8月時点で、まだ開いている、または間もなく開く応募です。"],
+          list: {
+            h: "8月〜12月締め切り",
+            items: [
+              "GWB Game Awards（テンセント）—— 8月中旬 · 無料。11月の授賞式とSteamイベントにつながります",
+              "EVA Play（ブエノスアイレス）—— 8月17日ごろ · 無料。オンライン参加可",
+              "Taipei Indie Game Award —— 8月19日 · 無料。1チーム1本、資料アップロードは8月26日〜9月2日",
+              "Steam Next Fest 10月開催分の登録 —— 8月31日まで。デモは9月21日まで",
+              "Mobidictum Showcase（イスタンブール）—— 8月31日 · 無料。Indie Spot 50枠と各賞",
+              "IGF —— 9月7日ごろ · 75ドル（免除申請可）。ノミネートだけでも実績になります",
+              "DevGAMM Awards —— 9月7日ごろ · 無料。審査員150名超、11月にIGNで配信",
+              "G-STAR インディーショーケース —— 9月中 · 無料。選出通知は10月17日",
+              "Demospree —— 10月5日ごろ · 無料。1月のデモ配信マラソン",
+              "BGM Game Expo Winter（中国）—— 10月17日ごろ · 無料。12月のオフライン開催と各賞",
+              "Day of the Devs 冬版 —— 8〜10月 · 無料。キュレーション制",
+              "BitSummit 一般出展の応募開始 —— 11月ごろ · 33,000円。1回1タイトル",
+              "台北 INDIE HOUSE ブース —— 秋 · 有料。開催は1月",
+              "pitchyagame —— 11月 · 無料。ライブピッチ",
+              "A MAZE. ベルリン 応募開始 —— 12月16日 · 有料。締め切りは1月31日"
+            ]
+          }
+        },
+        {
+          h: "2026年後半 —— 扉が開く場",
+          p: ["応募とは別に、後半に実際に開かれるイベントです。"],
+          list: {
+            h: "9月〜12月開催",
+            items: [
+              "東京ゲームショウ —— 9月下旬",
+              "PAX West —— 9月上旬",
+              "Steam Next Fest 10月版 —— 10月19〜26日",
+              "gamescom asia x Thailand Game Show —— 10月29日〜11月1日、バンコク。2025年に韓国館ブースで出展した場です",
+              "G-STAR + G-CON —— 11月19〜22日、釜山",
+              "DevGAMM 授賞式・GWB 授賞式 —— 11月",
+              "BGM Game Expo Winter —— 12月、中国"
+            ]
+          }
+        },
+        {
+          h: "2027年前半の応募 —— 1月から3月",
+          p: ["ここが勝負どころです。第1四半期だけで八つのトラックが閉まります。"],
+          list: {
+            h: "1月〜3月締め切り",
+            items: [
+              "Steam Next Fest 2月版の登録 —— 1月5日ごろ。開催7週間前が締め切りで、1タイトルにつき生涯1回だけです",
+              "gamescom latam BIG Festival —— 1月15日ごろ · 無料。サンパウロ、17部門、4月末開催",
+              "NEOWIZ Quest —— 1月16日 · 無料。総額1億6,500万ウォン",
+              "A MAZE. ベルリン —— 1月31日（延長で2月10日ごろ）· 有料",
+              "東京ゲームショウ SELECTED INDIE 80 応募開始 —— 2月10日 · 無料。締め切りは4月30日",
+              "Indie Arena Booth —— 3〜4月 · 有料、無料のキュレーション枠あり。審査員およそ100名、通知は4月末〜5月初",
+              "G-STAR 早期申込開始 —— 3月3日 · 有料。小間料10%割引"
+            ]
+          }
+        },
+        {
+          h: "2027年前半の応募 —— 4月から6月",
+          p: ["韓国の支援事業と欧州のインディーブースが重なる区間です。"],
+          list: {
+            h: "4月〜6月締め切り",
+            items: [
+              "Day of the Devs（Summer Game Fest版）—— 4月6日ごろ · 無料。キュレーション制",
+              "Smilegate IndieGo —— 4月12日 · 無料。1,000万ウォン",
+              "Indie Arena Booth —— 4月20日ごろ · 有料。gamescom の共同ブース",
+              "東京ゲームショウ SELECTED INDIE 80 —— 4月30日 · 無料。80本選出、SOWN 候補に自動エントリー",
+              "Tiny Teams —— 4月30日ごろ · 無料。5人以下のチーム、デモ必須",
+              "G-STAR 早期申込締め切り —— 4月30日 · 有料",
+              "IndieCraft —— 5月6日 · 無料。最大4,000万ウォン",
+              "NC VARCO —— 5月7日 · 無料",
+              "gamescom dev インディーエキスポ —— 5月8日 · 無料。30枠のうち20チーム。旧 devcom で、締め切りは5月31日ではありません",
+              "BIC フェスティバル —— 5月25日 · 無料。釜山、8月開催",
+              "G-STAR 一般申込開始 —— 5月26日 · 有料",
+              "gamescom asia インディー —— 6月15日ごろ · 有料。バンコク",
+              "IndieCade 通常応募 —— 6月中旬ごろ · 135ドル。フェスティバルは1月",
+              "GIGDC —— 6月25日 · 無料",
+              "LudoNarraCon —— 6月26日ごろ · 無料。ナラティブ中心で、私たちのジャンルとは相性が薄めです",
+              "G-STAR 一般申込締め切り —— 7月31日 · 有料"
+            ]
+          }
+        },
+        {
+          h: "2027年の開催日程",
+          p: ["応募が通ったとき、実際に足を運ぶ日です。公表済みの日付だけを載せました。"],
+          list: {
+            h: "1月〜11月",
+            items: [
+              "台北ゲームショウ + INDIE HOUSE —— 1月21〜24日。Indie Game Award 授賞式は1月20日",
+              "IndieCade フェスティバルと Demospree 配信 —— 1月",
+              "Steam Next Fest 2月版 —— 2月",
+              "GDC + IGF 授賞式 —— 3月上旬、サンフランシスコ",
+              "gamescom latam —— 4月30日〜5月3日、サンパウロ",
+              "A MAZE. ベルリン —— 5月中旬",
+              "BitSummit —— 5月21〜23日、京都",
+              "Digital Dragons・Nordic Game —— 5月",
+              "Steam Next Fest 6月版 —— 6月",
+              "Develop:Brighton —— 7月13〜15日",
+              "BIC フェスティバル —— 8月中旬、釜山",
+              "gamescom dev と gamescom —— 8月下旬、ケルン",
+              "東京ゲームショウ —— 9月下旬",
+              "G-STAR —— 11月、釜山"
+            ]
+          }
+        },
+        {
+          h: "締め切りのない通年トラック",
+          p: ["カレンダーとは関係なくいつでも出せます。日付に追われない代わりに、ビルドが整った瞬間に自分たちで押し込む必要があります。"],
+          list: {
+            h: "通年6種",
+            items: [
+              "Big Indie Pitch —— 無料。年間を通じて各都市で開かれる、唯一の常設ピッチ",
+              "Epic MegaGrants —— 無料。Unreal プロジェクトを随時受付",
+              "INDIE Live Expo —— 無料。年2回、オンライン",
+              "PAX Rising —— 有料。West / East / Aus はそれぞれ別申込",
+              "gamescom dev B2Bスタンド —— 1,499ユーロ。インディー8チーム、gamescom ホール4.1",
+              "Steam Direct —— 1アプリ100ドル。売上が1,000ドルを超えると返還されます"
+            ]
+          }
+        },
+        {
+          h: "どの順で挑むか",
+          p: [
+            "一人スタジオでは、小間料より移動と滞在の費用が大きくなります。欧州・北米の現地トラックは参加費が無料でも実際のコストが最も高い。だから順番をあらかじめ決めてあります。",
+            "主力は Fighting Nations です。格闘ゲームは大型の総合フェスティバルや各賞に強く、ジャンルを絞ったSteamイベントには弱い。Kingdom Wars はブラウザゲームなので物理ブースのトラックからは外れ、ストラテジー系のオンラインイベントと無料のSteamイベントに回ります。"
+          ],
+          list: {
+            h: "優先順位",
+            items: [
+              "① オンライン・審査型の無料トラック —— 移動費がかかりません",
+              "② 国内 —— G-STAR、BIC フェスティバル",
+              "③ アジア近距離 —— 台北、バンコク、京都",
+              "④ 欧州・北米 —— 選出されたとき、または渡航支援がつくとき"
+            ]
+          }
+        },
+        {
+          h: "何が確定で、何がそうでないか",
+          p: [
+            "このページは挑戦する計画です。選出結果ではありません。どこに通ったかは、結果が出てからトップページの歩みの年表に書きます——これまでもそうしてきました。",
+            "日付は各イベントの告知と例年の日程を突き合わせて整理したものです。公式告知が違えば公式が正しく、確認でき次第このページを直します。",
+            "最終更新：2026年8月16日。"
+          ]
+        }
+      ],
+      slides: [
+        "2025年10月、gamescom asia x Thailand Game Show の韓国館。下の一覧はこれから向かう場所です。",
+        "G-STAR 2022、釜山BEXCO。G-STARには2019年から毎年通っています。",
+        "タイ・ゲームショウでインドのパブリッシャーと。イベントに出る理由は、結局こういう席をつくるためです。"
+      ],
+      cta: "出品作を遊んでみる", back: "Deother に戻る"
+    },
+
+    es: {
+      title: "Hoja de ruta de ferias por año",
+      tagline: "Todas las ferias a las que nos presentamos, de finales de 2026 a 2027",
+      intro: "Contamos todas las convocatorias a las que podemos presentarnos —38— y las pusimos en un calendario: 19 gratuitas, 11 de pago, 6 con premio en metálico y 2 abiertas todo el año. Lo que sigue es un plan al que nos presentamos, no una lista de resultados. Los resultados se publican en la línea de tiempo de la portada según llegan.",
+      sections: [
+        {
+          h: "Por qué publicamos el plan",
+          p: [
+            "Hacer un juego y ponerlo delante de la gente son dos trabajos distintos. En un estudio de una sola persona, improvisar el segundo cuesta un año entero. Así que contamos todas las convocatorias posibles, las clavamos en un calendario y publicamos ese calendario tal cual.",
+            "Apareció un patrón. Las inscripciones se concentran en el primer semestre; las ferias ocurren en el segundo. 24 de las 38 cierran entre enero y junio. Si empiezas a moverte en agosto, ese año ya se ha ido casi entero. Para 2027 empezamos en enero."
+          ],
+          list: {
+            h: "Cómo se reparten las 38 convocatorias",
+            items: [
+              "19 gratuitas: si te seleccionan, la organización cubre el coste de exposición",
+              "11 de pago: cuota de inscripción o de stand",
+              "6 con premio en metálico o ayuda a la producción",
+              "2 abiertas todo el año, sin fecha límite"
+            ]
+          }
+        },
+        {
+          h: "Finales de 2026: a lo que nos presentamos ahora",
+          p: ["Abiertas o a punto de abrirse, a fecha de agosto de 2026, cuando se preparó esta página."],
+          list: {
+            h: "Cierran de agosto a diciembre",
+            items: [
+              "GWB Game Awards (Tencent): mediados de agosto · gratis. Lleva a una gala en noviembre y a un evento en Steam",
+              "EVA Play (Buenos Aires): hacia el 17 de agosto · gratis. Se puede participar en remoto",
+              "Taipei Indie Game Award: 19 de agosto · gratis. Una entrada por equipo; materiales del 26 de agosto al 2 de septiembre",
+              "Steam Next Fest, edición de octubre: registro hasta el 31 de agosto. Demo antes del 21 de septiembre",
+              "Mobidictum Showcase (Estambul): 31 de agosto · gratis. 50 Indie Spots y premios",
+              "IGF: hacia el 7 de septiembre · 75 $ (se puede pedir exención). Solo la nominación ya cuenta",
+              "DevGAMM Awards: hacia el 7 de septiembre · gratis. Más de 150 jurados, emisión en IGN en noviembre",
+              "G-Star Indie Showcase: durante septiembre · gratis. Selección el 17 de octubre",
+              "Demospree: hacia el 5 de octubre · gratis. Maratón de demos en directo en enero",
+              "BGM Game Expo Winter (China): hacia el 17 de octubre · gratis. Feria en diciembre y premios",
+              "Day of the Devs, edición de invierno: de agosto a octubre · gratis. Con curaduría",
+              "BitSummit, apertura de inscripción general: hacia noviembre · 33.000 ¥. Un título por inscripción",
+              "Stand de Taipei INDIE HOUSE: otoño · de pago. La feria es en enero",
+              "pitchyagame: noviembre · gratis. Pitching en directo",
+              "A MAZE. Berlín abre: 16 de diciembre · de pago. Cierra el 31 de enero"
+            ]
+          }
+        },
+        {
+          h: "Finales de 2026: dónde se abren las puertas",
+          p: ["Al margen de las inscripciones, estas son las ferias que se celebran en el segundo semestre."],
+          list: {
+            h: "De septiembre a diciembre",
+            items: [
+              "Tokyo Game Show: finales de septiembre",
+              "PAX West: principios de septiembre",
+              "Steam Next Fest, edición de octubre: 19-26 de octubre",
+              "gamescom asia x Thailand Game Show: 29 de octubre-1 de noviembre, Bangkok. La feria en la que expusimos en el pabellón coreano en 2025",
+              "G-Star + G-CON: 19-22 de noviembre, Busan",
+              "Galas de DevGAMM y GWB: noviembre",
+              "BGM Game Expo Winter: diciembre, China"
+            ]
+          }
+        },
+        {
+          h: "Inscripciones 2027: de enero a marzo",
+          p: ["Aquí se decide el año. Solo en el primer trimestre cierran ocho convocatorias."],
+          list: {
+            h: "Cierran de enero a marzo",
+            items: [
+              "Steam Next Fest, edición de febrero: registro hacia el 5 de enero. Cierra siete semanas antes del evento, y un juego solo puede hacerlo una vez en su vida",
+              "gamescom latam BIG Festival: hacia el 15 de enero · gratis. São Paulo, 17 categorías, se celebra a finales de abril",
+              "NEOWIZ Quest: 16 de enero · gratis. 165 millones de wones en premios",
+              "A MAZE. Berlín: 31 de enero (prórroga hasta el 10 de febrero aprox.) · de pago",
+              "Tokyo Game Show SELECTED INDIE 80 abre: 10 de febrero · gratis. Cierra el 30 de abril",
+              "Indie Arena Booth: marzo-abril · de pago, más plazas gratuitas con curaduría. Unos 100 jurados; respuesta entre finales de abril y principios de mayo",
+              "G-Star, inscripción anticipada: 3 de marzo · de pago. 10 % de descuento en el stand"
+            ]
+          }
+        },
+        {
+          h: "Inscripciones 2027: de abril a junio",
+          p: ["Aquí se solapan los programas de ayudas coreanos y los stands indie europeos."],
+          list: {
+            h: "Cierran de abril a junio",
+            items: [
+              "Day of the Devs (edición Summer Game Fest): hacia el 6 de abril · gratis. Con curaduría",
+              "Smilegate IndieGo: 12 de abril · gratis. 10 millones de wones",
+              "Indie Arena Booth: hacia el 20 de abril · de pago. Stand compartido en gamescom",
+              "Tokyo Game Show SELECTED INDIE 80: 30 de abril · gratis. 80 seleccionados, con entrada automática a SOWN",
+              "Tiny Teams: hacia el 30 de abril · gratis. Equipos de cinco o menos, demo obligatoria",
+              "G-Star, cierre de inscripción anticipada: 30 de abril · de pago",
+              "IndieCraft: 6 de mayo · gratis. Hasta 40 millones de wones",
+              "NC VARCO: 7 de mayo · gratis",
+              "gamescom dev Indie Expo: 8 de mayo · gratis. 20 equipos de 30 plazas. Antes devcom, y la fecha límite no es el 31 de mayo",
+              "BIC Festival: 25 de mayo · gratis. Busan, se celebra en agosto",
+              "G-Star, inscripción general: 26 de mayo · de pago",
+              "gamescom asia indie: hacia el 15 de junio · de pago. Bangkok",
+              "IndieCade, convocatoria regular: hacia mediados de junio · 135 $. El festival es en enero",
+              "GIGDC: 25 de junio · gratis",
+              "LudoNarraCon: hacia el 26 de junio · gratis. Centrado en narrativa, encaja peor con nuestro género",
+              "G-Star, cierre de inscripción general: 31 de julio · de pago"
+            ]
+          }
+        },
+        {
+          h: "Fechas de las ferias de 2027",
+          p: ["Dónde hay que estar físicamente si salen las inscripciones. Solo figuran las fechas ya anunciadas."],
+          list: {
+            h: "De enero a noviembre",
+            items: [
+              "Taipei Game Show + INDIE HOUSE: 21-24 de enero. Gala del Indie Game Award el 20 de enero",
+              "Festival IndieCade y emisión de Demospree: enero",
+              "Steam Next Fest, edición de febrero: febrero",
+              "GDC + premios IGF: principios de marzo, San Francisco",
+              "gamescom latam: 30 de abril-3 de mayo, São Paulo",
+              "A MAZE. Berlín: mediados de mayo",
+              "BitSummit: 21-23 de mayo, Kioto",
+              "Digital Dragons y Nordic Game: mayo",
+              "Steam Next Fest, edición de junio: junio",
+              "Develop:Brighton: 13-15 de julio",
+              "BIC Festival: mediados de agosto, Busan",
+              "gamescom dev y gamescom: finales de agosto, Colonia",
+              "Tokyo Game Show: finales de septiembre",
+              "G-Star: noviembre, Busan"
+            ]
+          }
+        },
+        {
+          h: "Convocatorias sin fecha límite",
+          p: ["Están abiertas al margen del calendario. Nada obliga a una fecha, lo que significa que tenemos que empujarnos nosotros mismos en cuanto la build esté lista."],
+          list: {
+            h: "Seis convocatorias permanentes",
+            items: [
+              "Big Indie Pitch: gratis. Se celebra en varias ciudades todo el año; el único pitch permanentemente abierto",
+              "Epic MegaGrants: gratis. Convocatoria continua para proyectos en Unreal",
+              "INDIE Live Expo: gratis. Dos veces al año, en línea",
+              "PAX Rising: de pago. West / East / Aus se solicitan por separado",
+              "Stand B2B de gamescom dev: 1.499 €. Ocho equipos indie, pabellón 4.1 de gamescom",
+              "Steam Direct: 100 $ por aplicación, recuperables cuando el juego supera los 1.000 $ de ingresos"
+            ]
+          }
+        },
+        {
+          h: "En qué orden vamos",
+          p: [
+            "Para un estudio de una persona, los viajes y el alojamiento cuestan más que el stand. Una feria europea o norteamericana es la más cara aunque la entrada sea gratuita. Por eso el orden está fijado de antemano.",
+            "Fighting Nations encabeza todas las convocatorias. Un juego de lucha es fuerte en las grandes ferias generalistas y en los premios, y débil en los eventos de Steam construidos en torno a un solo género. Kingdom Wars corre en navegador, así que queda fuera de los stands físicos y va a eventos en línea de estrategia y a eventos gratuitos de Steam."
+          ],
+          list: {
+            h: "Prioridad",
+            items: [
+              "1. Convocatorias gratuitas en línea y con jurado: sin coste de viaje",
+              "2. Corea: G-Star, BIC Festival",
+              "3. Asia cercana: Taipéi, Bangkok, Kioto",
+              "4. Europa y Norteamérica: cuando nos seleccionen, o cuando venga con apoyo al viaje"
+            ]
+          }
+        },
+        {
+          h: "Qué está cerrado y qué no",
+          p: [
+            "Esta página es un plan al que nos presentamos. No es una lista de resultados. Dónde nos aceptan de verdad se publica en la línea de tiempo de la portada cuando lo sabemos: así lo hemos hecho hasta ahora.",
+            "Las fechas combinan los anuncios de cada evento con el calendario que han mantenido en años anteriores. Si un anuncio oficial dice otra cosa, manda el anuncio, y corregimos esta página a medida que lo confirmamos.",
+            "Última actualización: 16 de agosto de 2026."
+          ]
+        }
+      ],
+      slides: [
+        "El pabellón coreano en gamescom asia x Thailand Game Show, octubre de 2025. La lista de abajo es adonde vamos ahora.",
+        "G-Star 2022 en BEXCO, Busan. Vamos a G-Star todos los años desde 2019.",
+        "Reunión con una distribuidora india en Thailand Game Show. Salas como esta son la razón por la que vamos."
+      ],
+      cta: "Juega al juego que presentamos", back: "Volver a Deother"
+    },
+
+    pt: {
+      title: "Roteiro de eventos por ano",
+      tagline: "Todos os eventos a que nos candidatamos, de finais de 2026 a 2027",
+      intro: "Contámos todas as candidaturas a que podemos concorrer — 38 — e pusemo-las num calendário: 19 gratuitas, 11 pagas, 6 com prémio monetário e 2 abertas todo o ano. O que se segue é um plano a que nos candidatamos, não uma lista de resultados. Os resultados vão para a cronologia da página inicial à medida que chegam.",
+      sections: [
+        {
+          h: "Porque publicamos o plano",
+          p: [
+            "Fazer um jogo e pô-lo à frente das pessoas são dois trabalhos diferentes. Num estúdio de uma pessoa, improvisar o segundo custa um ano inteiro. Por isso contámos todas as candidaturas possíveis, fixámo-las num calendário e publicamos esse calendário tal como está.",
+            "Notou-se um padrão. As candidaturas concentram-se no primeiro semestre; os eventos acontecem no segundo. 24 das 38 fecham entre janeiro e junho. Quem começa a mexer-se em agosto já perdeu quase todo o ano. Para 2027 começamos em janeiro."
+          ],
+          list: {
+            h: "Como se dividem as 38 candidaturas",
+            items: [
+              "19 gratuitas — se formos selecionados, a organização cobre o custo de exposição",
+              "11 pagas — inscrição ou custo de stand",
+              "6 com prémio monetário ou apoio à produção",
+              "2 abertas todo o ano, sem prazo"
+            ]
+          }
+        },
+        {
+          h: "Finais de 2026 — a que nos candidatamos agora",
+          p: ["Abertas ou a abrir em breve, em agosto de 2026, quando esta página foi preparada."],
+          list: {
+            h: "Fecham de agosto a dezembro",
+            items: [
+              "GWB Game Awards (Tencent) — meados de agosto · gratuito. Leva a uma gala em novembro e a um evento na Steam",
+              "EVA Play (Buenos Aires) — por volta de 17 de agosto · gratuito. Participação remota possível",
+              "Taipei Indie Game Award — 19 de agosto · gratuito. Uma entrada por equipa; materiais de 26 de agosto a 2 de setembro",
+              "Steam Next Fest, edição de outubro — registo até 31 de agosto. Demo até 21 de setembro",
+              "Mobidictum Showcase (Istambul) — 31 de agosto · gratuito. 50 Indie Spots e prémios",
+              "IGF — por volta de 7 de setembro · 75 $ (é possível pedir isenção). Só a nomeação já vale",
+              "DevGAMM Awards — por volta de 7 de setembro · gratuito. Mais de 150 jurados, transmitido na IGN em novembro",
+              "G-Star Indie Showcase — durante setembro · gratuito. Seleção anunciada a 17 de outubro",
+              "Demospree — por volta de 5 de outubro · gratuito. Maratona de demos em direto em janeiro",
+              "BGM Game Expo Winter (China) — por volta de 17 de outubro · gratuito. Evento em dezembro e prémios",
+              "Day of the Devs, edição de inverno — de agosto a outubro · gratuito. Com curadoria",
+              "BitSummit, abertura das inscrições gerais — por volta de novembro · 33.000 ¥. Um título por inscrição",
+              "Stand da Taipei INDIE HOUSE — outono · pago. O evento é em janeiro",
+              "pitchyagame — novembro · gratuito. Pitching ao vivo",
+              "A MAZE. Berlim abre — 16 de dezembro · pago. Fecha a 31 de janeiro"
+            ]
+          }
+        },
+        {
+          h: "Finais de 2026 — onde as portas abrem",
+          p: ["À parte das candidaturas, estes são os eventos que decorrem no segundo semestre."],
+          list: {
+            h: "De setembro a dezembro",
+            items: [
+              "Tokyo Game Show — fim de setembro",
+              "PAX West — início de setembro",
+              "Steam Next Fest, edição de outubro — 19 a 26 de outubro",
+              "gamescom asia x Thailand Game Show — 29 de outubro a 1 de novembro, Banguecoque. O evento onde expusemos no pavilhão coreano em 2025",
+              "G-Star + G-CON — 19 a 22 de novembro, Busan",
+              "Galas DevGAMM e GWB — novembro",
+              "BGM Game Expo Winter — dezembro, China"
+            ]
+          }
+        },
+        {
+          h: "Candidaturas 2027 — de janeiro a março",
+          p: ["É aqui que o ano se decide. Só no primeiro trimestre fecham oito candidaturas."],
+          list: {
+            h: "Fecham de janeiro a março",
+            items: [
+              "Steam Next Fest, edição de fevereiro — registo por volta de 5 de janeiro. Fecha sete semanas antes do evento e um jogo só o pode fazer uma vez na vida",
+              "gamescom latam BIG Festival — por volta de 15 de janeiro · gratuito. São Paulo, 17 categorias, realiza-se no fim de abril",
+              "NEOWIZ Quest — 16 de janeiro · gratuito. 165 milhões de wons em prémios",
+              "A MAZE. Berlim — 31 de janeiro (prorrogável até cerca de 10 de fevereiro) · pago",
+              "Tokyo Game Show SELECTED INDIE 80 abre — 10 de fevereiro · gratuito. Fecha a 30 de abril",
+              "Indie Arena Booth — março a abril · pago, mais lugares gratuitos com curadoria. Cerca de 100 jurados; resposta entre o fim de abril e o início de maio",
+              "G-Star, inscrição antecipada — 3 de março · pago. 10 % de desconto no stand"
+            ]
+          }
+        },
+        {
+          h: "Candidaturas 2027 — de abril a junho",
+          p: ["Os programas de apoio coreanos e os stands indie europeus sobrepõem-se aqui."],
+          list: {
+            h: "Fecham de abril a junho",
+            items: [
+              "Day of the Devs (edição Summer Game Fest) — por volta de 6 de abril · gratuito. Com curadoria",
+              "Smilegate IndieGo — 12 de abril · gratuito. 10 milhões de wons",
+              "Indie Arena Booth — por volta de 20 de abril · pago. Stand partilhado na gamescom",
+              "Tokyo Game Show SELECTED INDIE 80 — 30 de abril · gratuito. 80 selecionados, com entrada automática no SOWN",
+              "Tiny Teams — por volta de 30 de abril · gratuito. Equipas de cinco ou menos, demo obrigatória",
+              "G-Star, fecho da inscrição antecipada — 30 de abril · pago",
+              "IndieCraft — 6 de maio · gratuito. Até 40 milhões de wons",
+              "NC VARCO — 7 de maio · gratuito",
+              "gamescom dev Indie Expo — 8 de maio · gratuito. 20 equipas em 30 lugares. Antes devcom, e o prazo não é 31 de maio",
+              "BIC Festival — 25 de maio · gratuito. Busan, realiza-se em agosto",
+              "G-Star, inscrição geral — 26 de maio · pago",
+              "gamescom asia indie — por volta de 15 de junho · pago. Banguecoque",
+              "IndieCade, candidaturas regulares — por volta de meados de junho · 135 $. O festival é em janeiro",
+              "GIGDC — 25 de junho · gratuito",
+              "LudoNarraCon — por volta de 26 de junho · gratuito. Centrado em narrativa, encaixa pior no nosso género",
+              "G-Star, fecho da inscrição geral — 31 de julho · pago"
+            ]
+          }
+        },
+        {
+          h: "Datas dos eventos de 2027",
+          p: ["Onde temos de estar fisicamente se as candidaturas correrem bem. Só constam as datas já anunciadas."],
+          list: {
+            h: "De janeiro a novembro",
+            items: [
+              "Taipei Game Show + INDIE HOUSE — 21 a 24 de janeiro. Gala do Indie Game Award a 20 de janeiro",
+              "Festival IndieCade e transmissão Demospree — janeiro",
+              "Steam Next Fest, edição de fevereiro — fevereiro",
+              "GDC + prémios IGF — início de março, São Francisco",
+              "gamescom latam — 30 de abril a 3 de maio, São Paulo",
+              "A MAZE. Berlim — meados de maio",
+              "BitSummit — 21 a 23 de maio, Quioto",
+              "Digital Dragons e Nordic Game — maio",
+              "Steam Next Fest, edição de junho — junho",
+              "Develop:Brighton — 13 a 15 de julho",
+              "BIC Festival — meados de agosto, Busan",
+              "gamescom dev e gamescom — fim de agosto, Colónia",
+              "Tokyo Game Show — fim de setembro",
+              "G-Star — novembro, Busan"
+            ]
+          }
+        },
+        {
+          h: "Candidaturas sem prazo",
+          p: ["Estão abertas independentemente do calendário. Nada obriga a uma data, o que significa que temos de nos empurrar a nós próprios assim que a build estiver pronta."],
+          list: {
+            h: "Seis candidaturas permanentes",
+            items: [
+              "Big Indie Pitch — gratuito. Decorre em várias cidades todo o ano; o único pitch permanentemente aberto",
+              "Epic MegaGrants — gratuito. Candidaturas contínuas para projetos em Unreal",
+              "INDIE Live Expo — gratuito. Duas vezes por ano, online",
+              "PAX Rising — pago. West / East / Aus candidatam-se em separado",
+              "Stand B2B da gamescom dev — 1.499 €. Oito equipas indie, pavilhão 4.1 da gamescom",
+              "Steam Direct — 100 $ por aplicação, recuperados quando o jogo passa os 1.000 $ de receita"
+            ]
+          }
+        },
+        {
+          h: "Por que ordem vamos",
+          p: [
+            "Para um estúdio de uma pessoa, as viagens e o alojamento custam mais do que o stand. Um evento europeu ou norte-americano é o mais caro mesmo quando a entrada é gratuita. Por isso a ordem está fixada à partida.",
+            "O Fighting Nations encabeça todas as candidaturas. Um jogo de luta é forte nos grandes festivais generalistas e nos prémios, e fraco nos eventos da Steam construídos à volta de um só género. O Kingdom Wars corre no navegador, por isso sai dos stands físicos e vai para eventos online de estratégia e eventos gratuitos na Steam."
+          ],
+          list: {
+            h: "Prioridade",
+            items: [
+              "1. Candidaturas gratuitas online e com júri — sem custo de viagem",
+              "2. Coreia — G-Star, BIC Festival",
+              "3. Ásia próxima — Taipé, Banguecoque, Quioto",
+              "4. Europa e América do Norte — quando formos selecionados, ou quando vier com apoio à viagem"
+            ]
+          }
+        },
+        {
+          h: "O que está decidido e o que não está",
+          p: [
+            "Esta página é um plano a que nos candidatamos. Não é uma lista de resultados. Onde somos efetivamente aceites vai para a cronologia da página inicial quando soubermos — foi assim que sempre fizemos.",
+            "As datas combinam os anúncios de cada evento com o calendário que têm mantido em anos anteriores. Quando um anúncio oficial diz outra coisa, manda o anúncio, e corrigimos esta página à medida que confirmamos.",
+            "Última atualização: 16 de agosto de 2026."
+          ]
+        }
+      ],
+      slides: [
+        "O pavilhão coreano na gamescom asia x Thailand Game Show, outubro de 2025. A lista abaixo é para onde vamos a seguir.",
+        "G-Star 2022 no BEXCO, em Busan. Vamos à G-Star todos os anos desde 2019.",
+        "Reunião com uma distribuidora indiana na Thailand Game Show. Salas como esta são a razão por que vamos."
+      ],
+      cta: "Joga o jogo que apresentamos", back: "Voltar a Deother"
+    },
+
+    fr: {
+      title: "Feuille de route des salons par année",
+      tagline: "Tous les salons auxquels nous postulons, de fin 2026 à 2027",
+      intro: "Nous avons recensé toutes les candidatures possibles — 38 — et les avons posées sur un calendrier : 19 gratuites, 11 payantes, 6 dotées d'un prix, 2 ouvertes toute l'année. Ce qui suit est un plan auquel nous postulons, pas une liste de résultats. Les résultats vont sur la frise du parcours, en page d'accueil, au fur et à mesure.",
+      sections: [
+        {
+          h: "Pourquoi publier le plan",
+          p: [
+            "Faire un jeu et le mettre devant les gens sont deux métiers différents. Dans un studio d'une seule personne, improviser le second coûte une année entière. Nous avons donc compté toutes les candidatures possibles, les avons épinglées sur un calendrier, et nous publions ce calendrier tel quel.",
+            "Un schéma s'est dégagé. Les candidatures se concentrent sur le premier semestre ; les salons ont lieu au second. 24 des 38 ferment entre janvier et juin. Commencer à bouger en août, c'est avoir déjà perdu l'essentiel de l'année. Pour 2027, nous commençons en janvier."
+          ],
+          list: {
+            h: "Comment se répartissent les 38 candidatures",
+            items: [
+              "19 gratuites — si vous êtes retenu, l'organisateur prend en charge les frais d'exposition",
+              "11 payantes — frais d'inscription ou de stand",
+              "6 dotées d'un prix ou d'une aide à la production",
+              "2 ouvertes toute l'année, sans date limite"
+            ]
+          }
+        },
+        {
+          h: "Fin 2026 — ce à quoi nous postulons maintenant",
+          p: ["Ouvertes ou sur le point de l'être, en août 2026, au moment où cette page a été établie."],
+          list: {
+            h: "Clôtures d'août à décembre",
+            items: [
+              "GWB Game Awards (Tencent) — mi-août · gratuit. Débouche sur une cérémonie en novembre et un événement Steam",
+              "EVA Play (Buenos Aires) — vers le 17 août · gratuit. Participation à distance possible",
+              "Taipei Indie Game Award — 19 août · gratuit. Une candidature par équipe ; dépôt des éléments du 26 août au 2 septembre",
+              "Steam Next Fest, édition d'octobre — inscription avant le 31 août. Démo pour le 21 septembre",
+              "Mobidictum Showcase (Istanbul) — 31 août · gratuit. 50 Indie Spots et des prix",
+              "IGF — vers le 7 septembre · 75 $ (exonération possible). Une simple nomination compte déjà",
+              "DevGAMM Awards — vers le 7 septembre · gratuit. Plus de 150 jurés, diffusion sur IGN en novembre",
+              "G-Star Indie Showcase — courant septembre · gratuit. Sélection annoncée le 17 octobre",
+              "Demospree — vers le 5 octobre · gratuit. Marathon de démos en direct en janvier",
+              "BGM Game Expo Winter (Chine) — vers le 17 octobre · gratuit. Salon en décembre et prix",
+              "Day of the Devs, édition d'hiver — d'août à octobre · gratuit. Sur sélection",
+              "BitSummit, ouverture des inscriptions générales — vers novembre · 33 000 ¥. Un titre par inscription",
+              "Stand Taipei INDIE HOUSE — automne · payant. Le salon a lieu en janvier",
+              "pitchyagame — novembre · gratuit. Pitch en direct",
+              "A MAZE. Berlin ouvre — 16 décembre · payant. Clôture le 31 janvier"
+            ]
+          }
+        },
+        {
+          h: "Fin 2026 — là où les portes s'ouvrent",
+          p: ["Indépendamment des candidatures, voici les salons qui se tiennent au second semestre."],
+          list: {
+            h: "De septembre à décembre",
+            items: [
+              "Tokyo Game Show — fin septembre",
+              "PAX West — début septembre",
+              "Steam Next Fest, édition d'octobre — 19-26 octobre",
+              "gamescom asia x Thailand Game Show — 29 octobre-1er novembre, Bangkok. Le salon où nous avons exposé dans le pavillon coréen en 2025",
+              "G-Star + G-CON — 19-22 novembre, Busan",
+              "Cérémonies DevGAMM et GWB — novembre",
+              "BGM Game Expo Winter — décembre, Chine"
+            ]
+          }
+        },
+        {
+          h: "Candidatures 2027 — de janvier à mars",
+          p: ["C'est là que l'année se joue. Rien qu'au premier trimestre, huit candidatures ferment."],
+          list: {
+            h: "Clôtures de janvier à mars",
+            items: [
+              "Steam Next Fest, édition de février — inscription vers le 5 janvier. Clôture sept semaines avant l'événement, et un jeu n'y a droit qu'une fois dans sa vie",
+              "gamescom latam BIG Festival — vers le 15 janvier · gratuit. São Paulo, 17 catégories, fin avril",
+              "NEOWIZ Quest — 16 janvier · gratuit. 165 millions de wons de dotation",
+              "A MAZE. Berlin — 31 janvier (prolongation jusqu'au 10 février environ) · payant",
+              "Tokyo Game Show SELECTED INDIE 80 ouvre — 10 février · gratuit. Clôture le 30 avril",
+              "Indie Arena Booth — mars-avril · payant, plus des places gratuites sur sélection. Une centaine de jurés ; réponse fin avril-début mai",
+              "G-Star, inscription anticipée — 3 mars · payant. 10 % de remise sur le stand"
+            ]
+          }
+        },
+        {
+          h: "Candidatures 2027 — d'avril à juin",
+          p: ["Les dispositifs d'aide coréens et les stands indépendants européens se chevauchent ici."],
+          list: {
+            h: "Clôtures d'avril à juin",
+            items: [
+              "Day of the Devs (édition Summer Game Fest) — vers le 6 avril · gratuit. Sur sélection",
+              "Smilegate IndieGo — 12 avril · gratuit. 10 millions de wons",
+              "Indie Arena Booth — vers le 20 avril · payant. Stand partagé à la gamescom",
+              "Tokyo Game Show SELECTED INDIE 80 — 30 avril · gratuit. 80 retenus, inscrits d'office au SOWN",
+              "Tiny Teams — vers le 30 avril · gratuit. Équipes de cinq personnes maximum, démo obligatoire",
+              "G-Star, clôture de l'inscription anticipée — 30 avril · payant",
+              "IndieCraft — 6 mai · gratuit. Jusqu'à 40 millions de wons",
+              "NC VARCO — 7 mai · gratuit",
+              "gamescom dev Indie Expo — 8 mai · gratuit. 20 équipes sur 30 places. Anciennement devcom, et la date limite n'est pas le 31 mai",
+              "BIC Festival — 25 mai · gratuit. Busan, en août",
+              "G-Star, inscription générale — 26 mai · payant",
+              "gamescom asia indie — vers le 15 juin · payant. Bangkok",
+              "IndieCade, candidatures régulières — vers la mi-juin · 135 $. Le festival a lieu en janvier",
+              "GIGDC — 25 juin · gratuit",
+              "LudoNarraCon — vers le 26 juin · gratuit. Centré sur la narration, moins adapté à notre genre",
+              "G-Star, clôture de l'inscription générale — 31 juillet · payant"
+            ]
+          }
+        },
+        {
+          h: "Dates des salons 2027",
+          p: ["Où il faudra être physiquement si les candidatures aboutissent. Seules les dates déjà annoncées figurent ici."],
+          list: {
+            h: "De janvier à novembre",
+            items: [
+              "Taipei Game Show + INDIE HOUSE — 21-24 janvier. Cérémonie de l'Indie Game Award le 20 janvier",
+              "Festival IndieCade et diffusion Demospree — janvier",
+              "Steam Next Fest, édition de février — février",
+              "GDC + prix IGF — début mars, San Francisco",
+              "gamescom latam — 30 avril-3 mai, São Paulo",
+              "A MAZE. Berlin — mi-mai",
+              "BitSummit — 21-23 mai, Kyoto",
+              "Digital Dragons et Nordic Game — mai",
+              "Steam Next Fest, édition de juin — juin",
+              "Develop:Brighton — 13-15 juillet",
+              "BIC Festival — mi-août, Busan",
+              "gamescom dev et gamescom — fin août, Cologne",
+              "Tokyo Game Show — fin septembre",
+              "G-Star — novembre, Busan"
+            ]
+          }
+        },
+        {
+          h: "Candidatures sans date limite",
+          p: ["Elles sont ouvertes indépendamment du calendrier. Rien n'impose de date, ce qui veut dire qu'il faut nous y pousser nous-mêmes dès que la build est prête."],
+          list: {
+            h: "Six candidatures permanentes",
+            items: [
+              "Big Indie Pitch — gratuit. Se tient dans plusieurs villes toute l'année ; le seul pitch en permanence ouvert",
+              "Epic MegaGrants — gratuit. Candidatures au fil de l'eau pour les projets Unreal",
+              "INDIE Live Expo — gratuit. Deux fois par an, en ligne",
+              "PAX Rising — payant. West / East / Aus se demandent séparément",
+              "Stand B2B gamescom dev — 1 499 €. Huit équipes indépendantes, hall 4.1 de la gamescom",
+              "Steam Direct — 100 $ par application, récupérés une fois les 1 000 $ de revenus dépassés"
+            ]
+          }
+        },
+        {
+          h: "Dans quel ordre nous y allons",
+          p: [
+            "Pour un studio d'une personne, le voyage et l'hébergement coûtent plus cher que le stand. Un salon européen ou nord-américain est le plus coûteux même quand l'entrée est gratuite. L'ordre est donc fixé à l'avance.",
+            "Fighting Nations mène toutes les candidatures. Un jeu de combat est fort dans les grands festivals généralistes et les prix, et faible dans les événements Steam bâtis autour d'un seul genre. Kingdom Wars tourne dans le navigateur : il sort donc des stands physiques et part vers les événements en ligne de stratégie et les événements Steam gratuits."
+          ],
+          list: {
+            h: "Priorité",
+            items: [
+              "1. Candidatures gratuites en ligne et sur jury — aucun frais de déplacement",
+              "2. Corée — G-Star, BIC Festival",
+              "3. Asie proche — Taipei, Bangkok, Kyoto",
+              "4. Europe et Amérique du Nord — quand nous sommes retenus, ou quand une aide au déplacement l'accompagne"
+            ]
+          }
+        },
+        {
+          h: "Ce qui est acquis et ce qui ne l'est pas",
+          p: [
+            "Cette page est un plan auquel nous postulons. Ce n'est pas une liste de résultats. Là où nous sommes réellement retenus figure sur la frise du parcours en page d'accueil, une fois que nous le savons — c'est ainsi que nous avons procédé jusqu'ici.",
+            "Les dates combinent les annonces de chaque événement et le calendrier qu'ils ont tenu les années précédentes. Quand une annonce officielle diffère, c'est elle qui fait foi, et nous corrigeons cette page à mesure que nous confirmons.",
+            "Dernière mise à jour : 16 août 2026."
+          ]
+        }
+      ],
+      slides: [
+        "Le pavillon coréen à la gamescom asia x Thailand Game Show, octobre 2025. La liste ci-dessous, c'est la suite.",
+        "G-Star 2022 au BEXCO de Busan. Nous allons à la G-Star chaque année depuis 2019.",
+        "Rencontre avec un distributeur indien au Thailand Game Show. Ce sont ces rendez-vous qui justifient le déplacement."
+      ],
+      cta: "Jouer au jeu que nous présentons", back: "Retour à Deother"
+    },
+
+    de: {
+      title: "Messe-Roadmap nach Jahr",
+      tagline: "Alle Messen, für die wir uns bewerben — von Ende 2026 bis 2027",
+      intro: "Wir haben jede Ausschreibung gezählt, für die wir uns bewerben können — 38 — und sie in einen Kalender eingetragen: 19 kostenlos, 11 kostenpflichtig, 6 mit Preisgeld, 2 ganzjährig offen. Was folgt, ist ein Plan, für den wir uns bewerben, keine Liste von Ergebnissen. Ergebnisse kommen auf die Zeitleiste der Startseite, sobald sie eintreffen.",
+      sections: [
+        {
+          h: "Warum wir den Plan veröffentlichen",
+          p: [
+            "Ein Spiel zu bauen und es vor Menschen zu bringen sind zwei verschiedene Arbeiten. In einem Ein-Personen-Studio kostet es ein ganzes Jahr, die zweite zu improvisieren. Also haben wir jede mögliche Ausschreibung gezählt, in einen Kalender geheftet und veröffentlichen diesen Kalender, wie er ist.",
+            "Ein Muster fiel auf: Die Bewerbungen häufen sich in der ersten Jahreshälfte, die Messen finden in der zweiten statt. 24 der 38 schließen zwischen Januar und Juni. Wer im August anfängt, hat das Jahr schon zum größten Teil verpasst. Für 2027 fangen wir im Januar an."
+          ],
+          list: {
+            h: "Wie sich die 38 Ausschreibungen aufteilen",
+            items: [
+              "19 kostenlos — bei Auswahl trägt der Veranstalter die Ausstellungskosten",
+              "11 kostenpflichtig — Teilnahme- oder Standgebühr",
+              "6 mit Preisgeld oder Produktionsförderung",
+              "2 ganzjährig offen, ohne Frist"
+            ]
+          }
+        },
+        {
+          h: "Ende 2026 — wofür wir uns jetzt bewerben",
+          p: ["Offen oder in Kürze offen, Stand August 2026, als diese Seite zusammengestellt wurde."],
+          list: {
+            h: "Fristen von August bis Dezember",
+            items: [
+              "GWB Game Awards (Tencent) — Mitte August · kostenlos. Führt zu einer Preisverleihung im November und einem Steam-Event",
+              "EVA Play (Buenos Aires) — um den 17. August · kostenlos. Teilnahme aus der Ferne möglich",
+              "Taipei Indie Game Award — 19. August · kostenlos. Ein Beitrag pro Team; Materialupload vom 26. August bis 2. September",
+              "Steam Next Fest, Oktober-Ausgabe — Anmeldung bis 31. August. Demo bis 21. September",
+              "Mobidictum Showcase (Istanbul) — 31. August · kostenlos. 50 Indie Spots plus Awards",
+              "IGF — um den 7. September · 75 $ (Befreiung beantragbar). Schon eine Nominierung zählt",
+              "DevGAMM Awards — um den 7. September · kostenlos. Über 150 Jurorinnen und Juroren, im November auf IGN gestreamt",
+              "G-Star Indie Showcase — im September · kostenlos. Auswahl wird am 17. Oktober bekannt gegeben",
+              "Demospree — um den 5. Oktober · kostenlos. Demo-Streaming-Marathon im Januar",
+              "BGM Game Expo Winter (China) — um den 17. Oktober · kostenlos. Messe im Dezember plus Awards",
+              "Day of the Devs, Winterausgabe — August bis Oktober · kostenlos. Kuratiert",
+              "BitSummit, Öffnung der regulären Anmeldung — um November · 33.000 ¥. Ein Titel pro Anmeldung",
+              "Taipei INDIE HOUSE Stand — Herbst · kostenpflichtig. Die Messe selbst ist im Januar",
+              "pitchyagame — November · kostenlos. Live-Pitching",
+              "A MAZE. Berlin öffnet — 16. Dezember · kostenpflichtig. Schließt am 31. Januar"
+            ]
+          }
+        },
+        {
+          h: "Ende 2026 — wo die Türen aufgehen",
+          p: ["Unabhängig von den Bewerbungen: Diese Messen finden in der zweiten Jahreshälfte statt."],
+          list: {
+            h: "September bis Dezember",
+            items: [
+              "Tokyo Game Show — Ende September",
+              "PAX West — Anfang September",
+              "Steam Next Fest, Oktober-Ausgabe — 19. bis 26. Oktober",
+              "gamescom asia x Thailand Game Show — 29. Oktober bis 1. November, Bangkok. Die Messe, auf der wir 2025 im koreanischen Pavillon ausgestellt haben",
+              "G-Star + G-CON — 19. bis 22. November, Busan",
+              "DevGAMM- und GWB-Preisverleihungen — November",
+              "BGM Game Expo Winter — Dezember, China"
+            ]
+          }
+        },
+        {
+          h: "Bewerbungen 2027 — Januar bis März",
+          p: ["Hier entscheidet sich das Jahr. Allein im ersten Quartal schließen acht Ausschreibungen."],
+          list: {
+            h: "Fristen von Januar bis März",
+            items: [
+              "Steam Next Fest, Februar-Ausgabe — Anmeldung um den 5. Januar. Schließt sieben Wochen vor dem Event, und ein Spiel darf das genau einmal in seinem Leben",
+              "gamescom latam BIG Festival — um den 15. Januar · kostenlos. São Paulo, 17 Kategorien, Ende April",
+              "NEOWIZ Quest — 16. Januar · kostenlos. 165 Mio. Won Preisgeld",
+              "A MAZE. Berlin — 31. Januar (Verlängerung bis etwa 10. Februar) · kostenpflichtig",
+              "Tokyo Game Show SELECTED INDIE 80 öffnet — 10. Februar · kostenlos. Schließt am 30. April",
+              "Indie Arena Booth — März bis April · kostenpflichtig, dazu kostenlose kuratierte Plätze. Rund 100 Jurymitglieder; Bescheid Ende April bis Anfang Mai",
+              "G-Star, Frühbucher-Anmeldung — 3. März · kostenpflichtig. 10 % Rabatt auf die Standgebühr"
+            ]
+          }
+        },
+        {
+          h: "Bewerbungen 2027 — April bis Juni",
+          p: ["Hier überschneiden sich koreanische Förderprogramme und europäische Indie-Stände."],
+          list: {
+            h: "Fristen von April bis Juni",
+            items: [
+              "Day of the Devs (Summer-Game-Fest-Ausgabe) — um den 6. April · kostenlos. Kuratiert",
+              "Smilegate IndieGo — 12. April · kostenlos. 10 Mio. Won",
+              "Indie Arena Booth — um den 20. April · kostenpflichtig. Gemeinschaftsstand auf der gamescom",
+              "Tokyo Game Show SELECTED INDIE 80 — 30. April · kostenlos. 80 ausgewählt, automatisch für SOWN nominiert",
+              "Tiny Teams — um den 30. April · kostenlos. Teams mit höchstens fünf Personen, Demo erforderlich",
+              "G-Star, Ende der Frühbucher-Anmeldung — 30. April · kostenpflichtig",
+              "IndieCraft — 6. Mai · kostenlos. Bis zu 40 Mio. Won",
+              "NC VARCO — 7. Mai · kostenlos",
+              "gamescom dev Indie Expo — 8. Mai · kostenlos. 20 Teams auf 30 Plätze. Früher devcom, und die Frist ist nicht der 31. Mai",
+              "BIC Festival — 25. Mai · kostenlos. Busan, findet im August statt",
+              "G-Star, reguläre Anmeldung — 26. Mai · kostenpflichtig",
+              "gamescom asia indie — um den 15. Juni · kostenpflichtig. Bangkok",
+              "IndieCade, reguläre Einreichung — um Mitte Juni · 135 $. Das Festival ist im Januar",
+              "GIGDC — 25. Juni · kostenlos",
+              "LudoNarraCon — um den 26. Juni · kostenlos. Erzählerisch ausgerichtet und damit weniger passend für unser Genre",
+              "G-Star, Ende der regulären Anmeldung — 31. Juli · kostenpflichtig"
+            ]
+          }
+        },
+        {
+          h: "Messetermine 2027",
+          p: ["Wo wir körperlich sein müssen, wenn die Bewerbungen aufgehen. Nur bereits angekündigte Termine stehen hier."],
+          list: {
+            h: "Januar bis November",
+            items: [
+              "Taipei Game Show + INDIE HOUSE — 21. bis 24. Januar. Indie-Game-Award-Verleihung am 20. Januar",
+              "IndieCade-Festival und Demospree-Übertragung — Januar",
+              "Steam Next Fest, Februar-Ausgabe — Februar",
+              "GDC + IGF Awards — Anfang März, San Francisco",
+              "gamescom latam — 30. April bis 3. Mai, São Paulo",
+              "A MAZE. Berlin — Mitte Mai",
+              "BitSummit — 21. bis 23. Mai, Kyoto",
+              "Digital Dragons und Nordic Game — Mai",
+              "Steam Next Fest, Juni-Ausgabe — Juni",
+              "Develop:Brighton — 13. bis 15. Juli",
+              "BIC Festival — Mitte August, Busan",
+              "gamescom dev und gamescom — Ende August, Köln",
+              "Tokyo Game Show — Ende September",
+              "G-Star — November, Busan"
+            ]
+          }
+        },
+        {
+          h: "Ausschreibungen ohne Frist",
+          p: ["Diese sind unabhängig vom Kalender offen. Kein Termin zwingt uns — was heißt, dass wir uns selbst hindurchschieben müssen, sobald der Build steht."],
+          list: {
+            h: "Sechs dauerhafte Ausschreibungen",
+            items: [
+              "Big Indie Pitch — kostenlos. Findet das ganze Jahr über in verschiedenen Städten statt; der einzige dauerhaft offene Pitch",
+              "Epic MegaGrants — kostenlos. Laufende Einreichung für Unreal-Projekte",
+              "INDIE Live Expo — kostenlos. Zweimal jährlich, online",
+              "PAX Rising — kostenpflichtig. West / East / Aus werden getrennt beantragt",
+              "gamescom dev B2B-Stand — 1.499 €. Acht Indie-Teams, gamescom Halle 4.1",
+              "Steam Direct — 100 $ pro App, rückerstattet, sobald das Spiel 1.000 $ Umsatz überschreitet"
+            ]
+          }
+        },
+        {
+          h: "In welcher Reihenfolge wir gehen",
+          p: [
+            "Für ein Ein-Personen-Studio kosten Reise und Unterkunft mehr als der Stand. Eine europäische oder nordamerikanische Messe ist die teuerste Sorte, selbst wenn die Teilnahme kostenlos ist. Deshalb steht die Reihenfolge vorher fest.",
+            "Fighting Nations führt jede Ausschreibung an. Ein Kampfspiel ist stark auf großen allgemeinen Festivals und bei Awards und schwach bei Steam-Events, die um ein einzelnes Genre herum gebaut sind. Kingdom Wars läuft im Browser und fällt damit aus den Ständen heraus; es geht stattdessen zu Online-Events des Strategie-Genres und zu kostenlosen Steam-Events."
+          ],
+          list: {
+            h: "Priorität",
+            items: [
+              "1. Kostenlose Online- und Jury-Ausschreibungen — keine Reisekosten",
+              "2. Korea — G-Star, BIC Festival",
+              "3. Nahes Asien — Taipeh, Bangkok, Kyoto",
+              "4. Europa und Nordamerika — wenn wir ausgewählt werden oder eine Reiseförderung dabei ist"
+            ]
+          }
+        },
+        {
+          h: "Was feststeht und was nicht",
+          p: [
+            "Diese Seite ist ein Plan, für den wir uns bewerben. Sie ist keine Liste von Ergebnissen. Wo wir tatsächlich angenommen werden, steht auf der Zeitleiste der Startseite, sobald wir es wissen — so haben wir es bisher gehalten.",
+            "Die Termine verbinden die Ankündigungen der Veranstalter mit dem Kalender, den sie in früheren Jahren eingehalten haben. Weicht eine offizielle Ankündigung ab, gilt die Ankündigung, und wir korrigieren diese Seite, sobald wir es bestätigen können.",
+            "Zuletzt aktualisiert: 16. August 2026."
+          ]
+        }
+      ],
+      slides: [
+        "Der koreanische Pavillon auf der gamescom asia x Thailand Game Show, Oktober 2025. Die Liste darunter ist, wohin es als Nächstes geht.",
+        "G-Star 2022 im BEXCO in Busan. Zur G-Star fahren wir seit 2019 jedes Jahr.",
+        "Treffen mit einem indischen Distributor auf der Thailand Game Show. Solche Gespräche sind der Grund, warum wir hinfahren."
+      ],
+      cta: "Das Spiel spielen, das wir einreichen", back: "Zurück zu Deother"
+    },
+
+    ru: {
+      title: "Календарь фестивалей по годам",
+      tagline: "Все фестивали, на которые мы подаём заявки, — с конца 2026 по 2027 год",
+      intro: "Мы пересчитали все конкурсы, куда можем подать заявку, — их 38 — и разложили по календарю: 19 бесплатных, 11 платных, 6 с призовым фондом, 2 открыты круглый год. Ниже — план, по которому мы подаёмся, а не список результатов. Результаты появляются на ленте пути на главной странице по мере поступления.",
+      sections: [
+        {
+          h: "Зачем публиковать план",
+          p: [
+            "Сделать игру и донести её до людей — две разные работы. В студии из одного человека вторую нельзя делать наугад: так теряется целый год. Поэтому мы пересчитали все доступные конкурсы, разложили их по календарю и публикуем этот календарь как есть.",
+            "Обнаружилась закономерность. Заявки собираются в первой половине года, а сами фестивали проходят во второй. 24 из 38 закрываются с января по июнь. Если начать шевелиться в августе, большая часть года уже позади. В 2027-м мы начинаем с января."
+          ],
+          list: {
+            h: "Из чего состоят 38 конкурсов",
+            items: [
+              "19 бесплатных — при отборе организатор берёт расходы на участие на себя",
+              "11 платных — взнос за участие или за стенд",
+              "6 с призовым фондом или производственным грантом",
+              "2 открыты круглый год, без дедлайна"
+            ]
+          }
+        },
+        {
+          h: "Конец 2026 года — куда подаёмся сейчас",
+          p: ["Открыты или вот-вот откроются — по состоянию на август 2026 года, когда собиралась эта страница."],
+          list: {
+            h: "Дедлайны с августа по декабрь",
+            items: [
+              "GWB Game Awards (Tencent) — середина августа · бесплатно. Ведёт к церемонии в ноябре и событию в Steam",
+              "EVA Play (Буэнос-Айрес) — около 17 августа · бесплатно. Возможно удалённое участие",
+              "Taipei Indie Game Award — 19 августа · бесплатно. Одна заявка от команды; загрузка материалов с 26 августа по 2 сентября",
+              "Steam Next Fest, октябрьский выпуск — регистрация до 31 августа. Демо — до 21 сентября",
+              "Mobidictum Showcase (Стамбул) — 31 августа · бесплатно. 50 мест Indie Spot и награды",
+              "IGF — около 7 сентября · $75 (можно попросить освобождение). Даже номинация уже чего-то стоит",
+              "DevGAMM Awards — около 7 сентября · бесплатно. Более 150 судей, трансляция на IGN в ноябре",
+              "G-Star Indie Showcase — в течение сентября · бесплатно. Итоги отбора объявят 17 октября",
+              "Demospree — около 5 октября · бесплатно. Январский марафон демоверсий в прямом эфире",
+              "BGM Game Expo Winter (Китай) — около 17 октября · бесплатно. Офлайн-выставка в декабре и награды",
+              "Day of the Devs, зимний выпуск — с августа по октябрь · бесплатно. Кураторский отбор",
+              "BitSummit, открытие общей регистрации — около ноября · 33 000 ¥. Один тайтл на заявку",
+              "Стенд Taipei INDIE HOUSE — осень · платно. Сама выставка в январе",
+              "pitchyagame — ноябрь · бесплатно. Живой питчинг",
+              "A MAZE. Берлин открывается — 16 декабря · платно. Закрывается 31 января"
+            ]
+          }
+        },
+        {
+          h: "Конец 2026 года — где открываются двери",
+          p: ["Отдельно от заявок: вот фестивали, которые реально проходят во второй половине года."],
+          list: {
+            h: "С сентября по декабрь",
+            items: [
+              "Tokyo Game Show — конец сентября",
+              "PAX West — начало сентября",
+              "Steam Next Fest, октябрьский выпуск — 19–26 октября",
+              "gamescom asia x Thailand Game Show — 29 октября — 1 ноября, Бангкок. Та самая выставка, где мы стояли в корейском павильоне в 2025 году",
+              "G-Star + G-CON — 19–22 ноября, Пусан",
+              "Церемонии DevGAMM и GWB — ноябрь",
+              "BGM Game Expo Winter — декабрь, Китай"
+            ]
+          }
+        },
+        {
+          h: "Заявки 2027 года — с января по март",
+          p: ["Здесь решается год. Только в первом квартале закрываются восемь конкурсов."],
+          list: {
+            h: "Дедлайны с января по март",
+            items: [
+              "Steam Next Fest, февральский выпуск — регистрация около 5 января. Закрывается за семь недель до события, и игра может участвовать лишь однажды за всю жизнь",
+              "gamescom latam BIG Festival — около 15 января · бесплатно. Сан-Паулу, 17 номинаций, проходит в конце апреля",
+              "NEOWIZ Quest — 16 января · бесплатно. Призовой фонд 165 млн вон",
+              "A MAZE. Берлин — 31 января (продление примерно до 10 февраля) · платно",
+              "Tokyo Game Show SELECTED INDIE 80 открывается — 10 февраля · бесплатно. Закрывается 30 апреля",
+              "Indie Arena Booth — март–апрель · платно, плюс бесплатные кураторские места. Около 100 судей; ответ в конце апреля — начале мая",
+              "G-Star, ранняя регистрация — 3 марта · платно. Скидка 10 % на стенд"
+            ]
+          }
+        },
+        {
+          h: "Заявки 2027 года — с апреля по июнь",
+          p: ["Здесь накладываются друг на друга корейские программы поддержки и европейские инди-стенды."],
+          list: {
+            h: "Дедлайны с апреля по июнь",
+            items: [
+              "Day of the Devs (выпуск Summer Game Fest) — около 6 апреля · бесплатно. Кураторский отбор",
+              "Smilegate IndieGo — 12 апреля · бесплатно. 10 млн вон",
+              "Indie Arena Booth — около 20 апреля · платно. Общий стенд на gamescom",
+              "Tokyo Game Show SELECTED INDIE 80 — 30 апреля · бесплатно. Отбирают 80 игр, автоматически попадают в номинанты SOWN",
+              "Tiny Teams — около 30 апреля · бесплатно. Команды до пяти человек, демо обязательно",
+              "G-Star, закрытие ранней регистрации — 30 апреля · платно",
+              "IndieCraft — 6 мая · бесплатно. До 40 млн вон",
+              "NC VARCO — 7 мая · бесплатно",
+              "gamescom dev Indie Expo — 8 мая · бесплатно. 20 команд на 30 мест. Бывший devcom, и дедлайн — не 31 мая",
+              "BIC Festival — 25 мая · бесплатно. Пусан, проходит в августе",
+              "G-Star, общая регистрация — 26 мая · платно",
+              "gamescom asia indie — около 15 июня · платно. Бангкок",
+              "IndieCade, обычный приём заявок — около середины июня · $135. Сам фестиваль в январе",
+              "GIGDC — 25 июня · бесплатно",
+              "LudoNarraCon — около 26 июня · бесплатно. Нарративный уклон, нашему жанру подходит хуже",
+              "G-Star, закрытие общей регистрации — 31 июля · платно"
+            ]
+          }
+        },
+        {
+          h: "Даты фестивалей 2027 года",
+          p: ["Где придётся быть лично, если заявки сработают. Указаны только уже объявленные даты."],
+          list: {
+            h: "С января по ноябрь",
+            items: [
+              "Taipei Game Show + INDIE HOUSE — 21–24 января. Церемония Indie Game Award 20 января",
+              "Фестиваль IndieCade и трансляция Demospree — январь",
+              "Steam Next Fest, февральский выпуск — февраль",
+              "GDC + награды IGF — начало марта, Сан-Франциско",
+              "gamescom latam — 30 апреля — 3 мая, Сан-Паулу",
+              "A MAZE. Берлин — середина мая",
+              "BitSummit — 21–23 мая, Киото",
+              "Digital Dragons и Nordic Game — май",
+              "Steam Next Fest, июньский выпуск — июнь",
+              "Develop:Brighton — 13–15 июля",
+              "BIC Festival — середина августа, Пусан",
+              "gamescom dev и gamescom — конец августа, Кёльн",
+              "Tokyo Game Show — конец сентября",
+              "G-Star — ноябрь, Пусан"
+            ]
+          }
+        },
+        {
+          h: "Конкурсы без дедлайна",
+          p: ["Они открыты независимо от календаря. Ничего не подгоняет по срокам — а значит, протолкнуть себя туда придётся самим, как только билд будет готов."],
+          list: {
+            h: "Шесть постоянных конкурсов",
+            items: [
+              "Big Indie Pitch — бесплатно. Проходит в разных городах круглый год; единственный постоянно открытый питчинг",
+              "Epic MegaGrants — бесплатно. Приём заявок в любое время для проектов на Unreal",
+              "INDIE Live Expo — бесплатно. Дважды в год, онлайн",
+              "PAX Rising — платно. West / East / Aus подаются отдельно",
+              "B2B-стенд gamescom dev — 1499 €. Восемь инди-команд, зал 4.1 на gamescom",
+              "Steam Direct — $100 за приложение, возвращаются, когда игра превысит $1000 выручки"
+            ]
+          }
+        },
+        {
+          h: "В каком порядке мы идём",
+          p: [
+            "Для студии из одного человека дорога и проживание стоят дороже стенда. Европейская или североамериканская выставка — самая дорогая, даже когда участие бесплатное. Поэтому порядок определён заранее.",
+            "Fighting Nations идёт первым во всех конкурсах. Файтинг силён на больших общих фестивалях и в наградах и слаб на событиях Steam, построенных вокруг одного жанра. Kingdom Wars работает в браузере, поэтому выпадает из конкурсов с физическими стендами и идёт на онлайн-события стратегического жанра и бесплатные события Steam."
+          ],
+          list: {
+            h: "Приоритет",
+            items: [
+              "1. Бесплатные онлайн- и судейские конкурсы — без расходов на дорогу",
+              "2. Корея — G-Star, BIC Festival",
+              "3. Ближняя Азия — Тайбэй, Бангкок, Киото",
+              "4. Европа и Северная Америка — когда нас отберут или когда к этому приложат поддержку на поездку"
+            ]
+          }
+        },
+        {
+          h: "Что решено, а что нет",
+          p: [
+            "Эта страница — план, по которому мы подаёмся. Это не список результатов. Куда нас действительно взяли, попадает на ленту пути на главной странице, когда мы это узнаём, — так мы делали и раньше.",
+            "Даты собраны из объявлений самих событий и того расписания, которого они держались в прошлые годы. Если официальное объявление говорит иное, право за объявлением, и мы правим эту страницу по мере подтверждения.",
+            "Последнее обновление: 16 августа 2026 года."
+          ]
+        }
+      ],
+      slides: [
+        "Корейский павильон на gamescom asia x Thailand Game Show, октябрь 2025 года. Список ниже — это то, куда мы едем дальше.",
+        "G-Star 2022, BEXCO в Пусане. На G-Star мы ездим каждый год с 2019-го.",
+        "Встреча с индийским дистрибьютором на Thailand Game Show. Ради таких разговоров мы и ездим."
+      ],
+      cta: "Сыграть в игру, которую мы подаём", back: "Назад в Deother"
+    },
+
+    ar: {
+      title: "خارطة طريق المعارض حسب السنة",
+      tagline: "كل المعارض التي نتقدّم إليها، من أواخر 2026 حتى 2027",
+      intro: "أحصينا كل المسارات التي يمكننا التقدّم إليها — ثمانية وثلاثون — ووضعناها في تقويم: 19 مجانيًا، و11 مدفوعًا، و6 بجوائز مالية، واثنان مفتوحان طوال العام. ما يلي خطة نتقدّم بها، وليست قائمة نتائج. النتائج تُكتب في خط مسيرتنا على الصفحة الرئيسية أولًا بأول.",
+      sections: [
+        {
+          h: "لماذا ننشر الخطة",
+          p: [
+            "صناعة اللعبة شيء، وإيصالها إلى الناس شيء آخر. في استوديو من شخص واحد، ارتجال الأمر الثاني يكلّف سنة كاملة. لذلك أحصينا كل مسار يمكننا التقدّم إليه، وثبّتناه في تقويم، وننشر هذا التقويم كما هو.",
+            "ظهر نمط واضح: التقديم يتكدّس في النصف الأول من السنة، والمعارض نفسها تُقام في النصف الثاني. 24 من أصل 38 تُغلق بين يناير ويونيو. من يبدأ التحرّك في أغسطس يكون قد فاته معظم العام. في 2027 نبدأ من يناير."
+          ],
+          list: {
+            h: "‏كيف تتوزّع المسارات الـ 38",
+            items: [
+              "19 مجانيًا — عند الاختيار يتحمّل المنظّم تكلفة العرض",
+              "11 مدفوعًا — رسوم مشاركة أو رسوم جناح",
+              "6 بجوائز مالية أو منح إنتاج",
+              "اثنان مفتوحان طوال العام بلا موعد نهائي"
+            ]
+          }
+        },
+        {
+          h: "أواخر 2026 — ما نتقدّم إليه الآن",
+          p: ["مفتوحة أو على وشك الفتح، بحسب أغسطس 2026 حين أُعدّت هذه الصفحة."],
+          list: {
+            h: "‏مواعيد الإغلاق من أغسطس إلى ديسمبر",
+            items: [
+              "‏GWB Game Awards (تنسنت) — منتصف أغسطس · مجانًا. يقود إلى حفل في نوفمبر وفعالية على Steam",
+              "‏EVA Play (بوينس آيرس) — نحو 17 أغسطس · مجانًا. المشاركة عن بُعد ممكنة",
+              "‏Taipei Indie Game Award — 19 أغسطس · مجانًا. عمل واحد لكل فريق، ورفع المواد من 26 أغسطس إلى 2 سبتمبر",
+              "‏Steam Next Fest نسخة أكتوبر — التسجيل حتى 31 أغسطس. النسخة التجريبية حتى 21 سبتمبر",
+              "‏Mobidictum Showcase (إسطنبول) — 31 أغسطس · مجانًا. خمسون مكانًا في Indie Spot مع جوائز",
+              "‏IGF — نحو 7 سبتمبر · 75 دولارًا (يمكن طلب الإعفاء). مجرّد الترشّح له قيمة",
+              "‏DevGAMM Awards — نحو 7 سبتمبر · مجانًا. أكثر من 150 محكّمًا، وبث على IGN في نوفمبر",
+              "‏G-Star Indie Showcase — خلال سبتمبر · مجانًا. تُعلن النتائج في 17 أكتوبر",
+              "‏Demospree — نحو 5 أكتوبر · مجانًا. ماراثون بث للنسخ التجريبية في يناير",
+              "‏BGM Game Expo Winter (الصين) — نحو 17 أكتوبر · مجانًا. معرض حضوري في ديسمبر مع جوائز",
+              "‏Day of the Devs نسخة الشتاء — من أغسطس إلى أكتوبر · مجانًا. باختيار منسّق",
+              "‏BitSummit، فتح التسجيل العام — نحو نوفمبر · 33,000 ين. عنوان واحد لكل تسجيل",
+              "جناح ‏Taipei INDIE HOUSE — الخريف · مدفوع. المعرض نفسه في يناير",
+              "‏pitchyagame — نوفمبر · مجانًا. عرض مباشر أمام الحضور",
+              "‏A MAZE. برلين يفتح — 16 ديسمبر · مدفوع. يُغلق في 31 يناير"
+            ]
+          }
+        },
+        {
+          h: "أواخر 2026 — أين تُفتح الأبواب",
+          p: ["بعيدًا عن التقديم، هذه هي المعارض التي تُقام فعليًا في النصف الثاني."],
+          list: {
+            h: "من سبتمبر إلى ديسمبر",
+            items: [
+              "‏Tokyo Game Show — أواخر سبتمبر",
+              "‏PAX West — أوائل سبتمبر",
+              "‏Steam Next Fest نسخة أكتوبر — من 19 إلى 26 أكتوبر",
+              "‏gamescom asia x Thailand Game Show — من 29 أكتوبر إلى 1 نوفمبر، بانكوك. المعرض الذي عرضنا فيه ضمن الجناح الكوري عام 2025",
+              "‏G-Star + G-CON — من 19 إلى 22 نوفمبر، بوسان",
+              "حفلا ‏DevGAMM و GWB — نوفمبر",
+              "‏BGM Game Expo Winter — ديسمبر، الصين"
+            ]
+          }
+        },
+        {
+          h: "تقديم 2027 — من يناير إلى مارس",
+          p: ["هنا تُحسم السنة. في الربع الأول وحده تُغلق ثمانية مسارات."],
+          list: {
+            h: "‏الإغلاق من يناير إلى مارس",
+            items: [
+              "‏Steam Next Fest نسخة فبراير — التسجيل نحو 5 يناير. يُغلق قبل الحدث بسبعة أسابيع، ولكل لعبة مرة واحدة فقط طوال عمرها",
+              "‏gamescom latam BIG Festival — نحو 15 يناير · مجانًا. ساو باولو، 17 فئة، ويُقام أواخر أبريل",
+              "‏NEOWIZ Quest — 16 يناير · مجانًا. جوائز بقيمة 165 مليون وون",
+              "‏A MAZE. برلين — 31 يناير (تمديد حتى نحو 10 فبراير) · مدفوع",
+              "‏Tokyo Game Show SELECTED INDIE 80 يفتح — 10 فبراير · مجانًا. يُغلق في 30 أبريل",
+              "‏Indie Arena Booth — مارس وأبريل · مدفوع، مع أماكن مجانية باختيار منسّق. نحو 100 محكّم، والردّ أواخر أبريل أو أوائل مايو",
+              "‏G-Star، التسجيل المبكّر — 3 مارس · مدفوع. خصم 10٪ على رسوم الجناح"
+            ]
+          }
+        },
+        {
+          h: "تقديم 2027 — من أبريل إلى يونيو",
+          p: ["هنا تتداخل برامج الدعم الكورية مع أجنحة الاستوديوهات المستقلة في أوروبا."],
+          list: {
+            h: "‏الإغلاق من أبريل إلى يونيو",
+            items: [
+              "‏Day of the Devs (نسخة Summer Game Fest) — نحو 6 أبريل · مجانًا. باختيار منسّق",
+              "‏Smilegate IndieGo — 12 أبريل · مجانًا. عشرة ملايين وون",
+              "‏Indie Arena Booth — نحو 20 أبريل · مدفوع. جناح مشترك في gamescom",
+              "‏Tokyo Game Show SELECTED INDIE 80 — 30 أبريل · مجانًا. يُختار 80 عملًا، وتُسجَّل تلقائيًا لترشيحات SOWN",
+              "‏Tiny Teams — نحو 30 أبريل · مجانًا. فرق من خمسة أشخاص أو أقل، والنسخة التجريبية شرط",
+              "‏G-Star، إغلاق التسجيل المبكّر — 30 أبريل · مدفوع",
+              "‏IndieCraft — 6 مايو · مجانًا. حتى أربعين مليون وون",
+              "‏NC VARCO — 7 مايو · مجانًا",
+              "‏gamescom dev Indie Expo — 8 مايو · مجانًا. عشرون فريقًا من أصل ثلاثين مكانًا. كان يُسمّى devcom، والموعد ليس 31 مايو",
+              "‏BIC Festival — 25 مايو · مجانًا. بوسان، ويُقام في أغسطس",
+              "‏G-Star، التسجيل العام — 26 مايو · مدفوع",
+              "‏gamescom asia للمستقلين — نحو 15 يونيو · مدفوع. بانكوك",
+              "‏IndieCade، التقديم العادي — نحو منتصف يونيو · 135 دولارًا. المهرجان نفسه في يناير",
+              "‏GIGDC — 25 يونيو · مجانًا",
+              "‏LudoNarraCon — نحو 26 يونيو · مجانًا. يركّز على السرد، وهو أقل ملاءمة لنوع لعبتنا",
+              "‏G-Star، إغلاق التسجيل العام — 31 يوليو · مدفوع"
+            ]
+          }
+        },
+        {
+          h: "مواعيد معارض 2027",
+          p: ["أين يجب أن نكون فعليًا إذا نجح التقديم. لم نُدرج إلا المواعيد المعلنة."],
+          list: {
+            h: "من يناير إلى نوفمبر",
+            items: [
+              "‏Taipei Game Show + INDIE HOUSE — من 21 إلى 24 يناير. حفل Indie Game Award في 20 يناير",
+              "مهرجان ‏IndieCade وبث Demospree — يناير",
+              "‏Steam Next Fest نسخة فبراير — فبراير",
+              "‏GDC وجوائز IGF — أوائل مارس، سان فرانسيسكو",
+              "‏gamescom latam — من 30 أبريل إلى 3 مايو، ساو باولو",
+              "‏A MAZE. برلين — منتصف مايو",
+              "‏BitSummit — من 21 إلى 23 مايو، كيوتو",
+              "‏Digital Dragons و Nordic Game — مايو",
+              "‏Steam Next Fest نسخة يونيو — يونيو",
+              "‏Develop:Brighton — من 13 إلى 15 يوليو",
+              "‏BIC Festival — منتصف أغسطس، بوسان",
+              "‏gamescom dev و gamescom — أواخر أغسطس، كولونيا",
+              "‏Tokyo Game Show — أواخر سبتمبر",
+              "‏G-Star — نوفمبر، بوسان"
+            ]
+          }
+        },
+        {
+          h: "مسارات بلا موعد نهائي",
+          p: ["هذه مفتوحة بغضّ النظر عن التقويم. لا تاريخ يدفعنا، ما يعني أن علينا أن ندفع أنفسنا إليها لحظة جهوز النسخة."],
+          list: {
+            h: "ستة مسارات دائمة",
+            items: [
+              "‏Big Indie Pitch — مجانًا. يُقام في مدن عدة على مدار السنة، وهو العرض الوحيد المفتوح دائمًا",
+              "‏Epic MegaGrants — مجانًا. تقديم مستمر لمشاريع Unreal",
+              "‏INDIE Live Expo — مجانًا. مرتان في السنة، عبر الإنترنت",
+              "‏PAX Rising — مدفوع. West و East و Aus بطلبات منفصلة",
+              "جناح ‏gamescom dev B2B — 1,499 يورو. ثمانية فرق مستقلة، القاعة 4.1 في gamescom",
+              "‏Steam Direct — 100 دولار لكل تطبيق، تُستردّ متى تجاوزت اللعبة 1,000 دولار من الإيرادات"
+            ]
+          }
+        },
+        {
+          h: "بأي ترتيب نذهب",
+          p: [
+            "في استوديو من شخص واحد، السفر والإقامة أغلى من الجناح نفسه. المعرض الأوروبي أو الأمريكي الشمالي هو الأغلى حتى حين تكون المشاركة مجانية. لذلك الترتيب محدّد سلفًا.",
+            "‏Fighting Nations هي الواجهة في كل مسار. ألعاب القتال قوية في المهرجانات العامة الكبرى وفي الجوائز، وضعيفة في فعاليات Steam المبنية حول نوع واحد. أما Kingdom Wars فتعمل في المتصفّح، لذا تخرج من مسارات الأجنحة الحضورية وتتّجه إلى الفعاليات الإلكترونية لألعاب الاستراتيجية وفعاليات Steam المجانية."
+          ],
+          list: {
+            h: "الأولوية",
+            items: [
+              "‏1. المسارات المجانية عبر الإنترنت وبالتحكيم — بلا تكلفة سفر",
+              "‏2. كوريا — G-Star و BIC Festival",
+              "‏3. آسيا القريبة — تايبيه وبانكوك وكيوتو",
+              "‏4. أوروبا وأمريكا الشمالية — عند الاختيار، أو حين يرافقها دعم للسفر"
+            ]
+          }
+        },
+        {
+          h: "ما المحسوم وما ليس كذلك",
+          p: [
+            "هذه الصفحة خطة نتقدّم بها، لا قائمة نتائج. أما أين قُبلنا فعلًا فيُكتب في خط المسيرة على الصفحة الرئيسية حين نعرف — هكذا فعلنا حتى الآن.",
+            "المواعيد تجمع بين إعلانات كل حدث والجدول الذي التزم به في السنوات الماضية. وحين يختلف الإعلان الرسمي فالإعلان هو الصحيح، ونصحّح هذه الصفحة كلما تأكّدنا.",
+            "آخر تحديث: 16 أغسطس 2026."
+          ]
+        }
+      ],
+      slides: [
+        "‏الجناح الكوري في gamescom asia x Thailand Game Show، أكتوبر 2025. القائمة أدناه هي وجهتنا التالية.",
+        "‏G-Star 2022 في BEXCO ببوسان. نذهب إلى G-Star كل عام منذ 2019.",
+        "‏لقاء مع موزّع هندي في Thailand Game Show. مثل هذه الجلسات هي سبب ذهابنا أصلًا."
+      ],
+      cta: "‏جرّب اللعبة التي نتقدّم بها", back: "‏العودة إلى Deother"
     }
   }
 };
