@@ -46,6 +46,11 @@ const KWONLINE_SLIDES = ["kwo-shot-01.jpg", "kwo-shot-02.jpg"];   // assets/ (�
 // 여정(journey) 섹션의 전시 현장 사진 — gamescom asia x Thailand Game Show 2025.10 한국관 부스.
 // 캡션은 언어별로 각 블록의 journey.photos 에 있다 (파일명은 여기, 글은 거기 — 슬라이드 배열과 같은 규칙).
 // 파일이 아직 없으면 app.js 가 통째로 숨기므로, 이미지를 넣기 전에 배포해도 빈 자리가 남지 않는다.
+// 행사 로드맵 상세(festivals.html)에 끼우는 사진. 전부 우리가 실제로 나갔던 자리다.
+// ※ 앞으로 도전할 행사의 포스터·로고를 여기 넣지 말 것 — 남의 저작물이고,
+//   그 행사에 이미 나갔던 것처럼 읽힌다(발표자료 19쪽의 게임스컴·CES 이미지가 그 경우다).
+const FESTIVALS_SLIDES = ["tgs-01.jpg", "gstar-2022.jpg", "tgs-05.jpg"];   // assets/
+
 const SHOW_PHOTOS = ["assets/tgs-01.jpg", "assets/tgs-02.jpg", "assets/tgs-03.jpg",
                      "assets/tgs-04.jpg", "assets/tgs-05.jpg"];
 const TIMEWARS_SLIDES = ["timewars-cover.jpg"];   // assets/ (키아트. 게임 스크린샷 나오면 추가)
@@ -174,7 +179,7 @@ const LANG_VIDEOS = [
 const I18N = {
   en: {
     name: "English", dir: "ltr",
-    nav: { why: "Why", world: "World", features: "Game", journey: "Journey", roadmap: "Roadmap", team: "Team" },
+    nav: { why: "Why", world: "World", features: "Game", journey: "Journey", festivals: "Festivals", roadmap: "Roadmap", team: "Team" },
     hero: {
       studio: "Deother Co., Ltd. — IP-based game studio",
       title: "Fighting Nations",
@@ -286,7 +291,7 @@ const I18N = {
 
   ko: {
     name: "한국어", dir: "ltr",
-    nav: { why: "기획의도", world: "세계관", features: "게임", journey: "여정", roadmap: "로드맵", team: "팀" },
+    nav: { why: "기획의도", world: "세계관", features: "게임", journey: "여정", festivals: "행사", roadmap: "로드맵", team: "팀" },
     hero: {
       studio: "주식회사 디아더 — IP 기반 게임 스튜디오",
       title: "Fighting Nations",
@@ -397,7 +402,7 @@ const I18N = {
 
   zh: {
     name: "中文", dir: "ltr",
-    nav: { why: "初衷", world: "世界观", features: "游戏", journey: "历程", roadmap: "规划", team: "团队" },
+    nav: { why: "初衷", world: "世界观", features: "游戏", journey: "历程", festivals: "展会", roadmap: "规划", team: "团队" },
     hero: {
       studio: "Deother 有限公司 — 以 IP 为核心的游戏工作室",
       title: "Fighting Nations",
@@ -505,7 +510,7 @@ const I18N = {
 
   ja: {
     name: "日本語", dir: "ltr",
-    nav: { why: "企画意図", world: "世界観", features: "ゲーム", journey: "歩み", roadmap: "ロードマップ", team: "チーム" },
+    nav: { why: "企画意図", world: "世界観", features: "ゲーム", journey: "歩み", festivals: "イベント", roadmap: "ロードマップ", team: "チーム" },
     hero: {
       studio: "株式会社ディアザー — IP発のゲームスタジオ",
       title: "Fighting Nations",
@@ -613,7 +618,7 @@ const I18N = {
 
   es: {
     name: "Español", dir: "ltr",
-    nav: { why: "Motivación", world: "Universo", features: "Juego", journey: "Trayectoria", roadmap: "Hoja de ruta", team: "Equipo" },
+    nav: { why: "Motivación", world: "Universo", features: "Juego", journey: "Trayectoria", festivals: "Ferias", roadmap: "Hoja de ruta", team: "Equipo" },
     hero: {
       studio: "Deother Co., Ltd. — estudio de juegos basado en IP",
       title: "Fighting Nations",
@@ -721,7 +726,7 @@ const I18N = {
 
   pt: {
     name: "Português", dir: "ltr",
-    nav: { why: "Motivação", world: "Universo", features: "Jogo", journey: "Trajetória", roadmap: "Planos", team: "Equipa" },
+    nav: { why: "Motivação", world: "Universo", features: "Jogo", journey: "Trajetória", festivals: "Eventos", roadmap: "Planos", team: "Equipa" },
     hero: {
       studio: "Deother Co., Ltd. — estúdio de jogos baseado em IP",
       title: "Fighting Nations",
@@ -829,7 +834,7 @@ const I18N = {
 
   fr: {
     name: "Français", dir: "ltr",
-    nav: { why: "Intention", world: "Univers", features: "Le jeu", journey: "Parcours", roadmap: "Feuille de route", team: "Équipe" },
+    nav: { why: "Intention", world: "Univers", features: "Le jeu", journey: "Parcours", festivals: "Salons", roadmap: "Feuille de route", team: "Équipe" },
     hero: {
       studio: "Deother Co., Ltd. — studio de jeux fondé sur ses IP",
       title: "Fighting Nations",
@@ -937,7 +942,7 @@ const I18N = {
 
   de: {
     name: "Deutsch", dir: "ltr",
-    nav: { why: "Warum", world: "Welt", features: "Das Spiel", journey: "Entwicklung", roadmap: "Roadmap", team: "Team" },
+    nav: { why: "Warum", world: "Welt", features: "Das Spiel", journey: "Entwicklung", festivals: "Messen", roadmap: "Roadmap", team: "Team" },
     hero: {
       studio: "Deother Co., Ltd. — IP-basiertes Spielestudio",
       title: "Fighting Nations",
@@ -1045,7 +1050,7 @@ const I18N = {
 
   ru: {
     name: "Русский", dir: "ltr",
-    nav: { why: "Замысел", world: "Мир", features: "Игра", journey: "Путь", roadmap: "Планы", team: "Команда" },
+    nav: { why: "Замысел", world: "Мир", features: "Игра", journey: "Путь", festivals: "Фестивали", roadmap: "Планы", team: "Команда" },
     hero: {
       studio: "Deother Co., Ltd. — студия, растущая из собственных IP",
       title: "Fighting Nations",
@@ -1153,7 +1158,7 @@ const I18N = {
 
   ar: {
     name: "العربية", dir: "rtl",
-    nav: { why: "الفكرة", world: "العالم", features: "اللعبة", journey: "المسيرة", roadmap: "خارطة الطريق", team: "الفريق" },
+    nav: { why: "الفكرة", world: "العالم", features: "اللعبة", journey: "المسيرة", festivals: "المعارض", roadmap: "خارطة الطريق", team: "الفريق" },
     hero: {
       studio: "شركة Deother — استوديو ألعاب قائم على ملكيته الفكرية",
       title: "Fighting Nations",

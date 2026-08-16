@@ -35,11 +35,14 @@ function render(code) {
   // --- 상단 메뉴 ---
   const nav = document.getElementById("nav");
   nav.replaceChildren();
+  // 대부분은 같은 페이지의 섹션(#id)이지만, 행사 로드맵만 별도 페이지다.
+  // .html 로 끝나면 앵커가 아니라 링크로 취급한다.
   [["why", t.nav.why], ["world", t.nav.world], ["features", t.nav.features],
-   ["journey", t.nav.journey], ["roadmap", t.nav.roadmap], ["team", t.nav.team]]
+   ["journey", t.nav.journey], ["festivals.html", t.nav.festivals],
+   ["roadmap", t.nav.roadmap], ["team", t.nav.team]]
     .forEach(([id, label]) => {
       const a = el("a", null, label);
-      a.href = "#" + id;
+      a.href = id.endsWith(".html") ? id : "#" + id;
       nav.appendChild(a);
     });
   set("langLabel", t.name);

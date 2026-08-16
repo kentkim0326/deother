@@ -78,6 +78,15 @@ const P_LAYOUT = {
       7: [{ v: 2 }],                          // 게임 개발자        → Fighting Nations
     },
   },
+  festivals: {
+    // 글과 목록만 있는 페이지라 글벽이 길다. 우리가 실제로 나갔던 자리 사진 세 장으로 끊는다.
+    // {s} 는 자막이 붙는다 — 자막이 없으면 '앞으로 갈 행사'의 사진으로 오해될 수 있어서 꼭 붙인다.
+    top: [{ s: 0 }],                          // 인트로 아래 → 한국관 전경
+    after: {
+      2: [{ s: 1 }],                          // 2026 하반기 개최 뒤 → 지스타(매년 가는 자리)
+      5: [{ s: 2 }],                          // 2027 개최 일정 뒤  → 배급사 미팅(나가는 이유)
+    },
+  },
   kwonline: {
     // 아직 게임 화면 캡처가 없다. 미디어는 테스트 영상 + 영어 주제가 3곡.
     // 글벽 사이에 고르게 흩어 리듬을 준다. 스크린샷이 나오면 {img}/{s} 를 더 끼울 것.
@@ -137,6 +146,7 @@ function pSlideSet(game) {
   if (game === "timewars")  return { files: (typeof TIMEWARS_SLIDES !== "undefined" ? TIMEWARS_SLIDES : []), folder: "assets/" };
   if (game === "turfking")  return { files: (typeof TURFKING_SLIDES !== "undefined" ? TURFKING_SLIDES : []), folder: "assets/slides-tk/" };
   if (game === "founder")   return { files: (typeof FOUNDER_SLIDES !== "undefined" ? FOUNDER_SLIDES : []), folder: "assets/" };
+  if (game === "festivals") return { files: (typeof FESTIVALS_SLIDES !== "undefined" ? FESTIVALS_SLIDES : []), folder: "assets/" };
   return { files: [], folder: "" };
 }
 
