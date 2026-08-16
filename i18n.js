@@ -279,7 +279,7 @@ const I18N = {
         { d: "31 October 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — one of 10 studios in the investment-readiness programme, pitching to VCs" },
         { d: "31 October 2025", t: "Attended Pocket Gamer Connects Summit Korea 2025, the global games-industry conference series" },
         { d: "6–7 November 2025", t: "Attended the Console Game Developer Conference (CGDC) 2025 in Pangyo — groundwork for the console step on our roadmap" },
-        { d: "29 November 2025", t: "Chung-Ang University indie game showcase" },
+        { d: "29 November 2025", t: "Global Game Challenge 2025 — Outstanding Indie Game Invitational: selected as one of about 20 titles and exhibited at Chung-Ang University (hosted by the Korean Game Society)" },
         { d: "31 December 2025", t: "Submitted to NC Soft's 2nd VARCO Game Contest" },
         { d: "16 January 2026", t: "Entered NEOWIZ Quest, a narrative indie game competition with a ₩165M prize pool" }
       ]
@@ -399,7 +399,7 @@ const I18N = {
         { d: "2025년 10월 31일", t: "2025 G-GAME Connect (경기콘텐츠진흥원) — 투자유치역량강화프로그램 10개사에 선정, VC 대상 IR 발표" },
         { d: "2025년 10월 31일", t: "Pocket Gamer Connects Summit Korea 2025 참석 — 글로벌 게임 산업 컨퍼런스" },
         { d: "2025년 11월 6~7일", t: "콘솔게임 개발자 컨퍼런스(CGDC) 2025 참석 — 판교. 로드맵의 콘솔 진출을 준비하는 자리였습니다" },
-        { d: "2025년 11월 29일", t: "중앙대학교 인디게임 부스 전시" },
+        { d: "2025년 11월 29일", t: "글로벌게임챌린지 2025 「우수 인디게임 초청전」 — 20작품 내외 선정작으로 초청되어 중앙대학교 100주년기념관에서 전시 (한국게임학회 주최)" },
         { d: "2025년 12월 31일", t: "NC소프트 제2회 바르코 게임 공모전 접수" },
         { d: "2026년 1월 16일", t: "네오위즈 퀘스트 내러티브 인디게임 공모전 접수 (총 상금 1억 6,500만원)" }
       ]
@@ -517,7 +517,7 @@ const I18N = {
         { d: "2025 年 10 月 31 日", t: "2025 G-GAME Connect（京畿内容振兴院）——投资引进能力强化项目入选十家之一，向 VC 进行 IR 路演" },
         { d: "2025 年 10 月 31 日", t: "参加 Pocket Gamer Connects Summit Korea 2025 ——全球游戏产业大会系列" },
         { d: "2025 年 11 月 6–7 日", t: "参加主机游戏开发者大会（CGDC）2025（板桥）——为路线图中的主机平台进军做准备" },
-        { d: "2025 年 11 月 29 日", t: "中央大学独立游戏展出" },
+        { d: "2025 年 11 月 29 日", t: "全球游戏挑战赛 2025「优秀独立游戏邀请展」——入选约 20 款作品之一，于中央大学百年纪念馆参展（韩国游戏学会主办）" },
         { d: "2025 年 12 月 31 日", t: "报名 NC Soft 第二届 VARCO 游戏大赛" },
         { d: "2026 年 1 月 16 日", t: "报名 NEOWIZ Quest 叙事独立游戏大赛（总奖金 1.65 亿韩元）" }
       ]
@@ -634,7 +634,7 @@ const I18N = {
         { d: "2025年10月31日", t: "2025 G-GAME Connect（京畿コンテンツ振興院）——投資誘致力強化プログラム 10社に選定、VC 向け IR 発表" },
         { d: "2025年10月31日", t: "Pocket Gamer Connects Summit Korea 2025 に参加 — グローバル ゲーム産業カンファレンス" },
         { d: "2025年11月6〜7日", t: "コンソールゲーム開発者カンファレンス（CGDC）2025 に参加（板橋）— ロードマップのコンソール進出に向けた足がかり" },
-        { d: "2025年11月29日", t: "中央大学インディーゲーム展示" },
+        { d: "2025年11月29日", t: "グローバル ゲーム チャレンジ 2025「優秀インディーゲーム招待展」— 約 20 作品の選定作として招待され、中央大学校 100 周年記念館で展示（韓国ゲーム学会主催）" },
         { d: "2025年12月31日", t: "NCソフト第2回VARCOゲームコンテストに応募" },
         { d: "2026年1月16日", t: "ネオウィズ・クエスト（ナラティブ系インディーゲームコンペ、賞金総額1億6500万ウォン）に応募" }
       ]
@@ -751,7 +751,7 @@ const I18N = {
         { d: "31 octubre 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency): uno de los 10 estudios del programa de preparación para inversión, con presentación ante VC" },
         { d: "31 de octubre de 2025", t: "Asistencia a Pocket Gamer Connects Summit Korea 2025, serie de conferencias de la industria global del videojuego" },
         { d: "6–7 de noviembre de 2025", t: "Asistencia a la Console Game Developer Conference (CGDC) 2025 en Pangyo: preparación para el paso a consola de nuestra hoja de ruta" },
-        { d: "29 noviembre 2025", t: "Muestra de juegos indie en la Universidad Chung-Ang" },
+        { d: "29 noviembre 2025", t: "Global Game Challenge 2025, Muestra de Juegos Indie Destacados: seleccionados entre unos 20 títulos y expuestos en la Universidad Chung-Ang (organiza la Korean Game Society)" },
         { d: "31 diciembre 2025", t: "Presentado al 2.º Concurso VARCO de NC Soft" },
         { d: "16 enero 2026", t: "Presentado a NEOWIZ Quest, concurso de juegos indie narrativos (bolsa de 165 millones de wones)" }
       ]
@@ -868,7 +868,7 @@ const I18N = {
         { d: "31 outubro 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — um dos 10 estúdios do programa de preparação para investimento, com apresentação a VC" },
         { d: "31 de outubro de 2025", t: "Presença na Pocket Gamer Connects Summit Korea 2025, série de conferências da indústria global dos jogos" },
         { d: "6–7 de novembro de 2025", t: "Presença na Console Game Developer Conference (CGDC) 2025 em Pangyo: preparação para o passo das consolas no nosso roteiro" },
-        { d: "29 novembro 2025", t: "Mostra de jogos indie na Universidade Chung-Ang" },
+        { d: "29 novembro 2025", t: "Global Game Challenge 2025, Mostra de Jogos Indie em Destaque: selecionados entre cerca de 20 títulos e expostos na Universidade Chung-Ang (organização da Korean Game Society)" },
         { d: "31 dezembro 2025", t: "Inscrito no 2.º Concurso VARCO da NC Soft" },
         { d: "16 janeiro 2026", t: "Inscrito no NEOWIZ Quest, concurso de jogos indie narrativos (prémios de 165 milhões de wones)" }
       ]
@@ -985,7 +985,7 @@ const I18N = {
         { d: "31 octobre 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — l'un des 10 studios du programme de préparation à la levée de fonds, présentation aux investisseurs" },
         { d: "31 octobre 2025", t: "Participation au Pocket Gamer Connects Summit Korea 2025, série de conférences de l'industrie mondiale du jeu" },
         { d: "6–7 novembre 2025", t: "Participation à la Console Game Developer Conference (CGDC) 2025 à Pangyo — préparation de l'étape console de notre feuille de route" },
-        { d: "29 novembre 2025", t: "Exposition de jeux indépendants à l'université Chung-Ang" },
+        { d: "29 novembre 2025", t: "Global Game Challenge 2025, exposition sur invitation des meilleurs jeux indépendants — sélectionnés parmi une vingtaine de titres et exposés à l'université Chung-Ang (organisée par la Korean Game Society)" },
         { d: "31 décembre 2025", t: "Candidature au 2e concours VARCO de NC Soft" },
         { d: "16 janvier 2026", t: "Candidature à NEOWIZ Quest, concours de jeux indépendants narratifs (165 M₩ de dotation)" }
       ]
@@ -1102,7 +1102,7 @@ const I18N = {
         { d: "31. Oktober 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — eines von 10 Studios im Investment-Readiness-Programm, IR-Pitch vor VCs" },
         { d: "31. Oktober 2025", t: "Teilnahme am Pocket Gamer Connects Summit Korea 2025, der globalen Games-Industry-Konferenzreihe" },
         { d: "6.–7. November 2025", t: "Teilnahme an der Console Game Developer Conference (CGDC) 2025 in Pangyo — Vorbereitung des Konsolen-Schritts unserer Roadmap" },
-        { d: "29. November 2025", t: "Indie-Game-Ausstellung an der Chung-Ang-Universität" },
+        { d: "29. November 2025", t: "Global Game Challenge 2025, Einladungsausstellung herausragender Indie-Spiele — als eines von rund 20 Titeln ausgewählt und an der Chung-Ang-Universität ausgestellt (veranstaltet von der Korean Game Society)" },
         { d: "31. Dezember 2025", t: "Einreichung beim 2. VARCO Game Contest von NC Soft" },
         { d: "16. Januar 2026", t: "Teilnahme an NEOWIZ Quest, einem Wettbewerb für narrative Indie-Spiele (165 Mio. ₩ Preisgeld)" }
       ]
@@ -1219,7 +1219,7 @@ const I18N = {
         { d: "31 октября 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — одна из 10 студий программы подготовки к инвестициям, IR-питч перед фондами" },
         { d: "31 октября 2025", t: "Участие в Pocket Gamer Connects Summit Korea 2025 — серии конференций мировой игровой индустрии" },
         { d: "6–7 ноября 2025", t: "Участие в Console Game Developer Conference (CGDC) 2025 в Пангё — подготовка к консольному этапу нашей дорожной карты" },
-        { d: "29 ноября 2025", t: "Выставка инди-игр в Университете Чунг-Ан" },
+        { d: "29 ноября 2025", t: "Global Game Challenge 2025, выставка лучших инди-игр по приглашению — отобраны в число примерно 20 работ и представлены в Университете Чунг-Ан (организатор — Korean Game Society)" },
         { d: "31 декабря 2025", t: "Заявка на 2-й конкурс VARCO от NC Soft" },
         { d: "16 января 2026", t: "Заявка на NEOWIZ Quest — конкурс нарративных инди-игр с призовым фондом 165 млн вон" }
       ]
@@ -1337,7 +1337,7 @@ const I18N = {
         { d: "‏31 أكتوبر 2025", t: "‏2025 G-GAME Connect (وكالة محتوى كيونغي) — أحد 10 استوديوهات في برنامج التهيّؤ للاستثمار، وعرض IR أمام المستثمرين" },
         { d: "‏31 أكتوبر 2025", t: "‏حضور Pocket Gamer Connects Summit Korea 2025، سلسلة مؤتمرات صناعة الألعاب العالمية" },
         { d: "‏6–7 نوفمبر 2025", t: "‏حضور مؤتمر مطوّري ألعاب المنصّات (CGDC) 2025 في بانغيو — تمهيدًا لخطوة المنصّات في خارطة طريقنا" },
-        { d: "‏29 نوفمبر 2025", t: "عرض ألعاب مستقلة في جامعة تشونغ-آنغ" },
+        { d: "‏29 نوفمبر 2025", t: "‏Global Game Challenge 2025 — معرض الألعاب المستقلة المتميّزة بالدعوة: اختيرت ضمن نحو 20 عملاً وعُرضت في جامعة تشونغ-آنغ (بتنظيم الجمعية الكورية للألعاب)" },
         { d: "‏31 ديسمبر 2025", t: "التقديم لمسابقة VARCO الثانية من NC Soft" },
         { d: "‏16 يناير 2026", t: "المشاركة في NEOWIZ Quest لألعاب الإندي السردية (مجموع الجوائز 165 مليون وون)" }
       ]
