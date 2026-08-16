@@ -4452,7 +4452,7 @@ const PAGES = {
       // 사진 자막. 전부 이미 다녀온 자리다 — 앞으로 갈 행사의 사진이 아니라는 것이 자막으로 드러나야 한다.
       slides: [
         "2025년 10월, gamescom asia x Thailand Game Show 한국관. 아래 목록은 앞으로 도전할 자리들입니다.",
-        "지스타 2022, 부산 벡스코. 지스타는 2019년부터 매년 찾고 있습니다.",
+        "디아더 부스의 간판과 Fighting Nations 포스터. 위 목록의 행사들에도 이렇게 나가려 합니다.",
         "태국 게임쇼에서 인도 배급사와. 행사에 나가는 이유는 결국 이런 자리를 만들기 위해서입니다."
       ],
       cta: "출품작 해보기 — Fighting Nations", back: "디아더로 돌아가기"
@@ -4625,7 +4625,7 @@ const PAGES = {
       ],
       slides: [
         "The Korea pavilion at gamescom asia x Thailand Game Show, October 2025. The list below is where we go next.",
-        "G-Star 2022 at BEXCO in Busan. We have gone to G-Star every year since 2019.",
+        "Our booth sign and the Fighting Nations poster. This is how we mean to show up at the shows listed above.",
         "Meeting an Indian distributor at Thailand Game Show. Rooms like this are the reason we go."
       ],
       cta: "Play the game we are entering", back: "Back to Deother"
@@ -4798,7 +4798,7 @@ const PAGES = {
       ],
       slides: [
         "2025 年 10 月，gamescom asia x Thailand Game Show 韩国馆。下面的清单是我们接下来要去的地方。",
-        "G-Star 2022，釜山 BEXCO。G-Star 我们从 2019 年起每年都去。",
+        "迪亚德展位的招牌与《Fighting Nations》海报。上面列出的展会，我们也打算这样去。",
         "在泰国游戏展与印度发行商会面。我们参展，最终就是为了促成这样的会面。"
       ],
       cta: "试玩我们送去参赛的游戏", back: "返回 Deother"
@@ -4971,7 +4971,7 @@ const PAGES = {
       ],
       slides: [
         "2025年10月、gamescom asia x Thailand Game Show の韓国館。下の一覧はこれから向かう場所です。",
-        "G-STAR 2022、釜山BEXCO。G-STARには2019年から毎年通っています。",
+        "Deother ブースの看板と Fighting Nations のポスター。上に並べたイベントにも、こうして出ていくつもりです。",
         "タイ・ゲームショウでインドのパブリッシャーと。イベントに出る理由は、結局こういう席をつくるためです。"
       ],
       cta: "出品作を遊んでみる", back: "Deother に戻る"
@@ -5144,7 +5144,7 @@ const PAGES = {
       ],
       slides: [
         "El pabellón coreano en gamescom asia x Thailand Game Show, octubre de 2025. La lista de abajo es adonde vamos ahora.",
-        "G-Star 2022 en BEXCO, Busan. Vamos a G-Star todos los años desde 2019.",
+        "El rótulo de nuestro stand y el póster de Fighting Nations. Así es como pensamos presentarnos en las ferias de arriba.",
         "Reunión con una distribuidora india en Thailand Game Show. Salas como esta son la razón por la que vamos."
       ],
       cta: "Juega al juego que presentamos", back: "Volver a Deother"
@@ -5317,7 +5317,7 @@ const PAGES = {
       ],
       slides: [
         "O pavilhão coreano na gamescom asia x Thailand Game Show, outubro de 2025. A lista abaixo é para onde vamos a seguir.",
-        "G-Star 2022 no BEXCO, em Busan. Vamos à G-Star todos os anos desde 2019.",
+        "O letreiro do nosso stand e o cartaz de Fighting Nations. É assim que tencionamos aparecer nos eventos listados acima.",
         "Reunião com uma distribuidora indiana na Thailand Game Show. Salas como esta são a razão por que vamos."
       ],
       cta: "Joga o jogo que apresentamos", back: "Voltar a Deother"
@@ -5490,7 +5490,7 @@ const PAGES = {
       ],
       slides: [
         "Le pavillon coréen à la gamescom asia x Thailand Game Show, octobre 2025. La liste ci-dessous, c'est la suite.",
-        "G-Star 2022 au BEXCO de Busan. Nous allons à la G-Star chaque année depuis 2019.",
+        "L'enseigne de notre stand et l'affiche de Fighting Nations. C'est ainsi que nous comptons nous présenter aux salons listés plus haut.",
         "Rencontre avec un distributeur indien au Thailand Game Show. Ce sont ces rendez-vous qui justifient le déplacement."
       ],
       cta: "Jouer au jeu que nous présentons", back: "Retour à Deother"
@@ -5663,7 +5663,7 @@ const PAGES = {
       ],
       slides: [
         "Der koreanische Pavillon auf der gamescom asia x Thailand Game Show, Oktober 2025. Die Liste darunter ist, wohin es als Nächstes geht.",
-        "G-Star 2022 im BEXCO in Busan. Zur G-Star fahren wir seit 2019 jedes Jahr.",
+        "Das Schild unseres Stands und das Fighting-Nations-Plakat. So wollen wir auch bei den oben genannten Messen auftreten.",
         "Treffen mit einem indischen Distributor auf der Thailand Game Show. Solche Gespräche sind der Grund, warum wir hinfahren."
       ],
       cta: "Das Spiel spielen, das wir einreichen", back: "Zurück zu Deother"
@@ -5836,7 +5836,7 @@ const PAGES = {
       ],
       slides: [
         "Корейский павильон на gamescom asia x Thailand Game Show, октябрь 2025 года. Список ниже — это то, куда мы едем дальше.",
-        "G-Star 2022, BEXCO в Пусане. На G-Star мы ездим каждый год с 2019-го.",
+        "Вывеска нашего стенда и постер Fighting Nations. Именно так мы намерены выходить и на перечисленные выше фестивали.",
         "Встреча с индийским дистрибьютором на Thailand Game Show. Ради таких разговоров мы и ездим."
       ],
       cta: "Сыграть в игру, которую мы подаём", back: "Назад в Deother"
@@ -6009,7 +6009,7 @@ const PAGES = {
       ],
       slides: [
         "‏الجناح الكوري في gamescom asia x Thailand Game Show، أكتوبر 2025. القائمة أدناه هي وجهتنا التالية.",
-        "‏G-Star 2022 في BEXCO ببوسان. نذهب إلى G-Star كل عام منذ 2019.",
+        "‏لافتة منصّتنا وملصق Fighting Nations. هكذا ننوي أن نحضر في المعارض المذكورة أعلاه.",
         "‏لقاء مع موزّع هندي في Thailand Game Show. مثل هذه الجلسات هي سبب ذهابنا أصلًا."
       ],
       cta: "‏جرّب اللعبة التي نتقدّم بها", back: "‏العودة إلى Deother"
