@@ -27,12 +27,13 @@ const JOURNEY_LINKS = [
   "",                              // KoreaProductPost 기사 — 대표님이 주소를 주면 채운다
   "https://gamescom.asia/",        // gamescom asia x Thailand Game Show
   "",                              // 언리얼로 재제작 — 우리가 한 일
+  "",                              // 젬파이 밋업 제35회 — 회차별이라 상시 주소 없음
   "https://www.gcon.or.kr/",       // 경기콘텐츠진흥원 게임 커넥트
   "",                              // 중앙대 인디게임 부스 — 상시 주소 없음
   "",                              // NC 바르코 공모전 — 회차별이라 상시 주소 없음
   "https://neowizquest.com/"       // 네오위즈 퀘스트
 ];
-const JOURNEY_FLAGS = ["🇺🇸", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇹🇭", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷"];
+const JOURNEY_FLAGS = ["🇺🇸", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇹🇭", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷"];
 
 // 로드맵 각 단계의 공식 사이트. 순서는 각 언어 roadmap.items 와 1:1 로 맞춘다(인덱스로 붙는다).
 // "" 면 그 항목은 링크 없이 제목 텍스트로 나온다 — WORKS 카드와 같은 규칙이다.
@@ -272,6 +273,7 @@ const I18N = {
         { d: "6 October 2025", t: "Fighting Nations featured in KoreaProductPost, an English-language Korean media outlet" },
         { d: "16–19 October 2025", t: "gamescom asia x Thailand Game Show — one of 16 Korean studios, Megazone Cloud sponsored booth. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came to the booth." },
         { d: "October 2025", t: "Rebuilt in Unreal Engine — multiplayer needed it" },
+        { d: "21 October 2025", t: "Zempie Meetup #35 — pitched at the global game-industry networking night in Seoul" },
         { d: "31 October 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — one of 10 studios in the investment-readiness programme, pitching to VCs" },
         { d: "29 November 2025", t: "Chung-Ang University indie game showcase" },
         { d: "31 December 2025", t: "Submitted to NC Soft's 2nd VARCO Game Contest" },
@@ -389,6 +391,7 @@ const I18N = {
         { d: "2025년 10월 6일", t: "영문 매체 KoreaProductPost 에 Fighting Nations 소개 기사 게재" },
         { d: "2025년 10월 16~19일", t: "gamescom asia x Thailand Game Show — 16개 한국 게임사 중 하나로 선발, 메가존 클라우드 후원 한국관 부스. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다." },
         { d: "2025년 10월", t: "언리얼 엔진으로 재제작 — 멀티플레이어에는 언리얼이 필요했습니다" },
+        { d: "2025년 10월 21일", t: "젬파이 밋업 제35회 — 글로벌 게임 생태계 네트워킹(서울 역삼)에서 피칭" },
         { d: "2025년 10월 31일", t: "2025 G-GAME Connect (경기콘텐츠진흥원) — 투자유치역량강화프로그램 10개사에 선정, VC 대상 IR 발표" },
         { d: "2025년 11월 29일", t: "중앙대학교 인디게임 부스 전시" },
         { d: "2025년 12월 31일", t: "NC소프트 제2회 바르코 게임 공모전 접수" },
@@ -504,6 +507,7 @@ const I18N = {
         { d: "2025 年 10 月 6 日", t: "英文媒体 KoreaProductPost 刊登 Fighting Nations 专题报道" },
         { d: "2025 年 10 月 16–19 日", t: "gamescom asia x Thailand Game Show——入选 16 家韩国工作室之一，Megazone Cloud 赞助展位。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商到访。" },
         { d: "2025 年 10 月", t: "改用虚幻引擎重做——联机需要它" },
+        { d: "2025 年 10 月 21 日", t: "Zempie Meetup 第 35 期 —— 在首尔举行的全球游戏生态网络之夜进行路演" },
         { d: "2025 年 10 月 31 日", t: "2025 G-GAME Connect（京畿内容振兴院）——投资引进能力强化项目入选十家之一，向 VC 进行 IR 路演" },
         { d: "2025 年 11 月 29 日", t: "中央大学独立游戏展出" },
         { d: "2025 年 12 月 31 日", t: "报名 NC Soft 第二届 VARCO 游戏大赛" },
@@ -618,6 +622,7 @@ const I18N = {
         { d: "2025年10月6日", t: "英文メディア KoreaProductPost に Fighting Nations の紹介記事が掲載" },
         { d: "2025年10月16〜19日", t: "gamescom asia x Thailand Game Show——韓国16社の一つに選出、Megazone Cloud協賛ブース。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪。" },
         { d: "2025年10月", t: "Unreal Engineで作り直し——マルチプレイに必要でした" },
+        { d: "2025年10月21日", t: "Zempie Meetup 第 35 回 — ソウルで開かれたグローバルゲーム エコシステム ネットワーキングでピッチ" },
         { d: "2025年10月31日", t: "2025 G-GAME Connect（京畿コンテンツ振興院）——投資誘致力強化プログラム 10社に選定、VC 向け IR 発表" },
         { d: "2025年11月29日", t: "中央大学インディーゲーム展示" },
         { d: "2025年12月31日", t: "NCソフト第2回VARCOゲームコンテストに応募" },
@@ -732,6 +737,7 @@ const I18N = {
         { d: "6 de octubre de 2025", t: "Fighting Nations aparece en KoreaProductPost, medio coreano en inglés" },
         { d: "16–19 de octubre de 2025", t: "gamescom asia x Thailand Game Show: uno de los 16 estudios coreanos, stand patrocinado por Megazone Cloud. Visitaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán." },
         { d: "Octubre 2025", t: "Reconstruido en Unreal Engine: el multijugador lo exigía" },
+        { d: "21 de octubre de 2025", t: "Zempie Meetup n.º 35: presentación en la velada de networking del sector global del videojuego, en Seúl" },
         { d: "31 octubre 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency): uno de los 10 estudios del programa de preparación para inversión, con presentación ante VC" },
         { d: "29 noviembre 2025", t: "Muestra de juegos indie en la Universidad Chung-Ang" },
         { d: "31 diciembre 2025", t: "Presentado al 2.º Concurso VARCO de NC Soft" },
@@ -846,6 +852,7 @@ const I18N = {
         { d: "6 de outubro de 2025", t: "Fighting Nations em destaque na KoreaProductPost, meio coreano em inglês" },
         { d: "16–19 de outubro de 2025", t: "gamescom asia x Thailand Game Show — um dos 16 estúdios coreanos, stand patrocinado pela Megazone Cloud. Visitaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan." },
         { d: "Outubro 2025", t: "Reconstruído em Unreal Engine — o multijogador exigia-o" },
+        { d: "21 de outubro de 2025", t: "Zempie Meetup n.º 35: apresentação na noite de networking do setor global dos jogos, em Seul" },
         { d: "31 outubro 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — um dos 10 estúdios do programa de preparação para investimento, com apresentação a VC" },
         { d: "29 novembro 2025", t: "Mostra de jogos indie na Universidade Chung-Ang" },
         { d: "31 dezembro 2025", t: "Inscrito no 2.º Concurso VARCO da NC Soft" },
@@ -960,6 +967,7 @@ const I18N = {
         { d: "6 octobre 2025", t: "Fighting Nations présenté dans KoreaProductPost, média coréen anglophone" },
         { d: "16–19 octobre 2025", t: "gamescom asia x Thailand Game Show — l'un des 16 studios coréens, stand parrainé par Megazone Cloud. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont venus." },
         { d: "Octobre 2025", t: "Reconstruit sous Unreal Engine — le multijoueur l'imposait" },
+        { d: "21 octobre 2025", t: "Zempie Meetup nº 35 — pitch lors de la soirée networking de l'industrie mondiale du jeu, à Séoul" },
         { d: "31 octobre 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — l'un des 10 studios du programme de préparation à la levée de fonds, présentation aux investisseurs" },
         { d: "29 novembre 2025", t: "Exposition de jeux indépendants à l'université Chung-Ang" },
         { d: "31 décembre 2025", t: "Candidature au 2e concours VARCO de NC Soft" },
@@ -1074,6 +1082,7 @@ const I18N = {
         { d: "6. Oktober 2025", t: "Fighting Nations im englischsprachigen koreanischen Medium KoreaProductPost vorgestellt" },
         { d: "16.–19. Oktober 2025", t: "gamescom asia x Thailand Game Show — eines von 16 koreanischen Studios, Stand gesponsert von Megazone Cloud. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen an den Stand." },
         { d: "Oktober 2025", t: "Neu gebaut in der Unreal Engine — der Multiplayer verlangte es" },
+        { d: "21. Oktober 2025", t: "Zempie Meetup Nr. 35 — Pitch beim Networking-Abend der globalen Spielebranche in Seoul" },
         { d: "31. Oktober 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — eines von 10 Studios im Investment-Readiness-Programm, IR-Pitch vor VCs" },
         { d: "29. November 2025", t: "Indie-Game-Ausstellung an der Chung-Ang-Universität" },
         { d: "31. Dezember 2025", t: "Einreichung beim 2. VARCO Game Contest von NC Soft" },
@@ -1188,6 +1197,7 @@ const I18N = {
         { d: "6 октября 2025", t: "Fighting Nations в англоязычном корейском издании KoreaProductPost" },
         { d: "16–19 октября 2025", t: "gamescom asia x Thailand Game Show — одна из 16 корейских студий, стенд при поддержке Megazone Cloud. На стенд приходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня." },
         { d: "Октябрь 2025", t: "Пересобрано на Unreal Engine — этого требовал сетевой режим" },
+        { d: "21 октября 2025", t: "Zempie Meetup №35 — питч на нетворкинг-вечере мировой игровой индустрии в Сеуле" },
         { d: "31 октября 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — одна из 10 студий программы подготовки к инвестициям, IR-питч перед фондами" },
         { d: "29 ноября 2025", t: "Выставка инди-игр в Университете Чунг-Ан" },
         { d: "31 декабря 2025", t: "Заявка на 2-й конкурс VARCO от NC Soft" },
@@ -1303,6 +1313,7 @@ const I18N = {
         { d: "‏6 أكتوبر 2025", t: "‏تقرير عن Fighting Nations في KoreaProductPost، وسيلة إعلام كورية بالإنجليزية" },
         { d: "‏16–19 أكتوبر 2025", t: "‏gamescom asia x Thailand Game Show — أحد 16 استوديو كوريًا، جناح برعاية Megazone Cloud. زار الجناح موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان." },
         { d: "أكتوبر 2025", t: "أُعيد بناؤها على Unreal Engine — اللعب الشبكي تطلّب ذلك" },
+        { d: "‏21 أكتوبر 2025", t: "‏Zempie Meetup رقم 35 — تقديم عرض في أمسية التواصل لقطاع الألعاب العالمي بسيول" },
         { d: "‏31 أكتوبر 2025", t: "‏2025 G-GAME Connect (وكالة محتوى كيونغي) — أحد 10 استوديوهات في برنامج التهيّؤ للاستثمار، وعرض IR أمام المستثمرين" },
         { d: "‏29 نوفمبر 2025", t: "عرض ألعاب مستقلة في جامعة تشونغ-آنغ" },
         { d: "‏31 ديسمبر 2025", t: "التقديم لمسابقة VARCO الثانية من NC Soft" },
