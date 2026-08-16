@@ -4413,6 +4413,7 @@ const PAGES = {
               "2025년 9월 11일 · 이달의 우수게임 (한국콘텐츠진흥원) — Fighting Nations · 미선정",
               "2025년 9월 14일 · 콘텐츠 유니버스 코리아 인디게임존 · 접수 완료",
               "2025년 9월 15일 마감 · 컴투스홀딩스 게임 챌린지 · 접수 완료",
+              "2025년 9월 16일 · 2025 경기 AI 콘텐츠 랩 커머셜 영상 전문과정 (경기콘텐츠진흥원) — 서류 합격 후 면접 · 미선정",
               "2025년 9월 22일 · 한-아랍 스타트업 피치 (한국무역협회) · 접수 완료",
               "2025년 9월 23일 · 메가존클라우드 대중소기업 동반진출 지원사업 — 태국 게임쇼 / gamescom asia 한국관 부스 · ✅ 선정",
               "2025년 12월 31일 · 제2회 NC 바르코 게임 공모전 — Fighting Nations · 미선정",
@@ -4441,11 +4442,12 @@ const PAGES = {
         },
         {
           h: "지금까지 받은 것",
-          p: ["공모전만 낸 것이 아니라, 필요한 기술은 직접 배웠습니다. 2025년 8월부터 열세 과정을 수료했습니다 — 유니티와 언리얼 엔진, 생성형 AI와 리얼리티 캡처, 블록체인·솔리디티, 그리고 인공지능·디지털 자산 국제표준."],
+          p: ["공모전만 낸 것이 아니라, 필요한 기술은 직접 배웠습니다. 2025년 8월부터 열네 과정을 수료했고 — 유니티와 언리얼 엔진, 생성형 AI와 리얼리티 캡처, 블록체인·솔리디티, 그리고 인공지능·디지털 자산 국제표준 — 그 사이에 상도 하나 받았습니다."],
           list: {
-            h: "교육 수료",
+            h: "교육 수료와 수상",
             items: [
               "2025년 8월 20일 · 경기콘텐츠진흥원 「2025 경기 메타버스 캠퍼스」 정규 과정 — 유니티 활용 실무 프로젝트 기반 메타버스 플랫폼 콘텐츠 제작 (100시간) · ✅ 수료",
+              "2025년 9월 7일 · YTN서울타워 숏폼 공모전 · 🏆 장려상",
               "2025년 9월 18일 · 경기도경제과학진흥원(GBSA) 경기 스타트업 아카데미 딥테크 — 「데이터로 만드는 비즈니스 모델 기획과 실습: 아이디어부터 프로토타입까지」 · ✅ 수료",
               "2025년 10월 31일 · (사)한국메타버스산업협회 — 언리얼 기반 생성형 AI 및 리얼리티 캡처 활용 콘텐츠 제작 과정 (60시간) · ✅ 수료",
               "2025년 11월 4일 · 경기게임아카데미 2025 역량강화과정 — 「AI 활용 게임 개발자 교육」 9·10차 · ✅ 수료",
@@ -4671,6 +4673,7 @@ const PAGES = {
               "11 September 2025 · Game of the Month award (KOCCA) — Fighting Nations · not selected",
               "14 September 2025 · Contents Universe Korea Indie Game Zone · submitted",
               "deadline 15 September 2025 · Com2uS Holdings Game Challenge · submitted",
+              "16 September 2025 · Gyeonggi AI Content Lab 2025, commercial video track (Gyeonggi Content Agency) — passed document screening, then interview · not selected",
               "22 September 2025 · Korea–Arab Startup Pitch Competition (KITA) · submitted",
               "23 September 2025 · Megazone Cloud joint overseas-expansion programme — Korean pavilion booth at Thailand Game Show / gamescom asia · ✅ selected",
               "31 December 2025 · 2nd NC VARCO Game Contest — Fighting Nations · not selected",
@@ -4699,11 +4702,12 @@ const PAGES = {
         },
         {
           h: "What we have earned",
-          p: ["We did not only send entries — we went and learned what we needed. Thirteen courses completed since August 2025: Unity and Unreal Engine, generative AI and reality capture, blockchain and Solidity, and international standards for AI and digital assets."],
+          p: ["We did not only send entries — we went and learned what we needed. Fourteen courses completed since August 2025: Unity and Unreal Engine, generative AI and reality capture, blockchain and Solidity, international standards for AI and digital assets. And one award along the way."],
           list: {
-            h: "Courses completed",
+            h: "Courses completed and awards",
             items: [
               "20 August 2025 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2025: project-based metaverse platform content production in Unity (100 hours) · ✅ completed",
+              "7 September 2025 · YTN Seoul Tower short-form video contest · 🏆 Encouragement Award",
               "18 September 2025 · Gyeonggi Business & Science Accelerator (GBSA) deep-tech startup academy — Building business models from data: idea to prototype · ✅ completed",
               "31 October 2025 · Korea Metaverse Industry Association — content production with Unreal-based generative AI and reality capture (60 hours) · ✅ completed",
               "4 November 2025 · Gyeonggi Game Academy 2025 — AI-assisted game developer training (sessions 9 and 10) · ✅ completed",
@@ -4928,6 +4932,7 @@ const PAGES = {
               "2025 年 9 月 11 日 · 本月优秀游戏（韩国内容振兴院）— Fighting Nations · 未入选",
               "2025 年 9 月 14 日 · Contents Universe Korea 独立游戏专区 · 已递交",
               "2025 年 9 月 15 日截止 · Com2uS Holdings 游戏挑战赛 · 已递交",
+              "2025 年 9 月 16 日 · 2025 京畿 AI 内容实验室 商业影像专业课程（京畿内容振兴院）— 通过书面审查后面试 · 未入选",
               "2025 年 9 月 22 日 · 韩国-阿拉伯创业路演大赛（韩国贸易协会） · 已递交",
               "2025 年 9 月 23 日 · Megazone Cloud 大中小企业共同出海扶持项目 — 泰国游戏展 / gamescom asia 韩国馆展位 · ✅ 入选",
               "2025 年 12 月 31 日 · 第 2 届 NC VARCO 游戏公募 — Fighting Nations · 未入选",
@@ -4956,11 +4961,12 @@ const PAGES = {
         },
         {
           h: "至今获得的",
-          p: ["我们不只是递交作品，需要的技术就去学。自 2025 年 8 月起结业十三门课程 — Unity 与虚幻引擎、生成式 AI 与实景捕捉、区块链与 Solidity，以及人工智能和数字资产国际标准。"],
+          p: ["我们不只是递交作品，需要的技术就去学。自 2025 年 8 月起结业十四门课程 —— 虚幻引擎与 Unity、生成式 AI 与实景捕捉、区块链与 Solidity，以及人工智能和数字资产国际标准，其间还获得了一个奖项。"],
           list: {
-            h: "结业课程",
+            h: "结业课程与获奖",
             items: [
               "2025 年 8 月 20 日 · 京畿内容振兴院「2025 京畿元宇宙校区」正规课程 — 基于实务项目的 Unity 元宇宙平台内容制作 （100 小时） · ✅ 结业",
+              "2025 年 9 月 7 日 · YTN 首尔塔短视频大赛 · 🏆 鼓励奖",
               "2025 年 9 月 18 日 · 京畿道经济科学振兴院（GBSA）创业学院深科技课程 —「用数据打造商业模式：从创意到原型」 · ✅ 结业",
               "2025 年 10 月 31 日 · 韩国元宇宙产业协会 — 基于虚幻引擎的生成式 AI 与实景捕捉内容制作课程 （60 小时） · ✅ 结业",
               "2025 年 11 月 4 日 · 京畿游戏学院 2025 能力强化课程 —「AI 应用游戏开发者教育」第 9·10 讲 · ✅ 结业",
@@ -5185,6 +5191,7 @@ const PAGES = {
               "2025年9月11日 · 今月の優秀ゲーム（韓国コンテンツ振興院）— Fighting Nations · 選外",
               "2025年9月14日 · コンテンツ・ユニバース・コリア インディーゲームゾーン · 応募済み",
               "2025年9月15日締切 · Com2uS ホールディングス ゲームチャレンジ · 応募済み",
+              "2025年9月16日 · 2025 京畿 AI コンテンツラボ コマーシャル映像 専門課程（京畿コンテンツ振興院）— 書類選考通過後に面接 · 選外",
               "2025年9月22日 · 韓国・アラブ スタートアップ ピッチ（韓国貿易協会） · 応募済み",
               "2025年9月23日 · Megazone Cloud 大中小企業 共同進出支援事業 — タイゲームショウ / gamescom asia 韓国館ブース · ✅ 選定",
               "2025年12月31日 · 第 2 回 NC VARCO ゲームコンテスト — Fighting Nations · 選外",
@@ -5213,11 +5220,12 @@ const PAGES = {
         },
         {
           h: "これまでに得たもの",
-          p: ["応募しただけではありません。必要な技術は自分で学びました。2025年8月から十三の課程を修了しました — Unity とアンリアルエンジン、生成 AI とリアリティキャプチャ、ブロックチェーンと Solidity、そして人工知能・デジタル資産の国際標準。"],
+          p: ["応募しただけではありません。必要な技術は自分で学びました。2025年8月から十四の課程を修了しました — Unity とアンリアルエンジン、生成 AI とリアリティキャプチャ、ブロックチェーンと Solidity、人工知能・デジタル資産の国際標準。その間に受賞も一つあります。"],
           list: {
-            h: "修了課程",
+            h: "修了課程と受賞",
             items: [
               "2025年8月20日 · 京畿コンテンツ振興院「2025 京畿メタバースキャンパス」正規課程 — Unity 実務プロジェクト基盤 メタバースプラットフォーム コンテンツ制作 （100時間） · ✅ 修了",
+              "2025年9月7日 · YTN ソウルタワー ショートフォーム動画コンテスト · 🏆 奨励賞",
               "2025年9月18日 · 京畿道経済科学振興院（GBSA）スタートアップ・アカデミー ディープテック —「データでつくるビジネスモデル：アイデアからプロトタイプまで」 · ✅ 修了",
               "2025年10月31日 · 韓国メタバース産業協会 — アンリアルエンジンによる生成 AI・リアリティキャプチャ活用コンテンツ制作課程 （60時間） · ✅ 修了",
               "2025年11月4日 · 京畿ゲームアカデミー 2025 力量強化課程 — 「AI 活用ゲーム開発者教育」第 9・10 回 · ✅ 修了",
@@ -5442,6 +5450,7 @@ const PAGES = {
               "11 de septiembre de 2025 · Premio Juego del Mes (KOCCA) — Fighting Nations · no seleccionado",
               "14 de septiembre de 2025 · Zona de Juegos Indie de Contents Universe Korea · presentado",
               "cierre 15 de septiembre de 2025 · Com2uS Holdings Game Challenge · presentado",
+              "16 de septiembre de 2025 · Gyeonggi AI Content Lab 2025, itinerario de vídeo comercial (Agencia de Contenidos de Gyeonggi): superada la fase documental, después entrevista · no seleccionado",
               "22 de septiembre de 2025 · Korea–Arab Startup Pitch Competition (KITA) · presentado",
               "23 de septiembre de 2025 · Programa de expansión conjunta de Megazone Cloud — stand del pabellón coreano en Thailand Game Show / gamescom asia · ✅ seleccionado",
               "31 de diciembre de 2025 · 2.º Concurso NC VARCO — Fighting Nations · no seleccionado",
@@ -5470,11 +5479,12 @@ const PAGES = {
         },
         {
           h: "Lo que hemos obtenido",
-          p: ["No solo enviamos candidaturas: aprendimos lo que hacía falta. Trece cursos completados desde agosto de 2025: Unity y Unreal Engine, IA generativa y captura de realidad, blockchain y Solidity, y estándares internacionales de IA y activos digitales."],
+          p: ["No solo enviamos candidaturas: aprendimos lo que hacía falta. Catorce cursos completados desde agosto de 2025 —Unity y Unreal Engine, IA generativa y captura de realidad, blockchain y Solidity, estándares internacionales de IA y activos digitales— y un premio por el camino."],
           list: {
-            h: "Cursos completados",
+            h: "Cursos completados y premios",
             items: [
               "20 de agosto de 2025 · Agencia de Contenidos de Gyeonggi — Gyeonggi Metaverse Campus 2025: producción de contenidos para plataformas de metaverso con Unity, basada en proyectos (100 horas) · ✅ completado",
+              "7 de septiembre de 2025 · Concurso de vídeos cortos de la YTN Seoul Tower · 🏆 Premio de Aliento",
               "18 de septiembre de 2025 · Gyeonggi Business & Science Accelerator (GBSA), academia deep tech — Modelos de negocio a partir de datos: de la idea al prototipo · ✅ completado",
               "31 de octubre de 2025 · Asociación Coreana de la Industria del Metaverso — producción de contenidos con IA generativa sobre Unreal y captura de realidad (60 horas) · ✅ completado",
               "4 de noviembre de 2025 · Gyeonggi Game Academy 2025 — formación de desarrolladores de juegos con IA (sesiones 9 y 10) · ✅ completado",
@@ -5699,6 +5709,7 @@ const PAGES = {
               "11 de setembro de 2025 · Prémio Jogo do Mês (KOCCA) — Fighting Nations · não selecionado",
               "14 de setembro de 2025 · Zona de Jogos Indie da Contents Universe Korea · submetido",
               "prazo 15 de setembro de 2025 · Com2uS Holdings Game Challenge · submetido",
+              "16 de setembro de 2025 · Gyeonggi AI Content Lab 2025, percurso de vídeo comercial (Agência de Conteúdos de Gyeonggi): aprovado na triagem documental, depois entrevista · não selecionado",
               "22 de setembro de 2025 · Korea–Arab Startup Pitch Competition (KITA) · submetido",
               "23 de setembro de 2025 · Programa de expansão conjunta da Megazone Cloud — stand do pavilhão coreano na Thailand Game Show / gamescom asia · ✅ selecionado",
               "31 de dezembro de 2025 · 2.º Concurso NC VARCO — Fighting Nations · não selecionado",
@@ -5727,11 +5738,12 @@ const PAGES = {
         },
         {
           h: "O que já conquistámos",
-          p: ["Não enviámos apenas candidaturas: fomos aprender o que era preciso. Treze cursos concluídos desde agosto de 2025: Unity e Unreal Engine, IA generativa e captura de realidade, blockchain e Solidity, e normas internacionais de IA e ativos digitais."],
+          p: ["Não enviámos apenas candidaturas: fomos aprender o que era preciso. Catorze cursos concluídos desde agosto de 2025 — Unity e Unreal Engine, IA generativa e captura de realidade, blockchain e Solidity, normas internacionais de IA e ativos digitais — e um prémio pelo caminho."],
           list: {
-            h: "Cursos concluídos",
+            h: "Cursos concluídos e prémios",
             items: [
               "20 de agosto de 2025 · Agência de Conteúdos de Gyeonggi — Gyeonggi Metaverse Campus 2025: produção de conteúdos para plataformas de metaverso em Unity, baseada em projetos (100 horas) · ✅ concluído",
+              "7 de setembro de 2025 · Concurso de vídeos curtos da YTN Seoul Tower · 🏆 Prémio de Incentivo",
               "18 de setembro de 2025 · Gyeonggi Business & Science Accelerator (GBSA), academia deep tech — Modelos de negócio a partir de dados: da ideia ao protótipo · ✅ concluído",
               "31 de outubro de 2025 · Associação Coreana da Indústria do Metaverso — produção de conteúdos com IA generativa sobre Unreal e captura de realidade (60 horas) · ✅ concluído",
               "4 de novembro de 2025 · Gyeonggi Game Academy 2025 — formação de programadores de jogos com IA (sessões 9 e 10) · ✅ concluído",
@@ -5956,6 +5968,7 @@ const PAGES = {
               "11 septembre 2025 · Prix du jeu du mois (KOCCA) — Fighting Nations · non retenu",
               "14 septembre 2025 · Zone jeux indépendants de Contents Universe Korea · déposé",
               "clôture 15 septembre 2025 · Com2uS Holdings Game Challenge · déposé",
+              "16 septembre 2025 · Gyeonggi AI Content Lab 2025, parcours vidéo commerciale (Agence des contenus de Gyeonggi) — dossier retenu, puis entretien · non retenu",
               "22 septembre 2025 · Korea–Arab Startup Pitch Competition (KITA) · déposé",
               "23 septembre 2025 · Programme d'expansion conjointe de Megazone Cloud — stand du pavillon coréen au Thailand Game Show / gamescom asia · ✅ sélectionné",
               "31 décembre 2025 · 2e concours NC VARCO — Fighting Nations · non retenu",
@@ -5984,11 +5997,12 @@ const PAGES = {
         },
         {
           h: "Ce que nous avons obtenu",
-          p: ["Nous n'avons pas fait qu'envoyer des candidatures : nous sommes allés apprendre ce qu'il fallait. Treize formations validées depuis août 2025 : Unity et Unreal Engine, IA générative et capture de réalité, blockchain et Solidity, et normes internationales de l'IA et des actifs numériques."],
+          p: ["Nous n'avons pas fait qu'envoyer des candidatures : nous sommes allés apprendre ce qu'il fallait. Quatorze formations validées depuis août 2025 — Unity et Unreal Engine, IA générative et capture de réalité, blockchain et Solidity, normes internationales de l'IA et des actifs numériques — et un prix en chemin."],
           list: {
-            h: "Formations validées",
+            h: "Formations validées et prix",
             items: [
               "20 août 2025 · Agence des contenus de Gyeonggi — Gyeonggi Metaverse Campus 2025 : production de contenus pour plateformes de métavers sous Unity, par projets (100 heures) · ✅ validé",
+              "7 septembre 2025 · Concours de vidéos courtes de la YTN Seoul Tower · 🏆 Prix d'encouragement",
               "18 septembre 2025 · Gyeonggi Business & Science Accelerator (GBSA), académie deep tech — Modèles économiques à partir des données : de l’idée au prototype · ✅ validé",
               "31 octobre 2025 · Association coréenne de l'industrie du métavers — production de contenus avec IA générative sur Unreal et capture de réalité (60 heures) · ✅ validé",
               "4 novembre 2025 · Gyeonggi Game Academy 2025 — formation de développeurs de jeux assistée par IA (séances 9 et 10) · ✅ validé",
@@ -6213,6 +6227,7 @@ const PAGES = {
               "11. September 2025 · Auszeichnung „Spiel des Monats“ (KOCCA) — Fighting Nations · nicht ausgewählt",
               "14. September 2025 · Indie-Game-Zone der Contents Universe Korea · eingereicht",
               "Frist 15. September 2025 · Com2uS Holdings Game Challenge · eingereicht",
+              "16. September 2025 · Gyeonggi AI Content Lab 2025, Track Werbevideo (Gyeonggi Content Agency) — Vorauswahl bestanden, danach Interview · nicht ausgewählt",
               "22. September 2025 · Korea–Arab Startup Pitch Competition (KITA) · eingereicht",
               "23. September 2025 · Megazone-Cloud-Programm für gemeinsame Auslandsexpansion — Stand im koreanischen Pavillon der Thailand Game Show / gamescom asia · ✅ ausgewählt",
               "31. Dezember 2025 · 2. NC-VARCO-Wettbewerb — Fighting Nations · nicht ausgewählt",
@@ -6241,11 +6256,12 @@ const PAGES = {
         },
         {
           h: "Was wir erreicht haben",
-          p: ["Wir haben nicht nur eingereicht — wir haben gelernt, was nötig war. Dreizehn Kurse seit August 2025 abgeschlossen: Unity und Unreal Engine, generative KI und Reality Capture, Blockchain und Solidity sowie internationale Standards für KI und digitale Vermögenswerte."],
+          p: ["Wir haben nicht nur eingereicht — wir haben gelernt, was nötig war. Vierzehn Kurse seit August 2025 abgeschlossen: Unity und Unreal Engine, generative KI und Reality Capture, Blockchain und Solidity, internationale Standards für KI und digitale Vermögenswerte. Dazu eine Auszeichnung."],
           list: {
-            h: "Abgeschlossene Kurse",
+            h: "Abgeschlossene Kurse und Auszeichnungen",
             items: [
               "20. August 2025 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2025: projektbasierte Metaverse-Plattform-Content-Produktion in Unity (100 Stunden) · ✅ abgeschlossen",
+              "7. September 2025 · YTN-Seoul-Tower-Kurzvideo-Wettbewerb · 🏆 Förderpreis",
               "18. September 2025 · Gyeonggi Business & Science Accelerator (GBSA), Deep-Tech-Startup-Akademie — Geschäftsmodelle aus Daten: von der Idee zum Prototyp · ✅ abgeschlossen",
               "31. Oktober 2025 · Korea Metaverse Industry Association — Content-Produktion mit Unreal-basierter generativer KI und Reality Capture (60 Stunden) · ✅ abgeschlossen",
               "4. November 2025 · Gyeonggi Game Academy 2025 — Schulung für KI-gestützte Spieleentwicklung (Einheiten 9 und 10) · ✅ abgeschlossen",
@@ -6470,6 +6486,7 @@ const PAGES = {
               "11 сентября 2025 · Премия «Игра месяца» (KOCCA) — Fighting Nations · не отобрано",
               "14 сентября 2025 · Зона инди-игр Contents Universe Korea · подано",
               "дедлайн 15 сентября 2025 · Com2uS Holdings Game Challenge · подано",
+              "16 сентября 2025 · Gyeonggi AI Content Lab 2025, направление коммерческого видео (Gyeonggi Content Agency) — прошли отбор по документам, затем собеседование · не отобрано",
               "22 сентября 2025 · Korea–Arab Startup Pitch Competition (KITA) · подано",
               "23 сентября 2025 · Программа совместного выхода на зарубежные рынки Megazone Cloud — стенд корейского павильона на Thailand Game Show / gamescom asia · ✅ отобрано",
               "31 декабря 2025 · 2-й конкурс NC VARCO — Fighting Nations · не отобрано",
@@ -6498,11 +6515,12 @@ const PAGES = {
         },
         {
           h: "Что мы получили",
-          p: ["Мы не только подавали заявки — мы шли и учились тому, что нужно. С августа 2025 года пройдено тринадцать курсов: Unity и Unreal Engine, генеративный ИИ и reality capture, блокчейн и Solidity, международные стандарты ИИ и цифровых активов."],
+          p: ["Мы не только подавали заявки — мы шли и учились тому, что нужно. С августа 2025 года пройдено четырнадцать курсов: Unity и Unreal Engine, генеративный ИИ и reality capture, блокчейн и Solidity, международные стандарты ИИ и цифровых активов. И одна награда по пути."],
           list: {
-            h: "Пройденные курсы",
+            h: "Пройденные курсы и награды",
             items: [
               "20 августа 2025 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2025: проектное производство контента для метавселенных на Unity (100 ч.) · ✅ пройдено",
+              "7 сентября 2025 · Конкурс коротких видео YTN Seoul Tower · 🏆 Поощрительная премия",
               "18 сентября 2025 · Gyeonggi Business & Science Accelerator (GBSA), deep-tech академия — «Бизнес-модели на данных: от идеи до прототипа» · ✅ пройдено",
               "31 октября 2025 · Корейская ассоциация индустрии метавселенной — производство контента на генеративном ИИ в Unreal и reality capture (60 ч.) · ✅ пройдено",
               "4 ноября 2025 · Gyeonggi Game Academy 2025 — подготовка геймдев-разработчиков с ИИ (занятия 9 и 10) · ✅ пройдено",
@@ -6727,6 +6745,7 @@ const PAGES = {
               "‏11 سبتمبر 2025 · جائزة لعبة الشهر (وكالة كوكا الكورية) — Fighting Nations · لم يُختَر",
               "‏14 سبتمبر 2025 · منطقة الألعاب المستقلة في Contents Universe Korea · قُدِّم",
               "‏الموعد النهائي 15 سبتمبر 2025 · تحدي ألعاب Com2uS Holdings · قُدِّم",
+              "‏16 سبتمبر 2025 · مختبر كيونغي للمحتوى بالذكاء الاصطناعي 2025، مسار الفيديو التجاري (وكالة محتوى كيونغي) — اجتياز الفرز الورقي ثم المقابلة · لم يُختَر",
               "‏22 سبتمبر 2025 · مسابقة العروض للشركات الناشئة كوريا–العرب (KITA) · قُدِّم",
               "‏23 سبتمبر 2025 · برنامج Megazone Cloud للتوسّع الخارجي المشترك — جناح كوريا في Thailand Game Show / gamescom asia · ✅ تم اختياره",
               "‏31 ديسمبر 2025 · مسابقة NC VARCO (الدورة الثانية) — Fighting Nations · لم يُختَر",
@@ -6755,11 +6774,12 @@ const PAGES = {
         },
         {
           h: "ما حصلنا عليه",
-          p: ["لم نكتفِ بالتقديم — تعلّمنا ما نحتاجه. أنهينا ثلاث عشرة دورة منذ أغسطس 2025: Unity وUnreal Engine، والذكاء الاصطناعي التوليدي والتقاط الواقع، والبلوك تشين وSolidity، والمعايير الدولية للذكاء الاصطناعي والأصول الرقمية."],
+          p: ["لم نكتفِ بالتقديم — تعلّمنا ما نحتاجه. أنهينا أربع عشرة دورة منذ أغسطس 2025: Unity وUnreal Engine، والذكاء الاصطناعي التوليدي والتقاط الواقع، والبلوك تشين وSolidity، والمعايير الدولية للذكاء الاصطناعي والأصول الرقمية. ونلنا جائزة واحدة في الطريق."],
           list: {
-            h: "دورات مُنجَزة",
+            h: "دورات مُنجَزة وجوائز",
             items: [
               "‏20 أغسطس 2025 · وكالة محتوى كيونغي — حرم كيونغي للميتافيرس 2025: إنتاج محتوى منصّات الميتافيرس بمحرّك Unity عبر مشاريع عملية (100 ساعة) · ✅ مُنجَز",
+              "‏7 سبتمبر 2025 · مسابقة الفيديوهات القصيرة لبرج YTN سيول · 🏆 جائزة تشجيعية",
               "‏18 سبتمبر 2025 · مسرّعة كيونغي للأعمال والعلوم (GBSA) — أكاديمية التقنيات العميقة: «نماذج أعمال من البيانات، من الفكرة إلى النموذج الأولي» · ✅ مُنجَز",
               "‏31 أكتوبر 2025 · الجمعية الكورية لصناعة الميتافيرس — إنتاج المحتوى بالذكاء الاصطناعي التوليدي على Unreal والتقاط الواقع (60 ساعة) · ✅ مُنجَز",
               "‏4 نوفمبر 2025 · أكاديمية كيونغي للألعاب 2025 — تدريب مطوّري الألعاب بالذكاء الاصطناعي (الجلستان 9 و10) · ✅ مُنجَز",
