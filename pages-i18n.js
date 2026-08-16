@@ -4433,10 +4433,15 @@ const PAGES = {
         },
         {
           h: "지금까지 받은 것",
-          p: ["공모전만 낸 것이 아니라, 필요한 기술은 직접 배웠습니다. 아래는 실제로 수료한 과정입니다."],
+          p: ["공모전만 낸 것이 아니라, 필요한 기술은 직접 배웠습니다. 2026년 4월부터 여덟 과정을 수료했습니다 — 블록체인·솔리디티·디지털 자산 국제표준, 그리고 언리얼 엔진과 AI NPC."],
           list: {
             h: "교육 수료",
             items: [
+              "2026년 4월 29일 · 한국정보통신기술협회(TTA) ICT 표준 전문가 양성교육 — 자율주행 모빌리티 국제표준화 기본과정 (6시간) · ✅ 수료",
+              "2026년 4월 29일 · 한국정보통신기술협회(TTA) ICT 표준 전문가 양성교육 — 차세대보안·블록체인 국제표준화 기본과정 (4시간) · ✅ 수료",
+              "2026년 5월 9일 · 한국인터넷진흥원(KISA) 「2026 블록체인 밋업데이 — 솔리디티 언어 학습과 활용계획」 · ✅ 수료",
+              "2026년 5월 28일 · 한국정보통신기술협회(TTA) 「디지털 자산의 미래와 전략」 세미나 (4시간) · ✅ 수료",
+              "2026년 5월 30일 · 한국인터넷진흥원(KISA) 「2026 블록체인 밋업데이 — 블록체인 월렛 개발하기」 · ✅ 수료",
               "2026년 7월 12일 · 한국인터넷진흥원(KISA) 「2026 블록체인 밋업데이 — 생성형 AI를 활용한 블록체인 서비스 개발」 · ✅ 수료",
               "2026년 7월 30일 · 경기콘텐츠진흥원 「2026 경기 가상융합 캠퍼스」 정규 과정 — 언리얼 엔진을 이용한 시네마틱 영상 제작 (20시간) · ✅ 수료",
               "2026년 8월 6일 · 경기콘텐츠진흥원 「2026 경기 가상융합 캠퍼스」 정규 과정 — 언리얼 엔진과 AI를 활용한 AI NPC 제작 (20시간) · ✅ 수료"
@@ -4672,10 +4677,15 @@ const PAGES = {
         },
         {
           h: "What we have earned",
-          p: ["We did not only send entries — we went and learned what we needed. These are courses actually completed."],
+          p: ["We did not only send entries — we went and learned what we needed. Eight courses completed since April 2026: blockchain, Solidity, international standards for digital assets, and Unreal Engine with AI NPCs."],
           list: {
             h: "Courses completed",
             items: [
+              "29 April 2026 · Telecommunications Technology Association (TTA) — ICT standards expert training: international standardisation for autonomous mobility (6 hours) · ✅ completed",
+              "29 April 2026 · Telecommunications Technology Association (TTA) — ICT standards expert training: international standardisation for next-gen security and blockchain (4 hours) · ✅ completed",
+              "9 May 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: learning Solidity and planning its use · ✅ completed",
+              "28 May 2026 · Telecommunications Technology Association (TTA) — The future and strategy of digital assets (4 hours) · ✅ completed",
+              "30 May 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: building a blockchain wallet · ✅ completed",
               "12 July 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: building blockchain services with generative AI · ✅ completed",
               "30 July 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: cinematic filmmaking in Unreal Engine (20 hours) · ✅ completed",
               "6 August 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: building AI NPCs with Unreal Engine and AI (20 hours) · ✅ completed"
@@ -4910,10 +4920,15 @@ const PAGES = {
         },
         {
           h: "至今获得的",
-          p: ["我们不只是递交作品，需要的技术就去学。以下是实际结业的课程。"],
+          p: ["我们不只是递交作品，需要的技术就去学。自 2026 年 4 月起结业八门课程 — 区块链、Solidity、数字资产国际标准，以及虚幻引擎与 AI NPC。"],
           list: {
             h: "结业课程",
             items: [
+              "2026 年 4 月 29 日 · 韩国信息通信技术协会（TTA）ICT 标准专家培养教育 — 自动驾驶移动出行国际标准化基础课程 （6 小时） · ✅ 结业",
+              "2026 年 4 月 29 日 · 韩国信息通信技术协会（TTA）ICT 标准专家培养教育 — 次世代安全·区块链国际标准化基础课程 （4 小时） · ✅ 结业",
+              "2026 年 5 月 9 日 · 韩国互联网振兴院（KISA）「2026 区块链 Meetup Day — Solidity 语言学习与应用规划」 · ✅ 结业",
+              "2026 年 5 月 28 日 · 韩国信息通信技术协会（TTA）「数字资产的未来与战略」研讨会 （4 小时） · ✅ 结业",
+              "2026 年 5 月 30 日 · 韩国互联网振兴院（KISA）「2026 区块链 Meetup Day — 开发区块链钱包」 · ✅ 结业",
               "2026 年 7 月 12 日 · 韩国互联网振兴院（KISA）「2026 区块链 Meetup Day — 用生成式 AI 开发区块链服务」 · ✅ 结业",
               "2026 年 7 月 30 日 · 京畿内容振兴院「2026 京畿虚拟融合校区」正规课程 — 用虚幻引擎制作电影级影像（20 小时） · ✅ 结业",
               "2026 年 8 月 6 日 · 京畿内容振兴院「2026 京畿虚拟融合校区」正规课程 — 用虚幻引擎与 AI 制作 AI NPC（20 小时） · ✅ 结业"
@@ -5148,10 +5163,15 @@ const PAGES = {
         },
         {
           h: "これまでに得たもの",
-          p: ["応募しただけではありません。必要な技術は自分で学びました。以下は実際に修了した課程です。"],
+          p: ["応募しただけではありません。必要な技術は自分で学びました。2026年4月から八つの課程を修了しました — ブロックチェーン、Solidity、デジタル資産の国際標準、そしてアンリアルエンジンと AI NPC。"],
           list: {
             h: "修了課程",
             items: [
+              "2026年4月29日 · 韓国情報通信技術協会（TTA）ICT 標準専門家養成教育 — 自動運転モビリティ国際標準化 基礎課程 （6時間） · ✅ 修了",
+              "2026年4月29日 · 韓国情報通信技術協会（TTA）ICT 標準専門家養成教育 — 次世代セキュリティ・ブロックチェーン国際標準化 基礎課程 （4時間） · ✅ 修了",
+              "2026年5月9日 · 韓国インターネット振興院（KISA）「2026 ブロックチェーン ミートアップデー — Solidity 言語の学習と活用計画」 · ✅ 修了",
+              "2026年5月28日 · 韓国情報通信技術協会（TTA）「デジタル資産の未来と戦略」セミナー （4時間） · ✅ 修了",
+              "2026年5月30日 · 韓国インターネット振興院（KISA）「2026 ブロックチェーン ミートアップデー — ブロックチェーン ウォレット開発」 · ✅ 修了",
               "2026年7月12日 · 韓国インターネット振興院（KISA）「2026 ブロックチェーン ミートアップデー — 生成 AI を活用したブロックチェーンサービス開発」 · ✅ 修了",
               "2026年7月30日 · 京畿コンテンツ振興院「2026 京畿 バーチャル融合キャンパス」正規課程 — アンリアルエンジンによるシネマティック映像制作（20時間） · ✅ 修了",
               "2026年8月6日 · 京畿コンテンツ振興院「2026 京畿 バーチャル融合キャンパス」正規課程 — アンリアルエンジンと AI による AI NPC 制作（20時間） · ✅ 修了"
@@ -5386,10 +5406,15 @@ const PAGES = {
         },
         {
           h: "Lo que hemos obtenido",
-          p: ["No solo enviamos candidaturas: aprendimos lo que hacía falta. Estos son cursos realmente completados."],
+          p: ["No solo enviamos candidaturas: aprendimos lo que hacía falta. Ocho cursos completados desde abril de 2026: blockchain, Solidity, estándares internacionales de activos digitales y Unreal Engine con NPC de IA."],
           list: {
             h: "Cursos completados",
             items: [
+              "29 de abril de 2026 · Asociación de Tecnología de Telecomunicaciones (TTA) — formación en estándares TIC: normalización internacional de movilidad autónoma (6 horas) · ✅ completado",
+              "29 de abril de 2026 · Asociación de Tecnología de Telecomunicaciones (TTA) — formación en estándares TIC: normalización internacional de seguridad de nueva generación y blockchain (4 horas) · ✅ completado",
+              "9 de mayo de 2026 · Agencia de Internet y Seguridad de Corea (KISA) — Blockchain Meetup Day 2026: aprender Solidity y planificar su uso · ✅ completado",
+              "28 de mayo de 2026 · Asociación de Tecnología de Telecomunicaciones (TTA) — El futuro y la estrategia de los activos digitales (4 horas) · ✅ completado",
+              "30 de mayo de 2026 · Agencia de Internet y Seguridad de Corea (KISA) — Blockchain Meetup Day 2026: desarrollar una cartera blockchain · ✅ completado",
               "12 de julio de 2026 · Agencia de Internet y Seguridad de Corea (KISA) — Blockchain Meetup Day 2026: servicios blockchain con IA generativa · ✅ completado",
               "30 de julio de 2026 · Agencia de Contenidos de Gyeonggi — Gyeonggi Metaverse Campus 2026: cine con Unreal Engine (20 horas) · ✅ completado",
               "6 de agosto de 2026 · Agencia de Contenidos de Gyeonggi — Gyeonggi Metaverse Campus 2026: NPC con IA en Unreal Engine (20 horas) · ✅ completado"
@@ -5624,10 +5649,15 @@ const PAGES = {
         },
         {
           h: "O que já conquistámos",
-          p: ["Não enviámos apenas candidaturas: fomos aprender o que era preciso. Estes são cursos efetivamente concluídos."],
+          p: ["Não enviámos apenas candidaturas: fomos aprender o que era preciso. Oito cursos concluídos desde abril de 2026: blockchain, Solidity, normas internacionais de ativos digitais e Unreal Engine com NPC de IA."],
           list: {
             h: "Cursos concluídos",
             items: [
+              "29 de abril de 2026 · Associação de Tecnologia de Telecomunicações (TTA) — formação em normas TIC: normalização internacional de mobilidade autónoma (6 horas) · ✅ concluído",
+              "29 de abril de 2026 · Associação de Tecnologia de Telecomunicações (TTA) — formação em normas TIC: normalização internacional de segurança de nova geração e blockchain (4 horas) · ✅ concluído",
+              "9 de maio de 2026 · Agência de Internet e Segurança da Coreia (KISA) — Blockchain Meetup Day 2026: aprender Solidity e planear a sua utilização · ✅ concluído",
+              "28 de maio de 2026 · Associação de Tecnologia de Telecomunicações (TTA) — O futuro e a estratégia dos ativos digitais (4 horas) · ✅ concluído",
+              "30 de maio de 2026 · Agência de Internet e Segurança da Coreia (KISA) — Blockchain Meetup Day 2026: desenvolver uma carteira blockchain · ✅ concluído",
               "12 de julho de 2026 · Agência de Internet e Segurança da Coreia (KISA) — Blockchain Meetup Day 2026: serviços blockchain com IA generativa · ✅ concluído",
               "30 de julho de 2026 · Agência de Conteúdos de Gyeonggi — Gyeonggi Metaverse Campus 2026: cinema com Unreal Engine (20 horas) · ✅ concluído",
               "6 de agosto de 2026 · Agência de Conteúdos de Gyeonggi — Gyeonggi Metaverse Campus 2026: NPC com IA no Unreal Engine (20 horas) · ✅ concluído"
@@ -5862,10 +5892,15 @@ const PAGES = {
         },
         {
           h: "Ce que nous avons obtenu",
-          p: ["Nous n'avons pas fait qu'envoyer des candidatures : nous sommes allés apprendre ce qu'il fallait. Voici les formations réellement validées."],
+          p: ["Nous n'avons pas fait qu'envoyer des candidatures : nous sommes allés apprendre ce qu'il fallait. Huit formations validées depuis avril 2026 : blockchain, Solidity, normes internationales des actifs numériques, et Unreal Engine avec des PNJ pilotés par IA."],
           list: {
             h: "Formations validées",
             items: [
+              "29 avril 2026 · Association coréenne des technologies de télécommunication (TTA) — formation aux normes TIC : normalisation internationale de la mobilité autonome (6 heures) · ✅ validé",
+              "29 avril 2026 · Association coréenne des technologies de télécommunication (TTA) — formation aux normes TIC : normalisation internationale de la sécurité nouvelle génération et de la blockchain (4 heures) · ✅ validé",
+              "9 mai 2026 · Agence coréenne de l'internet et de la sécurité (KISA) — Blockchain Meetup Day 2026 : apprendre Solidity et planifier son usage · ✅ validé",
+              "28 mai 2026 · Association coréenne des technologies de télécommunication (TTA) — L'avenir et la stratégie des actifs numériques (4 heures) · ✅ validé",
+              "30 mai 2026 · Agence coréenne de l'internet et de la sécurité (KISA) — Blockchain Meetup Day 2026 : développer un portefeuille blockchain · ✅ validé",
               "12 juillet 2026 · Agence coréenne de l'internet et de la sécurité (KISA) — Blockchain Meetup Day 2026 : services blockchain et IA générative · ✅ validé",
               "30 juillet 2026 · Agence des contenus de Gyeonggi — Gyeonggi Metaverse Campus 2026 : cinématique sous Unreal Engine (20 heures) · ✅ validé",
               "6 août 2026 · Agence des contenus de Gyeonggi — Gyeonggi Metaverse Campus 2026 : PNJ pilotés par IA sous Unreal Engine (20 heures) · ✅ validé"
@@ -6100,10 +6135,15 @@ const PAGES = {
         },
         {
           h: "Was wir erreicht haben",
-          p: ["Wir haben nicht nur eingereicht — wir haben gelernt, was nötig war. Dies sind tatsächlich abgeschlossene Kurse."],
+          p: ["Wir haben nicht nur eingereicht — wir haben gelernt, was nötig war. Acht Kurse seit April 2026 abgeschlossen: Blockchain, Solidity, internationale Standards für digitale Vermögenswerte sowie Unreal Engine mit KI-NPCs."],
           list: {
             h: "Abgeschlossene Kurse",
             items: [
+              "29. April 2026 · Telecommunications Technology Association (TTA) — IKT-Normungsexperten: internationale Standardisierung autonomer Mobilität (6 Stunden) · ✅ abgeschlossen",
+              "29. April 2026 · Telecommunications Technology Association (TTA) — IKT-Normungsexperten: internationale Standardisierung von Next-Gen-Security und Blockchain (4 Stunden) · ✅ abgeschlossen",
+              "9. Mai 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: Solidity lernen und einsetzen · ✅ abgeschlossen",
+              "28. Mai 2026 · Telecommunications Technology Association (TTA) — Zukunft und Strategie digitaler Vermögenswerte (4 Stunden) · ✅ abgeschlossen",
+              "30. Mai 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: eine Blockchain-Wallet entwickeln · ✅ abgeschlossen",
               "12. Juli 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: Blockchain-Dienste mit generativer KI · ✅ abgeschlossen",
               "30. Juli 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: Cinematics in der Unreal Engine (20 Stunden) · ✅ abgeschlossen",
               "6. August 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: KI-NPCs mit Unreal Engine und KI (20 Stunden) · ✅ abgeschlossen"
@@ -6338,10 +6378,15 @@ const PAGES = {
         },
         {
           h: "Что мы получили",
-          p: ["Мы не только подавали заявки — мы шли и учились тому, что нужно. Ниже — реально пройденные курсы."],
+          p: ["Мы не только подавали заявки — мы шли и учились тому, что нужно. С апреля 2026 года пройдено восемь курсов: блокчейн, Solidity, международные стандарты цифровых активов, а также Unreal Engine и ИИ-NPC."],
           list: {
             h: "Пройденные курсы",
             items: [
+              "29 апреля 2026 · Telecommunications Technology Association (TTA) — подготовка экспертов по ИКТ-стандартам: международная стандартизация автономной мобильности (6 ч.) · ✅ пройдено",
+              "29 апреля 2026 · Telecommunications Technology Association (TTA) — подготовка экспертов по ИКТ-стандартам: международная стандартизация безопасности нового поколения и блокчейна (4 ч.) · ✅ пройдено",
+              "9 мая 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: изучение Solidity и план его применения · ✅ пройдено",
+              "28 мая 2026 · Telecommunications Technology Association (TTA) — будущее и стратегия цифровых активов (4 ч.) · ✅ пройдено",
+              "30 мая 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: разработка блокчейн-кошелька · ✅ пройдено",
               "12 июля 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: блокчейн-сервисы на генеративном ИИ · ✅ пройдено",
               "30 июля 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: кинематографика в Unreal Engine (20 часов) · ✅ пройдено",
               "6 августа 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: ИИ-NPC на Unreal Engine (20 часов) · ✅ пройдено"
@@ -6576,10 +6621,15 @@ const PAGES = {
         },
         {
           h: "ما حصلنا عليه",
-          p: ["لم نكتفِ بالتقديم — تعلّمنا ما نحتاجه. في ما يلي دورات أنهيناها فعلاً."],
+          p: ["لم نكتفِ بالتقديم — تعلّمنا ما نحتاجه. أنهينا ثماني دورات منذ أبريل 2026: البلوك تشين وSolidity ومعايير الأصول الرقمية الدولية، وUnreal Engine مع شخصيات NPC بالذكاء الاصطناعي."],
           list: {
             h: "دورات مُنجَزة",
             items: [
+              "‏29 أبريل 2026 · جمعية تقنية الاتصالات (TTA) — تأهيل خبراء معايير تقنية المعلومات: التقييس الدولي للتنقّل الذاتي (6 ساعات) · ✅ مُنجَز",
+              "‏29 أبريل 2026 · جمعية تقنية الاتصالات (TTA) — تأهيل خبراء معايير تقنية المعلومات: التقييس الدولي للأمن من الجيل التالي والبلوك تشين (4 ساعات) · ✅ مُنجَز",
+              "‏9 مايو 2026 · الوكالة الكورية للإنترنت والأمن (KISA) — يوم ملتقى البلوك تشين 2026: تعلّم لغة Solidity وخطة استخدامها · ✅ مُنجَز",
+              "‏28 مايو 2026 · جمعية تقنية الاتصالات (TTA) — مستقبل الأصول الرقمية واستراتيجيتها (4 ساعات) · ✅ مُنجَز",
+              "‏30 مايو 2026 · الوكالة الكورية للإنترنت والأمن (KISA) — يوم ملتقى البلوك تشين 2026: تطوير محفظة بلوك تشين · ✅ مُنجَز",
               "‏12 يوليو 2026 · الوكالة الكورية للإنترنت والأمن (KISA) — يوم ملتقى البلوك تشين 2026: بناء خدمات بلوك تشين بالذكاء الاصطناعي التوليدي · ✅ مُنجَز",
               "‏30 يوليو 2026 · وكالة محتوى كيونغي — حرم كيونغي للاندماج الافتراضي 2026: صناعة اللقطات السينمائية في Unreal Engine (20 ساعة) · ✅ مُنجَز",
               "‏6 أغسطس 2026 · وكالة محتوى كيونغي — حرم كيونغي للاندماج الافتراضي 2026: بناء شخصيات NPC بالذكاء الاصطناعي في Unreal Engine (20 ساعة) · ✅ مُنجَز"
