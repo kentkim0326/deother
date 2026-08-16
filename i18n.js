@@ -14,6 +14,19 @@ const LINKS = {
   mail:   "mailto:kentkim@gmail.com"
 };
 
+// 로드맵 각 단계의 공식 사이트. 순서는 각 언어 roadmap.items 와 1:1 로 맞춘다(인덱스로 붙는다).
+// "" 면 그 항목은 링크 없이 제목 텍스트로 나온다 — WORKS 카드와 같은 규칙이다.
+// 우리 안에서 하는 일(온라인 멀티플레이어·64인 배틀로얄)은 갈 곳이 없으므로 비워 둔다.
+// ※ 이 주소들은 대표님 확인이 필요하다. 작업 환경의 네트워크가 외부를 막아 실제로 열어보지 못했다.
+const ROADMAP_LINKS = [
+  "https://gwb.tencent.com/",                       // GWB 게임 어워드 (텐센트)
+  "https://store.steampowered.com/",                // 스팀
+  "https://store.epicgames.com/",                   // 에픽 게임즈 스토어
+  "",                                               // 온라인 멀티플레이어 — 개발 중
+  "https://www.xbox.com/en-us/developers/id",       // ID@Xbox 프로그램
+  ""                                                // 64인 배틀로얄 — 목표
+];
+
 // 디아더가 만들어 띄운 것들. 링크가 살아 있는 것만 넣는다.
 // logo 는 '진짜 로고 마크'가 있을 때만 넣는다. 커버 아트를 작게 줄여 넣으면 마크처럼 안 보인다.
 // 게임별 슬라이드쇼. 파일을 해당 폴더에 넣고 여기 파일명만 더하면 늘어난다.
@@ -210,9 +223,9 @@ const I18N = {
       more: "Every show we are entering in 2027 →",
       // 부스 사진 캡션. 파일은 i18n.js 위쪽 SHOW_PHOTOS, 사실관계는 아래 연표와 같아야 한다.
       photos: [
-        "gamescom asia x Thailand Game Show, Bangkok, October 2025 — the Korea pavilion booth sponsored by Megazone Cloud",
-        "One of 16 Korean studios selected for the show",
-        "Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came to the booth"
+        "gamescom asia x Thailand Game Show, Bangkok, October 2025 — the K-GAME PLAYGROUND Korea pavilion, where 16 Korean studios stood together. Sponsored by Megazone Cloud.",
+        "Our booth, with the Fighting Nations poster up and the game playable on the spot.",
+        "At the booth with a visitor. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came by."
       ],
       events: [
         { d: "Summer 2025", t: "Unity prototype" },
@@ -319,9 +332,9 @@ const I18N = {
       videos: { gameplay: "실제 게임 영상", trailer: "트레일러", pitch: "VC 피칭 — 경기 게임 커넥트" },
       more: "2027년까지 도전할 행사 전부 보기 →",
       photos: [
-        "gamescom asia x Thailand Game Show, 2025년 10월 방콕 — 메가존 클라우드가 후원한 한국관 부스",
-        "16개 한국 게임사 중 하나로 선발되어 참가했습니다",
-        "인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다"
+        "gamescom asia x Thailand Game Show, 2025년 10월 방콕 — 16개 한국 게임사가 함께 선 한국관 K-GAME PLAYGROUND. 메가존 클라우드가 후원했습니다.",
+        "디아더 부스. Fighting Nations 포스터를 걸고, 그 자리에서 게임을 해 볼 수 있게 했습니다.",
+        "부스를 찾아온 관계자와. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 다녀갔습니다."
       ],
       events: [
         { d: "2025년 여름", t: "유니티로 프로토타입 제작" },
@@ -426,9 +439,9 @@ const I18N = {
       videos: { gameplay: "实机画面", trailer: "预告片", pitch: "VC 路演 — 京畿 Game Connect" },
       more: "我们 2027 年前要挑战的所有展会 →",
       photos: [
-        "gamescom asia x Thailand Game Show，2025 年 10 月曼谷 — 由 Megazone Cloud 赞助的韩国馆展位",
-        "入选 16 家韩国工作室之一参展",
-        "印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商到访展位"
+        "gamescom asia x Thailand Game Show，2025 年 10 月曼谷 —— 16 家韩国工作室共同参展的韩国馆 K-GAME PLAYGROUND，由 Megazone Cloud 赞助。",
+        "迪亚德展位。挂上《Fighting Nations》海报，让来访者当场试玩。",
+        "与到访展位的业内人士。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商都来过。"
       ],
       events: [
         { d: "2025 年夏", t: "以 Unity 完成原型" },
@@ -532,9 +545,9 @@ const I18N = {
       videos: { gameplay: "実機映像", trailer: "トレーラー", pitch: "VC ピッチ — 京畿 Game Connect" },
       more: "2027年までに挑む展示会のすべて →",
       photos: [
-        "gamescom asia x Thailand Game Show、2025年10月バンコク — Megazone Cloud 協賛の韓国館ブース",
-        "韓国16社の一つに選出されて出展しました",
-        "インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーがブースを訪れました"
+        "gamescom asia x Thailand Game Show、2025年10月バンコク——韓国16社が並んだ韓国館 K-GAME PLAYGROUND。Megazone Cloud 協賛。",
+        "Deother ブース。Fighting Nations のポスターを掲げ、その場で遊べるようにしました。",
+        "ブースを訪ねてくれた業界関係者と。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪しました。"
       ],
       events: [
         { d: "2025年夏", t: "Unityでプロトタイプ制作" },
@@ -638,9 +651,9 @@ const I18N = {
       videos: { gameplay: "Gameplay", trailer: "Tráiler", pitch: "Pitch a VC — Gyeonggi Game Connect" },
       more: "Todas las ferias a las que nos presentamos hasta 2027 →",
       photos: [
-        "gamescom asia x Thailand Game Show, Bangkok, octubre de 2025: el stand del pabellón coreano patrocinado por Megazone Cloud",
-        "Uno de los 16 estudios coreanos seleccionados para la feria",
-        "Visitaron el stand distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán"
+        "gamescom asia x Thailand Game Show, Bangkok, octubre de 2025: el pabellón coreano K-GAME PLAYGROUND, donde estuvimos 16 estudios coreanos. Patrocinado por Megazone Cloud.",
+        "Nuestro stand, con el póster de Fighting Nations y el juego disponible para probarlo allí mismo.",
+        "En el stand con un visitante. Pasaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán."
       ],
       events: [
         { d: "Verano 2025", t: "Prototipo en Unity" },
@@ -744,9 +757,9 @@ const I18N = {
       videos: { gameplay: "Gameplay", trailer: "Trailer", pitch: "Pitch a VC — Gyeonggi Game Connect" },
       more: "Todos os eventos a que nos candidatamos até 2027 →",
       photos: [
-        "gamescom asia x Thailand Game Show, Banguecoque, outubro de 2025 — o stand do pavilhão coreano patrocinado pela Megazone Cloud",
-        "Um dos 16 estúdios coreanos selecionados para a feira",
-        "Visitaram o stand distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan"
+        "gamescom asia x Thailand Game Show, Banguecoque, outubro de 2025 — o pavilhão coreano K-GAME PLAYGROUND, onde estivemos 16 estúdios coreanos. Patrocinado pela Megazone Cloud.",
+        "O nosso stand, com o cartaz de Fighting Nations e o jogo jogável ali mesmo.",
+        "No stand com um visitante. Passaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan."
       ],
       events: [
         { d: "Verão 2025", t: "Protótipo em Unity" },
@@ -850,9 +863,9 @@ const I18N = {
       videos: { gameplay: "Séquences de jeu", trailer: "Bande-annonce", pitch: "Pitch investisseurs — Gyeonggi Game Connect" },
       more: "Tous les salons auxquels nous postulons d'ici 2027 →",
       photos: [
-        "gamescom asia x Thailand Game Show, Bangkok, octobre 2025 — le stand du pavillon coréen parrainé par Megazone Cloud",
-        "L'un des 16 studios coréens sélectionnés pour le salon",
-        "Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont venus au stand"
+        "gamescom asia x Thailand Game Show, Bangkok, octobre 2025 — le pavillon coréen K-GAME PLAYGROUND, où 16 studios coréens étaient réunis. Parrainé par Megazone Cloud.",
+        "Notre stand, avec l'affiche de Fighting Nations et le jeu jouable sur place.",
+        "Au stand avec un visiteur. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont passés."
       ],
       events: [
         { d: "Été 2025", t: "Prototype sous Unity" },
@@ -956,9 +969,9 @@ const I18N = {
       videos: { gameplay: "Spielszenen", trailer: "Trailer", pitch: "VC-Pitch — Gyeonggi Game Connect" },
       more: "Alle Messen, für die wir uns bis 2027 bewerben →",
       photos: [
-        "gamescom asia x Thailand Game Show, Bangkok, Oktober 2025 — der von Megazone Cloud gesponserte Stand im koreanischen Pavillon",
-        "Eines von 16 koreanischen Studios, die für die Messe ausgewählt wurden",
-        "Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen an den Stand"
+        "gamescom asia x Thailand Game Show, Bangkok, Oktober 2025 — der koreanische Pavillon K-GAME PLAYGROUND, in dem 16 koreanische Studios zusammenstanden. Gesponsert von Megazone Cloud.",
+        "Unser Stand, mit dem Fighting-Nations-Plakat und dem Spiel direkt vor Ort spielbar.",
+        "Am Stand mit einem Besucher. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen vorbei."
       ],
       events: [
         { d: "Sommer 2025", t: "Prototyp in Unity" },
@@ -1062,9 +1075,9 @@ const I18N = {
       videos: { gameplay: "Игровой процесс", trailer: "Трейлер", pitch: "Питч для VC — Gyeonggi Game Connect" },
       more: "Все фестивали, на которые мы подаём заявки до 2027 года →",
       photos: [
-        "gamescom asia x Thailand Game Show, Бангкок, октябрь 2025 — стенд корейского павильона при поддержке Megazone Cloud",
-        "Одна из 16 корейских студий, отобранных на выставку",
-        "На стенд приходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня"
+        "gamescom asia x Thailand Game Show, Бангкок, октябрь 2025 — корейский павильон K-GAME PLAYGROUND, где вместе стояли 16 корейских студий. При поддержке Megazone Cloud.",
+        "Наш стенд: постер Fighting Nations и игра, в которую можно было сыграть прямо там.",
+        "На стенде с гостем. Заходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня."
       ],
       events: [
         { d: "Лето 2025", t: "Прототип на Unity" },
@@ -1169,9 +1182,9 @@ const I18N = {
       more: "كل المعارض التي نتقدّم إليها حتى 2027 ←",
       // 라틴 문자로 시작하는 줄에는 RLM(U+200F)을 앞에 둔다 — 없으면 문장 방향이 뒤집혀 보인다.
       photos: [
-        "‏gamescom asia x Thailand Game Show، بانكوك، أكتوبر 2025 — منصّة الجناح الكوري برعاية Megazone Cloud",
-        "أحد 16 استوديو كوريًا وقع عليها الاختيار للمعرض",
-        "زار الجناح موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان"
+        "‏gamescom asia x Thailand Game Show، بانكوك، أكتوبر 2025 — الجناح الكوري K-GAME PLAYGROUND الذي ضمّ 16 استوديو كوريًا، برعاية Megazone Cloud.",
+        "منصّتنا، وعليها ملصق Fighting Nations واللعبة متاحة للتجربة في المكان.",
+        "في المنصّة مع أحد الزوار. مرّ بها موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان."
       ],
       events: [
         { d: "صيف 2025", t: "نموذج أولي على Unity" },

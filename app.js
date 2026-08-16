@@ -150,11 +150,22 @@ function render(code) {
 
   // --- 로드맵 ---
   set("rmHeading", t.roadmap.heading);
-  document.getElementById("timeline").replaceChildren(...t.roadmap.items.map(item => {
+  document.getElementById("timeline").replaceChildren(...t.roadmap.items.map((item, i) => {
     const row = el("div", "step");
     row.append(el("div", "when", item.date));
     const box = el("div");
-    box.append(el("h3", null, item.title), el("p", null, item.body));
+    // 공식 사이트가 있는 단계는 제목이 링크가 된다. 없으면 그냥 텍스트 (WORKS 카드와 같은 규칙).
+    const url = (typeof ROADMAP_LINKS !== "undefined") ? ROADMAP_LINKS[i] : "";
+    const h = el("h3");
+    if (url) {
+      const a = el("a", "step-link", item.title);
+      a.href = url; a.target = "_blank"; a.rel = "noopener";
+      a.append(el("span", "ext", "↗"));
+      h.append(a);
+    } else {
+      h.textContent = item.title;
+    }
+    box.append(h, el("p", null, item.body));
     row.append(box);
     return row;
   }));

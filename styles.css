@@ -515,3 +515,10 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
 
 /* 여정 연표 아래 → 연도별 행사 로드맵 링크. 연표와 붙어 보이지 않게 여백을 준다. */
 .jr-more { display: inline-block; margin-top: 26px; }
+
+/* 로드맵 — 공식 사이트가 있는 단계는 제목이 링크다. ↗ 는 바깥으로 나간다는 표시.
+   좌우 여백은 논리 속성으로 (아랍어 RTL). */
+.step-link { text-decoration: none; border-bottom: 1px solid transparent; transition: .15s; }
+.step-link:hover { color: var(--accent); border-bottom-color: var(--accent-dim); }
+.step-link .ext { font-size: 13px; opacity: .5; margin-inline-start: 6px; font-weight: 400; }
+.step-link:hover .ext { opacity: 1; }
