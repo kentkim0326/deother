@@ -262,7 +262,7 @@ const I18N = {
         { d: "Summer 2025", t: "Unity prototype" },
         { d: "October 2025", t: "gamescom asia x Thailand Game Show — one of 16 Korean studios, Megazone Cloud sponsored booth. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came to the booth." },
         { d: "October 2025", t: "Rebuilt in Unreal Engine — multiplayer needed it" },
-        { d: "31 October 2025", t: "Gyeonggi Content Agency Game Connect — one of 10 studios pitching to VCs" },
+        { d: "31 October 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — one of 10 studios in the investment-readiness programme, pitching to VCs" },
         { d: "29 November 2025", t: "Chung-Ang University indie game showcase" },
         { d: "31 December 2025", t: "Submitted to NC Soft's 2nd VARCO Game Contest" },
         { d: "16 January 2026", t: "Entered NEOWIZ Quest, a narrative indie game competition with a ₩165M prize pool" }
@@ -374,7 +374,7 @@ const I18N = {
         { d: "2025년 여름", t: "유니티로 프로토타입 제작" },
         { d: "2025년 10월", t: "gamescom asia x Thailand Game Show — 16개 한국 게임사 중 하나로 선발, 메가존 클라우드 후원 한국관 부스. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다." },
         { d: "2025년 10월", t: "언리얼 엔진으로 재제작 — 멀티플레이어에는 언리얼이 필요했습니다" },
-        { d: "2025년 10월 31일", t: "경기콘텐츠진흥원 게임 커넥트 — 10개사 중 하나로 선발, VC 대상 피칭" },
+        { d: "2025년 10월 31일", t: "2025 G-GAME Connect (경기콘텐츠진흥원) — 투자유치역량강화프로그램 10개사에 선정, VC 대상 IR 발표" },
         { d: "2025년 11월 29일", t: "중앙대학교 인디게임 부스 전시" },
         { d: "2025년 12월 31일", t: "NC소프트 제2회 바르코 게임 공모전 접수" },
         { d: "2026년 1월 16일", t: "네오위즈 퀘스트 내러티브 인디게임 공모전 접수 (총 상금 1억 6,500만원)" }
@@ -484,7 +484,7 @@ const I18N = {
         { d: "2025 年夏", t: "以 Unity 完成原型" },
         { d: "2025 年 10 月", t: "gamescom asia x Thailand Game Show——入选 16 家韩国工作室之一，Megazone Cloud 赞助展位。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商到访。" },
         { d: "2025 年 10 月", t: "改用虚幻引擎重做——联机需要它" },
-        { d: "2025 年 10 月 31 日", t: "京畿内容振兴院 Game Connect——十家之一，向 VC 路演" },
+        { d: "2025 年 10 月 31 日", t: "2025 G-GAME Connect（京畿内容振兴院）——投资引进能力强化项目入选十家之一，向 VC 进行 IR 路演" },
         { d: "2025 年 11 月 29 日", t: "中央大学独立游戏展出" },
         { d: "2025 年 12 月 31 日", t: "报名 NC Soft 第二届 VARCO 游戏大赛" },
         { d: "2026 年 1 月 16 日", t: "报名 NEOWIZ Quest 叙事独立游戏大赛（总奖金 1.65 亿韩元）" }
@@ -593,7 +593,7 @@ const I18N = {
         { d: "2025年夏", t: "Unityでプロトタイプ制作" },
         { d: "2025年10月", t: "gamescom asia x Thailand Game Show——韓国16社の一つに選出、Megazone Cloud協賛ブース。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪。" },
         { d: "2025年10月", t: "Unreal Engineで作り直し——マルチプレイに必要でした" },
-        { d: "2025年10月31日", t: "京畿コンテンツ振興院 Game Connect——10社の一つとしてVCへピッチ" },
+        { d: "2025年10月31日", t: "2025 G-GAME Connect（京畿コンテンツ振興院）——投資誘致力強化プログラム 10社に選定、VC 向け IR 発表" },
         { d: "2025年11月29日", t: "中央大学インディーゲーム展示" },
         { d: "2025年12月31日", t: "NCソフト第2回VARCOゲームコンテストに応募" },
         { d: "2026年1月16日", t: "ネオウィズ・クエスト（ナラティブ系インディーゲームコンペ、賞金総額1億6500万ウォン）に応募" }
@@ -702,7 +702,7 @@ const I18N = {
         { d: "Verano 2025", t: "Prototipo en Unity" },
         { d: "Octubre 2025", t: "gamescom asia x Thailand Game Show: uno de los 16 estudios coreanos, stand patrocinado por Megazone Cloud. Visitaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán." },
         { d: "Octubre 2025", t: "Reconstruido en Unreal Engine: el multijugador lo exigía" },
-        { d: "31 octubre 2025", t: "Gyeonggi Content Agency Game Connect: uno de 10 estudios presentando ante VC" },
+        { d: "31 octubre 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency): uno de los 10 estudios del programa de preparación para inversión, con presentación ante VC" },
         { d: "29 noviembre 2025", t: "Muestra de juegos indie en la Universidad Chung-Ang" },
         { d: "31 diciembre 2025", t: "Presentado al 2.º Concurso VARCO de NC Soft" },
         { d: "16 enero 2026", t: "Presentado a NEOWIZ Quest, concurso de juegos indie narrativos (bolsa de 165 millones de wones)" }
@@ -811,7 +811,7 @@ const I18N = {
         { d: "Verão 2025", t: "Protótipo em Unity" },
         { d: "Outubro 2025", t: "gamescom asia x Thailand Game Show — um dos 16 estúdios coreanos, stand patrocinado pela Megazone Cloud. Visitaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan." },
         { d: "Outubro 2025", t: "Reconstruído em Unreal Engine — o multijogador exigia-o" },
-        { d: "31 outubro 2025", t: "Gyeonggi Content Agency Game Connect — um de 10 estúdios a apresentar a VC" },
+        { d: "31 outubro 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — um dos 10 estúdios do programa de preparação para investimento, com apresentação a VC" },
         { d: "29 novembro 2025", t: "Mostra de jogos indie na Universidade Chung-Ang" },
         { d: "31 dezembro 2025", t: "Inscrito no 2.º Concurso VARCO da NC Soft" },
         { d: "16 janeiro 2026", t: "Inscrito no NEOWIZ Quest, concurso de jogos indie narrativos (prémios de 165 milhões de wones)" }
@@ -920,7 +920,7 @@ const I18N = {
         { d: "Été 2025", t: "Prototype sous Unity" },
         { d: "Octobre 2025", t: "gamescom asia x Thailand Game Show — l'un des 16 studios coréens, stand parrainé par Megazone Cloud. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont venus." },
         { d: "Octobre 2025", t: "Reconstruit sous Unreal Engine — le multijoueur l'imposait" },
-        { d: "31 octobre 2025", t: "Gyeonggi Content Agency Game Connect — l'un des 10 studios présentés aux investisseurs" },
+        { d: "31 octobre 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — l'un des 10 studios du programme de préparation à la levée de fonds, présentation aux investisseurs" },
         { d: "29 novembre 2025", t: "Exposition de jeux indépendants à l'université Chung-Ang" },
         { d: "31 décembre 2025", t: "Candidature au 2e concours VARCO de NC Soft" },
         { d: "16 janvier 2026", t: "Candidature à NEOWIZ Quest, concours de jeux indépendants narratifs (165 M₩ de dotation)" }
@@ -1029,7 +1029,7 @@ const I18N = {
         { d: "Sommer 2025", t: "Prototyp in Unity" },
         { d: "Oktober 2025", t: "gamescom asia x Thailand Game Show — eines von 16 koreanischen Studios, Stand gesponsert von Megazone Cloud. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen an den Stand." },
         { d: "Oktober 2025", t: "Neu gebaut in der Unreal Engine — der Multiplayer verlangte es" },
-        { d: "31. Oktober 2025", t: "Gyeonggi Content Agency Game Connect — eines von 10 Studios im VC-Pitch" },
+        { d: "31. Oktober 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — eines von 10 Studios im Investment-Readiness-Programm, IR-Pitch vor VCs" },
         { d: "29. November 2025", t: "Indie-Game-Ausstellung an der Chung-Ang-Universität" },
         { d: "31. Dezember 2025", t: "Einreichung beim 2. VARCO Game Contest von NC Soft" },
         { d: "16. Januar 2026", t: "Teilnahme an NEOWIZ Quest, einem Wettbewerb für narrative Indie-Spiele (165 Mio. ₩ Preisgeld)" }
@@ -1138,7 +1138,7 @@ const I18N = {
         { d: "Лето 2025", t: "Прототип на Unity" },
         { d: "Октябрь 2025", t: "gamescom asia x Thailand Game Show — одна из 16 корейских студий, стенд при поддержке Megazone Cloud. На стенд приходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня." },
         { d: "Октябрь 2025", t: "Пересобрано на Unreal Engine — этого требовал сетевой режим" },
-        { d: "31 октября 2025", t: "Gyeonggi Content Agency Game Connect — одна из 10 студий с питчем перед инвесторами" },
+        { d: "31 октября 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — одна из 10 студий программы подготовки к инвестициям, IR-питч перед фондами" },
         { d: "29 ноября 2025", t: "Выставка инди-игр в Университете Чунг-Ан" },
         { d: "31 декабря 2025", t: "Заявка на 2-й конкурс VARCO от NC Soft" },
         { d: "16 января 2026", t: "Заявка на NEOWIZ Quest — конкурс нарративных инди-игр с призовым фондом 165 млн вон" }
@@ -1248,7 +1248,7 @@ const I18N = {
         { d: "صيف 2025", t: "نموذج أولي على Unity" },
         { d: "أكتوبر 2025", t: "‏gamescom asia x Thailand Game Show — أحد 16 استوديو كوريًا، جناح برعاية Megazone Cloud. زار الجناح موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان." },
         { d: "أكتوبر 2025", t: "أُعيد بناؤها على Unreal Engine — اللعب الشبكي تطلّب ذلك" },
-        { d: "‏31 أكتوبر 2025", t: "‏Gyeonggi Content Agency Game Connect — أحد 10 استوديوهات قدّمت عرضًا للمستثمرين" },
+        { d: "‏31 أكتوبر 2025", t: "‏2025 G-GAME Connect (وكالة محتوى كيونغي) — أحد 10 استوديوهات في برنامج التهيّؤ للاستثمار، وعرض IR أمام المستثمرين" },
         { d: "‏29 نوفمبر 2025", t: "عرض ألعاب مستقلة في جامعة تشونغ-آنغ" },
         { d: "‏31 ديسمبر 2025", t: "التقديم لمسابقة VARCO الثانية من NC Soft" },
         { d: "‏16 يناير 2026", t: "المشاركة في NEOWIZ Quest لألعاب الإندي السردية (مجموع الجوائز 165 مليون وون)" }
