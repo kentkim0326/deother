@@ -1427,7 +1427,7 @@ const PAGES = {
         {
           h: "게임 개발자",
           p: [
-            "2025년 7월부터 두 달간 유니티를 배워 3D 격투 게임을 직접 만들었다. 그 게임으로 경기도콘텐츠진흥원에 선발되었고, 2025년 10월 태국 게임쇼 한국관에 한국 게임 16개 중 하나로 부스를 열었다.",
+            "2025년 7월부터 두 달간 유니티를 배워 3D 격투 게임을 직접 만들었다. 그 게임으로 경기도콘텐츠진흥원에 선발되었고, 2025년 10월 gamescom asia x Thailand Game Show 한국관에 한국 게임 16개 중 하나로 부스를 열었다.",
             "10월부터 12월까지 다시 두 달 동안 언리얼 엔진으로 처음부터 개발해 해외 출시를 준비했다. 지금 디아더가 소개하는 게임은 열 종이다."
           ]
         },
@@ -1512,7 +1512,7 @@ const PAGES = {
         {
           h: "Game developer",
           p: [
-            "From July 2025 he spent two months learning Unity and built a 3D fighting game himself. That game got him selected by the Gyeonggi Content Agency, and in October 2025 he ran a booth in the Korea pavilion at the Thailand Game Show as one of sixteen Korean games.",
+            "From July 2025 he spent two months learning Unity and built a 3D fighting game himself. That game got him selected by the Gyeonggi Content Agency, and in October 2025 he ran a booth in the Korea pavilion at gamescom asia x Thailand Game Show as one of sixteen Korean games.",
             "From October to December he spent two more months rebuilding it from scratch in Unreal Engine, preparing an overseas release. Deother now presents ten games."
           ]
         },

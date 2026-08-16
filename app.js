@@ -105,6 +105,31 @@ function render(code) {
   document.getElementById("videos")
     .replaceChildren(...VIDEOS.map(v => videoCard(v.id, v.label, v.date)));
 
+  // 전시 부스 사진 — 영상 그리드와 연표 사이에서 글벽을 끊는다.
+  // 이미지 파일이 아직 없을 수도 있으므로(대표가 나중에 넣는다) 로드에 실패한 장은 스스로 빠지고,
+  // 세 장 다 없으면 블록 자체를 감춘다. 그래야 배포된 화면에 깨진 이미지가 남지 않는다.
+  const photoBox = document.getElementById("showPhotos");
+  if (photoBox) {
+    const caps = (t.journey && t.journey.photos) || I18N[FALLBACK].journey.photos || [];
+    photoBox.hidden = false;
+    photoBox.replaceChildren(...SHOW_PHOTOS.map((src, i) => {
+      const fig = el("figure", "show-photo");
+      const img = el("img");
+      img.src = src;
+      img.alt = caps[i] || "";
+      img.decoding = "async";
+      // loading="lazy" 를 쓰면 화면에 들어오기 전까지 로드를 안 해서 error 가 늦게 뜬다.
+      // 그동안 빈 검은 박스가 남으므로 여기서는 즉시 로드한다 (석 장뿐이다).
+      img.addEventListener("error", () => {
+        fig.remove();
+        if (!photoBox.childElementCount) photoBox.hidden = true;
+      });
+      fig.append(img);
+      if (caps[i]) fig.append(el("figcaption", null, caps[i]));
+      return fig;
+    }));
+  }
+
   // origin(왜 시작했나) 섹션은 창업자 1인칭 긴 글이라, 남자 캐릭터 영상 하나로 글벽을 끊는다.
   // set() 처럼 요소가 없어도 안전하게 (함정 1).
   const orVid = document.getElementById("orVideo");
