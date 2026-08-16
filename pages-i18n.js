@@ -4384,7 +4384,7 @@ const PAGES = {
       sections: [
         {
           h: "지금까지 넣은 것",
-          p: ["계획만 적어 두지 않았습니다. 아래는 실제로 접수한 것이고, 결과가 나오면 이 줄의 상태가 바뀝니다."],
+          p: ["2025년 5월부터 지금까지 공모전·지원사업에 300건 넘게 접수했습니다. 아래는 그중 게임·창업 분야만 추린 것이고, 결과가 나오면 이 줄의 상태가 바뀝니다."],
           list: {
             h: "제출 이력",
             items: [
@@ -4403,6 +4403,18 @@ const PAGES = {
               "2025년 9월 22일 · 한-아랍 스타트업 피치 (한국무역협회) · 접수 완료",
               "2025년 12월 31일 · NC 바르코 게임 공모전 — Fighting Nations · 접수 완료",
               "2026년 1월 16일 · 네오위즈 퀘스트 — Fighting Nations · 접수 완료",
+              "2026년 2월 28일 마감 · 해외저작권등록 지원사업 · 접수 완료",
+              "2026년 3월 12일 마감 · 라이선싱 엑스포 참가사 모집 · 접수 완료",
+              "2026년 3월 12일 마감 · 2026 경기창업공모 G-스타 오디션 · 접수 완료",
+              "2026년 3월 25일 마감 · 게임더하기 (콘진원 해외진출 지원) · 접수 완료",
+              "2026년 3월 27일 마감 · 해외마켓 참가지원사업 · 접수 완료",
+              "2026년 3월 31일 마감 · 제5회 AI·공공데이터 활용 창업 경진대회 · 접수 완료",
+              "2026년 3월 31일 마감 · 게임아이콘 서울 2026 · 접수 완료",
+              "2026년 4월 1일 마감 · 게임 상용화 지원사업 · 접수 완료",
+              "2026년 4월 12일 마감 · 스마일게이트 인디게임 공모전 · 접수 완료",
+              "2026년 5월 7일 마감 · 서울 플레이업 AI 게임 챌린지 · 접수 완료",
+              "2026년 6월 3일 마감 · 스마일게이트 멤버십(SGM) 인디게임 18기 · 접수 완료",
+              "2026년 6월 25일 마감 · GIGDC 2026 글로벌 인디 게임제작 경진대회 — 밀리버스 · 접수 완료",
               "2026년 8월 15일 · GWB 게임 어워드 (텐센트) — Fighting Nations · 접수 완료, 11월 시상식",
               "2026년 8월 16일 · Taipei Indie Game Award 2027 — Fighting Nations · 접수 완료, 파이널리스트 발표 10월 14일",
               "2026년 8월 16일 · Epic MegaGrants — Fighting Nations · 접수 완료, 심사 중",
@@ -4590,7 +4602,7 @@ const PAGES = {
       sections: [
         {
           h: "What we have actually entered",
-          p: ["This is not only a plan. Below is what has actually been submitted; when results come, the status on these lines changes."],
+          p: ["Since May 2025 we have entered more than 300 contests and support programmes. Listed below are only the game and startup entries; when results come, the status on these lines changes."],
           list: {
             h: "Submission log",
             items: [
@@ -4609,6 +4621,18 @@ const PAGES = {
               "22 September 2025 · Korea–Arab Startup Pitch Competition (KITA) · submitted",
               "31 December 2025 · NC VARCO Game Contest — Fighting Nations · submitted",
               "16 January 2026 · NEOWIZ Quest — Fighting Nations · submitted",
+              "deadline 28 February 2026 · Overseas copyright registration support programme · submitted",
+              "deadline 12 March 2026 · Licensing Expo Korean pavilion · submitted",
+              "deadline 12 March 2026 · 2026 Gyeonggi Startup Contest — G-Star Audition · submitted",
+              "deadline 25 March 2026 · Game Plus — overseas launch support (KOCCA) · submitted",
+              "deadline 27 March 2026 · Overseas market participation support programme · submitted",
+              "deadline 31 March 2026 · 5th AI & Public Data Startup Competition · submitted",
+              "deadline 31 March 2026 · Game Icon Seoul 2026 · submitted",
+              "deadline 1 April 2026 · Game commercialisation support programme · submitted",
+              "deadline 12 April 2026 · Smilegate Indie Game Contest · submitted",
+              "deadline 7 May 2026 · Seoul Play Up AI Game Challenge · submitted",
+              "deadline 3 June 2026 · Smilegate Membership (SGM) indie game batch 18 · submitted",
+              "deadline 25 June 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · submitted",
               "15 August 2026 · GWB Game Awards (Tencent) — Fighting Nations · submitted, ceremony in November",
               "16 August 2026 · Taipei Indie Game Award 2027 — Fighting Nations · submitted, finalists announced 14 October",
               "16 August 2026 · Epic MegaGrants — Fighting Nations · submitted, under review",
@@ -4795,7 +4819,7 @@ const PAGES = {
       sections: [
         {
           h: "到目前为止实际投出去的",
-          p: ["这不只是计划。以下是已经实际递交的，结果出来后这些行的状态会改变。"],
+          p: ["自 2025 年 5 月以来，我们已递交 300 多份公募与扶持项目申请。以下仅列出游戏与创业类，结果公布后这些行的状态会随之更新。"],
           list: {
             h: "提交记录",
             items: [
@@ -4814,6 +4838,18 @@ const PAGES = {
               "2025 年 9 月 22 日 · 韩国-阿拉伯创业路演大赛（韩国贸易协会） · 已递交",
               "2025 年 12 月 31 日 · NC VARCO 游戏公募 — Fighting Nations · 已递交",
               "2026 年 1 月 16 日 · NEOWIZ Quest — Fighting Nations · 已递交",
+              "2026 年 2 月 28 日截止 · 海外著作权登记扶持项目 · 已递交",
+              "2026 年 3 月 12 日截止 · 授权展韩国馆参展企业 · 已递交",
+              "2026 年 3 月 12 日截止 · 2026 京畿创业公募 G-Star 甄选 · 已递交",
+              "2026 年 3 月 25 日截止 · Game Plus 海外发行扶持（韩国内容振兴院） · 已递交",
+              "2026 年 3 月 27 日截止 · 海外市场参展扶持项目 · 已递交",
+              "2026 年 3 月 31 日截止 · 第 5 届 AI·公共数据创业竞赛 · 已递交",
+              "2026 年 3 月 31 日截止 · Game Icon Seoul 2026 · 已递交",
+              "2026 年 4 月 1 日截止 · 游戏商用化扶持项目 · 已递交",
+              "2026 年 4 月 12 日截止 · Smilegate 独立游戏大赛 · 已递交",
+              "2026 年 5 月 7 日截止 · 首尔 Play Up AI 游戏挑战赛 · 已递交",
+              "2026 年 6 月 3 日截止 · Smilegate Membership（SGM）独立游戏第 18 期 · 已递交",
+              "2026 年 6 月 25 日截止 · GIGDC 2026 全球独立游戏制作大赛 — Miliverse · 已递交",
               "2026 年 8 月 15 日 · GWB 游戏大奖（腾讯）— Fighting Nations · 已递交，11 月颁奖",
               "2026 年 8 月 16 日 · Taipei Indie Game Award 2027 — Fighting Nations · 已递交，10 月 14 日公布入围名单",
               "2026 年 8 月 16 日 · Epic MegaGrants — Fighting Nations · 已递交，审核中",
@@ -5000,7 +5036,7 @@ const PAGES = {
       sections: [
         {
           h: "これまでに実際に出したもの",
-          p: ["計画だけではありません。以下は実際に応募したもので、結果が出ればこの行の状態が変わります。"],
+          p: ["2025年5月以降、コンテストや支援事業に300件以上応募してきました。以下はそのうちゲーム・スタートアップ分野のみです。結果が出れば、この行の状態が変わります。"],
           list: {
             h: "応募履歴",
             items: [
@@ -5019,6 +5055,18 @@ const PAGES = {
               "2025年9月22日 · 韓国・アラブ スタートアップ ピッチ（韓国貿易協会） · 応募済み",
               "2025年12月31日 · NC VARCO ゲームコンテスト — Fighting Nations · 応募済み",
               "2026年1月16日 · NEOWIZ Quest — Fighting Nations · 応募済み",
+              "2026年2月28日締切 · 海外著作権登録 支援事業 · 応募済み",
+              "2026年3月12日締切 · ライセンシング・エキスポ 韓国館 · 応募済み",
+              "2026年3月12日締切 · 2026 京畿創業公募 G-スター オーディション · 応募済み",
+              "2026年3月25日締切 · ゲームプラス 海外進出支援（韓国コンテンツ振興院） · 応募済み",
+              "2026年3月27日締切 · 海外マーケット参加支援事業 · 応募済み",
+              "2026年3月31日締切 · 第 5 回 AI・公共データ活用 創業コンペティション · 応募済み",
+              "2026年3月31日締切 · ゲームアイコン ソウル 2026 · 応募済み",
+              "2026年4月1日締切 · ゲーム商用化支援事業 · 応募済み",
+              "2026年4月12日締切 · スマイルゲート インディーゲームコンテスト · 応募済み",
+              "2026年5月7日締切 · ソウル プレイアップ AI ゲームチャレンジ · 応募済み",
+              "2026年6月3日締切 · スマイルゲート メンバーシップ（SGM）インディーゲーム 18 期 · 応募済み",
+              "2026年6月25日締切 · GIGDC 2026 グローバル インディーゲーム制作コンテスト — ミリバース · 応募済み",
               "2026年8月15日 · GWB ゲームアワード（テンセント）— Fighting Nations · 応募済み、11月に授賞式",
               "2026年8月16日 · Taipei Indie Game Award 2027 — Fighting Nations · 応募済み、ファイナリスト発表は10月14日",
               "2026年8月16日 · Epic MegaGrants — Fighting Nations · 応募済み、審査中",
@@ -5205,7 +5253,7 @@ const PAGES = {
       sections: [
         {
           h: "Lo que ya hemos presentado",
-          p: ["Esto no es solo un plan. Abajo está lo que se ha presentado de verdad; cuando lleguen los resultados, cambia el estado de estas líneas."],
+          p: ["Desde mayo de 2025 hemos presentado más de 300 candidaturas a concursos y programas de apoyo. Abajo figuran solo las de videojuegos y emprendimiento; cuando lleguen los resultados, cambiará el estado de estas líneas."],
           list: {
             h: "Registro de envíos",
             items: [
@@ -5224,6 +5272,18 @@ const PAGES = {
               "22 de septiembre de 2025 · Korea–Arab Startup Pitch Competition (KITA) · presentado",
               "31 de diciembre de 2025 · Concurso NC VARCO — Fighting Nations · presentado",
               "16 de enero de 2026 · NEOWIZ Quest — Fighting Nations · presentado",
+              "cierre 28 de febrero de 2026 · Programa de apoyo al registro de derechos de autor en el extranjero · presentado",
+              "cierre 12 de marzo de 2026 · Pabellón coreano de Licensing Expo · presentado",
+              "cierre 12 de marzo de 2026 · Concurso de Startups de Gyeonggi 2026 — Audición G-Star · presentado",
+              "cierre 25 de marzo de 2026 · Game Plus — apoyo al lanzamiento internacional (KOCCA) · presentado",
+              "cierre 27 de marzo de 2026 · Programa de apoyo a la participación en mercados exteriores · presentado",
+              "cierre 31 de marzo de 2026 · 5.º Concurso de Emprendimiento con IA y Datos Públicos · presentado",
+              "cierre 31 de marzo de 2026 · Game Icon Seoul 2026 · presentado",
+              "cierre 1 de abril de 2026 · Programa de apoyo a la comercialización de videojuegos · presentado",
+              "cierre 12 de abril de 2026 · Concurso de Juegos Indie de Smilegate · presentado",
+              "cierre 7 de mayo de 2026 · Seoul Play Up AI Game Challenge · presentado",
+              "cierre 3 de junio de 2026 · Smilegate Membership (SGM), 18.ª promoción indie · presentado",
+              "cierre 25 de junio de 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · presentado",
               "15 de agosto de 2026 · GWB Game Awards (Tencent) — Fighting Nations · presentado; gala en noviembre",
               "16 de agosto de 2026 · Taipei Indie Game Award 2027 — Fighting Nations · presentado; finalistas el 14 de octubre",
               "16 de agosto de 2026 · Epic MegaGrants — Fighting Nations · presentado, en revisión",
@@ -5410,7 +5470,7 @@ const PAGES = {
       sections: [
         {
           h: "O que já submetemos",
-          p: ["Isto não é apenas um plano. Abaixo está o que foi mesmo submetido; quando chegarem os resultados, o estado destas linhas muda."],
+          p: ["Desde maio de 2025 submetemos mais de 300 candidaturas a concursos e programas de apoio. Abaixo constam apenas as de jogos e empreendedorismo; quando saírem os resultados, o estado destas linhas muda."],
           list: {
             h: "Registo de submissões",
             items: [
@@ -5429,6 +5489,18 @@ const PAGES = {
               "22 de setembro de 2025 · Korea–Arab Startup Pitch Competition (KITA) · submetido",
               "31 de dezembro de 2025 · Concurso NC VARCO — Fighting Nations · submetido",
               "16 de janeiro de 2026 · NEOWIZ Quest — Fighting Nations · submetido",
+              "prazo 28 de fevereiro de 2026 · Programa de apoio ao registo de direitos de autor no estrangeiro · submetido",
+              "prazo 12 de março de 2026 · Pavilhão coreano da Licensing Expo · submetido",
+              "prazo 12 de março de 2026 · Concurso de Startups de Gyeonggi 2026 — Audição G-Star · submetido",
+              "prazo 25 de março de 2026 · Game Plus — apoio ao lançamento internacional (KOCCA) · submetido",
+              "prazo 27 de março de 2026 · Programa de apoio à participação em mercados internacionais · submetido",
+              "prazo 31 de março de 2026 · 5.º Concurso de Empreendedorismo com IA e Dados Públicos · submetido",
+              "prazo 31 de março de 2026 · Game Icon Seoul 2026 · submetido",
+              "prazo 1 de abril de 2026 · Programa de apoio à comercialização de jogos · submetido",
+              "prazo 12 de abril de 2026 · Concurso de Jogos Indie da Smilegate · submetido",
+              "prazo 7 de maio de 2026 · Seoul Play Up AI Game Challenge · submetido",
+              "prazo 3 de junho de 2026 · Smilegate Membership (SGM), 18.ª turma indie · submetido",
+              "prazo 25 de junho de 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · submetido",
               "15 de agosto de 2026 · GWB Game Awards (Tencent) — Fighting Nations · submetido; gala em novembro",
               "16 de agosto de 2026 · Taipei Indie Game Award 2027 — Fighting Nations · submetido; finalistas a 14 de outubro",
               "16 de agosto de 2026 · Epic MegaGrants — Fighting Nations · submetido, em análise",
@@ -5615,7 +5687,7 @@ const PAGES = {
       sections: [
         {
           h: "Ce que nous avons déjà déposé",
-          p: ["Ce n'est pas qu'un plan. Voici ce qui a réellement été déposé ; quand les résultats tombent, le statut de ces lignes change."],
+          p: ["Depuis mai 2025, nous avons déposé plus de 300 candidatures à des concours et programmes de soutien. Ci-dessous ne figurent que celles liées au jeu vidéo et à l'entrepreneuriat ; dès que les résultats tomberont, le statut de ces lignes changera."],
           list: {
             h: "Journal des dépôts",
             items: [
@@ -5634,6 +5706,18 @@ const PAGES = {
               "22 septembre 2025 · Korea–Arab Startup Pitch Competition (KITA) · déposé",
               "31 décembre 2025 · Concours NC VARCO — Fighting Nations · déposé",
               "16 janvier 2026 · NEOWIZ Quest — Fighting Nations · déposé",
+              "clôture 28 février 2026 · Programme d'aide à l'enregistrement des droits d'auteur à l'étranger · déposé",
+              "clôture 12 mars 2026 · Pavillon coréen du Licensing Expo · déposé",
+              "clôture 12 mars 2026 · Concours de startups de Gyeonggi 2026 — audition G-Star · déposé",
+              "clôture 25 mars 2026 · Game Plus — aide au lancement à l'international (KOCCA) · déposé",
+              "clôture 27 mars 2026 · Programme d'aide à la participation aux marchés étrangers · déposé",
+              "clôture 31 mars 2026 · 5e concours de création d'entreprise IA et données publiques · déposé",
+              "clôture 31 mars 2026 · Game Icon Seoul 2026 · déposé",
+              "clôture 1 avril 2026 · Programme d'aide à la commercialisation de jeux · déposé",
+              "clôture 12 avril 2026 · Concours de jeux indépendants Smilegate · déposé",
+              "clôture 7 mai 2026 · Seoul Play Up AI Game Challenge · déposé",
+              "clôture 3 juin 2026 · Smilegate Membership (SGM), 18e promotion indé · déposé",
+              "clôture 25 juin 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · déposé",
               "15 août 2026 · GWB Game Awards (Tencent) — Fighting Nations · déposé ; cérémonie en novembre",
               "16 août 2026 · Taipei Indie Game Award 2027 — Fighting Nations · déposé ; finalistes le 14 octobre",
               "16 août 2026 · Epic MegaGrants — Fighting Nations · déposé, en cours d'examen",
@@ -5820,7 +5904,7 @@ const PAGES = {
       sections: [
         {
           h: "Was wir tatsächlich eingereicht haben",
-          p: ["Das ist nicht nur ein Plan. Unten steht, was wirklich eingereicht wurde; kommen die Ergebnisse, ändert sich der Status dieser Zeilen."],
+          p: ["Seit Mai 2025 haben wir uns über 300-mal bei Wettbewerben und Förderprogrammen beworben. Unten stehen nur die Einreichungen aus den Bereichen Spiele und Gründung; sobald Ergebnisse vorliegen, ändert sich der Status dieser Zeilen."],
           list: {
             h: "Einreichungsprotokoll",
             items: [
@@ -5839,6 +5923,18 @@ const PAGES = {
               "22. September 2025 · Korea–Arab Startup Pitch Competition (KITA) · eingereicht",
               "31. Dezember 2025 · NC-VARCO-Wettbewerb — Fighting Nations · eingereicht",
               "16. Januar 2026 · NEOWIZ Quest — Fighting Nations · eingereicht",
+              "Frist 28. Februar 2026 · Förderprogramm für Urheberrechtsregistrierung im Ausland · eingereicht",
+              "Frist 12. März 2026 · Koreanischer Pavillon der Licensing Expo · eingereicht",
+              "Frist 12. März 2026 · Gyeonggi-Startup-Wettbewerb 2026 — G-Star-Audition · eingereicht",
+              "Frist 25. März 2026 · Game Plus — Förderung für den Auslandsstart (KOCCA) · eingereicht",
+              "Frist 27. März 2026 · Förderprogramm für Auslandsmarkt-Teilnahme · eingereicht",
+              "Frist 31. März 2026 · 5. Gründerwettbewerb KI & offene Daten · eingereicht",
+              "Frist 31. März 2026 · Game Icon Seoul 2026 · eingereicht",
+              "Frist 1. April 2026 · Förderprogramm zur Spiele-Kommerzialisierung · eingereicht",
+              "Frist 12. April 2026 · Smilegate-Indie-Game-Wettbewerb · eingereicht",
+              "Frist 7. Mai 2026 · Seoul Play Up AI Game Challenge · eingereicht",
+              "Frist 3. Juni 2026 · Smilegate Membership (SGM), 18. Indie-Jahrgang · eingereicht",
+              "Frist 25. Juni 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · eingereicht",
               "15. August 2026 · GWB Game Awards (Tencent) — Fighting Nations · eingereicht; Verleihung im November",
               "16. August 2026 · Taipei Indie Game Award 2027 — Fighting Nations · eingereicht; Finalisten am 14. Oktober",
               "16. August 2026 · Epic MegaGrants — Fighting Nations · eingereicht, in Prüfung",
@@ -6025,7 +6121,7 @@ const PAGES = {
       sections: [
         {
           h: "Что мы уже подали",
-          p: ["Это не только план. Ниже — то, что действительно подано; когда придут результаты, статус этих строк изменится."],
+          p: ["С мая 2025 года мы подали более 300 заявок на конкурсы и программы поддержки. Ниже — только заявки в сфере игр и стартапов; когда придут результаты, статус этих строк изменится."],
           list: {
             h: "Журнал заявок",
             items: [
@@ -6044,6 +6140,18 @@ const PAGES = {
               "22 сентября 2025 · Korea–Arab Startup Pitch Competition (KITA) · подано",
               "31 декабря 2025 · Конкурс NC VARCO — Fighting Nations · подано",
               "16 января 2026 · NEOWIZ Quest — Fighting Nations · подано",
+              "дедлайн 28 февраля 2026 · Программа поддержки регистрации авторских прав за рубежом · подано",
+              "дедлайн 12 марта 2026 · Корейский павильон Licensing Expo · подано",
+              "дедлайн 12 марта 2026 · Конкурс стартапов Кёнгидо 2026 — отбор G-Star · подано",
+              "дедлайн 25 марта 2026 · Game Plus — поддержка выхода на зарубежные рынки (KOCCA) · подано",
+              "дедлайн 27 марта 2026 · Программа поддержки участия в зарубежных маркетах · подано",
+              "дедлайн 31 марта 2026 · 5-й конкурс стартапов на базе ИИ и открытых данных · подано",
+              "дедлайн 31 марта 2026 · Game Icon Seoul 2026 · подано",
+              "дедлайн 1 апреля 2026 · Программа поддержки коммерциализации игр · подано",
+              "дедлайн 12 апреля 2026 · Конкурс инди-игр Smilegate · подано",
+              "дедлайн 7 мая 2026 · Seoul Play Up AI Game Challenge · подано",
+              "дедлайн 3 июня 2026 · Smilegate Membership (SGM), 18-й инди-набор · подано",
+              "дедлайн 25 июня 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · подано",
               "15 августа 2026 · GWB Game Awards (Tencent) — Fighting Nations · подано; церемония в ноябре",
               "16 августа 2026 · Taipei Indie Game Award 2027 — Fighting Nations · подано; финалисты 14 октября",
               "16 августа 2026 · Epic MegaGrants — Fighting Nations · подано, на рассмотрении",
@@ -6230,7 +6338,7 @@ const PAGES = {
       sections: [
         {
           h: "ما قدّمناه فعلًا حتى الآن",
-          p: ["هذه ليست خطة فحسب. في ما يلي ما قُدِّم فعلًا، وحين تصدر النتائج تتغيّر حالة هذه السطور."],
+          p: ["منذ مايو 2025 قدّمنا أكثر من 300 طلب إلى مسابقات وبرامج دعم. في ما يلي طلبات مجال الألعاب وريادة الأعمال فقط؛ وعندما تصدر النتائج يتغيّر وضع هذه الأسطر."],
           list: {
             h: "سجلّ التقديمات",
             items: [
@@ -6249,6 +6357,18 @@ const PAGES = {
               "‏22 سبتمبر 2025 · مسابقة العروض للشركات الناشئة كوريا–العرب (KITA) · قُدِّم",
               "‏31 ديسمبر 2025 · مسابقة NC VARCO — Fighting Nations · قُدِّم",
               "‏16 يناير 2026 · NEOWIZ Quest — Fighting Nations · قُدِّم",
+              "‏الموعد النهائي 28 فبراير 2026 · برنامج دعم تسجيل حقوق النشر في الخارج · قُدِّم",
+              "‏الموعد النهائي 12 مارس 2026 · الجناح الكوري في معرض التراخيص · قُدِّم",
+              "‏الموعد النهائي 12 مارس 2026 · مسابقة كيونغي للشركات الناشئة 2026 — تصفيات G-Star · قُدِّم",
+              "‏الموعد النهائي 25 مارس 2026 · Game Plus — دعم الإطلاق الدولي (وكالة كوكا) · قُدِّم",
+              "‏الموعد النهائي 27 مارس 2026 · برنامج دعم المشاركة في الأسواق الخارجية · قُدِّم",
+              "‏الموعد النهائي 31 مارس 2026 · المسابقة الخامسة لريادة الأعمال بالذكاء الاصطناعي والبيانات العامة · قُدِّم",
+              "‏الموعد النهائي 31 مارس 2026 · Game Icon Seoul 2026 · قُدِّم",
+              "‏الموعد النهائي 1 أبريل 2026 · برنامج دعم تسويق الألعاب · قُدِّم",
+              "‏الموعد النهائي 12 أبريل 2026 · مسابقة Smilegate للألعاب المستقلة · قُدِّم",
+              "‏الموعد النهائي 7 مايو 2026 · تحدي سيول Play Up لألعاب الذكاء الاصطناعي · قُدِّم",
+              "‏الموعد النهائي 3 يونيو 2026 · عضوية Smilegate (SGM) — الدفعة 18 للألعاب المستقلة · قُدِّم",
+              "‏الموعد النهائي 25 يونيو 2026 · مسابقة GIGDC 2026 العالمية لصناعة الألعاب المستقلة — Miliverse · قُدِّم",
               "‏15 أغسطس 2026 · GWB Game Awards (تنسنت) — Fighting Nations · قُدِّم، والحفل في نوفمبر",
               "‏16 أغسطس 2026 · Taipei Indie Game Award 2027 — Fighting Nations · قُدِّم، وتُعلن القائمة النهائية في 14 أكتوبر",
               "‏16 أغسطس 2026 · Epic MegaGrants — Fighting Nations · قُدِّم، قيد المراجعة",
