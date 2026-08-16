@@ -124,13 +124,18 @@ function pEl(tag, cls, text) {
 function pListItem(game, si, ii, ul) {
   const li = pEl("li");
   ul.append(li);
+  const key = si + "." + ii;
+  const flag = (typeof PAGE_LIST_FLAGS !== "undefined" && PAGE_LIST_FLAGS[game])
+    ? PAGE_LIST_FLAGS[game][key] : null;
+  if (flag) li.append(pEl("span", "li-flag", flag));   // 개최국 국기 (온라인은 🌐)
   const url = (typeof PAGE_LIST_LINKS !== "undefined" && PAGE_LIST_LINKS[game])
-    ? PAGE_LIST_LINKS[game][si + "." + ii] : null;
-  if (!url) return li;                       // 링크 없으면 li 에 그대로 쓴다
-  const a = pEl("a", "list-link");
-  a.href = url; a.target = "_blank"; a.rel = "noopener";
-  li.append(a);
-  return a;                                  // 텍스트는 <a> 안으로 들어간다
+    ? PAGE_LIST_LINKS[game][key] : null;
+  // 텍스트는 반드시 안쪽 요소가 받는다 — 언어를 바꿀 때 textContent 를 갈아끼우므로
+  // li 에 직접 쓰면 앞에 붙인 국기가 함께 지워진다.
+  const holder = url ? pEl("a", "list-link") : pEl("span", "list-text");
+  if (url) { holder.href = url; holder.target = "_blank"; holder.rel = "noopener"; }
+  li.append(holder);
+  return holder;
 }
 
 function pDetectLang() {
