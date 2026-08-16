@@ -14,6 +14,19 @@ const LINKS = {
   mail:   "mailto:kentkim@gmail.com"
 };
 
+// 로드맵 각 단계의 공식 사이트. 순서는 각 언어 roadmap.items 와 1:1 로 맞춘다(인덱스로 붙는다).
+// "" 면 그 항목은 링크 없이 제목 텍스트로 나온다 — WORKS 카드와 같은 규칙이다.
+// 우리 안에서 하는 일(온라인 멀티플레이어·64인 배틀로얄)은 갈 곳이 없으므로 비워 둔다.
+// ※ 이 주소들은 대표님 확인이 필요하다. 작업 환경의 네트워크가 외부를 막아 실제로 열어보지 못했다.
+const ROADMAP_LINKS = [
+  "https://gwb.tencent.com/",                       // GWB 게임 어워드 (텐센트)
+  "https://store.steampowered.com/",                // 스팀
+  "https://store.epicgames.com/",                   // 에픽 게임즈 스토어
+  "",                                               // 온라인 멀티플레이어 — 개발 중
+  "https://www.xbox.com/en-us/developers/id",       // ID@Xbox 프로그램
+  ""                                                // 64인 배틀로얄 — 목표
+];
+
 // 디아더가 만들어 띄운 것들. 링크가 살아 있는 것만 넣는다.
 // logo 는 '진짜 로고 마크'가 있을 때만 넣는다. 커버 아트를 작게 줄여 넣으면 마크처럼 안 보인다.
 // 게임별 슬라이드쇼. 파일을 해당 폴더에 넣고 여기 파일명만 더하면 늘어난다.
