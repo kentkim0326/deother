@@ -119,6 +119,20 @@ function pEl(tag, cls, text) {
   return n;
 }
 
+// 목록 항목에 공식 사이트 링크가 있으면 <a> 로 감싼다 (행사 로드맵).
+// ↗ 는 CSS ::after 로 붙인다 — 언어 전환이 textContent 를 갈아끼워도 살아남아야 해서다.
+function pListItem(game, si, ii, ul) {
+  const li = pEl("li");
+  ul.append(li);
+  const url = (typeof PAGE_LIST_LINKS !== "undefined" && PAGE_LIST_LINKS[game])
+    ? PAGE_LIST_LINKS[game][si + "." + ii] : null;
+  if (!url) return li;                       // 링크 없으면 li 에 그대로 쓴다
+  const a = pEl("a", "list-link");
+  a.href = url; a.target = "_blank"; a.rel = "noopener";
+  li.append(a);
+  return a;                                  // 텍스트는 <a> 안으로 들어간다
+}
+
 function pDetectLang() {
   // 메인 페이지에서 고른 언어를 이어받되, 이 게임에 번역이 없는 언어면 영어로 떨어뜨린다
   const avail = pAvailLangs();
@@ -232,7 +246,7 @@ function pBuildInterleaved(game, layout) {
     if (sec.list) {
       if (sec.list.h) { listH = pEl("h3"); s.append(listH); }
       const ul = pEl("ul", "doc-list");
-      lis = sec.list.items.map(() => { const li = pEl("li"); ul.append(li); return li; });
+      lis = sec.list.items.map((_, j) => pListItem(game, i, j, ul));
       s.append(ul);
     }
     body.append(s);
@@ -300,14 +314,14 @@ function pRender(code) {
       const f = cap.parentElement.querySelector("iframe"); if (f) f.title = label;
     });
     const body = document.getElementById("pBody");
-    body.replaceChildren(...t.sections.map(sec => {
+    body.replaceChildren(...t.sections.map((sec, i) => {
       const s = pEl("section", "doc-section");
       s.append(pEl("h2", null, sec.h));
       (sec.p || []).forEach(x => s.append(pEl("p", null, x)));
       if (sec.list) {
         if (sec.list.h) s.append(pEl("h3", null, sec.list.h));
         const ul = pEl("ul", "doc-list");
-        sec.list.items.forEach(x => ul.append(pEl("li", null, x)));
+        sec.list.items.forEach((x, j) => { pListItem(game, i, j, ul).textContent = x; });
         s.append(ul);
       }
       return s;

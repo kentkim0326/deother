@@ -43,6 +43,73 @@ const PAGE_VIDEOS = {
   ],
 };
 
+
+// 행사 목록 항목별 공식 사이트. 키는 "섹션index.항목index" 로, 언어와 무관하게 같은 자리를 가리킨다
+// (모든 언어가 en 과 같은 구조라 인덱스가 일치한다 — 번역을 손볼 때 이 전제를 깨지 말 것).
+// 없는 항목은 링크 없이 텍스트로 나온다. 아래 주소는 2026-08-16 에 검색으로 하나씩 확인했다.
+// 확인 못 한 것(BGM Game Expo·스마일게이트 IndieGo·NC VARCO)은 일부러 비워 뒀다 —
+// 죽은 링크는 없느니만 못하다.
+const GSTAR   = "https://www.gstar.or.kr/";
+const TGS_JP  = "https://tgs.cesa.or.jp/";
+const TGS_TW  = "https://tgs.tca.org.tw/";
+const NEXTFEST= "https://partner.steamgames.com/doc/marketing/upcoming_events/nextfest";
+const AMAZE   = "https://a-maze.net/";
+const IAB     = "https://indiearenabooth.de/";
+const GC_DEV  = "https://dev.gamescom.global/";
+const GC_ASIA = "https://gamescom.asia/";
+const GC_LATAM= "https://latam.gamescom.global/en/";
+const DOTD    = "https://www.dayofthedevs.org/";
+const BITSUM  = "https://bitsummit.org/en/";
+const BIC     = "https://bicfest.org/";
+const DEVGAMM = "https://devgamm.com/";
+const INDIECADE = "https://www.indiecade.com/";
+
+const PAGE_LIST_LINKS = {
+  festivals: {
+    // 1. 2026 하반기 — 지금 접수하는 것
+    "1.0": "https://gameinstitute.tencent.com/awards2026",   // GWB Game Awards
+    "1.1": "https://expoeva.com/",                            // EVA Play
+    "1.2": "https://tgs.tca.org.tw/indie_award_e.php",        // Taipei Indie Game Award
+    "1.3": NEXTFEST, "1.4": "https://mobidictum.com/", "1.5": "https://igf.com/",
+    "1.6": DEVGAMM, "1.7": GSTAR, "1.8": "https://www.demospree.com/",
+    /* 1.9 BGM Game Expo — 공식 주소 확인 못 함 */
+    "1.10": DOTD, "1.11": BITSUM, "1.12": TGS_TW, "1.13": "https://pitchyagame.com/", "1.14": AMAZE,
+
+    // 2. 2026 하반기 — 열리는 자리
+    "2.0": TGS_JP, "2.1": "https://west.paxsite.com/", "2.2": NEXTFEST,
+    "2.3": GC_ASIA, "2.4": GSTAR, "2.5": DEVGAMM,
+    /* 2.6 BGM Game Expo */
+
+    // 3. 2027 상반기 접수 — 1~3월
+    "3.0": NEXTFEST, "3.1": GC_LATAM, "3.2": "https://neowizquest.com/",
+    "3.3": AMAZE, "3.4": TGS_JP, "3.5": IAB, "3.6": GSTAR,
+
+    // 4. 2027 상반기 접수 — 4~6월
+    "4.0": DOTD,
+    /* 4.1 스마일게이트 IndieGo — 회차마다 페이지가 달라 상시 주소가 없다 */
+    "4.2": IAB, "4.3": TGS_JP, "4.4": "https://www.yogscast.games/tinyteams", "4.5": GSTAR,
+    "4.6": "https://www.indiecraft.or.kr/",
+    /* 4.7 NC VARCO — 회차별 공모라 상시 주소가 없다 */
+    "4.8": GC_DEV, "4.9": BIC, "4.10": GSTAR, "4.11": GC_ASIA,
+    "4.12": INDIECADE, "4.13": "https://www.gigdc.or.kr/",
+    "4.14": "https://www.ludonarracon.com/", "4.15": GSTAR,
+
+    // 5. 2027 개최 일정
+    "5.0": TGS_TW, "5.1": INDIECADE, "5.2": NEXTFEST, "5.3": "https://gdconf.com/",
+    "5.4": GC_LATAM, "5.5": AMAZE, "5.6": BITSUM,
+    "5.7": "https://conference.digitaldragons.pl/", "5.8": NEXTFEST,
+    "5.9": "https://www.developconference.com/", "5.10": BIC,
+    "5.11": "https://www.gamescom.global/", "5.12": TGS_JP, "5.13": GSTAR,
+
+    // 6. 마감이 없는 상시 트랙
+    "6.0": "https://www.bigindiepitch.com/",
+    "6.1": "https://www.unrealengine.com/megagrants",
+    "6.2": "https://indie.live-expo.games/en/",
+    "6.3": "https://west.paxsite.com/en-us/features/pax-rising-showcase.html",
+    "6.4": GC_DEV, "6.5": "https://partner.steamgames.com/",
+  },
+};
+
 const PAGES = {
 
   /* ===================== 밀리버스 ===================== */
