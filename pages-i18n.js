@@ -1713,6 +1713,12 @@ const PAGES = {
           ]
         }
       ],
+      // 사진 자막. 전부 이미 다녀온 자리다 — 앞으로 갈 행사의 사진이 아니라는 것이 자막으로 드러나야 한다.
+      slides: [
+        "2025년 10월, gamescom asia x Thailand Game Show 한국관. 아래 목록은 앞으로 도전할 자리들입니다.",
+        "지스타 2022, 부산 벡스코. 지스타는 2019년부터 매년 찾고 있습니다.",
+        "태국 게임쇼에서 인도 배급사와. 행사에 나가는 이유는 결국 이런 자리를 만들기 위해서입니다."
+      ],
       cta: "출품작 해보기 — Fighting Nations", back: "디아더로 돌아가기"
     },
 
@@ -1880,6 +1886,11 @@ const PAGES = {
             "Last updated: 16 August 2026."
           ]
         }
+      ],
+      slides: [
+        "The Korea pavilion at gamescom asia x Thailand Game Show, October 2025. The list below is where we go next.",
+        "G-Star 2022 at BEXCO in Busan. We have gone to G-Star every year since 2019.",
+        "Meeting an Indian distributor at Thailand Game Show. Rooms like this are the reason we go."
       ],
       cta: "Play the game we are entering", back: "Back to Deother"
     }
