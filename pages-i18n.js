@@ -4563,7 +4563,8 @@ const PAGES = {
         "태국 게임쇼에서 인도 배급사와. 행사에 나가는 이유는 결국 이런 자리를 만들기 위해서입니다.",
         "우리가 들고 나가는 게임 — Fighting Nations. 위 목록의 대부분이 이 게임으로 나갑니다.",
         "각 파이터는 한 나라와 그 나라의 무술을 대표합니다. 13개국 캐릭터, 무기는 없습니다.",
-        "킹덤워즈는 브라우저 게임이라 물리 부스 대신 온라인 이벤트로 나갑니다."
+        "킹덤워즈는 브라우저 게임이라 물리 부스 대신 온라인 이벤트로 나갑니다.",
+        "Taipei Indie Game Award 2027 신청 화면 — 2026년 8월. 파이널리스트 발표는 10월 14일입니다."
       ],
       cta: "출품작 해보기 — Fighting Nations", back: "디아더로 돌아가기"
     },
@@ -4753,7 +4754,8 @@ const PAGES = {
         "Meeting an Indian distributor at Thailand Game Show. Rooms like this are the reason we go.",
         "The game we take with us — Fighting Nations. Most of the tracks above are entered with this title.",
         "Every fighter carries a nation and its fighting tradition. Characters from 13 countries, bare hands only.",
-        "Kingdom Wars runs in a browser, so it skips the physical booths and goes to online events instead."
+        "Kingdom Wars runs in a browser, so it skips the physical booths and goes to online events instead.",
+        "The Taipei Indie Game Award 2027 application, August 2026. Finalists are announced on 14 October."
       ],
       cta: "Play the game we are entering", back: "Back to Deother"
     },
@@ -4943,7 +4945,8 @@ const PAGES = {
         "在泰国游戏展与印度发行商会面。我们参展，最终就是为了促成这样的会面。",
         "我们带出去的游戏——Fighting Nations。上面列出的大多数通道都以这款游戏应征。",
         "每位格斗家代表一个国家及其武术传统。13 个国家的角色，只用赤手空拳。",
-        "《Kingdom Wars》是浏览器游戏，因此跳过实体展位，改走线上活动。"
+        "《Kingdom Wars》是浏览器游戏，因此跳过实体展位，改走线上活动。",
+        "Taipei Indie Game Award 2027 申请画面 —— 2026 年 8 月。入围名单于 10 月 14 日公布。"
       ],
       cta: "试玩我们送去参赛的游戏", back: "返回 Deother"
     },
@@ -5133,7 +5136,8 @@ const PAGES = {
         "タイ・ゲームショウでインドのパブリッシャーと。イベントに出る理由は、結局こういう席をつくるためです。",
         "私たちが持って出るゲーム — Fighting Nations。上の一覧の大半はこのタイトルで応募します。",
         "各ファイターは一つの国とその武術を背負います。13カ国のキャラクター、武器はありません。",
-        "Kingdom Wars はブラウザゲームなので、物理ブースを外してオンラインイベントに回ります。"
+        "Kingdom Wars はブラウザゲームなので、物理ブースを外してオンラインイベントに回ります。",
+        "Taipei Indie Game Award 2027 の応募画面——2026年8月。ファイナリスト発表は10月14日です。"
       ],
       cta: "出品作を遊んでみる", back: "Deother に戻る"
     },
@@ -5323,7 +5327,8 @@ const PAGES = {
         "Reunión con una distribuidora india en Thailand Game Show. Salas como esta son la razón por la que vamos.",
         "El juego que llevamos con nosotros: Fighting Nations. La mayoría de las convocatorias de arriba se presentan con este título.",
         "Cada luchador representa a un país y su tradición marcial. Personajes de 13 países, solo a puño limpio.",
-        "Kingdom Wars corre en navegador, así que se salta los stands físicos y va a eventos en línea."
+        "Kingdom Wars corre en navegador, así que se salta los stands físicos y va a eventos en línea.",
+        "La solicitud del Taipei Indie Game Award 2027, agosto de 2026. Los finalistas se anuncian el 14 de octubre."
       ],
       cta: "Juega al juego que presentamos", back: "Volver a Deother"
     },
@@ -5513,7 +5518,8 @@ const PAGES = {
         "Reunião com uma distribuidora indiana na Thailand Game Show. Salas como esta são a razão por que vamos.",
         "O jogo que levamos connosco — Fighting Nations. A maioria das candidaturas acima é feita com este título.",
         "Cada lutador representa um país e a sua tradição marcial. Personagens de 13 países, só a punho limpo.",
-        "O Kingdom Wars corre no navegador, por isso salta os stands físicos e vai a eventos online."
+        "O Kingdom Wars corre no navegador, por isso salta os stands físicos e vai a eventos online.",
+        "A candidatura ao Taipei Indie Game Award 2027, agosto de 2026. Os finalistas são anunciados a 14 de outubro."
       ],
       cta: "Joga o jogo que apresentamos", back: "Voltar a Deother"
     },
@@ -5703,7 +5709,8 @@ const PAGES = {
         "Rencontre avec un distributeur indien au Thailand Game Show. Ce sont ces rendez-vous qui justifient le déplacement.",
         "Le jeu que nous emportons — Fighting Nations. La plupart des candidatures ci-dessus se font avec ce titre.",
         "Chaque combattant porte un pays et sa tradition martiale. Des personnages de 13 pays, à mains nues.",
-        "Kingdom Wars tourne dans le navigateur : il saute les stands physiques et part vers les événements en ligne."
+        "Kingdom Wars tourne dans le navigateur : il saute les stands physiques et part vers les événements en ligne.",
+        "La candidature au Taipei Indie Game Award 2027, août 2026. Les finalistes sont annoncés le 14 octobre."
       ],
       cta: "Jouer au jeu que nous présentons", back: "Retour à Deother"
     },
@@ -5893,7 +5900,8 @@ const PAGES = {
         "Treffen mit einem indischen Distributor auf der Thailand Game Show. Solche Gespräche sind der Grund, warum wir hinfahren.",
         "Das Spiel, das wir mitnehmen — Fighting Nations. Die meisten Ausschreibungen oben laufen über diesen Titel.",
         "Jeder Kämpfer trägt ein Land und dessen Kampftradition. Figuren aus 13 Ländern, nur mit bloßen Händen.",
-        "Kingdom Wars läuft im Browser und lässt die Stände daher aus — es geht zu Online-Events."
+        "Kingdom Wars läuft im Browser und lässt die Stände daher aus — es geht zu Online-Events.",
+        "Die Bewerbung für den Taipei Indie Game Award 2027, August 2026. Die Finalisten werden am 14. Oktober bekannt gegeben."
       ],
       cta: "Das Spiel spielen, das wir einreichen", back: "Zurück zu Deother"
     },
@@ -6083,7 +6091,8 @@ const PAGES = {
         "Встреча с индийским дистрибьютором на Thailand Game Show. Ради таких разговоров мы и ездим.",
         "Игра, которую мы берём с собой, — Fighting Nations. Большинство конкурсов выше подаются именно с ней.",
         "Каждый боец несёт свою страну и её боевую традицию. Персонажи из 13 стран, только голые руки.",
-        "Kingdom Wars работает в браузере, поэтому обходит физические стенды и идёт на онлайн-события."
+        "Kingdom Wars работает в браузере, поэтому обходит физические стенды и идёт на онлайн-события.",
+        "Заявка на Taipei Indie Game Award 2027, август 2026 года. Финалистов объявят 14 октября."
       ],
       cta: "Сыграть в игру, которую мы подаём", back: "Назад в Deother"
     },
@@ -6273,7 +6282,8 @@ const PAGES = {
         "‏لقاء مع موزّع هندي في Thailand Game Show. مثل هذه الجلسات هي سبب ذهابنا أصلًا.",
         "‏اللعبة التي نحملها معنا — Fighting Nations. معظم المسارات أعلاه نتقدّم إليها بهذا العنوان.",
         "كل مقاتل يحمل بلدًا وتقليده القتالي. شخصيات من 13 دولة، بالأيدي العارية فقط.",
-        "‏Kingdom Wars تعمل في المتصفّح، لذا تتخطّى الأجنحة الحضورية وتتّجه إلى الفعاليات الإلكترونية."
+        "‏Kingdom Wars تعمل في المتصفّح، لذا تتخطّى الأجنحة الحضورية وتتّجه إلى الفعاليات الإلكترونية.",
+        "‏شاشة التقدّم إلى Taipei Indie Game Award 2027، أغسطس 2026. تُعلن القائمة النهائية في 14 أكتوبر."
       ],
       cta: "‏جرّب اللعبة التي نتقدّم بها", back: "‏العودة إلى Deother"
     }
