@@ -4390,9 +4390,10 @@ const PAGES = {
             items: [
               "2025년 12월 31일 · NC 바르코 게임 공모전 — Fighting Nations · 접수 완료",
               "2026년 1월 16일 · 네오위즈 퀘스트 — Fighting Nations · 접수 완료",
-              "2026년 8월 · Taipei Indie Game Award 2027 — Fighting Nations · 접수 완료, 파이널리스트 발표 10월 14일",
-              "2026년 8월 · Epic MegaGrants — Fighting Nations · 접수 완료, 심사 중",
-              "2026년 8월 · Xsolla Funding Club — Fighting Nations · 접수 완료, 검토 중"
+              "2026년 8월 15일 · GWB 게임 어워드 (텐센트) — Fighting Nations · 접수 완료, 11월 시상식",
+              "2026년 8월 16일 · Taipei Indie Game Award 2027 — Fighting Nations · 접수 완료, 파이널리스트 발표 10월 14일",
+              "2026년 8월 16일 · Epic MegaGrants — Fighting Nations · 접수 완료, 심사 중",
+              "2026년 8월 16일 · Xsolla Funding Club — Fighting Nations · 접수 완료, 검토 중"
             ]
           }
         },
@@ -4564,7 +4565,7 @@ const PAGES = {
         "우리가 들고 나가는 게임 — Fighting Nations. 위 목록의 대부분이 이 게임으로 나갑니다.",
         "각 파이터는 한 나라와 그 나라의 무술을 대표합니다. 13개국 캐릭터, 무기는 없습니다.",
         "킹덤워즈는 브라우저 게임이라 물리 부스 대신 온라인 이벤트로 나갑니다.",
-        "Taipei Indie Game Award 2027 신청 화면 — 2026년 8월. 파이널리스트 발표는 10월 14일입니다."
+        "Taipei Indie Game Award 2027 신청 화면 — 2026년 8월 16일. 파이널리스트 발표는 10월 14일입니다."
       ],
       cta: "출품작 해보기 — Fighting Nations", back: "디아더로 돌아가기"
     },
@@ -4582,9 +4583,10 @@ const PAGES = {
             items: [
               "31 December 2025 · NC VARCO Game Contest — Fighting Nations · submitted",
               "16 January 2026 · NEOWIZ Quest — Fighting Nations · submitted",
-              "August 2026 · Taipei Indie Game Award 2027 — Fighting Nations · submitted, finalists announced 14 October",
-              "August 2026 · Epic MegaGrants — Fighting Nations · submitted, under review",
-              "August 2026 · Xsolla Funding Club — Fighting Nations · submitted, under review"
+              "15 August 2026 · GWB Game Awards (Tencent) — Fighting Nations · submitted, ceremony in November",
+              "16 August 2026 · Taipei Indie Game Award 2027 — Fighting Nations · submitted, finalists announced 14 October",
+              "16 August 2026 · Epic MegaGrants — Fighting Nations · submitted, under review",
+              "16 August 2026 · Xsolla Funding Club — Fighting Nations · submitted, under review"
             ]
           }
         },
@@ -4755,7 +4757,7 @@ const PAGES = {
         "The game we take with us — Fighting Nations. Most of the tracks above are entered with this title.",
         "Every fighter carries a nation and its fighting tradition. Characters from 13 countries, bare hands only.",
         "Kingdom Wars runs in a browser, so it skips the physical booths and goes to online events instead.",
-        "The Taipei Indie Game Award 2027 application, August 2026. Finalists are announced on 14 October."
+        "The Taipei Indie Game Award 2027 application, 16 August 2026. Finalists are announced on 14 October."
       ],
       cta: "Play the game we are entering", back: "Back to Deother"
     },
@@ -4773,9 +4775,10 @@ const PAGES = {
             items: [
               "2025 年 12 月 31 日 · NC VARCO 游戏公募 — Fighting Nations · 已递交",
               "2026 年 1 月 16 日 · NEOWIZ Quest — Fighting Nations · 已递交",
-              "2026 年 8 月 · Taipei Indie Game Award 2027 — Fighting Nations · 已递交，10 月 14 日公布入围名单",
-              "2026 年 8 月 · Epic MegaGrants — Fighting Nations · 已递交，审核中",
-              "2026 年 8 月 · Xsolla Funding Club — Fighting Nations · 已递交，审核中"
+              "2026 年 8 月 15 日 · GWB 游戏大奖（腾讯）— Fighting Nations · 已递交，11 月颁奖",
+              "2026 年 8 月 16 日 · Taipei Indie Game Award 2027 — Fighting Nations · 已递交，10 月 14 日公布入围名单",
+              "2026 年 8 月 16 日 · Epic MegaGrants — Fighting Nations · 已递交，审核中",
+              "2026 年 8 月 16 日 · Xsolla Funding Club — Fighting Nations · 已递交，审核中"
             ]
           }
         },
@@ -4946,7 +4949,7 @@ const PAGES = {
         "我们带出去的游戏——Fighting Nations。上面列出的大多数通道都以这款游戏应征。",
         "每位格斗家代表一个国家及其武术传统。13 个国家的角色，只用赤手空拳。",
         "《Kingdom Wars》是浏览器游戏，因此跳过实体展位，改走线上活动。",
-        "Taipei Indie Game Award 2027 申请画面 —— 2026 年 8 月。入围名单于 10 月 14 日公布。"
+        "Taipei Indie Game Award 2027 申请画面 —— 2026 年 8 月 16 日。入围名单于 10 月 14 日公布。"
       ],
       cta: "试玩我们送去参赛的游戏", back: "返回 Deother"
     },
@@ -4964,9 +4967,10 @@ const PAGES = {
             items: [
               "2025年12月31日 · NC VARCO ゲームコンテスト — Fighting Nations · 応募済み",
               "2026年1月16日 · NEOWIZ Quest — Fighting Nations · 応募済み",
-              "2026年8月 · Taipei Indie Game Award 2027 — Fighting Nations · 応募済み、ファイナリスト発表は10月14日",
-              "2026年8月 · Epic MegaGrants — Fighting Nations · 応募済み、審査中",
-              "2026年8月 · Xsolla Funding Club — Fighting Nations · 応募済み、審査中"
+              "2026年8月15日 · GWB ゲームアワード（テンセント）— Fighting Nations · 応募済み、11月に授賞式",
+              "2026年8月16日 · Taipei Indie Game Award 2027 — Fighting Nations · 応募済み、ファイナリスト発表は10月14日",
+              "2026年8月16日 · Epic MegaGrants — Fighting Nations · 応募済み、審査中",
+              "2026年8月16日 · Xsolla Funding Club — Fighting Nations · 応募済み、審査中"
             ]
           }
         },
@@ -5137,7 +5141,7 @@ const PAGES = {
         "私たちが持って出るゲーム — Fighting Nations。上の一覧の大半はこのタイトルで応募します。",
         "各ファイターは一つの国とその武術を背負います。13カ国のキャラクター、武器はありません。",
         "Kingdom Wars はブラウザゲームなので、物理ブースを外してオンラインイベントに回ります。",
-        "Taipei Indie Game Award 2027 の応募画面——2026年8月。ファイナリスト発表は10月14日です。"
+        "Taipei Indie Game Award 2027 の応募画面——2026年8月16日。ファイナリスト発表は10月14日です。"
       ],
       cta: "出品作を遊んでみる", back: "Deother に戻る"
     },
@@ -5155,9 +5159,10 @@ const PAGES = {
             items: [
               "31 de diciembre de 2025 · Concurso NC VARCO — Fighting Nations · presentado",
               "16 de enero de 2026 · NEOWIZ Quest — Fighting Nations · presentado",
-              "Agosto de 2026 · Taipei Indie Game Award 2027 — Fighting Nations · presentado; finalistas el 14 de octubre",
-              "Agosto de 2026 · Epic MegaGrants — Fighting Nations · presentado, en revisión",
-              "Agosto de 2026 · Xsolla Funding Club — Fighting Nations · presentado, en revisión"
+              "15 de agosto de 2026 · GWB Game Awards (Tencent) — Fighting Nations · presentado; gala en noviembre",
+              "16 de agosto de 2026 · Taipei Indie Game Award 2027 — Fighting Nations · presentado; finalistas el 14 de octubre",
+              "16 de agosto de 2026 · Epic MegaGrants — Fighting Nations · presentado, en revisión",
+              "16 de agosto de 2026 · Xsolla Funding Club — Fighting Nations · presentado, en revisión"
             ]
           }
         },
@@ -5328,7 +5333,7 @@ const PAGES = {
         "El juego que llevamos con nosotros: Fighting Nations. La mayoría de las convocatorias de arriba se presentan con este título.",
         "Cada luchador representa a un país y su tradición marcial. Personajes de 13 países, solo a puño limpio.",
         "Kingdom Wars corre en navegador, así que se salta los stands físicos y va a eventos en línea.",
-        "La solicitud del Taipei Indie Game Award 2027, agosto de 2026. Los finalistas se anuncian el 14 de octubre."
+        "La solicitud del Taipei Indie Game Award 2027, 16 de agosto de 2026. Los finalistas se anuncian el 14 de octubre."
       ],
       cta: "Juega al juego que presentamos", back: "Volver a Deother"
     },
@@ -5346,9 +5351,10 @@ const PAGES = {
             items: [
               "31 de dezembro de 2025 · Concurso NC VARCO — Fighting Nations · submetido",
               "16 de janeiro de 2026 · NEOWIZ Quest — Fighting Nations · submetido",
-              "Agosto de 2026 · Taipei Indie Game Award 2027 — Fighting Nations · submetido; finalistas a 14 de outubro",
-              "Agosto de 2026 · Epic MegaGrants — Fighting Nations · submetido, em análise",
-              "Agosto de 2026 · Xsolla Funding Club — Fighting Nations · submetido, em análise"
+              "15 de agosto de 2026 · GWB Game Awards (Tencent) — Fighting Nations · submetido; gala em novembro",
+              "16 de agosto de 2026 · Taipei Indie Game Award 2027 — Fighting Nations · submetido; finalistas a 14 de outubro",
+              "16 de agosto de 2026 · Epic MegaGrants — Fighting Nations · submetido, em análise",
+              "16 de agosto de 2026 · Xsolla Funding Club — Fighting Nations · submetido, em análise"
             ]
           }
         },
@@ -5519,7 +5525,7 @@ const PAGES = {
         "O jogo que levamos connosco — Fighting Nations. A maioria das candidaturas acima é feita com este título.",
         "Cada lutador representa um país e a sua tradição marcial. Personagens de 13 países, só a punho limpo.",
         "O Kingdom Wars corre no navegador, por isso salta os stands físicos e vai a eventos online.",
-        "A candidatura ao Taipei Indie Game Award 2027, agosto de 2026. Os finalistas são anunciados a 14 de outubro."
+        "A candidatura ao Taipei Indie Game Award 2027, 16 de agosto de 2026. Os finalistas são anunciados a 14 de outubro."
       ],
       cta: "Joga o jogo que apresentamos", back: "Voltar a Deother"
     },
@@ -5537,9 +5543,10 @@ const PAGES = {
             items: [
               "31 décembre 2025 · Concours NC VARCO — Fighting Nations · déposé",
               "16 janvier 2026 · NEOWIZ Quest — Fighting Nations · déposé",
-              "Août 2026 · Taipei Indie Game Award 2027 — Fighting Nations · déposé ; finalistes le 14 octobre",
-              "Août 2026 · Epic MegaGrants — Fighting Nations · déposé, en cours d'examen",
-              "Août 2026 · Xsolla Funding Club — Fighting Nations · déposé, en cours d'examen"
+              "15 août 2026 · GWB Game Awards (Tencent) — Fighting Nations · déposé ; cérémonie en novembre",
+              "16 août 2026 · Taipei Indie Game Award 2027 — Fighting Nations · déposé ; finalistes le 14 octobre",
+              "16 août 2026 · Epic MegaGrants — Fighting Nations · déposé, en cours d'examen",
+              "16 août 2026 · Xsolla Funding Club — Fighting Nations · déposé, en cours d'examen"
             ]
           }
         },
@@ -5710,7 +5717,7 @@ const PAGES = {
         "Le jeu que nous emportons — Fighting Nations. La plupart des candidatures ci-dessus se font avec ce titre.",
         "Chaque combattant porte un pays et sa tradition martiale. Des personnages de 13 pays, à mains nues.",
         "Kingdom Wars tourne dans le navigateur : il saute les stands physiques et part vers les événements en ligne.",
-        "La candidature au Taipei Indie Game Award 2027, août 2026. Les finalistes sont annoncés le 14 octobre."
+        "La candidature au Taipei Indie Game Award 2027, 16 août 2026. Les finalistes sont annoncés le 14 octobre."
       ],
       cta: "Jouer au jeu que nous présentons", back: "Retour à Deother"
     },
@@ -5728,9 +5735,10 @@ const PAGES = {
             items: [
               "31. Dezember 2025 · NC-VARCO-Wettbewerb — Fighting Nations · eingereicht",
               "16. Januar 2026 · NEOWIZ Quest — Fighting Nations · eingereicht",
-              "August 2026 · Taipei Indie Game Award 2027 — Fighting Nations · eingereicht; Finalisten am 14. Oktober",
-              "August 2026 · Epic MegaGrants — Fighting Nations · eingereicht, in Prüfung",
-              "August 2026 · Xsolla Funding Club — Fighting Nations · eingereicht, in Prüfung"
+              "15. August 2026 · GWB Game Awards (Tencent) — Fighting Nations · eingereicht; Verleihung im November",
+              "16. August 2026 · Taipei Indie Game Award 2027 — Fighting Nations · eingereicht; Finalisten am 14. Oktober",
+              "16. August 2026 · Epic MegaGrants — Fighting Nations · eingereicht, in Prüfung",
+              "16. August 2026 · Xsolla Funding Club — Fighting Nations · eingereicht, in Prüfung"
             ]
           }
         },
@@ -5901,7 +5909,7 @@ const PAGES = {
         "Das Spiel, das wir mitnehmen — Fighting Nations. Die meisten Ausschreibungen oben laufen über diesen Titel.",
         "Jeder Kämpfer trägt ein Land und dessen Kampftradition. Figuren aus 13 Ländern, nur mit bloßen Händen.",
         "Kingdom Wars läuft im Browser und lässt die Stände daher aus — es geht zu Online-Events.",
-        "Die Bewerbung für den Taipei Indie Game Award 2027, August 2026. Die Finalisten werden am 14. Oktober bekannt gegeben."
+        "Die Bewerbung für den Taipei Indie Game Award 2027, 16. August 2026. Die Finalisten werden am 14. Oktober bekannt gegeben."
       ],
       cta: "Das Spiel spielen, das wir einreichen", back: "Zurück zu Deother"
     },
@@ -5919,9 +5927,10 @@ const PAGES = {
             items: [
               "31 декабря 2025 · Конкурс NC VARCO — Fighting Nations · подано",
               "16 января 2026 · NEOWIZ Quest — Fighting Nations · подано",
-              "Август 2026 · Taipei Indie Game Award 2027 — Fighting Nations · подано; финалисты 14 октября",
-              "Август 2026 · Epic MegaGrants — Fighting Nations · подано, на рассмотрении",
-              "Август 2026 · Xsolla Funding Club — Fighting Nations · подано, на рассмотрении"
+              "15 августа 2026 · GWB Game Awards (Tencent) — Fighting Nations · подано; церемония в ноябре",
+              "16 августа 2026 · Taipei Indie Game Award 2027 — Fighting Nations · подано; финалисты 14 октября",
+              "16 августа 2026 · Epic MegaGrants — Fighting Nations · подано, на рассмотрении",
+              "16 августа 2026 · Xsolla Funding Club — Fighting Nations · подано, на рассмотрении"
             ]
           }
         },
@@ -6092,7 +6101,7 @@ const PAGES = {
         "Игра, которую мы берём с собой, — Fighting Nations. Большинство конкурсов выше подаются именно с ней.",
         "Каждый боец несёт свою страну и её боевую традицию. Персонажи из 13 стран, только голые руки.",
         "Kingdom Wars работает в браузере, поэтому обходит физические стенды и идёт на онлайн-события.",
-        "Заявка на Taipei Indie Game Award 2027, август 2026 года. Финалистов объявят 14 октября."
+        "Заявка на Taipei Indie Game Award 2027, 16 августа 2026 года. Финалистов объявят 14 октября."
       ],
       cta: "Сыграть в игру, которую мы подаём", back: "Назад в Deother"
     },
@@ -6110,9 +6119,10 @@ const PAGES = {
             items: [
               "‏31 ديسمبر 2025 · مسابقة NC VARCO — Fighting Nations · قُدِّم",
               "‏16 يناير 2026 · NEOWIZ Quest — Fighting Nations · قُدِّم",
-              "‏أغسطس 2026 · Taipei Indie Game Award 2027 — Fighting Nations · قُدِّم، وتُعلن القائمة النهائية في 14 أكتوبر",
-              "‏أغسطس 2026 · Epic MegaGrants — Fighting Nations · قُدِّم، قيد المراجعة",
-              "‏أغسطس 2026 · Xsolla Funding Club — Fighting Nations · قُدِّم، قيد المراجعة"
+              "‏15 أغسطس 2026 · GWB Game Awards (تنسنت) — Fighting Nations · قُدِّم، والحفل في نوفمبر",
+              "‏16 أغسطس 2026 · Taipei Indie Game Award 2027 — Fighting Nations · قُدِّم، وتُعلن القائمة النهائية في 14 أكتوبر",
+              "‏16 أغسطس 2026 · Epic MegaGrants — Fighting Nations · قُدِّم، قيد المراجعة",
+              "‏16 أغسطس 2026 · Xsolla Funding Club — Fighting Nations · قُدِّم، قيد المراجعة"
             ]
           }
         },
@@ -6283,7 +6293,7 @@ const PAGES = {
         "‏اللعبة التي نحملها معنا — Fighting Nations. معظم المسارات أعلاه نتقدّم إليها بهذا العنوان.",
         "كل مقاتل يحمل بلدًا وتقليده القتالي. شخصيات من 13 دولة، بالأيدي العارية فقط.",
         "‏Kingdom Wars تعمل في المتصفّح، لذا تتخطّى الأجنحة الحضورية وتتّجه إلى الفعاليات الإلكترونية.",
-        "‏شاشة التقدّم إلى Taipei Indie Game Award 2027، أغسطس 2026. تُعلن القائمة النهائية في 14 أكتوبر."
+        "‏شاشة التقدّم إلى Taipei Indie Game Award 2027، 16 أغسطس 2026. تُعلن القائمة النهائية في 14 أكتوبر."
       ],
       cta: "‏جرّب اللعبة التي نتقدّم بها", back: "‏العودة إلى Deother"
     }
