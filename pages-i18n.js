@@ -67,46 +67,46 @@ const INDIECADE = "https://www.indiecade.com/";
 const PAGE_LIST_LINKS = {
   festivals: {
     // 1. 2026 하반기 — 지금 접수하는 것
-    "2.0": "https://gameinstitute.tencent.com/awards2026",   // GWB Game Awards
-    "2.1": "https://expoeva.com/",                            // EVA Play
-    "2.2": "https://tgs.tca.org.tw/indie_award_e.php",        // Taipei Indie Game Award
-    "2.3": NEXTFEST, "2.4": "https://mobidictum.com/", "2.5": "https://igf.com/",
-    "2.6": DEVGAMM, "2.7": GSTAR, "2.8": "https://www.demospree.com/",
+    "3.0": "https://gameinstitute.tencent.com/awards2026",   // GWB Game Awards
+    "3.1": "https://expoeva.com/",                            // EVA Play
+    "3.2": "https://tgs.tca.org.tw/indie_award_e.php",        // Taipei Indie Game Award
+    "3.3": NEXTFEST, "3.4": "https://mobidictum.com/", "3.5": "https://igf.com/",
+    "3.6": DEVGAMM, "3.7": GSTAR, "3.8": "https://www.demospree.com/",
     /* 1.9 BGM Game Expo — 공식 주소 확인 못 함 */
-    "2.10": DOTD, "2.11": BITSUM, "2.12": TGS_TW, "2.13": "https://pitchyagame.com/", "2.14": AMAZE,
+    "3.10": DOTD, "3.11": BITSUM, "3.12": TGS_TW, "3.13": "https://pitchyagame.com/", "3.14": AMAZE,
 
     // 2. 2026 하반기 — 열리는 자리
-    "3.0": TGS_JP, "3.1": "https://west.paxsite.com/", "3.2": NEXTFEST,
-    "3.3": GC_ASIA, "3.4": GSTAR, "3.5": DEVGAMM,
+    "4.0": TGS_JP, "4.1": "https://west.paxsite.com/", "4.2": NEXTFEST,
+    "4.3": GC_ASIA, "4.4": GSTAR, "4.5": DEVGAMM,
     /* 2.6 BGM Game Expo */
 
     // 3. 2027 상반기 접수 — 1~3월
-    "4.0": NEXTFEST, "4.1": GC_LATAM, "4.2": "https://neowizquest.com/",
-    "4.3": AMAZE, "4.4": TGS_JP, "4.5": IAB, "4.6": GSTAR,
+    "5.0": NEXTFEST, "5.1": GC_LATAM, "5.2": "https://neowizquest.com/",
+    "5.3": AMAZE, "5.4": TGS_JP, "5.5": IAB, "5.6": GSTAR,
 
     // 4. 2027 상반기 접수 — 4~6월
-    "5.0": DOTD,
+    "6.0": DOTD,
     /* 4.1 스마일게이트 IndieGo — 회차마다 페이지가 달라 상시 주소가 없다 */
-    "5.2": IAB, "5.3": TGS_JP, "5.4": "https://www.yogscast.games/tinyteams", "5.5": GSTAR,
-    "5.6": "https://www.indiecraft.or.kr/",
+    "6.2": IAB, "6.3": TGS_JP, "6.4": "https://www.yogscast.games/tinyteams", "6.5": GSTAR,
+    "6.6": "https://www.indiecraft.or.kr/",
     /* 4.7 NC VARCO — 회차별 공모라 상시 주소가 없다 */
-    "5.8": GC_DEV, "5.9": BIC, "5.10": GSTAR, "5.11": GC_ASIA,
-    "5.12": INDIECADE, "5.13": "https://www.gigdc.or.kr/",
-    "5.14": "https://www.ludonarracon.com/", "5.15": GSTAR,
+    "6.8": GC_DEV, "6.9": BIC, "6.10": GSTAR, "6.11": GC_ASIA,
+    "6.12": INDIECADE, "6.13": "https://www.gigdc.or.kr/",
+    "6.14": "https://www.ludonarracon.com/", "6.15": GSTAR,
 
     // 5. 2027 개최 일정
-    "6.0": TGS_TW, "6.1": INDIECADE, "6.2": NEXTFEST, "6.3": "https://gdconf.com/",
-    "6.4": GC_LATAM, "6.5": AMAZE, "6.6": BITSUM,
-    "6.7": "https://conference.digitaldragons.pl/", "6.8": NEXTFEST,
-    "6.9": "https://www.developconference.com/", "6.10": BIC,
-    "6.11": "https://www.gamescom.global/", "6.12": TGS_JP, "6.13": GSTAR,
+    "7.0": TGS_TW, "7.1": INDIECADE, "7.2": NEXTFEST, "7.3": "https://gdconf.com/",
+    "7.4": GC_LATAM, "7.5": AMAZE, "7.6": BITSUM,
+    "7.7": "https://conference.digitaldragons.pl/", "7.8": NEXTFEST,
+    "7.9": "https://www.developconference.com/", "7.10": BIC,
+    "7.11": "https://www.gamescom.global/", "7.12": TGS_JP, "7.13": GSTAR,
 
     // 6. 마감이 없는 상시 트랙
-    "7.0": "https://www.bigindiepitch.com/",
-    "7.1": "https://www.unrealengine.com/megagrants",
-    "7.2": "https://indie.live-expo.games/en/",
-    "7.3": "https://west.paxsite.com/en-us/features/pax-rising-showcase.html",
-    "7.4": GC_DEV, "7.5": "https://partner.steamgames.com/",
+    "8.0": "https://www.bigindiepitch.com/",
+    "8.1": "https://www.unrealengine.com/megagrants",
+    "8.2": "https://indie.live-expo.games/en/",
+    "8.3": "https://west.paxsite.com/en-us/features/pax-rising-showcase.html",
+    "8.4": GC_DEV, "8.5": "https://partner.steamgames.com/",
   },
 };
 
@@ -116,23 +116,23 @@ const PAGE_LIST_LINKS = {
 const PAGE_LIST_FLAGS = {
   festivals: {
     // 1. 2026 하반기 접수
-    "2.0": "🇨🇳", "2.1": "🇦🇷", "2.2": "🇹🇼", "2.3": "🌐", "2.4": "🇹🇷", "2.5": "🇺🇸",
-    "2.6": "🌐", "2.7": "🇰🇷", "2.8": "🌐", "2.9": "🇨🇳", "2.10": "🌐", "2.11": "🇯🇵",
-    "2.12": "🇹🇼", "2.13": "🌐", "2.14": "🇩🇪",
+    "3.0": "🇨🇳", "3.1": "🇦🇷", "3.2": "🇹🇼", "3.3": "🌐", "3.4": "🇹🇷", "3.5": "🇺🇸",
+    "3.6": "🌐", "3.7": "🇰🇷", "3.8": "🌐", "3.9": "🇨🇳", "3.10": "🌐", "3.11": "🇯🇵",
+    "3.12": "🇹🇼", "3.13": "🌐", "3.14": "🇩🇪",
     // 2. 2026 하반기 개최
-    "3.0": "🇯🇵", "3.1": "🇺🇸", "3.2": "🌐", "3.3": "🇹🇭", "3.4": "🇰🇷", "3.5": "🌐", "3.6": "🇨🇳",
+    "4.0": "🇯🇵", "4.1": "🇺🇸", "4.2": "🌐", "4.3": "🇹🇭", "4.4": "🇰🇷", "4.5": "🌐", "4.6": "🇨🇳",
     // 3. 2027 1~3월 접수
-    "4.0": "🌐", "4.1": "🇧🇷", "4.2": "🇰🇷", "4.3": "🇩🇪", "4.4": "🇯🇵", "4.5": "🇩🇪", "4.6": "🇰🇷",
+    "5.0": "🌐", "5.1": "🇧🇷", "5.2": "🇰🇷", "5.3": "🇩🇪", "5.4": "🇯🇵", "5.5": "🇩🇪", "5.6": "🇰🇷",
     // 4. 2027 4~6월 접수
-    "5.0": "🌐", "5.1": "🇰🇷", "5.2": "🇩🇪", "5.3": "🇯🇵", "5.4": "🌐", "5.5": "🇰🇷",
-    "5.6": "🇰🇷", "5.7": "🇰🇷", "5.8": "🇩🇪", "5.9": "🇰🇷", "5.10": "🇰🇷", "5.11": "🇹🇭",
-    "5.12": "🇺🇸", "5.13": "🇰🇷", "5.14": "🌐", "5.15": "🇰🇷",
+    "6.0": "🌐", "6.1": "🇰🇷", "6.2": "🇩🇪", "6.3": "🇯🇵", "6.4": "🌐", "6.5": "🇰🇷",
+    "6.6": "🇰🇷", "6.7": "🇰🇷", "6.8": "🇩🇪", "6.9": "🇰🇷", "6.10": "🇰🇷", "6.11": "🇹🇭",
+    "6.12": "🇺🇸", "6.13": "🇰🇷", "6.14": "🌐", "6.15": "🇰🇷",
     // 5. 2027 개최 일정
-    "6.0": "🇹🇼", "6.1": "🇺🇸", "6.2": "🌐", "6.3": "🇺🇸", "6.4": "🇧🇷", "6.5": "🇩🇪",
-    "6.6": "🇯🇵", "6.7": "🇵🇱", "6.8": "🌐", "6.9": "🇬🇧", "6.10": "🇰🇷", "6.11": "🇩🇪",
-    "6.12": "🇯🇵", "6.13": "🇰🇷",
+    "7.0": "🇹🇼", "7.1": "🇺🇸", "7.2": "🌐", "7.3": "🇺🇸", "7.4": "🇧🇷", "7.5": "🇩🇪",
+    "7.6": "🇯🇵", "7.7": "🇵🇱", "7.8": "🌐", "7.9": "🇬🇧", "7.10": "🇰🇷", "7.11": "🇩🇪",
+    "7.12": "🇯🇵", "7.13": "🇰🇷",
     // 6. 상시 트랙 — 전부 온라인이거나 여러 도시를 도는 것
-    "7.0": "🌐", "7.1": "🌐", "7.2": "🌐", "7.3": "🇺🇸", "7.4": "🇩🇪", "7.5": "🌐",
+    "8.0": "🌐", "8.1": "🌐", "8.2": "🌐", "8.3": "🇺🇸", "8.4": "🇩🇪", "8.5": "🌐",
   },
 };
 
@@ -4422,10 +4422,24 @@ const PAGES = {
               "2026년 5월 7일 마감 · 서울 플레이업 AI 게임 챌린지 · 접수 완료",
               "2026년 6월 3일 마감 · 스마일게이트 멤버십(SGM) 인디게임 18기 · 접수 완료",
               "2026년 6월 25일 마감 · GIGDC 2026 글로벌 인디 게임제작 경진대회 — 밀리버스 · 접수 완료",
+              "2026년 7월 31일 마감 · 2026 경기 가상융합 콘텐츠 챌린지 (총상금 1,000만원) · 발표심사 8월 25일 · 접수 완료",
+              "2026년 8월 20일 마감 · 제21회 경기 게임 오디션 (총상금 2억원) · 접수 완료",
               "2026년 8월 15일 · GWB 게임 어워드 (텐센트) — Fighting Nations · 접수 완료, 11월 시상식",
               "2026년 8월 16일 · Taipei Indie Game Award 2027 — Fighting Nations · 접수 완료, 파이널리스트 발표 10월 14일",
               "2026년 8월 16일 · Epic MegaGrants (하반기) — Fighting Nations · 접수 완료, 심사 중",
               "2026년 8월 16일 · Xsolla Funding Club — Fighting Nations · 접수 완료, 검토 중"
+            ]
+          }
+        },
+        {
+          h: "지금까지 받은 것",
+          p: ["공모전만 낸 것이 아니라, 필요한 기술은 직접 배웠습니다. 아래는 실제로 수료한 과정입니다."],
+          list: {
+            h: "교육 수료",
+            items: [
+              "2026년 7월 12일 · 한국인터넷진흥원(KISA) 「2026 블록체인 밋업데이 — 생성형 AI를 활용한 블록체인 서비스 개발」 · ✅ 수료",
+              "2026년 7월 30일 · 경기콘텐츠진흥원 「2026 경기 가상융합 캠퍼스」 정규 과정 — 언리얼 엔진을 이용한 시네마틱 영상 제작 (20시간) · ✅ 수료",
+              "2026년 8월 6일 · 경기콘텐츠진흥원 「2026 경기 가상융합 캠퍼스」 정규 과정 — 언리얼 엔진과 AI를 활용한 AI NPC 제작 (20시간) · ✅ 수료"
             ]
           }
         },
@@ -4647,10 +4661,24 @@ const PAGES = {
               "deadline 7 May 2026 · Seoul Play Up AI Game Challenge · submitted",
               "deadline 3 June 2026 · Smilegate Membership (SGM) indie game batch 18 · submitted",
               "deadline 25 June 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · submitted",
+              "deadline 31 July 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge · final judging 25 August · submitted",
+              "deadline 20 August 2026 · 21st Gyeonggi Game Audition · submitted",
               "15 August 2026 · GWB Game Awards (Tencent) — Fighting Nations · submitted, ceremony in November",
               "16 August 2026 · Taipei Indie Game Award 2027 — Fighting Nations · submitted, finalists announced 14 October",
               "16 August 2026 · Epic MegaGrants (H2) — Fighting Nations · submitted, under review",
               "16 August 2026 · Xsolla Funding Club — Fighting Nations · submitted, under review"
+            ]
+          }
+        },
+        {
+          h: "What we have earned",
+          p: ["We did not only send entries — we went and learned what we needed. These are courses actually completed."],
+          list: {
+            h: "Courses completed",
+            items: [
+              "12 July 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: building blockchain services with generative AI · ✅ completed",
+              "30 July 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: cinematic filmmaking in Unreal Engine (20 hours) · ✅ completed",
+              "6 August 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: building AI NPCs with Unreal Engine and AI (20 hours) · ✅ completed"
             ]
           }
         },
@@ -4871,10 +4899,24 @@ const PAGES = {
               "2026 年 5 月 7 日截止 · 首尔 Play Up AI 游戏挑战赛 · 已递交",
               "2026 年 6 月 3 日截止 · Smilegate Membership（SGM）独立游戏第 18 期 · 已递交",
               "2026 年 6 月 25 日截止 · GIGDC 2026 全球独立游戏制作大赛 — Miliverse · 已递交",
+              "2026 年 7 月 31 日截止 · 2026 京畿虚拟融合内容挑战赛 · 8 月 25 日终审 · 已递交",
+              "2026 年 8 月 20 日截止 · 第 21 届 京畿游戏甄选（GYEONGGI GAME AUDITION） · 已递交",
               "2026 年 8 月 15 日 · GWB 游戏大奖（腾讯）— Fighting Nations · 已递交，11 月颁奖",
               "2026 年 8 月 16 日 · Taipei Indie Game Award 2027 — Fighting Nations · 已递交，10 月 14 日公布入围名单",
               "2026 年 8 月 16 日 · Epic MegaGrants （下半年） — Fighting Nations · 已递交，审核中",
               "2026 年 8 月 16 日 · Xsolla Funding Club — Fighting Nations · 已递交，审核中"
+            ]
+          }
+        },
+        {
+          h: "至今获得的",
+          p: ["我们不只是递交作品，需要的技术就去学。以下是实际结业的课程。"],
+          list: {
+            h: "结业课程",
+            items: [
+              "2026 年 7 月 12 日 · 韩国互联网振兴院（KISA）「2026 区块链 Meetup Day — 用生成式 AI 开发区块链服务」 · ✅ 结业",
+              "2026 年 7 月 30 日 · 京畿内容振兴院「2026 京畿虚拟融合校区」正规课程 — 用虚幻引擎制作电影级影像（20 小时） · ✅ 结业",
+              "2026 年 8 月 6 日 · 京畿内容振兴院「2026 京畿虚拟融合校区」正规课程 — 用虚幻引擎与 AI 制作 AI NPC（20 小时） · ✅ 结业"
             ]
           }
         },
@@ -5095,10 +5137,24 @@ const PAGES = {
               "2026年5月7日締切 · ソウル プレイアップ AI ゲームチャレンジ · 応募済み",
               "2026年6月3日締切 · スマイルゲート メンバーシップ（SGM）インディーゲーム 18 期 · 応募済み",
               "2026年6月25日締切 · GIGDC 2026 グローバル インディーゲーム制作コンテスト — ミリバース · 応募済み",
+              "2026年7月31日締切 · 2026 京畿 バーチャル融合コンテンツ チャレンジ · 最終審査は 8 月 25 日 · 応募済み",
+              "2026年8月20日締切 · 第 21 回 京畿ゲームオーディション · 応募済み",
               "2026年8月15日 · GWB ゲームアワード（テンセント）— Fighting Nations · 応募済み、11月に授賞式",
               "2026年8月16日 · Taipei Indie Game Award 2027 — Fighting Nations · 応募済み、ファイナリスト発表は10月14日",
               "2026年8月16日 · Epic MegaGrants （下半期） — Fighting Nations · 応募済み、審査中",
               "2026年8月16日 · Xsolla Funding Club — Fighting Nations · 応募済み、審査中"
+            ]
+          }
+        },
+        {
+          h: "これまでに得たもの",
+          p: ["応募しただけではありません。必要な技術は自分で学びました。以下は実際に修了した課程です。"],
+          list: {
+            h: "修了課程",
+            items: [
+              "2026年7月12日 · 韓国インターネット振興院（KISA）「2026 ブロックチェーン ミートアップデー — 生成 AI を活用したブロックチェーンサービス開発」 · ✅ 修了",
+              "2026年7月30日 · 京畿コンテンツ振興院「2026 京畿 バーチャル融合キャンパス」正規課程 — アンリアルエンジンによるシネマティック映像制作（20時間） · ✅ 修了",
+              "2026年8月6日 · 京畿コンテンツ振興院「2026 京畿 バーチャル融合キャンパス」正規課程 — アンリアルエンジンと AI による AI NPC 制作（20時間） · ✅ 修了"
             ]
           }
         },
@@ -5319,10 +5375,24 @@ const PAGES = {
               "cierre 7 de mayo de 2026 · Seoul Play Up AI Game Challenge · presentado",
               "cierre 3 de junio de 2026 · Smilegate Membership (SGM), 18.ª promoción indie · presentado",
               "cierre 25 de junio de 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · presentado",
+              "cierre 31 de julio de 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge · fallo final el 25 de agosto · presentado",
+              "cierre 20 de agosto de 2026 · 21.ª Gyeonggi Game Audition · presentado",
               "15 de agosto de 2026 · GWB Game Awards (Tencent) — Fighting Nations · presentado; gala en noviembre",
               "16 de agosto de 2026 · Taipei Indie Game Award 2027 — Fighting Nations · presentado; finalistas el 14 de octubre",
               "16 de agosto de 2026 · Epic MegaGrants (2.º semestre) — Fighting Nations · presentado, en revisión",
               "16 de agosto de 2026 · Xsolla Funding Club — Fighting Nations · presentado, en revisión"
+            ]
+          }
+        },
+        {
+          h: "Lo que hemos obtenido",
+          p: ["No solo enviamos candidaturas: aprendimos lo que hacía falta. Estos son cursos realmente completados."],
+          list: {
+            h: "Cursos completados",
+            items: [
+              "12 de julio de 2026 · Agencia de Internet y Seguridad de Corea (KISA) — Blockchain Meetup Day 2026: servicios blockchain con IA generativa · ✅ completado",
+              "30 de julio de 2026 · Agencia de Contenidos de Gyeonggi — Gyeonggi Metaverse Campus 2026: cine con Unreal Engine (20 horas) · ✅ completado",
+              "6 de agosto de 2026 · Agencia de Contenidos de Gyeonggi — Gyeonggi Metaverse Campus 2026: NPC con IA en Unreal Engine (20 horas) · ✅ completado"
             ]
           }
         },
@@ -5543,10 +5613,24 @@ const PAGES = {
               "prazo 7 de maio de 2026 · Seoul Play Up AI Game Challenge · submetido",
               "prazo 3 de junho de 2026 · Smilegate Membership (SGM), 18.ª turma indie · submetido",
               "prazo 25 de junho de 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · submetido",
+              "prazo 31 de julho de 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge · decisão final a 25 de agosto · submetido",
+              "prazo 20 de agosto de 2026 · 21.ª Gyeonggi Game Audition · submetido",
               "15 de agosto de 2026 · GWB Game Awards (Tencent) — Fighting Nations · submetido; gala em novembro",
               "16 de agosto de 2026 · Taipei Indie Game Award 2027 — Fighting Nations · submetido; finalistas a 14 de outubro",
               "16 de agosto de 2026 · Epic MegaGrants (2.º semestre) — Fighting Nations · submetido, em análise",
               "16 de agosto de 2026 · Xsolla Funding Club — Fighting Nations · submetido, em análise"
+            ]
+          }
+        },
+        {
+          h: "O que já conquistámos",
+          p: ["Não enviámos apenas candidaturas: fomos aprender o que era preciso. Estes são cursos efetivamente concluídos."],
+          list: {
+            h: "Cursos concluídos",
+            items: [
+              "12 de julho de 2026 · Agência de Internet e Segurança da Coreia (KISA) — Blockchain Meetup Day 2026: serviços blockchain com IA generativa · ✅ concluído",
+              "30 de julho de 2026 · Agência de Conteúdos de Gyeonggi — Gyeonggi Metaverse Campus 2026: cinema com Unreal Engine (20 horas) · ✅ concluído",
+              "6 de agosto de 2026 · Agência de Conteúdos de Gyeonggi — Gyeonggi Metaverse Campus 2026: NPC com IA no Unreal Engine (20 horas) · ✅ concluído"
             ]
           }
         },
@@ -5767,10 +5851,24 @@ const PAGES = {
               "clôture 7 mai 2026 · Seoul Play Up AI Game Challenge · déposé",
               "clôture 3 juin 2026 · Smilegate Membership (SGM), 18e promotion indé · déposé",
               "clôture 25 juin 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · déposé",
+              "clôture 31 juillet 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge · jury final le 25 août · déposé",
+              "clôture 20 août 2026 · 21e Gyeonggi Game Audition · déposé",
               "15 août 2026 · GWB Game Awards (Tencent) — Fighting Nations · déposé ; cérémonie en novembre",
               "16 août 2026 · Taipei Indie Game Award 2027 — Fighting Nations · déposé ; finalistes le 14 octobre",
               "16 août 2026 · Epic MegaGrants (2e semestre) — Fighting Nations · déposé, en cours d'examen",
               "16 août 2026 · Xsolla Funding Club — Fighting Nations · déposé, en cours d'examen"
+            ]
+          }
+        },
+        {
+          h: "Ce que nous avons obtenu",
+          p: ["Nous n'avons pas fait qu'envoyer des candidatures : nous sommes allés apprendre ce qu'il fallait. Voici les formations réellement validées."],
+          list: {
+            h: "Formations validées",
+            items: [
+              "12 juillet 2026 · Agence coréenne de l'internet et de la sécurité (KISA) — Blockchain Meetup Day 2026 : services blockchain et IA générative · ✅ validé",
+              "30 juillet 2026 · Agence des contenus de Gyeonggi — Gyeonggi Metaverse Campus 2026 : cinématique sous Unreal Engine (20 heures) · ✅ validé",
+              "6 août 2026 · Agence des contenus de Gyeonggi — Gyeonggi Metaverse Campus 2026 : PNJ pilotés par IA sous Unreal Engine (20 heures) · ✅ validé"
             ]
           }
         },
@@ -5991,10 +6089,24 @@ const PAGES = {
               "Frist 7. Mai 2026 · Seoul Play Up AI Game Challenge · eingereicht",
               "Frist 3. Juni 2026 · Smilegate Membership (SGM), 18. Indie-Jahrgang · eingereicht",
               "Frist 25. Juni 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · eingereicht",
+              "Frist 31. Juli 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge · Endjury am 25. August · eingereicht",
+              "Frist 20. August 2026 · 21. Gyeonggi Game Audition · eingereicht",
               "15. August 2026 · GWB Game Awards (Tencent) — Fighting Nations · eingereicht; Verleihung im November",
               "16. August 2026 · Taipei Indie Game Award 2027 — Fighting Nations · eingereicht; Finalisten am 14. Oktober",
               "16. August 2026 · Epic MegaGrants (2. Halbjahr) — Fighting Nations · eingereicht, in Prüfung",
               "16. August 2026 · Xsolla Funding Club — Fighting Nations · eingereicht, in Prüfung"
+            ]
+          }
+        },
+        {
+          h: "Was wir erreicht haben",
+          p: ["Wir haben nicht nur eingereicht — wir haben gelernt, was nötig war. Dies sind tatsächlich abgeschlossene Kurse."],
+          list: {
+            h: "Abgeschlossene Kurse",
+            items: [
+              "12. Juli 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: Blockchain-Dienste mit generativer KI · ✅ abgeschlossen",
+              "30. Juli 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: Cinematics in der Unreal Engine (20 Stunden) · ✅ abgeschlossen",
+              "6. August 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: KI-NPCs mit Unreal Engine und KI (20 Stunden) · ✅ abgeschlossen"
             ]
           }
         },
@@ -6215,10 +6327,24 @@ const PAGES = {
               "дедлайн 7 мая 2026 · Seoul Play Up AI Game Challenge · подано",
               "дедлайн 3 июня 2026 · Smilegate Membership (SGM), 18-й инди-набор · подано",
               "дедлайн 25 июня 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · подано",
+              "дедлайн 31 июля 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge · финальное жюри 25 августа · подано",
+              "дедлайн 20 августа 2026 · 21-й Gyeonggi Game Audition · подано",
               "15 августа 2026 · GWB Game Awards (Tencent) — Fighting Nations · подано; церемония в ноябре",
               "16 августа 2026 · Taipei Indie Game Award 2027 — Fighting Nations · подано; финалисты 14 октября",
               "16 августа 2026 · Epic MegaGrants (2-е полугодие) — Fighting Nations · подано, на рассмотрении",
               "16 августа 2026 · Xsolla Funding Club — Fighting Nations · подано, на рассмотрении"
+            ]
+          }
+        },
+        {
+          h: "Что мы получили",
+          p: ["Мы не только подавали заявки — мы шли и учились тому, что нужно. Ниже — реально пройденные курсы."],
+          list: {
+            h: "Пройденные курсы",
+            items: [
+              "12 июля 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: блокчейн-сервисы на генеративном ИИ · ✅ пройдено",
+              "30 июля 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: кинематографика в Unreal Engine (20 часов) · ✅ пройдено",
+              "6 августа 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: ИИ-NPC на Unreal Engine (20 часов) · ✅ пройдено"
             ]
           }
         },
@@ -6439,10 +6565,24 @@ const PAGES = {
               "‏الموعد النهائي 7 مايو 2026 · تحدي سيول Play Up لألعاب الذكاء الاصطناعي · قُدِّم",
               "‏الموعد النهائي 3 يونيو 2026 · عضوية Smilegate (SGM) — الدفعة 18 للألعاب المستقلة · قُدِّم",
               "‏الموعد النهائي 25 يونيو 2026 · مسابقة GIGDC 2026 العالمية لصناعة الألعاب المستقلة — Miliverse · قُدِّم",
+              "‏الموعد النهائي 31 يوليو 2026 · تحدي محتوى الاندماج الافتراضي كيونغي 2026 · التحكيم النهائي في 25 أغسطس · قُدِّم",
+              "‏الموعد النهائي 20 أغسطس 2026 · النسخة 21 من Gyeonggi Game Audition · قُدِّم",
               "‏15 أغسطس 2026 · GWB Game Awards (تنسنت) — Fighting Nations · قُدِّم، والحفل في نوفمبر",
               "‏16 أغسطس 2026 · Taipei Indie Game Award 2027 — Fighting Nations · قُدِّم، وتُعلن القائمة النهائية في 14 أكتوبر",
               "‏16 أغسطس 2026 · Epic MegaGrants (النصف الثاني) — Fighting Nations · قُدِّم، قيد المراجعة",
               "‏16 أغسطس 2026 · Xsolla Funding Club — Fighting Nations · قُدِّم، قيد المراجعة"
+            ]
+          }
+        },
+        {
+          h: "ما حصلنا عليه",
+          p: ["لم نكتفِ بالتقديم — تعلّمنا ما نحتاجه. في ما يلي دورات أنهيناها فعلاً."],
+          list: {
+            h: "دورات مُنجَزة",
+            items: [
+              "‏12 يوليو 2026 · الوكالة الكورية للإنترنت والأمن (KISA) — يوم ملتقى البلوك تشين 2026: بناء خدمات بلوك تشين بالذكاء الاصطناعي التوليدي · ✅ مُنجَز",
+              "‏30 يوليو 2026 · وكالة محتوى كيونغي — حرم كيونغي للاندماج الافتراضي 2026: صناعة اللقطات السينمائية في Unreal Engine (20 ساعة) · ✅ مُنجَز",
+              "‏6 أغسطس 2026 · وكالة محتوى كيونغي — حرم كيونغي للاندماج الافتراضي 2026: بناء شخصيات NPC بالذكاء الاصطناعي في Unreal Engine (20 ساعة) · ✅ مُنجَز"
             ]
           }
         },
