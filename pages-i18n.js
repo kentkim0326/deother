@@ -4433,10 +4433,11 @@ const PAGES = {
         },
         {
           h: "지금까지 받은 것",
-          p: ["공모전만 낸 것이 아니라, 필요한 기술은 직접 배웠습니다. 2025년 10월부터 열두 과정을 수료했습니다 — 언리얼 엔진과 생성형 AI, 블록체인·솔리디티, 그리고 인공지능·디지털 자산 국제표준."],
+          p: ["공모전만 낸 것이 아니라, 필요한 기술은 직접 배웠습니다. 2025년 8월부터 열세 과정을 수료했습니다 — 유니티와 언리얼 엔진, 생성형 AI와 리얼리티 캡처, 블록체인·솔리디티, 그리고 인공지능·디지털 자산 국제표준."],
           list: {
             h: "교육 수료",
             items: [
+              "2025년 8월 29일 · 경기콘텐츠진흥원 「2025 경기 메타버스 캠퍼스」 정규 과정 — 유니티 활용 실무 프로젝트 기반 메타버스 플랫폼 콘텐츠 제작 (100시간) · ✅ 수료",
               "2025년 10월 31일 · (사)한국메타버스산업협회 — 언리얼 기반 생성형 AI 및 리얼리티 캡처 활용 콘텐츠 제작 과정 (60시간) · ✅ 수료",
               "2025년 11월 4일 · 경기게임아카데미 2025 역량강화과정 — 「AI 활용 게임 개발자 교육」 9·10차 · ✅ 수료",
               "2026년 4월 23일 · 동그라미재단 AI 아카데미 3기 — AI 바이브 코딩 (15시간) · ✅ 수료",
@@ -4681,10 +4682,11 @@ const PAGES = {
         },
         {
           h: "What we have earned",
-          p: ["We did not only send entries — we went and learned what we needed. Twelve courses completed since October 2025: Unreal Engine and generative AI, blockchain and Solidity, and international standards for AI and digital assets."],
+          p: ["We did not only send entries — we went and learned what we needed. Thirteen courses completed since August 2025: Unity and Unreal Engine, generative AI and reality capture, blockchain and Solidity, and international standards for AI and digital assets."],
           list: {
             h: "Courses completed",
             items: [
+              "29 August 2025 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2025: project-based metaverse platform content production in Unity (100 hours) · ✅ completed",
               "31 October 2025 · Korea Metaverse Industry Association — content production with Unreal-based generative AI and reality capture (60 hours) · ✅ completed",
               "4 November 2025 · Gyeonggi Game Academy 2025 — AI-assisted game developer training (sessions 9 and 10) · ✅ completed",
               "23 April 2026 · The Circle Foundation AI Academy, cohort 3 — AI vibe coding (15 hours) · ✅ completed",
@@ -4928,10 +4930,11 @@ const PAGES = {
         },
         {
           h: "至今获得的",
-          p: ["我们不只是递交作品，需要的技术就去学。自 2025 年 10 月起结业十二门课程 — 虚幻引擎与生成式 AI、区块链与 Solidity，以及人工智能和数字资产国际标准。"],
+          p: ["我们不只是递交作品，需要的技术就去学。自 2025 年 8 月起结业十三门课程 — Unity 与虚幻引擎、生成式 AI 与实景捕捉、区块链与 Solidity，以及人工智能和数字资产国际标准。"],
           list: {
             h: "结业课程",
             items: [
+              "2025 年 8 月 29 日 · 京畿内容振兴院「2025 京畿元宇宙校区」正规课程 — 基于实务项目的 Unity 元宇宙平台内容制作 （100 小时） · ✅ 结业",
               "2025 年 10 月 31 日 · 韩国元宇宙产业协会 — 基于虚幻引擎的生成式 AI 与实景捕捉内容制作课程 （60 小时） · ✅ 结业",
               "2025 年 11 月 4 日 · 京畿游戏学院 2025 能力强化课程 —「AI 应用游戏开发者教育」第 9·10 讲 · ✅ 结业",
               "2026 年 4 月 23 日 · The Circle Foundation AI 学院第 3 期 — AI Vibe Coding （15 小时） · ✅ 结业",
@@ -5175,10 +5178,11 @@ const PAGES = {
         },
         {
           h: "これまでに得たもの",
-          p: ["応募しただけではありません。必要な技術は自分で学びました。2025年10月から十二の課程を修了しました — アンリアルエンジンと生成 AI、ブロックチェーンと Solidity、そして人工知能・デジタル資産の国際標準。"],
+          p: ["応募しただけではありません。必要な技術は自分で学びました。2025年8月から十三の課程を修了しました — Unity とアンリアルエンジン、生成 AI とリアリティキャプチャ、ブロックチェーンと Solidity、そして人工知能・デジタル資産の国際標準。"],
           list: {
             h: "修了課程",
             items: [
+              "2025年8月29日 · 京畿コンテンツ振興院「2025 京畿メタバースキャンパス」正規課程 — Unity 実務プロジェクト基盤 メタバースプラットフォーム コンテンツ制作 （100時間） · ✅ 修了",
               "2025年10月31日 · 韓国メタバース産業協会 — アンリアルエンジンによる生成 AI・リアリティキャプチャ活用コンテンツ制作課程 （60時間） · ✅ 修了",
               "2025年11月4日 · 京畿ゲームアカデミー 2025 力量強化課程 — 「AI 活用ゲーム開発者教育」第 9・10 回 · ✅ 修了",
               "2026年4月23日 · トングラミ財団 AI アカデミー 3 期 — AI バイブコーディング （15時間） · ✅ 修了",
@@ -5422,10 +5426,11 @@ const PAGES = {
         },
         {
           h: "Lo que hemos obtenido",
-          p: ["No solo enviamos candidaturas: aprendimos lo que hacía falta. Doce cursos completados desde octubre de 2025: Unreal Engine e IA generativa, blockchain y Solidity, y estándares internacionales de IA y activos digitales."],
+          p: ["No solo enviamos candidaturas: aprendimos lo que hacía falta. Trece cursos completados desde agosto de 2025: Unity y Unreal Engine, IA generativa y captura de realidad, blockchain y Solidity, y estándares internacionales de IA y activos digitales."],
           list: {
             h: "Cursos completados",
             items: [
+              "29 de agosto de 2025 · Agencia de Contenidos de Gyeonggi — Gyeonggi Metaverse Campus 2025: producción de contenidos para plataformas de metaverso con Unity, basada en proyectos (100 horas) · ✅ completado",
               "31 de octubre de 2025 · Asociación Coreana de la Industria del Metaverso — producción de contenidos con IA generativa sobre Unreal y captura de realidad (60 horas) · ✅ completado",
               "4 de noviembre de 2025 · Gyeonggi Game Academy 2025 — formación de desarrolladores de juegos con IA (sesiones 9 y 10) · ✅ completado",
               "23 de abril de 2026 · The Circle Foundation AI Academy, 3.ª promoción — AI vibe coding (15 horas) · ✅ completado",
@@ -5669,10 +5674,11 @@ const PAGES = {
         },
         {
           h: "O que já conquistámos",
-          p: ["Não enviámos apenas candidaturas: fomos aprender o que era preciso. Doze cursos concluídos desde outubro de 2025: Unreal Engine e IA generativa, blockchain e Solidity, e normas internacionais de IA e ativos digitais."],
+          p: ["Não enviámos apenas candidaturas: fomos aprender o que era preciso. Treze cursos concluídos desde agosto de 2025: Unity e Unreal Engine, IA generativa e captura de realidade, blockchain e Solidity, e normas internacionais de IA e ativos digitais."],
           list: {
             h: "Cursos concluídos",
             items: [
+              "29 de agosto de 2025 · Agência de Conteúdos de Gyeonggi — Gyeonggi Metaverse Campus 2025: produção de conteúdos para plataformas de metaverso em Unity, baseada em projetos (100 horas) · ✅ concluído",
               "31 de outubro de 2025 · Associação Coreana da Indústria do Metaverso — produção de conteúdos com IA generativa sobre Unreal e captura de realidade (60 horas) · ✅ concluído",
               "4 de novembro de 2025 · Gyeonggi Game Academy 2025 — formação de programadores de jogos com IA (sessões 9 e 10) · ✅ concluído",
               "23 de abril de 2026 · The Circle Foundation AI Academy, 3.ª turma — AI vibe coding (15 horas) · ✅ concluído",
@@ -5916,10 +5922,11 @@ const PAGES = {
         },
         {
           h: "Ce que nous avons obtenu",
-          p: ["Nous n'avons pas fait qu'envoyer des candidatures : nous sommes allés apprendre ce qu'il fallait. Douze formations validées depuis octobre 2025 : Unreal Engine et IA générative, blockchain et Solidity, et normes internationales de l'IA et des actifs numériques."],
+          p: ["Nous n'avons pas fait qu'envoyer des candidatures : nous sommes allés apprendre ce qu'il fallait. Treize formations validées depuis août 2025 : Unity et Unreal Engine, IA générative et capture de réalité, blockchain et Solidity, et normes internationales de l'IA et des actifs numériques."],
           list: {
             h: "Formations validées",
             items: [
+              "29 août 2025 · Agence des contenus de Gyeonggi — Gyeonggi Metaverse Campus 2025 : production de contenus pour plateformes de métavers sous Unity, par projets (100 heures) · ✅ validé",
               "31 octobre 2025 · Association coréenne de l'industrie du métavers — production de contenus avec IA générative sur Unreal et capture de réalité (60 heures) · ✅ validé",
               "4 novembre 2025 · Gyeonggi Game Academy 2025 — formation de développeurs de jeux assistée par IA (séances 9 et 10) · ✅ validé",
               "23 avril 2026 · The Circle Foundation AI Academy, 3e promotion — AI vibe coding (15 heures) · ✅ validé",
@@ -6163,10 +6170,11 @@ const PAGES = {
         },
         {
           h: "Was wir erreicht haben",
-          p: ["Wir haben nicht nur eingereicht — wir haben gelernt, was nötig war. Zwölf Kurse seit Oktober 2025 abgeschlossen: Unreal Engine und generative KI, Blockchain und Solidity sowie internationale Standards für KI und digitale Vermögenswerte."],
+          p: ["Wir haben nicht nur eingereicht — wir haben gelernt, was nötig war. Dreizehn Kurse seit August 2025 abgeschlossen: Unity und Unreal Engine, generative KI und Reality Capture, Blockchain und Solidity sowie internationale Standards für KI und digitale Vermögenswerte."],
           list: {
             h: "Abgeschlossene Kurse",
             items: [
+              "29. August 2025 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2025: projektbasierte Metaverse-Plattform-Content-Produktion in Unity (100 Stunden) · ✅ abgeschlossen",
               "31. Oktober 2025 · Korea Metaverse Industry Association — Content-Produktion mit Unreal-basierter generativer KI und Reality Capture (60 Stunden) · ✅ abgeschlossen",
               "4. November 2025 · Gyeonggi Game Academy 2025 — Schulung für KI-gestützte Spieleentwicklung (Einheiten 9 und 10) · ✅ abgeschlossen",
               "23. April 2026 · The Circle Foundation AI Academy, 3. Jahrgang — AI Vibe Coding (15 Stunden) · ✅ abgeschlossen",
@@ -6410,10 +6418,11 @@ const PAGES = {
         },
         {
           h: "Что мы получили",
-          p: ["Мы не только подавали заявки — мы шли и учились тому, что нужно. С октября 2025 года пройдено двенадцать курсов: Unreal Engine и генеративный ИИ, блокчейн и Solidity, международные стандарты ИИ и цифровых активов."],
+          p: ["Мы не только подавали заявки — мы шли и учились тому, что нужно. С августа 2025 года пройдено тринадцать курсов: Unity и Unreal Engine, генеративный ИИ и reality capture, блокчейн и Solidity, международные стандарты ИИ и цифровых активов."],
           list: {
             h: "Пройденные курсы",
             items: [
+              "29 августа 2025 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2025: проектное производство контента для метавселенных на Unity (100 ч.) · ✅ пройдено",
               "31 октября 2025 · Корейская ассоциация индустрии метавселенной — производство контента на генеративном ИИ в Unreal и reality capture (60 ч.) · ✅ пройдено",
               "4 ноября 2025 · Gyeonggi Game Academy 2025 — подготовка геймдев-разработчиков с ИИ (занятия 9 и 10) · ✅ пройдено",
               "23 апреля 2026 · The Circle Foundation AI Academy, 3-й поток — AI vibe coding (15 ч.) · ✅ пройдено",
@@ -6657,10 +6666,11 @@ const PAGES = {
         },
         {
           h: "ما حصلنا عليه",
-          p: ["لم نكتفِ بالتقديم — تعلّمنا ما نحتاجه. أنهينا اثنتي عشرة دورة منذ أكتوبر 2025: Unreal Engine والذكاء الاصطناعي التوليدي، والبلوك تشين وSolidity، والمعايير الدولية للذكاء الاصطناعي والأصول الرقمية."],
+          p: ["لم نكتفِ بالتقديم — تعلّمنا ما نحتاجه. أنهينا ثلاث عشرة دورة منذ أغسطس 2025: Unity وUnreal Engine، والذكاء الاصطناعي التوليدي والتقاط الواقع، والبلوك تشين وSolidity، والمعايير الدولية للذكاء الاصطناعي والأصول الرقمية."],
           list: {
             h: "دورات مُنجَزة",
             items: [
+              "‏29 أغسطس 2025 · وكالة محتوى كيونغي — حرم كيونغي للميتافيرس 2025: إنتاج محتوى منصّات الميتافيرس بمحرّك Unity عبر مشاريع عملية (100 ساعة) · ✅ مُنجَز",
               "‏31 أكتوبر 2025 · الجمعية الكورية لصناعة الميتافيرس — إنتاج المحتوى بالذكاء الاصطناعي التوليدي على Unreal والتقاط الواقع (60 ساعة) · ✅ مُنجَز",
               "‏4 نوفمبر 2025 · أكاديمية كيونغي للألعاب 2025 — تدريب مطوّري الألعاب بالذكاء الاصطناعي (الجلستان 9 و10) · ✅ مُنجَز",
               "‏23 أبريل 2026 · أكاديمية الذكاء الاصطناعي بمؤسسة The Circle — الدفعة الثالثة: AI vibe coding (15 ساعة) · ✅ مُنجَز",
