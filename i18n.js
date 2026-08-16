@@ -24,6 +24,7 @@ const JOURNEY_LINKS = [
   "",                              // K-Style Expo 영어 IR 피치 — 회차별이라 상시 주소 없음
   "",                              // 글로벌 비즈니스 라운드 테이블 — 회차별이라 상시 주소 없음
   "",                              // 스타트업콘 2025 — 회차별이라 상시 주소 없음
+  "",                              // KoreaProductPost 기사 — 대표님이 주소를 주면 채운다
   "https://gamescom.asia/",        // gamescom asia x Thailand Game Show
   "",                              // 언리얼로 재제작 — 우리가 한 일
   "https://www.gcon.or.kr/",       // 경기콘텐츠진흥원 게임 커넥트
@@ -31,7 +32,7 @@ const JOURNEY_LINKS = [
   "",                              // NC 바르코 공모전 — 회차별이라 상시 주소 없음
   "https://neowizquest.com/"       // 네오위즈 퀘스트
 ];
-const JOURNEY_FLAGS = ["🇺🇸", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇹🇭", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷"];
+const JOURNEY_FLAGS = ["🇺🇸", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇹🇭", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷"];
 
 // 로드맵 각 단계의 공식 사이트. 순서는 각 언어 roadmap.items 와 1:1 로 맞춘다(인덱스로 붙는다).
 // "" 면 그 항목은 링크 없이 제목 텍스트로 나온다 — WORKS 카드와 같은 규칙이다.
@@ -268,6 +269,7 @@ const I18N = {
         { d: "17 September 2025", t: "K-Style Expo / AsiaStartupExpo (Q3 2025) — shortlisted as one of 7 startups, pitching in English to 5 judges and investors. We went first." },
         { d: "19 September 2025", t: "Global Business Round Table 2025 (Ministry of Culture, Sports and Tourism · KOCCA, COEX) — one-to-one export meetings with overseas business centres" },
         { d: "25–26 September 2025", t: "StartupCon 2025 — one-to-one meetings with seven Korean and international investors" },
+        { d: "6 October 2025", t: "Fighting Nations featured in KoreaProductPost, an English-language Korean media outlet" },
         { d: "16–19 October 2025", t: "gamescom asia x Thailand Game Show — one of 16 Korean studios, Megazone Cloud sponsored booth. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came to the booth." },
         { d: "October 2025", t: "Rebuilt in Unreal Engine — multiplayer needed it" },
         { d: "31 October 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — one of 10 studios in the investment-readiness programme, pitching to VCs" },
@@ -384,6 +386,7 @@ const I18N = {
         { d: "2025년 9월 17일", t: "K-Style Expo / AsiaStartupExpo (Q3 2025) — 피칭 7개사 숏리스트에 올라 심사위원 5인과 투자자 앞에서 영어 IR 발표. 발표 순서는 첫 번째였습니다." },
         { d: "2025년 9월 19일", t: "글로벌 비즈니스 라운드 테이블 2025 (문화체육관광부·한국콘텐츠진흥원, 코엑스) — 해외비즈니스센터들과 1:1 수출 상담" },
         { d: "2025년 9월 25~26일", t: "스타트업콘 2025 — 국내외 투자사 일곱 곳과 1:1 밋업" },
+        { d: "2025년 10월 6일", t: "영문 매체 KoreaProductPost 에 Fighting Nations 소개 기사 게재" },
         { d: "2025년 10월 16~19일", t: "gamescom asia x Thailand Game Show — 16개 한국 게임사 중 하나로 선발, 메가존 클라우드 후원 한국관 부스. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다." },
         { d: "2025년 10월", t: "언리얼 엔진으로 재제작 — 멀티플레이어에는 언리얼이 필요했습니다" },
         { d: "2025년 10월 31일", t: "2025 G-GAME Connect (경기콘텐츠진흥원) — 투자유치역량강화프로그램 10개사에 선정, VC 대상 IR 발표" },
@@ -498,6 +501,7 @@ const I18N = {
         { d: "2025 年 9 月 17 日", t: "K-Style Expo / AsiaStartupExpo（2025 Q3）——入围七家路演企业，面向 5 位评委与投资人进行英文 IR 发表，并担任首位发表。" },
         { d: "2025 年 9 月 19 日", t: "2025 全球商务圆桌会（文化体育观光部·韩国内容振兴院，COEX）——与多个海外商务中心进行一对一出口洽谈" },
         { d: "2025 年 9 月 25–26 日", t: "StartupCon 2025 —— 与七家国内外投资机构进行一对一会谈" },
+        { d: "2025 年 10 月 6 日", t: "英文媒体 KoreaProductPost 刊登 Fighting Nations 专题报道" },
         { d: "2025 年 10 月 16–19 日", t: "gamescom asia x Thailand Game Show——入选 16 家韩国工作室之一，Megazone Cloud 赞助展位。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商到访。" },
         { d: "2025 年 10 月", t: "改用虚幻引擎重做——联机需要它" },
         { d: "2025 年 10 月 31 日", t: "2025 G-GAME Connect（京畿内容振兴院）——投资引进能力强化项目入选十家之一，向 VC 进行 IR 路演" },
@@ -611,6 +615,7 @@ const I18N = {
         { d: "2025年9月17日", t: "K-Style Expo / AsiaStartupExpo（2025 Q3）——ピッチ 7 社のショートリストに選ばれ、審査員 5 名と投資家の前で英語 IR 発表。発表順は 1 番目でした。" },
         { d: "2025年9月19日", t: "グローバル・ビジネス・ラウンドテーブル 2025（文化体育観光部・韓国コンテンツ振興院、COEX）——海外ビジネスセンターとの 1 対 1 輸出商談" },
         { d: "2025年9月25〜26日", t: "StartupCon 2025 — 国内外の投資会社 7 社と 1 対 1 ミーティング" },
+        { d: "2025年10月6日", t: "英文メディア KoreaProductPost に Fighting Nations の紹介記事が掲載" },
         { d: "2025年10月16〜19日", t: "gamescom asia x Thailand Game Show——韓国16社の一つに選出、Megazone Cloud協賛ブース。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪。" },
         { d: "2025年10月", t: "Unreal Engineで作り直し——マルチプレイに必要でした" },
         { d: "2025年10月31日", t: "2025 G-GAME Connect（京畿コンテンツ振興院）——投資誘致力強化プログラム 10社に選定、VC 向け IR 発表" },
@@ -724,6 +729,7 @@ const I18N = {
         { d: "17 de septiembre de 2025", t: "K-Style Expo / AsiaStartupExpo (Q3 2025): preseleccionados entre 7 startups, con presentación IR en inglés ante 5 jueces e inversores. Abrimos la sesión." },
         { d: "19 de septiembre de 2025", t: "Global Business Round Table 2025 (Ministerio de Cultura, Deporte y Turismo · KOCCA, COEX): reuniones de exportación uno a uno con centros de negocio en el exterior" },
         { d: "25–26 de septiembre de 2025", t: "StartupCon 2025: reuniones uno a uno con siete inversores coreanos e internacionales" },
+        { d: "6 de octubre de 2025", t: "Fighting Nations aparece en KoreaProductPost, medio coreano en inglés" },
         { d: "16–19 de octubre de 2025", t: "gamescom asia x Thailand Game Show: uno de los 16 estudios coreanos, stand patrocinado por Megazone Cloud. Visitaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán." },
         { d: "Octubre 2025", t: "Reconstruido en Unreal Engine: el multijugador lo exigía" },
         { d: "31 octubre 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency): uno de los 10 estudios del programa de preparación para inversión, con presentación ante VC" },
@@ -837,6 +843,7 @@ const I18N = {
         { d: "17 de setembro de 2025", t: "K-Style Expo / AsiaStartupExpo (Q3 2025): pré-selecionados entre 7 startups, com apresentação IR em inglês perante 5 jurados e investidores. Abrimos a sessão." },
         { d: "19 de setembro de 2025", t: "Global Business Round Table 2025 (Ministério da Cultura, Desporto e Turismo · KOCCA, COEX): reuniões de exportação um-a-um com centros de negócios no estrangeiro" },
         { d: "25–26 de setembro de 2025", t: "StartupCon 2025: reuniões um-a-um com sete investidores coreanos e internacionais" },
+        { d: "6 de outubro de 2025", t: "Fighting Nations em destaque na KoreaProductPost, meio coreano em inglês" },
         { d: "16–19 de outubro de 2025", t: "gamescom asia x Thailand Game Show — um dos 16 estúdios coreanos, stand patrocinado pela Megazone Cloud. Visitaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan." },
         { d: "Outubro 2025", t: "Reconstruído em Unreal Engine — o multijogador exigia-o" },
         { d: "31 outubro 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — um dos 10 estúdios do programa de preparação para investimento, com apresentação a VC" },
@@ -950,6 +957,7 @@ const I18N = {
         { d: "17 septembre 2025", t: "K-Style Expo / AsiaStartupExpo (T3 2025) — présélectionnés parmi 7 startups, pitch IR en anglais devant 5 jurés et des investisseurs. Nous ouvrions la séance." },
         { d: "19 septembre 2025", t: "Global Business Round Table 2025 (ministère de la Culture, des Sports et du Tourisme · KOCCA, COEX) — rendez-vous export en tête-à-tête avec des centres d’affaires à l’étranger" },
         { d: "25–26 septembre 2025", t: "StartupCon 2025 — rendez-vous en tête-à-tête avec sept investisseurs coréens et internationaux" },
+        { d: "6 octobre 2025", t: "Fighting Nations présenté dans KoreaProductPost, média coréen anglophone" },
         { d: "16–19 octobre 2025", t: "gamescom asia x Thailand Game Show — l'un des 16 studios coréens, stand parrainé par Megazone Cloud. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont venus." },
         { d: "Octobre 2025", t: "Reconstruit sous Unreal Engine — le multijoueur l'imposait" },
         { d: "31 octobre 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — l'un des 10 studios du programme de préparation à la levée de fonds, présentation aux investisseurs" },
@@ -1063,6 +1071,7 @@ const I18N = {
         { d: "17. September 2025", t: "K-Style Expo / AsiaStartupExpo (Q3 2025) — als eines von 7 Startups auf der Shortlist, IR-Pitch auf Englisch vor 5 Juroren und Investoren. Wir eröffneten die Runde." },
         { d: "19. September 2025", t: "Global Business Round Table 2025 (Ministerium für Kultur, Sport und Tourismus · KOCCA, COEX) — Eins-zu-eins-Exportgespräche mit Auslandsbüros" },
         { d: "25.–26. September 2025", t: "StartupCon 2025 — Eins-zu-eins-Gespräche mit sieben koreanischen und internationalen Investoren" },
+        { d: "6. Oktober 2025", t: "Fighting Nations im englischsprachigen koreanischen Medium KoreaProductPost vorgestellt" },
         { d: "16.–19. Oktober 2025", t: "gamescom asia x Thailand Game Show — eines von 16 koreanischen Studios, Stand gesponsert von Megazone Cloud. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen an den Stand." },
         { d: "Oktober 2025", t: "Neu gebaut in der Unreal Engine — der Multiplayer verlangte es" },
         { d: "31. Oktober 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — eines von 10 Studios im Investment-Readiness-Programm, IR-Pitch vor VCs" },
@@ -1176,6 +1185,7 @@ const I18N = {
         { d: "17 сентября 2025", t: "K-Style Expo / AsiaStartupExpo (Q3 2025) — вошли в шорт-лист из 7 стартапов, IR-питч на английском перед 5 судьями и инвесторами. Мы выступали первыми." },
         { d: "19 сентября 2025", t: "Global Business Round Table 2025 (Министерство культуры, спорта и туризма · KOCCA, COEX) — экспортные встречи один на один с зарубежными бизнес-центрами" },
         { d: "25–26 сентября 2025", t: "StartupCon 2025 — встречи один на один с семью корейскими и зарубежными инвесторами" },
+        { d: "6 октября 2025", t: "Fighting Nations в англоязычном корейском издании KoreaProductPost" },
         { d: "16–19 октября 2025", t: "gamescom asia x Thailand Game Show — одна из 16 корейских студий, стенд при поддержке Megazone Cloud. На стенд приходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня." },
         { d: "Октябрь 2025", t: "Пересобрано на Unreal Engine — этого требовал сетевой режим" },
         { d: "31 октября 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — одна из 10 студий программы подготовки к инвестициям, IR-питч перед фондами" },
@@ -1290,6 +1300,7 @@ const I18N = {
         { d: "‏17 سبتمبر 2025", t: "‏K-Style Expo / AsiaStartupExpo (الربع الثالث 2025) — ضمن القائمة القصيرة لسبع شركات ناشئة، وعرض IR بالإنجليزية أمام 5 محكّمين ومستثمرين، وكنّا أول المتحدّثين." },
         { d: "‏19 سبتمبر 2025", t: "‏Global Business Round Table 2025 (وزارة الثقافة والرياضة والسياحة · وكالة كوكا، COEX) — لقاءات تصدير ثنائية مع مراكز الأعمال في الخارج" },
         { d: "‏25–26 سبتمبر 2025", t: "‏StartupCon 2025 — لقاءات ثنائية مع سبع جهات استثمارية كورية ودولية" },
+        { d: "‏6 أكتوبر 2025", t: "‏تقرير عن Fighting Nations في KoreaProductPost، وسيلة إعلام كورية بالإنجليزية" },
         { d: "‏16–19 أكتوبر 2025", t: "‏gamescom asia x Thailand Game Show — أحد 16 استوديو كوريًا، جناح برعاية Megazone Cloud. زار الجناح موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان." },
         { d: "أكتوبر 2025", t: "أُعيد بناؤها على Unreal Engine — اللعب الشبكي تطلّب ذلك" },
         { d: "‏31 أكتوبر 2025", t: "‏2025 G-GAME Connect (وكالة محتوى كيونغي) — أحد 10 استوديوهات في برنامج التهيّؤ للاستثمار، وعرض IR أمام المستثمرين" },
