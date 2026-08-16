@@ -29,6 +29,11 @@ const JB_SLIDES = ["jb-01.jpg", "jb-02.jpg", "jb-03.jpg", "jb-04.jpg"];   // ass
 const SOOMBA_SLIDES = ["soomba-cover.jpg"];   // assets/ (커버 = 궁궐 전경. 스크린샷 늘면 여기 추가)
 const DEATHGUIDE_SLIDES = ["deathguide-cover.jpg", "deathguide-01.jpg", "deathguide-02.jpg", "deathguide-03.jpg", "deathguide-04.jpg", "deathguide-05.jpg", "deathguide-06.jpg", "deathguide-07.jpg", "deathguide-08.jpg"];   // assets/ (키비주얼 + 저승사자 아트 8장)
 const KWONLINE_SLIDES = ["kwo-shot-01.jpg", "kwo-shot-02.jpg"];   // assets/ (실제 모바일 플레이 화면, Safari UI 크롭)
+
+// 여정(journey) 섹션의 전시 현장 사진 — gamescom asia x Thailand Game Show 2025.10 한국관 부스.
+// 캡션은 언어별로 각 블록의 journey.photos 에 있다 (파일명은 여기, 글은 거기 — 슬라이드 배열과 같은 규칙).
+// 파일이 아직 없으면 app.js 가 통째로 숨기므로, 이미지를 넣기 전에 배포해도 빈 자리가 남지 않는다.
+const SHOW_PHOTOS = ["assets/tgs-01.jpg", "assets/tgs-02.jpg", "assets/tgs-03.jpg"];
 const TIMEWARS_SLIDES = ["timewars-cover.jpg"];   // assets/ (키아트. 게임 스크린샷 나오면 추가)
 // 로스터 20명 (도시별 대표 1장). assets/slides-tk/. 세로 전신 아트 → 슬라이드쇼가 세로 프레임으로 뜬다.
 const TURFKING_SLIDES = ["tk-01.jpg","tk-02.jpg","tk-03.jpg","tk-04.jpg","tk-05.jpg","tk-06.jpg","tk-07.jpg","tk-08.jpg","tk-09.jpg","tk-10.jpg","tk-11.jpg","tk-12.jpg","tk-13.jpg","tk-14.jpg","tk-15.jpg","tk-16.jpg","tk-17.jpg","tk-18.jpg","tk-19.jpg","tk-20.jpg"];
@@ -202,9 +207,16 @@ const I18N = {
       heading: "How it has grown",
       lead: "Built in the open, one show at a time.",
       videos: { gameplay: "Gameplay footage", trailer: "Trailer", pitch: "VC pitch — Gyeonggi Game Connect" },
+      more: "Every show we are entering in 2027 →",
+      // 부스 사진 캡션. 파일은 i18n.js 위쪽 SHOW_PHOTOS, 사실관계는 아래 연표와 같아야 한다.
+      photos: [
+        "gamescom asia x Thailand Game Show, Bangkok, October 2025 — the Korea pavilion booth sponsored by Megazone Cloud",
+        "One of 16 Korean studios selected for the show",
+        "Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came to the booth"
+      ],
       events: [
         { d: "Summer 2025", t: "Unity prototype" },
-        { d: "October 2025", t: "Thailand Game Show — one of 16 Korean studios, Megazone Cloud sponsored booth. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came to the booth." },
+        { d: "October 2025", t: "gamescom asia x Thailand Game Show — one of 16 Korean studios, Megazone Cloud sponsored booth. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came to the booth." },
         { d: "October 2025", t: "Rebuilt in Unreal Engine — multiplayer needed it" },
         { d: "31 October 2025", t: "Gyeonggi Content Agency Game Connect — one of 10 studios pitching to VCs" },
         { d: "29 November 2025", t: "Chung-Ang University indie game showcase" },
@@ -305,9 +317,15 @@ const I18N = {
       heading: "어떻게 발전해왔나",
       lead: "공개된 자리에서, 한 걸음씩.",
       videos: { gameplay: "실제 게임 영상", trailer: "트레일러", pitch: "VC 피칭 — 경기 게임 커넥트" },
+      more: "2027년까지 도전할 행사 전부 보기 →",
+      photos: [
+        "gamescom asia x Thailand Game Show, 2025년 10월 방콕 — 메가존 클라우드가 후원한 한국관 부스",
+        "16개 한국 게임사 중 하나로 선발되어 참가했습니다",
+        "인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다"
+      ],
       events: [
         { d: "2025년 여름", t: "유니티로 프로토타입 제작" },
-        { d: "2025년 10월", t: "태국 게임쇼 — 16개 한국 게임사 중 하나로 선발, 메가존 클라우드 후원 한국관 부스. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다." },
+        { d: "2025년 10월", t: "gamescom asia x Thailand Game Show — 16개 한국 게임사 중 하나로 선발, 메가존 클라우드 후원 한국관 부스. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다." },
         { d: "2025년 10월", t: "언리얼 엔진으로 재제작 — 멀티플레이어에는 언리얼이 필요했습니다" },
         { d: "2025년 10월 31일", t: "경기콘텐츠진흥원 게임 커넥트 — 10개사 중 하나로 선발, VC 대상 피칭" },
         { d: "2025년 11월 29일", t: "중앙대학교 인디게임 부스 전시" },
@@ -406,9 +424,15 @@ const I18N = {
     journey: {
       heading: "一路走来", lead: "公开开发，一场展会接着一场。",
       videos: { gameplay: "实机画面", trailer: "预告片", pitch: "VC 路演 — 京畿 Game Connect" },
+      more: "我们 2027 年前要挑战的所有展会 →",
+      photos: [
+        "gamescom asia x Thailand Game Show，2025 年 10 月曼谷 — 由 Megazone Cloud 赞助的韩国馆展位",
+        "入选 16 家韩国工作室之一参展",
+        "印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商到访展位"
+      ],
       events: [
         { d: "2025 年夏", t: "以 Unity 完成原型" },
-        { d: "2025 年 10 月", t: "泰国游戏展——入选 16 家韩国工作室之一，Megazone Cloud 赞助展位。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商到访。" },
+        { d: "2025 年 10 月", t: "gamescom asia x Thailand Game Show——入选 16 家韩国工作室之一，Megazone Cloud 赞助展位。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商到访。" },
         { d: "2025 年 10 月", t: "改用虚幻引擎重做——联机需要它" },
         { d: "2025 年 10 月 31 日", t: "京畿内容振兴院 Game Connect——十家之一，向 VC 路演" },
         { d: "2025 年 11 月 29 日", t: "中央大学独立游戏展出" },
@@ -506,9 +530,15 @@ const I18N = {
     journey: {
       heading: "これまでの歩み", lead: "公開の場で、一歩ずつ。",
       videos: { gameplay: "実機映像", trailer: "トレーラー", pitch: "VC ピッチ — 京畿 Game Connect" },
+      more: "2027年までに挑む展示会のすべて →",
+      photos: [
+        "gamescom asia x Thailand Game Show、2025年10月バンコク — Megazone Cloud 協賛の韓国館ブース",
+        "韓国16社の一つに選出されて出展しました",
+        "インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーがブースを訪れました"
+      ],
       events: [
         { d: "2025年夏", t: "Unityでプロトタイプ制作" },
-        { d: "2025年10月", t: "タイ・ゲームショウ——韓国16社の一つに選出、Megazone Cloud協賛ブース。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪。" },
+        { d: "2025年10月", t: "gamescom asia x Thailand Game Show——韓国16社の一つに選出、Megazone Cloud協賛ブース。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪。" },
         { d: "2025年10月", t: "Unreal Engineで作り直し——マルチプレイに必要でした" },
         { d: "2025年10月31日", t: "京畿コンテンツ振興院 Game Connect——10社の一つとしてVCへピッチ" },
         { d: "2025年11月29日", t: "中央大学インディーゲーム展示" },
@@ -606,9 +636,15 @@ const I18N = {
     journey: {
       heading: "Cómo ha crecido", lead: "Desarrollado a la vista, feria a feria.",
       videos: { gameplay: "Gameplay", trailer: "Tráiler", pitch: "Pitch a VC — Gyeonggi Game Connect" },
+      more: "Todas las ferias a las que nos presentamos hasta 2027 →",
+      photos: [
+        "gamescom asia x Thailand Game Show, Bangkok, octubre de 2025: el stand del pabellón coreano patrocinado por Megazone Cloud",
+        "Uno de los 16 estudios coreanos seleccionados para la feria",
+        "Visitaron el stand distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán"
+      ],
       events: [
         { d: "Verano 2025", t: "Prototipo en Unity" },
-        { d: "Octubre 2025", t: "Thailand Game Show: uno de los 16 estudios coreanos, stand patrocinado por Megazone Cloud. Visitaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán." },
+        { d: "Octubre 2025", t: "gamescom asia x Thailand Game Show: uno de los 16 estudios coreanos, stand patrocinado por Megazone Cloud. Visitaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán." },
         { d: "Octubre 2025", t: "Reconstruido en Unreal Engine: el multijugador lo exigía" },
         { d: "31 octubre 2025", t: "Gyeonggi Content Agency Game Connect: uno de 10 estudios presentando ante VC" },
         { d: "29 noviembre 2025", t: "Muestra de juegos indie en la Universidad Chung-Ang" },
@@ -706,9 +742,15 @@ const I18N = {
     journey: {
       heading: "Como evoluiu", lead: "Desenvolvido à vista, feira a feira.",
       videos: { gameplay: "Gameplay", trailer: "Trailer", pitch: "Pitch a VC — Gyeonggi Game Connect" },
+      more: "Todos os eventos a que nos candidatamos até 2027 →",
+      photos: [
+        "gamescom asia x Thailand Game Show, Banguecoque, outubro de 2025 — o stand do pavilhão coreano patrocinado pela Megazone Cloud",
+        "Um dos 16 estúdios coreanos selecionados para a feira",
+        "Visitaram o stand distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan"
+      ],
       events: [
         { d: "Verão 2025", t: "Protótipo em Unity" },
-        { d: "Outubro 2025", t: "Thailand Game Show — um dos 16 estúdios coreanos, stand patrocinado pela Megazone Cloud. Visitaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan." },
+        { d: "Outubro 2025", t: "gamescom asia x Thailand Game Show — um dos 16 estúdios coreanos, stand patrocinado pela Megazone Cloud. Visitaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan." },
         { d: "Outubro 2025", t: "Reconstruído em Unreal Engine — o multijogador exigia-o" },
         { d: "31 outubro 2025", t: "Gyeonggi Content Agency Game Connect — um de 10 estúdios a apresentar a VC" },
         { d: "29 novembro 2025", t: "Mostra de jogos indie na Universidade Chung-Ang" },
@@ -806,9 +848,15 @@ const I18N = {
     journey: {
       heading: "Son évolution", lead: "Développé au grand jour, salon après salon.",
       videos: { gameplay: "Séquences de jeu", trailer: "Bande-annonce", pitch: "Pitch investisseurs — Gyeonggi Game Connect" },
+      more: "Tous les salons auxquels nous postulons d'ici 2027 →",
+      photos: [
+        "gamescom asia x Thailand Game Show, Bangkok, octobre 2025 — le stand du pavillon coréen parrainé par Megazone Cloud",
+        "L'un des 16 studios coréens sélectionnés pour le salon",
+        "Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont venus au stand"
+      ],
       events: [
         { d: "Été 2025", t: "Prototype sous Unity" },
-        { d: "Octobre 2025", t: "Thailand Game Show — l'un des 16 studios coréens, stand parrainé par Megazone Cloud. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont venus." },
+        { d: "Octobre 2025", t: "gamescom asia x Thailand Game Show — l'un des 16 studios coréens, stand parrainé par Megazone Cloud. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont venus." },
         { d: "Octobre 2025", t: "Reconstruit sous Unreal Engine — le multijoueur l'imposait" },
         { d: "31 octobre 2025", t: "Gyeonggi Content Agency Game Connect — l'un des 10 studios présentés aux investisseurs" },
         { d: "29 novembre 2025", t: "Exposition de jeux indépendants à l'université Chung-Ang" },
@@ -906,9 +954,15 @@ const I18N = {
     journey: {
       heading: "Wie es gewachsen ist", lead: "Offen entwickelt, Messe für Messe.",
       videos: { gameplay: "Spielszenen", trailer: "Trailer", pitch: "VC-Pitch — Gyeonggi Game Connect" },
+      more: "Alle Messen, für die wir uns bis 2027 bewerben →",
+      photos: [
+        "gamescom asia x Thailand Game Show, Bangkok, Oktober 2025 — der von Megazone Cloud gesponserte Stand im koreanischen Pavillon",
+        "Eines von 16 koreanischen Studios, die für die Messe ausgewählt wurden",
+        "Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen an den Stand"
+      ],
       events: [
         { d: "Sommer 2025", t: "Prototyp in Unity" },
-        { d: "Oktober 2025", t: "Thailand Game Show — eines von 16 koreanischen Studios, Stand gesponsert von Megazone Cloud. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen an den Stand." },
+        { d: "Oktober 2025", t: "gamescom asia x Thailand Game Show — eines von 16 koreanischen Studios, Stand gesponsert von Megazone Cloud. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen an den Stand." },
         { d: "Oktober 2025", t: "Neu gebaut in der Unreal Engine — der Multiplayer verlangte es" },
         { d: "31. Oktober 2025", t: "Gyeonggi Content Agency Game Connect — eines von 10 Studios im VC-Pitch" },
         { d: "29. November 2025", t: "Indie-Game-Ausstellung an der Chung-Ang-Universität" },
@@ -1006,9 +1060,15 @@ const I18N = {
     journey: {
       heading: "Как это росло", lead: "Разработка на виду, выставка за выставкой.",
       videos: { gameplay: "Игровой процесс", trailer: "Трейлер", pitch: "Питч для VC — Gyeonggi Game Connect" },
+      more: "Все фестивали, на которые мы подаём заявки до 2027 года →",
+      photos: [
+        "gamescom asia x Thailand Game Show, Бангкок, октябрь 2025 — стенд корейского павильона при поддержке Megazone Cloud",
+        "Одна из 16 корейских студий, отобранных на выставку",
+        "На стенд приходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня"
+      ],
       events: [
         { d: "Лето 2025", t: "Прототип на Unity" },
-        { d: "Октябрь 2025", t: "Thailand Game Show — одна из 16 корейских студий, стенд при поддержке Megazone Cloud. На стенд приходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня." },
+        { d: "Октябрь 2025", t: "gamescom asia x Thailand Game Show — одна из 16 корейских студий, стенд при поддержке Megazone Cloud. На стенд приходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня." },
         { d: "Октябрь 2025", t: "Пересобрано на Unreal Engine — этого требовал сетевой режим" },
         { d: "31 октября 2025", t: "Gyeonggi Content Agency Game Connect — одна из 10 студий с питчем перед инвесторами" },
         { d: "29 ноября 2025", t: "Выставка инди-игр в Университете Чунг-Ан" },
@@ -1106,9 +1166,16 @@ const I18N = {
     journey: {
       heading: "كيف تطوّرت", lead: "تطوير مكشوف، معرضًا بعد معرض.",
       videos: { gameplay: "لقطات من اللعب", trailer: "المقطع الدعائي", pitch: "عرض للمستثمرين — Gyeonggi Game Connect" },
+      more: "كل المعارض التي نتقدّم إليها حتى 2027 ←",
+      // 라틴 문자로 시작하는 줄에는 RLM(U+200F)을 앞에 둔다 — 없으면 문장 방향이 뒤집혀 보인다.
+      photos: [
+        "‏gamescom asia x Thailand Game Show، بانكوك، أكتوبر 2025 — منصّة الجناح الكوري برعاية Megazone Cloud",
+        "أحد 16 استوديو كوريًا وقع عليها الاختيار للمعرض",
+        "زار الجناح موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان"
+      ],
       events: [
         { d: "صيف 2025", t: "نموذج أولي على Unity" },
-        { d: "أكتوبر 2025", t: "معرض تايلاند للألعاب — أحد 16 استوديو كوريًا، جناح برعاية Megazone Cloud. زار الجناح موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان." },
+        { d: "أكتوبر 2025", t: "‏gamescom asia x Thailand Game Show — أحد 16 استوديو كوريًا، جناح برعاية Megazone Cloud. زار الجناح موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان." },
         { d: "أكتوبر 2025", t: "أُعيد بناؤها على Unreal Engine — اللعب الشبكي تطلّب ذلك" },
         { d: "‏31 أكتوبر 2025", t: "‏Gyeonggi Content Agency Game Connect — أحد 10 استوديوهات قدّمت عرضًا للمستثمرين" },
         { d: "‏29 نوفمبر 2025", t: "عرض ألعاب مستقلة في جامعة تشونغ-آنغ" },

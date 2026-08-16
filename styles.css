@@ -500,3 +500,18 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
 
 /* origin(왜 시작했나) 섹션의 영상 — 긴 1인칭 텍스트 뒤 단일 영상, 중앙 정렬 */
 .origin-video { margin: 34px auto 0; max-width: 720px; }
+
+/* 여정 — 전시 현장 사진 (gamescom asia x Thailand Game Show 부스).
+   영상 그리드와 연표 사이에 들어간다. 사진 비율이 제각각이라 4:3 으로 잘라 줄을 맞춘다.
+   좌우 여백은 논리 속성만 쓴다 (아랍어 RTL). */
+.show-photos { margin-top: 34px; display: grid; gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.show-photos[hidden] { display: none; }
+.show-photo { margin: 0; }
+.show-photo img { width: 100%; display: block; aspect-ratio: 4 / 3; object-fit: cover;
+  border-radius: 12px; border: 1px solid var(--line); background: #000; }
+.show-photo figcaption { margin-top: 10px; color: var(--fg-faint);
+  font-size: 13px; line-height: 1.55; }
+
+/* 여정 연표 아래 → 연도별 행사 로드맵 링크. 연표와 붙어 보이지 않게 여백을 준다. */
+.jr-more { display: inline-block; margin-top: 26px; }
