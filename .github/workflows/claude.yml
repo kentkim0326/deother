@@ -1,0 +1,36 @@
+# 이슈·PR 코멘트에 @claude 를 쓰면 클로드가 응답한다.
+# 노트북 없이 폰에서 작업을 시킬 때 쓰는 통로다.
+#
+# 동작하려면 레포 시크릿이 하나 필요하다 (대표님만 넣을 수 있다):
+#   Settings → Secrets and variables → Actions → New repository secret
+#   이름: CLAUDE_CODE_OAUTH_TOKEN
+#   값  : 맥 터미널에서  claude setup-token  을 돌리면 나오는 토큰
+# ※ API 키(ANTHROPIC_API_KEY)를 쓰려면 아래 줄을
+#   anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }} 로 바꾼다.
+#   구독 토큰을 쓰면 API 요금이 따로 나가지 않는다.
+
+name: Claude Code
+
+on:
+  issue_comment:
+    types: [created]
+  pull_request_review_comment:
+    types: [created]
+
+jobs:
+  claude:
+    if: contains(github.event.comment.body, '@claude')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write        # 앱 인증에 필요
+      actions: read          # PR 의 CI 결과를 읽기 위해
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+      - uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
