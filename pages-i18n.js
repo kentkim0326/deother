@@ -945,6 +945,534 @@ const PAGES = {
         }
       ],
       cta: "Download for Windows", back: "Back to Deother"
+    },
+
+    zh: {
+      title: "Soomba",
+      tagline: "屋顶逃亡游戏——奔过朝鲜王宫的屋脊，去救你的男友",
+      intro: "一位从未踏上过韩国土地的韩裔美籍女性，和她的美国男友，从夏日海滩被抛进五百年前的朝鲜。王宫已被怪物占据，男友在她眼前被拖走。她一句朝鲜话也不会。这是一款靠移动而非战斗来存活的单人逃亡游戏。",
+      sections: [
+        {
+          h: "女人去救男人",
+          p: [
+            "过去的套路是男主角去救公主。这一部反过来。在男尊女卑深入骨髓的朝鲜社会里，由女人去救男人。",
+            "她穿着泳装，说的话没人听得懂。那个社会不接纳她——朝鲜的女人们咂着舌头，把她当作怪人。她照样奔上王宫的屋顶。",
+            "在这个世界里，屋顶是双重禁忌：王宫里不该踩的地方，也是女人不该做的事。所以「跑屋顶」这件事本身，就是这个角色。"
+          ]
+        },
+        {
+          h: "屋顶——禁地，也是捷径",
+          p: [
+            "王宫的屋顶彼此相连，形成一条脱离地面的上层路线。屋顶快，但四面暴露，瓦片还响。地面慢，却能藏。",
+            "多数怪物爬不上来。狼人可以——屋顶从来不是真正的安全区。",
+            "有些旧瓦一踩就塌，把你摔进屋内：掉血、巨响，还有一段你没计划过的坠落。"
+          ]
+        },
+        {
+          h: "一旦扛起东西，路就被封了",
+          p: [
+            "扛起东西的那一刻，你就再也上不了屋顶、翻不过墙。去的时候从屋顶飞快过去，回来时只能沿地面慢慢走。",
+            "一次只能拿一样。危急时先放下、跑掉，之后再回来取。仅这一处不对称，就让每一轮都变成「走哪条路」的选择题。"
+          ]
+        },
+        {
+          h: "声音会把它们招来",
+          p: [
+            "走路无声，跑步轻微，踩瓦中等，硬拽东西很响，瓦片塌陷最响。声音会把怪物聚过来。",
+            "于是每一刻都成了选择：慢一点，还是快一点？安静与速度之间的持续交易。"
+          ]
+        },
+        {
+          h: "人比怪物更冷",
+          p: [
+            "王宫里还有朝鲜的幸存者。他们不帮她。开口说话对方听不懂；先把她当成自己人，又发现她答不上来，于是更觉得她古怪。他们不开门，她经过时还咂舌。",
+            "衣服成了通行证。换上朝鲜服饰，人们才开始接纳你——可穿得越多，屋顶就越难跑。被接纳，还是自由：这道取舍再一次把主题和机制绑在一起。",
+            "她不识字，也就读不懂告示。目标从不会出现在小地图上。找路全靠对地形的记忆。"
+          ]
+        },
+        {
+          h: "现在到哪一步——早期原型（v0.1）",
+          p: [
+            "itch 上的是验证构建流程的 v0.1，核心循环尚未加入。",
+            "现在能玩的，和接下来要做的："
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ 探索兴福殿一带的宫殿群",
+              "✅ 丧尸、狼人、变异体、异形",
+              "✅ 近战与远程战斗",
+              "✅ 翻墙上瓦的跑酷移动",
+              "⬜ 以屋顶为捷径的追逐循环",
+              "⬜「Whisper」——只靠声音追人的追捕者",
+              "⬜ 救出他，然后逃离"
+            ]
+          }
+        }
+      ],
+      cta: "下载 Windows 版", back: "返回 Deother"
+    },
+
+    ja: {
+      title: "Soomba",
+      tagline: "屋根の逃走ゲーム——朝鮮王宮の屋根を駆け抜けて恋人を助け出す",
+      intro: "韓国の地を踏んだことのない在米コリアンの女性と、アメリカ人の恋人。二人は夏の浜辺から五百年前の朝鮮へ放り込まれます。王宮は怪物に占拠され、恋人は彼女の目の前で連れ去られる。言葉はひと言も通じない。戦うのではなく動いて生き延びる、一人用の逃走ゲームです。",
+      sections: [
+        {
+          h: "女が男を助ける",
+          p: [
+            "かつての型は、男の主人公が姫を助けに行くものでした。本作はその逆です。男尊女卑が骨まで染みた朝鮮社会で、女が男を助けます。",
+            "水着姿で、言葉も通じない。その社会は彼女を受け入れません——朝鮮の女たちは舌を鳴らし、変わり者として扱います。それでも彼女は王宮の屋根を駆けます。",
+            "この世界で屋根は二重の禁忌です。王宮で踏んではいけない場所であり、女がしてはいけないこと。だから「屋根を走る」ことがそのままこの主人公になります。"
+          ]
+        },
+        {
+          h: "屋根——禁じられた場所であり、近道",
+          p: [
+            "王宮の屋根はつながって、地上から切り離された上の道になります。屋根は速い代わりに四方から丸見えで、瓦は音を立てます。地上は遅い代わりに隠れられます。",
+            "たいていの怪物は登ってこられません。人狼は登ってきます——屋根が本当の安全地帯になることはありません。",
+            "古い瓦は踏むと崩れ、屋内へ落とされます。ダメージと大きな音と、予定になかった落下です。"
+          ]
+        },
+        {
+          h: "担いだ瞬間、道が閉じる",
+          p: [
+            "何かを担いだ瞬間、屋根に登ることも塀を越えることもできなくなります。行きは屋根を速く、帰りは地上を遅く。",
+            "持てるのは一度に一つ。危なくなったら置いて走り、あとで取りに戻る。この非対称ひとつで、毎回が「どの道を行くか」の問いになります。"
+          ]
+        },
+        {
+          h: "音が引き寄せる",
+          p: [
+            "歩けば無音、走れば小さく、瓦を踏めば中くらい、物を引き剥がせば大きく、瓦が崩れれば最大。音は怪物を一か所に集めます。",
+            "だから一瞬ごとが選択になります。ゆっくり行くか、速く行くか。静けさと速さのあいだの、絶え間ない取引です。"
+          ]
+        },
+        {
+          h: "怪物より人のほうが冷たい",
+          p: [
+            "王宮には朝鮮の生存者もいます。彼らは助けてくれません。話しかけても通じない。同胞かと思ったのに返事ができないと分かると、いっそう奇妙な存在として見られます。戸は開かず、通り過ぎれば舌を鳴らされます。",
+            "そして服が通行証になります。朝鮮の装いをまとうほど人々は受け入れ始める——けれど着込むほど屋根は走りにくくなる。受け入れられるか、自由でいるか。この取引がもう一度、主題と仕組みを結びます。",
+            "文字が読めないので、掲示も読めません。目的地がミニマップに出ることはありません。道は地形の記憶だけで探します。"
+          ]
+        },
+        {
+          h: "いまどこまで——初期プロトタイプ（v0.1）",
+          p: [
+            "itch にあるのはビルドの通し確認のための v0.1 で、コアループはまだ入っていません。",
+            "いま遊べるものと、これから入るもの："
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ 興福殿まわりの宮殿群の探索",
+              "✅ ゾンビ、人狼、ミュータント、エイリアン",
+              "✅ 近接と遠隔の戦闘",
+              "✅ 塀と屋根を越えるパルクール移動",
+              "⬜ 屋根を近道に使う追跡ループ",
+              "⬜「Whisper」——音だけで追ってくる追跡者",
+              "⬜ 恋人を助け出し、脱出する"
+            ]
+          }
+        }
+      ],
+      cta: "Windows 版をダウンロード", back: "Deother に戻る"
+    },
+
+    es: {
+      title: "Soomba",
+      tagline: "Un juego de huida por los tejados: corre sobre el palacio de Joseon para salvar a tu novio",
+      intro: "Una coreano-estadounidense que nunca había pisado Corea y su novio estadounidense son arrojados desde una playa de verano al Joseon de hace cinco siglos. El palacio está tomado por monstruos y a él se lo llevan ante sus ojos. Ella no habla una palabra del idioma. Un juego de huida para un jugador donde se sobrevive moviéndose, no peleando.",
+      sections: [
+        {
+          h: "Una mujer salva a un hombre",
+          p: [
+            "La forma antigua del juego era un héroe rescatando a una princesa. Esta es la inversa. En Joseon, una sociedad empapada en la sumisión de la mujer, es una mujer quien salva a un hombre.",
+            "Va en bañador y no consigue hacerse entender. Esa sociedad no la acepta: las mujeres de Joseon chasquean la lengua y la tratan como a una rareza. Y aun así corre por los tejados del palacio.",
+            "El tejado está doblemente prohibido en este mundo: es un lugar que no se pisa en un palacio, y algo que una mujer no debe hacer. Por eso correr por los tejados acaba siendo el personaje mismo."
+          ]
+        },
+        {
+          h: "El tejado: prohibido y atajo",
+          p: [
+            "Los tejados del palacio se enlazan en una ruta superior, separada del suelo. El tejado es rápido pero queda expuesto por todos lados, y las tejas suenan. El suelo es lento, pero permite esconderse.",
+            "La mayoría de los monstruos no pueden subir. El hombre lobo sí: el tejado nunca es una zona segura de verdad.",
+            "Algunas tejas viejas se hunden al pisarlas y te dejan caer dentro del edificio: daño, un ruido fuerte y una caída que no habías planeado."
+          ]
+        },
+        {
+          h: "Si lo cargas, quedas sellada",
+          p: [
+            "En el momento en que cargas algo, ya no puedes subir a los tejados ni saltar muros. Vas rápido por arriba y vuelves despacio por el suelo.",
+            "Una cosa cada vez. En un apuro la dejas, corres y la recuperas más tarde. Esa única asimetría convierte cada ronda en una pregunta sobre qué ruta tomar."
+          ]
+        },
+        {
+          h: "El ruido los atrae",
+          p: [
+            "Caminar es silencioso, correr es suave, pisar teja es medio, arrancar algo es fuerte, y una teja que se hunde es lo más fuerte de todo. El ruido junta a los monstruos.",
+            "Así cada instante se vuelve una elección: ¿despacio o deprisa? Un canje constante entre silencio y velocidad."
+          ]
+        },
+        {
+          h: "La gente es más fría que los monstruos",
+          p: [
+            "En el palacio hay supervivientes de Joseon. No la ayudan. Les habla y no la entienden; la toman por una de los suyos y, al ver que no sabe responder, les resulta aún más extraña. No abren sus puertas y chasquean la lengua cuando pasa.",
+            "Y la ropa se convierte en pasaporte. Ponte vestimenta de Joseon y la gente empieza a acogerte, pero cuanto más te vistes, más difícil se hace el tejado. Ser aceptada o ser libre: ese canje vuelve a atar el tema a la mecánica.",
+            "No sabe leer el idioma, así que no puede leer los carteles. Los objetivos nunca aparecen en un minimapa. Orientarse es pura memoria del terreno."
+          ]
+        },
+        {
+          h: "Dónde está: prototipo temprano (v0.1)",
+          p: [
+            "Lo que hay en itch es una v0.1 que valida la cadena de compilación. El bucle principal todavía no está.",
+            "Lo que ya se puede jugar y lo que viene:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Explorar el complejo palaciego de Heungbokjeon",
+              "✅ Zombis, un hombre lobo, un mutante, un alienígena",
+              "✅ Combate cuerpo a cuerpo y a distancia",
+              "✅ Desplazamiento de parkour por muros y tejados",
+              "⬜ Un bucle de persecución que usa los tejados como atajo",
+              "⬜ «Whisper»: un perseguidor que caza solo por el sonido",
+              "⬜ Rescatarlo a él y salir de allí"
+            ]
+          }
+        }
+      ],
+      cta: "Descargar para Windows", back: "Volver a Deother"
+    },
+
+    pt: {
+      title: "Soomba",
+      tagline: "Um jogo de fuga pelos telhados — corre sobre o palácio de Joseon para salvar o teu namorado",
+      intro: "Uma coreano-americana que nunca tinha pisado a Coreia e o seu namorado americano são atirados de uma praia de verão para o Joseon de há cinco séculos. O palácio está tomado por monstros e ele é arrastado à frente dela. Ela não fala uma palavra da língua. Um jogo de fuga para um jogador em que se sobrevive a mexer, não a lutar.",
+      sections: [
+        {
+          h: "Uma mulher salva um homem",
+          p: [
+            "A forma antiga do jogo era um herói a resgatar uma princesa. Esta é a inversa. Em Joseon, uma sociedade embebida na submissão da mulher, é uma mulher que salva um homem.",
+            "Está de fato de banho e não consegue fazer-se entender. Aquela sociedade não a aceita — as mulheres de Joseon estalam a língua e tratam-na como uma esquisitice. E mesmo assim ela corre pelos telhados do palácio.",
+            "O telhado é duplamente proibido neste mundo: um lugar onde não se pisa num palácio, e uma coisa que uma mulher não deve fazer. Por isso correr nos telhados acaba por ser a própria personagem."
+          ]
+        },
+        {
+          h: "O telhado — proibido, e atalho",
+          p: [
+            "Os telhados do palácio ligam-se numa rota superior, separada do chão. O telhado é rápido mas fica exposto de todos os lados, e as telhas fazem barulho. O chão é lento, mas dá para esconder.",
+            "A maioria dos monstros não consegue subir. O lobisomem consegue — o telhado nunca é uma zona verdadeiramente segura.",
+            "Algumas telhas velhas cedem quando as pisas e deixam-te cair para dentro: dano, um barulho alto e uma queda que não estava planeada."
+          ]
+        },
+        {
+          h: "Se carregares, ficas selada",
+          p: [
+            "No momento em que carregas alguma coisa, deixas de poder subir aos telhados ou saltar muros. Vais depressa por cima e voltas devagar pelo chão.",
+            "Uma coisa de cada vez. Num aperto pousas, foges e recuperas mais tarde. Essa única assimetria transforma cada ronda numa pergunta sobre que caminho tomar."
+          ]
+        },
+        {
+          h: "O barulho atrai-os",
+          p: [
+            "Andar é silencioso, correr é suave, pisar telha é médio, arrancar alguma coisa é alto, e uma telha a ceder é o mais alto de tudo. O barulho junta os monstros.",
+            "Assim cada instante torna-se uma escolha: devagar ou depressa? Uma troca constante entre silêncio e velocidade."
+          ]
+        },
+        {
+          h: "As pessoas são mais frias do que os monstros",
+          p: [
+            "Há sobreviventes de Joseon no palácio. Não a ajudam. Fala com eles e não a entendem; tomam-na por uma dos seus e, ao verem que não sabe responder, acham-na ainda mais estranha. Não abrem as portas e estalam a língua quando ela passa.",
+            "E a roupa passa a ser passaporte. Veste traje de Joseon e as pessoas começam a acolher-te — mas quanto mais vestes, mais difícil fica o telhado. Ser aceite ou ser livre: essa troca volta a atar o tema à mecânica.",
+            "Ela não sabe ler a língua, por isso não consegue ler os avisos. Os objetivos nunca aparecem num minimapa. Orientar-se é pura memória do terreno."
+          ]
+        },
+        {
+          h: "Onde está — protótipo inicial (v0.1)",
+          p: [
+            "O que está no itch é uma v0.1 que valida a cadeia de compilação. O ciclo principal ainda não entrou.",
+            "O que já dá para jogar e o que vem a seguir:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Explorar o complexo palaciano de Heungbokjeon",
+              "✅ Zombies, um lobisomem, um mutante, um alienígena",
+              "✅ Combate corpo a corpo e à distância",
+              "✅ Deslocação em parkour por muros e telhados",
+              "⬜ Um ciclo de perseguição que usa os telhados como atalho",
+              "⬜ «Whisper» — um perseguidor que caça apenas pelo som",
+              "⬜ Resgatá-lo e sair dali"
+            ]
+          }
+        }
+      ],
+      cta: "Descarregar para Windows", back: "Voltar a Deother"
+    },
+
+    fr: {
+      title: "Soomba",
+      tagline: "Un jeu de fuite sur les toits — courez sur le palais de Joseon pour sauver votre compagnon",
+      intro: "Une Coréenne-Américaine qui n'avait jamais mis les pieds en Corée et son compagnon américain sont projetés d'une plage d'été vers le Joseon d'il y a cinq siècles. Le palais est envahi par des monstres et il est emmené sous ses yeux. Elle ne parle pas un mot de la langue. Un jeu de fuite solo où l'on survit en se déplaçant, pas en combattant.",
+      sections: [
+        {
+          h: "Une femme sauve un homme",
+          p: [
+            "La forme ancienne du jeu, c'était un héros venant délivrer une princesse. Ici, c'est l'inverse. Dans le Joseon, société imprégnée de la soumission des femmes, c'est une femme qui sauve un homme.",
+            "Elle est en maillot de bain et ne parvient pas à se faire comprendre. Cette société ne l'accepte pas — les femmes de Joseon claquent la langue et la traitent comme une bizarrerie. Et elle court quand même sur les toits du palais.",
+            "Le toit est doublement interdit dans ce monde : un endroit où l'on ne marche pas dans un palais, et une chose qu'une femme ne doit pas faire. Courir sur les toits finit donc par être le personnage lui-même."
+          ]
+        },
+        {
+          h: "Le toit — interdit, et raccourci",
+          p: [
+            "Les toits du palais se relient en une route haute, coupée du sol. Le toit est rapide mais exposé de tous côtés, et les tuiles font du bruit. Le sol est lent, mais on peut s'y cacher.",
+            "La plupart des monstres ne savent pas monter. Le loup-garou, si — le toit n'est jamais une vraie zone sûre.",
+            "Certaines vieilles tuiles cèdent sous le pied et vous font tomber à l'intérieur : des dégâts, un bruit fort, et une chute que vous n'aviez pas prévue."
+          ]
+        },
+        {
+          h: "Dès que vous portez, vous êtes scellée",
+          p: [
+            "À l'instant où vous portez quelque chose, vous ne pouvez plus monter sur les toits ni franchir les murs. On part vite par les toits, on revient lentement par le sol.",
+            "Une seule chose à la fois. Au pire, on la pose, on court, on revient la chercher. Cette seule asymétrie fait de chaque manche une question d'itinéraire."
+          ]
+        },
+        {
+          h: "Le bruit les attire",
+          p: [
+            "Marcher est silencieux, courir est discret, marcher sur les tuiles est moyen, arracher quelque chose est fort, et une tuile qui cède est le plus fort de tout. Le bruit rassemble les monstres.",
+            "Chaque instant devient donc un choix : lentement, ou vite ? Un échange permanent entre le silence et la vitesse."
+          ]
+        },
+        {
+          h: "Les gens sont plus froids que les monstres",
+          p: [
+            "Des survivants de Joseon vivent dans le palais. Ils ne l'aident pas. Elle leur parle, ils ne comprennent pas ; ils la prennent pour l'une des leurs, puis découvrent qu'elle ne sait pas répondre et la trouvent plus étrange encore. Ils n'ouvrent pas leurs portes et claquent la langue à son passage.",
+            "Et le vêtement devient un passeport. Enfilez une tenue de Joseon et les gens commencent à vous accueillir — mais plus vous en portez, plus les toits deviennent difficiles. Être acceptée ou être libre : cet échange relie une fois encore le thème à la mécanique.",
+            "Elle ne lit pas la langue, donc elle ne lit pas les panneaux. Les objectifs n'apparaissent jamais sur une minicarte. S'orienter, c'est de la pure mémoire du terrain."
+          ]
+        },
+        {
+          h: "Où en est le jeu — prototype précoce (v0.1)",
+          p: [
+            "Ce qui est sur itch est une v0.1 qui valide la chaîne de compilation. La boucle principale n'y est pas encore.",
+            "Ce qui est jouable aujourd'hui, et ce qui arrive :"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Explorer le complexe palatial de Heungbokjeon",
+              "✅ Des zombies, un loup-garou, un mutant, un alien",
+              "✅ Combat au corps à corps et à distance",
+              "✅ Déplacement en parkour par-dessus murs et toits",
+              "⬜ Une boucle de poursuite qui utilise les toits comme raccourci",
+              "⬜ « Whisper » — un traqueur qui chasse au seul bruit",
+              "⬜ Le délivrer, et sortir de là"
+            ]
+          }
+        }
+      ],
+      cta: "Télécharger pour Windows", back: "Retour à Deother"
+    },
+
+    de: {
+      title: "Soomba",
+      tagline: "Ein Fluchtspiel über die Dächer — lauf über die Palastdächer von Joseon, um deinen Freund zu retten",
+      intro: "Eine Koreanisch-Amerikanerin, die nie koreanischen Boden betreten hat, und ihr amerikanischer Freund werden von einem Sommerstrand ins Joseon vor fünf Jahrhunderten geworfen. Der Palast ist von Monstern überrannt, und er wird vor ihren Augen fortgeschleift. Sie spricht kein Wort der Sprache. Ein Einzelspieler-Fluchtspiel, in dem man durch Bewegung überlebt, nicht durch Kämpfen.",
+      sections: [
+        {
+          h: "Eine Frau rettet einen Mann",
+          p: [
+            "Die alte Form des Spiels war ein Held, der eine Prinzessin rettet. Dieses hier ist die Umkehrung. In Joseon, einer Gesellschaft, die von der Unterordnung der Frau durchtränkt ist, rettet eine Frau einen Mann.",
+            "Sie trägt einen Badeanzug und kann sich nicht verständlich machen. Diese Gesellschaft nimmt sie nicht auf — die Frauen von Joseon schnalzen mit der Zunge und behandeln sie als etwas Sonderbares. Und sie läuft trotzdem über die Palastdächer.",
+            "Das Dach ist in dieser Welt doppelt verboten: ein Ort, den man in einem Palast nicht betritt, und etwas, das eine Frau nicht tun darf. Deshalb wird das Laufen über die Dächer zur Figur selbst."
+          ]
+        },
+        {
+          h: "Das Dach — verboten, und Abkürzung",
+          p: [
+            "Die Palastdächer fügen sich zu einer oberen Route zusammen, abgeschnitten vom Boden. Das Dach ist schnell, aber nach allen Seiten offen, und die Ziegel sind laut. Der Boden ist langsam, dafür kann man sich verstecken.",
+            "Die meisten Monster können nicht hinaufklettern. Der Werwolf schon — das Dach ist nie eine echte sichere Zone.",
+            "Manche alten Ziegel brechen unter dem Tritt weg und lassen dich nach innen fallen: Schaden, ein lautes Geräusch und ein Sturz, den du nicht eingeplant hattest."
+          ]
+        },
+        {
+          h: "Trägst du etwas, bist du versiegelt",
+          p: [
+            "In dem Moment, in dem du etwas trägst, kannst du weder auf Dächer klettern noch über Mauern setzen. Hin geht es schnell über die Dächer, zurück langsam über den Boden.",
+            "Immer nur eine Sache. Im Notfall legst du sie ab, rennst und holst sie später. Diese eine Asymmetrie macht aus jeder Runde eine Frage der Route."
+          ]
+        },
+        {
+          h: "Lärm zieht sie herbei",
+          p: [
+            "Gehen ist lautlos, Rennen leise, ein Tritt auf Ziegel mittel, etwas losreißen laut, und ein einbrechender Ziegel am lautesten von allem. Lärm zieht die Monster zusammen.",
+            "So wird jeder Moment zur Wahl: langsam oder schnell? Ein ständiger Tausch zwischen Stille und Tempo."
+          ]
+        },
+        {
+          h: "Die Menschen sind kälter als die Monster",
+          p: [
+            "Im Palast leben Überlebende aus Joseon. Sie helfen ihr nicht. Sie spricht sie an und sie verstehen nichts; sie halten sie für eine der Ihren und finden sie, als sie nicht antworten kann, nur noch fremder. Sie öffnen ihre Türen nicht und schnalzen mit der Zunge, wenn sie vorbeigeht.",
+            "Und Kleidung wird zum Pass. Zieh Joseon-Tracht an, und die Leute beginnen dich aufzunehmen — aber je mehr du trägst, desto schwerer werden die Dächer. Angenommen sein oder frei sein: dieser Tausch bindet das Thema noch einmal an die Mechanik.",
+            "Sie kann die Sprache nicht lesen, also auch keine Schilder. Ziele erscheinen nie auf einer Minikarte. Orientierung ist reine Erinnerung an das Gelände."
+          ]
+        },
+        {
+          h: "Wo es steht — früher Prototyp (v0.1)",
+          p: [
+            "Was auf itch liegt, ist eine v0.1, die die Build-Pipeline prüft. Die Kernschleife ist noch nicht drin.",
+            "Was jetzt spielbar ist, und was kommt:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Die Palastanlage Heungbokjeon erkunden",
+              "✅ Zombies, ein Werwolf, ein Mutant, ein Alien",
+              "✅ Nah- und Fernkampf",
+              "✅ Parkour-Bewegung über Mauern und Dächer",
+              "⬜ Eine Verfolgungsschleife, die die Dächer als Abkürzung nutzt",
+              "⬜ „Whisper“ — ein Verfolger, der allein nach Gehör jagt",
+              "⬜ Ihn befreien und hinauskommen"
+            ]
+          }
+        }
+      ],
+      cta: "Für Windows herunterladen", back: "Zurück zu Deother"
+    },
+
+    ru: {
+      title: "Soomba",
+      tagline: "Игра-побег по крышам — бегите по крышам дворца Чосон, чтобы спасти любимого",
+      intro: "Кореянка из США, ни разу не ступавшая на корейскую землю, и её американский парень попадают с летнего пляжа в Чосон пятивековой давности. Дворец захвачен чудовищами, и его утаскивают у неё на глазах. Она не знает ни слова на этом языке. Одиночная игра-побег, где выживают движением, а не боем.",
+      sections: [
+        {
+          h: "Женщина спасает мужчину",
+          p: [
+            "Старая форма такой игры — герой спасает принцессу. Здесь всё наоборот. В Чосоне, обществе, пропитанном подчинённым положением женщины, мужчину спасает женщина.",
+            "Она в купальнике и не может объясниться. Это общество её не принимает — женщины Чосона цокают языком и держат её за чудачку. И она всё равно бежит по дворцовым крышам.",
+            "Крыша в этом мире запретна дважды: во дворце на неё не ступают, и женщине этого делать нельзя. Поэтому бег по крышам и оказывается самой героиней."
+          ]
+        },
+        {
+          h: "Крыша — запрет и короткий путь",
+          p: [
+            "Дворцовые крыши смыкаются в верхний маршрут, оторванный от земли. По крыше быстро, но тебя видно со всех сторон, и черепица шумит. По земле медленно, зато можно спрятаться.",
+            "Большинство чудовищ наверх не заберётся. Оборотень заберётся — крыша никогда не бывает по-настоящему безопасной зоной.",
+            "Часть старой черепицы проваливается под ногой и роняет вас внутрь: урон, громкий звук и падение, которого вы не планировали."
+          ]
+        },
+        {
+          h: "Взяла ношу — путь закрыт",
+          p: [
+            "В тот момент, когда вы что-то несёте, вы больше не заберётесь на крышу и не перемахнёте через стену. Туда — быстро по крышам, обратно — медленно по земле.",
+            "По одной вещи за раз. В крайнем случае кладёте её, убегаете и возвращаетесь позже. Одна эта асимметрия превращает каждый заход в вопрос о маршруте."
+          ]
+        },
+        {
+          h: "Шум их стягивает",
+          p: [
+            "Шаг беззвучен, бег тих, ступить на черепицу — средне, оторвать что-то — громко, а провалившаяся черепица громче всего. Шум собирает чудовищ в одно место.",
+            "Поэтому каждое мгновение становится выбором: медленно или быстро? Постоянный обмен тишины на скорость."
+          ]
+        },
+        {
+          h: "Люди холоднее чудовищ",
+          p: [
+            "Во дворце есть уцелевшие жители Чосона. Они не помогают. Она заговаривает — её не понимают; принимают за свою, а когда выясняется, что ответить она не может, она кажется им ещё более чужой. Дверей не открывают и цокают языком ей вслед.",
+            "А одежда становится пропуском. Наденьте чосонское платье — и люди начнут вас принимать, но чем больше на вас надето, тем труднее крыши. Быть принятой или быть свободной: этот обмен снова связывает тему с механикой.",
+            "Читать на этом языке она не умеет, значит, и надписи ей недоступны. Цели никогда не появляются на мини-карте. Ориентирование — это чистая память о местности."
+          ]
+        },
+        {
+          h: "На каком этапе — ранний прототип (v0.1)",
+          p: [
+            "На itch выложена версия 0.1, проверяющая сборочный конвейер. Основной цикл ещё не добавлен.",
+            "Что играбельно сейчас и что впереди:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Исследование дворцового комплекса Хынбокчон",
+              "✅ Зомби, оборотень, мутант, пришелец",
+              "✅ Ближний и дальний бой",
+              "✅ Паркур через стены и крыши",
+              "⬜ Цикл погони, в котором крыши работают как короткий путь",
+              "⬜ «Whisper» — преследователь, который охотится только на слух",
+              "⬜ Спасти его и выбраться"
+            ]
+          }
+        }
+      ],
+      cta: "Скачать для Windows", back: "Назад в Deother"
+    },
+
+    ar: {
+      title: "Soomba",
+      tagline: "لعبة هروب فوق السطوح — اركضي على سطوح قصر جوسون لإنقاذ حبيبك",
+      intro: "امرأة كورية أمريكية لم تطأ كوريا يومًا، وحبيبها الأمريكي، يُقذَفان من شاطئ صيفي إلى جوسون قبل خمسة قرون. القصر تجتاحه الوحوش، ويُسحَب هو أمام عينيها. لا تعرف كلمة واحدة من اللغة. لعبة هروب للاعب واحد، تنجين فيها بالحركة لا بالقتال.",
+      sections: [
+        {
+          h: "امرأة تنقذ رجلًا",
+          p: [
+            "الشكل القديم لهذه الألعاب بطل ينقذ أميرة. هذه اللعبة عكسه. في جوسون، وهو مجتمع مشبع بإخضاع المرأة، امرأة هي من تنقذ رجلًا.",
+            "هي بلباس السباحة ولا تستطيع أن تُفهِم أحدًا. ذلك المجتمع لا يقبلها — نساء جوسون يطقطقن بألسنتهن ويعاملنها كغريبة. ومع ذلك تركض فوق سطوح القصر.",
+            "السطح محرّم مرتين في هذا العالم: مكان لا يُداس عليه في قصر، وفعل لا يليق بامرأة. لذلك صار الركض على السطوح هو الشخصية نفسها."
+          ]
+        },
+        {
+          h: "السطح — محرّم، وطريق مختصر",
+          p: [
+            "تتصل سطوح القصر لتصنع مسارًا علويًا منفصلًا عن الأرض. السطح سريع لكنه مكشوف من كل جهة، والقرميد يُحدث صوتًا. الأرض بطيئة، لكنها تتيح الاختباء.",
+            "معظم الوحوش لا تستطيع الصعود. المستذئب يستطيع — فالسطح ليس منطقة آمنة حقيقية أبدًا.",
+            "بعض القرميد القديم ينهار تحت القدم فيُسقطك إلى الداخل: ضرر، وصوت عالٍ، وسقطة لم تكن في الحسبان."
+          ]
+        },
+        {
+          h: "ما إن تحملي شيئًا حتى يُغلق الطريق",
+          p: [
+            "في اللحظة التي تحملين فيها شيئًا، لا يعود بإمكانك تسلّق السطوح ولا تخطّي الجدران. تذهبين سريعًا فوق السطوح، وتعودين ببطء على الأرض.",
+            "شيء واحد في كل مرة. عند الضيق تضعينه وتركضين ثم تعودين إليه لاحقًا. هذا الاختلال وحده يجعل كل جولة سؤالًا عن الطريق."
+          ]
+        },
+        {
+          h: "الصوت يجذبها",
+          p: [
+            "المشي صامت، والركض خفيف، والدوس على القرميد متوسط، ونزع شيء عالٍ، وانهيار قرميدة أعلى ما يكون. الصوت يجمع الوحوش في مكان واحد.",
+            "فتصير كل لحظة اختيارًا: ببطء أم بسرعة؟ مقايضة دائمة بين الهدوء والسرعة."
+          ]
+        },
+        {
+          h: "الناس أبرد من الوحوش",
+          p: [
+            "في القصر ناجون من أهل جوسون. لا يساعدونها. تكلّمهم فلا يفهمون؛ يحسبونها منهم، فإذا عجزت عن الردّ ازدادت في أعينهم غرابة. لا يفتحون أبوابهم، ويطقطقون بألسنتهم حين تمرّ.",
+            "ويصير اللباس جواز مرور. ارتدي ثياب جوسون يبدأ الناس بقبولك — لكن كلما ازددت لبسًا صار السطح أصعب. أن تُقبَلي أو أن تبقي حرّة: هذه المقايضة تربط الفكرة بالآلية مرة أخرى.",
+            "لا تقرأ اللغة، فلا تقرأ اللافتات. الأهداف لا تظهر على خريطة مصغّرة أبدًا. الاهتداء إلى الطريق ذاكرة تضاريس خالصة."
+          ]
+        },
+        {
+          h: "أين وصلنا — نموذج أولي مبكر (v0.1)",
+          p: [
+            "‏ما هو منشور على itch نسخة 0.1 تتحقّق من خط البناء. الحلقة الأساسية لم تدخل بعد.",
+            "ما يمكن لعبه الآن، وما هو قادم:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ استكشاف مجمّع قصر هيونغبوكجون",
+              "✅ زومبي، ومستذئب، ومتحوّل، وكائن فضائي",
+              "✅ قتال قريب وبعيد المدى",
+              "✅ تنقّل باركور فوق الجدران والسطوح",
+              "⬜ حلقة مطاردة تستخدم السطوح طريقًا مختصرًا",
+              "‏⬜ «Whisper» — مطارِد يقتفي الأثر بالصوت وحده",
+              "⬜ إنقاذه، والخروج من هناك"
+            ]
+          }
+        }
+      ],
+      cta: "‏تنزيل لنظام Windows", back: "‏العودة إلى Deother"
     }
   },
 
@@ -1050,6 +1578,398 @@ const PAGES = {
         }
       ],
       cta: "Free download for Windows", back: "Back to Deother"
+    },
+
+    zh: {
+      title: "Death Guide",
+      tagline: "朝鲜的阴间使者，劈开复起的亡者",
+      intro: "戴黑笠的朝鲜阴间使者（jeoseung-saja），以太刀、拳与腿劈开成群的复起亡者。肢体一节节断落，尸身被击飞、撞上墙壁。风格取向接近《鬼泣》的爽快动作。⚠️ 成人向——极端血腥与暴力。",
+      sections: [
+        {
+          h: "阴间使者白武进",
+          p: [
+            "游戏取材自在 Millie 连载的原著网络小说。主角是白武进——高丽末年被灭门的将军之子。",
+            "十六岁便是榜首的才俊，却在朝鲜开国之初眼看父亲被冠上逆贼之名、全家覆灭。他死于刽子手的刀下——但故事并未就此结束。",
+            "他重生为阴间使者，走上引渡冤魂前往阴间的路。他的命数是：无论多想死，都死不了。"
+          ]
+        },
+        {
+          h: "斩击，与断肢",
+          p: [
+            "太刀、拳、腿在每一次挥击中随机混合。每一刀都会让刀身裹上属性斩痕——火、冰、雷。",
+            "二段跳，以及随攻击推近的动态电影运镜。手感的目标是《鬼泣》一路的风格动作。"
+          ]
+        },
+        {
+          h: "无尽的亡者",
+          p: [
+            "敌人是模块化的。手臂、腿、头会一部位一部位地断落，断掉的部件不会消失——它们滚在地上，你还能继续踢。第一击会让躯干进入布娃娃状态，直接甩上墙。",
+            "鲜血、碎骨般的打击感、临死的惨叫。亡者无止境地涌出——这是一款关于在尸潮中活下去的游戏。⚠️ 极端血腥与暴力，成人向。"
+          ]
+        },
+        {
+          h: "现在到哪一步——早期版本",
+          p: [
+            "itch 上的是早期版本。免费——随喜付费。",
+            "现在能玩的，和接下来要做的："
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ 以阴间使者的身份迎战尸潮（太刀·拳·腿连段）",
+              "✅ 断肢 · 布娃娃血腥表现 · 属性斩痕",
+              "✅ 二段跳 · 动态战斗运镜 · 无限刷怪",
+              "⬜ 昌德宫乐善斋关卡",
+              "⬜ 八方向闪避 / 翻滚系统",
+              "⬜ 白武进的故事线"
+            ]
+          }
+        }
+      ],
+      cta: "免费下载 Windows 版", back: "返回 Deother"
+    },
+
+    ja: {
+      title: "Death Guide",
+      tagline: "朝鮮の死神が、よみがえった死者を斬り開く",
+      intro: "黒い笠をかぶった朝鮮の死神（チョスンサジャ）が、太刀と拳と蹴りでよみがえった死者の群れを斬り開きます。四肢は一本ずつ落ち、胴はラグドールとなって壁に叩きつけられる。『デビル メイ クライ』の系譜にあるスタイリッシュアクションです。⚠️ 成人向け——極度のゴアと暴力。",
+      sections: [
+        {
+          h: "死神ペク・ムジン",
+          p: [
+            "原作は Millie で連載中のウェブ小説です。主人公はペク・ムジン——高麗末に一族を滅ぼされた将軍の子。",
+            "十六歳で首席に立つ才子でしたが、朝鮮建国のさなか父が逆賊の名を着せられ、一族もろとも滅びるのを目の当たりにします。彼は処刑人の刃に首を落とされる——しかし、そこで終わりません。",
+            "彼は死神として生まれ直し、無念の魂を冥界へ導く道に就きます。どれほど望んでも死ねない、というのが彼の宿命です。"
+          ]
+        },
+        {
+          h: "斬る、そして断つ",
+          p: [
+            "太刀・拳・蹴りが一振りごとにランダムで混ざります。剣の一閃ごとに刃が属性の斬撃軌跡をまとう——炎、氷、雷。",
+            "二段ジャンプと、攻撃に合わせて寄る動的なシネマティックカメラ。手触りが目指すのは『デビル メイ クライ』系のスタイリッシュアクションです。"
+          ]
+        },
+        {
+          h: "尽きない死者",
+          p: [
+            "敵はモジュール構造です。腕、脚、頭が部位ごとに落ち、切り離された部品は消えません——地面を転がり、蹴り続けることもできます。最初の一撃で胴がラグドール化し、壁へ吹き飛びます。",
+            "血、骨の砕けるような手応え、断末魔。死者は限りなく湧きます——群れを生き延びるためのゲームです。⚠️ 極度のゴアと暴力、成人向け。"
+          ]
+        },
+        {
+          h: "いまどこまで——アーリービルド",
+          p: [
+            "itch にあるのはアーリービルドです。無料——投げ銭制。",
+            "いま遊べるものと、これから入るもの："
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ 死神として群れと戦う（太刀・拳・蹴りのコンボ）",
+              "✅ 部位切断 · ラグドールのゴア表現 · 属性の斬撃軌跡",
+              "✅ 二段ジャンプ · 動的な戦闘カメラ · 無限湧き",
+              "⬜ 昌徳宮・楽善斎のステージ",
+              "⬜ 8方向の回避／ローリング",
+              "⬜ ペク・ムジンの物語"
+            ]
+          }
+        }
+      ],
+      cta: "Windows 版を無料ダウンロード", back: "Deother に戻る"
+    },
+
+    es: {
+      title: "Death Guide",
+      tagline: "Un segador de almas de Joseon abre en canal a los muertos que se alzan",
+      intro: "Un jeoseung-saja de gat negro —un segador de almas de la era Joseon— abre en canal a hordas de muertos alzados con katana, puños y patadas. Los miembros se desprenden uno a uno; los cuerpos se vuelven ragdoll y se estrellan contra las paredes. Acción con estilo en la línea de Devil May Cry. ⚠️ Para adultos: gore y violencia extremos.",
+      sections: [
+        {
+          h: "Baek Mu-jin, el segador de almas",
+          p: [
+            "El juego parte de la novela web original serializada en Millie. Su protagonista es Baek Mu-jin, hijo de un general cuya casa fue destruida al final de Goryeo.",
+            "Primero de su promoción a los dieciséis, ve caer a toda su familia cuando su padre es marcado como traidor en los años fundacionales de Joseon. Lo decapita la espada de un verdugo, pero ahí no termina.",
+            "Renace como jeoseung-saja, puesto en el camino que guía a las almas agraviadas hacia el inframundo. Su destino es no poder morir, por mucho que lo desee."
+          ]
+        },
+        {
+          h: "Cortar y desmembrar",
+          p: [
+            "Katana, puños y patadas se mezclan al azar en cada golpe. Cada tajo envuelve la hoja en una estela elemental: fuego, hielo, rayo.",
+            "Doble salto y una cámara cinemática dinámica que se acerca con tus ataques. La sensación busca la acción con estilo de la escuela Devil May Cry."
+          ]
+        },
+        {
+          h: "Los muertos sin fin",
+          p: [
+            "Los enemigos son modulares. Brazos, piernas y cabezas se desprenden pieza a pieza, y los trozos cortados no desaparecen: ruedan por el suelo y puedes seguir pateándolos. El primer impacto convierte el torso en ragdoll y lo lanza contra un muro.",
+            "Sangre, impactos que suenan a hueso roto, gritos de agonía. Los muertos aparecen sin descanso: este es un juego sobre sobrevivir al enjambre. ⚠️ Gore y violencia extremos, para adultos."
+          ]
+        },
+        {
+          h: "Dónde está: versión temprana",
+          p: [
+            "Lo que hay en itch es una versión temprana. Es gratis: paga lo que quieras.",
+            "Lo que ya se puede jugar y lo que viene:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Luchar contra las hordas como el segador (combos de katana, puño y patada)",
+              "✅ Desmembramiento · gore con ragdoll · estelas elementales",
+              "✅ Doble salto · cámara de combate dinámica · aparición infinita",
+              "⬜ El escenario del Nakseonjae (Changdeokgung)",
+              "⬜ Un sistema de esquiva y rodada en 8 direcciones",
+              "⬜ La historia de Baek Mu-jin"
+            ]
+          }
+        }
+      ],
+      cta: "Descarga gratuita para Windows", back: "Volver a Deother"
+    },
+
+    pt: {
+      title: "Death Guide",
+      tagline: "Um ceifeiro de almas de Joseon abre caminho pelos mortos que se erguem",
+      intro: "Um jeoseung-saja de gat preto — um ceifeiro de almas da era Joseon — abre caminho por hordas de mortos erguidos com katana, punhos e pontapés. Os membros saem um a um; os corpos viram ragdoll e batem contra as paredes. Ação com estilo na linha de Devil May Cry. ⚠️ Para adultos — gore e violência extremos.",
+      sections: [
+        {
+          h: "Baek Mu-jin, o ceifeiro de almas",
+          p: [
+            "O jogo parte do romance web original serializado na Millie. O protagonista é Baek Mu-jin — filho de um general cuja casa foi destruída no fim de Goryeo.",
+            "Primeiro da sua turma aos dezasseis anos, vê toda a família cair quando o pai é marcado como traidor nos anos fundadores de Joseon. É decapitado pela lâmina de um carrasco — mas não acaba aí.",
+            "Renasce como jeoseung-saja, posto no caminho que conduz as almas injustiçadas ao mundo dos mortos. O seu destino é não poder morrer, por muito que o deseje."
+          ]
+        },
+        {
+          h: "Cortar e desmembrar",
+          p: [
+            "Katana, punhos e pontapés misturam-se ao acaso a cada golpe. Cada corte envolve a lâmina num rasto elemental — fogo, gelo, relâmpago.",
+            "Salto duplo e uma câmara cinematográfica dinâmica que se aproxima com os teus ataques. A sensação procura a ação com estilo da escola Devil May Cry."
+          ]
+        },
+        {
+          h: "Os mortos sem fim",
+          p: [
+            "Os inimigos são modulares. Braços, pernas e cabeças saem peça a peça, e os pedaços cortados não desaparecem — rolam pelo chão e podes continuar a pontapeá-los. O primeiro impacto transforma o tronco em ragdoll e atira-o contra uma parede.",
+            "Sangue, impactos com som de osso partido, gritos de agonia. Os mortos surgem sem fim — este é um jogo sobre sobreviver ao enxame. ⚠️ Gore e violência extremos, para adultos."
+          ]
+        },
+        {
+          h: "Onde está — versão inicial",
+          p: [
+            "O que está no itch é uma versão inicial. É gratuito — paga o que quiseres.",
+            "O que já dá para jogar e o que vem a seguir:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Combater as hordas como o ceifeiro (combos de katana, punho e pontapé)",
+              "✅ Desmembramento · gore com ragdoll · rastos elementais",
+              "✅ Salto duplo · câmara de combate dinâmica · geração infinita",
+              "⬜ O cenário do Nakseonjae (Changdeokgung)",
+              "⬜ Um sistema de esquiva e rolamento em 8 direções",
+              "⬜ A história de Baek Mu-jin"
+            ]
+          }
+        }
+      ],
+      cta: "Descarga gratuita para Windows", back: "Voltar a Deother"
+    },
+
+    fr: {
+      title: "Death Guide",
+      tagline: "Un faucheur d'âmes de Joseon taille dans les morts relevés",
+      intro: "Un jeoseung-saja au gat noir — un faucheur d'âmes de l'époque Joseon — taille dans les hordes de morts relevés au katana, au poing et au pied. Les membres tombent un à un ; les corps passent en ragdoll et s'écrasent contre les murs. De l'action stylée dans la lignée de Devil May Cry. ⚠️ Pour adultes — gore et violence extrêmes.",
+      sections: [
+        {
+          h: "Baek Mu-jin, le faucheur d'âmes",
+          p: [
+            "Le jeu s'appuie sur le roman web original publié en feuilleton sur Millie. Son héros est Baek Mu-jin — fils d'un général dont la maison fut détruite à la fin du Goryeo.",
+            "Premier de sa promotion à seize ans, il voit toute sa famille tomber lorsque son père est déclaré traître dans les premières années de Joseon. Il est décapité par la lame d'un bourreau — mais cela ne s'arrête pas là.",
+            "Il renaît en jeoseung-saja, engagé sur la route qui conduit les âmes lésées vers l'autre monde. Son destin est de ne pas pouvoir mourir, si fort qu'il le veuille."
+          ]
+        },
+        {
+          h: "Trancher, et démembrer",
+          p: [
+            "Katana, poings et pieds se mêlent au hasard à chaque frappe. Chaque coup d'épée enveloppe la lame d'une traînée élémentaire — feu, glace, foudre.",
+            "Un double saut et une caméra cinématique dynamique qui se rapproche au rythme de vos attaques. La sensation visée est l'action stylée de l'école Devil May Cry."
+          ]
+        },
+        {
+          h: "Les morts sans fin",
+          p: [
+            "Les ennemis sont modulaires. Bras, jambes et têtes se détachent morceau par morceau, et les parties tranchées ne disparaissent pas — elles roulent au sol et vous pouvez continuer à les frapper du pied. Le premier coup fait passer le torse en ragdoll et le projette contre un mur.",
+            "Du sang, des impacts à faire craquer les os, des cris d'agonie. Les morts surgissent sans fin — c'est un jeu sur la survie face à la masse. ⚠️ Gore et violence extrêmes, pour adultes."
+          ]
+        },
+        {
+          h: "Où en est le jeu — build précoce",
+          p: [
+            "Ce qui est sur itch est un build précoce. C'est gratuit — payez ce que vous voulez.",
+            "Ce qui est jouable aujourd'hui, et ce qui arrive :"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Affronter les hordes en faucheur d'âmes (combos katana, poing, pied)",
+              "✅ Démembrement · gore en ragdoll · traînées élémentaires",
+              "✅ Double saut · caméra de combat dynamique · apparitions infinies",
+              "⬜ Le niveau du Nakseonjae (Changdeokgung)",
+              "⬜ Un système d'esquive et de roulade sur 8 directions",
+              "⬜ L'histoire de Baek Mu-jin"
+            ]
+          }
+        }
+      ],
+      cta: "Téléchargement gratuit pour Windows", back: "Retour à Deother"
+    },
+
+    de: {
+      title: "Death Guide",
+      tagline: "Ein Seelenführer aus Joseon schlägt sich durch die auferstandenen Toten",
+      intro: "Ein Jeoseung-saja mit schwarzem Gat — ein Seelenführer aus der Joseon-Zeit — schlägt sich mit Katana, Fäusten und Tritten durch Horden auferstandener Toter. Gliedmaßen lösen sich eines nach dem anderen; Körper gehen in Ragdoll über und krachen gegen Wände. Stylische Action in der Linie von Devil May Cry. ⚠️ Für Erwachsene — extreme Gewalt und Gore.",
+      sections: [
+        {
+          h: "Baek Mu-jin, der Seelenführer",
+          p: [
+            "Das Spiel beruht auf dem Webroman, der auf Millie in Fortsetzungen erscheint. Sein Held ist Baek Mu-jin — Sohn eines Generals, dessen Haus am Ende von Goryeo ausgelöscht wurde.",
+            "Mit sechzehn Jahrgangsbester, sieht er seine ganze Familie fallen, als sein Vater in den Gründungsjahren von Joseon zum Verräter erklärt wird. Er wird vom Schwert eines Henkers enthauptet — doch damit endet es nicht.",
+            "Er wird als Jeoseung-saja wiedergeboren und auf den Weg gestellt, der Unrecht erlittene Seelen in die Unterwelt geleitet. Sein Schicksal ist, nicht sterben zu können, so sehr er es sich auch wünscht."
+          ]
+        },
+        {
+          h: "Schlagen und abtrennen",
+          p: [
+            "Katana, Fäuste und Tritte mischen sich bei jedem Schlag zufällig. Jeder Schwerthieb legt eine elementare Schlagspur um die Klinge — Feuer, Eis, Blitz.",
+            "Ein Doppelsprung und eine dynamische Kinokamera, die mit deinen Angriffen heranzoomt. Das Spielgefühl zielt auf stylische Action der Devil-May-Cry-Schule."
+          ]
+        },
+        {
+          h: "Die endlosen Toten",
+          p: [
+            "Die Gegner sind modular aufgebaut. Arme, Beine und Köpfe lösen sich Teil für Teil, und abgetrennte Stücke verschwinden nicht — sie rollen über den Boden, und du kannst weiter nach ihnen treten. Der erste Treffer schaltet den Rumpf auf Ragdoll und schleudert ihn gegen eine Wand.",
+            "Blut, Treffer, die nach brechendem Knochen klingen, Todesschreie. Die Toten erscheinen ohne Ende — es geht darum, die Masse zu überleben. ⚠️ Extreme Gewalt und Gore, für Erwachsene."
+          ]
+        },
+        {
+          h: "Wo es steht — früher Build",
+          p: [
+            "Was auf itch liegt, ist ein früher Build. Er ist kostenlos — zahl, was du willst.",
+            "Was jetzt spielbar ist, und was kommt:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Als Seelenführer gegen die Horden kämpfen (Katana-, Faust- und Trittkombos)",
+              "✅ Abtrennen von Gliedmaßen · Ragdoll-Gore · elementare Schlagspuren",
+              "✅ Doppelsprung · dynamische Kampfkamera · endloses Nachrücken",
+              "⬜ Die Stage im Nakseonjae (Changdeokgung)",
+              "⬜ Ein Ausweich- und Rollsystem in 8 Richtungen",
+              "⬜ Die Geschichte von Baek Mu-jin"
+            ]
+          }
+        }
+      ],
+      cta: "Kostenlos für Windows herunterladen", back: "Zurück zu Deother"
+    },
+
+    ru: {
+      title: "Death Guide",
+      tagline: "Чосонский проводник душ прорубается сквозь восставших мертвецов",
+      intro: "Чосонский чосын-саджа в чёрном кате — проводник душ эпохи Чосон — прорубается сквозь орды восставших мертвецов катаной, кулаками и ногами. Конечности отлетают одна за другой, тела уходят в рэгдолл и врезаются в стены. Стильный экшен в духе Devil May Cry. ⚠️ Для взрослых — крайняя жестокость и расчленёнка.",
+      sections: [
+        {
+          h: "Пэк Му Джин, проводник душ",
+          p: [
+            "Игра основана на веб-романе, который выходит выпусками на Millie. Её герой — Пэк Му Джин, сын генерала, чей род был уничтожен на исходе Корё.",
+            "Первый ученик в шестнадцать лет, он видит гибель всей семьи, когда его отца объявляют изменником в первые годы Чосона. Его обезглавливает клинок палача — но на этом ничего не кончается.",
+            "Он возрождается проводником душ и выходит на дорогу, что ведёт обиженные души в загробный мир. Его судьба — не суметь умереть, как бы сильно он этого ни хотел."
+          ]
+        },
+        {
+          h: "Рубить и отсекать",
+          p: [
+            "Катана, кулаки и ноги случайно смешиваются в каждом ударе. Каждый взмах меча оборачивает клинок стихийным следом — огонь, лёд, молния.",
+            "Двойной прыжок и динамичная кинематографическая камера, которая наезжает вместе с атаками. Ощущение целит в стильный экшен школы Devil May Cry."
+          ]
+        },
+        {
+          h: "Бесконечные мертвецы",
+          p: [
+            "Противники собраны из частей. Руки, ноги и головы отлетают по одной, и отсечённые куски не исчезают — они катятся по земле, и их можно продолжать пинать. Первый удар переводит торс в рэгдолл и швыряет его в стену.",
+            "Кровь, удары с хрустом кости, предсмертные крики. Мертвецы прибывают без конца — эта игра о том, как пережить толпу. ⚠️ Крайняя жестокость и расчленёнка, для взрослых."
+          ]
+        },
+        {
+          h: "На каком этапе — ранняя сборка",
+          p: [
+            "На itch выложена ранняя сборка. Она бесплатна — платите сколько хотите.",
+            "Что играбельно сейчас и что впереди:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Бой с ордами в роли проводника душ (связки катаны, кулаков и ног)",
+              "✅ Отсечение конечностей · рэгдолл-расчленёнка · стихийные следы ударов",
+              "✅ Двойной прыжок · динамичная боевая камера · бесконечный респавн",
+              "⬜ Уровень Наксонджэ во дворце Чхандоккун",
+              "⬜ Система уклонений и перекатов по 8 направлениям",
+              "⬜ История Пэк Му Джина"
+            ]
+          }
+        }
+      ],
+      cta: "Бесплатно скачать для Windows", back: "Назад в Deother"
+    },
+
+    ar: {
+      title: "Death Guide",
+      tagline: "حاصد أرواح من عهد جوسون يشقّ طريقه بين الموتى الناهضين",
+      intro: "‏حاصد أرواح من عهد جوسون (jeoseung-saja) بقبعة «غات» سوداء، يشقّ طريقه بين حشود الموتى الناهضين بالكاتانا واللكمات والركلات. تتساقط الأطراف واحدًا تلو الآخر، وترتطم الأجساد بالجدران في حركة فيزيائية. حركة أنيقة على نهج Devil May Cry. ⚠️ للبالغين — دموية وعنف شديدان.",
+      sections: [
+        {
+          h: "بايك مو-جين، حاصد الأرواح",
+          p: [
+            "‏اللعبة مبنية على رواية ويب أصلية تُنشر تباعًا على Millie. بطلها بايك مو-جين، ابن جنرال أُبيد بيته في أواخر عهد كوريو.",
+            "كان الأول على أقرانه في السادسة عشرة، ثم رأى أسرته كلها تسقط حين وُصم أبوه بالخيانة في سنوات تأسيس جوسون. قُطعت رأسه بسيف الجلاد — لكن الأمر لم ينتهِ عند ذلك.",
+            "وُلد من جديد حاصدَ أرواح، ووُضع على الطريق التي تقود الأرواح المظلومة إلى العالم السفلي. قدره ألّا يقدر على الموت، مهما تمنّاه."
+          ]
+        },
+        {
+          h: "ضربة، ثم بتر",
+          p: [
+            "تختلط الكاتانا واللكمات والركلات عشوائيًا مع كل ضربة. وكل ضربة سيف تُحيط النصل بأثر عنصري — نار وجليد وبرق.",
+            "‏قفزة مزدوجة، وكاميرا سينمائية ديناميكية تقترب مع هجماتك. الإحساس المقصود هو الحركة الأنيقة على مدرسة Devil May Cry."
+          ]
+        },
+        {
+          h: "الموتى بلا نهاية",
+          p: [
+            "الأعداء مبنيّون من أجزاء. تتساقط الأذرع والسيقان والرؤوس جزءًا جزءًا، والقطع المبتورة لا تختفي — تتدحرج على الأرض ويمكنك أن تواصل ركلها. الضربة الأولى تُرخي الجذع فيرتطم بالجدار.",
+            "دم، وارتطامات يُسمع فيها تكسّر العظم، وصرخات احتضار. الموتى يظهرون بلا انقطاع — هذه لعبة عن النجاة من الحشد. ⚠️ دموية وعنف شديدان، للبالغين."
+          ]
+        },
+        {
+          h: "أين وصلنا — نسخة مبكّرة",
+          p: [
+            "‏ما هو منشور على itch نسخة مبكّرة. وهي مجانية — ادفع ما تشاء.",
+            "ما يمكن لعبه الآن، وما هو قادم:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ قتال الحشود بدور حاصد الأرواح (سلاسل الكاتانا واللكمة والركلة)",
+              "✅ بتر الأطراف · دموية بحركة فيزيائية · آثار الضربات العنصرية",
+              "✅ قفزة مزدوجة · كاميرا قتال ديناميكية · ظهور لا ينتهي",
+              "⬜ مرحلة ناكسونجيه في قصر تشانغدوكغونغ",
+              "⬜ نظام مراوغة والتفاف في ثمانية اتجاهات",
+              "⬜ قصة بايك مو-جين"
+            ]
+          }
+        }
+      ],
+      cta: "‏تنزيل مجاني لنظام Windows", back: "‏العودة إلى Deother"
     }
   },
 
