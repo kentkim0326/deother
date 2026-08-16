@@ -143,9 +143,21 @@ function render(code) {
   set("sgLead", t.songs.lead);
   document.getElementById("langVideos")
     .replaceChildren(...LANG_VIDEOS.map(v => videoCard(v.id, v.label)));
-  document.getElementById("events").replaceChildren(...t.journey.events.map(e => {
+  document.getElementById("events").replaceChildren(...t.journey.events.map((e, i) => {
     const row = el("div", "event");
-    row.append(el("div", "when", e.d), el("div", "what", e.t));
+    const what = el("div", "what");
+    // 개최국 국기는 텍스트 앞에 따로 둔다. 행사에 공식 사이트가 있으면 문장이 링크가 된다.
+    const flag = (typeof JOURNEY_FLAGS !== "undefined") ? JOURNEY_FLAGS[i] : "";
+    if (flag) what.append(el("span", "ev-flag", flag));
+    const url = (typeof JOURNEY_LINKS !== "undefined") ? JOURNEY_LINKS[i] : "";
+    if (url) {
+      const a = el("a", "ev-link", e.t);
+      a.href = url; a.target = "_blank"; a.rel = "noopener";
+      what.append(a);
+    } else {
+      what.append(document.createTextNode(e.t));
+    }
+    row.append(el("div", "when", e.d), what);
     return row;
   }));
 

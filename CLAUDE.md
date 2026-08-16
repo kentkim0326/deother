@@ -454,6 +454,10 @@ title 의 「Kent Kim (김형섭)」은 본명이라 모든 언어에 한글 그
   캡션은 `journey.photos` 로 10개 언어. **이미지 파일이 없으면 app.js 가 블록을 통째로 숨긴다.**
 - **연표의 행사명 정정** — "Thailand Game Show" → **"gamescom asia x Thailand Game Show"**(정식 명칭)
   10개 언어 + founder 상세(ko/en) 전부.
+- **연표 항목에 개최국 국기 + 공식 사이트 링크** — `JOURNEY_FLAGS`·`JOURNEY_LINKS`(i18n.js).
+  둘 다 `journey.events` 와 **인덱스로** 붙는다 — 연표 항목 순서를 바꾸면 같이 고쳐야 한다.
+  국기는 텍스트 앞 별도 `<span>` 이다(텍스트에 섞으면 10개 언어를 다 고쳐야 한다).
+  행사 로드맵 목록도 같은 방식(`PAGE_LIST_FLAGS`, 온라인 트랙은 🌐).
 
 **남은 것**
 - [x] ~~태국 게임쇼 부스 사진 3장~~ — **완료**(2026-08-16). 대표님이 준 발표자료 PDF

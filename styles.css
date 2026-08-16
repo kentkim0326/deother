@@ -531,3 +531,12 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
 .doc-list .list-link::after { content: " ↗"; font-size: 12px; opacity: .45; }
 .doc-list .list-link:hover { color: var(--accent); border-bottom-color: var(--accent-dim); }
 .doc-list .list-link:hover::after { opacity: 1; }
+
+/* 국기 이모지 — 목록 항목(행사 로드맵)과 여정 연표.
+   좌우 여백은 논리 속성으로 (아랍어 RTL). */
+.doc-list .li-flag, .event .ev-flag { margin-inline-end: 7px; }
+.event .ev-link { color: inherit; text-decoration: none;
+  border-bottom: 1px solid var(--line); transition: .15s; }
+.event .ev-link::after { content: " ↗"; font-size: 12px; opacity: .45; }
+.event .ev-link:hover { color: var(--accent); border-bottom-color: var(--accent-dim); }
+.event .ev-link:hover::after { opacity: 1; }
