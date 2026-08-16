@@ -3,11 +3,15 @@
 #
 # 동작하려면 레포 시크릿이 하나 필요하다 (대표님만 넣을 수 있다):
 #   Settings → Secrets and variables → Actions → New repository secret
-#   이름: CLAUDE_CODE_OAUTH_TOKEN
-#   값  : 맥 터미널에서  claude setup-token  을 돌리면 나오는 토큰
-# ※ API 키(ANTHROPIC_API_KEY)를 쓰려면 아래 줄을
-#   anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }} 로 바꾼다.
-#   구독 토큰을 쓰면 API 요금이 따로 나가지 않는다.
+#   이름: ANTHROPIC_API_KEY
+#   값  : console.anthropic.com 에서 만든 API 키 (sk-ant-api03-...)
+#
+# ※ 왜 API 키인가 — 구독 토큰(CLAUDE_CODE_OAUTH_TOKEN)이 요금 면에서 낫지만,
+#   그걸 만들려면 맥에 Node + Claude Code 를 깔고 `claude setup-token` 을 돌려야 한다.
+#   2026-08-16 확인 결과 작업하시는 맥에 node·npm·brew 가 전부 없어서 API 키로 갔다.
+#   나중에 Claude Code 를 깔면 아래 마지막 줄만 이렇게 바꾸면 된다:
+#     claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+#   (그리고 같은 이름으로 시크릿을 새로 넣는다. API 키 시크릿은 지워도 된다.)
 
 name: Claude Code
 
@@ -33,4 +37,4 @@ jobs:
           fetch-depth: 1
       - uses: anthropics/claude-code-action@v1
         with:
-          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
