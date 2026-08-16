@@ -2078,6 +2078,414 @@ const PAGES = {
         }
       ],
       cta: "Free download for Windows", back: "Back to Deother"
+    },
+
+    zh: {
+      title: "Time Wars",
+      tagline: "十六名战士。一座采石场。没有枪。",
+      intro: "十六名来自各个时代的战士，各自在临死的那一刻被抽走，在一座石料采石场里展开近战大逃杀。只有最后活着的人能回到自己原来的世界。这里没有枪——只有剑、弓、枪、斧、刃。目前是早期版本，接下来会加入线上多人。",
+      sections: [
+        {
+          h: "徐河——还没能回家的少女",
+          p: [
+            "主角是十八岁的徐河。被父亲抛下、由单亲母亲带大，她把自己练到半死，拿下了射箭金牌。",
+            "就在一切即将为她展开的那个夜晚，一辆由嗑了药的偶像驾驶的车撞上了她。意识熄灭的瞬间，她已经站在 Time Wars 里——四周是披甲持剑的陌生人。",
+            "没有人会把一个穿现代衣服的小姑娘当威胁。第一场战斗里她捡起了弓。手记得。若不是靶子会动、还会还手，这本就是她做了一辈子的事。"
+          ]
+        },
+        {
+          h: "十六个人，一条回家的路",
+          p: [
+            "被召来的人有两个共同点——都站在死亡的边缘，而且身体异于常人。武士、中世纪骑士、维京人、明朝剑客、朝鲜武人，还有和徐河一样天赋异禀的现代运动员。",
+            "规则很简单。回家的位子只有一个。活到最后。随着时空崩塌，场地不断收缩。",
+            "东方与西方、古代与现代，被扔进同一个竞技场。语言不通时用眼神说话——而因为回家的路只有一条，每一次结盟之后都会有一次背叛。"
+          ]
+        },
+        {
+          h: "没有枪——只有近战",
+          p: [
+            "Time Wars 考验的是身体与意志，不是科技。所以这里不存在火器。剑、弓、枪、斧、刃——只有古代与中世纪的近战兵器。",
+            "十六人各有各的体格与武器：剑与盾、巨斧、双刃、弓。你降落在采石场，面对十五名对手，站到最后的人获胜。",
+            "操作：WASD 移动 · 鼠标视角 · 左键攻击 · 右键格挡 · 空格跳跃 · Shift 冲刺。"
+          ]
+        },
+        {
+          h: "现在到哪一步——早期版本",
+          p: [
+            "itch 上的是早期版本（v0.2）。免费——随喜付费。",
+            "现在能玩的，和接下来要做的："
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ 从 16 名战士中选择（完整 3D 角色查看器）",
+              "✅ 采石场大逃杀——你加 15 名 AI",
+              "✅ 近战战斗（剑、弓、斧、枪）· 决出最后生还者",
+              "⬜ 线上多人",
+              "⬜ 更多竞技场地图",
+              "⬜ 不断收缩的安全区"
+            ]
+          }
+        }
+      ],
+      cta: "免费下载 Windows 版", back: "返回 Deother"
+    },
+
+    ja: {
+      title: "Time Wars",
+      tagline: "十六人の戦士。ひとつの石切場。銃はない。",
+      intro: "各時代から、それぞれの死の瞬間に引き抜かれた十六人の戦士が、石切場で近接バトルロイヤルを戦います。最後まで立っていた者だけが元の世界へ帰れる。銃はありません——剣、弓、槍、斧、刃のみ。現在はアーリービルドで、次にオンライン対戦が入ります。",
+      sections: [
+        {
+          h: "ソハ——まだ家に帰れていない少女",
+          p: [
+            "主人公は十八歳のソハ。父に捨てられ、母ひとりの手で育ち、自分を半分壊すほど鍛えてアーチェリーで金メダルを取りました。",
+            "すべてが開けようとしていたその夜、薬物を使ったアイドルの運転する車が彼女をはねます。意識が消える瞬間、彼女は Time Wars に立っていました——鎧をまとい剣を持つ見知らぬ者たちの只中に。",
+            "現代服の少女を脅威と見る者はいません。最初の戦いで彼女は弓を拾います。手が覚えている。的が動いて撃ち返してくること以外は、生涯やってきたことそのものです。"
+          ]
+        },
+        {
+          h: "十六人と、ひとつの帰り道",
+          p: [
+            "召喚された者に共通するのは二つ——死の際にいたことと、肉体が並外れていたこと。侍、中世の騎士、ヴァイキング、明の剣客、朝鮮の武人、そしてソハのように才に恵まれた現代のアスリートたち。",
+            "規則は単純です。帰る席はひとつだけ。最後まで立っていた者が勝つ。時空が崩れるにつれ、闘技場は縮み続けます。",
+            "東と西、古代と現代がひとつの闘技場に放り込まれる。言葉が通じないところは目が語る——そして帰り道がひとつしかないから、同盟のあとには必ず裏切りが来ます。"
+          ]
+        },
+        {
+          h: "銃はない——近接のみ",
+          p: [
+            "Time Wars が試すのは技術ではなく、肉体と意志です。だからここに火器は存在しません。剣、弓、槍、斧、刃——古代から中世の近接武器だけです。",
+            "十六人にはそれぞれの体格と得物があります。剣と盾、大斧、双刃、弓。石切場に降り、十五人の相手と向き合い、最後に残った者が勝ちます。",
+            "操作：WASD 移動 · マウス視点 · 左クリック攻撃 · 右クリック防御 · スペース ジャンプ · Shift ダッシュ。"
+          ]
+        },
+        {
+          h: "いまどこまで——アーリービルド",
+          p: [
+            "itch にあるのはアーリービルド（v0.2）です。無料——投げ銭制。",
+            "いま遊べるものと、これから入るもの："
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ 16人の戦士から選択（3Dキャラクタービューア付き）",
+              "✅ 石切場バトルロイヤル——自分＋AI 15体",
+              "✅ 近接戦闘（剣・弓・斧・槍）· 最後の一人を決める",
+              "⬜ オンライン対戦",
+              "⬜ 追加のアリーナマップ",
+              "⬜ 縮んでいく安全地帯"
+            ]
+          }
+        }
+      ],
+      cta: "Windows 版を無料ダウンロード", back: "Deother に戻る"
+    },
+
+    es: {
+      title: "Time Wars",
+      tagline: "Dieciséis luchadores. Una cantera. Sin armas de fuego.",
+      intro: "Dieciséis guerreros de distintas épocas, arrancados cada uno del instante de su muerte, libran un battle royale cuerpo a cuerpo en una cantera de piedra. Solo el último en pie vuelve al mundo del que vino. No hay armas de fuego: espada, arco, lanza, hacha, filo. Es una versión temprana; el multijugador en línea viene después.",
+      sections: [
+        {
+          h: "Seoha, la chica que aún no ha vuelto a casa",
+          p: [
+            "La protagonista es Seoha, dieciocho años. Abandonada por su padre y criada por una madre sola, se entrenó hasta casi romperse y se llevó un oro en tiro con arco.",
+            "La noche en que todo iba a abrirse para ella, la atropella el coche de una estrella del K-pop drogada. Cuando su conciencia se apaga, está de pie en las Time Wars, entre desconocidos con armadura y espadas.",
+            "Nadie ve una amenaza en una chica con ropa moderna. En su primer combate recoge un arco. Sus manos recuerdan. Salvo por el detalle de que los blancos se mueven y devuelven el golpe, es lo que ha hecho toda su vida."
+          ]
+        },
+        {
+          h: "Dieciséis, y un solo camino de vuelta",
+          p: [
+            "Los convocados comparten dos cosas: estaban al borde de la muerte y sus cuerpos eran excepcionales. Un samurái, un caballero medieval, un vikingo, un espadachín Ming, un guerrero de Joseon y atletas modernos tan dotados como Seoha.",
+            "La regla es simple. Solo hay un asiento de vuelta. El último en pie. Mientras el espaciotiempo se derrumba, la arena no deja de encogerse.",
+            "Oriente y Occidente, antiguo y moderno, arrojados a una misma arena. Los ojos hablan donde las palabras no llegan, y como solo hay un camino a casa, a cada alianza le sigue una traición."
+          ]
+        },
+        {
+          h: "Sin armas de fuego: solo cuerpo a cuerpo",
+          p: [
+            "Las Time Wars ponen a prueba el cuerpo y la voluntad, no la tecnología. Por eso aquí no existen las armas de fuego. Espada, arco, lanza, hacha, filo: solo armas cuerpo a cuerpo clásicas y medievales.",
+            "Cada uno de los dieciséis tiene su propia complexión y su arma: espada y escudo, hacha de guerra, dobles filos, el arco. Caes en la cantera contra quince rivales, y gana quien quede en pie.",
+            "Controles: WASD para moverse · ratón para mirar · clic izquierdo atacar · clic derecho bloquear · espacio saltar · Shift esquivar."
+          ]
+        },
+        {
+          h: "Dónde está: versión temprana",
+          p: [
+            "Lo que hay en itch es una versión temprana (v0.2). Es gratis: paga lo que quieras.",
+            "Lo que ya se puede jugar y lo que viene:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Elegir entre 16 luchadores (visor 3D completo del personaje)",
+              "✅ Battle royale en la cantera: tú más 15 IA",
+              "✅ Combate cuerpo a cuerpo (espada, arco, hacha, lanza) · gana el último en pie",
+              "⬜ Multijugador en línea",
+              "⬜ Más mapas de arena",
+              "⬜ Una zona segura que se encoge"
+            ]
+          }
+        }
+      ],
+      cta: "Descarga gratuita para Windows", back: "Volver a Deother"
+    },
+
+    pt: {
+      title: "Time Wars",
+      tagline: "Dezasseis lutadores. Uma pedreira. Sem armas de fogo.",
+      intro: "Dezasseis guerreiros de várias épocas, cada um arrancado ao instante da sua morte, travam um battle royale corpo a corpo numa pedreira. Só o último de pé regressa ao mundo de onde veio. Não há armas de fogo — espada, arco, lança, machado, lâmina. É uma versão inicial; o multijogador online vem a seguir.",
+      sections: [
+        {
+          h: "Seoha — a rapariga que ainda não voltou a casa",
+          p: [
+            "A protagonista é Seoha, dezoito anos. Abandonada pelo pai e criada por uma mãe sozinha, treinou até quase se partir e ganhou um ouro no tiro com arco.",
+            "Na noite em que tudo se ia abrir para ela, é atropelada pelo carro de uma estrela do K-pop drogada. Quando a consciência se apaga, está de pé nas Time Wars — entre desconhecidos de armadura e espada.",
+            "Ninguém vê uma ameaça numa rapariga de roupa moderna. No primeiro combate ela pega num arco. As mãos lembram-se. Tirando o facto de os alvos se mexerem e responderem, é aquilo que fez a vida inteira."
+          ]
+        },
+        {
+          h: "Dezasseis, e um só caminho de volta",
+          p: [
+            "Os convocados têm duas coisas em comum — estavam à beira da morte e os seus corpos eram excecionais. Um samurai, um cavaleiro medieval, um viking, um espadachim Ming, um guerreiro de Joseon e atletas modernos tão dotados como Seoha.",
+            "A regra é simples. Há apenas um lugar de regresso. O último de pé. À medida que o espaço-tempo colapsa, a arena vai encolhendo.",
+            "Oriente e Ocidente, antigo e moderno, atirados para a mesma arena. Os olhos falam onde as palavras não chegam — e como só há um caminho para casa, a cada aliança segue-se uma traição."
+          ]
+        },
+        {
+          h: "Sem armas de fogo — só corpo a corpo",
+          p: [
+            "As Time Wars testam o corpo e a vontade, não a tecnologia. Por isso aqui não existem armas de fogo. Espada, arco, lança, machado, lâmina — apenas armas corpo a corpo clássicas e medievais.",
+            "Cada um dos dezasseis tem a sua constituição e a sua arma: espada e escudo, machado de guerra, lâminas duplas, o arco. Cais na pedreira contra quinze rivais, e vence quem ficar de pé.",
+            "Controlos: WASD mover · rato olhar · botão esquerdo atacar · botão direito bloquear · espaço saltar · Shift avançar."
+          ]
+        },
+        {
+          h: "Onde está — versão inicial",
+          p: [
+            "O que está no itch é uma versão inicial (v0.2). É gratuito — paga o que quiseres.",
+            "O que já dá para jogar e o que vem a seguir:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Escolher entre 16 lutadores (visualizador 3D completo da personagem)",
+              "✅ Battle royale na pedreira — tu mais 15 IA",
+              "✅ Combate corpo a corpo (espada, arco, machado, lança) · vence o último de pé",
+              "⬜ Multijogador online",
+              "⬜ Mais mapas de arena",
+              "⬜ Uma zona segura que encolhe"
+            ]
+          }
+        }
+      ],
+      cta: "Descarga gratuita para Windows", back: "Voltar a Deother"
+    },
+
+    fr: {
+      title: "Time Wars",
+      tagline: "Seize combattants. Une carrière. Aucune arme à feu.",
+      intro: "Seize guerriers venus de toutes les époques, chacun arraché à l'instant de sa mort, livrent un battle royale au corps à corps dans une carrière de pierre. Seul le dernier debout retourne au monde d'où il vient. Pas d'armes à feu — épée, arc, lance, hache, lame. Build précoce ; le multijoueur en ligne arrive ensuite.",
+      sections: [
+        {
+          h: "Seoha — la fille qui n'est pas encore rentrée",
+          p: [
+            "L'héroïne est Seoha, dix-huit ans. Abandonnée par son père, élevée par une mère seule, elle s'est entraînée jusqu'à se briser à moitié et a décroché l'or en tir à l'arc.",
+            "Le soir où tout allait s'ouvrir pour elle, la voiture d'une star de K-pop droguée la percute. Au moment où sa conscience s'éteint, elle se tient dans les Time Wars — au milieu d'inconnus en armure, l'épée à la main.",
+            "Personne ne voit une menace dans une gamine en vêtements modernes. Lors de son premier combat, elle ramasse un arc. Ses mains se souviennent. À ceci près que les cibles bougent et ripostent, c'est ce qu'elle a fait toute sa vie."
+          ]
+        },
+        {
+          h: "Seize, et un seul chemin de retour",
+          p: [
+            "Les convoqués partagent deux choses : ils étaient au bord de la mort, et leurs corps sortaient de l'ordinaire. Un samouraï, un chevalier médiéval, un Viking, un bretteur Ming, un guerrier de Joseon, et des athlètes modernes aussi doués que Seoha.",
+            "La règle est simple. Il n'y a qu'une place pour rentrer. Le dernier debout. À mesure que l'espace-temps s'effondre, l'arène ne cesse de rétrécir.",
+            "Orient et Occident, ancien et moderne, jetés dans une même arène. Les regards parlent là où les mots ne passent pas — et comme il n'existe qu'un seul chemin de retour, chaque alliance est suivie d'une trahison."
+          ]
+        },
+        {
+          h: "Pas d'armes à feu — corps à corps uniquement",
+          p: [
+            "Les Time Wars éprouvent le corps et la volonté, pas la technologie. Les armes à feu n'existent donc pas ici. Épée, arc, lance, hache, lame — uniquement des armes de mêlée antiques et médiévales.",
+            "Chacun des seize a sa morphologie et son arme : épée et bouclier, grande hache, lames jumelles, arc. Vous atterrissez dans la carrière face à quinze rivaux, et celui qui reste debout l'emporte.",
+            "Commandes : WASD déplacement · souris regard · clic gauche attaque · clic droit garde · espace saut · Maj esquive."
+          ]
+        },
+        {
+          h: "Où en est le jeu — build précoce",
+          p: [
+            "Ce qui est sur itch est un build précoce (v0.2). C'est gratuit — payez ce que vous voulez.",
+            "Ce qui est jouable aujourd'hui, et ce qui arrive :"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Choisir parmi 16 combattants (visionneuse 3D complète du personnage)",
+              "✅ Battle royale dans la carrière — vous plus 15 IA",
+              "✅ Combat au corps à corps (épée, arc, hache, lance) · le dernier debout gagne",
+              "⬜ Multijoueur en ligne",
+              "⬜ D'autres cartes d'arène",
+              "⬜ Une zone sûre qui rétrécit"
+            ]
+          }
+        }
+      ],
+      cta: "Téléchargement gratuit pour Windows", back: "Retour à Deother"
+    },
+
+    de: {
+      title: "Time Wars",
+      tagline: "Sechzehn Kämpfer. Ein Steinbruch. Keine Schusswaffen.",
+      intro: "Sechzehn Krieger aus allen Zeitaltern, jeder im Augenblick seines Todes herausgerissen, tragen in einem Steinbruch eine Nahkampf-Battle-Royale aus. Nur wer zuletzt steht, kehrt in seine Welt zurück. Es gibt keine Schusswaffen — nur Schwert, Bogen, Speer, Axt, Klinge. Ein früher Build; Online-Mehrspieler kommt als Nächstes.",
+      sections: [
+        {
+          h: "Seoha — das Mädchen, das noch nicht heimgekehrt ist",
+          p: [
+            "Die Heldin ist Seoha, achtzehn. Vom Vater verlassen und von einer alleinerziehenden Mutter großgezogen, trainierte sie sich halb kaputt und holte Gold im Bogenschießen.",
+            "In der Nacht, in der sich für sie alles öffnen sollte, erfasst sie der Wagen eines unter Drogen stehenden K-Pop-Stars. Als ihr Bewusstsein erlischt, steht sie in den Time Wars — unter Fremden in Rüstung, mit Schwertern in der Hand.",
+            "Niemand sieht in einem Mädchen in moderner Kleidung eine Bedrohung. In ihrem ersten Kampf hebt sie einen Bogen auf. Ihre Hände erinnern sich. Abgesehen davon, dass die Ziele sich bewegen und zurückschlagen, ist es genau das, was sie ihr Leben lang getan hat."
+          ]
+        },
+        {
+          h: "Sechzehn, und ein einziger Weg nach Hause",
+          p: [
+            "Die Herbeigerufenen teilen zwei Dinge — sie standen an der Schwelle des Todes, und ihre Körper waren außergewöhnlich. Ein Samurai, ein mittelalterlicher Ritter, ein Wikinger, ein Ming-Schwertkämpfer, ein Krieger aus Joseon und moderne Athleten, begabt wie Seoha.",
+            "Die Regel ist einfach. Es gibt nur einen Platz zurück. Wer zuletzt steht. Während die Raumzeit zusammenbricht, schrumpft die Arena unablässig.",
+            "Ost und West, Antike und Moderne, in eine Arena geworfen. Wo die Worte nicht reichen, sprechen die Blicke — und weil es nur einen Weg nach Hause gibt, folgt auf jedes Bündnis ein Verrat."
+          ]
+        },
+        {
+          h: "Keine Schusswaffen — nur Nahkampf",
+          p: [
+            "Die Time Wars prüfen Körper und Willen, nicht Technik. Darum gibt es hier keine Feuerwaffen. Schwert, Bogen, Speer, Axt, Klinge — ausschließlich antike und mittelalterliche Nahkampfwaffen.",
+            "Jeder der Sechzehn hat eigenen Körperbau und eigene Waffe: Schwert und Schild, Streitaxt, Doppelklingen, den Bogen. Du landest im Steinbruch gegen fünfzehn Rivalen, und wer übrig bleibt, gewinnt.",
+            "Steuerung: WASD Bewegung · Maus Blick · Linksklick Angriff · Rechtsklick Block · Leertaste Sprung · Umschalt Ausweichen."
+          ]
+        },
+        {
+          h: "Wo es steht — früher Build",
+          p: [
+            "Was auf itch liegt, ist ein früher Build (v0.2). Er ist kostenlos — zahl, was du willst.",
+            "Was jetzt spielbar ist, und was kommt:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Aus 16 Kämpfern wählen (vollständiger 3D-Charakterbetrachter)",
+              "✅ Steinbruch-Battle-Royale — du und 15 KI",
+              "✅ Nahkampf (Schwert, Bogen, Axt, Speer) · wer zuletzt steht, gewinnt",
+              "⬜ Online-Mehrspieler",
+              "⬜ Weitere Arenakarten",
+              "⬜ Eine schrumpfende Sicherheitszone"
+            ]
+          }
+        }
+      ],
+      cta: "Kostenlos für Windows herunterladen", back: "Zurück zu Deother"
+    },
+
+    ru: {
+      title: "Time Wars",
+      tagline: "Шестнадцать бойцов. Один карьер. Никакого огнестрела.",
+      intro: "Шестнадцать воинов из разных эпох, вырванных каждый из мгновения собственной смерти, ведут ближний бой на выбывание в каменном карьере. В свой мир возвращается только тот, кто остался последним. Огнестрела здесь нет — меч, лук, копьё, топор, клинок. Пока это ранняя сборка, следом появится сетевой режим.",
+      sections: [
+        {
+          h: "Соха — девушка, которая ещё не вернулась домой",
+          p: [
+            "Героиня — восемнадцатилетняя Соха. Брошенная отцом и выросшая с матерью-одиночкой, она загоняла себя на тренировках до предела и взяла золото в стрельбе из лука.",
+            "В ту ночь, когда всё для неё должно было открыться, её сбивает машина к-поп-звезды под наркотиками. Когда сознание гаснет, она уже стоит в Time Wars — среди незнакомцев в доспехах и с мечами.",
+            "Никто не видит угрозы в девчонке в современной одежде. В первом же бою она подбирает лук. Руки помнят. Если не считать того, что мишени двигаются и бьют в ответ, это и есть то, чем она занималась всю жизнь."
+          ]
+        },
+        {
+          h: "Шестнадцать и одна дорога домой",
+          p: [
+            "У призванных общего двое — они были на краю смерти, и тела у них были исключительные. Самурай, средневековый рыцарь, викинг, минский фехтовальщик, воин Чосона и современные атлеты, одарённые как Соха.",
+            "Правило простое. Место для возвращения одно. Побеждает последний уцелевший. По мере того как пространство-время рушится, арена продолжает сжиматься.",
+            "Восток и Запад, древность и современность, брошенные на одну арену. Там, где не хватает слов, говорят глаза, — и, поскольку дорога домой одна, за каждым союзом следует предательство."
+          ]
+        },
+        {
+          h: "Без огнестрела — только ближний бой",
+          p: [
+            "Time Wars проверяют тело и волю, а не технологию. Поэтому огнестрельного оружия здесь не существует. Меч, лук, копьё, топор, клинок — только античное и средневековое оружие ближнего боя.",
+            "У каждого из шестнадцати своё сложение и своё оружие: меч со щитом, большой топор, парные клинки, лук. Вы высаживаетесь в карьере против пятнадцати соперников, и побеждает тот, кто останется на ногах.",
+            "Управление: WASD — движение · мышь — обзор · ЛКМ — атака · ПКМ — блок · пробел — прыжок · Shift — рывок."
+          ]
+        },
+        {
+          h: "На каком этапе — ранняя сборка",
+          p: [
+            "На itch выложена ранняя сборка (v0.2). Она бесплатна — платите сколько хотите.",
+            "Что играбельно сейчас и что впереди:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Выбор из 16 бойцов (полноценный 3D-просмотр персонажа)",
+              "✅ Королевская битва в карьере — вы и 15 ИИ",
+              "✅ Ближний бой (меч, лук, топор, копьё) · побеждает последний уцелевший",
+              "⬜ Сетевой мультиплеер",
+              "⬜ Дополнительные карты арены",
+              "⬜ Сжимающаяся безопасная зона"
+            ]
+          }
+        }
+      ],
+      cta: "Бесплатно скачать для Windows", back: "Назад в Deother"
+    },
+
+    ar: {
+      title: "Time Wars",
+      tagline: "ستة عشر مقاتلًا. محجر واحد. ولا سلاح ناري.",
+      intro: "‏ستة عشر محاربًا من عصور مختلفة، انتُزع كل منهم من لحظة موته، يخوضون معركة بقاء بالسلاح الأبيض داخل محجر حجارة. لا يعود إلى عالمه إلا آخر الواقفين. لا وجود للأسلحة النارية هنا — سيف وقوس ورمح وفأس ونصل فقط. النسخة الحالية مبكّرة، واللعب الشبكي قادم بعدها.",
+      sections: [
+        {
+          h: "سوها — الفتاة التي لم تعد إلى بيتها بعد",
+          p: [
+            "‏البطلة سوها، في الثامنة عشرة. تخلّى عنها أبوها ورَبَّتها أمّ وحيدة، فدرّبت نفسها حتى كادت تنكسر، وأحرزت ذهبية الرماية بالقوس.",
+            "في الليلة التي كان كل شيء على وشك أن ينفتح أمامها، تصدمها سيارة يقودها نجم كي-بوب تحت تأثير المخدرات. ومع انطفاء وعيها، تجد نفسها واقفة في Time Wars — بين غرباء يرتدون الدروع ويحملون السيوف.",
+            "لا أحد يرى في فتاة بملابس عصرية تهديدًا. في أول معركة تلتقط قوسًا. يداها تتذكّران. ولولا أن الأهداف تتحرّك وتردّ الضربة، لكان هذا بالضبط ما فعلته طوال حياتها."
+          ]
+        },
+        {
+          h: "ستة عشر، وطريق واحد للعودة",
+          p: [
+            "‏يجمع بين المُستدعَين أمران: كانوا على حافة الموت، وأجسادهم استثنائية. ساموراي، وفارس من العصور الوسطى، وفايكنغ، وسيّاف من عهد مينغ، ومحارب من جوسون، ورياضيون معاصرون موهوبون مثل سوها.",
+            "القاعدة بسيطة: مقعد العودة واحد لا غير. آخر من يبقى واقفًا. ومع انهيار الزمكان، تستمر الساحة في الانكماش.",
+            "الشرق والغرب، القديم والحديث، في ساحة واحدة. حيث تعجز الكلمات تتكلّم العيون — ولأن طريق العودة واحد، فكل تحالف يتبعه غدر."
+          ]
+        },
+        {
+          h: "لا أسلحة نارية — سلاح أبيض فقط",
+          p: [
+            "‏تختبر Time Wars الجسد والإرادة، لا التقنية. لذلك لا وجود للأسلحة النارية هنا. سيف وقوس ورمح وفأس ونصل — أسلحة اشتباك قديمة ووسيطة لا غير.",
+            "لكل واحد من الستة عشر بنيته وسلاحه: سيف ودرع، أو فأس كبير، أو نصلان، أو القوس. تهبط في المحجر أمام خمسة عشر خصمًا، ويفوز من يبقى واقفًا.",
+            "‏التحكّم: WASD للحركة · الفأرة للنظر · الزر الأيسر هجوم · الزر الأيمن صدّ · المسافة قفز · Shift اندفاع."
+          ]
+        },
+        {
+          h: "أين وصلنا — نسخة مبكّرة",
+          p: [
+            "‏ما هو منشور على itch نسخة مبكّرة (v0.2). وهي مجانية — ادفع ما تشاء.",
+            "ما يمكن لعبه الآن، وما هو قادم:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ الاختيار من بين 16 مقاتلًا (عارض شخصيات ثلاثي الأبعاد كامل)",
+              "✅ معركة بقاء في المحجر — أنت و15 خصمًا من الذكاء الاصطناعي",
+              "✅ قتال بالسلاح الأبيض (سيف، قوس، فأس، رمح) · يفوز آخر الواقفين",
+              "⬜ لعب شبكي متعدّد اللاعبين",
+              "⬜ خرائط ساحات إضافية",
+              "⬜ منطقة آمنة تتقلّص"
+            ]
+          }
+        }
+      ],
+      cta: "‏تنزيل مجاني لنظام Windows", back: "‏العودة إلى Deother"
     }
   },
 
@@ -2185,6 +2593,406 @@ const PAGES = {
         }
       ],
       cta: "Follow on itch", back: "Back to Deother"
+    },
+
+    zh: {
+      title: "Turf King",
+      tagline: "四人在线合作的横版格斗——把属于你的东西夺回来",
+      intro: "五座城市的黑道头目，被自己的手下背叛，联手用赤手空拳夺回地盘。目标手感是《如龙》遇上《双截龙》的四人合作清版格斗。仍在开发中。⚠️ 成人向——帮派暴力与流血。不适合儿童。",
+      sections: [
+        {
+          h: "他们把你卖了",
+          p: [
+            "你把一切都给了他们。他们把你卖了。",
+            "东京、首尔、香港、纽约、伦敦——曾经掌控这五座城市的五个男人，被自己的手下出卖。如今他们一无所有，只剩下彼此，和一份很长的名单。",
+            "每一章都是其中一人回家的故事。另外三人同行。打倒背叛你的头目，那座城市——以及那名格斗家——就归你。"
+          ]
+        },
+        {
+          h: "赤手空拳，四个按键",
+          p: [
+            "拳、脚、抓、翻滚。没有搓招，没有指令表，不用背帧数。",
+            "每名格斗家都从超过 200 段独有攻击动画的库中取招，由游戏替你挑出合适的那一招。你只管一直挥出去。",
+            "手感建立在迪亚德的格斗游戏 Fighting Nations 中已经验证过的招式与打击调校之上——不是从白纸开始。"
+          ]
+        },
+        {
+          h: "并肩作战，而不是互相较劲",
+          p: [
+            "最多四人随进随退的合作模式。空位由 AI 同伴补上，他们会替你挡刀，也会为此念叨你。",
+            "不需要谁输才有人赢。没有排名，没有抢人头——只有每位玩家自己的数据（总击倒数、最佳连段、救援次数）。这样设计，是为了让合作永远不会塌陷成零和竞赛。"
+          ]
+        },
+        {
+          h: "现在到哪一步——开发中",
+          p: [
+            "企划已经定稿，代码尚未动工。itch 页面是开发介绍，不是可下载的版本——「In development. Follow for updates.」",
+            "已经确定的，和还要做的："
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ 故事与世界观定稿（被背叛的人们，五座城市）",
+              "✅ 20 人格斗家阵容 · 概念原画",
+              "✅ 复用 Fighting Nations 的 225 段招式与打击技术的路径",
+              "⬜ 四人在线合作（全新的联机代码）",
+              "⬜ 五座城市的战役（东京、首尔、香港、纽约、伦敦）",
+              "⬜ 拿下一座城市，就得到一名格斗家"
+            ]
+          }
+        }
+      ],
+      cta: "在 itch 上关注", back: "返回 Deother"
+    },
+
+    ja: {
+      title: "Turf King",
+      tagline: "四人オンライン協力のベルトスクロール——自分のものを取り返す",
+      intro: "五つの都市の親分たちが、身内に裏切られ、素手で縄張りを取り返すために手を組みます。『龍が如く』と『ダブルドラゴン』が出会ったような手触りを目指す、四人協力のベルトスクロールアクション。まだ開発中です。⚠️ 成人向け——暴力団の暴力と流血。子ども向けではありません。",
+      sections: [
+        {
+          h: "あいつらはお前を売った",
+          p: [
+            "お前は何もかも差し出した。あいつらはお前を売った。",
+            "東京、ソウル、香港、ニューヨーク、ロンドン——それぞれの街を仕切っていた五人が、身内に売られました。いま残っているのは互いだけと、とても長い名前のリストだけです。",
+            "各章は、そのうちの一人が自分の街へ帰る話。残る三人が同行します。裏切った親分を倒せば、その街も——その街のファイターも——あなたのものです。"
+          ]
+        },
+        {
+          h: "素手、ボタン四つ",
+          p: [
+            "パンチ、キック、つかみ、ローリング。コマンド入力も技表も、覚えるフレームデータもありません。",
+            "各ファイターは200種を超える固有の攻撃モーションから技を引き、良い一発をゲームが選んでくれます。あなたは振り続けるだけです。",
+            "手触りは、ディアザーの格闘ゲーム Fighting Nations で実証済みの技とヒット感の調整の上に作られています——白紙からではありません。"
+          ]
+        },
+        {
+          h: "競い合うのではなく、共に戦う",
+          p: [
+            "最大四人のドロップイン協力プレイ。空き枠は AI の仲間が埋め、背中を守りつつ小言も言ってきます。",
+            "誰かが勝つために誰かが負ける必要はありません。ランキングもキル横取りもなく、あるのは各プレイヤー自身の記録だけ（総KO数、最高コンボ、救助回数）。協力がゼロサムの争いに崩れないように設計しています。"
+          ]
+        },
+        {
+          h: "いまどこまで——開発中",
+          p: [
+            "企画は確定、コードはまだ着手していません。itch のページはビルドではなく開発紹介です——「In development. Follow for updates.」",
+            "決まっているものと、これから作るもの："
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ ストーリーと世界観の確定（裏切られた者たち、五つの都市）",
+              "✅ 20人のロスター · コンセプトアート",
+              "✅ Fighting Nations の225の技とヒット技術を再利用する道筋",
+              "⬜ 四人オンライン協力（ネットコードは全て新規）",
+              "⬜ 五都市のキャンペーン（東京、ソウル、香港、ニューヨーク、ロンドン）",
+              "⬜ 街を取れば、ファイターが手に入る"
+            ]
+          }
+        }
+      ],
+      cta: "itch でフォロー", back: "Deother に戻る"
+    },
+
+    es: {
+      title: "Turf King",
+      tagline: "Un brawler cooperativo en línea para cuatro: recupera lo que es tuyo",
+      intro: "Jefes del crimen de cinco ciudades, traicionados por sus propias bandas, se unen para recuperar su territorio a puño limpio. Un yo contra el barrio cooperativo para cuatro jugadores que busca la sensación de Yakuza cruzado con Double Dragon. Todavía en desarrollo. ⚠️ Para adultos: violencia de bandas y sangre. No es para niños.",
+      sections: [
+        {
+          h: "Te entregaron",
+          p: [
+            "Tú se lo diste todo. Ellos te entregaron.",
+            "Tokio, Seúl, Hong Kong, Nueva York, Londres: cinco hombres que dirigían esas ciudades, vendidos por sus propias bandas. Ahora no les queda nada salvo ellos mismos y una lista de nombres muy larga.",
+            "Cada capítulo es uno de ellos volviendo a casa. Los otros tres lo acompañan. Derrota al jefe que te traicionó y su ciudad —y su luchador— son tuyos."
+          ]
+        },
+        {
+          h: "Puños desnudos, cuatro botones",
+          p: [
+            "Puñetazo, patada, agarre, rodada. Sin entradas de movimiento, sin listas de comandos, sin datos de frames que memorizar.",
+            "Cada luchador bebe de una biblioteca de más de 200 animaciones de ataque propias, y el juego elige la buena por ti. Tú solo sigue golpeando.",
+            "La sensación se apoya en los movimientos y el ajuste de impacto ya probados en el juego de lucha de Deother, Fighting Nations, no en una hoja en blanco."
+          ]
+        },
+        {
+          h: "Pelear juntos, no unos contra otros",
+          p: [
+            "Cooperativo de entrada libre para hasta cuatro. Las plazas vacías las ocupan compañeros de IA que te cubren las espaldas y luego te lo recuerdan.",
+            "Nadie tiene que perder para que otro gane. Sin clasificaciones ni robo de muertes: solo las estadísticas propias de cada jugador (KO totales, mejor combo, rescates). Construido para que el cooperativo nunca degenere en una carrera de suma cero."
+          ]
+        },
+        {
+          h: "Dónde está: en desarrollo",
+          p: [
+            "El diseño está cerrado; el código aún no ha empezado. La página de itch es una presentación de desarrollo, no una versión jugable: «In development. Follow for updates.»",
+            "Lo que está decidido y lo que queda por construir:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Historia y mundo cerrados (los traicionados, cinco ciudades)",
+              "✅ Plantilla de 20 luchadores · arte conceptual",
+              "✅ Una vía para reutilizar los 225 movimientos y la tecnología de impacto de Fighting Nations",
+              "⬜ Cooperativo en línea para cuatro (netcode enteramente nuevo)",
+              "⬜ La campaña de cinco ciudades (Tokio, Seúl, Hong Kong, Nueva York, Londres)",
+              "⬜ Toma una ciudad, gana un luchador"
+            ]
+          }
+        }
+      ],
+      cta: "Seguir en itch", back: "Volver a Deother"
+    },
+
+    pt: {
+      title: "Turf King",
+      tagline: "Um brawler cooperativo online para quatro — recupera o que é teu",
+      intro: "Chefes do crime de cinco cidades, traídos pelos seus próprios bandos, juntam-se para recuperar o território à força dos punhos. Um beat 'em up cooperativo para quatro jogadores que procura a sensação de Yakuza cruzado com Double Dragon. Ainda em desenvolvimento. ⚠️ Para adultos — violência de gangues e sangue. Não é para crianças.",
+      sections: [
+        {
+          h: "Eles entregaram-te",
+          p: [
+            "Tu deste-lhes tudo. Eles entregaram-te.",
+            "Tóquio, Seul, Hong Kong, Nova Iorque, Londres — cinco homens que mandavam nessas cidades, vendidos pelos seus próprios bandos. Agora não lhes resta nada além uns dos outros e de uma lista de nomes muito longa.",
+            "Cada capítulo é um deles a voltar a casa. Os outros três vão juntos. Derrota o chefe que te traiu e a cidade dele — e o lutador dele — passam a ser teus."
+          ]
+        },
+        {
+          h: "Punhos nus, quatro botões",
+          p: [
+            "Soco, pontapé, agarrar, rolamento. Sem inputs de movimento, sem listas de comandos, sem frame data para decorar.",
+            "Cada lutador bebe de uma biblioteca com mais de 200 animações de ataque próprias, e o jogo escolhe a boa por ti. Tu limitas-te a continuar a bater.",
+            "A sensação assenta nos golpes e no ajuste de impacto já provados no jogo de luta da Deother, Fighting Nations — não numa folha em branco."
+          ]
+        },
+        {
+          h: "Lutar juntos, não uns contra os outros",
+          p: [
+            "Cooperativo de entrada livre até quatro. Os lugares vazios são preenchidos por companheiros de IA que te guardam as costas e depois te chateiam por isso.",
+            "Ninguém tem de perder para alguém ganhar. Sem tabelas nem roubo de abates — apenas as estatísticas de cada jogador (KO totais, melhor combo, resgates). Feito para que o cooperativo nunca desabe numa corrida de soma zero."
+          ]
+        },
+        {
+          h: "Onde está — em desenvolvimento",
+          p: [
+            "O design está fechado; o código ainda não começou. A página do itch é uma apresentação de desenvolvimento, não uma versão jogável — «In development. Follow for updates.»",
+            "O que está decidido e o que falta construir:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ História e mundo fechados (os traídos, cinco cidades)",
+              "✅ Plantel de 20 lutadores · arte conceptual",
+              "✅ Um caminho para reutilizar os 225 golpes e a tecnologia de impacto de Fighting Nations",
+              "⬜ Cooperativo online para quatro (netcode todo novo)",
+              "⬜ A campanha das cinco cidades (Tóquio, Seul, Hong Kong, Nova Iorque, Londres)",
+              "⬜ Toma uma cidade, ganha um lutador"
+            ]
+          }
+        }
+      ],
+      cta: "Seguir no itch", back: "Voltar a Deother"
+    },
+
+    fr: {
+      title: "Turf King",
+      tagline: "Un beat'em up coopératif en ligne à quatre — reprenez ce qui vous appartient",
+      intro: "Des parrains de cinq villes, trahis par leurs propres hommes, s'allient pour reprendre leur territoire à mains nues. Un beat'em up coopératif à quatre qui vise la sensation d'un Yakuza croisé avec Double Dragon. Encore en développement. ⚠️ Pour adultes — violence de gangs et sang. Pas pour les enfants.",
+      sections: [
+        {
+          h: "Ils vous ont livré",
+          p: [
+            "Vous leur avez tout donné. Ils vous ont livré.",
+            "Tokyo, Séoul, Hong Kong, New York, Londres — cinq hommes qui tenaient ces villes, vendus par leurs propres équipes. Il ne leur reste plus qu'eux-mêmes, et une très longue liste de noms.",
+            "Chaque chapitre, c'est l'un d'eux qui rentre chez lui. Les trois autres l'accompagnent. Battez le patron qui vous a trahi et sa ville — ainsi que son combattant — vous revient."
+          ]
+        },
+        {
+          h: "Poings nus, quatre boutons",
+          p: [
+            "Coup de poing, coup de pied, saisie, roulade. Pas de manipulations, pas de listes de commandes, pas de frame data à retenir.",
+            "Chaque combattant puise dans une bibliothèque de plus de 200 animations d'attaque qui lui sont propres, et le jeu choisit la bonne à votre place. Vous n'avez qu'à continuer de frapper.",
+            "La sensation repose sur les coups et le réglage d'impact déjà éprouvés dans le jeu de combat de Deother, Fighting Nations — et non sur une page blanche."
+          ]
+        },
+        {
+          h: "Se battre ensemble, pas les uns contre les autres",
+          p: [
+            "Coopération en drop-in jusqu'à quatre. Les places libres sont prises par des équipiers IA qui vous couvrent — et vous le font savoir.",
+            "Personne n'a besoin de perdre pour qu'un autre gagne. Pas de classement, pas de vol de kills — seulement les statistiques propres à chaque joueur (KO au total, meilleur combo, sauvetages). Conçu pour que la coopération ne dégénère jamais en course à somme nulle."
+          ]
+        },
+        {
+          h: "Où en est le jeu — en développement",
+          p: [
+            "La conception est arrêtée ; le code n'a pas commencé. La page itch est une présentation de développement, pas un build — « In development. Follow for updates. »",
+            "Ce qui est décidé, et ce qui reste à construire :"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Histoire et univers arrêtés (les trahis, cinq villes)",
+              "✅ Un roster de 20 combattants · illustrations conceptuelles",
+              "✅ Une voie pour réutiliser les 225 coups et la technologie d'impact de Fighting Nations",
+              "⬜ Coopération en ligne à quatre (netcode entièrement nouveau)",
+              "⬜ La campagne des cinq villes (Tokyo, Séoul, Hong Kong, New York, Londres)",
+              "⬜ Prenez une ville, gagnez un combattant"
+            ]
+          }
+        }
+      ],
+      cta: "Suivre sur itch", back: "Retour à Deother"
+    },
+
+    de: {
+      title: "Turf King",
+      tagline: "Ein Online-Koop-Brawler für vier — hol dir zurück, was dir gehört",
+      intro: "Bosse aus fünf Städten, von den eigenen Leuten verraten, tun sich zusammen, um ihr Revier mit bloßen Fäusten zurückzuholen. Ein Koop-Beat-'em-up für vier Spieler, das auf das Gefühl von Yakuza trifft Double Dragon zielt. Noch in Entwicklung. ⚠️ Für Erwachsene — Bandengewalt und Blut. Nichts für Kinder.",
+      sections: [
+        {
+          h: "Sie haben dich verkauft",
+          p: [
+            "Du hast ihnen alles gegeben. Sie haben dich verkauft.",
+            "Tokio, Seoul, Hongkong, New York, London — fünf Männer, die diese Städte führten, von den eigenen Crews verraten. Jetzt bleibt ihnen nichts als einander und eine sehr lange Liste von Namen.",
+            "Jedes Kapitel ist einer von ihnen auf dem Heimweg. Die anderen drei kommen mit. Schlag den Boss, der dich verraten hat, und seine Stadt — und sein Kämpfer — gehören dir."
+          ]
+        },
+        {
+          h: "Bloße Fäuste, vier Tasten",
+          p: [
+            "Schlag, Tritt, Griff, Rolle. Keine Eingabefolgen, keine Kommandolisten, keine Frame-Daten zum Auswendiglernen.",
+            "Jeder Kämpfer schöpft aus einer Bibliothek von über 200 eigenen Angriffsanimationen, und das Spiel wählt die passende für dich. Du schlägst einfach weiter.",
+            "Das Spielgefühl baut auf den Moves und dem Trefferfeedback auf, die in Deothers Kampfspiel Fighting Nations schon bewiesen sind — nicht auf einem leeren Blatt."
+          ]
+        },
+        {
+          h: "Miteinander kämpfen, nicht gegeneinander",
+          p: [
+            "Drop-in-Koop für bis zu vier. Freie Plätze füllen KI-Kameraden, die dir den Rücken freihalten — und dich anschließend damit aufziehen.",
+            "Niemand muss verlieren, damit jemand gewinnt. Keine Ranglisten, kein Kill-Klauen — nur die eigenen Werte jedes Spielers (KOs gesamt, bester Combo, Rettungen). So gebaut, dass Koop nie in ein Nullsummenrennen kippt."
+          ]
+        },
+        {
+          h: "Wo es steht — in Entwicklung",
+          p: [
+            "Das Design steht; der Code hat noch nicht begonnen. Die itch-Seite ist eine Entwicklungsvorstellung, kein Build — „In development. Follow for updates.“",
+            "Was entschieden ist, und was noch zu bauen bleibt:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ Geschichte und Welt stehen fest (die Verratenen, fünf Städte)",
+              "✅ Ein Roster aus 20 Kämpfern · Concept Art",
+              "✅ Ein Weg, 225 Moves und die Treffertechnik aus Fighting Nations wiederzuverwenden",
+              "⬜ Online-Koop für vier (komplett neuer Netcode)",
+              "⬜ Die Kampagne über fünf Städte (Tokio, Seoul, Hongkong, New York, London)",
+              "⬜ Nimm eine Stadt, gewinn einen Kämpfer"
+            ]
+          }
+        }
+      ],
+      cta: "Auf itch folgen", back: "Zurück zu Deother"
+    },
+
+    ru: {
+      title: "Turf King",
+      tagline: "Кооперативный сетевой битемап на четверых — забери то, что твоё",
+      intro: "Криминальные боссы пяти городов, преданные собственными людьми, объединяются, чтобы вернуть свою территорию голыми руками. Кооперативный битемап на четверых, который целит в ощущение Yakuza, скрещённой с Double Dragon. Всё ещё в разработке. ⚠️ Для взрослых — бандитское насилие и кровь. Не для детей.",
+      sections: [
+        {
+          h: "Они тебя сдали",
+          p: [
+            "Ты отдал им всё. Они тебя сдали.",
+            "Токио, Сеул, Гонконг, Нью-Йорк, Лондон — пятеро, державшие эти города, преданы собственными командами. Теперь у них не осталось ничего, кроме друг друга и очень длинного списка имён.",
+            "Каждая глава — это возвращение одного из них домой. Остальные трое идут рядом. Победи босса, который тебя предал, и его город — вместе с его бойцом — станет твоим."
+          ]
+        },
+        {
+          h: "Голые кулаки, четыре кнопки",
+          p: [
+            "Удар рукой, ногой, захват, перекат. Никаких сложных вводов, списков команд и фрейм-данных, которые надо заучивать.",
+            "Каждый боец берёт движения из библиотеки более чем в 200 собственных анимаций атаки, а игра сама выбирает удачную. Вам остаётся просто продолжать бить.",
+            "Ощущение построено на движениях и настройке ударов, уже проверенных в файтинге Deother — Fighting Nations, а не с чистого листа."
+          ]
+        },
+        {
+          h: "Драться вместе, а не друг против друга",
+          p: [
+            "Кооператив с подключением на ходу, до четырёх игроков. Свободные места занимают напарники под управлением ИИ: прикрывают спину и потом же этим попрекают.",
+            "Никому не нужно проигрывать, чтобы кто-то выиграл. Ни рейтингов, ни воровства добиваний — только личная статистика каждого игрока (всего нокаутов, лучшее комбо, спасения). Сделано так, чтобы кооператив никогда не скатывался в гонку с нулевой суммой."
+          ]
+        },
+        {
+          h: "На каком этапе — в разработке",
+          p: [
+            "Дизайн закреплён, код ещё не начат. Страница на itch — это представление проекта, а не сборка: «In development. Follow for updates.»",
+            "Что решено и что ещё предстоит сделать:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ История и мир закреплены (преданные, пять городов)",
+              "✅ Ростер из 20 бойцов · концепт-арт",
+              "✅ Путь к переиспользованию 225 движений и техники ударов из Fighting Nations",
+              "⬜ Сетевой кооператив на четверых (полностью новый netcode)",
+              "⬜ Кампания по пяти городам (Токио, Сеул, Гонконг, Нью-Йорк, Лондон)",
+              "⬜ Взял город — получил бойца"
+            ]
+          }
+        }
+      ],
+      cta: "Подписаться на itch", back: "Назад в Deother"
+    },
+
+    ar: {
+      title: "Turf King",
+      tagline: "لعبة ملاكمة شوارع تعاونية عبر الإنترنت لأربعة لاعبين — استعِد ما هو لك",
+      intro: "‏زعماء عصابات من خمس مدن، خانتهم أطقمهم، يتحالفون لاستعادة مناطقهم بالأيدي العارية. لعبة قتال شوارع تعاونية لأربعة لاعبين تستهدف إحساس Yakuza ممزوجًا بـ Double Dragon. ما زالت قيد التطوير. ⚠️ للبالغين — عنف عصابات ودماء. ليست للأطفال.",
+      sections: [
+        {
+          h: "لقد باعوك",
+          p: [
+            "أعطيتهم كل شيء. فباعوك.",
+            "طوكيو وسول وهونغ كونغ ونيويورك ولندن — خمسة رجال كانوا يديرون تلك المدن، باعهم رجالهم أنفسهم. لم يبقَ لهم الآن سوى بعضهم بعضًا، وقائمة أسماء طويلة جدًا.",
+            "كل فصل هو عودة واحد منهم إلى مدينته، ومعه الثلاثة الآخرون. اهزم الزعيم الذي خانك، فتصير مدينته — ومقاتلها — لك."
+          ]
+        },
+        {
+          h: "أيدٍ عارية، وأربعة أزرار",
+          p: [
+            "لكمة وركلة وإمساك والتفاف. لا مدخلات حركية، ولا قوائم أوامر، ولا بيانات إطارات تُحفظ.",
+            "‏كل مقاتل يسحب من مكتبة تضم أكثر من 200 حركة هجوم خاصة به، واللعبة تختار الحركة المناسبة نيابة عنك. كل ما عليك أن تواصل الضرب.",
+            "‏الإحساس مبنيّ على الحركات وضبط الارتطام المُثبَتين في لعبة القتال Fighting Nations من ديأذر — لا من صفحة بيضاء."
+          ]
+        },
+        {
+          h: "قتال معًا، لا ضد بعضنا",
+          p: [
+            "‏تعاون بانضمام فوري حتى أربعة لاعبين. المقاعد الفارغة يملؤها رفاق من الذكاء الاصطناعي يحمون ظهرك ثم يذكّرونك بذلك.",
+            "لا يلزم أن يخسر أحد كي يفوز آخر. لا تصنيفات ولا سرقة إسقاطات — فقط إحصاءات كل لاعب لنفسه (مجموع الإسقاطات، وأفضل سلسلة، وعدد الإنقاذات). صُمّمت هكذا كي لا ينهار التعاون إلى سباق صفري."
+          ]
+        },
+        {
+          h: "أين وصلنا — قيد التطوير",
+          p: [
+            "‏التصميم مُقفل، والبرمجة لم تبدأ بعد. صفحة itch تعريف بالتطوير لا نسخة قابلة للتنزيل — «In development. Follow for updates.»",
+            "ما تقرّر، وما بقي بناؤه:"
+          ],
+          list: {
+            h: "",
+            items: [
+              "✅ القصة والعالم مُقفلان (المغدورون، وخمس مدن)",
+              "✅ قائمة من 20 مقاتلًا · رسوم مفاهيمية",
+              "‏✅ مسار لإعادة استخدام 225 حركة وتقنية الارتطام من Fighting Nations",
+              "⬜ تعاون شبكي لأربعة لاعبين (شيفرة شبكة جديدة بالكامل)",
+              "⬜ حملة المدن الخمس (طوكيو، سول، هونغ كونغ، نيويورك، لندن)",
+              "⬜ خُذ مدينة، تكسب مقاتلًا"
+            ]
+          }
+        }
+      ],
+      cta: "‏تابِعنا على itch", back: "‏العودة إلى Deother"
     }
   },
 
@@ -2271,6 +3079,326 @@ const PAGES = {
         }
       ],
       cta: "Play in the browser", back: "Back to Deother"
+    },
+
+    zh: {
+      title: "Wall Street the Game",
+      tagline: "重生的投资者——从 1792 到 2026",
+      intro: "2026 年，你在九十岁离世。再睁眼时是 1792 年，纽约证券交易所刚在梧桐树下诞生。重生后你将活过三百年，手里有 10,000 美元。这是一款浏览器教育游戏：以一年为一步重走美股 234 年，一路学历史与经济。",
+      sections: [
+        {
+          h: "重生的投资者",
+          p: [
+            "这一世，你知道未来。从 1792 到 2026，你要重新走过美国股市的兴衰。",
+            "每个时代都有新公司上市，大萧条、石油危机、互联网泡沫、金融危机轮番冲击市场。你买哪家、什么时候买、又在什么时候卖？",
+            "有的像苹果，活过一个世纪成为全球市值第一；有的——雅虎、安然、雷曼——归零消失。到了 2026 年，你那 10,000 美元变成了多少？"
+          ]
+        },
+        {
+          h: "只有回合制——每一年都由你决定",
+          p: [
+            "如果它自己会跑，你就只是旁观。所以这款游戏只有回合制。每一年你选择买入与卖出，推进到下一年，立刻看到财富涨了多少、跌了多少。",
+            "你主动决定，一年后立刻感受到盈亏。股票还很少的早期（1900 年以前）五年一步，从 1900 年起改为一年一步。自动模式与快进是刻意不做的。"
+          ]
+        },
+        {
+          h: "真实历史就是数据",
+          p: [
+            "41 支真实股票的价格是教学用的近似值，反映历史走势与重大暴跌暴涨（已按拆股调整）。纽交所与纳斯达克分开标示。",
+            "「破产」与「被收购」不是一回事——雅虎、RCA、网景并没有失败，它们被买下，股东拿到了钱。这个区分正是这堂课的核心。",
+            "你的资产会与道指（市场平均）画在同一张图上，一眼就能看出你是跑赢了市场，还是输给了它。"
+          ]
+        },
+        {
+          h: "历史与经济一起学",
+          p: [
+            "每一年，「新闻与背景」栏都会填入那个时代的经济与历史解说。从梧桐树协议到互联网泡沫，你会知道发生了什么、又为什么发生。",
+            "它是为了让孩子和新手通过真实数据去体会：什么时候买下某家公司会赚到一大笔，什么时候会血本无归。浏览器免费、免安装、直接开玩。",
+            "※ 这不是投资建议，而是一款教育游戏。"
+          ]
+        }
+      ],
+      cta: "在浏览器中游玩", back: "返回 Deother"
+    },
+
+    ja: {
+      title: "Wall Street the Game",
+      tagline: "生まれ直した投資家——1792年から2026年まで",
+      intro: "2026年、あなたは九十歳で亡くなります。次に目を開けると1792年、ニューヨーク証券取引所が生まれたばかりのボタンウッドの木の下です。三百年を生きるために生まれ直したあなたの手元には1万ドル。米国株の234年を一年ずつ辿り直しながら、歴史と経済を学ぶブラウザ教育ゲームです。",
+      sections: [
+        {
+          h: "生まれ直した投資家",
+          p: [
+            "この人生では、あなたは未来を知っています。1792年から2026年まで、アメリカ株の栄枯盛衰をもう一度通り抜けます。",
+            "どの時代にも新しい企業が上場し、大恐慌、オイルショック、ドットコムバブル、金融危機が市場を揺さぶります。どの会社を、いつ買い、いつ売るのか。",
+            "アップルのように一世紀を生き延びて世界一の時価総額になるものもあれば、ヤフー、エンロン、リーマンのようにゼロへ消えるものもあります。2026年、あなたの1万ドルはいくらになっているでしょう。"
+          ]
+        },
+        {
+          h: "ターン制のみ——毎年あなたが決める",
+          p: [
+            "勝手に進むなら、あなたは眺めているだけになります。だからこのゲームはターン制だけです。毎年、何を買い何を売るかを選び、次の年へ進め、資産がどれだけ増えたか減ったかをその場で見ます。",
+            "自分で能動的に決め、一年後の損益をすぐに味わう。銘柄の少ない初期（1900年以前）は五年ずつ、1900年からは一年ずつ進みます。オート進行と早送りは意図的に入れていません。"
+          ]
+        },
+        {
+          h: "本物の歴史がデータになる",
+          p: [
+            "実在する41銘柄の価格は、歴史の趨勢と主要な暴落・急騰を反映した教育用の近似値です（株式分割調整済み）。NYSE と Nasdaq は区別しています。",
+            "「倒産」と「買収」は同じではありません——ヤフー、RCA、ネットスケープは失敗したのではなく、買われて株主は現金化しました。この区別こそが学びの核心です。",
+            "あなたの資産はダウ（市場平均）と同じグラフに並べて描かれるので、市場に勝ったのか負けたのかが一目で分かります。"
+          ]
+        },
+        {
+          h: "歴史と経済を一緒に",
+          p: [
+            "毎年、「ニュースと背景」欄にその時代の経済・歴史の解説が入ります。ボタンウッド協定からドットコムバブルまで、何が起きたのか、なぜ起きたのかを学べます。",
+            "子どもや初心者が、実データを通して「ここで買っていれば大金になった」「ここで買っていれば全部飛んだ」を体感できるように作っています。ブラウザで無料、インストール不要、すぐ遊べます。",
+            "※ これは投資助言ではなく、教育用のゲームです。"
+          ]
+        }
+      ],
+      cta: "ブラウザで遊ぶ", back: "Deother に戻る"
+    },
+
+    es: {
+      title: "Wall Street the Game",
+      tagline: "Un inversor renacido: de 1792 a 2026",
+      intro: "En 2026 mueres a los noventa. Después abres los ojos en 1792, bajo el plátano donde acaba de nacer la Bolsa de Nueva York. Renacido para vivir trescientos años, tienes 10.000 dólares. Un juego educativo de navegador donde revives 234 años del mercado estadounidense año a año, aprendiendo historia y economía por el camino.",
+      sections: [
+        {
+          h: "Un inversor renacido",
+          p: [
+            "En esta vida conoces el futuro. De 1792 a 2026 atraviesas de nuevo el auge y la caída de las acciones estadounidenses.",
+            "En cada época salen empresas nuevas a bolsa, y la Gran Depresión, las crisis del petróleo, la burbuja puntocom y la crisis financiera sacuden el mercado. ¿Qué compañía compras, cuándo, y cuándo vendes?",
+            "Algunas, como Apple, sobreviven un siglo hasta ser la más valiosa del mundo; otras —Yahoo, Enron, Lehman— se desvanecen a cero. En 2026, ¿en qué se han convertido tus 10.000 dólares?"
+          ]
+        },
+        {
+          h: "Solo por turnos: decides cada año",
+          p: [
+            "Si avanza solo, tú te limitas a mirar. Por eso este juego es solo por turnos. Cada año eliges qué comprar y qué vender, pasas al siguiente y ves de inmediato cuánto subió o bajó tu patrimonio.",
+            "Decides de forma activa y sientes la ganancia o la pérdida un año después, al instante. Los primeros años con pocas acciones (antes de 1900) avanzan de cinco en cinco; desde 1900, año a año. Los modos automático y de avance rápido se dejaron fuera a propósito."
+          ]
+        },
+        {
+          h: "La historia real es el dato",
+          p: [
+            "Los precios de 41 acciones reales son aproximaciones educativas que reflejan las tendencias y los grandes desplomes y subidas de la historia (ajustados por splits). Se distingue entre NYSE y Nasdaq.",
+            "«Quebrar» y «ser adquirida» no son lo mismo: Yahoo, RCA y Netscape no fracasaron; fueron compradas y sus accionistas cobraron. Esa distinción es el corazón de la lección.",
+            "Tu patrimonio se dibuja junto al Dow (la media del mercado), así que ves de un vistazo si le ganaste al mercado o perdiste contra él."
+          ]
+        },
+        {
+          h: "Historia y economía a la vez",
+          p: [
+            "Cada año, un panel de «Noticias y contexto» se llena con comentarios económicos e históricos de esa época. Del Acuerdo de Buttonwood a la burbuja puntocom, aprendes qué pasó y por qué.",
+            "Está hecho para que niños y principiantes sientan, con datos reales, cuándo comprar algo habría dado una fortuna y cuándo lo habría borrado todo. Gratis en el navegador, sin instalar, se juega al momento.",
+            "※ Esto no es asesoramiento de inversión: es un juego educativo."
+          ]
+        }
+      ],
+      cta: "Jugar en el navegador", back: "Volver a Deother"
+    },
+
+    pt: {
+      title: "Wall Street the Game",
+      tagline: "Um investidor renascido — de 1792 a 2026",
+      intro: "Em 2026 morres aos noventa. Depois abres os olhos em 1792, debaixo do plátano onde a Bolsa de Nova Iorque acabou de nascer. Renascido para viver trezentos anos, tens 10.000 dólares. Um jogo educativo de navegador em que revives 234 anos do mercado norte-americano ano a ano, aprendendo história e economia pelo caminho.",
+      sections: [
+        {
+          h: "Um investidor renascido",
+          p: [
+            "Nesta vida conheces o futuro. De 1792 a 2026, atravessas outra vez a subida e a queda das ações americanas.",
+            "Em cada época entram novas empresas em bolsa, e a Grande Depressão, os choques petrolíferos, a bolha das dot-com e a crise financeira abanam o mercado. Que empresa compras, quando, e quando vendes?",
+            "Algumas, como a Apple, sobrevivem um século até serem a mais valiosa do mundo; outras — Yahoo, Enron, Lehman — desaparecem para zero. Em 2026, no que se tornaram os teus 10.000 dólares?"
+          ]
+        },
+        {
+          h: "Só por turnos — decides todos os anos",
+          p: [
+            "Se andar sozinho, limitas-te a ver. Por isso este jogo é só por turnos. Em cada ano escolhes o que comprar e vender, avanças para o ano seguinte e vês logo quanto o teu património subiu ou desceu.",
+            "Decides ativamente e sentes o lucro ou o prejuízo um ano depois, de imediato. Os primeiros anos com poucas ações (antes de 1900) avançam de cinco em cinco; a partir de 1900, ano a ano. Os modos automático e de avanço rápido ficaram de fora de propósito."
+          ]
+        },
+        {
+          h: "A história real é o dado",
+          p: [
+            "Os preços de 41 ações reais são aproximações educativas que refletem as tendências e as grandes quedas e subidas da história (ajustados a desdobramentos). NYSE e Nasdaq são distinguidas.",
+            "«Falir» e «ser adquirida» não é o mesmo — a Yahoo, a RCA e a Netscape não falharam; foram compradas e os acionistas receberam. Essa distinção é o coração da lição.",
+            "O teu património é traçado ao lado do Dow (a média do mercado), por isso vês num relance se bateste o mercado ou se perdeste para ele."
+          ]
+        },
+        {
+          h: "História e economia ao mesmo tempo",
+          p: [
+            "Em cada ano, um painel de «Notícias e contexto» enche-se com comentário económico e histórico daquela época. Do Acordo de Buttonwood à bolha das dot-com, aprendes o que aconteceu e porquê.",
+            "Foi feito para que crianças e principiantes sintam, através de dados reais, quando comprar algo teria dado uma fortuna e quando teria apagado tudo. Grátis no navegador, sem instalação, joga-se já.",
+            "※ Isto não é aconselhamento de investimento — é um jogo educativo."
+          ]
+        }
+      ],
+      cta: "Jogar no navegador", back: "Voltar a Deother"
+    },
+
+    fr: {
+      title: "Wall Street the Game",
+      tagline: "Un investisseur renaissant — de 1792 à 2026",
+      intro: "En 2026, vous mourez à quatre-vingt-dix ans. Puis vous ouvrez les yeux en 1792, sous le platane où la Bourse de New York vient de naître. Renaissant pour vivre trois cents ans, vous disposez de 10 000 dollars. Un jeu éducatif dans le navigateur où vous revivez 234 ans de marché américain, année après année, en apprenant l'histoire et l'économie en chemin.",
+      sections: [
+        {
+          h: "Un investisseur renaissant",
+          p: [
+            "Cette fois, vous connaissez l'avenir. De 1792 à 2026, vous traversez de nouveau l'essor et la chute des actions américaines.",
+            "À chaque époque de nouvelles sociétés entrent en Bourse, et la Grande Dépression, les chocs pétroliers, la bulle Internet et la crise financière secouent le marché. Quelle entreprise achetez-vous, quand, et quand vendez-vous ?",
+            "Certaines, comme Apple, traversent un siècle jusqu'à devenir la plus valorisée du monde ; d'autres — Yahoo, Enron, Lehman — s'effacent à zéro. En 2026, que sont devenus vos 10 000 dollars ?"
+          ]
+        },
+        {
+          h: "Au tour par tour uniquement — vous décidez chaque année",
+          p: [
+            "Si le jeu avance tout seul, vous ne faites que regarder. C'est pourquoi il est uniquement au tour par tour. Chaque année, vous choisissez ce que vous achetez et vendez, passez à l'année suivante, et voyez aussitôt de combien votre patrimoine a monté ou baissé.",
+            "Vous décidez activement et vous ressentez le gain ou la perte un an plus tard, immédiatement. Les premières années, où les titres sont rares (avant 1900), avancent par tranches de cinq ; à partir de 1900, année par année. Les modes automatique et accéléré ont été volontairement écartés."
+          ]
+        },
+        {
+          h: "L'histoire réelle sert de données",
+          p: [
+            "Les cours de 41 actions réelles sont des approximations pédagogiques qui reflètent les tendances et les grands krachs et envolées de l'histoire (ajustés des divisions d'actions). Le NYSE et le Nasdaq sont distingués.",
+            "« Faire faillite » et « être rachetée » ne sont pas la même chose — Yahoo, RCA et Netscape n'ont pas échoué : elles ont été rachetées et les actionnaires ont encaissé. Cette distinction est le cœur de la leçon.",
+            "Votre patrimoine est tracé à côté du Dow (la moyenne du marché) : vous voyez d'un coup d'œil si vous avez battu le marché ou perdu contre lui."
+          ]
+        },
+        {
+          h: "L'histoire et l'économie ensemble",
+          p: [
+            "Chaque année, un encart « Actualités et contexte » se remplit de commentaires économiques et historiques sur l'époque. De l'accord de Buttonwood à la bulle Internet, vous apprenez ce qui s'est passé et pourquoi.",
+            "C'est conçu pour que les enfants et les débutants ressentent, à partir de données réelles, quand un achat aurait fait une fortune et quand il aurait tout emporté. Gratuit dans le navigateur, sans installation, jouable tout de suite.",
+            "※ Ce n'est pas un conseil en investissement : c'est un jeu éducatif."
+          ]
+        }
+      ],
+      cta: "Jouer dans le navigateur", back: "Retour à Deother"
+    },
+
+    de: {
+      title: "Wall Street the Game",
+      tagline: "Ein wiedergeborener Investor — von 1792 bis 2026",
+      intro: "2026 stirbst du mit neunzig. Dann öffnest du die Augen im Jahr 1792, unter der Platane, unter der die New Yorker Börse gerade entstanden ist. Wiedergeboren, um dreihundert Jahre zu leben, hältst du 10.000 Dollar. Ein Lernspiel im Browser, in dem du 234 Jahre US-Aktienmarkt Jahr für Jahr noch einmal durchlebst und dabei Geschichte und Wirtschaft lernst.",
+      sections: [
+        {
+          h: "Ein wiedergeborener Investor",
+          p: [
+            "In diesem Leben kennst du die Zukunft. Von 1792 bis 2026 durchläufst du Aufstieg und Fall der amerikanischen Aktien noch einmal.",
+            "In jeder Epoche gehen neue Unternehmen an die Börse, und die Weltwirtschaftskrise, die Ölschocks, die Dotcom-Blase und die Finanzkrise erschüttern den Markt. Welche Firma kaufst du, wann — und wann verkaufst du?",
+            "Manche überstehen wie Apple ein Jahrhundert und werden das wertvollste Unternehmen der Welt; andere — Yahoo, Enron, Lehman — verschwinden auf null. Was sind deine 10.000 Dollar im Jahr 2026 geworden?"
+          ]
+        },
+        {
+          h: "Nur rundenbasiert — du entscheidest jedes Jahr",
+          p: [
+            "Läuft es von allein, schaust du bloß zu. Deshalb ist dieses Spiel ausschließlich rundenbasiert. Jedes Jahr wählst du, was du kaufst und verkaufst, gehst ins nächste Jahr und siehst sofort, um wie viel dein Vermögen gestiegen oder gefallen ist.",
+            "Du entscheidest aktiv und spürst Gewinn oder Verlust ein Jahr später, unmittelbar. Die frühen Jahre mit wenigen Titeln (vor 1900) laufen in Fünferschritten, ab 1900 Jahr für Jahr. Automatik und Vorspulen wurden bewusst weggelassen."
+          ]
+        },
+        {
+          h: "Die echte Geschichte ist die Datengrundlage",
+          p: [
+            "Die Kurse von 41 realen Aktien sind didaktische Näherungen, die Trends sowie die großen Abstürze und Anstiege der Geschichte abbilden (splitbereinigt). NYSE und Nasdaq werden unterschieden.",
+            "„Pleite“ und „übernommen“ ist nicht dasselbe — Yahoo, RCA und Netscape sind nicht gescheitert; sie wurden gekauft, und die Aktionäre haben kassiert. Genau diese Unterscheidung ist der Kern der Lektion.",
+            "Dein Vermögen wird direkt neben dem Dow (dem Marktdurchschnitt) gezeichnet, sodass du auf einen Blick siehst, ob du den Markt geschlagen oder gegen ihn verloren hast."
+          ]
+        },
+        {
+          h: "Geschichte und Wirtschaft zusammen",
+          p: [
+            "Jedes Jahr füllt sich ein Feld „Nachrichten & Hintergrund“ mit wirtschaftlichen und historischen Erläuterungen zur jeweiligen Zeit. Vom Buttonwood-Abkommen bis zur Dotcom-Blase lernst du, was geschah und warum.",
+            "Es ist so gebaut, dass Kinder und Anfänger an echten Daten spüren, wann ein Kauf ein Vermögen gebracht und wann er alles ausgelöscht hätte. Kostenlos im Browser, ohne Installation, sofort spielbar.",
+            "※ Das ist keine Anlageberatung, sondern ein Lernspiel."
+          ]
+        }
+      ],
+      cta: "Im Browser spielen", back: "Zurück zu Deother"
+    },
+
+    ru: {
+      title: "Wall Street the Game",
+      tagline: "Переродившийся инвестор — с 1792 по 2026 год",
+      intro: "В 2026 году вы умираете в девяносто. А потом открываете глаза в 1792-м, под платаном, где только что родилась Нью-Йоркская биржа. Переродившись, чтобы прожить триста лет, вы держите в руках 10 000 долларов. Браузерная обучающая игра, в которой вы год за годом заново проходите 234 года американского рынка и попутно узнаёте историю и экономику.",
+      sections: [
+        {
+          h: "Переродившийся инвестор",
+          p: [
+            "В этой жизни вы знаете будущее. С 1792 по 2026 год вы снова проходите взлёты и падения американских акций.",
+            "В каждую эпоху на биржу выходят новые компании, а Великая депрессия, нефтяные шоки, пузырь доткомов и финансовый кризис раскачивают рынок. Какую компанию купить, когда — и когда продать?",
+            "Одни, как Apple, переживают столетие и становятся самой дорогой компанией мира; другие — Yahoo, Enron, Lehman — обращаются в ноль. Во что превратились ваши 10 000 долларов к 2026 году?"
+          ]
+        },
+        {
+          h: "Только пошагово — каждый год решаете вы",
+          p: [
+            "Если всё идёт само, вы просто смотрите. Поэтому игра только пошаговая. Каждый год вы выбираете, что купить и что продать, переходите к следующему году и сразу видите, насколько выросло или упало ваше состояние.",
+            "Вы решаете активно и ощущаете прибыль или убыток год спустя — немедленно. Ранние годы, когда бумаг мало (до 1900-го), идут шагом в пять лет; с 1900-го — год за годом. Авторежим и перемотку не стали делать намеренно."
+          ]
+        },
+        {
+          h: "Реальная история и есть данные",
+          p: [
+            "Цены 41 настоящей акции — учебные приближения, отражающие тренды и главные обвалы и взлёты истории (с поправкой на сплиты). NYSE и Nasdaq различаются.",
+            "«Обанкротиться» и «быть купленной» — не одно и то же: Yahoo, RCA и Netscape не провалились, их выкупили, и акционеры получили деньги. Именно это различие и есть сердцевина урока.",
+            "Ваш капитал рисуется прямо рядом с индексом Доу (среднерыночным), так что сразу видно, обыграли вы рынок или проиграли ему."
+          ]
+        },
+        {
+          h: "История и экономика вместе",
+          p: [
+            "Каждый год панель «Новости и контекст» наполняется экономическими и историческими пояснениями к этой эпохе. От Баттонвудского соглашения до пузыря доткомов вы узнаёте, что произошло и почему.",
+            "Игра сделана так, чтобы дети и новички на реальных данных почувствовали, когда покупка принесла бы состояние, а когда стёрла бы всё. Бесплатно в браузере, без установки, играть можно сразу.",
+            "※ Это не инвестиционный совет, а обучающая игра."
+          ]
+        }
+      ],
+      cta: "Играть в браузере", back: "Назад в Deother"
+    },
+
+    ar: {
+      title: "Wall Street the Game",
+      tagline: "مستثمر وُلد من جديد — من 1792 إلى 2026",
+      intro: "‏في عام 2026 تموت في التسعين. ثم تفتح عينيك في 1792، تحت شجرة الدُّلب حيث وُلدت بورصة نيويورك للتوّ. وقد وُلدت من جديد لتعيش ثلاثمئة عام، ومعك 10,000 دولار. لعبة تعليمية في المتصفّح تعيش فيها 234 عامًا من سوق الأسهم الأمريكية سنةً بسنة، وتتعلّم التاريخ والاقتصاد في الطريق.",
+      sections: [
+        {
+          h: "مستثمر وُلد من جديد",
+          p: [
+            "في هذه الحياة أنت تعرف المستقبل. من 1792 إلى 2026 تعبر من جديد صعود الأسهم الأمريكية وهبوطها.",
+            "في كل حقبة تُدرَج شركات جديدة، ويهزّ السوق الكسادُ الكبير وصدماتُ النفط وفقاعةُ الدوت كوم والأزمةُ المالية. أي شركة تشتري، ومتى، ومتى تبيع؟",
+            "‏بعضها مثل Apple يصمد قرنًا ليصير الأعلى قيمة في العالم، وبعضها — Yahoo وEnron وLehman — يتلاشى إلى الصفر. في 2026، إلى كم صارت آلافك العشرة؟"
+          ]
+        },
+        {
+          h: "بالأدوار فقط — أنت تقرّر كل سنة",
+          p: [
+            "لو سارت اللعبة وحدها لصرت مجرّد متفرّج. لذلك هي بالأدوار فقط. في كل سنة تختار ما تشتريه وما تبيعه، ثم تتقدّم إلى السنة التالية فترى فورًا كم ارتفعت ثروتك أو انخفضت.",
+            "تقرّر بنفسك، وتشعر بالربح أو الخسارة بعد سنة مباشرة. السنوات الأولى قليلة الأسهم (قبل 1900) تتقدّم خمسًا خمسًا، ومن 1900 سنةً بسنة. أما التشغيل التلقائي والتقديم السريع فقد تُركا عمدًا."
+          ]
+        },
+        {
+          h: "التاريخ الحقيقي هو البيانات",
+          p: [
+            "‏أسعار 41 سهمًا حقيقيًا هي تقريبات تعليمية تعكس الاتجاهات وأبرز الانهيارات والقفزات في التاريخ (مُعدّلة للتجزئة). ويُفرَّق بين NYSE وNasdaq.",
+            "‏«الإفلاس» و«الاستحواذ» ليسا شيئًا واحدًا — فـ Yahoo وRCA وNetscape لم تفشل، بل اشتُريت وقبض المساهمون. وهذا التمييز هو جوهر الدرس.",
+            "‏تُرسَم ثروتك إلى جوار مؤشر داو (متوسط السوق) مباشرة، فترى بلمحة إن كنت تفوّقت على السوق أم خسرت أمامه."
+          ]
+        },
+        {
+          h: "التاريخ والاقتصاد معًا",
+          p: [
+            "في كل سنة تمتلئ لوحة «الأخبار والخلفية» بشرح اقتصادي وتاريخي لتلك الحقبة. من اتفاق بَتِنوود إلى فقاعة الدوت كوم، تتعلّم ماذا حدث ولماذا.",
+            "‏صُمِّمت كي يشعر الأطفال والمبتدئون، عبر بيانات حقيقية، متى كان الشراء ليصنع ثروة ومتى كان ليمحو كل شيء. مجانية في المتصفّح، بلا تثبيت، وتُلعب فورًا.",
+            "‏※ هذه ليست نصيحة استثمارية، بل لعبة تعليمية."
+          ]
+        }
+      ],
+      cta: "‏اللعب في المتصفّح", back: "‏العودة إلى Deother"
     }
   },
 
@@ -2454,6 +3582,694 @@ const PAGES = {
         "SERAPHIM: The Awakening of the Iron Dragon"
       ],
       cta: "Listen to TAFA", back: "Back to Deother"
+    },
+
+    zh: {
+      title: "Kent Kim (김형섭)",
+      tagline: "在做游戏之前，他已经做了二十年东西",
+      intro: "迪亚德代表。他从哈佛宿舍写信给一万人，在全国性报纸上连载了一年漫画，戴着朝鲜黑笠用七种语言唱说唱，在好莱坞短片电影节拿下恐怖单元奖，出过二十三本书。游戏是这一切最终汇入的容器。",
+      sections: [
+        {
+          h: "一万封信",
+          p: [
+            "他高一那年越过太平洋，去找离婚的母亲。看着母亲吃苦，他把自己逼进了哈佛——移民美国三年半之后。",
+            "大学时他写信给全世界一万名政商界领袖。超过一百人回了信——沃伦·巴菲特、玛格丽特·撒切尔、杰克·韦尔奇、可口可乐董事长、三菱社长、小提琴家耶胡迪·梅纽因、参议员爱德华·肯尼迪。",
+            "从母亲去世的 2002 年起他开始公开演讲，至今二十五年——韩国各地的教会、孤儿院、大学和外国语高中。三次登上 KBS《早晨庭院》，做过一次「世上所有的讲义」演讲，并在安东 MBC 把哈佛式学习法做成二十讲播了一年。"
+          ]
+        },
+        {
+          h: "从漫画家到演讲者",
+          p: [
+            "他主修经济学，却在大四自己做了一部动画《哈佛人》。这段缘分让他在 2000 年为《东亚日报》连载了一年格言漫画，同年出版漫画诗集《看着漫画考上了哈佛》。",
+            "在通往华尔街的路上选择了漫画——这件事被 KBS 新闻《这个人》报道过。"
+          ]
+        },
+        {
+          h: "美术家",
+          p: [
+            "舅舅李康昭与母亲李康子都出自首尔大学美术学院，是为韩国美术付出一生的人。他在这样的影响中长大。",
+            "高中时他当面见到白南准，深受其天才的影响。从新泽西的中学时代起，他就以运用韩文的画家身份在纽约与新泽西办展，并连续两年入选新泽西的莫里斯博物馆。",
+            "1998 年，《老人与海》的演员安东尼·奎因在首尔艺术殿堂办展，他担任了策展导演。",
+            "2023 年起他走遍全国现场作画，从林荫道一直画到浦项虎尾串，如今已过第 133 幅。2024 年，他把韩文油画与丙烯画赠给了全世界三百位跆拳道馆长。"
+          ]
+        },
+        {
+          h: "二十三本书",
+          p: [
+            "自 2000 年起他出版了二十三本书——从写一万封信并收到回信的故事开始，接着是学习法、早期留学与自我提升。",
+            "最广为人知的是《Kent Kim 的时间块》，那是他学生时代建立的哈佛式时间管理法。"
+          ]
+        },
+        {
+          h: "TAFA——500 首歌",
+          p: [
+            "在纽约，他遇见了写下每个韩国小学生都会唱的儿歌的金玛丽，并从她那里得到音乐上的启发。",
+            "自 2012 年起，他戴着朝鲜的黑笠而不是棒球帽唱说唱。他自己作词作曲并演唱了五百多首歌，用七种语言——韩语、英语、日语、普通话、粤语、德语与越南语。其中 407 首以 TAFA 之名在 Apple Music、Spotify、Amazon、Naver Music 等平台发行。",
+            "政府机关可以免费使用这些音乐。雇佣劳动部劳动节、大田科学节以及全国学生美术大赛的主题曲就是这样做出来的。2026 年 4 月，他在大田世界科学文化论坛的 AI 主题曲大赛中获得鼓励奖。"
+          ]
+        },
+        {
+          h: "戏剧与电影",
+          p: [
+            "2012 年，在戏剧导师吕世珍门下，他推出了两部舞台剧。",
+            "2017 年，他为好莱坞 AOF 短片电影节拍了一部十五分钟的独立电影《ELEGERE》，拿下恐怖单元奖。"
+          ]
+        },
+        {
+          h: "小说家",
+          p: [
+            "他从学生时代就认真写作，曾在束草与雪岳山住了一个月。2025 年 5 月，他在美国亚马逊出版了第一部英文科幻小说《SERAPHIM: The Awakening of the Iron Dragon》。",
+            "他以韩国历史为底，连载网络小说——《朝鲜之狼》《Death Guide》《鬼王姜道贤》《路西法与无等山鬼王》《发现北美大陆的张保皋》《黑花郎》《板门店》《美国消失的那天》。迪亚德的好几款游戏就出自这些故事。",
+            "受斯蒂芬·金影响，他正在准备十三篇韩国恐怖小说，数字取自金所忌讳的那个——《河回面具》《特餐》《助听器鬼》《纹身鬼》《狗肉汤》《宿醉病》《人参田》《乡下的房子》《邪教》《自动驾驶汽车》《公寓》《电子烟》。预计 2026 年出版。"
+          ]
+        },
+        {
+          h: "游戏开发者",
+          p: [
+            "2025 年 7 月起，他花两个月学 Unity，独自做出一款 3D 格斗游戏。凭这款游戏他入选京畿内容振兴院，并在 2025 年 10 月作为十六款韩国游戏之一，在 gamescom asia x Thailand Game Show 的韩国馆开设展位。",
+            "从十月到十二月，他又花两个月用虚幻引擎从零重做，为海外发行做准备。迪亚德如今拿出十款游戏。"
+          ]
+        },
+        {
+          h: "AI 与公共数据",
+          p: [
+            "他在哈佛主修经济学，同时也修了计算机课程，对 IT 的兴趣从未中断。",
+            "最近他基于公共数据与 AI 开发应用与网络服务，几乎报名了政府与地方自治团体举办的所有 AI 软件大赛。仁川机场 AI 大赛通过了第一轮。",
+            "他修完了用 RAG 构建 LLM 应用的课程，参加了 AI 国际标准化项目，并入选安哲秀财团 AI vibe coding 项目第三期。",
+            "他在韩国文化内容振兴院与京畿内容振兴院登记，正在参加政府与地方约一百项公募——美术展、游戏、小说、网络漫画、嘻哈、电影、网络小说，不限体裁。"
+          ]
+        }
+      ],
+      slides: [
+        "《看着漫画考上了哈佛》（2000）",
+        "《Kent Kim 的时间块》",
+        "《新东亚》报道",
+        "韩国恐怖系列封面",
+        "《SERAPHIM: The Awakening of the Iron Dragon》"
+      ],
+      cta: "收听 TAFA", back: "返回 Deother"
+    },
+
+    ja: {
+      title: "Kent Kim (김형섭)",
+      tagline: "ゲームを作る前に、すでに二十年ものを作ってきた人",
+      intro: "ディアザー代表。ハーバードの寮から一万人へ手紙を書き、全国紙に一年間漫画を連載し、朝鮮の黒い笠をかぶって七か国語でラップし、ハリウッドの短編映画祭でホラー部門を受賞し、二十三冊の本を出しました。ゲームは、そのすべてが最後に流れ込んだ器です。",
+      sections: [
+        {
+          h: "一万通の手紙",
+          p: [
+            "離婚した母を訪ねて太平洋を渡ったのは高校一年のときでした。苦労する母を見て自分を追い込み、渡米から三年半でハーバードに入ります。",
+            "学部時代、世界の政財界のリーダー一万人に手紙を書きました。百人を超える人が返事をくれました——ウォーレン・バフェット、マーガレット・サッチャー、ジャック・ウェルチ、コカ・コーラ会長、三菱社長、ヴァイオリニストのユーディ・メニューイン、エドワード・ケネディ上院議員。",
+            "母が亡くなった2002年から講演を始め、二十五年続けています——韓国各地の教会、児童養護施設、大学、外国語高校。KBS『あさの庭』に三度出演し、セバシに登壇し、安東MBCでハーバード式学習法を二十講にまとめて一年間放送しました。"
+          ]
+        },
+        {
+          h: "漫画家から講演者へ",
+          p: [
+            "専攻は経済学でしたが、四年生のときにアニメーション『ハーバードマン』を自作しました。その縁で2000年に東亜日報で格言漫画を一年間連載し、同じ年に漫画詩集『漫画を見ていたらハーバードに行きました』を出します。",
+            "ウォール街への道を捨てて漫画を選んだこの選択は、KBSニュース『この人』でも紹介されました。"
+          ]
+        },
+        {
+          h: "美術家",
+          p: [
+            "叔父の李康昭と母の李康子はともにソウル大学美術学部の出身で、韓国美術に生涯を捧げた人たちです。彼はその影響の中で育ちました。",
+            "高校時代にナムジュン・パイクに直接会い、その天才性に影響を受けました。ニュージャージーの高校時代から、ハングルを用いる画家としてニューヨークとニュージャージーで展示を行い、ニュージャージーのモリス美術館に二年連続で選ばれました。",
+            "1998年には『老人と海』の俳優アンソニー・クインがソウル芸術の殿堂で開いた展覧会でディレクターを務めました。",
+            "2023年からは全国を回って現場で描くライブペインティングを続けています——カロスキルから浦項の虎尾串まで、いまや133枚目を超えました。2024年にはハングルの油彩とアクリル作品を世界のテコンドー道場長三百人に贈りました。"
+          ]
+        },
+        {
+          h: "二十三冊の本",
+          p: [
+            "2000年から二十三冊を出しました——一万人に手紙を書いて返事をもらった話から始まり、勉強法、早期留学、自己啓発へと続きます。",
+            "最もよく知られているのは『Kent Kim のタイムブロック』。学生時代に自分で組み立てたハーバード式の時間管理法です。"
+          ]
+        },
+        {
+          h: "TAFA——500曲",
+          p: [
+            "ニューヨークで、韓国の小学生なら誰もが歌う童謡を書いたキム・メリーに出会い、音楽的な着想を受けました。",
+            "2012年から、野球帽ではなく朝鮮の笠をかぶってラップしています。作詞・作曲・歌唱をすべて自分で行い、七か国語で五百曲以上を作りました——韓国語、英語、日本語、中国語、広東語、ドイツ語、ベトナム語。うち407曲が TAFA 名義で Apple Music、Spotify、Amazon、Naver Music などで配信されています。",
+            "公的機関には無償で提供します。雇用労働部のメーデー、大田サイエンスフェスティバル、全国学生美術大会のロゴソングはそうして生まれました。2026年4月には大田世界科学文化フォーラムのAIロゴソングコンテストで奨励賞を受けました。"
+          ]
+        },
+        {
+          h: "演劇と映画",
+          p: [
+            "2012年、演劇の師であるヨ・セジンのもとで二本の舞台を上演しました。",
+            "2017年にはハリウッドのAOF短編映画祭のために十五分の自主制作映画『ELEGERE』を撮り、ホラー部門で受賞しました。"
+          ]
+        },
+        {
+          h: "小説家",
+          p: [
+            "学生時代から本格的に書き始め、束草と雪岳山に一か月こもったこともあります。2025年5月には初の英語SF小説『SERAPHIM: The Awakening of the Iron Dragon』を米国のAmazonで出版しました。",
+            "韓国史を土台にウェブ小説を連載しています——『朝鮮の狼』『Death Guide』『鬼王カン・ドヒョン』『ルシファーと無等山の鬼王』『北米大陸を発見したチャン・ボゴ』『黒い花郎』『板門店』『アメリカが消えた日』。ディアザーのいくつかのゲームはこれらの物語から生まれました。",
+            "スティーヴン・キングの影響を受け、キングが嫌う数にちなんだ十三編の韓国ホラーを準備中です——『河回の仮面』『特別食』『補聴器の幽霊』『刺青の幽霊』『犬肉スープ』『二日酔い病』『高麗人参畑』『田舎の家』『カルト』『自動運転車』『アパート』『電子タバコ』。2026年の刊行を予定しています。"
+          ]
+        },
+        {
+          h: "ゲーム開発者",
+          p: [
+            "2025年7月から二か月かけて Unity を学び、3D格闘ゲームを自作しました。そのゲームで京畿コンテンツ振興院に選ばれ、2025年10月には韓国16作品の一つとして gamescom asia x Thailand Game Show の韓国館にブースを出しました。",
+            "十月から十二月にかけて、さらに二か月をかけてアンリアルエンジンでゼロから作り直し、海外リリースの準備を進めています。ディアザーはいま十本のゲームを提示しています。"
+          ]
+        },
+        {
+          h: "AIと公共データ",
+          p: [
+            "ハーバードでは経済学を専攻しながらコンピュータ科学の授業も取り、ITへの関心は途切れませんでした。",
+            "最近は公共データとAIを使ってアプリやウェブサービスを作り、政府や自治体が開くAIソフトウェアのコンテストにはほぼすべて応募しています。仁川空港のAIコンテストは一次を通過しました。",
+            "RAGを使ったLLMアプリ構築の講座を修了し、AI国際標準化プログラムを経て、安哲秀財団のAIバイブコーディング三期に選ばれました。",
+            "韓国コンテンツ振興院と京畿コンテンツ振興院に登録し、政府と自治体の公募およそ百件に挑戦しています——美術展、ゲーム、小説、ウェブトゥーン、ヒップホップ、映画、ウェブ小説。ジャンルは問いません。"
+          ]
+        }
+      ],
+      slides: [
+        "『漫画を見ていたらハーバードに行きました』（2000）",
+        "『Kent Kim のタイムブロック』",
+        "新東亜の記事",
+        "韓国ホラーシリーズの表紙",
+        "『SERAPHIM: The Awakening of the Iron Dragon』"
+      ],
+      cta: "TAFA を聴く", back: "Deother に戻る"
+    },
+
+    es: {
+      title: "Kent Kim (김형섭)",
+      tagline: "Veinte años haciendo cosas, antes de los juegos",
+      intro: "Fundador de Deother. Escribió a diez mil personas desde una residencia de Harvard, dibujó durante un año una tira en un diario nacional, rapeó en siete idiomas con un sombrero de crin de la era Joseon, ganó la categoría de terror en un festival de cortos de Hollywood y publicó veintitrés libros. Los juegos son el recipiente donde todo eso acabó vertiéndose.",
+      sections: [
+        {
+          h: "Diez mil cartas",
+          p: [
+            "Estaba en primero de secundaria cuando cruzó el Pacífico para encontrar a su madre divorciada. Al verla luchar, se metió a estudiar hasta entrar en Harvard: tres años y medio después de llegar a Estados Unidos.",
+            "De estudiante escribió a diez mil líderes políticos y empresariales de todo el mundo. Más de cien le contestaron: Warren Buffett, Margaret Thatcher, Jack Welch, el presidente de Coca-Cola, el presidente de Mitsubishi, el violinista Yehudi Menuhin, el senador Edward Kennedy.",
+            "Desde 2002, el año en que murió su madre, empezó a dar charlas, y lleva veinticinco años haciéndolo: iglesias, orfanatos, universidades e institutos de idiomas por toda Corea. Tres apariciones en KBS Morning Yard, una charla en Sebasi y una serie de veinte capítulos sobre métodos de estudio de Harvard emitida durante un año en Andong MBC."
+          ]
+        },
+        {
+          h: "De dibujante a conferenciante",
+          p: [
+            "Se licenció en Economía, pero en el último curso hizo una animación llamada Harvard Man. De ahí salió un cómic de aforismos durante un año en el Dong-A Ilbo en 2000, y ese mismo año un poemario en viñetas: Fui a Harvard leyendo cómics.",
+            "Elegir el cómic en lugar del camino hacia Wall Street lo cubrió KBS News en su sección Esta Persona."
+          ]
+        },
+        {
+          h: "Pintor",
+          p: [
+            "Su tío Lee Kang-so y su madre Lee Kang-ja salieron ambos de la Facultad de Bellas Artes de la Universidad Nacional de Seúl y dedicaron su vida al arte coreano. Creció dentro de esa influencia.",
+            "En el instituto conoció en persona a Nam June Paik y aquello lo marcó. Desde sus años escolares en Nueva Jersey expuso en Nueva York y Nueva Jersey como pintor que trabaja con el hangul, y fue seleccionado dos años seguidos por el Morris Museum de Nueva Jersey.",
+            "En 1998 dirigió la exposición de Anthony Quinn, el actor de El viejo y el mar, en el Seoul Arts Center.",
+            "Desde 2023 pinta en directo por todo el país, de Garosu-gil a Homigot en Pohang, ya pasado su cuadro número 133. En 2024 regaló obras en óleo y acrílico con hangul a trescientos maestros de taekwondo de todo el mundo."
+          ]
+        },
+        {
+          h: "Veintitrés libros",
+          p: [
+            "Ha publicado veintitrés libros desde 2000, empezando por la historia de escribir diez mil cartas y recibir respuestas, y siguiendo con métodos de estudio, estudios tempranos en el extranjero y desarrollo personal.",
+            "El más conocido es El bloque de tiempo de Kent Kim, el método de gestión del tiempo al estilo Harvard que construyó siendo estudiante."
+          ]
+        },
+        {
+          h: "TAFA — 500 canciones",
+          p: [
+            "En Nueva York conoció a Kim Mary, autora de la canción infantil coreana que cualquier escolar conoce, y de ella tomó inspiración musical.",
+            "Desde 2012 rapea con un gat de Joseon en lugar de gorra. Ha escrito, compuesto y cantado él mismo más de quinientas canciones, en siete idiomas: coreano, inglés, japonés, mandarín, cantonés, alemán y vietnamita. De ellas, 407 se distribuyen bajo el nombre TAFA en Apple Music, Spotify, Amazon, Naver Music y otras.",
+            "Los organismos públicos reciben la música gratis. Así se hicieron los temas del Primero de Mayo del Ministerio de Empleo y Trabajo, del Festival de Ciencia de Daejeon y del concurso nacional de arte estudiantil. En abril de 2026 recibió un premio de aliento en el concurso de temas con IA del Foro Mundial de Cultura Científica de Daejeon."
+          ]
+        },
+        {
+          h: "Teatro y cine",
+          p: [
+            "En 2012, bajo su maestro de teatro Yeo Se-jin, montó dos obras.",
+            "En 2017 hizo un cortometraje independiente de quince minutos, ELEGERE, para el festival AOF de Hollywood, y ganó en la categoría de terror."
+          ]
+        },
+        {
+          h: "Novelista",
+          p: [
+            "Empezó a escribir en serio siendo estudiante, viviendo un mes en Sokcho y en las montañas Seorak. En mayo de 2025 publicó su primera novela de ciencia ficción en inglés, SERAPHIM: The Awakening of the Iron Dragon, en Amazon de Estados Unidos.",
+            "Partiendo de la historia coreana, publica novelas web por entregas: Lobo de Joseon, Death Guide, El rey goblin Kang Do-hyun, Lucifer y el rey goblin en Mudeungsan, Jang Bogo, que descubrió Norteamérica, Hwarang Negro, Panmunjom, El día que Estados Unidos desapareció. Varios juegos de Deother salieron de estas historias.",
+            "Influido por Stephen King, prepara trece relatos de terror coreano construidos en torno al número que King detesta: La máscara de Hahoe, Comida especial, El fantasma del audífono, El fantasma del tatuaje, Sopa de perro, Mal de resaca, El campo de ginseng, La casa del campo, La secta, El coche autónomo, El apartamento, El cigarrillo electrónico. La publicación está prevista para 2026."
+          ]
+        },
+        {
+          h: "Desarrollador de juegos",
+          p: [
+            "Desde julio de 2025 pasó dos meses aprendiendo Unity y construyó él mismo un juego de lucha en 3D. Ese juego le valió ser seleccionado por la Gyeonggi Content Agency, y en octubre de 2025 montó un stand en el pabellón coreano de gamescom asia x Thailand Game Show como uno de dieciséis juegos coreanos.",
+            "De octubre a diciembre dedicó otros dos meses a rehacerlo desde cero en Unreal Engine, preparando un lanzamiento internacional. Deother presenta hoy diez juegos."
+          ]
+        },
+        {
+          h: "IA y datos públicos",
+          p: [
+            "Estudió Economía en Harvard, pero cursó asignaturas de informática en paralelo, y el interés por la tecnología nunca se detuvo.",
+            "Últimamente construye aplicaciones y servicios web sobre datos públicos e IA, y se presenta a casi todos los concursos de software con IA que convocan el gobierno y las administraciones locales. El concurso de IA del aeropuerto de Incheon pasó su primera ronda.",
+            "Completó un curso de construcción de aplicaciones LLM con RAG, pasó por un programa de estandarización internacional de IA y fue seleccionado para la tercera promoción del programa de vibe coding con IA de la Fundación Ahn Cheol-soo.",
+            "Compite en un centenar de convocatorias del gobierno coreano y sus administraciones locales, inscrito en la Korea Creative Content Agency y en la Gyeonggi Content Agency: exposiciones de arte, juegos, novela, webtoon, hip-hop, cine, novela web; ningún género queda fuera."
+          ]
+        }
+      ],
+      slides: [
+        "Fui a Harvard leyendo cómics (2000)",
+        "El bloque de tiempo de Kent Kim",
+        "Reportaje en Shin Dong-A",
+        "Portada de la serie de terror coreano",
+        "SERAPHIM: The Awakening of the Iron Dragon"
+      ],
+      cta: "Escuchar a TAFA", back: "Volver a Deother"
+    },
+
+    pt: {
+      title: "Kent Kim (김형섭)",
+      tagline: "Vinte anos a fazer coisas, antes dos jogos",
+      intro: "Fundador da Deother. Escreveu a dez mil pessoas a partir de um dormitório de Harvard, desenhou durante um ano uma tira num jornal nacional, fez rap em sete línguas com um chapéu de crina da era Joseon, ganhou a categoria de terror num festival de curtas de Hollywood e publicou vinte e três livros. Os jogos são o recipiente para onde tudo isso acabou por escorrer.",
+      sections: [
+        {
+          h: "Dez mil cartas",
+          p: [
+            "Estava no primeiro ano do secundário quando atravessou o Pacífico à procura da mãe divorciada. Ao vê-la a lutar, estudou até entrar em Harvard — três anos e meio depois de chegar aos Estados Unidos.",
+            "Enquanto estudante, escreveu a dez mil líderes políticos e empresariais de todo o mundo. Mais de cem responderam — Warren Buffett, Margaret Thatcher, Jack Welch, o presidente da Coca-Cola, o presidente da Mitsubishi, o violinista Yehudi Menuhin, o senador Edward Kennedy.",
+            "A partir de 2002, o ano em que a mãe morreu, começou a dar palestras, e já leva vinte e cinco anos a fazê-lo — igrejas, orfanatos, universidades e escolas de línguas por toda a Coreia. Três presenças no KBS Morning Yard, uma palestra no Sebasi e uma série de vinte episódios sobre métodos de estudo de Harvard transmitida durante um ano na Andong MBC."
+          ]
+        },
+        {
+          h: "De cartoonista a orador",
+          p: [
+            "Formou-se em Economia, mas no último ano fez uma animação chamada Harvard Man. Daí veio uma banda desenhada de aforismos durante um ano no Dong-A Ilbo em 2000, e nesse mesmo ano uma coletânea de poesia em banda desenhada: Fui para Harvard a ler banda desenhada.",
+            "Escolher a banda desenhada em vez do caminho para Wall Street foi noticiado pela KBS News na rubrica Esta Pessoa."
+          ]
+        },
+        {
+          h: "Pintor",
+          p: [
+            "O tio Lee Kang-so e a mãe Lee Kang-ja saíram ambos da Faculdade de Belas-Artes da Universidade Nacional de Seul e deram a vida à arte coreana. Cresceu dentro dessa influência.",
+            "No liceu conheceu pessoalmente Nam June Paik e ficou marcado. Desde os anos de escola em Nova Jérsia expôs em Nova Iorque e Nova Jérsia como pintor que trabalha com o hangul, e foi selecionado dois anos seguidos pelo Morris Museum de Nova Jérsia.",
+            "Em 1998 dirigiu a exposição de Anthony Quinn, o ator de O Velho e o Mar, no Seoul Arts Center.",
+            "Desde 2023 pinta ao vivo por todo o país — de Garosu-gil a Homigot, em Pohang — já para lá do seu 133.º quadro. Em 2024 ofereceu obras a óleo e acrílico com hangul a trezentos mestres de taekwondo em todo o mundo."
+          ]
+        },
+        {
+          h: "Vinte e três livros",
+          p: [
+            "Publicou vinte e três livros desde 2000 — a começar pela história de escrever dez mil cartas e receber respostas, depois métodos de estudo, estudos no estrangeiro em idade precoce e desenvolvimento pessoal.",
+            "O mais conhecido é O bloco de tempo de Kent Kim, o método de gestão do tempo ao estilo de Harvard que construiu enquanto estudante."
+          ]
+        },
+        {
+          h: "TAFA — 500 canções",
+          p: [
+            "Em Nova Iorque conheceu Kim Mary, autora da canção infantil coreana que qualquer criança da escola conhece, e dela recebeu inspiração musical.",
+            "Desde 2012 faz rap com um gat de Joseon em vez de boné. Escreveu, compôs e cantou ele próprio mais de quinhentas canções, em sete línguas — coreano, inglês, japonês, mandarim, cantonês, alemão e vietnamita. Destas, 407 são distribuídas sob o nome TAFA na Apple Music, Spotify, Amazon, Naver Music e outras.",
+            "Os organismos públicos recebem a música gratuitamente. Foi assim que nasceram os temas do 1.º de Maio do Ministério do Emprego e Trabalho, do Festival de Ciência de Daejeon e do concurso nacional de arte estudantil. Em abril de 2026 recebeu um prémio de incentivo no concurso de temas com IA do Fórum Mundial de Cultura Científica de Daejeon."
+          ]
+        },
+        {
+          h: "Teatro e cinema",
+          p: [
+            "Em 2012, sob a orientação do seu mestre de teatro Yeo Se-jin, levou duas peças à cena.",
+            "Em 2017 fez uma curta-metragem independente de quinze minutos, ELEGERE, para o festival AOF em Hollywood, e ganhou na categoria de terror."
+          ]
+        },
+        {
+          h: "Romancista",
+          p: [
+            "Começou a escrever a sério enquanto estudante, vivendo um mês em Sokcho e nas montanhas Seorak. Em maio de 2025 publicou o seu primeiro romance de ficção científica em inglês, SERAPHIM: The Awakening of the Iron Dragon, na Amazon dos Estados Unidos.",
+            "Partindo da história coreana, publica romances web por capítulos — Lobo de Joseon, Death Guide, O rei goblin Kang Do-hyun, Lúcifer e o rei goblin em Mudeungsan, Jang Bogo Que Descobriu a América do Norte, Hwarang Negro, Panmunjom, O Dia em que a América Desapareceu. Vários jogos da Deother saíram destas histórias.",
+            "Influenciado por Stephen King, prepara treze histórias de terror coreano construídas à volta do número que King detesta — A Máscara de Hahoe, Refeição Especial, O Fantasma do Aparelho Auditivo, O Fantasma da Tatuagem, Sopa de Cão, Doença da Ressaca, O Campo de Ginseng, A Casa no Campo, A Seita, O Carro Autónomo, O Apartamento, O Cigarro Eletrónico. A publicação está prevista para 2026."
+          ]
+        },
+        {
+          h: "Programador de jogos",
+          p: [
+            "A partir de julho de 2025 passou dois meses a aprender Unity e construiu sozinho um jogo de luta 3D. Esse jogo valeu-lhe a seleção pela Gyeonggi Content Agency e, em outubro de 2025, um stand no pavilhão coreano da gamescom asia x Thailand Game Show, como um de dezasseis jogos coreanos.",
+            "De outubro a dezembro dedicou mais dois meses a refazê-lo de raiz no Unreal Engine, preparando um lançamento internacional. A Deother apresenta hoje dez jogos."
+          ]
+        },
+        {
+          h: "IA e dados públicos",
+          p: [
+            "Estudou Economia em Harvard, mas frequentou cadeiras de informática em paralelo, e o interesse por tecnologia nunca parou.",
+            "Ultimamente constrói aplicações e serviços web sobre dados públicos e IA, e candidata-se a quase todos os concursos de software com IA promovidos pelo governo e pelas autarquias. O concurso de IA do aeroporto de Incheon passou a primeira ronda.",
+            "Concluiu um curso de construção de aplicações LLM com RAG, passou por um programa de normalização internacional de IA e foi selecionado para a terceira turma do programa de vibe coding com IA da Fundação Ahn Cheol-soo.",
+            "Concorre a cerca de cem concursos do governo coreano e das autarquias, inscrito na Korea Creative Content Agency e na Gyeonggi Content Agency — exposições de arte, jogos, romance, webtoon, hip-hop, cinema, romance web; nenhum género fica de fora."
+          ]
+        }
+      ],
+      slides: [
+        "Fui para Harvard a ler banda desenhada (2000)",
+        "O bloco de tempo de Kent Kim",
+        "Reportagem na Shin Dong-A",
+        "Capa da série de terror coreano",
+        "SERAPHIM: The Awakening of the Iron Dragon"
+      ],
+      cta: "Ouvir TAFA", back: "Voltar a Deother"
+    },
+
+    fr: {
+      title: "Kent Kim (김형섭)",
+      tagline: "Vingt ans à fabriquer des choses, avant les jeux",
+      intro: "Fondateur de Deother. Il a écrit à dix mille personnes depuis une résidence de Harvard, tenu pendant un an une bande dessinée dans un quotidien national, rappé en sept langues coiffé d'un chapeau de crin de l'époque Joseon, remporté la catégorie horreur d'un festival de courts métrages à Hollywood et publié vingt-trois livres. Les jeux sont le récipient dans lequel tout cela a fini par se déverser.",
+      sections: [
+        {
+          h: "Dix mille lettres",
+          p: [
+            "Il était en seconde quand il a traversé le Pacifique pour retrouver sa mère divorcée. En la voyant se battre, il a travaillé jusqu'à entrer à Harvard — trois ans et demi après son arrivée aux États-Unis.",
+            "Étudiant, il a écrit à dix mille dirigeants politiques et économiques du monde entier. Plus de cent lui ont répondu : Warren Buffett, Margaret Thatcher, Jack Welch, le président de Coca-Cola, le président de Mitsubishi, le violoniste Yehudi Menuhin, le sénateur Edward Kennedy.",
+            "À partir de 2002, l'année de la mort de sa mère, il a commencé à donner des conférences, et cela dure depuis vingt-cinq ans — églises, orphelinats, universités et lycées de langues à travers la Corée. Trois passages dans KBS Morning Yard, une conférence Sebasi, et une série de vingt épisodes sur les méthodes de travail de Harvard diffusée pendant un an sur Andong MBC."
+          ]
+        },
+        {
+          h: "Du dessinateur au conférencier",
+          p: [
+            "Il a fait des études d'économie, mais en dernière année il a réalisé une animation, Harvard Man. De là est né en 2000 un an de bande dessinée d'aphorismes dans le Dong-A Ilbo, et la même année un recueil de poésie en bande dessinée : Je suis allé à Harvard en lisant des bandes dessinées.",
+            "Avoir choisi la bande dessinée plutôt que la route de Wall Street a été rapporté par KBS News dans sa rubrique Cette personne."
+          ]
+        },
+        {
+          h: "Peintre",
+          p: [
+            "Son oncle Lee Kang-so et sa mère Lee Kang-ja sont tous deux issus de la faculté des beaux-arts de l'Université nationale de Séoul et ont consacré leur vie à l'art coréen. Il a grandi dans cette influence.",
+            "Au lycée, il a rencontré Nam June Paik en personne et en est resté marqué. Dès ses années de lycée dans le New Jersey, il a exposé à New York et dans le New Jersey en tant que peintre travaillant le hangul, et a été retenu deux années de suite par le Morris Museum du New Jersey.",
+            "En 1998, il a dirigé l'exposition d'Anthony Quinn, l'acteur du Vieil Homme et la Mer, au Seoul Arts Center.",
+            "Depuis 2023, il peint en direct à travers tout le pays — de Garosu-gil à Homigot, à Pohang — et en est aujourd'hui à plus de 133 tableaux. En 2024, il a offert des huiles et des acryliques en hangul à trois cents maîtres de taekwondo dans le monde."
+          ]
+        },
+        {
+          h: "Vingt-trois livres",
+          p: [
+            "Il a publié vingt-trois livres depuis 2000 — à commencer par l'histoire des dix mille lettres et des réponses reçues, puis les méthodes de travail, les études précoces à l'étranger et le développement personnel.",
+            "Le plus connu est Le bloc de temps de Kent Kim, la méthode de gestion du temps à la manière de Harvard qu'il a bâtie étudiant."
+          ]
+        },
+        {
+          h: "TAFA — 500 chansons",
+          p: [
+            "À New York, il a rencontré Kim Mary, autrice de la comptine coréenne que connaît chaque écolier, et en a tiré son inspiration musicale.",
+            "Depuis 2012, il rappe coiffé d'un gat de Joseon plutôt que d'une casquette. Il a écrit, composé et chanté lui-même plus de cinq cents chansons, en sept langues — coréen, anglais, japonais, mandarin, cantonais, allemand et vietnamien. Parmi elles, 407 sont distribuées sous le nom TAFA sur Apple Music, Spotify, Amazon, Naver Music et d'autres.",
+            "Les organismes publics reçoivent la musique gratuitement. C'est ainsi qu'ont été faits les hymnes du 1er Mai du ministère de l'Emploi et du Travail, du Festival des sciences de Daejeon et du concours national d'art scolaire. En avril 2026, il a reçu un prix d'encouragement au concours de chansons créées avec l'IA du Forum mondial de la culture scientifique de Daejeon."
+          ]
+        },
+        {
+          h: "Théâtre et cinéma",
+          p: [
+            "En 2012, sous la direction de son maître de théâtre Yeo Se-jin, il a monté deux pièces.",
+            "En 2017, il a réalisé un court métrage indépendant de quinze minutes, ELEGERE, pour le festival AOF à Hollywood, et l'a emporté dans la catégorie horreur."
+          ]
+        },
+        {
+          h: "Romancier",
+          p: [
+            "Il a commencé à écrire sérieusement étudiant, en vivant un mois à Sokcho et dans les monts Seorak. En mai 2025, il a publié son premier roman de science-fiction en anglais, SERAPHIM: The Awakening of the Iron Dragon, sur Amazon aux États-Unis.",
+            "En s'appuyant sur l'histoire coréenne, il publie des romans web en feuilleton — Le Loup de Joseon, Death Guide, Le Roi gobelin Kang Do-hyun, Lucifer et le Roi gobelin au Mudeungsan, Jang Bogo qui découvrit l'Amérique du Nord, Hwarang Noir, Panmunjom, Le Jour où l'Amérique a disparu. Plusieurs jeux de Deother sont nés de ces récits.",
+            "Influencé par Stephen King, il prépare treize récits d'horreur coréenne bâtis autour du nombre que King déteste — Le Masque de Hahoe, Repas spécial, Le Fantôme de l'appareil auditif, Le Fantôme du tatouage, Soupe de chien, Le Mal de gueule de bois, Le Champ de ginseng, La Maison à la campagne, La Secte, La Voiture autonome, L'Appartement, La Cigarette électronique. Publication prévue en 2026."
+          ]
+        },
+        {
+          h: "Développeur de jeux",
+          p: [
+            "À partir de juillet 2025, il a passé deux mois à apprendre Unity et a construit seul un jeu de combat en 3D. Ce jeu lui a valu d'être sélectionné par la Gyeonggi Content Agency, et en octobre 2025 il tenait un stand dans le pavillon coréen de gamescom asia x Thailand Game Show, parmi seize jeux coréens.",
+            "D'octobre à décembre, il a consacré deux mois de plus à le refaire de zéro sous Unreal Engine, en préparant une sortie internationale. Deother présente aujourd'hui dix jeux."
+          ]
+        },
+        {
+          h: "IA et données publiques",
+          p: [
+            "Il a étudié l'économie à Harvard tout en suivant des cours d'informatique, et l'intérêt pour la technique ne s'est jamais arrêté.",
+            "Depuis peu, il construit des applications et des services web sur des données publiques et de l'IA, et se présente à presque tous les concours de logiciels d'IA lancés par l'État et les collectivités locales. Le concours d'IA de l'aéroport d'Incheon a passé le premier tour.",
+            "Il a suivi une formation à la construction d'applications LLM avec RAG, est passé par un programme de normalisation internationale de l'IA et a été retenu pour la troisième promotion du programme de vibe coding par IA de la fondation Ahn Cheol-soo.",
+            "Il concourt à une centaine d'appels lancés par le gouvernement coréen et ses collectivités, inscrit auprès de la Korea Creative Content Agency et de la Gyeonggi Content Agency — expositions d'art, jeux, romans, webtoons, hip-hop, cinéma, romans web : aucun genre n'est exclu."
+          ]
+        }
+      ],
+      slides: [
+        "Je suis allé à Harvard en lisant des bandes dessinées (2000)",
+        "Le bloc de temps de Kent Kim",
+        "Reportage dans Shin Dong-A",
+        "Couverture de la série d'horreur coréenne",
+        "SERAPHIM: The Awakening of the Iron Dragon"
+      ],
+      cta: "Écouter TAFA", back: "Retour à Deother"
+    },
+
+    de: {
+      title: "Kent Kim (김형섭)",
+      tagline: "Zwanzig Jahre Dinge bauen, vor den Spielen",
+      intro: "Gründer von Deother. Er schrieb aus einem Wohnheim in Harvard an zehntausend Menschen, zeichnete ein Jahr lang einen Comicstrip für eine überregionale Zeitung, rappte in sieben Sprachen mit einem Rosshaarhut aus der Joseon-Zeit, gewann bei einem Kurzfilmfestival in Hollywood die Kategorie Horror und veröffentlichte dreiundzwanzig Bücher. Die Spiele sind das Gefäß, in das all das schließlich geflossen ist.",
+      sections: [
+        {
+          h: "Zehntausend Briefe",
+          p: [
+            "Er war in der zehnten Klasse, als er den Pazifik überquerte, um seine geschiedene Mutter zu finden. Weil er sah, wie sie sich abmühte, lernte er sich nach Harvard — dreieinhalb Jahre nach seiner Ankunft in den USA.",
+            "Als Student schrieb er an zehntausend Führungspersönlichkeiten aus Politik und Wirtschaft weltweit. Mehr als hundert antworteten — Warren Buffett, Margaret Thatcher, Jack Welch, der Vorstandsvorsitzende von Coca-Cola, der Präsident von Mitsubishi, der Geiger Yehudi Menuhin, Senator Edward Kennedy.",
+            "Seit 2002, dem Todesjahr seiner Mutter, hält er Vorträge, und das seit fünfundzwanzig Jahren — Kirchen, Waisenhäuser, Universitäten und Fremdsprachengymnasien in ganz Korea. Drei Auftritte bei KBS Morning Yard, ein Sebasi-Vortrag und eine zwanzigteilige Reihe über Harvard-Lernmethoden, ein Jahr lang auf Andong MBC gesendet."
+          ]
+        },
+        {
+          h: "Vom Zeichner zum Redner",
+          p: [
+            "Er studierte Wirtschaft, drehte aber im letzten Studienjahr einen Animationsfilm namens Harvard Man. Daraus wurde im Jahr 2000 ein einjähriger Aphorismen-Comic in der Dong-A Ilbo und im selben Jahr ein Comic-Gedichtband: Ich las Comics und kam nach Harvard.",
+            "Dass er den Comic dem Weg an die Wall Street vorzog, brachte KBS News in seiner Rubrik Dieser Mensch."
+          ]
+        },
+        {
+          h: "Maler",
+          p: [
+            "Sein Onkel Lee Kang-so und seine Mutter Lee Kang-ja kamen beide von der Kunsthochschule der Seoul National University und gaben ihr Leben der koreanischen Kunst. Er wuchs in diesem Einfluss auf.",
+            "In der Oberschule begegnete er Nam June Paik persönlich, und das prägte ihn. Seit seinen Schuljahren in New Jersey stellte er in New York und New Jersey als Maler aus, der mit Hangul arbeitet, und wurde zwei Jahre in Folge vom Morris Museum in New Jersey ausgewählt.",
+            "1998 leitete er die Ausstellung von Anthony Quinn, dem Schauspieler aus Der alte Mann und das Meer, im Seoul Arts Center.",
+            "Seit 2023 malt er live vor Ort im ganzen Land — von Garosu-gil bis Homigot in Pohang — inzwischen jenseits seines 133. Bildes. 2024 schenkte er Öl- und Acrylarbeiten mit Hangul dreihundert Taekwondo-Meistern in aller Welt."
+          ]
+        },
+        {
+          h: "Dreiundzwanzig Bücher",
+          p: [
+            "Seit 2000 hat er dreiundzwanzig Bücher veröffentlicht — beginnend mit der Geschichte der zehntausend Briefe und der Antworten, dann Lernmethoden, frühes Auslandsstudium und Persönlichkeitsentwicklung.",
+            "Am bekanntesten ist Kent Kims Zeitblock, die Zeitmanagement-Methode nach Harvard-Art, die er als Student entwickelte."
+          ]
+        },
+        {
+          h: "TAFA — 500 Lieder",
+          p: [
+            "In New York begegnete er Kim Mary, die das koreanische Kinderlied schrieb, das jedes Schulkind kennt, und empfing von ihr musikalische Anregung.",
+            "Seit 2012 rappt er mit einem Joseon-Gat statt einer Baseballkappe. Mehr als fünfhundert Lieder hat er selbst geschrieben, komponiert und gesungen, in sieben Sprachen — Koreanisch, Englisch, Japanisch, Mandarin, Kantonesisch, Deutsch und Vietnamesisch. Davon werden 407 unter dem Namen TAFA auf Apple Music, Spotify, Amazon, Naver Music und anderswo vertrieben.",
+            "Öffentliche Stellen bekommen die Musik kostenlos. So entstanden die Titelsongs zum Tag der Arbeit des Ministeriums für Beschäftigung und Arbeit, zum Wissenschaftsfestival in Daejeon und zum landesweiten Schülerkunstwettbewerb. Im April 2026 erhielt er beim KI-Songwettbewerb des Daejeon World Science Culture Forum einen Förderpreis."
+          ]
+        },
+        {
+          h: "Theater und Film",
+          p: [
+            "2012 brachte er unter seinem Theaterlehrer Yeo Se-jin zwei Stücke auf die Bühne.",
+            "2017 drehte er für das AOF-Kurzfilmfestival in Hollywood den fünfzehnminütigen Independentfilm ELEGERE und gewann in der Kategorie Horror."
+          ]
+        },
+        {
+          h: "Romancier",
+          p: [
+            "Ernsthaft zu schreiben begann er als Student, als er einen Monat in Sokcho und im Seorak-Gebirge lebte. Im Mai 2025 veröffentlichte er seinen ersten englischsprachigen SF-Roman, SERAPHIM: The Awakening of the Iron Dragon, bei Amazon in den USA.",
+            "Ausgehend von der koreanischen Geschichte veröffentlicht er Webromane in Fortsetzungen — Wolf von Joseon, Death Guide, Goblin-König Kang Do-hyun, Luzifer und der Goblin-König am Mudeungsan, Jang Bogo, der Nordamerika entdeckte, Schwarzer Hwarang, Panmunjom, Der Tag, an dem Amerika verschwand. Mehrere Spiele von Deother sind aus diesen Geschichten entstanden.",
+            "Beeinflusst von Stephen King bereitet er dreizehn koreanische Horrorgeschichten vor, gebaut um die Zahl, die King nicht mag — Hahoe-Maske, Sonderessen, Der Hörgerät-Geist, Der Tattoo-Geist, Hundesuppe, Katerkrankheit, Das Ginsengfeld, Das Haus auf dem Land, Die Sekte, Das selbstfahrende Auto, Die Wohnung, Die E-Zigarette. Die Veröffentlichung ist für 2026 geplant."
+          ]
+        },
+        {
+          h: "Spieleentwickler",
+          p: [
+            "Ab Juli 2025 lernte er zwei Monate lang Unity und baute selbst ein 3D-Kampfspiel. Mit diesem Spiel wurde er von der Gyeonggi Content Agency ausgewählt, und im Oktober 2025 betrieb er als eines von sechzehn koreanischen Spielen einen Stand im koreanischen Pavillon der gamescom asia x Thailand Game Show.",
+            "Von Oktober bis Dezember wandte er weitere zwei Monate auf, um es in der Unreal Engine von Grund auf neu zu bauen, mit Blick auf eine internationale Veröffentlichung. Deother zeigt heute zehn Spiele."
+          ]
+        },
+        {
+          h: "KI und offene Daten",
+          p: [
+            "Er studierte in Harvard Wirtschaft, belegte daneben aber Informatikkurse, und das Interesse an IT riss nie ab.",
+            "In letzter Zeit baut er Apps und Webdienste auf offenen Daten und KI und bewirbt sich auf nahezu jeden KI-Softwarewettbewerb, den Regierung und Kommunen ausschreiben. Beim KI-Wettbewerb des Flughafens Incheon kam er durch die erste Runde.",
+            "Er absolvierte einen Kurs zum Bau von LLM-Anwendungen mit RAG, durchlief ein Programm zur internationalen KI-Standardisierung und wurde für den dritten Jahrgang des KI-Vibe-Coding-Programms der Ahn-Cheol-soo-Stiftung ausgewählt.",
+            "Er nimmt an rund hundert Ausschreibungen der koreanischen Regierung und ihrer Kommunen teil, registriert bei der Korea Creative Content Agency und der Gyeonggi Content Agency — Kunstausstellungen, Spiele, Romane, Webtoons, Hip-Hop, Film, Webromane; kein Genre ist ausgenommen."
+          ]
+        }
+      ],
+      slides: [
+        "Ich las Comics und kam nach Harvard (2000)",
+        "Kent Kims Zeitblock",
+        "Beitrag in Shin Dong-A",
+        "Cover der koreanischen Horrorreihe",
+        "SERAPHIM: The Awakening of the Iron Dragon"
+      ],
+      cta: "TAFA hören", back: "Zurück zu Deother"
+    },
+
+    ru: {
+      title: "Kent Kim (김형섭)",
+      tagline: "Двадцать лет он что-то создавал — ещё до игр",
+      intro: "Основатель Deother. Он писал десяти тысячам человек из общежития Гарварда, целый год вёл комикс в общенациональной газете, читал рэп на семи языках в чосонской шляпе из конского волоса, взял приз в категории хоррора на голливудском фестивале короткого метра и выпустил двадцать три книги. Игры — тот сосуд, куда всё это в итоге и стеклось.",
+      sections: [
+        {
+          h: "Десять тысяч писем",
+          p: [
+            "Он был десятиклассником, когда пересёк Тихий океан, чтобы найти разведённую мать. Видя, как ей тяжело, он загнал себя в учёбу и поступил в Гарвард — через три с половиной года после переезда в США.",
+            "Студентом он написал десяти тысячам политических и деловых лидеров по всему миру. Больше сотни ответили — Уоррен Баффет, Маргарет Тэтчер, Джек Уэлч, председатель Coca-Cola, президент Mitsubishi, скрипач Иегуди Менухин, сенатор Эдвард Кеннеди.",
+            "С 2002 года, когда умерла его мать, он начал выступать публично и делает это уже двадцать пять лет — церкви, детские дома, университеты и языковые лицеи по всей Корее. Три появления в передаче KBS «Утренний двор», лекция на Sebasi и двадцатисерийный курс о гарвардских методах учёбы, целый год выходивший на Andong MBC."
+          ]
+        },
+        {
+          h: "От карикатуриста к лектору",
+          p: [
+            "Он изучал экономику, но на последнем курсе сам сделал анимацию «Harvard Man». Из этого вырос годовой комикс с афоризмами в газете «Тона Ильбо» в 2000-м и в том же году сборник комикс-поэзии «Читал комиксы — поступил в Гарвард».",
+            "О том, что он выбрал комиксы вместо дороги на Уолл-стрит, рассказали в рубрике «Этот человек» новостей KBS."
+          ]
+        },
+        {
+          h: "Художник",
+          p: [
+            "Его дядя Ли Кан Со и мать Ли Кан Джа оба вышли из Академии изящных искусств Сеульского национального университета и отдали жизнь корейскому искусству. Он рос внутри этого влияния.",
+            "В старшей школе он лично встретил Нам Джун Пайка, и это оставило след. Со школьных лет в Нью-Джерси он выставлялся в Нью-Йорке и Нью-Джерси как художник, работающий с хангылем, и два года подряд был отобран Музеем Морриса в Нью-Джерси.",
+            "В 1998 году он был директором выставки Энтони Куинна, актёра из «Старика и моря», в Сеульском центре искусств.",
+            "С 2023 года он пишет картины вживую по всей стране — от Каросугиль до Хомигот в Поханге, и уже перешагнул 133-ю работу. В 2024-м он подарил масляные и акриловые работы с хангылем тремстам мастерам тхэквондо по всему миру."
+          ]
+        },
+        {
+          h: "Двадцать три книги",
+          p: [
+            "С 2000 года он выпустил двадцать три книги — начиная с истории о десяти тысячах писем и полученных ответах, затем методы учёбы, раннее обучение за рубежом и саморазвитие.",
+            "Самая известная — «Тайм-блок Кента Кима», метод управления временем в гарвардском духе, который он построил ещё студентом."
+          ]
+        },
+        {
+          h: "TAFA — 500 песен",
+          p: [
+            "В Нью-Йорке он познакомился с Ким Мэри, автором корейской детской песни, которую знает каждый школьник, и получил от неё музыкальный импульс.",
+            "С 2012 года он читает рэп в чосонской шляпе кат вместо бейсболки. Он сам написал, сочинил и спел более пятисот песен на семи языках — корейском, английском, японском, путунхуа, кантонском, немецком и вьетнамском. Из них 407 распространяются под именем TAFA на Apple Music, Spotify, Amazon, Naver Music и других площадках.",
+            "Государственным учреждениям музыка достаётся бесплатно. Так появились песни к Первомаю Министерства занятости и труда, к Фестивалю науки в Тэджоне и к общенациональному студенческому конкурсу искусств. В апреле 2026 года он получил поощрительный приз на конкурсе песен, созданных с ИИ, на Всемирном форуме научной культуры в Тэджоне."
+          ]
+        },
+        {
+          h: "Театр и кино",
+          p: [
+            "В 2012 году под руководством своего театрального наставника Ё Се Джина он поставил два спектакля.",
+            "В 2017-м он снял пятнадцатиминутный независимый фильм ELEGERE для голливудского фестиваля короткого метра AOF и победил в категории хоррора."
+          ]
+        },
+        {
+          h: "Писатель",
+          p: [
+            "Всерьёз писать он начал студентом, прожив месяц в Сокчхо и в горах Сораксан. В мае 2025 года он выпустил свой первый англоязычный фантастический роман SERAPHIM: The Awakening of the Iron Dragon на американском Amazon.",
+            "Опираясь на корейскую историю, он публикует веб-романы выпусками — «Волк Чосона», Death Guide, «Король гоблинов Кан До Хён», «Люцифер и король гоблинов на Мудынсане», «Чан Бого, открывший Северную Америку», «Чёрный хваран», «Пханмунджом», «День, когда исчезла Америка». Несколько игр Deother выросли именно из этих историй.",
+            "Под влиянием Стивена Кинга он готовит тринадцать корейских хоррор-историй, собранных вокруг числа, которое Кинг не любит, — «Маска Хахве», «Особое блюдо», «Призрак слухового аппарата», «Призрак татуировки», «Суп из собаки», «Похмельная болезнь», «Женьшеневое поле», «Дом в деревне», «Секта», «Беспилотный автомобиль», «Многоэтажка», «Электронная сигарета». Публикация намечена на 2026 год."
+          ]
+        },
+        {
+          h: "Разработчик игр",
+          p: [
+            "С июля 2025 года он два месяца учил Unity и сам собрал трёхмерный файтинг. С этой игрой его отобрало агентство Gyeonggi Content Agency, а в октябре 2025-го он держал стенд в корейском павильоне на gamescom asia x Thailand Game Show — как одна из шестнадцати корейских игр.",
+            "С октября по декабрь он потратил ещё два месяца, чтобы пересобрать её с нуля на Unreal Engine, готовя зарубежный релиз. Сегодня Deother представляет десять игр."
+          ]
+        },
+        {
+          h: "ИИ и открытые данные",
+          p: [
+            "В Гарварде он изучал экономику, но параллельно брал курсы по информатике, и интерес к ИТ так и не пропал.",
+            "В последнее время он строит приложения и веб-сервисы на открытых данных и ИИ и подаётся почти на все конкурсы ИИ-софта, которые проводят правительство и местные власти. Конкурс ИИ аэропорта Инчхон прошёл первый тур.",
+            "Он окончил курс по созданию LLM-приложений с RAG, прошёл программу международной стандартизации ИИ и был отобран в третий поток программы ИИ-вайбкодинга фонда Ан Чхоль Су.",
+            "Он участвует примерно в сотне конкурсов корейского правительства и местных администраций, зарегистрировавшись в Korea Creative Content Agency и Gyeonggi Content Agency, — художественные выставки, игры, романы, вебтуны, хип-хоп, кино, веб-романы: без исключений по жанрам."
+          ]
+        }
+      ],
+      slides: [
+        "«Читал комиксы — поступил в Гарвард» (2000)",
+        "«Тайм-блок Кента Кима»",
+        "Материал в журнале Shin Dong-A",
+        "Обложка серии корейского хоррора",
+        "SERAPHIM: The Awakening of the Iron Dragon"
+      ],
+      cta: "Слушать TAFA", back: "Назад в Deother"
+    },
+
+    ar: {
+      title: "Kent Kim (김형섭)",
+      tagline: "عشرون عامًا من صناعة الأشياء، قبل الألعاب",
+      intro: "‏مؤسّس ديأذر. كتب إلى عشرة آلاف شخص من سكن جامعي في هارفارد، ورسم شريطًا مصوّرًا لعام كامل في صحيفة وطنية، وغنّى الراب بسبع لغات وعلى رأسه قبعة «غات» من عهد جوسون، وفاز بفئة الرعب في مهرجان أفلام قصيرة في هوليوود، وأصدر ثلاثة وعشرين كتابًا. الألعاب هي الوعاء الذي صبّ فيه كل ذلك أخيرًا.",
+      sections: [
+        {
+          h: "عشرة آلاف رسالة",
+          p: [
+            "كان في السنة الأولى من الثانوية حين عبر المحيط الهادئ بحثًا عن أمّه المطلّقة. ولمّا رآها تكابد، دفع نفسه إلى الدراسة حتى دخل هارفارد — بعد ثلاث سنوات ونصف من هجرته إلى الولايات المتحدة.",
+            "وهو طالب جامعي كتب إلى عشرة آلاف من قادة السياسة والأعمال حول العالم. وردّ عليه أكثر من مئة — وارن بافيت، ومارغريت تاتشر، وجاك ويلش، ورئيس كوكا كولا، ورئيس ميتسوبيشي، وعازف الكمان يهودي مينوهين، والسيناتور إدوارد كينيدي.",
+            "‏ومنذ 2002، عام وفاة أمّه، بدأ يخطب أمام الناس، ولا يزال بعد خمسة وعشرين عامًا — كنائس ودور أيتام وجامعات وثانويات لغات في أنحاء كوريا. ظهر ثلاث مرات في برنامج KBS الصباحي، وألقى محاضرة في Sebasi، وقدّم سلسلة من عشرين حلقة عن طرائق الدراسة الهارفاردية بُثّت عامًا كاملًا على Andong MBC."
+          ]
+        },
+        {
+          h: "من رسّام إلى محاضر",
+          p: [
+            "‏تخصّص في الاقتصاد، لكنه في سنته الأخيرة صنع فيلم رسوم متحركة بعنوان Harvard Man. ومن ذلك جاء شريط الحِكَم المصوّر الذي نُشر عامًا كاملًا في صحيفة دونغ-آ إيلبو سنة 2000، ثم ديوان شعر مصوّر في العام نفسه: «قرأتُ القصص المصوّرة فدخلتُ هارفارد».",
+            "‏وقد تناولت نشرة أخبار KBS في فقرة «هذا الشخص» اختياره القصص المصوّرة بدل الطريق إلى وول ستريت."
+          ]
+        },
+        {
+          h: "فنّان تشكيلي",
+          p: [
+            "خاله لي كانغ-سو وأمّه لي كانغ-جا تخرّجا معًا من كلية الفنون الجميلة بجامعة سول الوطنية، وأفنيا عمريهما في الفن الكوري. وقد نشأ داخل هذا التأثير.",
+            "في الثانوية التقى نام جون بايك وجهًا لوجه فترك ذلك أثره فيه. ومنذ سنوات دراسته في نيوجيرسي عرض أعماله في نيويورك ونيوجيرسي بوصفه رسّامًا يشتغل على الهانغول، واختاره متحف موريس في نيوجيرسي عامين متتاليين.",
+            "وفي 1998 أدار معرض أنطوني كوين، بطل «الشيخ والبحر»، في مركز سول للفنون.",
+            "‏ومنذ 2023 يرسم مباشرةً في المواقع في أنحاء البلاد — من غاروسو-غيل إلى هوميغوت في بوهانغ — ‏وقد تجاوز لوحته رقم 133. وفي 2024 أهدى أعمالًا زيتية وأكريليكية بالهانغول إلى ثلاثمئة من مدرّبي التايكوندو حول العالم."
+          ]
+        },
+        {
+          h: "ثلاثة وعشرون كتابًا",
+          p: [
+            "أصدر ثلاثة وعشرين كتابًا منذ عام 2000 — بدءًا من حكاية الرسائل العشرة آلاف والردود التي جاءته، ثم طرائق الدراسة، والابتعاث المبكّر، وتطوير الذات.",
+            "‏وأشهرها «تايم بلوك» لكِنت كِم، وهي طريقة إدارة الوقت على النهج الهارفاردي التي بناها وهو طالب."
+          ]
+        },
+        {
+          h: "TAFA — خمسمئة أغنية",
+          p: [
+            "في نيويورك التقى كيم ماري، مؤلّفة أغنية الأطفال الكورية التي يعرفها كل تلميذ، وأخذ منها إلهامًا موسيقيًا.",
+            "‏ومنذ 2012 يغنّي الراب بقبعة «غات» جوسونية بدل قبعة البيسبول. كتب ولحّن وغنّى بنفسه أكثر من خمسمئة أغنية بسبع لغات — الكورية والإنجليزية واليابانية والماندرين والكانتونية والألمانية والفيتنامية. ومنها 407 أغانٍ تُوزَّع باسم TAFA على Apple Music وSpotify وAmazon وNaver Music وغيرها.",
+            "‏أما الجهات الحكومية فتحصل على الموسيقى مجانًا. وهكذا صُنعت أناشيد عيد العمال لوزارة التشغيل والعمل، ومهرجان دايجون للعلوم، والمسابقة الوطنية لفنون الطلبة. وفي أبريل 2026 نال جائزة تشجيعية في مسابقة الأناشيد بالذكاء الاصطناعي ضمن منتدى دايجون العالمي للثقافة العلمية."
+          ]
+        },
+        {
+          h: "المسرح والسينما",
+          p: [
+            "في 2012، وتحت إشراف أستاذه المسرحي يو سي-جين، قدّم عرضين مسرحيين.",
+            "‏وفي 2017 صنع فيلمًا مستقلًا مدته خمس عشرة دقيقة بعنوان ELEGERE لمهرجان AOF للأفلام القصيرة في هوليوود، وفاز بفئة الرعب."
+          ]
+        },
+        {
+          h: "روائي",
+          p: [
+            "‏بدأ الكتابة بجدّية وهو طالب، إذ أقام شهرًا في سوكتشو وجبال سوراك. وفي مايو 2025 نشر أول رواياته الخيال العلمي بالإنجليزية، SERAPHIM: The Awakening of the Iron Dragon، على أمازون في الولايات المتحدة.",
+            "‏واستنادًا إلى التاريخ الكوري ينشر روايات ويب تباعًا — «ذئب جوسون»، وDeath Guide، و«ملك العفاريت كانغ دو-هيون»، و«لوسيفر وملك العفاريت في مودونغسان»، و«جانغ بوغو الذي اكتشف أمريكا الشمالية»، و«الهوارانغ الأسود»، و«بانمونجوم»، و«اليوم الذي اختفت فيه أمريكا». وقد خرجت عدة ألعاب لديأذر من هذه القصص.",
+            "وبتأثير من ستيفن كينغ يُعِدّ ثلاث عشرة قصة رعب كورية مبنية حول العدد الذي يكرهه كينغ — «قناع هاهوي»، و«وجبة خاصة»، و«شبح سمّاعة الأذن»، و«شبح الوشم»، و«حساء الكلب»، و«داء الخُمار»، و«حقل الجينسنغ»، و«البيت في الريف»، و«الطائفة»، و«السيارة ذاتية القيادة»، و«الشقة»، و«السيجارة الإلكترونية». والنشر مقرّر في 2026."
+          ]
+        },
+        {
+          h: "مطوّر ألعاب",
+          p: [
+            "‏منذ يوليو 2025 أمضى شهرين يتعلّم Unity وبنى بنفسه لعبة قتال ثلاثية الأبعاد. وبتلك اللعبة اختارته وكالة محتوى جيونغي، وفي أكتوبر 2025 أقام جناحًا في الجناح الكوري بمعرض gamescom asia x Thailand Game Show ضمن ستة عشر عملًا كوريًا.",
+            "‏ومن أكتوبر إلى ديسمبر أمضى شهرين آخرين يعيد بناءها من الصفر على Unreal Engine استعدادًا لإصدار عالمي. وتقدّم ديأذر اليوم عشر ألعاب."
+          ]
+        },
+        {
+          h: "الذكاء الاصطناعي والبيانات المفتوحة",
+          p: [
+            "درس الاقتصاد في هارفارد، لكنه أخذ إلى جانبه مقرّرات في علوم الحاسوب، ولم ينقطع اهتمامه بالتقنية.",
+            "وفي الآونة الأخيرة يبني تطبيقات وخدمات ويب على البيانات المفتوحة والذكاء الاصطناعي، ويتقدّم إلى كل مسابقة برمجيات ذكاء اصطناعي تقريبًا تنظّمها الحكومة والإدارات المحلية. وقد اجتازت مسابقة مطار إنتشون للذكاء الاصطناعي جولتها الأولى.",
+            "‏أنهى دورة في بناء تطبيقات نماذج اللغة الكبيرة باستخدام RAG، وشارك في برنامج للتقييس الدولي للذكاء الاصطناعي، واختير ضمن الدفعة الثالثة لبرنامج «vibe coding» بالذكاء الاصطناعي في مؤسسة آن تشول-سو.",
+            "‏ويشارك في نحو مئة مسابقة تنظّمها الحكومة الكورية وإداراتها المحلية، وهو مسجَّل لدى Korea Creative Content Agency ووكالة محتوى جيونغي — معارض فنية وألعاب وروايات وويبتون وهيب هوب وسينما وروايات ويب، دون استثناء نوع."
+          ]
+        }
+      ],
+      slides: [
+        "«قرأتُ القصص المصوّرة فدخلتُ هارفارد» (2000)",
+        "‏«تايم بلوك» لكِنت كِم",
+        "‏تحقيق في مجلة Shin Dong-A",
+        "غلاف سلسلة الرعب الكورية",
+        "‏SERAPHIM: The Awakening of the Iron Dragon"
+      ],
+      cta: "‏الاستماع إلى TAFA", back: "‏العودة إلى Deother"
     }
   },
 
