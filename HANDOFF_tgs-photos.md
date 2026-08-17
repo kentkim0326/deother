@@ -1,6 +1,17 @@
 # Thailand Game Show 2025 Photos — 인수인계
 
-**상태**: 사진 최적화 + 배치 작업 남음  
+> **✅ 완료 (2026-08-17, 데스크톱 Claude Code).** 사진 넉 장을 더해 **아홉 장**이 됐고,
+> MOU 는 이미지 대신 연표에 한 문장으로 넣었다. 아래는 그때의 기록이므로 그대로 둔다.
+> 실제로 한 일과 판단 근거는 **CLAUDE.md 「남은 것」**에 옮겨 적었다 — 앞으로는 그쪽을 본다.
+>
+> - `assets/tgs-06·07·08·09.jpg` (1600px JPEG 82%, 세로 원본 셋은 4:3 으로 직접 크롭)
+> - `SHOW_PHOTOS` 아홉 장으로 재정렬 + `journey.photos` 캡션 10개 언어
+> - 연표 게임쇼 줄에 태국 배급사 **Debuz** 와의 MOU 한 문장 (10개 언어)
+> - **MOU 원본 이미지는 올리지 않았다** — 서명 필체·상대측 담당자 실명이 보인다
+> - 아래 계획과 달라진 점: 사진 자리는 `festivals.html` 이 아니라 **`index.html` 여정 섹션**이었다
+>   (`SHOW_PHOTOS` 는 `i18n.js` 에 있고, `festivals.html` 은 `FESTIVALS_SLIDES` 로 따로 돈다)
+
+**상태**: ~~사진 최적화 + 배치 작업 남음~~ → 완료  
 **분기**: `claude/thailand-game-show-photos-pmq0ie`  
 **로컬 사진 경로**: `/Users/kentkim/Downloads/2025 gamescom Thailand/`
 
