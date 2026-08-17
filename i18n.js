@@ -98,7 +98,8 @@ const FESTIVALS_SLIDES = [
   "slides-kw/kw-09.jpg",                                 // 킹덤워즈 (온라인 이벤트로 나가는 쪽)
   "taipei-iga-2027.jpg",                                 // 타이베이 IGA 2027 신청 화면 (제출 이력의 증빙)
   "tgs-10.jpg", "tgs-12.jpg",                            // 태국 게임쇼 — 행사 입구 사인, 부스에서 소개
-  "ggc-01.jpg", "ggc-02.jpg", "ggc-03.jpg"               // 중앙대 GGC 2025 — 배너, 우리 부스, 관람객 플레이
+  "ggc-01.jpg", "ggc-02.jpg", "ggc-03.jpg",
+  "iia-01.jpg", "iia-02.jpg"   // 인천국제공항공사 상생협력 업무협약식 (2026-06-24)               // 중앙대 GGC 2025 — 배너, 우리 부스, 관람객 플레이
 ];   // 앞에 "assets/" 가 붙는다 — 하위 폴더는 이렇게 경로째 적으면 된다
 // ※ 인물 사진을 쓸 때는 그 사람이 누구인지 확인하고 쓴다. 발표자료 19쪽의 지스타 2022 사진을
 //   대표님으로 단정해 넣었다가 뺐다(2026-08-16) — 대표님이 아니었다.
@@ -346,7 +347,7 @@ const I18N = {
         "Harvard, Economics — emigrated to the US in 1989, admitted three and a half years after arriving",
         "23 books published in Korea and the US · 407 songs released on Spotify since 2012",
         "23+ years of martial arts: judo, boxing, Hapkido, Haidong Gumdo (1st dan, 1999), Muay Thai, Taekwondo, Shaolin kung fu",
-        "Excellence Award, Incheon Airport AI competition · Jeju Governor's Award, national AI music competition · selected for the 3rd cohort of the Ahn Cheol-soo Foundation's AI vibe-coding programme",
+        "Excellence Award, Incheon Airport AI competition · Jeju Governor's Award, national AI music competition · completed the 3rd cohort of the Ahn Cheol-soo Foundation's AI vibe-coding programme (April 2026)",
         "Author of SERAPHIM: The Awakening of Iron Dragon, the novel this game comes from",
         "Launched two metaverse platforms in 2022. When the funding market turned, the servers came down — but the lesson stayed: without an end goal, people don't stay, and games have one. Milliverse is back and still being built.",
         "Tokyo Game Show since 2019 · Evo Japan 2020 and a visit to SoftBank's Tokyo headquarters · meeting with SoftBank executives in 2022",
@@ -355,7 +356,7 @@ const I18N = {
     },
     songs: { heading: "In your language", lead: "Theme song and gameplay, recorded in the languages our fighters speak." },
     ip: { heading: "The stories behind them", lead: "Novels and web serials, written in-house.", note: "Every world our games are set in started as a manuscript. We are not licensing someone else's IP — we write it, and a game is one way of telling it.", book: "Seraphim came out in hardcover — back cover, spine, front. A 75,000-word novel, on Amazon under ISBN 9798285120018. Fighting Nations is set in this world." },
-    works: { trailer: "Trailer", more: "Read more", heading: "What we have built", lead: "Three games built and live, and the IP behind them — novels and web serials — written in-house.", note: "Martial arts from 200 nations, the coordinates of real cities, squads wearing their flags — there is always a country in our games. Not to make any one of them stronger, but so that a player from anywhere can find their place in it.", items: {
+    works: { trailer: "Trailer", more: "Read more", heading: "What we have built", lead: "Ten games built, and the IP behind them — novels and web serials — written in-house.", note: "Martial arts from 200 nations, the coordinates of real cities, squads wearing their flags — there is always a country in our games. Not to make any one of them stronger, but so that a player from anywhere can find their place in it.", items: {
       fn: { t: "Fighting Nations", b: "A 3D fighting game with no weapons — just the martial arts of the world, one style per fighter. Team battles on destructible stages, with the long-term goal of 64-player battle royale. In development and playable now.", s: ["21 fighters","11 martial arts","6 stages"] },
       kingdom: { t: "Kingdom Wars", b: "Pick a nation and a commander, then take the Moon sector by sector — 49 of them, turn by turn, in the browser. Killstreaks, battle grades and loot drops. Live in four languages." },
       miliverse: { t: "Milliverse", b: "Web3 strategy game played on the real world map. Buy tiles, deploy weapons and troops, fight other players for territory. Live in four languages, with real weather and day-night data feeding the battles." },
@@ -477,7 +478,7 @@ const I18N = {
         "하버드 경제학과 — 1989년 미국 이민, 이민 3년 반 만에 합격",
         "한국·미국에서 23권 출간 · 2012년부터 스포티파이에 407곡 발매",
         "23년 이상 무술 수련: 유도, 복싱, 합기도, 해동검도 1단(1999), 무에타이, 태권도, 소림권",
-        "AI 인천공항 공모전 최우수상 · AI 음원 전국체전 공모전 제주도지사상 · 안철수재단 AI 바이브 코딩 3기 선발",
+        "AI 인천공항 공모전 최우수상 · AI 음원 전국체전 공모전 제주도지사상 · 안철수재단(동그라미재단) AI 바이브 코딩 3기 수료 — 2026년 4월",
         "이 게임의 원작 소설 『SERAPHIM: The Awakening of Iron Dragon』 저자",
         "2022년 메타버스 플랫폼 2개 런칭. 투자 시장이 얼어붙어 서버는 내렸지만 배운 것은 남았습니다 — 엔드골이 없으면 사람이 남지 않는다, 그리고 게임에는 그것이 있다. 밀리버스는 다시 살아나 지금도 만들고 있습니다.",
         "2019년부터 도쿄 게임쇼 참관 · 2020년 Evo Japan 방문 및 소프트뱅크 도쿄 본사 방문 · 2022년 소프트뱅크 임원 미팅",
@@ -486,7 +487,7 @@ const I18N = {
     },
     songs: { heading: "당신의 언어로", lead: "파이터들이 쓰는 언어로 녹음한 주제가와 게임플레이." },
     ip: { heading: "우리가 가진 이야기", lead: "소설과 웹소설. 직접 씁니다.", note: "게임의 배경이 되는 세계는 모두 원고에서 시작했습니다. 남의 IP를 빌려 쓰는 것이 아니라 우리가 쓰고, 게임은 그 이야기를 전하는 하나의 방식입니다.", book: "Seraphim은 하드커버로 나왔습니다 — 뒤표지, 책등, 앞표지. 7만 5천 단어 장편이고 ISBN 9798285120018 로 아마존에 올라 있습니다. Fighting Nations가 이 세계를 배경으로 합니다." },
-    works: { trailer: "트레일러", more: "자세히", heading: "우리가 만든 것", lead: "게임 세 개를 만들어 띄웠습니다. 그 바탕이 되는 IP — 소설·웹소설 — 도 직접 씁니다.", note: "200개국의 무술, 실제 도시의 좌표, 국기를 단 부대 — 우리 게임에는 늘 국가가 있습니다. 어느 나라를 강하게 만들기 위해서가 아니라, 어느 나라 사람이든 자기 자리를 찾을 수 있게 하기 위해서입니다.", items: {
+    works: { trailer: "트레일러", more: "자세히", heading: "우리가 만든 것", lead: "게임 열 종을 만들었습니다. 그 바탕이 되는 IP — 소설·웹소설 — 도 직접 씁니다.", note: "200개국의 무술, 실제 도시의 좌표, 국기를 단 부대 — 우리 게임에는 늘 국가가 있습니다. 어느 나라를 강하게 만들기 위해서가 아니라, 어느 나라 사람이든 자기 자리를 찾을 수 있게 하기 위해서입니다.", items: {
       fn: { t: "Fighting Nations", b: "무기가 없는 3D 격투게임입니다. 세계의 무술만으로 싸우고, 파이터마다 다른 유파를 씁니다. 부서지는 스테이지 위에서 팀으로 붙으며, 최종 목표는 64인 배틀로얄입니다. 개발 중이며 지금 플레이할 수 있습니다.", s: ["파이터 21명","무술 11종","스테이지 6곳"] },
       kingdom: { t: "Kingdom Wars", b: "국가와 사령관을 고르고 달의 49개 섹터를 한 칸씩 빼앗는 턴제 전략. 브라우저에서 바로 합니다. 연승 배수, 전투 등급, 전리품 드랍까지. 4개 언어로 서비스 중." },
       miliverse: { t: "밀리버스", b: "실제 세계 지도 위에서 벌어지는 Web3 전략 게임. 타일을 사고 무기와 병사를 배치해 다른 플레이어와 영토를 두고 싸웁니다. 4개 언어로 서비스 중이며, 실제 날씨와 낮밤 데이터가 전투에 반영됩니다." },
@@ -605,7 +606,7 @@ const I18N = {
         "哈佛大学经济学系——1989 年移民美国，移民三年半后入学",
         "在韩国与美国出版 23 本书 · 2012 年起在 Spotify 发行 407 首作品",
         "23 年以上武术经历：柔道、拳击、合气道、海东剑道（1999 年初段）、泰拳、跆拳道、少林拳",
-        "仁川机场 AI 大赛最优秀奖 · 全国 AI 音乐大赛济州道知事奖 · 入选安哲秀财团 AI Vibe Coding 第三期",
+        "仁川机场 AI 大赛最优秀奖 · 全国 AI 音乐大赛济州道知事奖 · 完成安哲秀财团 AI Vibe Coding 第三期（2026 年 4 月结业）",
         "本作原著小说《SERAPHIM: The Awakening of Iron Dragon》作者",
         "2022 年推出两个元宇宙平台。投资市场转冷后服务器下线，但教训留了下来——没有终点目标，人就不会留下，而游戏有。Milliverse 已经重启，至今仍在打磨。",
         "2019 年起参观东京电玩展 · 2020 年出席 Evo Japan 并走访软银东京总部 · 2022 年与软银高管会面",
@@ -614,7 +615,7 @@ const I18N = {
     },
     songs: { heading: "用你的语言", lead: "主题曲与实机画面，以角色们所说的语言录制。" },
     ip: { heading: "支撑作品的故事", lead: "小说与网络连载，全部自己创作。", note: "我们游戏所在的世界，都始于一份手稿。这不是借用他人的 IP——我们自己写，而游戏是讲述这些故事的一种方式。", book: "《Seraphim》已出版精装本——封底、书脊、封面。全书 7 万 5 千词，以 ISBN 9798285120018 在亚马逊上架。《Fighting Nations》就以这个世界为舞台。" },
-    works: { trailer: "预告片", more: "了解更多", heading: "我们做出来的东西", lead: "三款游戏，都已上线。支撑它们的 IP——小说与网络连载——也全部自己创作。", note: "两百个国家的武术、真实城市的坐标、佩戴国旗的部队——我们的游戏里始终有国家。不是为了让某一国更强，而是让来自任何地方的玩家都能找到自己的位置。", items: {
+    works: { trailer: "预告片", more: "了解更多", heading: "我们做出来的东西", lead: "十款游戏。支撑它们的 IP——小说与网络连载——也全部自己创作。", note: "两百个国家的武术、真实城市的坐标、佩戴国旗的部队——我们的游戏里始终有国家。不是为了让某一国更强，而是让来自任何地方的玩家都能找到自己的位置。", items: {
       fn: { t: "Fighting Nations", b: "一款没有武器的 3D 格斗游戏——只用世界各地的武术，每位角色一种流派。在可破坏的场景中进行团队对战，长期目标是 64 人大逃杀。开发中，现已可玩。", s: ["21 名角色","11 种武术","6 个场景"] },
       kingdom: { t: "Kingdom Wars", b: "选择国家与指挥官，在浏览器里一格一格拿下月球的 49 个区块。连胜加成、战斗评级、战利品掉落。四种语言运营中。" },
       miliverse: { t: "Milliverse", b: "在真实世界地图上进行的 Web3 战略游戏。购买地块、部署武器与士兵，与其他玩家争夺领土。四种语言上线运营，真实天气与昼夜数据会影响战斗。" },
@@ -733,7 +734,7 @@ const I18N = {
         "ハーバード大学経済学部——1989年に渡米、渡米から3年半で合格",
         "韓国と米国で23冊を出版 · 2012年からSpotifyに407曲を配信",
         "23年以上の武術経験：柔道、ボクシング、合気道、海東剣道（1999年初段）、ムエタイ、テコンドー、少林拳",
-        "仁川空港AIコンペ最優秀賞 · 全国AI音楽コンペ済州道知事賞 · 安哲秀財団AIバイブコーディング3期に選出",
+        "仁川空港AIコンペ最優秀賞 · 全国AI音楽コンペ済州道知事賞 · 安哲秀財団AIバイブコーディング3期を修了（2026年4月）",
         "本作の原作小説『SERAPHIM: The Awakening of Iron Dragon』著者",
         "2022年にメタバースを2件立ち上げました。投資環境が冷え込みサーバーは落としましたが、学びは残りました——終着点がなければ人は残らない、そしてゲームにはそれがある。Milliverse は復活し、今も作り続けています。",
         "2019年から東京ゲームショウに参加 · 2020年 Evo Japan 参加とソフトバンク東京本社訪問 · 2022年ソフトバンク役員と面談",
@@ -742,7 +743,7 @@ const I18N = {
     },
     songs: { heading: "あなたの言語で", lead: "ファイターたちが話す言語で録音した主題歌とゲームプレイ。" },
     ip: { heading: "その背後にある物語", lead: "小説とウェブ小説。自分たちで書いています。", note: "ゲームの舞台となる世界は、すべて原稿から始まりました。他社のIPを借りるのではなく、自分たちで書く。ゲームはその物語を伝える一つの方法です。", book: "『Seraphim』はハードカバーで刊行されました——裏表紙、背、表紙。7万5千語の長編で、ISBN 9798285120018 として Amazon に並んでいます。Fighting Nations はこの世界を舞台にしています。" },
-    works: { trailer: "トレーラー", more: "詳しく", heading: "作ってきたもの", lead: "三本のゲームを作り、世に出しました。その土台となるIP——小説とウェブ小説——も自分たちで書いています。", note: "200カ国の武術、実在する都市の座標、国旗を掲げた部隊——私たちのゲームにはいつも国があります。どこか一国を強くするためではなく、どの国の人でも自分の居場所を見つけられるようにするためです。", items: {
+    works: { trailer: "トレーラー", more: "詳しく", heading: "作ってきたもの", lead: "十本のゲームを作りました。その土台となるIP——小説とウェブ小説——も自分たちで書いています。", note: "200カ国の武術、実在する都市の座標、国旗を掲げた部隊——私たちのゲームにはいつも国があります。どこか一国を強くするためではなく、どの国の人でも自分の居場所を見つけられるようにするためです。", items: {
       fn: { t: "Fighting Nations", b: "武器のない3D格闘ゲームです。世界の武術だけで戦い、ファイターごとに流派が違います。壊れるステージでのチーム戦、最終目標は64人バトルロイヤル。開発中、いま遊べます。", s: ["ファイター21人","武術11種","ステージ6"] },
       kingdom: { t: "Kingdom Wars", b: "国と司令官を選び、月の49セクターを一つずつ奪っていくターン制ストラテジー。ブラウザですぐ遊べます。連勝ボーナス、戦闘評価、戦利品ドロップつき。4言語で稼働中。" },
       miliverse: { t: "Milliverse", b: "現実の世界地図の上で戦うWeb3ストラテジー。タイルを買い、武器と兵士を配置し、他のプレイヤーと領土を奪い合います。4言語で稼働中、実際の天候と昼夜のデータが戦闘に反映されます。" },
@@ -861,7 +862,7 @@ const I18N = {
         "Harvard, Economía: emigró a EE. UU. en 1989, admitido tres años y medio después de llegar",
         "23 libros publicados en Corea y EE. UU. · 407 canciones en Spotify desde 2012",
         "Más de 23 años de artes marciales: judo, boxeo, hapkido, Haidong Gumdo (1.er dan, 1999), muay thai, taekwondo, kung-fu Shaolin",
-        "Premio a la Excelencia en el concurso de IA del Aeropuerto de Incheon · Premio del Gobernador de Jeju en el concurso nacional de música con IA · seleccionado para la 3.ª promoción del programa de vibe coding con IA de la Fundación Ahn Cheol-soo",
+        "Premio a la Excelencia en el concurso de IA del Aeropuerto de Incheon · Premio del Gobernador de Jeju en el concurso nacional de música con IA · completó la 3.ª promoción del programa de vibe coding con IA de la Fundación Ahn Cheol-soo (abril de 2026)",
         "Autor de SERAPHIM: The Awakening of Iron Dragon, la novela de la que nace este juego",
         "Dos plataformas de metaverso lanzadas en 2022. Cuando el mercado de inversión se enfrió, los servidores cayeron, pero la lección quedó: sin una meta final la gente no se queda, y los juegos la tienen. Milliverse ha vuelto y sigue en construcción.",
         "Tokyo Game Show desde 2019 · Evo Japan 2020 y visita a la sede de SoftBank en Tokio · reunión con directivos de SoftBank en 2022",
@@ -870,7 +871,7 @@ const I18N = {
     },
     songs: { heading: "En tu idioma", lead: "Tema musical y gameplay, grabados en las lenguas que hablan nuestros luchadores." },
     ip: { heading: "Las historias detrás", lead: "Novelas y seriales, escritos por nosotros.", note: "Todos los mundos donde ocurren nuestros juegos empezaron siendo un manuscrito. No licenciamos la IP de nadie: la escribimos, y el juego es una forma de contarla.", book: "Seraphim se publicó en tapa dura: contracubierta, lomo y cubierta. Una novela de 75.000 palabras, en Amazon con el ISBN 9798285120018. Fighting Nations transcurre en este mundo." },
-    works: { trailer: "Tráiler", more: "Saber más", heading: "Lo que hemos construido", lead: "Tres juegos construidos y en línea. Y la IP que hay detrás —novelas y seriales— la escribimos nosotros.", note: "Artes marciales de doscientas naciones, coordenadas de ciudades reales, escuadrones con su bandera: en nuestros juegos siempre hay un país. No para hacer más fuerte a ninguno, sino para que un jugador de cualquier lugar encuentre su sitio.", items: {
+    works: { trailer: "Tráiler", more: "Saber más", heading: "Lo que hemos construido", lead: "Diez juegos construidos. Y la IP que hay detrás —novelas y seriales— la escribimos nosotros.", note: "Artes marciales de doscientas naciones, coordenadas de ciudades reales, escuadrones con su bandera: en nuestros juegos siempre hay un país. No para hacer más fuerte a ninguno, sino para que un jugador de cualquier lugar encuentre su sitio.", items: {
       fn: { t: "Fighting Nations", b: "Un juego de lucha en 3D sin armas: solo las artes marciales del mundo, un estilo por luchador. Combates por equipos en escenarios destructibles, con el objetivo a largo plazo de un battle royale de 64 jugadores. En desarrollo y jugable ya.", s: ["21 luchadores","11 artes marciales","6 escenarios"] },
       kingdom: { t: "Kingdom Wars", b: "Elige nación y comandante y toma la Luna sector a sector: 49 en total, por turnos, en el navegador. Rachas de victorias, calificación de combate y botín. Disponible en cuatro idiomas." },
       miliverse: { t: "Milliverse", b: "Juego de estrategia Web3 sobre el mapa del mundo real. Compra casillas, despliega armas y tropas y disputa territorio a otros jugadores. Activo en cuatro idiomas, con clima real y ciclo día-noche influyendo en los combates." },
@@ -989,7 +990,7 @@ const I18N = {
         "Harvard, Economia — emigrou para os EUA em 1989, admitido três anos e meio depois de chegar",
         "23 livros publicados na Coreia e nos EUA · 407 músicas no Spotify desde 2012",
         "Mais de 23 anos de artes marciais: judo, boxe, hapkido, Haidong Gumdo (1.º dan, 1999), muay thai, taekwondo, kung fu Shaolin",
-        "Prémio de Excelência no concurso de IA do Aeroporto de Incheon · Prémio do Governador de Jeju no concurso nacional de música com IA · selecionado para a 3.ª turma do programa de vibe coding com IA da Fundação Ahn Cheol-soo",
+        "Prémio de Excelência no concurso de IA do Aeroporto de Incheon · Prémio do Governador de Jeju no concurso nacional de música com IA · concluiu a 3.ª turma do programa de vibe coding com IA da Fundação Ahn Cheol-soo (abril de 2026)",
         "Autor de SERAPHIM: The Awakening of Iron Dragon, o romance que deu origem ao jogo",
         "Duas plataformas de metaverso lançadas em 2022. Quando o mercado de investimento arrefeceu, os servidores caíram, mas a lição ficou: sem um objetivo final as pessoas não ficam, e os jogos têm um. O Milliverse voltou e continua a ser construído.",
         "Tokyo Game Show desde 2019 · Evo Japan 2020 e visita à sede da SoftBank em Tóquio · reunião com executivos da SoftBank em 2022",
@@ -998,7 +999,7 @@ const I18N = {
     },
     songs: { heading: "Na tua língua", lead: "Tema musical e gameplay, gravados nas línguas que os nossos lutadores falam." },
     ip: { heading: "As histórias por trás", lead: "Romances e séries web, escritos por nós.", note: "Todos os mundos onde os nossos jogos acontecem começaram como um manuscrito. Não licenciamos a IP de ninguém: escrevemo-la, e o jogo é uma forma de a contar.", book: "Seraphim saiu em capa dura — contracapa, lombada e capa. Um romance de 75 000 palavras, na Amazon com o ISBN 9798285120018. Fighting Nations passa-se neste mundo." },
-    works: { trailer: "Trailer", more: "Saber mais", heading: "O que construímos", lead: "Três jogos construídos e no ar. E a IP por trás deles — romances e séries web — é escrita internamente.", note: "Artes marciais de duzentas nações, coordenadas de cidades reais, esquadrões com a sua bandeira — há sempre um país nos nossos jogos. Não para tornar algum deles mais forte, mas para que um jogador de qualquer lugar encontre o seu lugar.", items: {
+    works: { trailer: "Trailer", more: "Saber mais", heading: "O que construímos", lead: "Dez jogos construídos. E a IP por trás deles — romances e séries web — é escrita internamente.", note: "Artes marciais de duzentas nações, coordenadas de cidades reais, esquadrões com a sua bandeira — há sempre um país nos nossos jogos. Não para tornar algum deles mais forte, mas para que um jogador de qualquer lugar encontre o seu lugar.", items: {
       fn: { t: "Fighting Nations", b: "Um jogo de luta 3D sem armas — apenas as artes marciais do mundo, um estilo por lutador. Combates por equipas em cenários destrutíveis, com o objetivo a longo prazo de um battle royale de 64 jogadores. Em desenvolvimento e já jogável.", s: ["21 lutadores","11 artes marciais","6 cenários"] },
       kingdom: { t: "Kingdom Wars", b: "Escolhe nação e comandante e toma a Lua setor a setor: 49 ao todo, por turnos, no navegador. Sequências de vitórias, classificação de combate e loot. Disponível em quatro línguas." },
       miliverse: { t: "Milliverse", b: "Jogo de estratégia Web3 sobre o mapa do mundo real. Compra tiles, coloca armas e tropas e disputa território com outros jogadores. Ativo em quatro línguas, com clima real e ciclo dia-noite a influenciar os combates." },
@@ -1117,7 +1118,7 @@ const I18N = {
         "Harvard, économie — émigré aux États-Unis en 1989, admis trois ans et demi après son arrivée",
         "23 livres publiés en Corée et aux États-Unis · 407 titres sur Spotify depuis 2012",
         "Plus de 23 ans d'arts martiaux : judo, boxe, hapkido, Haidong Gumdo (1er dan, 1999), muay-thaï, taekwondo, kung-fu Shaolin",
-        "Prix d'excellence au concours d'IA de l'aéroport d'Incheon · Prix du gouverneur de Jeju au concours national de musique par IA · sélectionné pour la 3e promotion du programme de vibe coding IA de la Fondation Ahn Cheol-soo",
+        "Prix d'excellence au concours d'IA de l'aéroport d'Incheon · Prix du gouverneur de Jeju au concours national de musique par IA · a achevé la 3e promotion du programme de vibe coding IA de la Fondation Ahn Cheol-soo (avril 2026)",
         "Auteur de SERAPHIM: The Awakening of Iron Dragon, le roman dont vient ce jeu",
         "Deux plateformes de métavers lancées en 2022. Quand le marché du financement s'est retourné, les serveurs sont tombés, mais la leçon est restée : sans objectif final les gens ne restent pas, et les jeux en ont un. Milliverse est de retour et se construit encore.",
         "Tokyo Game Show depuis 2019 · Evo Japan 2020 et visite du siège de SoftBank à Tokyo · rencontre avec des dirigeants de SoftBank en 2022",
@@ -1126,7 +1127,7 @@ const I18N = {
     },
     songs: { heading: "Dans votre langue", lead: "Thème musical et séquences de jeu, enregistrés dans les langues que parlent nos combattants." },
     ip: { heading: "Les histoires derrière", lead: "Romans et feuilletons, écrits en interne.", note: "Chaque monde où se déroulent nos jeux a commencé par un manuscrit. Nous n'exploitons pas la propriété intellectuelle d'un autre : nous l'écrivons, et le jeu est une façon de la raconter.", book: "Seraphim est paru en édition reliée — quatrième de couverture, dos, couverture. Un roman de 75 000 mots, sur Amazon sous l'ISBN 9798285120018. Fighting Nations se déroule dans ce monde." },
-    works: { trailer: "Bande-annonce", more: "En savoir plus", heading: "Ce que nous avons construit", lead: "Trois jeux construits et en ligne. Et la propriété intellectuelle qui les porte — romans et feuilletons — est écrite en interne.", note: "Les arts martiaux de deux cents nations, les coordonnées de villes réelles, des escouades portant leur drapeau : il y a toujours un pays dans nos jeux. Non pour en rendre un plus fort, mais pour qu'un joueur de n'importe où y trouve sa place.", items: {
+    works: { trailer: "Bande-annonce", more: "En savoir plus", heading: "Ce que nous avons construit", lead: "Dix jeux construits. Et la propriété intellectuelle qui les porte — romans et feuilletons — est écrite en interne.", note: "Les arts martiaux de deux cents nations, les coordonnées de villes réelles, des escouades portant leur drapeau : il y a toujours un pays dans nos jeux. Non pour en rendre un plus fort, mais pour qu'un joueur de n'importe où y trouve sa place.", items: {
       fn: { t: "Fighting Nations", b: "Un jeu de combat en 3D sans armes : rien que les arts martiaux du monde, un style par combattant. Des affrontements en équipe sur des décors destructibles, avec pour objectif à terme un battle royale à 64 joueurs. En développement, jouable dès maintenant.", s: ["21 combattants","11 arts martiaux","6 décors"] },
       kingdom: { t: "Kingdom Wars", b: "Choisissez une nation et un commandant, puis prenez la Lune secteur par secteur : 49 en tout, au tour par tour, dans le navigateur. Séries de victoires, notes de combat et butin. Disponible en quatre langues." },
       miliverse: { t: "Milliverse", b: "Jeu de stratégie Web3 sur la carte du monde réel. Achetez des tuiles, déployez armes et troupes, disputez le territoire aux autres joueurs. En ligne en quatre langues, avec météo réelle et cycle jour-nuit qui pèsent sur les combats." },
@@ -1245,7 +1246,7 @@ const I18N = {
         "Harvard, Volkswirtschaft — 1989 in die USA ausgewandert, dreieinhalb Jahre nach der Ankunft aufgenommen",
         "23 Bücher in Korea und den USA veröffentlicht · 407 Songs seit 2012 auf Spotify",
         "Über 23 Jahre Kampfkunst: Judo, Boxen, Hapkido, Haidong Gumdo (1. Dan, 1999), Muay Thai, Taekwondo, Shaolin-Kung-Fu",
-        "Exzellenzpreis beim KI-Wettbewerb des Flughafens Incheon · Preis des Gouverneurs von Jeju beim nationalen KI-Musikwettbewerb · ausgewählt für den 3. Jahrgang des KI-Vibe-Coding-Programms der Ahn-Cheol-soo-Stiftung",
+        "Exzellenzpreis beim KI-Wettbewerb des Flughafens Incheon · Preis des Gouverneurs von Jeju beim nationalen KI-Musikwettbewerb · 3. Jahrgang des KI-Vibe-Coding-Programms der Ahn-Cheol-soo-Stiftung abgeschlossen (April 2026)",
         "Autor von SERAPHIM: The Awakening of Iron Dragon, dem Roman hinter diesem Spiel",
         "2022 zwei Metaverse-Plattformen gestartet. Als der Finanzierungsmarkt kippte, gingen die Server vom Netz — die Lehre blieb: ohne Endziel bleibt niemand, und Spiele haben eines. Milliverse ist zurück und wird weiter gebaut.",
         "Tokyo Game Show seit 2019 · Evo Japan 2020 und Besuch der SoftBank-Zentrale in Tokio · Treffen mit SoftBank-Führungskräften 2022",
@@ -1254,7 +1255,7 @@ const I18N = {
     },
     songs: { heading: "In deiner Sprache", lead: "Titelsong und Spielszenen, aufgenommen in den Sprachen unserer Kämpfer." },
     ip: { heading: "Die Geschichten dahinter", lead: "Romane und Web-Serials, selbst geschrieben.", note: "Jede Welt, in der unsere Spiele stattfinden, begann als Manuskript. Wir lizenzieren keine fremde IP — wir schreiben sie, und ein Spiel ist eine Art, sie zu erzählen.", book: "Seraphim ist als Hardcover erschienen — Rückseite, Buchrücken, Vorderseite. Ein Roman mit 75.000 Wörtern, bei Amazon unter der ISBN 9798285120018. Fighting Nations spielt in dieser Welt." },
-    works: { trailer: "Trailer", more: "Mehr erfahren", heading: "Was wir gebaut haben", lead: "Drei Spiele gebaut und online. Und die IP dahinter — Romane und Web-Serials — schreiben wir selbst.", note: "Kampfkünste aus zweihundert Nationen, Koordinaten echter Städte, Trupps mit ihrer Flagge — in unseren Spielen gibt es immer ein Land. Nicht um eines davon stärker zu machen, sondern damit Spielerinnen und Spieler von überall ihren Platz darin finden.", items: {
+    works: { trailer: "Trailer", more: "Mehr erfahren", heading: "Was wir gebaut haben", lead: "Zehn Spiele gebaut. Und die IP dahinter — Romane und Web-Serials — schreiben wir selbst.", note: "Kampfkünste aus zweihundert Nationen, Koordinaten echter Städte, Trupps mit ihrer Flagge — in unseren Spielen gibt es immer ein Land. Nicht um eines davon stärker zu machen, sondern damit Spielerinnen und Spieler von überall ihren Platz darin finden.", items: {
       fn: { t: "Fighting Nations", b: "Ein 3D-Kampfspiel ohne Waffen — nur die Kampfkünste der Welt, pro Kämpfer ein Stil. Teamkämpfe auf zerstörbaren Bühnen, langfristiges Ziel ist eine Battle Royale für 64 Spielerinnen und Spieler. In Entwicklung und schon spielbar.", s: ["21 Kämpfer","11 Kampfkünste","6 Bühnen"] },
       kingdom: { t: "Kingdom Wars", b: "Nation und Kommandant wählen, dann den Mond Sektor für Sektor nehmen — 49 davon, rundenbasiert, im Browser. Siegesserien, Kampfwertungen und Beute. In vier Sprachen verfügbar." },
       miliverse: { t: "Milliverse", b: "Web3-Strategiespiel auf der echten Weltkarte. Kacheln kaufen, Waffen und Truppen stationieren, mit anderen Spielern um Gebiete kämpfen. In vier Sprachen live, echtes Wetter und Tag-Nacht-Daten fließen in die Kämpfe ein." },
@@ -1373,7 +1374,7 @@ const I18N = {
         "Гарвард, экономика — эмигрировал в США в 1989-м, поступил через три с половиной года после переезда",
         "23 книг издано в Корее и США · 407 песен на Spotify с 2012 года",
         "Более 23 лет боевых искусств: дзюдо, бокс, хапкидо, хэдон гымдо (1-й дан, 1999), муай-тай, тхэквондо, шаолиньское кунг-фу",
-        "Премия за выдающиеся достижения на конкурсе ИИ аэропорта Инчхон · приз губернатора Чеджу на национальном конкурсе ИИ-музыки · отобран в 3-й поток программы ИИ vibe coding фонда Ан Чхоль Су",
+        "Премия за выдающиеся достижения на конкурсе ИИ аэропорта Инчхон · приз губернатора Чеджу на национальном конкурсе ИИ-музыки · окончил 3-й поток программы ИИ vibe coding фонда Ан Чхоль Су (апрель 2026)",
         "Автор романа SERAPHIM: The Awakening of Iron Dragon, из которого выросла игра",
         "В 2022-м запустил две метавселенные. Когда инвестиционный рынок развернулся, серверы пришлось выключить, но вывод остался: без конечной цели люди не остаются, а у игр она есть. Milliverse вернулся и продолжает развиваться.",
         "Tokyo Game Show с 2019 года · Evo Japan 2020 и визит в штаб-квартиру SoftBank в Токио · встреча с руководством SoftBank в 2022-м",
@@ -1382,7 +1383,7 @@ const I18N = {
     },
     songs: { heading: "На вашем языке", lead: "Заглавная тема и игровой процесс, записанные на языках наших бойцов." },
     ip: { heading: "Истории, которые за ними стоят", lead: "Романы и веб-сериалы. Мы пишем их сами.", note: "Каждый мир, в котором происходят наши игры, начинался с рукописи. Мы не берём чужую интеллектуальную собственность — мы пишем свою, а игра лишь один из способов её рассказать.", book: "«Seraphim» вышел в твёрдом переплёте — задняя обложка, корешок, передняя. Роман на 75 000 слов, на Amazon под ISBN 9798285120018. Fighting Nations происходит в этом мире." },
-    works: { trailer: "Трейлер", more: "Подробнее", heading: "Что мы построили", lead: "Три игры сделаны и работают. И IP за ними — романы и веб-сериалы — мы пишем сами.", note: "Боевые искусства двухсот стран, координаты настоящих городов, отряды под своими флагами — в наших играх всегда есть страна. Не для того, чтобы сделать какую-то сильнее, а чтобы игрок откуда угодно нашёл в ней своё место.", items: {
+    works: { trailer: "Трейлер", more: "Подробнее", heading: "Что мы построили", lead: "Десять игр сделано. И IP за ними — романы и веб-сериалы — мы пишем сами.", note: "Боевые искусства двухсот стран, координаты настоящих городов, отряды под своими флагами — в наших играх всегда есть страна. Не для того, чтобы сделать какую-то сильнее, а чтобы игрок откуда угодно нашёл в ней своё место.", items: {
       fn: { t: "Fighting Nations", b: "3D-файтинг без оружия — только боевые искусства мира, у каждого бойца свой стиль. Командные бои на разрушаемых аренах; дальняя цель — королевская битва на 64 игрока. В разработке, играть можно уже сейчас.", s: ["21 боец","11 боевых искусств","6 арен"] },
       kingdom: { t: "Kingdom Wars", b: "Выберите страну и командира и забирайте Луну сектор за сектором — всего 49, пошагово, прямо в браузере. Серии побед, оценки боя и трофеи. Доступна на четырёх языках." },
       miliverse: { t: "Milliverse", b: "Web3-стратегия на настоящей карте мира. Покупайте тайлы, размещайте оружие и войска, отбивайте территорию у других игроков. Работает на четырёх языках, реальная погода и смена дня и ночи влияют на бой." },
@@ -1502,7 +1503,7 @@ const I18N = {
         "جامعة هارفارد، الاقتصاد — هاجر إلى الولايات المتحدة عام 1989 وقُبل بعد ثلاث سنوات ونصف من وصوله",
         "‏23 كتابًا منشورًا في كوريا والولايات المتحدة · 407 أغنية على Spotify منذ 2012",
         "أكثر من 23 عامًا في الفنون القتالية: الجودو والملاكمة والهابكيدو والهايدونغ غومدو (الحزام الأسود الدان الأول، 1999) والمواي تاي والتايكوندو وكونغ فو شاولين",
-        "جائزة التميّز في مسابقة الذكاء الاصطناعي بمطار إنتشون · جائزة حاكم جيجو في المسابقة الوطنية للموسيقى بالذكاء الاصطناعي · الاختيار ضمن الدفعة الثالثة لبرنامج AI Vibe Coding من مؤسسة آن تشول-سو",
+        "جائزة التميّز في مسابقة الذكاء الاصطناعي بمطار إنتشون · جائزة حاكم جيجو في المسابقة الوطنية للموسيقى بالذكاء الاصطناعي · إتمام الدفعة الثالثة لبرنامج AI Vibe Coding من مؤسسة آن تشول-سو (أبريل 2026)",
         "مؤلف رواية SERAPHIM: The Awakening of Iron Dragon التي وُلدت منها اللعبة",
         "أطلق منصتَي ميتافيرس عام 2022. وحين انقلب سوق الاستثمار أُوقفت الخوادم، لكن الدرس بقي: من دون هدف نهائي لا يبقى الناس، والألعاب لديها هدف. وقد عاد Milliverse ولا يزال قيد البناء.",
         "‏حضور Tokyo Game Show منذ 2019 · Evo Japan 2020 وزيارة مقر SoftBank في طوكيو · اجتماع مع تنفيذيي SoftBank عام 2022",
@@ -1511,7 +1512,7 @@ const I18N = {
     },
     songs: { heading: "بلغتك", lead: "أغنية الشارة ولقطات من اللعب، مسجّلة بلغات مقاتلينا." },
     ip: { heading: "الحكايات التي وراءها", lead: "روايات وسلاسل إلكترونية، نكتبها بأنفسنا.", note: "كل عالَم تدور فيه ألعابنا بدأ مخطوطةً. نحن لا نستأجر ملكية فكرية لأحد — نكتبها، واللعبة إحدى طرق روايتها.", book: "صدر «Seraphim» بغلاف مقوّى — الغلاف الخلفي والكعب والغلاف الأمامي. رواية من 75٬000 كلمة، متاحة على أمازون برقم ISBN 9798285120018. وتدور أحداث Fighting Nations في هذا العالم." },
-    works: { trailer: "المقطع الدعائي", more: "اقرأ المزيد", heading: "ما بنيناه", lead: "ثلاث ألعاب مبنية وتعمل. والملكية الفكرية خلفها — روايات وسلاسل إلكترونية — نكتبها بأنفسنا.", note: "فنون قتالية من مئتَي دولة، وإحداثيات مدن حقيقية، وفرق ترفع أعلامها — في ألعابنا حضور دائم للأوطان. لا لنجعل واحدة منها أقوى، بل ليجد اللاعب من أي مكان موضعه فيها.", items: {
+    works: { trailer: "المقطع الدعائي", more: "اقرأ المزيد", heading: "ما بنيناه", lead: "عشر ألعاب مبنية. والملكية الفكرية خلفها — روايات وسلاسل إلكترونية — نكتبها بأنفسنا.", note: "فنون قتالية من مئتَي دولة، وإحداثيات مدن حقيقية، وفرق ترفع أعلامها — في ألعابنا حضور دائم للأوطان. لا لنجعل واحدة منها أقوى، بل ليجد اللاعب من أي مكان موضعه فيها.", items: {
       fn: { t: "Fighting Nations", b: "لعبة قتال ثلاثية الأبعاد بلا أسلحة — فنون العالم القتالية وحدها، لكل مقاتل أسلوبه. معارك جماعية على ساحات قابلة للتحطيم، والهدف البعيد معركة ملكية لأربعة وستين لاعبًا. قيد التطوير ويمكن لعبها الآن.", s: ["21 مقاتلًا","11 فنًا قتاليًا","6 ساحات"] },
       kingdom: { t: "Kingdom Wars", b: "اختر دولة وقائدًا ثم استولِ على القمر قطاعًا بعد قطاع — 49 قطاعًا، بالأدوار، من المتصفح مباشرة. سلاسل انتصارات وتقييمات للمعارك وغنائم. متاحة بأربع لغات." },
       miliverse: { t: "Milliverse", b: "لعبة استراتيجية Web3 على خريطة العالم الحقيقية. اشترِ المربّعات وانشر الأسلحة والجنود ونازع اللاعبين الآخرين على الأرض. تعمل بأربع لغات، وبيانات الطقس الحقيقي والليل والنهار تؤثر في المعارك." },

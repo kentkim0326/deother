@@ -3576,7 +3576,7 @@ const PAGES = {
           h: "AI와 공공데이터",
           p: [
             "하버드에서 경제학을 전공하면서도 컴퓨터 공학 수업을 들었고, IT에 대한 관심은 그 뒤로도 끊긴 적이 없다.",
-            "최근에는 공공데이터와 AI로 앱과 웹을 만들어, 정부와 지자체가 여는 AI 소프트웨어 공모전에 거의 전부 출품하고 있다. 인천공항 AI 공모전은 1차 심사를 통과했다.",
+            "최근에는 공공데이터와 AI로 앱과 웹을 만들어, 정부와 지자체가 여는 AI 소프트웨어 공모전에 거의 전부 출품하고 있다. 인천국제공항공사 AI 공모전에서는 최우수상을 받았고, 그 결과 2026년 6월 인천공항 AI-PORT 구현을 위한 상생협력 업무협약을 맺었다.",
             "RAG를 활용한 LLM 애플리케이션 개발 과정을 수료했고, 인공지능 국제표준화 과정을 거쳤으며, 안철수 대표가 만든 동그라미 재단의 AI 바이브코딩 3기에 선발되었다.",
             "대한민국 정부와 지방자치단체가 여는 공모전 100여 개에 도전하고 있다. 한국콘텐츠진흥원과 경기콘텐츠진흥원에 등록해 미술 전시, 게임, 소설, 웹툰, 힙합, 영화, 웹소설을 가리지 않는다."
           ]
@@ -3661,7 +3661,7 @@ const PAGES = {
           h: "AI and public data",
           p: [
             "He studied economics at Harvard but took computer science courses alongside it, and the interest in IT never stopped.",
-            "Lately he builds apps and web services on public data and AI, and enters nearly every AI software competition the government and local authorities run. The Incheon Airport AI competition passed its first round.",
+            "Lately he builds apps and web services on public data and AI, and enters nearly every AI software competition the government and local authorities run. The Incheon International Airport Corporation's AI competition brought a grand prize, and with it a cooperation agreement signed in June 2026 to help build the airport's AI-PORT.",
             "He completed a course in building LLM applications with RAG, went through an AI international standardisation programme, and was selected for the third cohort of the Ahn Cheol-soo Foundation's AI vibe-coding programme.",
             "He is competing in around a hundred competitions run by the Korean government and its local authorities, registered with the Korea Creative Content Agency and the Gyeonggi Content Agency — art exhibitions, games, novels, webtoons, hip-hop, film, web novels, no genre excluded."
           ]
@@ -3747,7 +3747,7 @@ const PAGES = {
           h: "AI 与公共数据",
           p: [
             "他在哈佛主修经济学，同时也修了计算机课程，对 IT 的兴趣从未中断。",
-            "最近他基于公共数据与 AI 开发应用与网络服务，几乎报名了政府与地方自治团体举办的所有 AI 软件大赛。仁川机场 AI 大赛通过了第一轮。",
+            "最近他基于公共数据与 AI 开发应用与网络服务，几乎报名了政府与地方自治团体举办的所有 AI 软件大赛。在仁川国际机场公社的 AI 大赛中获得最优秀奖，并因此于 2026 年 6 月签署了为实现仁川机场 AI-PORT 的相生合作协议。",
             "他修完了用 RAG 构建 LLM 应用的课程，参加了 AI 国际标准化项目，并入选安哲秀财团 AI vibe coding 项目第三期。",
             "他在韩国文化内容振兴院与京畿内容振兴院登记，正在参加政府与地方约一百项公募——美术展、游戏、小说、网络漫画、嘻哈、电影、网络小说，不限体裁。"
           ]
@@ -3833,7 +3833,7 @@ const PAGES = {
           h: "AIと公共データ",
           p: [
             "ハーバードでは経済学を専攻しながらコンピュータ科学の授業も取り、ITへの関心は途切れませんでした。",
-            "最近は公共データとAIを使ってアプリやウェブサービスを作り、政府や自治体が開くAIソフトウェアのコンテストにはほぼすべて応募しています。仁川空港のAIコンテストは一次を通過しました。",
+            "最近は公共データとAIを使ってアプリやウェブサービスを作り、政府や自治体が開くAIソフトウェアのコンテストにはほぼすべて応募しています。仁川国際空港公社のAIコンペでは最優秀賞を受け、それを機に2026年6月、仁川空港AI-PORT実現のための相生協力協定を結びました。",
             "RAGを使ったLLMアプリ構築の講座を修了し、AI国際標準化プログラムを経て、安哲秀財団のAIバイブコーディング三期に選ばれました。",
             "韓国コンテンツ振興院と京畿コンテンツ振興院に登録し、政府と自治体の公募およそ百件に挑戦しています——美術展、ゲーム、小説、ウェブトゥーン、ヒップホップ、映画、ウェブ小説。ジャンルは問いません。"
           ]
@@ -3919,7 +3919,7 @@ const PAGES = {
           h: "IA y datos públicos",
           p: [
             "Estudió Economía en Harvard, pero cursó asignaturas de informática en paralelo, y el interés por la tecnología nunca se detuvo.",
-            "Últimamente construye aplicaciones y servicios web sobre datos públicos e IA, y se presenta a casi todos los concursos de software con IA que convocan el gobierno y las administraciones locales. El concurso de IA del aeropuerto de Incheon pasó su primera ronda.",
+            "Últimamente construye aplicaciones y servicios web sobre datos públicos e IA, y se presenta a casi todos los concursos de software con IA que convocan el gobierno y las administraciones locales. En el concurso de IA de la Corporación del Aeropuerto Internacional de Incheon obtuvo el primer premio y, a raíz de ello, firmó en junio de 2026 un acuerdo de cooperación para hacer realidad el AI-PORT del aeropuerto.",
             "Completó un curso de construcción de aplicaciones LLM con RAG, pasó por un programa de estandarización internacional de IA y fue seleccionado para la tercera promoción del programa de vibe coding con IA de la Fundación Ahn Cheol-soo.",
             "Compite en un centenar de convocatorias del gobierno coreano y sus administraciones locales, inscrito en la Korea Creative Content Agency y en la Gyeonggi Content Agency: exposiciones de arte, juegos, novela, webtoon, hip-hop, cine, novela web; ningún género queda fuera."
           ]
@@ -4005,7 +4005,7 @@ const PAGES = {
           h: "IA e dados públicos",
           p: [
             "Estudou Economia em Harvard, mas frequentou cadeiras de informática em paralelo, e o interesse por tecnologia nunca parou.",
-            "Ultimamente constrói aplicações e serviços web sobre dados públicos e IA, e candidata-se a quase todos os concursos de software com IA promovidos pelo governo e pelas autarquias. O concurso de IA do aeroporto de Incheon passou a primeira ronda.",
+            "Ultimamente constrói aplicações e serviços web sobre dados públicos e IA, e candidata-se a quase todos os concursos de software com IA promovidos pelo governo e pelas autarquias. No concurso de IA da Corporação do Aeroporto Internacional de Incheon obteve o primeiro prémio e, por causa disso, assinou em junho de 2026 um acordo de cooperação para concretizar o AI-PORT do aeroporto.",
             "Concluiu um curso de construção de aplicações LLM com RAG, passou por um programa de normalização internacional de IA e foi selecionado para a terceira turma do programa de vibe coding com IA da Fundação Ahn Cheol-soo.",
             "Concorre a cerca de cem concursos do governo coreano e das autarquias, inscrito na Korea Creative Content Agency e na Gyeonggi Content Agency — exposições de arte, jogos, romance, webtoon, hip-hop, cinema, romance web; nenhum género fica de fora."
           ]
@@ -4091,7 +4091,7 @@ const PAGES = {
           h: "IA et données publiques",
           p: [
             "Il a étudié l'économie à Harvard tout en suivant des cours d'informatique, et l'intérêt pour la technique ne s'est jamais arrêté.",
-            "Depuis peu, il construit des applications et des services web sur des données publiques et de l'IA, et se présente à presque tous les concours de logiciels d'IA lancés par l'État et les collectivités locales. Le concours d'IA de l'aéroport d'Incheon a passé le premier tour.",
+            "Depuis peu, il construit des applications et des services web sur des données publiques et de l'IA, et se présente à presque tous les concours de logiciels d'IA lancés par l'État et les collectivités locales. Au concours d'IA de la société de l'aéroport international d'Incheon, il a remporté le premier prix, ce qui a mené en juin 2026 à un accord de coopération pour réaliser l'AI-PORT de l'aéroport.",
             "Il a suivi une formation à la construction d'applications LLM avec RAG, est passé par un programme de normalisation internationale de l'IA et a été retenu pour la troisième promotion du programme de vibe coding par IA de la fondation Ahn Cheol-soo.",
             "Il concourt à une centaine d'appels lancés par le gouvernement coréen et ses collectivités, inscrit auprès de la Korea Creative Content Agency et de la Gyeonggi Content Agency — expositions d'art, jeux, romans, webtoons, hip-hop, cinéma, romans web : aucun genre n'est exclu."
           ]
@@ -4177,7 +4177,7 @@ const PAGES = {
           h: "KI und offene Daten",
           p: [
             "Er studierte in Harvard Wirtschaft, belegte daneben aber Informatikkurse, und das Interesse an IT riss nie ab.",
-            "In letzter Zeit baut er Apps und Webdienste auf offenen Daten und KI und bewirbt sich auf nahezu jeden KI-Softwarewettbewerb, den Regierung und Kommunen ausschreiben. Beim KI-Wettbewerb des Flughafens Incheon kam er durch die erste Runde.",
+            "In letzter Zeit baut er Apps und Webdienste auf offenen Daten und KI und bewirbt sich auf nahezu jeden KI-Softwarewettbewerb, den Regierung und Kommunen ausschreiben. Beim KI-Wettbewerb der Incheon International Airport Corporation gewann er den ersten Preis — daraus wurde im Juni 2026 eine Kooperationsvereinbarung zum Aufbau des AI-PORT am Flughafen.",
             "Er absolvierte einen Kurs zum Bau von LLM-Anwendungen mit RAG, durchlief ein Programm zur internationalen KI-Standardisierung und wurde für den dritten Jahrgang des KI-Vibe-Coding-Programms der Ahn-Cheol-soo-Stiftung ausgewählt.",
             "Er nimmt an rund hundert Ausschreibungen der koreanischen Regierung und ihrer Kommunen teil, registriert bei der Korea Creative Content Agency und der Gyeonggi Content Agency — Kunstausstellungen, Spiele, Romane, Webtoons, Hip-Hop, Film, Webromane; kein Genre ist ausgenommen."
           ]
@@ -4263,7 +4263,7 @@ const PAGES = {
           h: "ИИ и открытые данные",
           p: [
             "В Гарварде он изучал экономику, но параллельно брал курсы по информатике, и интерес к ИТ так и не пропал.",
-            "В последнее время он строит приложения и веб-сервисы на открытых данных и ИИ и подаётся почти на все конкурсы ИИ-софта, которые проводят правительство и местные власти. Конкурс ИИ аэропорта Инчхон прошёл первый тур.",
+            "В последнее время он строит приложения и веб-сервисы на открытых данных и ИИ и подаётся почти на все конкурсы ИИ-софта, которые проводят правительство и местные власти. На конкурсе ИИ корпорации международного аэропорта Инчхон он получил первую премию, и в июне 2026 года это привело к соглашению о сотрудничестве ради создания AI-PORT аэропорта.",
             "Он окончил курс по созданию LLM-приложений с RAG, прошёл программу международной стандартизации ИИ и был отобран в третий поток программы ИИ-вайбкодинга фонда Ан Чхоль Су.",
             "Он участвует примерно в сотне конкурсов корейского правительства и местных администраций, зарегистрировавшись в Korea Creative Content Agency и Gyeonggi Content Agency, — художественные выставки, игры, романы, вебтуны, хип-хоп, кино, веб-романы: без исключений по жанрам."
           ]
@@ -4349,7 +4349,7 @@ const PAGES = {
           h: "الذكاء الاصطناعي والبيانات المفتوحة",
           p: [
             "درس الاقتصاد في هارفارد، لكنه أخذ إلى جانبه مقرّرات في علوم الحاسوب، ولم ينقطع اهتمامه بالتقنية.",
-            "وفي الآونة الأخيرة يبني تطبيقات وخدمات ويب على البيانات المفتوحة والذكاء الاصطناعي، ويتقدّم إلى كل مسابقة برمجيات ذكاء اصطناعي تقريبًا تنظّمها الحكومة والإدارات المحلية. وقد اجتازت مسابقة مطار إنتشون للذكاء الاصطناعي جولتها الأولى.",
+            "وفي الآونة الأخيرة يبني تطبيقات وخدمات ويب على البيانات المفتوحة والذكاء الاصطناعي، ويتقدّم إلى كل مسابقة برمجيات ذكاء اصطناعي تقريبًا تنظّمها الحكومة والإدارات المحلية. وفي مسابقة الذكاء الاصطناعي التي نظّمتها شركة مطار إنتشون الدولي حصل على الجائزة الأولى، وأدى ذلك في يونيو 2026 إلى اتفاقية تعاون لتحقيق مشروع AI-PORT في المطار.",
             "‏أنهى دورة في بناء تطبيقات نماذج اللغة الكبيرة باستخدام RAG، وشارك في برنامج للتقييس الدولي للذكاء الاصطناعي، واختير ضمن الدفعة الثالثة لبرنامج «vibe coding» بالذكاء الاصطناعي في مؤسسة آن تشول-سو.",
             "‏ويشارك في نحو مئة مسابقة تنظّمها الحكومة الكورية وإداراتها المحلية، وهو مسجَّل لدى Korea Creative Content Agency ووكالة محتوى جيونغي — معارض فنية وألعاب وروايات وويبتون وهيب هوب وسينما وروايات ويب، دون استثناء نوع."
           ]
@@ -4641,7 +4641,9 @@ const PAGES = {
         "부스에서 Fighting Nations 를 소개하는 대표 김형섭. 목록의 행사마다 이렇게 직접 섭니다.",
         "글로벌 게임 챌린지 2025 — 2025년 11월 29일 중앙대학교 100주년기념관. 선정되어 실제로 선 자리입니다.",
         "GGC 「우수 인디게임 초청전」의 디아더 부스. 20작품 내외 선정작으로 초청받았습니다.",
-        "관람객이 부스에서 Fighting Nations 를 직접 플레이했습니다."
+        "관람객이 부스에서 Fighting Nations 를 직접 플레이했습니다.",
+        "2026년 6월 24일, 인천국제공항공사와 상생협력 업무협약. 인천공항 AI-PORT 구현을 위해 선정된 세 개 스타트업 중 하나입니다.",
+        "협약식 자리의 대표 김형섭. 인천국제공항공사 AI 공모전 최우수상이 이 협약으로 이어졌습니다."
       ],
       cta: "출품작 해보기 — Fighting Nations", back: "디아더로 돌아가기"
     },
@@ -4909,7 +4911,9 @@ const PAGES = {
         "Founder Kent Kim introducing Fighting Nations at the booth. He stands the booth himself at every show on this list.",
         "Global Game Challenge 2025 — 29 November 2025 at Chung-Ang University, Seoul. A place we reached by being selected.",
         "Our stand at the GGC Outstanding Indie Game Invitational, invited as one of about 20 selected titles.",
-        "A visitor playing Fighting Nations at the stand."
+        "A visitor playing Fighting Nations at the stand.",
+        "24 June 2026 — a cooperation agreement with Incheon International Airport Corporation. Deother is one of three startups chosen to help build the airport's AI-PORT.",
+        "Founder Kent Kim at the signing. The grand prize at the airport corporation's AI competition is what led to this agreement."
       ],
       cta: "Play the game we are entering", back: "Back to Deother"
     },
@@ -5177,7 +5181,9 @@ const PAGES = {
         "创始人 Kent Kim 在展位上介绍《Fighting Nations》。名单上的每场活动他都亲自到场。",
         "全球游戏挑战赛 2025 —— 2025 年 11 月 29 日，中央大学百年纪念馆。入选后真正站上的舞台。",
         "GGC「优秀独立游戏邀请展」的迪亚德展位，作为约 20 款入选作品之一受邀参展。",
-        "来访者在展位上试玩《Fighting Nations》。"
+        "来访者在展位上试玩《Fighting Nations》。",
+        "2026 年 6 月 24 日，与仁川国际机场公社签署相生合作协议。为实现仁川机场 AI-PORT，我们是获选的三家初创企业之一。",
+        "签约仪式上的创始人 Kent Kim。仁川国际机场公社 AI 大赛的最优秀奖促成了这次协议。"
       ],
       cta: "试玩我们送去参赛的游戏", back: "返回 Deother"
     },
@@ -5445,7 +5451,9 @@ const PAGES = {
         "ブースで Fighting Nations を紹介する代表の Kent Kim。一覧のどの催しにも自ら立ちます。",
         "グローバル ゲーム チャレンジ 2025 —— 2025年11月29日、中央大学校 100 周年記念館。選ばれて実際に立った場です。",
         "GGC「優秀インディーゲーム招待展」の Deother ブース。約 20 作品の選定作として招待されました。",
-        "来場者がブースで Fighting Nations を実際にプレイ。"
+        "来場者がブースで Fighting Nations を実際にプレイ。",
+        "2026年6月24日、仁川国際空港公社との相生協力協定。仁川空港 AI-PORT 実現のために選ばれた3社のスタートアップの一つです。",
+        "協定式に出席した代表 Kent Kim。仁川国際空港公社 AI コンペの最優秀賞がこの協定につながりました。"
       ],
       cta: "出品作を遊んでみる", back: "Deother に戻る"
     },
@@ -5713,7 +5721,9 @@ const PAGES = {
         "El fundador, Kent Kim, presentando Fighting Nations en el stand. Atiende en persona cada convocatoria de la lista.",
         "Global Game Challenge 2025, el 29 de noviembre de 2025 en la Universidad Chung-Ang, Seúl. Un sitio al que llegamos por selección.",
         "Nuestro stand en la Muestra de Juegos Indie Destacados del GGC, invitados entre unos 20 títulos seleccionados.",
-        "Un visitante juega a Fighting Nations en el stand."
+        "Un visitante juega a Fighting Nations en el stand.",
+        "24 de junio de 2026: acuerdo de cooperación con la Corporación del Aeropuerto Internacional de Incheon. Deother es una de las tres startups elegidas para hacer realidad el AI-PORT del aeropuerto.",
+        "El fundador Kent Kim en la firma. El primer premio en el concurso de IA de la corporación aeroportuaria condujo a este acuerdo."
       ],
       cta: "Juega al juego que presentamos", back: "Volver a Deother"
     },
@@ -5981,7 +5991,9 @@ const PAGES = {
         "O fundador, Kent Kim, a apresentar Fighting Nations no stand. Está presente em cada evento da lista.",
         "Global Game Challenge 2025, a 29 de novembro de 2025 na Universidade Chung-Ang, Seul. Um lugar a que chegámos por seleção.",
         "O nosso stand na Mostra de Jogos Indie em Destaque do GGC, convidados entre cerca de 20 títulos selecionados.",
-        "Um visitante a jogar Fighting Nations no stand."
+        "Um visitante a jogar Fighting Nations no stand.",
+        "24 de junho de 2026 — acordo de cooperação com a Corporação do Aeroporto Internacional de Incheon. A Deother é uma das três startups escolhidas para concretizar o AI-PORT do aeroporto.",
+        "O fundador Kent Kim na assinatura. O primeiro prémio no concurso de IA da corporação aeroportuária levou a este acordo."
       ],
       cta: "Joga o jogo que apresentamos", back: "Voltar a Deother"
     },
@@ -6249,7 +6261,9 @@ const PAGES = {
         "Le fondateur, Kent Kim, présente Fighting Nations sur le stand. Il tient lui-même le stand à chaque salon de la liste.",
         "Global Game Challenge 2025, le 29 novembre 2025 à l'université Chung-Ang, à Séoul. Un lieu atteint par sélection.",
         "Notre stand à l'exposition sur invitation des meilleurs jeux indépendants du GGC, invités parmi une vingtaine de titres sélectionnés.",
-        "Un visiteur joue à Fighting Nations sur le stand."
+        "Un visiteur joue à Fighting Nations sur le stand.",
+        "24 juin 2026 — accord de coopération avec la société de l'aéroport international d'Incheon. Deother est l'une des trois startups retenues pour réaliser l'AI-PORT de l'aéroport.",
+        "Le fondateur Kent Kim lors de la signature. Le premier prix au concours d'IA de la société aéroportuaire a mené à cet accord."
       ],
       cta: "Jouer au jeu que nous présentons", back: "Retour à Deother"
     },
@@ -6517,7 +6531,9 @@ const PAGES = {
         "Gründer Kent Kim stellt Fighting Nations am Stand vor. Bei jeder Messe dieser Liste steht er selbst am Stand.",
         "Global Game Challenge 2025 — am 29. November 2025 an der Chung-Ang-Universität in Seoul. Ein Ort, den wir durch Auswahl erreicht haben.",
         "Unser Stand bei der GGC-Einladungsausstellung herausragender Indie-Spiele, eingeladen als eines von rund 20 ausgewählten Titeln.",
-        "Ein Besucher spielt Fighting Nations am Stand."
+        "Ein Besucher spielt Fighting Nations am Stand.",
+        "24. Juni 2026 — Kooperationsvereinbarung mit der Incheon International Airport Corporation. Deother ist eines von drei Start-ups, die den AI-PORT des Flughafens mit aufbauen sollen.",
+        "Gründer Kent Kim bei der Unterzeichnung. Der erste Preis beim KI-Wettbewerb der Flughafengesellschaft führte zu dieser Vereinbarung."
       ],
       cta: "Das Spiel spielen, das wir einreichen", back: "Zurück zu Deother"
     },
@@ -6785,7 +6801,9 @@ const PAGES = {
         "Основатель Kent Kim рассказывает о Fighting Nations на стенде. На каждой выставке из списка он стоит за стендом сам.",
         "Global Game Challenge 2025 — 29 ноября 2025 года, Университет Чунг-Ан в Сеуле. Место, куда мы попали по отбору.",
         "Наш стенд на выставке лучших инди-игр GGC по приглашению — среди примерно 20 отобранных работ.",
-        "Посетитель играет в Fighting Nations на стенде."
+        "Посетитель играет в Fighting Nations на стенде.",
+        "24 июня 2026 года — соглашение о сотрудничестве с корпорацией международного аэропорта Инчхон. Deother — один из трёх стартапов, отобранных для создания AI-PORT аэропорта.",
+        "Основатель Kent Kim на церемонии подписания. Первая премия на конкурсе ИИ аэропортовой корпорации привела к этому соглашению."
       ],
       cta: "Сыграть в игру, которую мы подаём", back: "Назад в Deother"
     },
@@ -7053,7 +7071,9 @@ const PAGES = {
         "المؤسس Kent Kim يقدّم Fighting Nations في المنصّة. يقف بنفسه في كل معرض من القائمة.",
         "‏Global Game Challenge 2025 — في 29 نوفمبر 2025 بجامعة تشونغ-آنغ في سول. مكان بلغناه بالاختيار.",
         "منصّتنا في معرض الألعاب المستقلة المتميّزة بالدعوة ضمن GGC، بدعوة ضمن نحو 20 عملاً مختاراً.",
-        "أحد الزوار يلعب Fighting Nations في المنصّة."
+        "أحد الزوار يلعب Fighting Nations في المنصّة.",
+        "‏24 يونيو 2026 — اتفاقية تعاون مع شركة مطار إنتشون الدولي. ‏Deother واحدة من ثلاث شركات ناشئة اختيرت للمساهمة في بناء مشروع AI-PORT بالمطار.",
+        "‏المؤسس Kent Kim في مراسم التوقيع. الجائزة الأولى في مسابقة الذكاء الاصطناعي لشركة المطار هي ما أدى إلى هذه الاتفاقية."
       ],
       cta: "‏جرّب اللعبة التي نتقدّم بها", back: "‏العودة إلى Deother"
     }
