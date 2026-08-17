@@ -83,11 +83,14 @@ const FESTIVALS_SLIDES = [
 // ※ 인물 사진을 쓸 때는 그 사람이 누구인지 확인하고 쓴다. 발표자료 19쪽의 지스타 2022 사진을
 //   대표님으로 단정해 넣었다가 뺐다(2026-08-16) — 대표님이 아니었다.
 
-// 태국 게임쇼 아홉 장. 순서가 곧 이야기다 — 행사 → 한국관 → 라인업 보드 → 우리 부스 →
-// 플레이 화면 → 관람객이 직접 해 보는 장면 → 방문객 → 개발자 → 배급사.
+// 태국 게임쇼 열두 장. 순서가 곧 이야기다 — 행사 입구 → 메인 스테이지 → 한국관 → 라인업 보드 →
+// 한국관 안 우리 자리 → 우리 부스 → 부스에서 소개 → 플레이 화면 → 관람객이 직접 해 보는 장면 →
+// 방문객 → 개발자 → 배급사. 넓은 곳에서 우리 부스로, 다시 사람으로 좁혀 들어간다.
 // journey.photos 의 캡션과 인덱스로 붙으므로 순서를 바꾸면 10개 언어를 같이 고쳐야 한다.
-const SHOW_PHOTOS = ["assets/tgs-06.jpg", "assets/tgs-01.jpg", "assets/tgs-08.jpg",
-                     "assets/tgs-02.jpg", "assets/tgs-09.jpg", "assets/tgs-07.jpg",
+// ※ 열두 장까지는 격자(.show-photos)로 둔다. 열세 장이 되면 슬라이드쇼(pSlideSet)로 바꾼다.
+const SHOW_PHOTOS = ["assets/tgs-10.jpg", "assets/tgs-06.jpg", "assets/tgs-01.jpg",
+                     "assets/tgs-08.jpg", "assets/tgs-11.jpg", "assets/tgs-02.jpg",
+                     "assets/tgs-12.jpg", "assets/tgs-09.jpg", "assets/tgs-07.jpg",
                      "assets/tgs-03.jpg", "assets/tgs-04.jpg", "assets/tgs-05.jpg"];
 const TIMEWARS_SLIDES = ["timewars-cover.jpg"];   // assets/ (키아트. 게임 스크린샷 나오면 추가)
 // 로스터 20명 (도시별 대표 1장). assets/slides-tk/. 세로 전신 아트 → 슬라이드쇼가 세로 프레임으로 뜬다.
@@ -265,10 +268,13 @@ const I18N = {
       more: "Every show we are entering in 2027 →",
       // 부스 사진 캡션. 파일은 i18n.js 위쪽 SHOW_PHOTOS, 사실관계는 아래 연표와 같아야 한다.
       photos: [
+        "The official gamescom asia x Thailand Game Show sign at the entrance to the show's business area.",
         "The main stage at the venue, where gamescom asia and Thailand Game Show ran together.",
         "gamescom asia x Thailand Game Show, Bangkok, October 2025 — the K-GAME PLAYGROUND Korea pavilion, where 16 Korean studios stood together. Sponsored by Megazone Cloud.",
         "Fighting Nations on the Korea pavilion lineup board. The programme was run with the Ministry of SMEs and Startups, KOCCA and Megazone Cloud.",
+        "Inside the K-GAME PLAYGROUND Korea pavilion — our booth stands at the right, with meetings under way at the tables in the middle.",
         "Our booth, with the Fighting Nations poster up and the game playable on the spot.",
+        "Introducing Fighting Nations at the booth.",
         "Actual gameplay running on the booth monitors.",
         "A visitor playing Fighting Nations at the booth.",
         "At the booth with a visitor.",
@@ -390,10 +396,13 @@ const I18N = {
       videos: { gameplay: "실제 게임 영상", trailer: "트레일러", pitch: "VC 피칭 — 경기 게임 커넥트" },
       more: "2027년까지 도전할 행사 전부 보기 →",
       photos: [
+        "행사장 비즈니스 구역 입구에 선 gamescom asia x Thailand Game Show 공식 사인.",
         "행사장 메인 스테이지. gamescom asia 와 Thailand Game Show 가 함께 연 자리입니다.",
         "gamescom asia x Thailand Game Show, 2025년 10월 방콕 — 16개 한국 게임사가 함께 선 한국관 K-GAME PLAYGROUND. 메가존 클라우드가 후원했습니다.",
         "한국관 라인업 보드에 걸린 Fighting Nations. 중소벤처기업부·한국콘텐츠진흥원·메가존 클라우드가 함께한 프로그램이었습니다.",
+        "한국관 K-GAME PLAYGROUND 안. 오른쪽 끝이 디아더 부스이고, 가운데 테이블에서는 상담이 이어졌습니다.",
         "디아더 부스. Fighting Nations 포스터를 걸고, 그 자리에서 게임을 해 볼 수 있게 했습니다.",
+        "부스에서 Fighting Nations 를 소개하고 있습니다.",
         "부스 모니터로 내보낸 실제 플레이 화면.",
         "관람객이 부스에서 Fighting Nations 를 직접 플레이했습니다.",
         "부스를 찾아온 관계자와.",
@@ -513,10 +522,13 @@ const I18N = {
       videos: { gameplay: "实机画面", trailer: "预告片", pitch: "VC 路演 — 京畿 Game Connect" },
       more: "我们 2027 年前要挑战的所有展会 →",
       photos: [
+        "会场商务区入口处的 gamescom asia x Thailand Game Show 官方标识。",
         "会场主舞台。gamescom asia 与 Thailand Game Show 联合举办。",
         "gamescom asia x Thailand Game Show，2025 年 10 月曼谷 —— 16 家韩国工作室共同参展的韩国馆 K-GAME PLAYGROUND，由 Megazone Cloud 赞助。",
         "韩国馆参展阵容展板上的《Fighting Nations》。该项目由中小风险企业部、韩国内容振兴院与 Megazone Cloud 共同支持。",
+        "韩国馆 K-GAME PLAYGROUND 内部。右侧是迪亚德展位，中间的洽谈桌上会谈不断。",
         "迪亚德展位。挂上《Fighting Nations》海报，让来访者当场试玩。",
+        "在展位上介绍《Fighting Nations》。",
         "展位显示器上播放的实际游戏画面。",
         "来访者在展位上试玩《Fighting Nations》。",
         "与到访展位的业内人士。",
@@ -635,10 +647,13 @@ const I18N = {
       videos: { gameplay: "実機映像", trailer: "トレーラー", pitch: "VC ピッチ — 京畿 Game Connect" },
       more: "2027年までに挑む展示会のすべて →",
       photos: [
+        "会場のビジネスエリア入口に立つ gamescom asia x Thailand Game Show の公式サイン。",
         "会場のメインステージ。gamescom asia と Thailand Game Show が合同で開いた場です。",
         "gamescom asia x Thailand Game Show、2025年10月バンコク——韓国16社が並んだ韓国館 K-GAME PLAYGROUND。Megazone Cloud 協賛。",
         "韓国館のラインナップボードに並んだ Fighting Nations。中小ベンチャー企業部・韓国コンテンツ振興院・Megazone Cloud が携わったプログラムでした。",
+        "韓国館 K-GAME PLAYGROUND の中。右端が Deother ブースで、中央のテーブルでは商談が続いていました。",
         "Deother ブース。Fighting Nations のポスターを掲げ、その場で遊べるようにしました。",
+        "ブースで Fighting Nations を紹介しているところ。",
         "ブースのモニターに映した実際のプレイ画面。",
         "来場者がブースで Fighting Nations を実際にプレイ。",
         "ブースを訪ねてくれた業界関係者と。",
@@ -757,10 +772,13 @@ const I18N = {
       videos: { gameplay: "Gameplay", trailer: "Tráiler", pitch: "Pitch a VC — Gyeonggi Game Connect" },
       more: "Todas las ferias a las que nos presentamos hasta 2027 →",
       photos: [
+        "El cartel oficial de gamescom asia x Thailand Game Show a la entrada de la zona de negocios del salón.",
         "El escenario principal del recinto, donde gamescom asia y Thailand Game Show se celebraron juntos.",
         "gamescom asia x Thailand Game Show, Bangkok, octubre de 2025: el pabellón coreano K-GAME PLAYGROUND, donde estuvimos 16 estudios coreanos. Patrocinado por Megazone Cloud.",
         "Fighting Nations en el panel de estudios del pabellón coreano. El programa se hizo con el Ministerio de Pymes y Startups, KOCCA y Megazone Cloud.",
+        "Dentro del pabellón coreano K-GAME PLAYGROUND: nuestro stand está a la derecha y en las mesas del centro seguían las reuniones.",
         "Nuestro stand, con el póster de Fighting Nations y el juego disponible para probarlo allí mismo.",
+        "Presentando Fighting Nations en el stand.",
         "Partidas reales corriendo en los monitores del stand.",
         "Un visitante jugando a Fighting Nations en el stand.",
         "En el stand con un visitante.",
@@ -879,10 +897,13 @@ const I18N = {
       videos: { gameplay: "Gameplay", trailer: "Trailer", pitch: "Pitch a VC — Gyeonggi Game Connect" },
       more: "Todos os eventos a que nos candidatamos até 2027 →",
       photos: [
+        "O letreiro oficial da gamescom asia x Thailand Game Show à entrada da zona de negócios da feira.",
         "O palco principal do recinto, onde a gamescom asia e a Thailand Game Show decorreram em conjunto.",
         "gamescom asia x Thailand Game Show, Banguecoque, outubro de 2025 — o pavilhão coreano K-GAME PLAYGROUND, onde estivemos 16 estúdios coreanos. Patrocinado pela Megazone Cloud.",
         "Fighting Nations no painel de estúdios do pavilhão coreano. O programa foi feito com o Ministério das PME e Startups, a KOCCA e a Megazone Cloud.",
+        "Dentro do pavilhão coreano K-GAME PLAYGROUND: o nosso stand fica à direita e nas mesas do centro decorriam reuniões.",
         "O nosso stand, com o cartaz de Fighting Nations e o jogo jogável ali mesmo.",
+        "A apresentar Fighting Nations no stand.",
         "Jogabilidade real a correr nos monitores do stand.",
         "Um visitante a jogar Fighting Nations no stand.",
         "No stand com um visitante.",
@@ -1001,10 +1022,13 @@ const I18N = {
       videos: { gameplay: "Séquences de jeu", trailer: "Bande-annonce", pitch: "Pitch investisseurs — Gyeonggi Game Connect" },
       more: "Tous les salons auxquels nous postulons d'ici 2027 →",
       photos: [
+        "L'enseigne officielle gamescom asia x Thailand Game Show à l'entrée de l'espace business du salon.",
         "La scène principale du salon, où gamescom asia et Thailand Game Show se tenaient ensemble.",
         "gamescom asia x Thailand Game Show, Bangkok, octobre 2025 — le pavillon coréen K-GAME PLAYGROUND, où 16 studios coréens étaient réunis. Parrainé par Megazone Cloud.",
         "Fighting Nations sur le panneau des studios du pavillon coréen. Le programme était mené avec le ministère des PME et des Startups, la KOCCA et Megazone Cloud.",
+        "À l'intérieur du pavillon coréen K-GAME PLAYGROUND : notre stand est à droite, et les rendez-vous s'enchaînaient aux tables du centre.",
         "Notre stand, avec l'affiche de Fighting Nations et le jeu jouable sur place.",
+        "Présentation de Fighting Nations sur le stand.",
         "Des parties réelles tournant sur les écrans du stand.",
         "Un visiteur joue à Fighting Nations sur le stand.",
         "Au stand avec un visiteur.",
@@ -1123,10 +1147,13 @@ const I18N = {
       videos: { gameplay: "Spielszenen", trailer: "Trailer", pitch: "VC-Pitch — Gyeonggi Game Connect" },
       more: "Alle Messen, für die wir uns bis 2027 bewerben →",
       photos: [
+        "Das offizielle Schild von gamescom asia x Thailand Game Show am Eingang zum Business-Bereich der Messe.",
         "Die Hauptbühne des Veranstaltungsorts, wo gamescom asia und Thailand Game Show gemeinsam stattfanden.",
         "gamescom asia x Thailand Game Show, Bangkok, Oktober 2025 — der koreanische Pavillon K-GAME PLAYGROUND, in dem 16 koreanische Studios zusammenstanden. Gesponsert von Megazone Cloud.",
         "Fighting Nations auf der Studio-Tafel des koreanischen Pavillons. Das Programm lief mit dem Ministerium für KMU und Start-ups, KOCCA und Megazone Cloud.",
+        "Im koreanischen Pavillon K-GAME PLAYGROUND: Unser Stand steht rechts, an den Tischen in der Mitte liefen die Gespräche.",
         "Unser Stand, mit dem Fighting-Nations-Plakat und dem Spiel direkt vor Ort spielbar.",
+        "Fighting Nations wird am Stand vorgestellt.",
         "Echtes Gameplay auf den Monitoren am Stand.",
         "Ein Besucher spielt Fighting Nations am Stand.",
         "Am Stand mit einem Besucher.",
@@ -1245,10 +1272,13 @@ const I18N = {
       videos: { gameplay: "Игровой процесс", trailer: "Трейлер", pitch: "Питч для VC — Gyeonggi Game Connect" },
       more: "Все фестивали, на которые мы подаём заявки до 2027 года →",
       photos: [
+        "Официальная вывеска gamescom asia x Thailand Game Show у входа в бизнес-зону выставки.",
         "Главная сцена площадки, где gamescom asia и Thailand Game Show проходили вместе.",
         "gamescom asia x Thailand Game Show, Бангкок, октябрь 2025 — корейский павильон K-GAME PLAYGROUND, где вместе стояли 16 корейских студий. При поддержке Megazone Cloud.",
         "Fighting Nations на стенде со списком студий корейского павильона. Программа проходила при участии Министерства МСП и стартапов, KOCCA и Megazone Cloud.",
+        "Внутри корейского павильона K-GAME PLAYGROUND: наш стенд справа, а за столами в центре шли переговоры.",
         "Наш стенд: постер Fighting Nations и игра, в которую можно было сыграть прямо там.",
+        "Рассказываем о Fighting Nations на стенде.",
         "Реальный геймплей на мониторах стенда.",
         "Посетитель играет в Fighting Nations на стенде.",
         "На стенде с гостем.",
@@ -1368,10 +1398,13 @@ const I18N = {
       more: "كل المعارض التي نتقدّم إليها حتى 2027 ←",
       // 라틴 문자로 시작하는 줄에는 RLM(U+200F)을 앞에 둔다 — 없으면 문장 방향이 뒤집혀 보인다.
       photos: [
+        "اللافتة الرسمية لـ gamescom asia x Thailand Game Show عند مدخل منطقة الأعمال في المعرض.",
         "المسرح الرئيسي في المعرض، حيث أُقيم gamescom asia و Thailand Game Show معًا.",
         "‏gamescom asia x Thailand Game Show، بانكوك، أكتوبر 2025 — الجناح الكوري K-GAME PLAYGROUND الذي ضمّ 16 استوديو كوريًا، برعاية Megazone Cloud.",
         "‏Fighting Nations على لوحة الاستوديوهات في الجناح الكوري. أُقيم البرنامج بمشاركة وزارة الشركات الصغيرة والمتوسطة والناشئة و KOCCA و Megazone Cloud.",
+        "داخل الجناح الكوري K-GAME PLAYGROUND: منصّتنا على اليمين، وعلى الطاولات في الوسط كانت اللقاءات جارية.",
         "منصّتنا، وعليها ملصق Fighting Nations واللعبة متاحة للتجربة في المكان.",
+        "تقديم Fighting Nations في المنصّة.",
         "لقطات لعب فعلية تُعرض على شاشات المنصّة.",
         "أحد الزوار يجرّب Fighting Nations في المنصّة.",
         "في المنصّة مع أحد الزوار.",
