@@ -60,7 +60,19 @@ const ROADMAP_LINKS = [
 //   KW_SLIDES → assets/slides-kw/    ('우리가 만든 것' 아래에 붙는다)
 const FN_SLIDES = ["fn-08.jpg", "fn-11.jpg", "fn-05.jpg", "fn-16.jpg", "fn-15.jpg", "fn-09.jpg", "fn-06.jpg", "fn-04.jpg"];
 // 밀리버스 상세 — 군대·지휘관 콘셉트 아트(자막 없이 시네마틱 밴드로). 실제 게임 화면은 영상이 담당.
-const MV_SLIDES = ["mv-art-01.jpg", "mv-art-05.jpg", "mv-art-06.jpg", "mv-art-09.jpg", "mv-art-10.jpg"];   // assets/slides-mv/
+// assets/slides-mv/ — ★인덱스가 자막과 묶여 있다. 순서를 바꾸면 자막이 어긋난다.
+//   0~4  콘셉트 아트. 자막 없이 시네마틱 밴드({img})로만 쓴다.
+//   5    실제 게임 화면 — 리더보드. pages-i18n 의 miliverse.slides[5] 와 짝이라 {s:5} 로 쓴다.
+//   6    실제 게임 화면 — 도쿄 타일 격자. slides[6](지도 위 액션)과는 다른 화면이라 {img:6}(자막 없이).
+//   7    실제 게임 화면 — 접속 보상. slides[7] 과 짝이라 {s:7}.
+//   8~9  실제 게임 화면 — 3D 도시 지도 / 내 땅. 짝이 되는 자막이 없어 {img} 로만 쓴다.
+// ※ 자막 0~4(타일 격자·콕핏·자동전투·알고리즘 대시보드·도시 50곳)는 아직 화면이 없어 비어 있다.
+//   그 화면이 생기면 그 자리에 넣고 {s:0} 처럼 쓰면 된다. 지금 {s:0~4} 를 쓰면 아트에 엉뚱한 자막이 붙는다.
+const MV_SLIDES = [
+  "mv-art-01.jpg", "mv-art-05.jpg", "mv-art-06.jpg", "mv-art-09.jpg", "mv-art-10.jpg",
+  "mv-shot-leaderboard.jpg", "mv-shot-tile-tokyo.jpg", "mv-shot-checkin.jpg",
+  "mv-shot-map3d.jpg", "mv-shot-myland.jpg",
+];
 const KW_SLIDES = ["kw-09.jpg", "kw-14.jpg", "kw-08.jpg", "kw-05.jpg", "kw-13.jpg", "kw-23.jpg", "kw-20.jpg", "kw-17.jpg"];
 // 장보고 상세 — 게임 시작화면 아트(세계 교역 가문). 자막 없이 시네마틱 밴드로.
 // assets/slides-jb/ · 마지막 한 장만 상위 폴더라 경로째 적었다(FESTIVALS_SLIDES 와 같은 방식).
