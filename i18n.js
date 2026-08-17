@@ -81,8 +81,12 @@ const FESTIVALS_SLIDES = [
 // ※ 인물 사진을 쓸 때는 그 사람이 누구인지 확인하고 쓴다. 발표자료 19쪽의 지스타 2022 사진을
 //   대표님으로 단정해 넣었다가 뺐다(2026-08-16) — 대표님이 아니었다.
 
-const SHOW_PHOTOS = ["assets/tgs-01.jpg", "assets/tgs-02.jpg", "assets/tgs-03.jpg",
-                     "assets/tgs-04.jpg", "assets/tgs-05.jpg"];
+// 태국 게임쇼 아홉 장. 순서가 곧 이야기다 — 행사 → 한국관 → 라인업 보드 → 우리 부스 →
+// 플레이 화면 → 관람객이 직접 해 보는 장면 → 방문객 → 개발자 → 배급사.
+// journey.photos 의 캡션과 인덱스로 붙으므로 순서를 바꾸면 10개 언어를 같이 고쳐야 한다.
+const SHOW_PHOTOS = ["assets/tgs-06.jpg", "assets/tgs-01.jpg", "assets/tgs-08.jpg",
+                     "assets/tgs-02.jpg", "assets/tgs-09.jpg", "assets/tgs-07.jpg",
+                     "assets/tgs-03.jpg", "assets/tgs-04.jpg", "assets/tgs-05.jpg"];
 const TIMEWARS_SLIDES = ["timewars-cover.jpg"];   // assets/ (키아트. 게임 스크린샷 나오면 추가)
 // 로스터 20명 (도시별 대표 1장). assets/slides-tk/. 세로 전신 아트 → 슬라이드쇼가 세로 프레임으로 뜬다.
 const TURFKING_SLIDES = ["tk-01.jpg","tk-02.jpg","tk-03.jpg","tk-04.jpg","tk-05.jpg","tk-06.jpg","tk-07.jpg","tk-08.jpg","tk-09.jpg","tk-10.jpg","tk-11.jpg","tk-12.jpg","tk-13.jpg","tk-14.jpg","tk-15.jpg","tk-16.jpg","tk-17.jpg","tk-18.jpg","tk-19.jpg","tk-20.jpg"];
@@ -259,8 +263,12 @@ const I18N = {
       more: "Every show we are entering in 2027 →",
       // 부스 사진 캡션. 파일은 i18n.js 위쪽 SHOW_PHOTOS, 사실관계는 아래 연표와 같아야 한다.
       photos: [
+        "The main stage at the venue, where gamescom asia and Thailand Game Show ran together.",
         "gamescom asia x Thailand Game Show, Bangkok, October 2025 — the K-GAME PLAYGROUND Korea pavilion, where 16 Korean studios stood together. Sponsored by Megazone Cloud.",
+        "Fighting Nations on the Korea pavilion lineup board. The programme was run with the Ministry of SMEs and Startups, KOCCA and Megazone Cloud.",
         "Our booth, with the Fighting Nations poster up and the game playable on the spot.",
+        "Actual gameplay running on the booth monitors.",
+        "A visitor playing Fighting Nations at the booth.",
         "At the booth with a visitor.",
         "At the booth with the Indian developers who build the game with us.",
         "Meeting an Indian distributor during the show. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came by."
@@ -273,7 +281,7 @@ const I18N = {
         { d: "19 September 2025", t: "Global Business Round Table 2025 (Ministry of Culture, Sports and Tourism · KOCCA, COEX) — one-to-one export meetings with overseas business centres" },
         { d: "25–26 September 2025", t: "StartupCon 2025 — one-to-one meetings with seven Korean and international investors" },
         { d: "6 October 2025", t: "Fighting Nations featured in KoreaProductPost, an English-language Korean media outlet" },
-        { d: "16–19 October 2025", t: "gamescom asia x Thailand Game Show — one of 16 Korean studios, Megazone Cloud sponsored booth. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came to the booth." },
+        { d: "16–19 October 2025", t: "gamescom asia x Thailand Game Show — one of 16 Korean studios, Megazone Cloud sponsored booth. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came to the booth. We signed a memorandum of understanding with the Thai distributor Debuz at the show." },
         { d: "October 2025", t: "Rebuilt in Unreal Engine — multiplayer needed it" },
         { d: "21 October 2025", t: "Zempie Meetup #35 — pitched at the global game-industry networking night in Seoul" },
         { d: "31 October 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — one of 10 studios in the investment-readiness programme, pitching to VCs" },
@@ -379,8 +387,12 @@ const I18N = {
       videos: { gameplay: "실제 게임 영상", trailer: "트레일러", pitch: "VC 피칭 — 경기 게임 커넥트" },
       more: "2027년까지 도전할 행사 전부 보기 →",
       photos: [
+        "행사장 메인 스테이지. gamescom asia 와 Thailand Game Show 가 함께 연 자리입니다.",
         "gamescom asia x Thailand Game Show, 2025년 10월 방콕 — 16개 한국 게임사가 함께 선 한국관 K-GAME PLAYGROUND. 메가존 클라우드가 후원했습니다.",
+        "한국관 라인업 보드에 걸린 Fighting Nations. 중소벤처기업부·한국콘텐츠진흥원·메가존 클라우드가 함께한 프로그램이었습니다.",
         "디아더 부스. Fighting Nations 포스터를 걸고, 그 자리에서 게임을 해 볼 수 있게 했습니다.",
+        "부스 모니터로 내보낸 실제 플레이 화면.",
+        "관람객이 부스에서 Fighting Nations 를 직접 플레이했습니다.",
         "부스를 찾아온 관계자와.",
         "함께 게임을 만드는 인도 개발자들과 부스에서.",
         "행사 기간 중 인도 배급사와의 미팅. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다."
@@ -393,7 +405,7 @@ const I18N = {
         { d: "2025년 9월 19일", t: "글로벌 비즈니스 라운드 테이블 2025 (문화체육관광부·한국콘텐츠진흥원, 코엑스) — 해외비즈니스센터들과 1:1 수출 상담" },
         { d: "2025년 9월 25~26일", t: "스타트업콘 2025 — 국내외 투자사 일곱 곳과 1:1 밋업" },
         { d: "2025년 10월 6일", t: "영문 매체 KoreaProductPost 에 Fighting Nations 소개 기사 게재" },
-        { d: "2025년 10월 16~19일", t: "gamescom asia x Thailand Game Show — 16개 한국 게임사 중 하나로 선발, 메가존 클라우드 후원 한국관 부스. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다." },
+        { d: "2025년 10월 16~19일", t: "gamescom asia x Thailand Game Show — 16개 한국 게임사 중 하나로 선발, 메가존 클라우드 후원 한국관 부스. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다. 현장에서 태국 배급사 Debuz 와 상호 협력 MOU 를 체결했습니다." },
         { d: "2025년 10월", t: "언리얼 엔진으로 재제작 — 멀티플레이어에는 언리얼이 필요했습니다" },
         { d: "2025년 10월 21일", t: "젬파이 밋업 제35회 — 글로벌 게임 생태계 네트워킹(서울 역삼)에서 피칭" },
         { d: "2025년 10월 31일", t: "2025 G-GAME Connect (경기콘텐츠진흥원) — 투자유치역량강화프로그램 10개사에 선정, VC 대상 IR 발표" },
@@ -497,8 +509,12 @@ const I18N = {
       videos: { gameplay: "实机画面", trailer: "预告片", pitch: "VC 路演 — 京畿 Game Connect" },
       more: "我们 2027 年前要挑战的所有展会 →",
       photos: [
+        "会场主舞台。gamescom asia 与 Thailand Game Show 联合举办。",
         "gamescom asia x Thailand Game Show，2025 年 10 月曼谷 —— 16 家韩国工作室共同参展的韩国馆 K-GAME PLAYGROUND，由 Megazone Cloud 赞助。",
+        "韩国馆参展阵容展板上的《Fighting Nations》。该项目由中小风险企业部、韩国内容振兴院与 Megazone Cloud 共同支持。",
         "迪亚德展位。挂上《Fighting Nations》海报，让来访者当场试玩。",
+        "展位显示器上播放的实际游戏画面。",
+        "来访者在展位上试玩《Fighting Nations》。",
         "与到访展位的业内人士。",
         "在展位上，与一起开发游戏的印度开发者们。",
         "展会期间与印度发行商会面。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商都来过。"
@@ -511,7 +527,7 @@ const I18N = {
         { d: "2025 年 9 月 19 日", t: "2025 全球商务圆桌会（文化体育观光部·韩国内容振兴院，COEX）——与多个海外商务中心进行一对一出口洽谈" },
         { d: "2025 年 9 月 25–26 日", t: "StartupCon 2025 —— 与七家国内外投资机构进行一对一会谈" },
         { d: "2025 年 10 月 6 日", t: "英文媒体 KoreaProductPost 刊登 Fighting Nations 专题报道" },
-        { d: "2025 年 10 月 16–19 日", t: "gamescom asia x Thailand Game Show——入选 16 家韩国工作室之一，Megazone Cloud 赞助展位。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商到访。" },
+        { d: "2025 年 10 月 16–19 日", t: "gamescom asia x Thailand Game Show——入选 16 家韩国工作室之一，Megazone Cloud 赞助展位。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商到访。展会现场与泰国发行商 Debuz 签署了合作谅解备忘录（MOU）。" },
         { d: "2025 年 10 月", t: "改用虚幻引擎重做——联机需要它" },
         { d: "2025 年 10 月 21 日", t: "Zempie Meetup 第 35 期 —— 在首尔举行的全球游戏生态网络之夜进行路演" },
         { d: "2025 年 10 月 31 日", t: "2025 G-GAME Connect（京畿内容振兴院）——投资引进能力强化项目入选十家之一，向 VC 进行 IR 路演" },
@@ -614,8 +630,12 @@ const I18N = {
       videos: { gameplay: "実機映像", trailer: "トレーラー", pitch: "VC ピッチ — 京畿 Game Connect" },
       more: "2027年までに挑む展示会のすべて →",
       photos: [
+        "会場のメインステージ。gamescom asia と Thailand Game Show が合同で開いた場です。",
         "gamescom asia x Thailand Game Show、2025年10月バンコク——韓国16社が並んだ韓国館 K-GAME PLAYGROUND。Megazone Cloud 協賛。",
+        "韓国館のラインナップボードに並んだ Fighting Nations。中小ベンチャー企業部・韓国コンテンツ振興院・Megazone Cloud が携わったプログラムでした。",
         "Deother ブース。Fighting Nations のポスターを掲げ、その場で遊べるようにしました。",
+        "ブースのモニターに映した実際のプレイ画面。",
+        "来場者がブースで Fighting Nations を実際にプレイ。",
         "ブースを訪ねてくれた業界関係者と。",
         "一緒にゲームを作っているインドの開発者たちとブースで。",
         "会期中、インドのパブリッシャーとの打ち合わせ。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪しました。"
@@ -628,7 +648,7 @@ const I18N = {
         { d: "2025年9月19日", t: "グローバル・ビジネス・ラウンドテーブル 2025（文化体育観光部・韓国コンテンツ振興院、COEX）——海外ビジネスセンターとの 1 対 1 輸出商談" },
         { d: "2025年9月25〜26日", t: "StartupCon 2025 — 国内外の投資会社 7 社と 1 対 1 ミーティング" },
         { d: "2025年10月6日", t: "英文メディア KoreaProductPost に Fighting Nations の紹介記事が掲載" },
-        { d: "2025年10月16〜19日", t: "gamescom asia x Thailand Game Show——韓国16社の一つに選出、Megazone Cloud協賛ブース。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪。" },
+        { d: "2025年10月16〜19日", t: "gamescom asia x Thailand Game Show——韓国16社の一つに選出、Megazone Cloud協賛ブース。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪。会場でタイのパブリッシャー Debuz と相互協力の MOU を締結しました。" },
         { d: "2025年10月", t: "Unreal Engineで作り直し——マルチプレイに必要でした" },
         { d: "2025年10月21日", t: "Zempie Meetup 第 35 回 — ソウルで開かれたグローバルゲーム エコシステム ネットワーキングでピッチ" },
         { d: "2025年10月31日", t: "2025 G-GAME Connect（京畿コンテンツ振興院）——投資誘致力強化プログラム 10社に選定、VC 向け IR 発表" },
@@ -731,8 +751,12 @@ const I18N = {
       videos: { gameplay: "Gameplay", trailer: "Tráiler", pitch: "Pitch a VC — Gyeonggi Game Connect" },
       more: "Todas las ferias a las que nos presentamos hasta 2027 →",
       photos: [
+        "El escenario principal del recinto, donde gamescom asia y Thailand Game Show se celebraron juntos.",
         "gamescom asia x Thailand Game Show, Bangkok, octubre de 2025: el pabellón coreano K-GAME PLAYGROUND, donde estuvimos 16 estudios coreanos. Patrocinado por Megazone Cloud.",
+        "Fighting Nations en el panel de estudios del pabellón coreano. El programa se hizo con el Ministerio de Pymes y Startups, KOCCA y Megazone Cloud.",
         "Nuestro stand, con el póster de Fighting Nations y el juego disponible para probarlo allí mismo.",
+        "Partidas reales corriendo en los monitores del stand.",
+        "Un visitante jugando a Fighting Nations en el stand.",
         "En el stand con un visitante.",
         "En el stand con los desarrolladores indios que hacen el juego con nosotros.",
         "Reunión con una distribuidora india durante la feria. Pasaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán."
@@ -745,7 +769,7 @@ const I18N = {
         { d: "19 de septiembre de 2025", t: "Global Business Round Table 2025 (Ministerio de Cultura, Deporte y Turismo · KOCCA, COEX): reuniones de exportación uno a uno con centros de negocio en el exterior" },
         { d: "25–26 de septiembre de 2025", t: "StartupCon 2025: reuniones uno a uno con siete inversores coreanos e internacionales" },
         { d: "6 de octubre de 2025", t: "Fighting Nations aparece en KoreaProductPost, medio coreano en inglés" },
-        { d: "16–19 de octubre de 2025", t: "gamescom asia x Thailand Game Show: uno de los 16 estudios coreanos, stand patrocinado por Megazone Cloud. Visitaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán." },
+        { d: "16–19 de octubre de 2025", t: "gamescom asia x Thailand Game Show: uno de los 16 estudios coreanos, stand patrocinado por Megazone Cloud. Visitaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán. Allí firmamos un memorando de entendimiento con la distribuidora tailandesa Debuz." },
         { d: "Octubre 2025", t: "Reconstruido en Unreal Engine: el multijugador lo exigía" },
         { d: "21 de octubre de 2025", t: "Zempie Meetup n.º 35: presentación en la velada de networking del sector global del videojuego, en Seúl" },
         { d: "31 octubre 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency): uno de los 10 estudios del programa de preparación para inversión, con presentación ante VC" },
@@ -848,8 +872,12 @@ const I18N = {
       videos: { gameplay: "Gameplay", trailer: "Trailer", pitch: "Pitch a VC — Gyeonggi Game Connect" },
       more: "Todos os eventos a que nos candidatamos até 2027 →",
       photos: [
+        "O palco principal do recinto, onde a gamescom asia e a Thailand Game Show decorreram em conjunto.",
         "gamescom asia x Thailand Game Show, Banguecoque, outubro de 2025 — o pavilhão coreano K-GAME PLAYGROUND, onde estivemos 16 estúdios coreanos. Patrocinado pela Megazone Cloud.",
+        "Fighting Nations no painel de estúdios do pavilhão coreano. O programa foi feito com o Ministério das PME e Startups, a KOCCA e a Megazone Cloud.",
         "O nosso stand, com o cartaz de Fighting Nations e o jogo jogável ali mesmo.",
+        "Jogabilidade real a correr nos monitores do stand.",
+        "Um visitante a jogar Fighting Nations no stand.",
         "No stand com um visitante.",
         "No stand com os programadores indianos que fazem o jogo connosco.",
         "Reunião com uma distribuidora indiana durante a feira. Passaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan."
@@ -862,7 +890,7 @@ const I18N = {
         { d: "19 de setembro de 2025", t: "Global Business Round Table 2025 (Ministério da Cultura, Desporto e Turismo · KOCCA, COEX): reuniões de exportação um-a-um com centros de negócios no estrangeiro" },
         { d: "25–26 de setembro de 2025", t: "StartupCon 2025: reuniões um-a-um com sete investidores coreanos e internacionais" },
         { d: "6 de outubro de 2025", t: "Fighting Nations em destaque na KoreaProductPost, meio coreano em inglês" },
-        { d: "16–19 de outubro de 2025", t: "gamescom asia x Thailand Game Show — um dos 16 estúdios coreanos, stand patrocinado pela Megazone Cloud. Visitaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan." },
+        { d: "16–19 de outubro de 2025", t: "gamescom asia x Thailand Game Show — um dos 16 estúdios coreanos, stand patrocinado pela Megazone Cloud. Visitaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan. Ali assinámos um memorando de entendimento com a distribuidora tailandesa Debuz." },
         { d: "Outubro 2025", t: "Reconstruído em Unreal Engine — o multijogador exigia-o" },
         { d: "21 de outubro de 2025", t: "Zempie Meetup n.º 35: apresentação na noite de networking do setor global dos jogos, em Seul" },
         { d: "31 outubro 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — um dos 10 estúdios do programa de preparação para investimento, com apresentação a VC" },
@@ -965,8 +993,12 @@ const I18N = {
       videos: { gameplay: "Séquences de jeu", trailer: "Bande-annonce", pitch: "Pitch investisseurs — Gyeonggi Game Connect" },
       more: "Tous les salons auxquels nous postulons d'ici 2027 →",
       photos: [
+        "La scène principale du salon, où gamescom asia et Thailand Game Show se tenaient ensemble.",
         "gamescom asia x Thailand Game Show, Bangkok, octobre 2025 — le pavillon coréen K-GAME PLAYGROUND, où 16 studios coréens étaient réunis. Parrainé par Megazone Cloud.",
+        "Fighting Nations sur le panneau des studios du pavillon coréen. Le programme était mené avec le ministère des PME et des Startups, la KOCCA et Megazone Cloud.",
         "Notre stand, avec l'affiche de Fighting Nations et le jeu jouable sur place.",
+        "Des parties réelles tournant sur les écrans du stand.",
+        "Un visiteur joue à Fighting Nations sur le stand.",
         "Au stand avec un visiteur.",
         "Au stand avec les développeurs indiens qui font le jeu avec nous.",
         "Rendez-vous avec un distributeur indien pendant le salon. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont passés."
@@ -979,7 +1011,7 @@ const I18N = {
         { d: "19 septembre 2025", t: "Global Business Round Table 2025 (ministère de la Culture, des Sports et du Tourisme · KOCCA, COEX) — rendez-vous export en tête-à-tête avec des centres d’affaires à l’étranger" },
         { d: "25–26 septembre 2025", t: "StartupCon 2025 — rendez-vous en tête-à-tête avec sept investisseurs coréens et internationaux" },
         { d: "6 octobre 2025", t: "Fighting Nations présenté dans KoreaProductPost, média coréen anglophone" },
-        { d: "16–19 octobre 2025", t: "gamescom asia x Thailand Game Show — l'un des 16 studios coréens, stand parrainé par Megazone Cloud. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont venus." },
+        { d: "16–19 octobre 2025", t: "gamescom asia x Thailand Game Show — l'un des 16 studios coréens, stand parrainé par Megazone Cloud. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont venus. Sur place, nous avons signé un protocole d'accord avec le distributeur thaïlandais Debuz." },
         { d: "Octobre 2025", t: "Reconstruit sous Unreal Engine — le multijoueur l'imposait" },
         { d: "21 octobre 2025", t: "Zempie Meetup nº 35 — pitch lors de la soirée networking de l'industrie mondiale du jeu, à Séoul" },
         { d: "31 octobre 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — l'un des 10 studios du programme de préparation à la levée de fonds, présentation aux investisseurs" },
@@ -1082,8 +1114,12 @@ const I18N = {
       videos: { gameplay: "Spielszenen", trailer: "Trailer", pitch: "VC-Pitch — Gyeonggi Game Connect" },
       more: "Alle Messen, für die wir uns bis 2027 bewerben →",
       photos: [
+        "Die Hauptbühne des Veranstaltungsorts, wo gamescom asia und Thailand Game Show gemeinsam stattfanden.",
         "gamescom asia x Thailand Game Show, Bangkok, Oktober 2025 — der koreanische Pavillon K-GAME PLAYGROUND, in dem 16 koreanische Studios zusammenstanden. Gesponsert von Megazone Cloud.",
+        "Fighting Nations auf der Studio-Tafel des koreanischen Pavillons. Das Programm lief mit dem Ministerium für KMU und Start-ups, KOCCA und Megazone Cloud.",
         "Unser Stand, mit dem Fighting-Nations-Plakat und dem Spiel direkt vor Ort spielbar.",
+        "Echtes Gameplay auf den Monitoren am Stand.",
+        "Ein Besucher spielt Fighting Nations am Stand.",
         "Am Stand mit einem Besucher.",
         "Am Stand mit den indischen Entwicklern, die das Spiel mit uns bauen.",
         "Treffen mit einem indischen Distributor während der Messe. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen vorbei."
@@ -1096,7 +1132,7 @@ const I18N = {
         { d: "19. September 2025", t: "Global Business Round Table 2025 (Ministerium für Kultur, Sport und Tourismus · KOCCA, COEX) — Eins-zu-eins-Exportgespräche mit Auslandsbüros" },
         { d: "25.–26. September 2025", t: "StartupCon 2025 — Eins-zu-eins-Gespräche mit sieben koreanischen und internationalen Investoren" },
         { d: "6. Oktober 2025", t: "Fighting Nations im englischsprachigen koreanischen Medium KoreaProductPost vorgestellt" },
-        { d: "16.–19. Oktober 2025", t: "gamescom asia x Thailand Game Show — eines von 16 koreanischen Studios, Stand gesponsert von Megazone Cloud. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen an den Stand." },
+        { d: "16.–19. Oktober 2025", t: "gamescom asia x Thailand Game Show — eines von 16 koreanischen Studios, Stand gesponsert von Megazone Cloud. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen an den Stand. Vor Ort haben wir mit dem thailändischen Distributor Debuz eine Absichtserklärung unterzeichnet." },
         { d: "Oktober 2025", t: "Neu gebaut in der Unreal Engine — der Multiplayer verlangte es" },
         { d: "21. Oktober 2025", t: "Zempie Meetup Nr. 35 — Pitch beim Networking-Abend der globalen Spielebranche in Seoul" },
         { d: "31. Oktober 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — eines von 10 Studios im Investment-Readiness-Programm, IR-Pitch vor VCs" },
@@ -1199,8 +1235,12 @@ const I18N = {
       videos: { gameplay: "Игровой процесс", trailer: "Трейлер", pitch: "Питч для VC — Gyeonggi Game Connect" },
       more: "Все фестивали, на которые мы подаём заявки до 2027 года →",
       photos: [
+        "Главная сцена площадки, где gamescom asia и Thailand Game Show проходили вместе.",
         "gamescom asia x Thailand Game Show, Бангкок, октябрь 2025 — корейский павильон K-GAME PLAYGROUND, где вместе стояли 16 корейских студий. При поддержке Megazone Cloud.",
+        "Fighting Nations на стенде со списком студий корейского павильона. Программа проходила при участии Министерства МСП и стартапов, KOCCA и Megazone Cloud.",
         "Наш стенд: постер Fighting Nations и игра, в которую можно было сыграть прямо там.",
+        "Реальный геймплей на мониторах стенда.",
+        "Посетитель играет в Fighting Nations на стенде.",
         "На стенде с гостем.",
         "На стенде с индийскими разработчиками, которые делают игру вместе с нами.",
         "Встреча с индийским дистрибьютором во время выставки. Заходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня."
@@ -1213,7 +1253,7 @@ const I18N = {
         { d: "19 сентября 2025", t: "Global Business Round Table 2025 (Министерство культуры, спорта и туризма · KOCCA, COEX) — экспортные встречи один на один с зарубежными бизнес-центрами" },
         { d: "25–26 сентября 2025", t: "StartupCon 2025 — встречи один на один с семью корейскими и зарубежными инвесторами" },
         { d: "6 октября 2025", t: "Fighting Nations в англоязычном корейском издании KoreaProductPost" },
-        { d: "16–19 октября 2025", t: "gamescom asia x Thailand Game Show — одна из 16 корейских студий, стенд при поддержке Megazone Cloud. На стенд приходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня." },
+        { d: "16–19 октября 2025", t: "gamescom asia x Thailand Game Show — одна из 16 корейских студий, стенд при поддержке Megazone Cloud. На стенд приходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня. На выставке мы подписали меморандум о взаимопонимании с тайским дистрибьютором Debuz." },
         { d: "Октябрь 2025", t: "Пересобрано на Unreal Engine — этого требовал сетевой режим" },
         { d: "21 октября 2025", t: "Zempie Meetup №35 — питч на нетворкинг-вечере мировой игровой индустрии в Сеуле" },
         { d: "31 октября 2025", t: "2025 G-GAME Connect (Gyeonggi Content Agency) — одна из 10 студий программы подготовки к инвестициям, IR-питч перед фондами" },
@@ -1317,8 +1357,12 @@ const I18N = {
       more: "كل المعارض التي نتقدّم إليها حتى 2027 ←",
       // 라틴 문자로 시작하는 줄에는 RLM(U+200F)을 앞에 둔다 — 없으면 문장 방향이 뒤집혀 보인다.
       photos: [
+        "المسرح الرئيسي في المعرض، حيث أُقيم gamescom asia و Thailand Game Show معًا.",
         "‏gamescom asia x Thailand Game Show، بانكوك، أكتوبر 2025 — الجناح الكوري K-GAME PLAYGROUND الذي ضمّ 16 استوديو كوريًا، برعاية Megazone Cloud.",
+        "‏Fighting Nations على لوحة الاستوديوهات في الجناح الكوري. أُقيم البرنامج بمشاركة وزارة الشركات الصغيرة والمتوسطة والناشئة و KOCCA و Megazone Cloud.",
         "منصّتنا، وعليها ملصق Fighting Nations واللعبة متاحة للتجربة في المكان.",
+        "لقطات لعب فعلية تُعرض على شاشات المنصّة.",
+        "أحد الزوار يجرّب Fighting Nations في المنصّة.",
         "في المنصّة مع أحد الزوار.",
         "في المنصّة مع المطوّرين الهنود الذين يصنعون اللعبة معنا.",
         "لقاء مع موزّع هندي خلال المعرض. مرّ بالمنصّة موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان."
@@ -1331,7 +1375,7 @@ const I18N = {
         { d: "‏19 سبتمبر 2025", t: "‏Global Business Round Table 2025 (وزارة الثقافة والرياضة والسياحة · وكالة كوكا، COEX) — لقاءات تصدير ثنائية مع مراكز الأعمال في الخارج" },
         { d: "‏25–26 سبتمبر 2025", t: "‏StartupCon 2025 — لقاءات ثنائية مع سبع جهات استثمارية كورية ودولية" },
         { d: "‏6 أكتوبر 2025", t: "‏تقرير عن Fighting Nations في KoreaProductPost، وسيلة إعلام كورية بالإنجليزية" },
-        { d: "‏16–19 أكتوبر 2025", t: "‏gamescom asia x Thailand Game Show — أحد 16 استوديو كوريًا، جناح برعاية Megazone Cloud. زار الجناح موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان." },
+        { d: "‏16–19 أكتوبر 2025", t: "‏gamescom asia x Thailand Game Show — أحد 16 استوديو كوريًا، جناح برعاية Megazone Cloud. زار الجناح موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان. ووقّعنا في المعرض مذكرة تفاهم مع الموزّع التايلاندي Debuz." },
         { d: "أكتوبر 2025", t: "أُعيد بناؤها على Unreal Engine — اللعب الشبكي تطلّب ذلك" },
         { d: "‏21 أكتوبر 2025", t: "‏Zempie Meetup رقم 35 — تقديم عرض في أمسية التواصل لقطاع الألعاب العالمي بسيول" },
         { d: "‏31 أكتوبر 2025", t: "‏2025 G-GAME Connect (وكالة محتوى كيونغي) — أحد 10 استوديوهات في برنامج التهيّؤ للاستثمار، وعرض IR أمام المستثمرين" },
