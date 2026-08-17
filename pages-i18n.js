@@ -4434,11 +4434,11 @@ const PAGES = {
               "2026년 6월 3일 마감 · 스마일게이트 멤버십(SGM) 인디게임 18기 · 접수 완료",
               "2026년 6월 25일 마감 · GIGDC 2026 글로벌 인디 게임제작 경진대회 — 밀리버스 · 접수 완료",
               "2026년 7월 31일 마감 · 2026 경기 가상융합 콘텐츠 챌린지 (총상금 1,000만원) — 밀리버스 · 미선정",
-              "2026년 8월 20일 마감 · 제21회 경기 게임 오디션 (총상금 2억원) · 접수 완료",
               "2026년 8월 15일 · GWB 게임 어워드 (텐센트) — Fighting Nations · 접수 완료, 11월 시상식",
               "2026년 8월 16일 · Taipei Indie Game Award 2027 — Fighting Nations · 접수 완료, 파이널리스트 발표 10월 14일",
               "2026년 8월 16일 · Epic MegaGrants (하반기) — Fighting Nations · 접수 완료, 심사 중",
-              "2026년 8월 16일 · Xsolla Funding Club — Fighting Nations · 접수 완료, 검토 중"
+              "2026년 8월 16일 · Xsolla Funding Club — Fighting Nations · 접수 완료, 검토 중",
+              "2026년 8월 17일 · 제21회 경기 게임 오디션 (총상금 2억원) — Fighting Nations · 접수 완료"
             ]
           }
         },
@@ -4698,11 +4698,11 @@ const PAGES = {
               "deadline 3 June 2026 · Smilegate Membership (SGM) indie game batch 18 · submitted",
               "deadline 25 June 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · submitted",
               "deadline 31 July 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · not selected",
-              "deadline 20 August 2026 · 21st Gyeonggi Game Audition · submitted",
               "15 August 2026 · GWB Game Awards (Tencent) — Fighting Nations · submitted, ceremony in November",
               "16 August 2026 · Taipei Indie Game Award 2027 — Fighting Nations · submitted, finalists announced 14 October",
               "16 August 2026 · Epic MegaGrants (H2) — Fighting Nations · submitted, under review",
-              "16 August 2026 · Xsolla Funding Club — Fighting Nations · submitted, under review"
+              "16 August 2026 · Xsolla Funding Club — Fighting Nations · submitted, under review",
+              "17 August 2026 · 21st Gyeonggi Game Audition — Fighting Nations · submitted"
             ]
           }
         },
@@ -4961,11 +4961,11 @@ const PAGES = {
               "2026 年 6 月 3 日截止 · Smilegate Membership（SGM）独立游戏第 18 期 · 已递交",
               "2026 年 6 月 25 日截止 · GIGDC 2026 全球独立游戏制作大赛 — Miliverse · 已递交",
               "2026 年 7 月 31 日截止 · 2026 京畿虚拟融合内容挑战赛 — Miliverse · 未入选",
-              "2026 年 8 月 20 日截止 · 第 21 届 京畿游戏甄选（GYEONGGI GAME AUDITION） · 已递交",
               "2026 年 8 月 15 日 · GWB 游戏大奖（腾讯）— Fighting Nations · 已递交，11 月颁奖",
               "2026 年 8 月 16 日 · Taipei Indie Game Award 2027 — Fighting Nations · 已递交，10 月 14 日公布入围名单",
               "2026 年 8 月 16 日 · Epic MegaGrants （下半年） — Fighting Nations · 已递交，审核中",
-              "2026 年 8 月 16 日 · Xsolla Funding Club — Fighting Nations · 已递交，审核中"
+              "2026 年 8 月 16 日 · Xsolla Funding Club — Fighting Nations · 已递交，审核中",
+              "2026 年 8 月 17 日 · 第 21 届 京畿游戏甄选（GYEONGGI GAME AUDITION） — Fighting Nations · 已递交"
             ]
           }
         },
@@ -5224,11 +5224,11 @@ const PAGES = {
               "2026年6月3日締切 · スマイルゲート メンバーシップ（SGM）インディーゲーム 18 期 · 応募済み",
               "2026年6月25日締切 · GIGDC 2026 グローバル インディーゲーム制作コンテスト — ミリバース · 応募済み",
               "2026年7月31日締切 · 2026 京畿 バーチャル融合コンテンツ チャレンジ — ミリバース · 選外",
-              "2026年8月20日締切 · 第 21 回 京畿ゲームオーディション · 応募済み",
               "2026年8月15日 · GWB ゲームアワード（テンセント）— Fighting Nations · 応募済み、11月に授賞式",
               "2026年8月16日 · Taipei Indie Game Award 2027 — Fighting Nations · 応募済み、ファイナリスト発表は10月14日",
               "2026年8月16日 · Epic MegaGrants （下半期） — Fighting Nations · 応募済み、審査中",
-              "2026年8月16日 · Xsolla Funding Club — Fighting Nations · 応募済み、審査中"
+              "2026年8月16日 · Xsolla Funding Club — Fighting Nations · 応募済み、審査中",
+              "2026年8月17日 · 第 21 回 京畿ゲームオーディション — Fighting Nations · 応募済み"
             ]
           }
         },
@@ -5487,11 +5487,11 @@ const PAGES = {
               "cierre 3 de junio de 2026 · Smilegate Membership (SGM), 18.ª promoción indie · presentado",
               "cierre 25 de junio de 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · presentado",
               "cierre 31 de julio de 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · no seleccionado",
-              "cierre 20 de agosto de 2026 · 21.ª Gyeonggi Game Audition · presentado",
               "15 de agosto de 2026 · GWB Game Awards (Tencent) — Fighting Nations · presentado; gala en noviembre",
               "16 de agosto de 2026 · Taipei Indie Game Award 2027 — Fighting Nations · presentado; finalistas el 14 de octubre",
               "16 de agosto de 2026 · Epic MegaGrants (2.º semestre) — Fighting Nations · presentado, en revisión",
-              "16 de agosto de 2026 · Xsolla Funding Club — Fighting Nations · presentado, en revisión"
+              "16 de agosto de 2026 · Xsolla Funding Club — Fighting Nations · presentado, en revisión",
+              "17 de agosto de 2026 · 21.ª Gyeonggi Game Audition — Fighting Nations · presentado"
             ]
           }
         },
@@ -5750,11 +5750,11 @@ const PAGES = {
               "prazo 3 de junho de 2026 · Smilegate Membership (SGM), 18.ª turma indie · submetido",
               "prazo 25 de junho de 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · submetido",
               "prazo 31 de julho de 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · não selecionado",
-              "prazo 20 de agosto de 2026 · 21.ª Gyeonggi Game Audition · submetido",
               "15 de agosto de 2026 · GWB Game Awards (Tencent) — Fighting Nations · submetido; gala em novembro",
               "16 de agosto de 2026 · Taipei Indie Game Award 2027 — Fighting Nations · submetido; finalistas a 14 de outubro",
               "16 de agosto de 2026 · Epic MegaGrants (2.º semestre) — Fighting Nations · submetido, em análise",
-              "16 de agosto de 2026 · Xsolla Funding Club — Fighting Nations · submetido, em análise"
+              "16 de agosto de 2026 · Xsolla Funding Club — Fighting Nations · submetido, em análise",
+              "17 de agosto de 2026 · 21.ª Gyeonggi Game Audition — Fighting Nations · submetido"
             ]
           }
         },
@@ -6013,11 +6013,11 @@ const PAGES = {
               "clôture 3 juin 2026 · Smilegate Membership (SGM), 18e promotion indé · déposé",
               "clôture 25 juin 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · déposé",
               "clôture 31 juillet 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · non retenu",
-              "clôture 20 août 2026 · 21e Gyeonggi Game Audition · déposé",
               "15 août 2026 · GWB Game Awards (Tencent) — Fighting Nations · déposé ; cérémonie en novembre",
               "16 août 2026 · Taipei Indie Game Award 2027 — Fighting Nations · déposé ; finalistes le 14 octobre",
               "16 août 2026 · Epic MegaGrants (2e semestre) — Fighting Nations · déposé, en cours d'examen",
-              "16 août 2026 · Xsolla Funding Club — Fighting Nations · déposé, en cours d'examen"
+              "16 août 2026 · Xsolla Funding Club — Fighting Nations · déposé, en cours d'examen",
+              "17 août 2026 · 21e Gyeonggi Game Audition — Fighting Nations · déposé"
             ]
           }
         },
@@ -6276,11 +6276,11 @@ const PAGES = {
               "Frist 3. Juni 2026 · Smilegate Membership (SGM), 18. Indie-Jahrgang · eingereicht",
               "Frist 25. Juni 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · eingereicht",
               "Frist 31. Juli 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · nicht ausgewählt",
-              "Frist 20. August 2026 · 21. Gyeonggi Game Audition · eingereicht",
               "15. August 2026 · GWB Game Awards (Tencent) — Fighting Nations · eingereicht; Verleihung im November",
               "16. August 2026 · Taipei Indie Game Award 2027 — Fighting Nations · eingereicht; Finalisten am 14. Oktober",
               "16. August 2026 · Epic MegaGrants (2. Halbjahr) — Fighting Nations · eingereicht, in Prüfung",
-              "16. August 2026 · Xsolla Funding Club — Fighting Nations · eingereicht, in Prüfung"
+              "16. August 2026 · Xsolla Funding Club — Fighting Nations · eingereicht, in Prüfung",
+              "17. August 2026 · 21. Gyeonggi Game Audition — Fighting Nations · eingereicht"
             ]
           }
         },
@@ -6539,11 +6539,11 @@ const PAGES = {
               "дедлайн 3 июня 2026 · Smilegate Membership (SGM), 18-й инди-набор · подано",
               "дедлайн 25 июня 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · подано",
               "дедлайн 31 июля 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · не отобрано",
-              "дедлайн 20 августа 2026 · 21-й Gyeonggi Game Audition · подано",
               "15 августа 2026 · GWB Game Awards (Tencent) — Fighting Nations · подано; церемония в ноябре",
               "16 августа 2026 · Taipei Indie Game Award 2027 — Fighting Nations · подано; финалисты 14 октября",
               "16 августа 2026 · Epic MegaGrants (2-е полугодие) — Fighting Nations · подано, на рассмотрении",
-              "16 августа 2026 · Xsolla Funding Club — Fighting Nations · подано, на рассмотрении"
+              "16 августа 2026 · Xsolla Funding Club — Fighting Nations · подано, на рассмотрении",
+              "17 августа 2026 · 21-й Gyeonggi Game Audition — Fighting Nations · подано"
             ]
           }
         },
@@ -6802,11 +6802,11 @@ const PAGES = {
               "‏الموعد النهائي 3 يونيو 2026 · عضوية Smilegate (SGM) — الدفعة 18 للألعاب المستقلة · قُدِّم",
               "‏الموعد النهائي 25 يونيو 2026 · مسابقة GIGDC 2026 العالمية لصناعة الألعاب المستقلة — Miliverse · قُدِّم",
               "‏الموعد النهائي 31 يوليو 2026 · تحدي محتوى الاندماج الافتراضي كيونغي 2026 — Miliverse · لم يُختَر",
-              "‏الموعد النهائي 20 أغسطس 2026 · النسخة 21 من Gyeonggi Game Audition · قُدِّم",
               "‏15 أغسطس 2026 · GWB Game Awards (تنسنت) — Fighting Nations · قُدِّم، والحفل في نوفمبر",
               "‏16 أغسطس 2026 · Taipei Indie Game Award 2027 — Fighting Nations · قُدِّم، وتُعلن القائمة النهائية في 14 أكتوبر",
               "‏16 أغسطس 2026 · Epic MegaGrants (النصف الثاني) — Fighting Nations · قُدِّم، قيد المراجعة",
-              "‏16 أغسطس 2026 · Xsolla Funding Club — Fighting Nations · قُدِّم، قيد المراجعة"
+              "‏16 أغسطس 2026 · Xsolla Funding Club — Fighting Nations · قُدِّم، قيد المراجعة",
+              "‏17 أغسطس 2026 · النسخة 21 من Gyeonggi Game Audition — Fighting Nations · قُدِّم"
             ]
           }
         },
