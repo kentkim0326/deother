@@ -4,6 +4,100 @@
 **분기**: `claude/thailand-game-show-photos-pmq0ie`  
 **로컬 사진 경로**: `/Users/kentkim/Downloads/2025 gamescom Thailand/`
 
+## 세션 진행 과정 (2026-08-17 09:25 ~ 현재)
+
+### 1단계: 수료증 사진 3장 받음
+- **Gamebridge Unityversity 수료증** (2019-12-11)
+  - 유니티 게임 개발 1주 워크숍 (Unity 2018.4 LTS, 서울 wcoding)
+  - 수료증에 영문 명시: Certificate of Completion / Kent Kim / wcoding, Seoul 2019/12/11
+  - ※ 강사 국적은 수료증에 없다 — 적지 않는다(대표님 지시)
+  
+- **광주이스포츠교육원 수료증** (2025-11-17)
+  - e스포츠 대회기획 과정
+  - 교육기간이 오류(2025.11.25.~11.17)로 기록되어 있음 → 발급일만 사용
+  
+- **VARCO Voice 공모전 포스터** (2026-08-17)
+  - 정식 명칭 확인: 「제2회 VARCO 활용 게임제작 공모전 Voice편」
+  - 주최: NC AI
+  - 제출 마감: 2025-12-31 23:59
+
+### 2단계: pages-i18n.js 수정 (10개 언어)
+**파일**: `pages-i18n.js` > `PAGES.festivals[LANG].sections[1].list.items`
+
+변경 사항:
+```js
+// 인트로 문단 변경
+// ko: 「2025년 8월부터 열네 과정」→ 「2019년 유니티 워크숍으로 시작해, 2025년 8월 이후로만 열다섯 과정」
+// en/zh/ja/es/pt/fr/de/ru/ar: 동일 의미로 모두 변경
+
+// 목록 맨 앞에 Gamebridge 추가
+// 목록 0: 2019-12-11 · Gamebridge Unityversity · ✅ 수료
+
+// 경기게임아카데미 뒤에 광주 e스포츠 추가
+// Gamebridge 다음 → GBSA (8-20) → KMA (10-31) → 경기게임 (11-4) → 광주 (11-17) 순서
+
+// 제2회 VARCO 명칭 변경
+// 「제2회 NC 바르코 게임 공모전」→ 「제2회 VARCO 활용 게임제작 공모전 Voice편 (NC AI)」
+```
+
+도구: Node.js vm 모듈로 JSON 일괄 치환 (40건)
+
+### 3단계: CLAUDE.md 문서화
+**섹션**: 1-6. 두 번째 섹션 관련 주석
+
+추가 내용:
+- 열세 과정 → **열여섯 과정 + 수상 1건** (2019-12-11 · 2025-08-20 ~ 2026-08-06)
+- Gamebridge Unityversity 섹션 추가 (창업 전 유일 과정)
+- 광주이스포츠교육원 섹션 추가 (교육기간 오류 및 판단 근거)
+- NC VARCO 제2회 섹션 추가 (포스터로 정식 명칭 확인)
+
+### 4단계: 검증
+**브라우저 실측** (Playwright, Chromium 1194):
+```
+ko: 11 섹션, 141 항목, 한글 3949자
+en/zh/ja/es/pt/fr/de/ru/ar: 11 섹션, 141 항목, 한글 0
+→ 모든 언어 동일 구조 ✓
+
+링크: 61개 정상 동작
+국기: 65개 정상 표시
+→ 인덱스 미밀림 ✓
+```
+
+### 5단계: PR #47 생성 및 머지
+- **제목**: 수료 2건 추가 + 제2회 VARCO 공모전 정식 명칭 반영
+- **본문**: 각 변경사항 상세 설명 + 검증 결과
+- **머지 방법**: squash (단일 커밋)
+- **커밋 SHA**: b7c031db9d9feed58c12e4a57c9eac76b70df06d
+
+### 6단계: 태국 게임쇼 2025 사진 확인
+**출처**: Google Drive 공유 폴더
+- `search_files` 로 폴더 내용 확인
+- 10개 PNG 파일 발견 (9.4 MB ~ 18.7 MB)
+- 부스 사진 · MOU 문서 · 포스터 · 전시회 스크린 혼합
+
+**파일 목록**:
+| 파일 | 크기 | 용도 |
+|---|---|---|
+| IMG_9942.png | 9.4 MB | MOU 문서 |
+| IMG_9682.png | 15.6 MB | 부스 사진 |
+| IMG_9630.png | 16.2 MB | 부스 사진 |
+| IMG_1429.png | 2.7 MB | ? |
+| IMG_9786.png | 6.8 MB | ? |
+| IMG_9788.png | 10.0 MB | ? |
+| IMG_0056.png | 14.6 MB | 부스 포스터 |
+| IMG_0045.png | 18.7 MB | 부스 사진 (큼) |
+| IMG_0050.png | 11.0 MB | 부스 사진 |
+| IMG_9617.png | 10.5 MB | 전시회 스크린 |
+
+### 7단계: assets 폴더 생성
+```bash
+mkdir -p assets/photos-tgs-2025
+touch assets/photos-tgs-2025/.gitkeep
+git add assets/photos-tgs-2025/.gitkeep
+git commit -m "assets: create photos-tgs-2025 folder for Thailand Game Show 2025 images"
+git push origin claude/thailand-game-show-photos-pmq0ie
+```
+
 ## 완료된 것 (클라우드 세션, PR #47 머지됨)
 
 ### 1. 수료 2건 추가 — 10개 언어
