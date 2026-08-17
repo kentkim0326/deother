@@ -63,7 +63,10 @@ const FN_SLIDES = ["fn-08.jpg", "fn-11.jpg", "fn-05.jpg", "fn-16.jpg", "fn-15.jp
 const MV_SLIDES = ["mv-art-01.jpg", "mv-art-05.jpg", "mv-art-06.jpg", "mv-art-09.jpg", "mv-art-10.jpg"];   // assets/slides-mv/
 const KW_SLIDES = ["kw-09.jpg", "kw-14.jpg", "kw-08.jpg", "kw-05.jpg", "kw-13.jpg", "kw-23.jpg", "kw-20.jpg", "kw-17.jpg"];
 // 장보고 상세 — 게임 시작화면 아트(세계 교역 가문). 자막 없이 시네마틱 밴드로.
-const JB_SLIDES = ["jb-01.jpg", "jb-02.jpg", "jb-03.jpg", "jb-04.jpg"];   // assets/slides-jb/
+// assets/slides-jb/ · 마지막 한 장만 상위 폴더라 경로째 적었다(FESTIVALS_SLIDES 와 같은 방식).
+// jangbogo-hero 는 640×640 정사각 일러스트라 {img} 밴드로 깔면 화면을 다 먹는다 →
+// P_LAYOUT 에서 {covers} 로 넣어 높이 300px 로 묶는다.
+const JB_SLIDES = ["jb-01.jpg", "jb-02.jpg", "jb-03.jpg", "jb-04.jpg", "../jangbogo-hero.jpg"];
 const SOOMBA_SLIDES = ["soomba-cover.jpg"];   // assets/ (커버 = 궁궐 전경. 스크린샷 늘면 여기 추가)
 const DEATHGUIDE_SLIDES = ["deathguide-cover.jpg", "deathguide-01.jpg", "deathguide-02.jpg", "deathguide-03.jpg", "deathguide-04.jpg", "deathguide-05.jpg", "deathguide-06.jpg", "deathguide-07.jpg", "deathguide-08.jpg"];   // assets/ (키비주얼 + 저승사자 아트 8장)
 const KWONLINE_SLIDES = ["kwo-shot-01.jpg", "kwo-shot-02.jpg"];   // assets/ (실제 모바일 플레이 화면, Safari UI 크롭)
