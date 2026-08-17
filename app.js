@@ -232,7 +232,16 @@ function render(code) {
 
     // 상세 페이지가 있는 게임은 그쪽을 먼저 보여준다 — 철학·전투·데이터 활용이 거기 있다
     const links = el("div", "work-links");
-    // 트레일러가 있으면 맨 앞 — 처음 보는 사람에게는 글보다 2분 영상이 빠르다
+    // ★ 게임으로 바로 가는 링크를 맨 앞에 둔다.
+    //   예전에는 카드 '제목'에만 링크가 걸려 있어서, 이름 위에 마우스를 올려봐야 알 수 있었다.
+    //   대표님 지적(2026-08-18): 그러면 게임이 있다는 것 자체를 못 알아챈다. 눈에 보여야 한다.
+    //   w.dev 인 것(터프 킹)은 아직 플레이할 수 없어 이 링크를 만들지 않는다 — itch 도 팔로우 페이지다.
+    if (w.url && !w.dev) {
+      const p = el("a", "work-more work-play", "▶ " + t.works.play);
+      p.href = w.url; p.target = "_blank"; p.rel = "noopener";
+      links.append(p);
+    }
+    // 트레일러가 있으면 그 다음 — 처음 보는 사람에게는 글보다 2분 영상이 빠르다
     if (w.trailer) {
       const tr = el("a", "work-more", "▶ " + t.works.trailer);
       tr.href = w.trailer; tr.target = "_blank"; tr.rel = "noopener";
