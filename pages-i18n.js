@@ -4636,7 +4636,12 @@ const PAGES = {
         "우리가 들고 나가는 게임 — Fighting Nations. 위 목록의 대부분이 이 게임으로 나갑니다.",
         "각 파이터는 한 나라와 그 나라의 무술을 대표합니다. 13개국 캐릭터, 무기는 없습니다.",
         "킹덤워즈는 브라우저 게임이라 물리 부스 대신 온라인 이벤트로 나갑니다.",
-        "Taipei Indie Game Award 2027 신청 화면 — 2026년 8월 16일. 파이널리스트 발표는 10월 14일입니다."
+        "Taipei Indie Game Award 2027 신청 화면 — 2026년 8월 16일. 파이널리스트 발표는 10월 14일입니다.",
+        "2025년 10월 태국 게임쇼의 비즈니스 구역 입구. 위 목록의 자리들도 이렇게 하나씩 찾아갑니다.",
+        "부스에서 Fighting Nations 를 소개하는 대표 김형섭. 목록의 행사마다 이렇게 직접 섭니다.",
+        "글로벌 게임 챌린지 2025 — 2025년 11월 29일 중앙대학교 100주년기념관. 선정되어 실제로 선 자리입니다.",
+        "GGC 「우수 인디게임 초청전」의 디아더 부스. 20작품 내외 선정작으로 초청받았습니다.",
+        "관람객이 부스에서 Fighting Nations 를 직접 플레이했습니다."
       ],
       cta: "출품작 해보기 — Fighting Nations", back: "디아더로 돌아가기"
     },
@@ -4899,7 +4904,12 @@ const PAGES = {
         "The game we take with us — Fighting Nations. Most of the tracks above are entered with this title.",
         "Every fighter carries a nation and its fighting tradition. Characters from 13 countries, bare hands only.",
         "Kingdom Wars runs in a browser, so it skips the physical booths and goes to online events instead.",
-        "The Taipei Indie Game Award 2027 application, 16 August 2026. Finalists are announced on 14 October."
+        "The Taipei Indie Game Award 2027 application, 16 August 2026. Finalists are announced on 14 October.",
+        "The business-area entrance at gamescom asia x Thailand Game Show, October 2025 — the kind of room the shows listed above lead to.",
+        "Founder Kent Kim introducing Fighting Nations at the booth. He stands the booth himself at every show on this list.",
+        "Global Game Challenge 2025 — 29 November 2025 at Chung-Ang University, Seoul. A place we reached by being selected.",
+        "Our stand at the GGC Outstanding Indie Game Invitational, invited as one of about 20 selected titles.",
+        "A visitor playing Fighting Nations at the stand."
       ],
       cta: "Play the game we are entering", back: "Back to Deother"
     },
@@ -5162,7 +5172,12 @@ const PAGES = {
         "我们带出去的游戏——Fighting Nations。上面列出的大多数通道都以这款游戏应征。",
         "每位格斗家代表一个国家及其武术传统。13 个国家的角色，只用赤手空拳。",
         "《Kingdom Wars》是浏览器游戏，因此跳过实体展位，改走线上活动。",
-        "Taipei Indie Game Award 2027 申请画面 —— 2026 年 8 月 16 日。入围名单于 10 月 14 日公布。"
+        "Taipei Indie Game Award 2027 申请画面 —— 2026 年 8 月 16 日。入围名单于 10 月 14 日公布。",
+        "2025 年 10 月泰国游戏展的商务区入口 —— 上述行程最终通向的正是这样的场合。",
+        "创始人 Kent Kim 在展位上介绍《Fighting Nations》。名单上的每场活动他都亲自到场。",
+        "全球游戏挑战赛 2025 —— 2025 年 11 月 29 日，中央大学百年纪念馆。入选后真正站上的舞台。",
+        "GGC「优秀独立游戏邀请展」的迪亚德展位，作为约 20 款入选作品之一受邀参展。",
+        "来访者在展位上试玩《Fighting Nations》。"
       ],
       cta: "试玩我们送去参赛的游戏", back: "返回 Deother"
     },
@@ -5425,7 +5440,12 @@ const PAGES = {
         "私たちが持って出るゲーム — Fighting Nations。上の一覧の大半はこのタイトルで応募します。",
         "各ファイターは一つの国とその武術を背負います。13カ国のキャラクター、武器はありません。",
         "Kingdom Wars はブラウザゲームなので、物理ブースを外してオンラインイベントに回ります。",
-        "Taipei Indie Game Award 2027 の応募画面——2026年8月16日。ファイナリスト発表は10月14日です。"
+        "Taipei Indie Game Award 2027 の応募画面——2026年8月16日。ファイナリスト発表は10月14日です。",
+        "2025年10月、タイゲームショウのビジネスエリア入口。上の一覧が向かう先はこうした場です。",
+        "ブースで Fighting Nations を紹介する代表の Kent Kim。一覧のどの催しにも自ら立ちます。",
+        "グローバル ゲーム チャレンジ 2025 —— 2025年11月29日、中央大学校 100 周年記念館。選ばれて実際に立った場です。",
+        "GGC「優秀インディーゲーム招待展」の Deother ブース。約 20 作品の選定作として招待されました。",
+        "来場者がブースで Fighting Nations を実際にプレイ。"
       ],
       cta: "出品作を遊んでみる", back: "Deother に戻る"
     },
@@ -5688,7 +5708,12 @@ const PAGES = {
         "El juego que llevamos con nosotros: Fighting Nations. La mayoría de las convocatorias de arriba se presentan con este título.",
         "Cada luchador representa a un país y su tradición marcial. Personajes de 13 países, solo a puño limpio.",
         "Kingdom Wars corre en navegador, así que se salta los stands físicos y va a eventos en línea.",
-        "La solicitud del Taipei Indie Game Award 2027, 16 de agosto de 2026. Los finalistas se anuncian el 14 de octubre."
+        "La solicitud del Taipei Indie Game Award 2027, 16 de agosto de 2026. Los finalistas se anuncian el 14 de octubre.",
+        "La entrada a la zona de negocios del Thailand Game Show, octubre de 2025: a esto llevan las citas de la lista.",
+        "El fundador, Kent Kim, presentando Fighting Nations en el stand. Atiende en persona cada convocatoria de la lista.",
+        "Global Game Challenge 2025, el 29 de noviembre de 2025 en la Universidad Chung-Ang, Seúl. Un sitio al que llegamos por selección.",
+        "Nuestro stand en la Muestra de Juegos Indie Destacados del GGC, invitados entre unos 20 títulos seleccionados.",
+        "Un visitante juega a Fighting Nations en el stand."
       ],
       cta: "Juega al juego que presentamos", back: "Volver a Deother"
     },
@@ -5951,7 +5976,12 @@ const PAGES = {
         "O jogo que levamos connosco — Fighting Nations. A maioria das candidaturas acima é feita com este título.",
         "Cada lutador representa um país e a sua tradição marcial. Personagens de 13 países, só a punho limpo.",
         "O Kingdom Wars corre no navegador, por isso salta os stands físicos e vai a eventos online.",
-        "A candidatura ao Taipei Indie Game Award 2027, 16 de agosto de 2026. Os finalistas são anunciados a 14 de outubro."
+        "A candidatura ao Taipei Indie Game Award 2027, 16 de agosto de 2026. Os finalistas são anunciados a 14 de outubro.",
+        "A entrada da zona de negócios da Thailand Game Show, outubro de 2025: é a isto que levam as datas da lista.",
+        "O fundador, Kent Kim, a apresentar Fighting Nations no stand. Está presente em cada evento da lista.",
+        "Global Game Challenge 2025, a 29 de novembro de 2025 na Universidade Chung-Ang, Seul. Um lugar a que chegámos por seleção.",
+        "O nosso stand na Mostra de Jogos Indie em Destaque do GGC, convidados entre cerca de 20 títulos selecionados.",
+        "Um visitante a jogar Fighting Nations no stand."
       ],
       cta: "Joga o jogo que apresentamos", back: "Voltar a Deother"
     },
@@ -6214,7 +6244,12 @@ const PAGES = {
         "Le jeu que nous emportons — Fighting Nations. La plupart des candidatures ci-dessus se font avec ce titre.",
         "Chaque combattant porte un pays et sa tradition martiale. Des personnages de 13 pays, à mains nues.",
         "Kingdom Wars tourne dans le navigateur : il saute les stands physiques et part vers les événements en ligne.",
-        "La candidature au Taipei Indie Game Award 2027, 16 août 2026. Les finalistes sont annoncés le 14 octobre."
+        "La candidature au Taipei Indie Game Award 2027, 16 août 2026. Les finalistes sont annoncés le 14 octobre.",
+        "L'entrée de l'espace business du Thailand Game Show, octobre 2025 : c'est là que mènent les rendez-vous de la liste.",
+        "Le fondateur, Kent Kim, présente Fighting Nations sur le stand. Il tient lui-même le stand à chaque salon de la liste.",
+        "Global Game Challenge 2025, le 29 novembre 2025 à l'université Chung-Ang, à Séoul. Un lieu atteint par sélection.",
+        "Notre stand à l'exposition sur invitation des meilleurs jeux indépendants du GGC, invités parmi une vingtaine de titres sélectionnés.",
+        "Un visiteur joue à Fighting Nations sur le stand."
       ],
       cta: "Jouer au jeu que nous présentons", back: "Retour à Deother"
     },
@@ -6477,7 +6512,12 @@ const PAGES = {
         "Das Spiel, das wir mitnehmen — Fighting Nations. Die meisten Ausschreibungen oben laufen über diesen Titel.",
         "Jeder Kämpfer trägt ein Land und dessen Kampftradition. Figuren aus 13 Ländern, nur mit bloßen Händen.",
         "Kingdom Wars läuft im Browser und lässt die Stände daher aus — es geht zu Online-Events.",
-        "Die Bewerbung für den Taipei Indie Game Award 2027, 16. August 2026. Die Finalisten werden am 14. Oktober bekannt gegeben."
+        "Die Bewerbung für den Taipei Indie Game Award 2027, 16. August 2026. Die Finalisten werden am 14. Oktober bekannt gegeben.",
+        "Der Eingang zum Business-Bereich der Thailand Game Show, Oktober 2025 — dorthin führen die Termine oben.",
+        "Gründer Kent Kim stellt Fighting Nations am Stand vor. Bei jeder Messe dieser Liste steht er selbst am Stand.",
+        "Global Game Challenge 2025 — am 29. November 2025 an der Chung-Ang-Universität in Seoul. Ein Ort, den wir durch Auswahl erreicht haben.",
+        "Unser Stand bei der GGC-Einladungsausstellung herausragender Indie-Spiele, eingeladen als eines von rund 20 ausgewählten Titeln.",
+        "Ein Besucher spielt Fighting Nations am Stand."
       ],
       cta: "Das Spiel spielen, das wir einreichen", back: "Zurück zu Deother"
     },
@@ -6740,7 +6780,12 @@ const PAGES = {
         "Игра, которую мы берём с собой, — Fighting Nations. Большинство конкурсов выше подаются именно с ней.",
         "Каждый боец несёт свою страну и её боевую традицию. Персонажи из 13 стран, только голые руки.",
         "Kingdom Wars работает в браузере, поэтому обходит физические стенды и идёт на онлайн-события.",
-        "Заявка на Taipei Indie Game Award 2027, 16 августа 2026 года. Финалистов объявят 14 октября."
+        "Заявка на Taipei Indie Game Award 2027, 16 августа 2026 года. Финалистов объявят 14 октября.",
+        "Вход в бизнес-зону Thailand Game Show, октябрь 2025 — именно туда ведут даты из списка выше.",
+        "Основатель Kent Kim рассказывает о Fighting Nations на стенде. На каждой выставке из списка он стоит за стендом сам.",
+        "Global Game Challenge 2025 — 29 ноября 2025 года, Университет Чунг-Ан в Сеуле. Место, куда мы попали по отбору.",
+        "Наш стенд на выставке лучших инди-игр GGC по приглашению — среди примерно 20 отобранных работ.",
+        "Посетитель играет в Fighting Nations на стенде."
       ],
       cta: "Сыграть в игру, которую мы подаём", back: "Назад в Deother"
     },
@@ -7003,7 +7048,12 @@ const PAGES = {
         "‏اللعبة التي نحملها معنا — Fighting Nations. معظم المسارات أعلاه نتقدّم إليها بهذا العنوان.",
         "كل مقاتل يحمل بلدًا وتقليده القتالي. شخصيات من 13 دولة، بالأيدي العارية فقط.",
         "‏Kingdom Wars تعمل في المتصفّح، لذا تتخطّى الأجنحة الحضورية وتتّجه إلى الفعاليات الإلكترونية.",
-        "‏شاشة التقدّم إلى Taipei Indie Game Award 2027، 16 أغسطس 2026. تُعلن القائمة النهائية في 14 أكتوبر."
+        "‏شاشة التقدّم إلى Taipei Indie Game Award 2027، 16 أغسطس 2026. تُعلن القائمة النهائية في 14 أكتوبر.",
+        "مدخل منطقة الأعمال في Thailand Game Show، أكتوبر 2025 — وإلى مثل هذه القاعات تقود المواعيد أعلاه.",
+        "المؤسس Kent Kim يقدّم Fighting Nations في المنصّة. يقف بنفسه في كل معرض من القائمة.",
+        "‏Global Game Challenge 2025 — في 29 نوفمبر 2025 بجامعة تشونغ-آنغ في سول. مكان بلغناه بالاختيار.",
+        "منصّتنا في معرض الألعاب المستقلة المتميّزة بالدعوة ضمن GGC، بدعوة ضمن نحو 20 عملاً مختاراً.",
+        "أحد الزوار يلعب Fighting Nations في المنصّة."
       ],
       cta: "‏جرّب اللعبة التي نتقدّم بها", back: "‏العودة إلى Deother"
     }
