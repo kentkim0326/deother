@@ -21,7 +21,8 @@ const JOURNEY_LINKS = [
   "https://www.amazon.com/SERAPHIM-Awakening-Dragon-Kent-Kim/dp/B0F98RTPT2",  // 원작 소설 세라핌 출간
   "",                              // 유니티 프로토타입 — 우리가 한 일
   "",                              // 언리얼 페스트 서울 2025 — 회차별이라 상시 주소 없음
-  "",                              // K-Style Expo 영어 IR 피치 — 회차별이라 상시 주소 없음
+  "",                              // K-Style Expo Q3 2025 — 회차별이라 상시 주소 없음
+  "",                              // AsiaStartupExpo Q3 2025 — 회차별이라 상시 주소 없음
   "",                              // 글로벌 비즈니스 라운드 테이블 — 회차별이라 상시 주소 없음
   "",                              // 스타트업콘 2025 — 회차별이라 상시 주소 없음
   "",                              // KoreaProductPost 기사 — 대표님이 주소를 주면 채운다
@@ -35,7 +36,8 @@ const JOURNEY_LINKS = [
   "",                              // NC 바르코 공모전 — 회차별이라 상시 주소 없음
   "https://neowizquest.com/"       // 네오위즈 퀘스트
 ];
-const JOURNEY_FLAGS = ["🇺🇸", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇹🇭", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷"];
+// 🌐 는 온라인 개최다 — K-Style Expo·AsiaStartupExpo 둘 다 Zoom 피칭이라 개최국 국기가 없다.
+const JOURNEY_FLAGS = ["🇺🇸", "", "🇰🇷", "🌐", "🌐", "🇰🇷", "🇰🇷", "🇰🇷", "🇹🇭", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷"];
 
 // 로드맵 각 단계의 공식 사이트. 순서는 각 언어 roadmap.items 와 1:1 로 맞춘다(인덱스로 붙는다).
 // "" 면 그 항목은 링크 없이 제목 텍스트로 나온다 — WORKS 카드와 같은 규칙이다.
@@ -81,12 +83,18 @@ const FESTIVALS_SLIDES = [
 // ※ 인물 사진을 쓸 때는 그 사람이 누구인지 확인하고 쓴다. 발표자료 19쪽의 지스타 2022 사진을
 //   대표님으로 단정해 넣었다가 뺐다(2026-08-16) — 대표님이 아니었다.
 
-// 태국 게임쇼 아홉 장. 순서가 곧 이야기다 — 행사 → 한국관 → 라인업 보드 → 우리 부스 →
-// 플레이 화면 → 관람객이 직접 해 보는 장면 → 방문객 → 개발자 → 배급사.
+// 전시 부스 사진 열다섯 장 — 행사 두 개다. 아래 연표와 같은 순서(시간순)로 늘어놓는다.
+//   0~11  gamescom asia x Thailand Game Show (2025-10, 방콕). 순서가 곧 이야기다 —
+//         행사 입구 → 메인 스테이지 → 한국관 → 라인업 보드 → 한국관 안 우리 자리 → 우리 부스 →
+//         부스에서 소개 → 플레이 화면 → 관람객이 직접 해 보는 장면 → 방문객 → 개발자 → 배급사.
+//         넓은 곳에서 우리 부스로, 다시 사람으로 좁혀 들어간다.
+//   12~14 GGC 2025 우수 인디게임 초청전 (2025-11-29, 중앙대). 같은 얼개다 — 행사 → 부스 → 사람.
 // journey.photos 의 캡션과 인덱스로 붙으므로 순서를 바꾸면 10개 언어를 같이 고쳐야 한다.
-const SHOW_PHOTOS = ["assets/tgs-06.jpg", "assets/tgs-01.jpg", "assets/tgs-08.jpg",
-                     "assets/tgs-02.jpg", "assets/tgs-09.jpg", "assets/tgs-07.jpg",
-                     "assets/tgs-03.jpg", "assets/tgs-04.jpg", "assets/tgs-05.jpg"];
+const SHOW_PHOTOS = ["assets/tgs-10.jpg", "assets/tgs-06.jpg", "assets/tgs-01.jpg",
+                     "assets/tgs-08.jpg", "assets/tgs-11.jpg", "assets/tgs-02.jpg",
+                     "assets/tgs-12.jpg", "assets/tgs-09.jpg", "assets/tgs-07.jpg",
+                     "assets/tgs-03.jpg", "assets/tgs-04.jpg", "assets/tgs-05.jpg",
+                     "assets/ggc-01.jpg", "assets/ggc-02.jpg", "assets/ggc-03.jpg"];
 const TIMEWARS_SLIDES = ["timewars-cover.jpg"];   // assets/ (키아트. 게임 스크린샷 나오면 추가)
 // 로스터 20명 (도시별 대표 1장). assets/slides-tk/. 세로 전신 아트 → 슬라이드쇼가 세로 프레임으로 뜬다.
 const TURFKING_SLIDES = ["tk-01.jpg","tk-02.jpg","tk-03.jpg","tk-04.jpg","tk-05.jpg","tk-06.jpg","tk-07.jpg","tk-08.jpg","tk-09.jpg","tk-10.jpg","tk-11.jpg","tk-12.jpg","tk-13.jpg","tk-14.jpg","tk-15.jpg","tk-16.jpg","tk-17.jpg","tk-18.jpg","tk-19.jpg","tk-20.jpg"];
@@ -263,21 +271,28 @@ const I18N = {
       more: "Every show we are entering in 2027 →",
       // 부스 사진 캡션. 파일은 i18n.js 위쪽 SHOW_PHOTOS, 사실관계는 아래 연표와 같아야 한다.
       photos: [
-        "The main stage at the venue, where gamescom asia and Thailand Game Show ran together.",
+        "The official gamescom asia x Thailand Game Show sign at the entrance to the show's business area.",
+        "Founder Kent Kim at the venue's main stage, where gamescom asia and Thailand Game Show ran together.",
         "gamescom asia x Thailand Game Show, Bangkok, October 2025 — the K-GAME PLAYGROUND Korea pavilion, where 16 Korean studios stood together. Sponsored by Megazone Cloud.",
-        "Fighting Nations on the Korea pavilion lineup board. The programme was run with the Ministry of SMEs and Startups, KOCCA and Megazone Cloud.",
+        "Founder Kent Kim pointing to Fighting Nations on the Korea pavilion lineup board. The programme was run with the Ministry of SMEs and Startups, KOCCA and Megazone Cloud.",
+        "Inside the K-GAME PLAYGROUND Korea pavilion — our booth stands at the right, with meetings under way at the tables in the middle.",
         "Our booth, with the Fighting Nations poster up and the game playable on the spot.",
+        "Founder Kent Kim introducing Fighting Nations at the booth.",
         "Actual gameplay running on the booth monitors.",
         "A visitor playing Fighting Nations at the booth.",
         "At the booth with a visitor.",
         "At the booth with the Indian developers who build the game with us.",
-        "Meeting an Indian distributor during the show. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came by."
+        "Meeting an Indian distributor during the show. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came by.",
+        "Global Game Challenge 2025 — 29 November 2025 at the Centennial Hall of Chung-Ang University, Seoul, hosted by the Korean Game Society.",
+        "Our stand at the Outstanding Indie Game Invitational. Fighting Nations was invited as one of about 20 selected titles.",
+        "A visitor playing Fighting Nations on a gamepad at the stand."
       ],
       events: [
         { d: "24 May 2025", t: "SERAPHIM: The Awakening of Iron Dragon published on Amazon — the world existed before the game did" },
         { d: "Summer 2025", t: "Unity prototype" },
         { d: "25–26 August 2025", t: "Attended Unreal Fest Seoul 2025 (COEX) — the rebuild in Unreal started two months later" },
-        { d: "17 September 2025", t: "K-Style Expo / AsiaStartupExpo (Q3 2025) — shortlisted as one of 7 startups, pitching in English to 5 judges and investors. We went first." },
+        { d: "17 September 2025", t: "K-Style Expo Q3 2025 (online) — selected as one of 7 startups to pitch, presenting our IR deck in English to judges and investors. We went first." },
+        { d: "19 September 2025", t: "AsiaStartupExpo Q3 2025 (online) — shortlisted as one of 10 Asian startups, pitching in English to global investors" },
         { d: "19 September 2025", t: "Global Business Round Table 2025 (Ministry of Culture, Sports and Tourism · KOCCA, COEX) — one-to-one export meetings with overseas business centres" },
         { d: "25–26 September 2025", t: "StartupCon 2025 — one-to-one meetings with seven Korean and international investors" },
         { d: "6 October 2025", t: "Fighting Nations featured in KoreaProductPost, an English-language Korean media outlet" },
@@ -310,7 +325,7 @@ const I18N = {
       bullets: [
         "Harvard, Economics — emigrated to the US in 1989, admitted three and a half years after arriving",
         "23 books published in Korea and the US · 407 songs released on Spotify since 2012",
-        "23+ years of martial arts: judo, boxing, Hapkido, Haidong Gumdo, Muay Thai, Taekwondo, Shaolin kung fu",
+        "23+ years of martial arts: judo, boxing, Hapkido, Haidong Gumdo (1st dan, 1999), Muay Thai, Taekwondo, Shaolin kung fu",
         "Excellence Award, Incheon Airport AI competition · Jeju Governor's Award, national AI music competition · selected for the 3rd cohort of the Ahn Cheol-soo Foundation's AI vibe-coding programme",
         "Author of SERAPHIM: The Awakening of Iron Dragon, the novel this game comes from",
         "Launched two metaverse platforms in 2022. When the funding market turned, the servers came down — but the lesson stayed: without an end goal, people don't stay, and games have one. Milliverse is back and still being built.",
@@ -387,21 +402,28 @@ const I18N = {
       videos: { gameplay: "실제 게임 영상", trailer: "트레일러", pitch: "VC 피칭 — 경기 게임 커넥트" },
       more: "2027년까지 도전할 행사 전부 보기 →",
       photos: [
-        "행사장 메인 스테이지. gamescom asia 와 Thailand Game Show 가 함께 연 자리입니다.",
+        "행사장 비즈니스 구역 입구에 선 gamescom asia x Thailand Game Show 공식 사인.",
+        "행사장 메인 스테이지 앞에 선 대표 김형섭. gamescom asia 와 Thailand Game Show 가 함께 연 자리입니다.",
         "gamescom asia x Thailand Game Show, 2025년 10월 방콕 — 16개 한국 게임사가 함께 선 한국관 K-GAME PLAYGROUND. 메가존 클라우드가 후원했습니다.",
-        "한국관 라인업 보드에 걸린 Fighting Nations. 중소벤처기업부·한국콘텐츠진흥원·메가존 클라우드가 함께한 프로그램이었습니다.",
+        "한국관 라인업 보드의 Fighting Nations 를 가리키는 대표 김형섭. 중소벤처기업부·한국콘텐츠진흥원·메가존 클라우드가 함께한 프로그램이었습니다.",
+        "한국관 K-GAME PLAYGROUND 안. 오른쪽 끝이 디아더 부스이고, 가운데 테이블에서는 상담이 이어졌습니다.",
         "디아더 부스. Fighting Nations 포스터를 걸고, 그 자리에서 게임을 해 볼 수 있게 했습니다.",
+        "대표 김형섭이 부스에서 Fighting Nations 를 소개하고 있습니다.",
         "부스 모니터로 내보낸 실제 플레이 화면.",
         "관람객이 부스에서 Fighting Nations 를 직접 플레이했습니다.",
         "부스를 찾아온 관계자와.",
         "함께 게임을 만드는 인도 개발자들과 부스에서.",
-        "행사 기간 중 인도 배급사와의 미팅. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다."
+        "행사 기간 중 인도 배급사와의 미팅. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다.",
+        "글로벌 게임 챌린지 2025 — 2025년 11월 29일 중앙대학교 100주년기념관, 한국게임학회 주최.",
+        "「우수 인디게임 초청전」의 디아더 부스. Fighting Nations 가 20작품 내외 선정작으로 초청받았습니다.",
+        "관람객이 패드를 잡고 Fighting Nations 를 직접 플레이했습니다."
       ],
       events: [
         { d: "2025년 5월 24일", t: "원작 소설 『SERAPHIM: The Awakening of Iron Dragon』 아마존 출간 — 게임보다 세계가 먼저 있었습니다" },
         { d: "2025년 여름", t: "유니티로 프로토타입 제작" },
         { d: "2025년 8월 25~26일", t: "언리얼 페스트 서울 2025 참가 (코엑스) — 두 달 뒤 언리얼로 재제작을 시작했습니다" },
-        { d: "2025년 9월 17일", t: "K-Style Expo / AsiaStartupExpo (Q3 2025) — 피칭 7개사 숏리스트에 올라 심사위원 5인과 투자자 앞에서 영어 IR 발표. 발표 순서는 첫 번째였습니다." },
+        { d: "2025년 9월 17일", t: "K-Style Expo Q3 2025 (온라인) — 피칭 7개사에 선정되어 심사위원·투자자 앞에서 영어 IR 발표. 발표 순서는 첫 번째였습니다." },
+        { d: "2025년 9월 19일", t: "AsiaStartupExpo Q3 2025 (온라인) — 아시아 스타트업 10개사 숏리스트에 선정, 글로벌 투자자 대상 영어 피칭" },
         { d: "2025년 9월 19일", t: "글로벌 비즈니스 라운드 테이블 2025 (문화체육관광부·한국콘텐츠진흥원, 코엑스) — 해외비즈니스센터들과 1:1 수출 상담" },
         { d: "2025년 9월 25~26일", t: "스타트업콘 2025 — 국내외 투자사 일곱 곳과 1:1 밋업" },
         { d: "2025년 10월 6일", t: "영문 매체 KoreaProductPost 에 Fighting Nations 소개 기사 게재" },
@@ -434,7 +456,7 @@ const I18N = {
       bullets: [
         "하버드 경제학과 — 1989년 미국 이민, 이민 3년 반 만에 합격",
         "한국·미국에서 23권 출간 · 2012년부터 스포티파이에 407곡 발매",
-        "23년 이상 무술 수련: 유도, 복싱, 합기도, 해동검도, 무에타이, 태권도, 소림권",
+        "23년 이상 무술 수련: 유도, 복싱, 합기도, 해동검도 1단(1999), 무에타이, 태권도, 소림권",
         "AI 인천공항 공모전 최우수상 · AI 음원 전국체전 공모전 제주도지사상 · 안철수재단 AI 바이브 코딩 3기 선발",
         "이 게임의 원작 소설 『SERAPHIM: The Awakening of Iron Dragon』 저자",
         "2022년 메타버스 플랫폼 2개 런칭. 투자 시장이 얼어붙어 서버는 내렸지만 배운 것은 남았습니다 — 엔드골이 없으면 사람이 남지 않는다, 그리고 게임에는 그것이 있다. 밀리버스는 다시 살아나 지금도 만들고 있습니다.",
@@ -509,21 +531,28 @@ const I18N = {
       videos: { gameplay: "实机画面", trailer: "预告片", pitch: "VC 路演 — 京畿 Game Connect" },
       more: "我们 2027 年前要挑战的所有展会 →",
       photos: [
-        "会场主舞台。gamescom asia 与 Thailand Game Show 联合举办。",
+        "会场商务区入口处的 gamescom asia x Thailand Game Show 官方标识。",
+        "创始人 Kent Kim 站在会场主舞台前。gamescom asia 与 Thailand Game Show 联合举办。",
         "gamescom asia x Thailand Game Show，2025 年 10 月曼谷 —— 16 家韩国工作室共同参展的韩国馆 K-GAME PLAYGROUND，由 Megazone Cloud 赞助。",
-        "韩国馆参展阵容展板上的《Fighting Nations》。该项目由中小风险企业部、韩国内容振兴院与 Megazone Cloud 共同支持。",
+        "创始人 Kent Kim 指向韩国馆参展阵容展板上的《Fighting Nations》。该项目由中小风险企业部、韩国内容振兴院与 Megazone Cloud 共同支持。",
+        "韩国馆 K-GAME PLAYGROUND 内部。右侧是迪亚德展位，中间的洽谈桌上会谈不断。",
         "迪亚德展位。挂上《Fighting Nations》海报，让来访者当场试玩。",
+        "创始人 Kent Kim 在展位上介绍《Fighting Nations》。",
         "展位显示器上播放的实际游戏画面。",
         "来访者在展位上试玩《Fighting Nations》。",
         "与到访展位的业内人士。",
         "在展位上，与一起开发游戏的印度开发者们。",
-        "展会期间与印度发行商会面。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商都来过。"
+        "展会期间与印度发行商会面。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商都来过。",
+        "全球游戏挑战赛 2025 —— 2025 年 11 月 29 日，中央大学百年纪念馆，韩国游戏学会主办。",
+        "「优秀独立游戏邀请展」的迪亚德展位。《Fighting Nations》作为约 20 款入选作品之一受邀参展。",
+        "来访者手持手柄，在展位上试玩《Fighting Nations》。"
       ],
       events: [
         { d: "2025 年 5 月 24 日", t: "原作小说《SERAPHIM: The Awakening of Iron Dragon》在亚马逊出版 —— 世界先于游戏而存在" },
         { d: "2025 年夏", t: "以 Unity 完成原型" },
         { d: "2025 年 8 月 25–26 日", t: "参加 Unreal Fest Seoul 2025（COEX）——两个月后开始用虚幻引擎重制" },
-        { d: "2025 年 9 月 17 日", t: "K-Style Expo / AsiaStartupExpo（2025 Q3）——入围七家路演企业，面向 5 位评委与投资人进行英文 IR 发表，并担任首位发表。" },
+        { d: "2025 年 9 月 17 日", t: "K-Style Expo 2025 Q3（线上）——入选七家路演企业，面向评委与投资人进行英文 IR 发表，并担任首位发表。" },
+        { d: "2025 年 9 月 19 日", t: "AsiaStartupExpo 2025 Q3（线上）——入围亚洲十家创业公司短名单，面向全球投资人进行英文路演" },
         { d: "2025 年 9 月 19 日", t: "2025 全球商务圆桌会（文化体育观光部·韩国内容振兴院，COEX）——与多个海外商务中心进行一对一出口洽谈" },
         { d: "2025 年 9 月 25–26 日", t: "StartupCon 2025 —— 与七家国内外投资机构进行一对一会谈" },
         { d: "2025 年 10 月 6 日", t: "英文媒体 KoreaProductPost 刊登 Fighting Nations 专题报道" },
@@ -555,7 +584,7 @@ const I18N = {
       bullets: [
         "哈佛大学经济学系——1989 年移民美国，移民三年半后入学",
         "在韩国与美国出版 23 本书 · 2012 年起在 Spotify 发行 407 首作品",
-        "23 年以上武术经历：柔道、拳击、合气道、海东剑道、泰拳、跆拳道、少林拳",
+        "23 年以上武术经历：柔道、拳击、合气道、海东剑道（1999 年初段）、泰拳、跆拳道、少林拳",
         "仁川机场 AI 大赛最优秀奖 · 全国 AI 音乐大赛济州道知事奖 · 入选安哲秀财团 AI Vibe Coding 第三期",
         "本作原著小说《SERAPHIM: The Awakening of Iron Dragon》作者",
         "2022 年推出两个元宇宙平台。投资市场转冷后服务器下线，但教训留了下来——没有终点目标，人就不会留下，而游戏有。Milliverse 已经重启，至今仍在打磨。",
@@ -630,21 +659,28 @@ const I18N = {
       videos: { gameplay: "実機映像", trailer: "トレーラー", pitch: "VC ピッチ — 京畿 Game Connect" },
       more: "2027年までに挑む展示会のすべて →",
       photos: [
-        "会場のメインステージ。gamescom asia と Thailand Game Show が合同で開いた場です。",
+        "会場のビジネスエリア入口に立つ gamescom asia x Thailand Game Show の公式サイン。",
+        "会場のメインステージ前に立つ代表の Kent Kim。gamescom asia と Thailand Game Show が合同で開いた場です。",
         "gamescom asia x Thailand Game Show、2025年10月バンコク——韓国16社が並んだ韓国館 K-GAME PLAYGROUND。Megazone Cloud 協賛。",
-        "韓国館のラインナップボードに並んだ Fighting Nations。中小ベンチャー企業部・韓国コンテンツ振興院・Megazone Cloud が携わったプログラムでした。",
+        "韓国館のラインナップボードの Fighting Nations を指す代表の Kent Kim。中小ベンチャー企業部・韓国コンテンツ振興院・Megazone Cloud が携わったプログラムでした。",
+        "韓国館 K-GAME PLAYGROUND の中。右端が Deother ブースで、中央のテーブルでは商談が続いていました。",
         "Deother ブース。Fighting Nations のポスターを掲げ、その場で遊べるようにしました。",
+        "代表の Kent Kim がブースで Fighting Nations を紹介しているところ。",
         "ブースのモニターに映した実際のプレイ画面。",
         "来場者がブースで Fighting Nations を実際にプレイ。",
         "ブースを訪ねてくれた業界関係者と。",
         "一緒にゲームを作っているインドの開発者たちとブースで。",
-        "会期中、インドのパブリッシャーとの打ち合わせ。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪しました。"
+        "会期中、インドのパブリッシャーとの打ち合わせ。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪しました。",
+        "グローバル ゲーム チャレンジ 2025 —— 2025年11月29日、中央大学校 100 周年記念館。韓国ゲーム学会主催。",
+        "「優秀インディーゲーム招待展」の Deother ブース。Fighting Nations が約 20 作品の選定作として招待されました。",
+        "来場者がパッドを握って Fighting Nations を実際にプレイ。"
       ],
       events: [
         { d: "2025年5月24日", t: "原作小説『SERAPHIM: The Awakening of Iron Dragon』を Amazon で刊行 — 世界はゲームより先にありました" },
         { d: "2025年夏", t: "Unityでプロトタイプ制作" },
         { d: "2025年8月25〜26日", t: "Unreal Fest Seoul 2025 に参加（COEX）——2か月後にアンリアルでの作り直しを始めました" },
-        { d: "2025年9月17日", t: "K-Style Expo / AsiaStartupExpo（2025 Q3）——ピッチ 7 社のショートリストに選ばれ、審査員 5 名と投資家の前で英語 IR 発表。発表順は 1 番目でした。" },
+        { d: "2025年9月17日", t: "K-Style Expo 2025 Q3（オンライン）——ピッチ 7 社に選ばれ、審査員と投資家の前で英語 IR 発表。発表順は 1 番目でした。" },
+        { d: "2025年9月19日", t: "AsiaStartupExpo 2025 Q3（オンライン）——アジアのスタートアップ 10 社のショートリストに選ばれ、グローバル投資家に英語でピッチ" },
         { d: "2025年9月19日", t: "グローバル・ビジネス・ラウンドテーブル 2025（文化体育観光部・韓国コンテンツ振興院、COEX）——海外ビジネスセンターとの 1 対 1 輸出商談" },
         { d: "2025年9月25〜26日", t: "StartupCon 2025 — 国内外の投資会社 7 社と 1 対 1 ミーティング" },
         { d: "2025年10月6日", t: "英文メディア KoreaProductPost に Fighting Nations の紹介記事が掲載" },
@@ -676,7 +712,7 @@ const I18N = {
       bullets: [
         "ハーバード大学経済学部——1989年に渡米、渡米から3年半で合格",
         "韓国と米国で23冊を出版 · 2012年からSpotifyに407曲を配信",
-        "23年以上の武術経験：柔道、ボクシング、合気道、海東剣道、ムエタイ、テコンドー、少林拳",
+        "23年以上の武術経験：柔道、ボクシング、合気道、海東剣道（1999年初段）、ムエタイ、テコンドー、少林拳",
         "仁川空港AIコンペ最優秀賞 · 全国AI音楽コンペ済州道知事賞 · 安哲秀財団AIバイブコーディング3期に選出",
         "本作の原作小説『SERAPHIM: The Awakening of Iron Dragon』著者",
         "2022年にメタバースを2件立ち上げました。投資環境が冷え込みサーバーは落としましたが、学びは残りました——終着点がなければ人は残らない、そしてゲームにはそれがある。Milliverse は復活し、今も作り続けています。",
@@ -751,21 +787,28 @@ const I18N = {
       videos: { gameplay: "Gameplay", trailer: "Tráiler", pitch: "Pitch a VC — Gyeonggi Game Connect" },
       more: "Todas las ferias a las que nos presentamos hasta 2027 →",
       photos: [
-        "El escenario principal del recinto, donde gamescom asia y Thailand Game Show se celebraron juntos.",
+        "El cartel oficial de gamescom asia x Thailand Game Show a la entrada de la zona de negocios del salón.",
+        "El fundador, Kent Kim, ante el escenario principal del recinto, donde gamescom asia y Thailand Game Show se celebraron juntos.",
         "gamescom asia x Thailand Game Show, Bangkok, octubre de 2025: el pabellón coreano K-GAME PLAYGROUND, donde estuvimos 16 estudios coreanos. Patrocinado por Megazone Cloud.",
-        "Fighting Nations en el panel de estudios del pabellón coreano. El programa se hizo con el Ministerio de Pymes y Startups, KOCCA y Megazone Cloud.",
+        "El fundador, Kent Kim, señalando Fighting Nations en el panel de estudios del pabellón coreano. El programa se hizo con el Ministerio de Pymes y Startups, KOCCA y Megazone Cloud.",
+        "Dentro del pabellón coreano K-GAME PLAYGROUND: nuestro stand está a la derecha y en las mesas del centro seguían las reuniones.",
         "Nuestro stand, con el póster de Fighting Nations y el juego disponible para probarlo allí mismo.",
+        "El fundador, Kent Kim, presentando Fighting Nations en el stand.",
         "Partidas reales corriendo en los monitores del stand.",
         "Un visitante jugando a Fighting Nations en el stand.",
         "En el stand con un visitante.",
         "En el stand con los desarrolladores indios que hacen el juego con nosotros.",
-        "Reunión con una distribuidora india durante la feria. Pasaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán."
+        "Reunión con una distribuidora india durante la feria. Pasaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán.",
+        "Global Game Challenge 2025: el 29 de noviembre de 2025 en el Salón del Centenario de la Universidad Chung-Ang, Seúl, organizado por la Korean Game Society.",
+        "Nuestro stand en la Muestra de Juegos Indie Destacados. Fighting Nations fue invitado entre unos 20 títulos seleccionados.",
+        "Un visitante juega a Fighting Nations con mando en el stand."
       ],
       events: [
         { d: "24 de mayo de 2025", t: "Se publica en Amazon SERAPHIM: The Awakening of Iron Dragon — el mundo existía antes que el juego" },
         { d: "Verano 2025", t: "Prototipo en Unity" },
         { d: "25–26 de agosto de 2025", t: "Asistencia a Unreal Fest Seoul 2025 (COEX); dos meses después empezó la reconstrucción en Unreal" },
-        { d: "17 de septiembre de 2025", t: "K-Style Expo / AsiaStartupExpo (Q3 2025): preseleccionados entre 7 startups, con presentación IR en inglés ante 5 jueces e inversores. Abrimos la sesión." },
+        { d: "17 de septiembre de 2025", t: "K-Style Expo Q3 2025 (en línea): seleccionados entre 7 startups para presentar, con IR en inglés ante jueces e inversores. Abrimos la sesión." },
+        { d: "19 de septiembre de 2025", t: "AsiaStartupExpo Q3 2025 (en línea): preseleccionados entre 10 startups asiáticas, con pitch en inglés ante inversores globales" },
         { d: "19 de septiembre de 2025", t: "Global Business Round Table 2025 (Ministerio de Cultura, Deporte y Turismo · KOCCA, COEX): reuniones de exportación uno a uno con centros de negocio en el exterior" },
         { d: "25–26 de septiembre de 2025", t: "StartupCon 2025: reuniones uno a uno con siete inversores coreanos e internacionales" },
         { d: "6 de octubre de 2025", t: "Fighting Nations aparece en KoreaProductPost, medio coreano en inglés" },
@@ -797,7 +840,7 @@ const I18N = {
       bullets: [
         "Harvard, Economía: emigró a EE. UU. en 1989, admitido tres años y medio después de llegar",
         "23 libros publicados en Corea y EE. UU. · 407 canciones en Spotify desde 2012",
-        "Más de 23 años de artes marciales: judo, boxeo, hapkido, Haidong Gumdo, muay thai, taekwondo, kung-fu Shaolin",
+        "Más de 23 años de artes marciales: judo, boxeo, hapkido, Haidong Gumdo (1.er dan, 1999), muay thai, taekwondo, kung-fu Shaolin",
         "Premio a la Excelencia en el concurso de IA del Aeropuerto de Incheon · Premio del Gobernador de Jeju en el concurso nacional de música con IA · seleccionado para la 3.ª promoción del programa de vibe coding con IA de la Fundación Ahn Cheol-soo",
         "Autor de SERAPHIM: The Awakening of Iron Dragon, la novela de la que nace este juego",
         "Dos plataformas de metaverso lanzadas en 2022. Cuando el mercado de inversión se enfrió, los servidores cayeron, pero la lección quedó: sin una meta final la gente no se queda, y los juegos la tienen. Milliverse ha vuelto y sigue en construcción.",
@@ -872,21 +915,28 @@ const I18N = {
       videos: { gameplay: "Gameplay", trailer: "Trailer", pitch: "Pitch a VC — Gyeonggi Game Connect" },
       more: "Todos os eventos a que nos candidatamos até 2027 →",
       photos: [
-        "O palco principal do recinto, onde a gamescom asia e a Thailand Game Show decorreram em conjunto.",
+        "O letreiro oficial da gamescom asia x Thailand Game Show à entrada da zona de negócios da feira.",
+        "O fundador, Kent Kim, diante do palco principal do recinto, onde a gamescom asia e a Thailand Game Show decorreram em conjunto.",
         "gamescom asia x Thailand Game Show, Banguecoque, outubro de 2025 — o pavilhão coreano K-GAME PLAYGROUND, onde estivemos 16 estúdios coreanos. Patrocinado pela Megazone Cloud.",
-        "Fighting Nations no painel de estúdios do pavilhão coreano. O programa foi feito com o Ministério das PME e Startups, a KOCCA e a Megazone Cloud.",
+        "O fundador, Kent Kim, a apontar para Fighting Nations no painel de estúdios do pavilhão coreano. O programa foi feito com o Ministério das PME e Startups, a KOCCA e a Megazone Cloud.",
+        "Dentro do pavilhão coreano K-GAME PLAYGROUND: o nosso stand fica à direita e nas mesas do centro decorriam reuniões.",
         "O nosso stand, com o cartaz de Fighting Nations e o jogo jogável ali mesmo.",
+        "O fundador, Kent Kim, a apresentar Fighting Nations no stand.",
         "Jogabilidade real a correr nos monitores do stand.",
         "Um visitante a jogar Fighting Nations no stand.",
         "No stand com um visitante.",
         "No stand com os programadores indianos que fazem o jogo connosco.",
-        "Reunião com uma distribuidora indiana durante a feira. Passaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan."
+        "Reunião com uma distribuidora indiana durante a feira. Passaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan.",
+        "Global Game Challenge 2025 — a 29 de novembro de 2025 no Salão do Centenário da Universidade Chung-Ang, Seul, organizado pela Korean Game Society.",
+        "O nosso stand na Mostra de Jogos Indie em Destaque. Fighting Nations foi convidado entre cerca de 20 títulos selecionados.",
+        "Um visitante a jogar Fighting Nations com comando no stand."
       ],
       events: [
         { d: "24 de maio de 2025", t: "Publicação na Amazon de SERAPHIM: The Awakening of Iron Dragon — o mundo existia antes do jogo" },
         { d: "Verão 2025", t: "Protótipo em Unity" },
         { d: "25–26 de agosto de 2025", t: "Presença na Unreal Fest Seoul 2025 (COEX); dois meses depois começou a reconstrução em Unreal" },
-        { d: "17 de setembro de 2025", t: "K-Style Expo / AsiaStartupExpo (Q3 2025): pré-selecionados entre 7 startups, com apresentação IR em inglês perante 5 jurados e investidores. Abrimos a sessão." },
+        { d: "17 de setembro de 2025", t: "K-Style Expo Q3 2025 (online): selecionados entre 7 startups para apresentar, com IR em inglês perante jurados e investidores. Abrimos a sessão." },
+        { d: "19 de setembro de 2025", t: "AsiaStartupExpo Q3 2025 (online): pré-selecionados entre 10 startups asiáticas, com pitch em inglês perante investidores globais" },
         { d: "19 de setembro de 2025", t: "Global Business Round Table 2025 (Ministério da Cultura, Desporto e Turismo · KOCCA, COEX): reuniões de exportação um-a-um com centros de negócios no estrangeiro" },
         { d: "25–26 de setembro de 2025", t: "StartupCon 2025: reuniões um-a-um com sete investidores coreanos e internacionais" },
         { d: "6 de outubro de 2025", t: "Fighting Nations em destaque na KoreaProductPost, meio coreano em inglês" },
@@ -918,7 +968,7 @@ const I18N = {
       bullets: [
         "Harvard, Economia — emigrou para os EUA em 1989, admitido três anos e meio depois de chegar",
         "23 livros publicados na Coreia e nos EUA · 407 músicas no Spotify desde 2012",
-        "Mais de 23 anos de artes marciais: judo, boxe, hapkido, Haidong Gumdo, muay thai, taekwondo, kung fu Shaolin",
+        "Mais de 23 anos de artes marciais: judo, boxe, hapkido, Haidong Gumdo (1.º dan, 1999), muay thai, taekwondo, kung fu Shaolin",
         "Prémio de Excelência no concurso de IA do Aeroporto de Incheon · Prémio do Governador de Jeju no concurso nacional de música com IA · selecionado para a 3.ª turma do programa de vibe coding com IA da Fundação Ahn Cheol-soo",
         "Autor de SERAPHIM: The Awakening of Iron Dragon, o romance que deu origem ao jogo",
         "Duas plataformas de metaverso lançadas em 2022. Quando o mercado de investimento arrefeceu, os servidores caíram, mas a lição ficou: sem um objetivo final as pessoas não ficam, e os jogos têm um. O Milliverse voltou e continua a ser construído.",
@@ -993,21 +1043,28 @@ const I18N = {
       videos: { gameplay: "Séquences de jeu", trailer: "Bande-annonce", pitch: "Pitch investisseurs — Gyeonggi Game Connect" },
       more: "Tous les salons auxquels nous postulons d'ici 2027 →",
       photos: [
-        "La scène principale du salon, où gamescom asia et Thailand Game Show se tenaient ensemble.",
+        "L'enseigne officielle gamescom asia x Thailand Game Show à l'entrée de l'espace business du salon.",
+        "Le fondateur, Kent Kim, devant la scène principale du salon, où gamescom asia et Thailand Game Show se tenaient ensemble.",
         "gamescom asia x Thailand Game Show, Bangkok, octobre 2025 — le pavillon coréen K-GAME PLAYGROUND, où 16 studios coréens étaient réunis. Parrainé par Megazone Cloud.",
-        "Fighting Nations sur le panneau des studios du pavillon coréen. Le programme était mené avec le ministère des PME et des Startups, la KOCCA et Megazone Cloud.",
+        "Le fondateur, Kent Kim, désigne Fighting Nations sur le panneau des studios du pavillon coréen. Le programme était mené avec le ministère des PME et des Startups, la KOCCA et Megazone Cloud.",
+        "À l'intérieur du pavillon coréen K-GAME PLAYGROUND : notre stand est à droite, et les rendez-vous s'enchaînaient aux tables du centre.",
         "Notre stand, avec l'affiche de Fighting Nations et le jeu jouable sur place.",
+        "Le fondateur, Kent Kim, présente Fighting Nations sur le stand.",
         "Des parties réelles tournant sur les écrans du stand.",
         "Un visiteur joue à Fighting Nations sur le stand.",
         "Au stand avec un visiteur.",
         "Au stand avec les développeurs indiens qui font le jeu avec nous.",
-        "Rendez-vous avec un distributeur indien pendant le salon. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont passés."
+        "Rendez-vous avec un distributeur indien pendant le salon. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont passés.",
+        "Global Game Challenge 2025 — le 29 novembre 2025 au Centennial Hall de l'université Chung-Ang, à Séoul, organisé par la Korean Game Society.",
+        "Notre stand à l'exposition sur invitation des meilleurs jeux indépendants. Fighting Nations était invité parmi une vingtaine de titres sélectionnés.",
+        "Un visiteur joue à Fighting Nations à la manette sur le stand."
       ],
       events: [
         { d: "24 mai 2025", t: "Parution sur Amazon de SERAPHIM: The Awakening of Iron Dragon — le monde existait avant le jeu" },
         { d: "Été 2025", t: "Prototype sous Unity" },
         { d: "25–26 août 2025", t: "Participation à l’Unreal Fest Seoul 2025 (COEX) — la refonte sous Unreal a commencé deux mois plus tard" },
-        { d: "17 septembre 2025", t: "K-Style Expo / AsiaStartupExpo (T3 2025) — présélectionnés parmi 7 startups, pitch IR en anglais devant 5 jurés et des investisseurs. Nous ouvrions la séance." },
+        { d: "17 septembre 2025", t: "K-Style Expo T3 2025 (en ligne) — sélectionnés parmi 7 startups pour pitcher, présentation IR en anglais devant jurés et investisseurs. Nous ouvrions la séance." },
+        { d: "19 septembre 2025", t: "AsiaStartupExpo T3 2025 (en ligne) — présélectionnés parmi 10 startups asiatiques, pitch en anglais devant des investisseurs internationaux" },
         { d: "19 septembre 2025", t: "Global Business Round Table 2025 (ministère de la Culture, des Sports et du Tourisme · KOCCA, COEX) — rendez-vous export en tête-à-tête avec des centres d’affaires à l’étranger" },
         { d: "25–26 septembre 2025", t: "StartupCon 2025 — rendez-vous en tête-à-tête avec sept investisseurs coréens et internationaux" },
         { d: "6 octobre 2025", t: "Fighting Nations présenté dans KoreaProductPost, média coréen anglophone" },
@@ -1039,7 +1096,7 @@ const I18N = {
       bullets: [
         "Harvard, économie — émigré aux États-Unis en 1989, admis trois ans et demi après son arrivée",
         "23 livres publiés en Corée et aux États-Unis · 407 titres sur Spotify depuis 2012",
-        "Plus de 23 ans d'arts martiaux : judo, boxe, hapkido, Haidong Gumdo, muay-thaï, taekwondo, kung-fu Shaolin",
+        "Plus de 23 ans d'arts martiaux : judo, boxe, hapkido, Haidong Gumdo (1er dan, 1999), muay-thaï, taekwondo, kung-fu Shaolin",
         "Prix d'excellence au concours d'IA de l'aéroport d'Incheon · Prix du gouverneur de Jeju au concours national de musique par IA · sélectionné pour la 3e promotion du programme de vibe coding IA de la Fondation Ahn Cheol-soo",
         "Auteur de SERAPHIM: The Awakening of Iron Dragon, le roman dont vient ce jeu",
         "Deux plateformes de métavers lancées en 2022. Quand le marché du financement s'est retourné, les serveurs sont tombés, mais la leçon est restée : sans objectif final les gens ne restent pas, et les jeux en ont un. Milliverse est de retour et se construit encore.",
@@ -1114,21 +1171,28 @@ const I18N = {
       videos: { gameplay: "Spielszenen", trailer: "Trailer", pitch: "VC-Pitch — Gyeonggi Game Connect" },
       more: "Alle Messen, für die wir uns bis 2027 bewerben →",
       photos: [
-        "Die Hauptbühne des Veranstaltungsorts, wo gamescom asia und Thailand Game Show gemeinsam stattfanden.",
+        "Das offizielle Schild von gamescom asia x Thailand Game Show am Eingang zum Business-Bereich der Messe.",
+        "Gründer Kent Kim vor der Hauptbühne des Veranstaltungsorts, wo gamescom asia und Thailand Game Show gemeinsam stattfanden.",
         "gamescom asia x Thailand Game Show, Bangkok, Oktober 2025 — der koreanische Pavillon K-GAME PLAYGROUND, in dem 16 koreanische Studios zusammenstanden. Gesponsert von Megazone Cloud.",
-        "Fighting Nations auf der Studio-Tafel des koreanischen Pavillons. Das Programm lief mit dem Ministerium für KMU und Start-ups, KOCCA und Megazone Cloud.",
+        "Gründer Kent Kim zeigt auf Fighting Nations auf der Studio-Tafel des koreanischen Pavillons. Das Programm lief mit dem Ministerium für KMU und Start-ups, KOCCA und Megazone Cloud.",
+        "Im koreanischen Pavillon K-GAME PLAYGROUND: Unser Stand steht rechts, an den Tischen in der Mitte liefen die Gespräche.",
         "Unser Stand, mit dem Fighting-Nations-Plakat und dem Spiel direkt vor Ort spielbar.",
+        "Gründer Kent Kim stellt Fighting Nations am Stand vor.",
         "Echtes Gameplay auf den Monitoren am Stand.",
         "Ein Besucher spielt Fighting Nations am Stand.",
         "Am Stand mit einem Besucher.",
         "Am Stand mit den indischen Entwicklern, die das Spiel mit uns bauen.",
-        "Treffen mit einem indischen Distributor während der Messe. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen vorbei."
+        "Treffen mit einem indischen Distributor während der Messe. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen vorbei.",
+        "Global Game Challenge 2025 — am 29. November 2025 in der Centennial Hall der Chung-Ang-Universität in Seoul, veranstaltet von der Korean Game Society.",
+        "Unser Stand bei der Einladungsausstellung herausragender Indie-Spiele. Fighting Nations war als eines von rund 20 ausgewählten Titeln eingeladen.",
+        "Ein Besucher spielt Fighting Nations mit dem Gamepad am Stand."
       ],
       events: [
         { d: "24. Mai 2025", t: "SERAPHIM: The Awakening of Iron Dragon erscheint bei Amazon — die Welt gab es vor dem Spiel" },
         { d: "Sommer 2025", t: "Prototyp in Unity" },
         { d: "25.–26. August 2025", t: "Teilnahme an der Unreal Fest Seoul 2025 (COEX) — zwei Monate später begann der Umbau in Unreal" },
-        { d: "17. September 2025", t: "K-Style Expo / AsiaStartupExpo (Q3 2025) — als eines von 7 Startups auf der Shortlist, IR-Pitch auf Englisch vor 5 Juroren und Investoren. Wir eröffneten die Runde." },
+        { d: "17. September 2025", t: "K-Style Expo Q3 2025 (online) — als eines von 7 Startups zum Pitch ausgewählt, IR-Präsentation auf Englisch vor Juroren und Investoren. Wir eröffneten die Runde." },
+        { d: "19. September 2025", t: "AsiaStartupExpo Q3 2025 (online) — als eines von 10 asiatischen Startups auf der Shortlist, Pitch auf Englisch vor globalen Investoren" },
         { d: "19. September 2025", t: "Global Business Round Table 2025 (Ministerium für Kultur, Sport und Tourismus · KOCCA, COEX) — Eins-zu-eins-Exportgespräche mit Auslandsbüros" },
         { d: "25.–26. September 2025", t: "StartupCon 2025 — Eins-zu-eins-Gespräche mit sieben koreanischen und internationalen Investoren" },
         { d: "6. Oktober 2025", t: "Fighting Nations im englischsprachigen koreanischen Medium KoreaProductPost vorgestellt" },
@@ -1160,7 +1224,7 @@ const I18N = {
       bullets: [
         "Harvard, Volkswirtschaft — 1989 in die USA ausgewandert, dreieinhalb Jahre nach der Ankunft aufgenommen",
         "23 Bücher in Korea und den USA veröffentlicht · 407 Songs seit 2012 auf Spotify",
-        "Über 23 Jahre Kampfkunst: Judo, Boxen, Hapkido, Haidong Gumdo, Muay Thai, Taekwondo, Shaolin-Kung-Fu",
+        "Über 23 Jahre Kampfkunst: Judo, Boxen, Hapkido, Haidong Gumdo (1. Dan, 1999), Muay Thai, Taekwondo, Shaolin-Kung-Fu",
         "Exzellenzpreis beim KI-Wettbewerb des Flughafens Incheon · Preis des Gouverneurs von Jeju beim nationalen KI-Musikwettbewerb · ausgewählt für den 3. Jahrgang des KI-Vibe-Coding-Programms der Ahn-Cheol-soo-Stiftung",
         "Autor von SERAPHIM: The Awakening of Iron Dragon, dem Roman hinter diesem Spiel",
         "2022 zwei Metaverse-Plattformen gestartet. Als der Finanzierungsmarkt kippte, gingen die Server vom Netz — die Lehre blieb: ohne Endziel bleibt niemand, und Spiele haben eines. Milliverse ist zurück und wird weiter gebaut.",
@@ -1235,21 +1299,28 @@ const I18N = {
       videos: { gameplay: "Игровой процесс", trailer: "Трейлер", pitch: "Питч для VC — Gyeonggi Game Connect" },
       more: "Все фестивали, на которые мы подаём заявки до 2027 года →",
       photos: [
-        "Главная сцена площадки, где gamescom asia и Thailand Game Show проходили вместе.",
+        "Официальная вывеска gamescom asia x Thailand Game Show у входа в бизнес-зону выставки.",
+        "Основатель Kent Kim у главной сцены площадки, где gamescom asia и Thailand Game Show проходили вместе.",
         "gamescom asia x Thailand Game Show, Бангкок, октябрь 2025 — корейский павильон K-GAME PLAYGROUND, где вместе стояли 16 корейских студий. При поддержке Megazone Cloud.",
-        "Fighting Nations на стенде со списком студий корейского павильона. Программа проходила при участии Министерства МСП и стартапов, KOCCA и Megazone Cloud.",
+        "Основатель Kent Kim показывает на Fighting Nations на стенде со списком студий корейского павильона. Программа проходила при участии Министерства МСП и стартапов, KOCCA и Megazone Cloud.",
+        "Внутри корейского павильона K-GAME PLAYGROUND: наш стенд справа, а за столами в центре шли переговоры.",
         "Наш стенд: постер Fighting Nations и игра, в которую можно было сыграть прямо там.",
+        "Основатель Kent Kim рассказывает о Fighting Nations на стенде.",
         "Реальный геймплей на мониторах стенда.",
         "Посетитель играет в Fighting Nations на стенде.",
         "На стенде с гостем.",
         "На стенде с индийскими разработчиками, которые делают игру вместе с нами.",
-        "Встреча с индийским дистрибьютором во время выставки. Заходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня."
+        "Встреча с индийским дистрибьютором во время выставки. Заходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня.",
+        "Global Game Challenge 2025 — 29 ноября 2025 года, Зал столетия Университета Чунг-Ан в Сеуле, организатор — Korean Game Society.",
+        "Наш стенд на выставке лучших инди-игр по приглашению. Fighting Nations вошла в число примерно 20 отобранных работ.",
+        "Посетитель играет в Fighting Nations с геймпадом на стенде."
       ],
       events: [
         { d: "24 мая 2025", t: "Роман SERAPHIM: The Awakening of Iron Dragon вышел на Amazon — мир появился раньше игры" },
         { d: "Лето 2025", t: "Прототип на Unity" },
         { d: "25–26 августа 2025", t: "Участие в Unreal Fest Seoul 2025 (COEX) — через два месяца началась переработка на Unreal" },
-        { d: "17 сентября 2025", t: "K-Style Expo / AsiaStartupExpo (Q3 2025) — вошли в шорт-лист из 7 стартапов, IR-питч на английском перед 5 судьями и инвесторами. Мы выступали первыми." },
+        { d: "17 сентября 2025", t: "K-Style Expo Q3 2025 (онлайн) — вошли в число 7 стартапов для питча, IR-презентация на английском перед судьями и инвесторами. Мы выступали первыми." },
+        { d: "19 сентября 2025", t: "AsiaStartupExpo Q3 2025 (онлайн) — вошли в шорт-лист из 10 азиатских стартапов, питч на английском перед глобальными инвесторами" },
         { d: "19 сентября 2025", t: "Global Business Round Table 2025 (Министерство культуры, спорта и туризма · KOCCA, COEX) — экспортные встречи один на один с зарубежными бизнес-центрами" },
         { d: "25–26 сентября 2025", t: "StartupCon 2025 — встречи один на один с семью корейскими и зарубежными инвесторами" },
         { d: "6 октября 2025", t: "Fighting Nations в англоязычном корейском издании KoreaProductPost" },
@@ -1281,7 +1352,7 @@ const I18N = {
       bullets: [
         "Гарвард, экономика — эмигрировал в США в 1989-м, поступил через три с половиной года после переезда",
         "23 книг издано в Корее и США · 407 песен на Spotify с 2012 года",
-        "Более 23 лет боевых искусств: дзюдо, бокс, хапкидо, хэдон гымдо, муай-тай, тхэквондо, шаолиньское кунг-фу",
+        "Более 23 лет боевых искусств: дзюдо, бокс, хапкидо, хэдон гымдо (1-й дан, 1999), муай-тай, тхэквондо, шаолиньское кунг-фу",
         "Премия за выдающиеся достижения на конкурсе ИИ аэропорта Инчхон · приз губернатора Чеджу на национальном конкурсе ИИ-музыки · отобран в 3-й поток программы ИИ vibe coding фонда Ан Чхоль Су",
         "Автор романа SERAPHIM: The Awakening of Iron Dragon, из которого выросла игра",
         "В 2022-м запустил две метавселенные. Когда инвестиционный рынок развернулся, серверы пришлось выключить, но вывод остался: без конечной цели люди не остаются, а у игр она есть. Milliverse вернулся и продолжает развиваться.",
@@ -1357,21 +1428,28 @@ const I18N = {
       more: "كل المعارض التي نتقدّم إليها حتى 2027 ←",
       // 라틴 문자로 시작하는 줄에는 RLM(U+200F)을 앞에 둔다 — 없으면 문장 방향이 뒤집혀 보인다.
       photos: [
-        "المسرح الرئيسي في المعرض، حيث أُقيم gamescom asia و Thailand Game Show معًا.",
+        "اللافتة الرسمية لـ gamescom asia x Thailand Game Show عند مدخل منطقة الأعمال في المعرض.",
+        "المؤسس Kent Kim أمام المسرح الرئيسي في المعرض، حيث أُقيم gamescom asia و Thailand Game Show معًا.",
         "‏gamescom asia x Thailand Game Show، بانكوك، أكتوبر 2025 — الجناح الكوري K-GAME PLAYGROUND الذي ضمّ 16 استوديو كوريًا، برعاية Megazone Cloud.",
-        "‏Fighting Nations على لوحة الاستوديوهات في الجناح الكوري. أُقيم البرنامج بمشاركة وزارة الشركات الصغيرة والمتوسطة والناشئة و KOCCA و Megazone Cloud.",
+        "المؤسس Kent Kim يشير إلى Fighting Nations على لوحة الاستوديوهات في الجناح الكوري. أُقيم البرنامج بمشاركة وزارة الشركات الصغيرة والمتوسطة والناشئة و KOCCA و Megazone Cloud.",
+        "داخل الجناح الكوري K-GAME PLAYGROUND: منصّتنا على اليمين، وعلى الطاولات في الوسط كانت اللقاءات جارية.",
         "منصّتنا، وعليها ملصق Fighting Nations واللعبة متاحة للتجربة في المكان.",
+        "المؤسس Kent Kim يقدّم Fighting Nations في المنصّة.",
         "لقطات لعب فعلية تُعرض على شاشات المنصّة.",
         "أحد الزوار يجرّب Fighting Nations في المنصّة.",
         "في المنصّة مع أحد الزوار.",
         "في المنصّة مع المطوّرين الهنود الذين يصنعون اللعبة معنا.",
-        "لقاء مع موزّع هندي خلال المعرض. مرّ بالمنصّة موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان."
+        "لقاء مع موزّع هندي خلال المعرض. مرّ بالمنصّة موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان.",
+        "‏Global Game Challenge 2025 — في 29 نوفمبر 2025 بقاعة المئوية في جامعة تشونغ-آنغ بسول، بتنظيم الجمعية الكورية للألعاب.",
+        "منصّتنا في معرض الألعاب المستقلة المتميّزة بالدعوة. دُعيت Fighting Nations ضمن نحو 20 عملاً مختاراً.",
+        "أحد الزوار يلعب Fighting Nations بذراع التحكّم في المنصّة."
       ],
       events: [
         { d: "‏24 مايو 2025", t: "صدور رواية SERAPHIM: The Awakening of Iron Dragon على أمازون — العالم وُجد قبل اللعبة" },
         { d: "صيف 2025", t: "نموذج أولي على Unity" },
         { d: "‏25–26 أغسطس 2025", t: "حضور Unreal Fest Seoul 2025 (COEX) — وبعد شهرين بدأت إعادة البناء على Unreal" },
-        { d: "‏17 سبتمبر 2025", t: "‏K-Style Expo / AsiaStartupExpo (الربع الثالث 2025) — ضمن القائمة القصيرة لسبع شركات ناشئة، وعرض IR بالإنجليزية أمام 5 محكّمين ومستثمرين، وكنّا أول المتحدّثين." },
+        { d: "‏17 سبتمبر 2025", t: "‏K-Style Expo الربع الثالث 2025 (عبر الإنترنت) — اخترنا ضمن 7 شركات ناشئة للعرض، وقدّمنا عرض IR بالإنجليزية أمام المحكّمين والمستثمرين، وكنّا أول المتحدّثين." },
+        { d: "‏19 سبتمبر 2025", t: "‏AsiaStartupExpo الربع الثالث 2025 (عبر الإنترنت) — ضمن القائمة القصيرة لعشر شركات ناشئة آسيوية، وعرض بالإنجليزية أمام مستثمرين عالميين" },
         { d: "‏19 سبتمبر 2025", t: "‏Global Business Round Table 2025 (وزارة الثقافة والرياضة والسياحة · وكالة كوكا، COEX) — لقاءات تصدير ثنائية مع مراكز الأعمال في الخارج" },
         { d: "‏25–26 سبتمبر 2025", t: "‏StartupCon 2025 — لقاءات ثنائية مع سبع جهات استثمارية كورية ودولية" },
         { d: "‏6 أكتوبر 2025", t: "‏تقرير عن Fighting Nations في KoreaProductPost، وسيلة إعلام كورية بالإنجليزية" },
@@ -1403,7 +1481,7 @@ const I18N = {
       bullets: [
         "جامعة هارفارد، الاقتصاد — هاجر إلى الولايات المتحدة عام 1989 وقُبل بعد ثلاث سنوات ونصف من وصوله",
         "‏23 كتابًا منشورًا في كوريا والولايات المتحدة · 407 أغنية على Spotify منذ 2012",
-        "أكثر من 23 عامًا في الفنون القتالية: الجودو والملاكمة والهابكيدو والهايدونغ غومدو والمواي تاي والتايكوندو وكونغ فو شاولين",
+        "أكثر من 23 عامًا في الفنون القتالية: الجودو والملاكمة والهابكيدو والهايدونغ غومدو (الحزام الأسود الدان الأول، 1999) والمواي تاي والتايكوندو وكونغ فو شاولين",
         "جائزة التميّز في مسابقة الذكاء الاصطناعي بمطار إنتشون · جائزة حاكم جيجو في المسابقة الوطنية للموسيقى بالذكاء الاصطناعي · الاختيار ضمن الدفعة الثالثة لبرنامج AI Vibe Coding من مؤسسة آن تشول-سو",
         "مؤلف رواية SERAPHIM: The Awakening of Iron Dragon التي وُلدت منها اللعبة",
         "أطلق منصتَي ميتافيرس عام 2022. وحين انقلب سوق الاستثمار أُوقفت الخوادم، لكن الدرس بقي: من دون هدف نهائي لا يبقى الناس، والألعاب لديها هدف. وقد عاد Milliverse ولا يزال قيد البناء.",
