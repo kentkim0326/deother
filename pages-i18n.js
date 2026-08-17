@@ -3514,7 +3514,7 @@ const PAGES = {
         {
           h: "1만 통의 편지",
           p: [
-            "이혼한 어머니를 찾아 미국으로 건너간 것은 고등학교 1학년 때였다. 고생하는 어머니를 보며 독하게 공부해, 이민 3년 반 만에 하버드에 들어갔다.",
+            "이혼한 어머니를 찾아 미국으로 건너간 것은 고등학교 1학년 때였다. 고생하는 어머니를 보며 독하게 공부해 하버드에 들어갔다.",
             "대학 시절 전 세계의 정치·경제 리더 1만 명에게 편지를 썼다. 워런 버핏, 마거릿 대처, 잭 웰치, 코카콜라 회장, 미쓰비시 사장, 바이올리니스트 예후디 메뉴인, 에드워드 케네디 상원의원 등 100명이 넘게 답장을 보내왔다.",
             "2002년 어머니가 세상을 떠난 해부터 간증을 시작해, 전국의 교회와 고아원·대학교·외국어고등학교에서 25년째 강연하고 있다. KBS 아침마당에 세 번 출연했고, 세바시 154회 연사로 섰고, 안동MBC에서 하버드식 학습법을 20강으로 만들어 1년간 방송했다."
           ]
@@ -3588,7 +3588,7 @@ const PAGES = {
         "신동아 기사",
         "한국형 호러 연작 표지",
         "『SERAPHIM: The Awakening of the Iron Dragon』",
-        "신문 기사와 전시 자료", "", "", "", "", "", "수료증과 상장 열한 장", "", "", "", "", "", "", "", "", "", ""
+        "신문 기사와 전시 자료", "", "", "", "", "", "수료증과 상장 열두 장", "", "", "", "", "", "", "", "", "", "", ""
       ],
       cta: "TAFA 음악 듣기", back: "Deother로 돌아가기"
     },
@@ -3600,7 +3600,7 @@ const PAGES = {
         {
           h: "Ten thousand letters",
           p: [
-            "He was a high-school freshman when he crossed the Pacific to find his divorced mother. Watching her struggle, he studied himself into Harvard — three and a half years after arriving in the US.",
+            "He was a high-school freshman when he crossed the Pacific to find his divorced mother. Watching her struggle, he studied himself into Harvard.",
             "As an undergraduate he wrote to ten thousand political and business leaders around the world. More than a hundred wrote back — Warren Buffett, Margaret Thatcher, Jack Welch, the chairman of Coca-Cola, the president of Mitsubishi, the violinist Yehudi Menuhin, Senator Edward Kennedy.",
             "From 2002, the year his mother died, he began speaking publicly, and he has kept it up for twenty-five years — churches, orphanages, universities and foreign-language high schools across Korea. Three appearances on KBS Morning Yard, a Sebasi talk, and a twenty-part series on Harvard study methods broadcast for a year on Andong MBC."
           ]
@@ -3674,8 +3674,8 @@ const PAGES = {
         "Shin Dong-A feature",
         "Korean horror series cover",
         "SERAPHIM: The Awakening of the Iron Dragon",
-        "Press coverage and exhibition records", "", "", "", "", "", "Eleven certificates and awards", "", "",
-        "", "", "", "", "", "", "", ""
+        "Press coverage and exhibition records", "", "", "", "", "", "Twelve certificates and awards", "", "",
+        "", "", "", "", "", "", "", "", ""
       ],
       cta: "Listen to TAFA", back: "Back to Deother"
     },
@@ -3688,7 +3688,7 @@ const PAGES = {
         {
           h: "一万封信",
           p: [
-            "他高一那年越过太平洋，去找离婚的母亲。看着母亲吃苦，他把自己逼进了哈佛——移民美国三年半之后。",
+            "他高一那年越过太平洋，去找离婚的母亲。看着母亲吃苦，他把自己逼进了哈佛。",
             "大学时他写信给全世界一万名政商界领袖。超过一百人回了信——沃伦·巴菲特、玛格丽特·撒切尔、杰克·韦尔奇、可口可乐董事长、三菱社长、小提琴家耶胡迪·梅纽因、参议员爱德华·肯尼迪。",
             "从母亲去世的 2002 年起他开始公开演讲，至今二十五年——韩国各地的教会、孤儿院、大学和外国语高中。三次登上 KBS《早晨庭院》，做过一次「世上所有的讲义」演讲，并在安东 MBC 把哈佛式学习法做成二十讲播了一年。"
           ]
@@ -3762,7 +3762,7 @@ const PAGES = {
         "《新东亚》报道",
         "韩国恐怖系列封面",
         "《SERAPHIM: The Awakening of the Iron Dragon》",
-        "报纸报道与展览资料", "", "", "", "", "", "十一份结业证书与奖状", "", "", "", "", "", "", "", "", "", ""
+        "报纸报道与展览资料", "", "", "", "", "", "十二份结业证书与奖状", "", "", "", "", "", "", "", "", "", "", ""
       ],
       cta: "收听 TAFA", back: "返回 Deother"
     },
@@ -3775,7 +3775,7 @@ const PAGES = {
         {
           h: "一万通の手紙",
           p: [
-            "離婚した母を訪ねて太平洋を渡ったのは高校一年のときでした。苦労する母を見て自分を追い込み、渡米から三年半でハーバードに入ります。",
+            "離婚した母を訪ねて太平洋を渡ったのは高校一年のときでした。苦労する母を見て自分を追い込み、ハーバードに入ります。",
             "学部時代、世界の政財界のリーダー一万人に手紙を書きました。百人を超える人が返事をくれました——ウォーレン・バフェット、マーガレット・サッチャー、ジャック・ウェルチ、コカ・コーラ会長、三菱社長、ヴァイオリニストのユーディ・メニューイン、エドワード・ケネディ上院議員。",
             "母が亡くなった2002年から講演を始め、二十五年続けています——韓国各地の教会、児童養護施設、大学、外国語高校。KBS『あさの庭』に三度出演し、セバシに登壇し、安東MBCでハーバード式学習法を二十講にまとめて一年間放送しました。"
           ]
@@ -3849,7 +3849,7 @@ const PAGES = {
         "新東亜の記事",
         "韓国ホラーシリーズの表紙",
         "『SERAPHIM: The Awakening of the Iron Dragon』",
-        "新聞記事と展示資料", "", "", "", "", "", "修了証と賞状 十一枚", "", "", "", "", "", "", "", "", "", ""
+        "新聞記事と展示資料", "", "", "", "", "", "修了証と賞状 十二枚", "", "", "", "", "", "", "", "", "", "", ""
       ],
       cta: "TAFA を聴く", back: "Deother に戻る"
     },
@@ -3862,7 +3862,7 @@ const PAGES = {
         {
           h: "Diez mil cartas",
           p: [
-            "Estaba en primero de secundaria cuando cruzó el Pacífico para encontrar a su madre divorciada. Al verla luchar, se metió a estudiar hasta entrar en Harvard: tres años y medio después de llegar a Estados Unidos.",
+            "Estaba en primero de secundaria cuando cruzó el Pacífico para encontrar a su madre divorciada. Al verla luchar, se metió a estudiar hasta entrar en Harvard.",
             "De estudiante escribió a diez mil líderes políticos y empresariales de todo el mundo. Más de cien le contestaron: Warren Buffett, Margaret Thatcher, Jack Welch, el presidente de Coca-Cola, el presidente de Mitsubishi, el violinista Yehudi Menuhin, el senador Edward Kennedy.",
             "Desde 2002, el año en que murió su madre, empezó a dar charlas, y lleva veinticinco años haciéndolo: iglesias, orfanatos, universidades e institutos de idiomas por toda Corea. Tres apariciones en KBS Morning Yard, una charla en Sebasi y una serie de veinte capítulos sobre métodos de estudio de Harvard emitida durante un año en Andong MBC."
           ]
@@ -3936,8 +3936,8 @@ const PAGES = {
         "Reportaje en Shin Dong-A",
         "Portada de la serie de terror coreano",
         "SERAPHIM: The Awakening of the Iron Dragon",
-        "Prensa y documentos de exposiciones", "", "", "", "", "", "Once certificados y premios", "", "", "",
-        "", "", "", "", "", "", ""
+        "Prensa y documentos de exposiciones", "", "", "", "", "", "Doce certificados y premios", "", "", "",
+        "", "", "", "", "", "", "", ""
       ],
       cta: "Escuchar a TAFA", back: "Volver a Deother"
     },
@@ -3950,7 +3950,7 @@ const PAGES = {
         {
           h: "Dez mil cartas",
           p: [
-            "Estava no primeiro ano do secundário quando atravessou o Pacífico à procura da mãe divorciada. Ao vê-la a lutar, estudou até entrar em Harvard — três anos e meio depois de chegar aos Estados Unidos.",
+            "Estava no primeiro ano do secundário quando atravessou o Pacífico à procura da mãe divorciada. Ao vê-la a lutar, estudou até entrar em Harvard.",
             "Enquanto estudante, escreveu a dez mil líderes políticos e empresariais de todo o mundo. Mais de cem responderam — Warren Buffett, Margaret Thatcher, Jack Welch, o presidente da Coca-Cola, o presidente da Mitsubishi, o violinista Yehudi Menuhin, o senador Edward Kennedy.",
             "A partir de 2002, o ano em que a mãe morreu, começou a dar palestras, e já leva vinte e cinco anos a fazê-lo — igrejas, orfanatos, universidades e escolas de línguas por toda a Coreia. Três presenças no KBS Morning Yard, uma palestra no Sebasi e uma série de vinte episódios sobre métodos de estudo de Harvard transmitida durante um ano na Andong MBC."
           ]
@@ -4024,8 +4024,8 @@ const PAGES = {
         "Reportagem na Shin Dong-A",
         "Capa da série de terror coreano",
         "SERAPHIM: The Awakening of the Iron Dragon",
-        "Imprensa e registos de exposições", "", "", "", "", "", "Onze certificados e prémios", "", "", "", "",
-        "", "", "", "", "", ""
+        "Imprensa e registos de exposições", "", "", "", "", "", "Doze certificados e prémios", "", "", "", "",
+        "", "", "", "", "", "", ""
       ],
       cta: "Ouvir TAFA", back: "Voltar a Deother"
     },
@@ -4038,7 +4038,7 @@ const PAGES = {
         {
           h: "Dix mille lettres",
           p: [
-            "Il était en seconde quand il a traversé le Pacifique pour retrouver sa mère divorcée. En la voyant se battre, il a travaillé jusqu'à entrer à Harvard — trois ans et demi après son arrivée aux États-Unis.",
+            "Il était en seconde quand il a traversé le Pacifique pour retrouver sa mère divorcée. En la voyant se battre, il a travaillé jusqu'à entrer à Harvard.",
             "Étudiant, il a écrit à dix mille dirigeants politiques et économiques du monde entier. Plus de cent lui ont répondu : Warren Buffett, Margaret Thatcher, Jack Welch, le président de Coca-Cola, le président de Mitsubishi, le violoniste Yehudi Menuhin, le sénateur Edward Kennedy.",
             "À partir de 2002, l'année de la mort de sa mère, il a commencé à donner des conférences, et cela dure depuis vingt-cinq ans — églises, orphelinats, universités et lycées de langues à travers la Corée. Trois passages dans KBS Morning Yard, une conférence Sebasi, et une série de vingt épisodes sur les méthodes de travail de Harvard diffusée pendant un an sur Andong MBC."
           ]
@@ -4112,8 +4112,8 @@ const PAGES = {
         "Reportage dans Shin Dong-A",
         "Couverture de la série d'horreur coréenne",
         "SERAPHIM: The Awakening of the Iron Dragon",
-        "Articles de presse et documents d'exposition", "", "", "", "", "", "Onze certificats et distinctions",
-        "", "", "", "", "", "", "", "", "", ""
+        "Articles de presse et documents d'exposition", "", "", "", "", "", "Douze certificats et distinctions",
+        "", "", "", "", "", "", "", "", "", "", ""
       ],
       cta: "Écouter TAFA", back: "Retour à Deother"
     },
@@ -4126,7 +4126,7 @@ const PAGES = {
         {
           h: "Zehntausend Briefe",
           p: [
-            "Er war in der zehnten Klasse, als er den Pazifik überquerte, um seine geschiedene Mutter zu finden. Weil er sah, wie sie sich abmühte, lernte er sich nach Harvard — dreieinhalb Jahre nach seiner Ankunft in den USA.",
+            "Er war in der zehnten Klasse, als er den Pazifik überquerte, um seine geschiedene Mutter zu finden. Weil er sah, wie sie sich abmühte, lernte er sich nach Harvard.",
             "Als Student schrieb er an zehntausend Führungspersönlichkeiten aus Politik und Wirtschaft weltweit. Mehr als hundert antworteten — Warren Buffett, Margaret Thatcher, Jack Welch, der Vorstandsvorsitzende von Coca-Cola, der Präsident von Mitsubishi, der Geiger Yehudi Menuhin, Senator Edward Kennedy.",
             "Seit 2002, dem Todesjahr seiner Mutter, hält er Vorträge, und das seit fünfundzwanzig Jahren — Kirchen, Waisenhäuser, Universitäten und Fremdsprachengymnasien in ganz Korea. Drei Auftritte bei KBS Morning Yard, ein Sebasi-Vortrag und eine zwanzigteilige Reihe über Harvard-Lernmethoden, ein Jahr lang auf Andong MBC gesendet."
           ]
@@ -4200,8 +4200,8 @@ const PAGES = {
         "Beitrag in Shin Dong-A",
         "Cover der koreanischen Horrorreihe",
         "SERAPHIM: The Awakening of the Iron Dragon",
-        "Presseberichte und Ausstellungsunterlagen", "", "", "", "", "", "Elf Zertifikate und Auszeichnungen",
-        "", "", "", "", "", "", "", "", "", ""
+        "Presseberichte und Ausstellungsunterlagen", "", "", "", "", "", "Zwölf Zertifikate und Auszeichnungen",
+        "", "", "", "", "", "", "", "", "", "", ""
       ],
       cta: "TAFA hören", back: "Zurück zu Deother"
     },
@@ -4214,7 +4214,7 @@ const PAGES = {
         {
           h: "Десять тысяч писем",
           p: [
-            "Он был десятиклассником, когда пересёк Тихий океан, чтобы найти разведённую мать. Видя, как ей тяжело, он загнал себя в учёбу и поступил в Гарвард — через три с половиной года после переезда в США.",
+            "Он был десятиклассником, когда пересёк Тихий океан, чтобы найти разведённую мать. Видя, как ей тяжело, он загнал себя в учёбу и поступил в Гарвард.",
             "Студентом он написал десяти тысячам политических и деловых лидеров по всему миру. Больше сотни ответили — Уоррен Баффет, Маргарет Тэтчер, Джек Уэлч, председатель Coca-Cola, президент Mitsubishi, скрипач Иегуди Менухин, сенатор Эдвард Кеннеди.",
             "С 2002 года, когда умерла его мать, он начал выступать публично и делает это уже двадцать пять лет — церкви, детские дома, университеты и языковые лицеи по всей Корее. Три появления в передаче KBS «Утренний двор», лекция на Sebasi и двадцатисерийный курс о гарвардских методах учёбы, целый год выходивший на Andong MBC."
           ]
@@ -4288,8 +4288,8 @@ const PAGES = {
         "Материал в журнале Shin Dong-A",
         "Обложка серии корейского хоррора",
         "SERAPHIM: The Awakening of the Iron Dragon",
-        "Публикации в прессе и выставочные документы", "", "", "", "", "", "Одиннадцать свидетельств и наград",
-        "", "", "", "", "", "", "", "", "", ""
+        "Публикации в прессе и выставочные документы", "", "", "", "", "", "Двенадцать свидетельств и наград",
+        "", "", "", "", "", "", "", "", "", "", ""
       ],
       cta: "Слушать TAFA", back: "Назад в Deother"
     },
@@ -4302,7 +4302,7 @@ const PAGES = {
         {
           h: "عشرة آلاف رسالة",
           p: [
-            "كان في السنة الأولى من الثانوية حين عبر المحيط الهادئ بحثًا عن أمّه المطلّقة. ولمّا رآها تكابد، دفع نفسه إلى الدراسة حتى دخل هارفارد — بعد ثلاث سنوات ونصف من هجرته إلى الولايات المتحدة.",
+            "كان في السنة الأولى من الثانوية حين عبر المحيط الهادئ بحثًا عن أمّه المطلّقة. ولمّا رآها تكابد، دفع نفسه إلى الدراسة حتى دخل هارفارد.",
             "وهو طالب جامعي كتب إلى عشرة آلاف من قادة السياسة والأعمال حول العالم. وردّ عليه أكثر من مئة — وارن بافيت، ومارغريت تاتشر، وجاك ويلش، ورئيس كوكا كولا، ورئيس ميتسوبيشي، وعازف الكمان يهودي مينوهين، والسيناتور إدوارد كينيدي.",
             "‏ومنذ 2002، عام وفاة أمّه، بدأ يخطب أمام الناس، ولا يزال بعد خمسة وعشرين عامًا — كنائس ودور أيتام وجامعات وثانويات لغات في أنحاء كوريا. ظهر ثلاث مرات في برنامج KBS الصباحي، وألقى محاضرة في Sebasi، وقدّم سلسلة من عشرين حلقة عن طرائق الدراسة الهارفاردية بُثّت عامًا كاملًا على Andong MBC."
           ]
@@ -4376,8 +4376,8 @@ const PAGES = {
         "‏تحقيق في مجلة Shin Dong-A",
         "غلاف سلسلة الرعب الكورية",
         "‏SERAPHIM: The Awakening of the Iron Dragon",
-        "تغطية صحفية ووثائق معارض", "", "", "", "", "", "إحدى عشرة شهادة وجائزة", "", "", "", "", "", "", "",
-        "", "", ""
+        "تغطية صحفية ووثائق معارض", "", "", "", "", "", "اثنتا عشرة شهادة وجائزة", "", "", "", "", "", "", "",
+        "", "", "", ""
       ],
       cta: "‏الاستماع إلى TAFA", back: "‏العودة إلى Deother"
     }
