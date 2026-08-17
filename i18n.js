@@ -83,15 +83,18 @@ const FESTIVALS_SLIDES = [
 // ※ 인물 사진을 쓸 때는 그 사람이 누구인지 확인하고 쓴다. 발표자료 19쪽의 지스타 2022 사진을
 //   대표님으로 단정해 넣었다가 뺐다(2026-08-16) — 대표님이 아니었다.
 
-// 태국 게임쇼 열두 장. 순서가 곧 이야기다 — 행사 입구 → 메인 스테이지 → 한국관 → 라인업 보드 →
-// 한국관 안 우리 자리 → 우리 부스 → 부스에서 소개 → 플레이 화면 → 관람객이 직접 해 보는 장면 →
-// 방문객 → 개발자 → 배급사. 넓은 곳에서 우리 부스로, 다시 사람으로 좁혀 들어간다.
+// 전시 부스 사진 열다섯 장 — 행사 두 개다. 아래 연표와 같은 순서(시간순)로 늘어놓는다.
+//   0~11  gamescom asia x Thailand Game Show (2025-10, 방콕). 순서가 곧 이야기다 —
+//         행사 입구 → 메인 스테이지 → 한국관 → 라인업 보드 → 한국관 안 우리 자리 → 우리 부스 →
+//         부스에서 소개 → 플레이 화면 → 관람객이 직접 해 보는 장면 → 방문객 → 개발자 → 배급사.
+//         넓은 곳에서 우리 부스로, 다시 사람으로 좁혀 들어간다.
+//   12~14 GGC 2025 우수 인디게임 초청전 (2025-11-29, 중앙대). 같은 얼개다 — 행사 → 부스 → 사람.
 // journey.photos 의 캡션과 인덱스로 붙으므로 순서를 바꾸면 10개 언어를 같이 고쳐야 한다.
-// ※ 열두 장까지는 격자(.show-photos)로 둔다. 열세 장이 되면 슬라이드쇼(pSlideSet)로 바꾼다.
 const SHOW_PHOTOS = ["assets/tgs-10.jpg", "assets/tgs-06.jpg", "assets/tgs-01.jpg",
                      "assets/tgs-08.jpg", "assets/tgs-11.jpg", "assets/tgs-02.jpg",
                      "assets/tgs-12.jpg", "assets/tgs-09.jpg", "assets/tgs-07.jpg",
-                     "assets/tgs-03.jpg", "assets/tgs-04.jpg", "assets/tgs-05.jpg"];
+                     "assets/tgs-03.jpg", "assets/tgs-04.jpg", "assets/tgs-05.jpg",
+                     "assets/ggc-01.jpg", "assets/ggc-02.jpg", "assets/ggc-03.jpg"];
 const TIMEWARS_SLIDES = ["timewars-cover.jpg"];   // assets/ (키아트. 게임 스크린샷 나오면 추가)
 // 로스터 20명 (도시별 대표 1장). assets/slides-tk/. 세로 전신 아트 → 슬라이드쇼가 세로 프레임으로 뜬다.
 const TURFKING_SLIDES = ["tk-01.jpg","tk-02.jpg","tk-03.jpg","tk-04.jpg","tk-05.jpg","tk-06.jpg","tk-07.jpg","tk-08.jpg","tk-09.jpg","tk-10.jpg","tk-11.jpg","tk-12.jpg","tk-13.jpg","tk-14.jpg","tk-15.jpg","tk-16.jpg","tk-17.jpg","tk-18.jpg","tk-19.jpg","tk-20.jpg"];
@@ -279,7 +282,10 @@ const I18N = {
         "A visitor playing Fighting Nations at the booth.",
         "At the booth with a visitor.",
         "At the booth with the Indian developers who build the game with us.",
-        "Meeting an Indian distributor during the show. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came by."
+        "Meeting an Indian distributor during the show. Distributors from India, Vietnam, Indonesia, Thailand, the Philippines, Russia, the Netherlands and Taiwan came by.",
+        "Global Game Challenge 2025 — 29 November 2025 at the Centennial Hall of Chung-Ang University, Seoul, hosted by the Korean Game Society.",
+        "Our stand at the Outstanding Indie Game Invitational. Fighting Nations was invited as one of about 20 selected titles.",
+        "A visitor playing Fighting Nations on a gamepad at the stand."
       ],
       events: [
         { d: "24 May 2025", t: "SERAPHIM: The Awakening of Iron Dragon published on Amazon — the world existed before the game did" },
@@ -407,7 +413,10 @@ const I18N = {
         "관람객이 부스에서 Fighting Nations 를 직접 플레이했습니다.",
         "부스를 찾아온 관계자와.",
         "함께 게임을 만드는 인도 개발자들과 부스에서.",
-        "행사 기간 중 인도 배급사와의 미팅. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다."
+        "행사 기간 중 인도 배급사와의 미팅. 인도·베트남·인도네시아·태국·필리핀·러시아·네덜란드·대만 배급사들이 부스를 찾았습니다.",
+        "글로벌 게임 챌린지 2025 — 2025년 11월 29일 중앙대학교 100주년기념관, 한국게임학회 주최.",
+        "「우수 인디게임 초청전」의 디아더 부스. Fighting Nations 가 20작품 내외 선정작으로 초청받았습니다.",
+        "관람객이 패드를 잡고 Fighting Nations 를 직접 플레이했습니다."
       ],
       events: [
         { d: "2025년 5월 24일", t: "원작 소설 『SERAPHIM: The Awakening of Iron Dragon』 아마존 출간 — 게임보다 세계가 먼저 있었습니다" },
@@ -533,7 +542,10 @@ const I18N = {
         "来访者在展位上试玩《Fighting Nations》。",
         "与到访展位的业内人士。",
         "在展位上，与一起开发游戏的印度开发者们。",
-        "展会期间与印度发行商会面。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商都来过。"
+        "展会期间与印度发行商会面。印度、越南、印尼、泰国、菲律宾、俄罗斯、荷兰与台湾的发行商都来过。",
+        "全球游戏挑战赛 2025 —— 2025 年 11 月 29 日，中央大学百年纪念馆，韩国游戏学会主办。",
+        "「优秀独立游戏邀请展」的迪亚德展位。《Fighting Nations》作为约 20 款入选作品之一受邀参展。",
+        "来访者手持手柄，在展位上试玩《Fighting Nations》。"
       ],
       events: [
         { d: "2025 年 5 月 24 日", t: "原作小说《SERAPHIM: The Awakening of Iron Dragon》在亚马逊出版 —— 世界先于游戏而存在" },
@@ -658,7 +670,10 @@ const I18N = {
         "来場者がブースで Fighting Nations を実際にプレイ。",
         "ブースを訪ねてくれた業界関係者と。",
         "一緒にゲームを作っているインドの開発者たちとブースで。",
-        "会期中、インドのパブリッシャーとの打ち合わせ。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪しました。"
+        "会期中、インドのパブリッシャーとの打ち合わせ。インド、ベトナム、インドネシア、タイ、フィリピン、ロシア、オランダ、台湾のパブリッシャーが来訪しました。",
+        "グローバル ゲーム チャレンジ 2025 —— 2025年11月29日、中央大学校 100 周年記念館。韓国ゲーム学会主催。",
+        "「優秀インディーゲーム招待展」の Deother ブース。Fighting Nations が約 20 作品の選定作として招待されました。",
+        "来場者がパッドを握って Fighting Nations を実際にプレイ。"
       ],
       events: [
         { d: "2025年5月24日", t: "原作小説『SERAPHIM: The Awakening of Iron Dragon』を Amazon で刊行 — 世界はゲームより先にありました" },
@@ -783,7 +798,10 @@ const I18N = {
         "Un visitante jugando a Fighting Nations en el stand.",
         "En el stand con un visitante.",
         "En el stand con los desarrolladores indios que hacen el juego con nosotros.",
-        "Reunión con una distribuidora india durante la feria. Pasaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán."
+        "Reunión con una distribuidora india durante la feria. Pasaron distribuidoras de India, Vietnam, Indonesia, Tailandia, Filipinas, Rusia, Países Bajos y Taiwán.",
+        "Global Game Challenge 2025: el 29 de noviembre de 2025 en el Salón del Centenario de la Universidad Chung-Ang, Seúl, organizado por la Korean Game Society.",
+        "Nuestro stand en la Muestra de Juegos Indie Destacados. Fighting Nations fue invitado entre unos 20 títulos seleccionados.",
+        "Un visitante juega a Fighting Nations con mando en el stand."
       ],
       events: [
         { d: "24 de mayo de 2025", t: "Se publica en Amazon SERAPHIM: The Awakening of Iron Dragon — el mundo existía antes que el juego" },
@@ -908,7 +926,10 @@ const I18N = {
         "Um visitante a jogar Fighting Nations no stand.",
         "No stand com um visitante.",
         "No stand com os programadores indianos que fazem o jogo connosco.",
-        "Reunião com uma distribuidora indiana durante a feira. Passaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan."
+        "Reunião com uma distribuidora indiana durante a feira. Passaram distribuidoras da Índia, Vietname, Indonésia, Tailândia, Filipinas, Rússia, Países Baixos e Taiwan.",
+        "Global Game Challenge 2025 — a 29 de novembro de 2025 no Salão do Centenário da Universidade Chung-Ang, Seul, organizado pela Korean Game Society.",
+        "O nosso stand na Mostra de Jogos Indie em Destaque. Fighting Nations foi convidado entre cerca de 20 títulos selecionados.",
+        "Um visitante a jogar Fighting Nations com comando no stand."
       ],
       events: [
         { d: "24 de maio de 2025", t: "Publicação na Amazon de SERAPHIM: The Awakening of Iron Dragon — o mundo existia antes do jogo" },
@@ -1033,7 +1054,10 @@ const I18N = {
         "Un visiteur joue à Fighting Nations sur le stand.",
         "Au stand avec un visiteur.",
         "Au stand avec les développeurs indiens qui font le jeu avec nous.",
-        "Rendez-vous avec un distributeur indien pendant le salon. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont passés."
+        "Rendez-vous avec un distributeur indien pendant le salon. Des distributeurs d'Inde, du Vietnam, d'Indonésie, de Thaïlande, des Philippines, de Russie, des Pays-Bas et de Taïwan sont passés.",
+        "Global Game Challenge 2025 — le 29 novembre 2025 au Centennial Hall de l'université Chung-Ang, à Séoul, organisé par la Korean Game Society.",
+        "Notre stand à l'exposition sur invitation des meilleurs jeux indépendants. Fighting Nations était invité parmi une vingtaine de titres sélectionnés.",
+        "Un visiteur joue à Fighting Nations à la manette sur le stand."
       ],
       events: [
         { d: "24 mai 2025", t: "Parution sur Amazon de SERAPHIM: The Awakening of Iron Dragon — le monde existait avant le jeu" },
@@ -1158,7 +1182,10 @@ const I18N = {
         "Ein Besucher spielt Fighting Nations am Stand.",
         "Am Stand mit einem Besucher.",
         "Am Stand mit den indischen Entwicklern, die das Spiel mit uns bauen.",
-        "Treffen mit einem indischen Distributor während der Messe. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen vorbei."
+        "Treffen mit einem indischen Distributor während der Messe. Distributoren aus Indien, Vietnam, Indonesien, Thailand, den Philippinen, Russland, den Niederlanden und Taiwan kamen vorbei.",
+        "Global Game Challenge 2025 — am 29. November 2025 in der Centennial Hall der Chung-Ang-Universität in Seoul, veranstaltet von der Korean Game Society.",
+        "Unser Stand bei der Einladungsausstellung herausragender Indie-Spiele. Fighting Nations war als eines von rund 20 ausgewählten Titeln eingeladen.",
+        "Ein Besucher spielt Fighting Nations mit dem Gamepad am Stand."
       ],
       events: [
         { d: "24. Mai 2025", t: "SERAPHIM: The Awakening of Iron Dragon erscheint bei Amazon — die Welt gab es vor dem Spiel" },
@@ -1283,7 +1310,10 @@ const I18N = {
         "Посетитель играет в Fighting Nations на стенде.",
         "На стенде с гостем.",
         "На стенде с индийскими разработчиками, которые делают игру вместе с нами.",
-        "Встреча с индийским дистрибьютором во время выставки. Заходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня."
+        "Встреча с индийским дистрибьютором во время выставки. Заходили дистрибьюторы из Индии, Вьетнама, Индонезии, Таиланда, Филиппин, России, Нидерландов и Тайваня.",
+        "Global Game Challenge 2025 — 29 ноября 2025 года, Зал столетия Университета Чунг-Ан в Сеуле, организатор — Korean Game Society.",
+        "Наш стенд на выставке лучших инди-игр по приглашению. Fighting Nations вошла в число примерно 20 отобранных работ.",
+        "Посетитель играет в Fighting Nations с геймпадом на стенде."
       ],
       events: [
         { d: "24 мая 2025", t: "Роман SERAPHIM: The Awakening of Iron Dragon вышел на Amazon — мир появился раньше игры" },
@@ -1409,7 +1439,10 @@ const I18N = {
         "أحد الزوار يجرّب Fighting Nations في المنصّة.",
         "في المنصّة مع أحد الزوار.",
         "في المنصّة مع المطوّرين الهنود الذين يصنعون اللعبة معنا.",
-        "لقاء مع موزّع هندي خلال المعرض. مرّ بالمنصّة موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان."
+        "لقاء مع موزّع هندي خلال المعرض. مرّ بالمنصّة موزعون من الهند وفيتنام وإندونيسيا وتايلاند والفلبين وروسيا وهولندا وتايوان.",
+        "‏Global Game Challenge 2025 — في 29 نوفمبر 2025 بقاعة المئوية في جامعة تشونغ-آنغ بسول، بتنظيم الجمعية الكورية للألعاب.",
+        "منصّتنا في معرض الألعاب المستقلة المتميّزة بالدعوة. دُعيت Fighting Nations ضمن نحو 20 عملاً مختاراً.",
+        "أحد الزوار يلعب Fighting Nations بذراع التحكّم في المنصّة."
       ],
       events: [
         { d: "‏24 مايو 2025", t: "صدور رواية SERAPHIM: The Awakening of Iron Dragon على أمازون — العالم وُجد قبل اللعبة" },
