@@ -325,7 +325,7 @@ const I18N = {
       bullets: [
         "Harvard, Economics — emigrated to the US in 1989, admitted three and a half years after arriving",
         "23 books published in Korea and the US · 407 songs released on Spotify since 2012",
-        "23+ years of martial arts: judo, boxing, Hapkido, Haidong Gumdo, Muay Thai, Taekwondo, Shaolin kung fu",
+        "23+ years of martial arts: judo, boxing, Hapkido, Haidong Gumdo (1st dan, 1999), Muay Thai, Taekwondo, Shaolin kung fu",
         "Excellence Award, Incheon Airport AI competition · Jeju Governor's Award, national AI music competition · selected for the 3rd cohort of the Ahn Cheol-soo Foundation's AI vibe-coding programme",
         "Author of SERAPHIM: The Awakening of Iron Dragon, the novel this game comes from",
         "Launched two metaverse platforms in 2022. When the funding market turned, the servers came down — but the lesson stayed: without an end goal, people don't stay, and games have one. Milliverse is back and still being built.",
@@ -456,7 +456,7 @@ const I18N = {
       bullets: [
         "하버드 경제학과 — 1989년 미국 이민, 이민 3년 반 만에 합격",
         "한국·미국에서 23권 출간 · 2012년부터 스포티파이에 407곡 발매",
-        "23년 이상 무술 수련: 유도, 복싱, 합기도, 해동검도, 무에타이, 태권도, 소림권",
+        "23년 이상 무술 수련: 유도, 복싱, 합기도, 해동검도 1단(1999), 무에타이, 태권도, 소림권",
         "AI 인천공항 공모전 최우수상 · AI 음원 전국체전 공모전 제주도지사상 · 안철수재단 AI 바이브 코딩 3기 선발",
         "이 게임의 원작 소설 『SERAPHIM: The Awakening of Iron Dragon』 저자",
         "2022년 메타버스 플랫폼 2개 런칭. 투자 시장이 얼어붙어 서버는 내렸지만 배운 것은 남았습니다 — 엔드골이 없으면 사람이 남지 않는다, 그리고 게임에는 그것이 있다. 밀리버스는 다시 살아나 지금도 만들고 있습니다.",
@@ -584,7 +584,7 @@ const I18N = {
       bullets: [
         "哈佛大学经济学系——1989 年移民美国，移民三年半后入学",
         "在韩国与美国出版 23 本书 · 2012 年起在 Spotify 发行 407 首作品",
-        "23 年以上武术经历：柔道、拳击、合气道、海东剑道、泰拳、跆拳道、少林拳",
+        "23 年以上武术经历：柔道、拳击、合气道、海东剑道（1999 年初段）、泰拳、跆拳道、少林拳",
         "仁川机场 AI 大赛最优秀奖 · 全国 AI 音乐大赛济州道知事奖 · 入选安哲秀财团 AI Vibe Coding 第三期",
         "本作原著小说《SERAPHIM: The Awakening of Iron Dragon》作者",
         "2022 年推出两个元宇宙平台。投资市场转冷后服务器下线，但教训留了下来——没有终点目标，人就不会留下，而游戏有。Milliverse 已经重启，至今仍在打磨。",
@@ -712,7 +712,7 @@ const I18N = {
       bullets: [
         "ハーバード大学経済学部——1989年に渡米、渡米から3年半で合格",
         "韓国と米国で23冊を出版 · 2012年からSpotifyに407曲を配信",
-        "23年以上の武術経験：柔道、ボクシング、合気道、海東剣道、ムエタイ、テコンドー、少林拳",
+        "23年以上の武術経験：柔道、ボクシング、合気道、海東剣道（1999年初段）、ムエタイ、テコンドー、少林拳",
         "仁川空港AIコンペ最優秀賞 · 全国AI音楽コンペ済州道知事賞 · 安哲秀財団AIバイブコーディング3期に選出",
         "本作の原作小説『SERAPHIM: The Awakening of Iron Dragon』著者",
         "2022年にメタバースを2件立ち上げました。投資環境が冷え込みサーバーは落としましたが、学びは残りました——終着点がなければ人は残らない、そしてゲームにはそれがある。Milliverse は復活し、今も作り続けています。",
@@ -840,7 +840,7 @@ const I18N = {
       bullets: [
         "Harvard, Economía: emigró a EE. UU. en 1989, admitido tres años y medio después de llegar",
         "23 libros publicados en Corea y EE. UU. · 407 canciones en Spotify desde 2012",
-        "Más de 23 años de artes marciales: judo, boxeo, hapkido, Haidong Gumdo, muay thai, taekwondo, kung-fu Shaolin",
+        "Más de 23 años de artes marciales: judo, boxeo, hapkido, Haidong Gumdo (1.er dan, 1999), muay thai, taekwondo, kung-fu Shaolin",
         "Premio a la Excelencia en el concurso de IA del Aeropuerto de Incheon · Premio del Gobernador de Jeju en el concurso nacional de música con IA · seleccionado para la 3.ª promoción del programa de vibe coding con IA de la Fundación Ahn Cheol-soo",
         "Autor de SERAPHIM: The Awakening of Iron Dragon, la novela de la que nace este juego",
         "Dos plataformas de metaverso lanzadas en 2022. Cuando el mercado de inversión se enfrió, los servidores cayeron, pero la lección quedó: sin una meta final la gente no se queda, y los juegos la tienen. Milliverse ha vuelto y sigue en construcción.",
@@ -968,7 +968,7 @@ const I18N = {
       bullets: [
         "Harvard, Economia — emigrou para os EUA em 1989, admitido três anos e meio depois de chegar",
         "23 livros publicados na Coreia e nos EUA · 407 músicas no Spotify desde 2012",
-        "Mais de 23 anos de artes marciais: judo, boxe, hapkido, Haidong Gumdo, muay thai, taekwondo, kung fu Shaolin",
+        "Mais de 23 anos de artes marciais: judo, boxe, hapkido, Haidong Gumdo (1.º dan, 1999), muay thai, taekwondo, kung fu Shaolin",
         "Prémio de Excelência no concurso de IA do Aeroporto de Incheon · Prémio do Governador de Jeju no concurso nacional de música com IA · selecionado para a 3.ª turma do programa de vibe coding com IA da Fundação Ahn Cheol-soo",
         "Autor de SERAPHIM: The Awakening of Iron Dragon, o romance que deu origem ao jogo",
         "Duas plataformas de metaverso lançadas em 2022. Quando o mercado de investimento arrefeceu, os servidores caíram, mas a lição ficou: sem um objetivo final as pessoas não ficam, e os jogos têm um. O Milliverse voltou e continua a ser construído.",
@@ -1096,7 +1096,7 @@ const I18N = {
       bullets: [
         "Harvard, économie — émigré aux États-Unis en 1989, admis trois ans et demi après son arrivée",
         "23 livres publiés en Corée et aux États-Unis · 407 titres sur Spotify depuis 2012",
-        "Plus de 23 ans d'arts martiaux : judo, boxe, hapkido, Haidong Gumdo, muay-thaï, taekwondo, kung-fu Shaolin",
+        "Plus de 23 ans d'arts martiaux : judo, boxe, hapkido, Haidong Gumdo (1er dan, 1999), muay-thaï, taekwondo, kung-fu Shaolin",
         "Prix d'excellence au concours d'IA de l'aéroport d'Incheon · Prix du gouverneur de Jeju au concours national de musique par IA · sélectionné pour la 3e promotion du programme de vibe coding IA de la Fondation Ahn Cheol-soo",
         "Auteur de SERAPHIM: The Awakening of Iron Dragon, le roman dont vient ce jeu",
         "Deux plateformes de métavers lancées en 2022. Quand le marché du financement s'est retourné, les serveurs sont tombés, mais la leçon est restée : sans objectif final les gens ne restent pas, et les jeux en ont un. Milliverse est de retour et se construit encore.",
@@ -1224,7 +1224,7 @@ const I18N = {
       bullets: [
         "Harvard, Volkswirtschaft — 1989 in die USA ausgewandert, dreieinhalb Jahre nach der Ankunft aufgenommen",
         "23 Bücher in Korea und den USA veröffentlicht · 407 Songs seit 2012 auf Spotify",
-        "Über 23 Jahre Kampfkunst: Judo, Boxen, Hapkido, Haidong Gumdo, Muay Thai, Taekwondo, Shaolin-Kung-Fu",
+        "Über 23 Jahre Kampfkunst: Judo, Boxen, Hapkido, Haidong Gumdo (1. Dan, 1999), Muay Thai, Taekwondo, Shaolin-Kung-Fu",
         "Exzellenzpreis beim KI-Wettbewerb des Flughafens Incheon · Preis des Gouverneurs von Jeju beim nationalen KI-Musikwettbewerb · ausgewählt für den 3. Jahrgang des KI-Vibe-Coding-Programms der Ahn-Cheol-soo-Stiftung",
         "Autor von SERAPHIM: The Awakening of Iron Dragon, dem Roman hinter diesem Spiel",
         "2022 zwei Metaverse-Plattformen gestartet. Als der Finanzierungsmarkt kippte, gingen die Server vom Netz — die Lehre blieb: ohne Endziel bleibt niemand, und Spiele haben eines. Milliverse ist zurück und wird weiter gebaut.",
@@ -1352,7 +1352,7 @@ const I18N = {
       bullets: [
         "Гарвард, экономика — эмигрировал в США в 1989-м, поступил через три с половиной года после переезда",
         "23 книг издано в Корее и США · 407 песен на Spotify с 2012 года",
-        "Более 23 лет боевых искусств: дзюдо, бокс, хапкидо, хэдон гымдо, муай-тай, тхэквондо, шаолиньское кунг-фу",
+        "Более 23 лет боевых искусств: дзюдо, бокс, хапкидо, хэдон гымдо (1-й дан, 1999), муай-тай, тхэквондо, шаолиньское кунг-фу",
         "Премия за выдающиеся достижения на конкурсе ИИ аэропорта Инчхон · приз губернатора Чеджу на национальном конкурсе ИИ-музыки · отобран в 3-й поток программы ИИ vibe coding фонда Ан Чхоль Су",
         "Автор романа SERAPHIM: The Awakening of Iron Dragon, из которого выросла игра",
         "В 2022-м запустил две метавселенные. Когда инвестиционный рынок развернулся, серверы пришлось выключить, но вывод остался: без конечной цели люди не остаются, а у игр она есть. Milliverse вернулся и продолжает развиваться.",
@@ -1481,7 +1481,7 @@ const I18N = {
       bullets: [
         "جامعة هارفارد، الاقتصاد — هاجر إلى الولايات المتحدة عام 1989 وقُبل بعد ثلاث سنوات ونصف من وصوله",
         "‏23 كتابًا منشورًا في كوريا والولايات المتحدة · 407 أغنية على Spotify منذ 2012",
-        "أكثر من 23 عامًا في الفنون القتالية: الجودو والملاكمة والهابكيدو والهايدونغ غومدو والمواي تاي والتايكوندو وكونغ فو شاولين",
+        "أكثر من 23 عامًا في الفنون القتالية: الجودو والملاكمة والهابكيدو والهايدونغ غومدو (الحزام الأسود الدان الأول، 1999) والمواي تاي والتايكوندو وكونغ فو شاولين",
         "جائزة التميّز في مسابقة الذكاء الاصطناعي بمطار إنتشون · جائزة حاكم جيجو في المسابقة الوطنية للموسيقى بالذكاء الاصطناعي · الاختيار ضمن الدفعة الثالثة لبرنامج AI Vibe Coding من مؤسسة آن تشول-سو",
         "مؤلف رواية SERAPHIM: The Awakening of Iron Dragon التي وُلدت منها اللعبة",
         "أطلق منصتَي ميتافيرس عام 2022. وحين انقلب سوق الاستثمار أُوقفت الخوادم، لكن الدرس بقي: من دون هدف نهائي لا يبقى الناس، والألعاب لديها هدف. وقد عاد Milliverse ولا يزال قيد البناء.",
