@@ -121,7 +121,17 @@ const TIMEWARS_SLIDES = ["timewars-cover.jpg"];   // assets/ (키아트. 게임 
 const TURFKING_SLIDES = ["tk-01.jpg","tk-02.jpg","tk-03.jpg","tk-04.jpg","tk-05.jpg","tk-06.jpg","tk-07.jpg","tk-08.jpg","tk-09.jpg","tk-10.jpg","tk-11.jpg","tk-12.jpg","tk-13.jpg","tk-14.jpg","tk-15.jpg","tk-16.jpg","tk-17.jpg","tk-18.jpg","tk-19.jpg","tk-20.jpg"];
 // 대표 소개(founder.html). assets/ — 세로 표지 4장 + 가로 기사 1장.
 // 0,1 = 책 표지 두 장(한 줄에 나란히), 2 = 신동아 기사(가로 밴드), 3,4 = 호러 표지 + SERAPHIM.
-const FOUNDER_SLIDES = ["founder-manhwa.jpg", "founder-timeblock.jpg", "founder-sindonga.jpg", "founder-horror.jpg", "seraphim-cover.jpg"];
+const FOUNDER_SLIDES = [
+  // 0~4 — 본문 인터리브에서 쓴다({covers}·{img}). 순서를 바꾸면 P_LAYOUT.founder 가 어긋난다.
+  "founder-manhwa.jpg", "founder-timeblock.jpg", "founder-sindonga.jpg", "founder-horror.jpg", "seraphim-cover.jpg",
+  // 5부터 — 페이지 맨 아래 슬라이드쇼(P_LAYOUT.founder.slideshow.from = 5).
+  // 5~10 신문 기사와 전시 자료, 11~21 수료증·상장(중복 제외). 원본은 C:\Users\piket\Downloads\수료증.
+  "founder-docs/doc-01.jpg", "founder-docs/doc-02.jpg", "founder-docs/doc-03.jpg", "founder-docs/doc-04.jpg",
+  "founder-docs/doc-05.jpg", "founder-docs/doc-06.jpg", "founder-docs/doc-07.jpg", "founder-docs/doc-08.jpg",
+  "founder-docs/doc-09.jpg", "founder-docs/doc-10.jpg", "founder-docs/doc-11.jpg", "founder-docs/doc-12.jpg",
+  "founder-docs/doc-13.jpg", "founder-docs/doc-14.jpg", "founder-docs/doc-15.jpg", "founder-docs/doc-16.jpg",
+  "founder-docs/doc-17.jpg",
+];
 const IP_COVERS = ["ip-01.jpg","ip-02.jpg","ip-03.jpg","ip-04.jpg","ip-05.jpg","ip-06.jpg","ip-07.jpg","ip-08.jpg","ip-09.jpg","ip-10.jpg","ip-11.jpg","ip-14.jpg","ip-15.jpg","ip-12.jpg","ip-13.jpg","ip-16.jpg","ip-17.jpg"];   // assets/covers/ — .\add-slides.ps1 ip 가 채운다
 // 표지에 제목이 이미 박혀 있으므로 번역하지 않고 원제를 쓴다. 순서는 IP_COVERS 와 같다.
 const IP_TITLES = ["훈민정음","판문점","조선늑대","저승사자","장보고","아리랑전사단","총기허용의 날","문신귀","아파트","요양원","전원주택","조선닌자 일지매","도깨비왕","Ring of Solomon: Dino Wars","Kingdom Wars","Empire of Hearts","Seraphim"];

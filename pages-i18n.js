@@ -3587,7 +3587,8 @@ const PAGES = {
         "『하버드식 시간관리 켄트김의 타임블럭』",
         "신동아 기사",
         "한국형 호러 연작 표지",
-        "『SERAPHIM: The Awakening of the Iron Dragon』"
+        "『SERAPHIM: The Awakening of the Iron Dragon』",
+        "신문 기사와 전시 자료", "", "", "", "", "", "수료증과 상장 열한 장", "", "", "", "", "", "", "", "", "", ""
       ],
       cta: "TAFA 음악 듣기", back: "Deother로 돌아가기"
     },
@@ -3672,7 +3673,9 @@ const PAGES = {
         "Kent Kim's Time Block",
         "Shin Dong-A feature",
         "Korean horror series cover",
-        "SERAPHIM: The Awakening of the Iron Dragon"
+        "SERAPHIM: The Awakening of the Iron Dragon",
+        "Press coverage and exhibition records", "", "", "", "", "", "Eleven certificates and awards", "", "",
+        "", "", "", "", "", "", "", ""
       ],
       cta: "Listen to TAFA", back: "Back to Deother"
     },
@@ -3758,7 +3761,8 @@ const PAGES = {
         "《Kent Kim 的时间块》",
         "《新东亚》报道",
         "韩国恐怖系列封面",
-        "《SERAPHIM: The Awakening of the Iron Dragon》"
+        "《SERAPHIM: The Awakening of the Iron Dragon》",
+        "报纸报道与展览资料", "", "", "", "", "", "十一份结业证书与奖状", "", "", "", "", "", "", "", "", "", ""
       ],
       cta: "收听 TAFA", back: "返回 Deother"
     },
@@ -3844,7 +3848,8 @@ const PAGES = {
         "『Kent Kim のタイムブロック』",
         "新東亜の記事",
         "韓国ホラーシリーズの表紙",
-        "『SERAPHIM: The Awakening of the Iron Dragon』"
+        "『SERAPHIM: The Awakening of the Iron Dragon』",
+        "新聞記事と展示資料", "", "", "", "", "", "修了証と賞状 十一枚", "", "", "", "", "", "", "", "", "", ""
       ],
       cta: "TAFA を聴く", back: "Deother に戻る"
     },
@@ -3930,7 +3935,9 @@ const PAGES = {
         "El bloque de tiempo de Kent Kim",
         "Reportaje en Shin Dong-A",
         "Portada de la serie de terror coreano",
-        "SERAPHIM: The Awakening of the Iron Dragon"
+        "SERAPHIM: The Awakening of the Iron Dragon",
+        "Prensa y documentos de exposiciones", "", "", "", "", "", "Once certificados y premios", "", "", "",
+        "", "", "", "", "", "", ""
       ],
       cta: "Escuchar a TAFA", back: "Volver a Deother"
     },
@@ -4016,7 +4023,9 @@ const PAGES = {
         "O bloco de tempo de Kent Kim",
         "Reportagem na Shin Dong-A",
         "Capa da série de terror coreano",
-        "SERAPHIM: The Awakening of the Iron Dragon"
+        "SERAPHIM: The Awakening of the Iron Dragon",
+        "Imprensa e registos de exposições", "", "", "", "", "", "Onze certificados e prémios", "", "", "", "",
+        "", "", "", "", "", ""
       ],
       cta: "Ouvir TAFA", back: "Voltar a Deother"
     },
@@ -4102,7 +4111,9 @@ const PAGES = {
         "Le bloc de temps de Kent Kim",
         "Reportage dans Shin Dong-A",
         "Couverture de la série d'horreur coréenne",
-        "SERAPHIM: The Awakening of the Iron Dragon"
+        "SERAPHIM: The Awakening of the Iron Dragon",
+        "Articles de presse et documents d'exposition", "", "", "", "", "", "Onze certificats et distinctions",
+        "", "", "", "", "", "", "", "", "", ""
       ],
       cta: "Écouter TAFA", back: "Retour à Deother"
     },
@@ -4188,7 +4199,9 @@ const PAGES = {
         "Kent Kims Zeitblock",
         "Beitrag in Shin Dong-A",
         "Cover der koreanischen Horrorreihe",
-        "SERAPHIM: The Awakening of the Iron Dragon"
+        "SERAPHIM: The Awakening of the Iron Dragon",
+        "Presseberichte und Ausstellungsunterlagen", "", "", "", "", "", "Elf Zertifikate und Auszeichnungen",
+        "", "", "", "", "", "", "", "", "", ""
       ],
       cta: "TAFA hören", back: "Zurück zu Deother"
     },
@@ -4274,7 +4287,9 @@ const PAGES = {
         "«Тайм-блок Кента Кима»",
         "Материал в журнале Shin Dong-A",
         "Обложка серии корейского хоррора",
-        "SERAPHIM: The Awakening of the Iron Dragon"
+        "SERAPHIM: The Awakening of the Iron Dragon",
+        "Публикации в прессе и выставочные документы", "", "", "", "", "", "Одиннадцать свидетельств и наград",
+        "", "", "", "", "", "", "", "", "", ""
       ],
       cta: "Слушать TAFA", back: "Назад в Deother"
     },
@@ -4360,7 +4375,9 @@ const PAGES = {
         "‏«تايم بلوك» لكِنت كِم",
         "‏تحقيق في مجلة Shin Dong-A",
         "غلاف سلسلة الرعب الكورية",
-        "‏SERAPHIM: The Awakening of the Iron Dragon"
+        "‏SERAPHIM: The Awakening of the Iron Dragon",
+        "تغطية صحفية ووثائق معارض", "", "", "", "", "", "إحدى عشرة شهادة وجائزة", "", "", "", "", "", "", "",
+        "", "", ""
       ],
       cta: "‏الاستماع إلى TAFA", back: "‏العودة إلى Deother"
     }

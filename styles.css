@@ -288,6 +288,13 @@ section.alt { background: var(--bg-2); }
 }
 .slide-track img.on { opacity: 1; }
 
+/* 자료 슬라이드쇼 (대표 소개의 기사·수료증) — 세로 문서와 가로 지면이 섞여 있다.
+   16:9 로 잘라내면 이름·제목·직인이 통째로 날아간다. 그래서 여기서는 자르지 않고
+   전체를 보여준다(contain). 높이를 고정해 넘길 때 화면이 튀지 않게 한다. */
+.slide-track.docs { aspect-ratio: auto; height: min(78vh, 880px); background: #101014; }
+.slide-track.docs img { object-fit: contain; }
+@media (max-width: 700px) { .slide-track.docs { height: min(68vh, 560px); } }
+
 .slide-dots { display: flex; gap: 8px; justify-content: center; margin-top: 16px; flex-wrap: wrap; }
 .slide-dots button {
   width: 8px; height: 8px; padding: 0; border-radius: 50%;

@@ -74,6 +74,10 @@ const P_LAYOUT = {
   founder: {
     // 대표 소개. 글이 아주 길어서(9섹션) 검증된 영상 3편과 표지·기사를 본문 사이에 흩는다.
     // 세로로 긴 책 표지는 {img} 밴드로 깔면 화면을 다 잡아먹는다 → {roster} 로 두 장씩 나란히.
+    // 맨 아래에 기사·수료증 슬라이드쇼 34장(FOUNDER_SLIDES 의 5번부터). 2026-08-18 추가.
+    // 본문에 흩지 않고 몰아 둔 이유 — 이 자료는 한 장 한 장의 내용보다 **장수 자체가 근거**다.
+    // fit:"contain" — 세로 문서(수료증)와 가로 지면(신문)이 섞여 있어 자르면 안 된다.
+    slideshow: { from: 5, fit: "contain" },
     top: [{ v: 0 }],                          // 인트로 아래 → 세바시 154회 강연
     after: {
       1: [{ img: 2 }],                        // 만화가에서 강연가로 → 신동아 기사
@@ -350,13 +354,16 @@ function pRender(code) {
 
   const vids = (typeof PAGE_VIDEOS !== "undefined") ? (PAGE_VIDEOS[game] || []) : [];
 
+  // 슬라이드 자막은 두 방식이 다 쓴다. 인터리브 페이지도 맨 아래에 슬라이드쇼를 둘 수 있어서
+  // (대표 소개의 기사·수료증) 여기서 먼저 채운다. 슬라이드쇼가 없으면 pShowCap 은 빈 함수다.
+  pSlideCaps = t.slides || [];
+  pShowCap();
+
   if (pRefs) {
     // 인터리브(밀리버스) — 요소는 그대로 두고 텍스트만 갱신
     pUpdateInterleaved(t, code, vids);
   } else {
     // 폴백(킹덤워즈) — 본문은 다시 그리고, 영상/슬라이드는 아래에 따로
-    pSlideCaps = t.slides || [];
-    pShowCap();
     document.querySelectorAll("#pVideos figcaption").forEach(cap => {
       const v = vids[+cap.dataset.vi]; if (!v) return;
       const label = v[code] || v.en || "";
@@ -465,8 +472,15 @@ function pSetup() {
   const game = document.body.dataset.game;
   const layout = (typeof P_LAYOUT !== "undefined") ? P_LAYOUT[game] : null;
   if (layout) {
-    // 인터리브 방식 — 본문 안에 섹션·이미지·영상을 섞어 짓는다. 아래 슬라이드쇼/영상은 안 쓴다.
+    // 인터리브 방식 — 본문 안에 섹션·이미지·영상을 섞어 짓는다. 아래 영상 블록은 안 쓴다.
     pBuildInterleaved(game, layout);
+    // 다만 인터리브 페이지도 맨 아래에 자료 슬라이드쇼를 둘 수 있다.
+    // 대표 소개의 기사·수료증처럼 '장수 자체가 근거'인 자료는 본문에 흩기보다 몰아서 넘기는 편이 낫다.
+    if (layout.slideshow) {
+      const s = pSlideSet(game);
+      pSlideshow(s.files.slice(layout.slideshow.from), s.folder,
+                 layout.slideshow.from, layout.slideshow.fit);
+    }
     return;
   }
 
@@ -483,22 +497,38 @@ function pSetup() {
   }
 
   const set = pSlideSet(game);
+  pSlideshow(set.files, set.folder, 0);
+}
 
+/** #pSlides 에 슬라이드쇼를 짓는다.
+ *  capFrom — 자막(pSlideCaps)에서 몇 번째부터 쓸지. 폴백 페이지는 0 이고,
+ *  인터리브 페이지가 뒤쪽 몇 장만 슬라이드쇼로 돌릴 때는 그 시작 인덱스를 준다.
+ *  자막이 없는 자리는 빈 문자열이라 그냥 사진만 넘어간다. */
+function pSlideshow(files, folder, capFrom, fit) {
   const box2 = document.getElementById("pSlides");
-  if (!set.files.length || !box2) return;
+  if (!files.length || !box2) return;
   box2.hidden = false;
   const track = document.getElementById("pTrack");
+  // fit:"contain" — 자르지 않고 전체를 보여준다. 세로·가로가 섞인 자료용.
+  if (fit === "contain") track.classList.add("docs");
   const dots  = document.getElementById("pDots");
   let idx = 0, timer = null;
 
   const cap = pEl("p", "slide-cap");
   cap.id = "pCap";
   track.after(cap);
-  pShowCap = () => { cap.textContent = pSlideCaps[idx] || ""; };
+  // 자막이 빈 칸이면 앞에서 마지막으로 적힌 자막을 그대로 둔다.
+  // 자료 슬라이드쇼처럼 한 구간에 여러 장이 이어질 때, 구간 이름이 계속 남아 있어야
+  // 무엇을 보고 있는지 알 수 있다 (장마다 자막을 다는 것은 10개 언어라 현실적이지 않다).
+  pShowCap = () => {
+    let i = capFrom + idx;
+    while (i > capFrom && !pSlideCaps[i]) i--;
+    cap.textContent = pSlideCaps[i] || "";
+  };
 
-  set.files.forEach((f, i) => {
+  files.forEach((f, i) => {
     const img = document.createElement("img");
-    img.src = set.folder + f;
+    img.src = folder + f;
     img.alt = "";
     img.loading = i === 0 ? "eager" : "lazy";
     if (i === 0) img.className = "on";
@@ -510,7 +540,7 @@ function pSetup() {
     dots.append(d);
   });
   function show(n) {
-    idx = (n + set.files.length) % set.files.length;
+    idx = (n + files.length) % files.length;
     [...track.children].forEach((c, i) => c.classList.toggle("on", i === idx));
     [...dots.children].forEach((c, i) => c.classList.toggle("on", i === idx));
     pShowCap();
