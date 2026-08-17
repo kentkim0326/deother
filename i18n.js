@@ -21,7 +21,8 @@ const JOURNEY_LINKS = [
   "https://www.amazon.com/SERAPHIM-Awakening-Dragon-Kent-Kim/dp/B0F98RTPT2",  // 원작 소설 세라핌 출간
   "",                              // 유니티 프로토타입 — 우리가 한 일
   "",                              // 언리얼 페스트 서울 2025 — 회차별이라 상시 주소 없음
-  "",                              // K-Style Expo 영어 IR 피치 — 회차별이라 상시 주소 없음
+  "",                              // K-Style Expo Q3 2025 — 회차별이라 상시 주소 없음
+  "",                              // AsiaStartupExpo Q3 2025 — 회차별이라 상시 주소 없음
   "",                              // 글로벌 비즈니스 라운드 테이블 — 회차별이라 상시 주소 없음
   "",                              // 스타트업콘 2025 — 회차별이라 상시 주소 없음
   "",                              // KoreaProductPost 기사 — 대표님이 주소를 주면 채운다
@@ -35,7 +36,8 @@ const JOURNEY_LINKS = [
   "",                              // NC 바르코 공모전 — 회차별이라 상시 주소 없음
   "https://neowizquest.com/"       // 네오위즈 퀘스트
 ];
-const JOURNEY_FLAGS = ["🇺🇸", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇹🇭", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷"];
+// 🌐 는 온라인 개최다 — K-Style Expo·AsiaStartupExpo 둘 다 Zoom 피칭이라 개최국 국기가 없다.
+const JOURNEY_FLAGS = ["🇺🇸", "", "🇰🇷", "🌐", "🌐", "🇰🇷", "🇰🇷", "🇰🇷", "🇹🇭", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷"];
 
 // 로드맵 각 단계의 공식 사이트. 순서는 각 언어 roadmap.items 와 1:1 로 맞춘다(인덱스로 붙는다).
 // "" 면 그 항목은 링크 없이 제목 텍스트로 나온다 — WORKS 카드와 같은 규칙이다.
@@ -277,7 +279,8 @@ const I18N = {
         { d: "24 May 2025", t: "SERAPHIM: The Awakening of Iron Dragon published on Amazon — the world existed before the game did" },
         { d: "Summer 2025", t: "Unity prototype" },
         { d: "25–26 August 2025", t: "Attended Unreal Fest Seoul 2025 (COEX) — the rebuild in Unreal started two months later" },
-        { d: "17 September 2025", t: "K-Style Expo / AsiaStartupExpo (Q3 2025) — shortlisted as one of 7 startups, pitching in English to 5 judges and investors. We went first." },
+        { d: "17 September 2025", t: "K-Style Expo Q3 2025 (online) — selected as one of 7 startups to pitch, presenting our IR deck in English to judges and investors. We went first." },
+        { d: "19 September 2025", t: "AsiaStartupExpo Q3 2025 (online) — shortlisted as one of 10 Asian startups, pitching in English to global investors" },
         { d: "19 September 2025", t: "Global Business Round Table 2025 (Ministry of Culture, Sports and Tourism · KOCCA, COEX) — one-to-one export meetings with overseas business centres" },
         { d: "25–26 September 2025", t: "StartupCon 2025 — one-to-one meetings with seven Korean and international investors" },
         { d: "6 October 2025", t: "Fighting Nations featured in KoreaProductPost, an English-language Korean media outlet" },
@@ -401,7 +404,8 @@ const I18N = {
         { d: "2025년 5월 24일", t: "원작 소설 『SERAPHIM: The Awakening of Iron Dragon』 아마존 출간 — 게임보다 세계가 먼저 있었습니다" },
         { d: "2025년 여름", t: "유니티로 프로토타입 제작" },
         { d: "2025년 8월 25~26일", t: "언리얼 페스트 서울 2025 참가 (코엑스) — 두 달 뒤 언리얼로 재제작을 시작했습니다" },
-        { d: "2025년 9월 17일", t: "K-Style Expo / AsiaStartupExpo (Q3 2025) — 피칭 7개사 숏리스트에 올라 심사위원 5인과 투자자 앞에서 영어 IR 발표. 발표 순서는 첫 번째였습니다." },
+        { d: "2025년 9월 17일", t: "K-Style Expo Q3 2025 (온라인) — 피칭 7개사에 선정되어 심사위원·투자자 앞에서 영어 IR 발표. 발표 순서는 첫 번째였습니다." },
+        { d: "2025년 9월 19일", t: "AsiaStartupExpo Q3 2025 (온라인) — 아시아 스타트업 10개사 숏리스트에 선정, 글로벌 투자자 대상 영어 피칭" },
         { d: "2025년 9월 19일", t: "글로벌 비즈니스 라운드 테이블 2025 (문화체육관광부·한국콘텐츠진흥원, 코엑스) — 해외비즈니스센터들과 1:1 수출 상담" },
         { d: "2025년 9월 25~26일", t: "스타트업콘 2025 — 국내외 투자사 일곱 곳과 1:1 밋업" },
         { d: "2025년 10월 6일", t: "영문 매체 KoreaProductPost 에 Fighting Nations 소개 기사 게재" },
@@ -523,7 +527,8 @@ const I18N = {
         { d: "2025 年 5 月 24 日", t: "原作小说《SERAPHIM: The Awakening of Iron Dragon》在亚马逊出版 —— 世界先于游戏而存在" },
         { d: "2025 年夏", t: "以 Unity 完成原型" },
         { d: "2025 年 8 月 25–26 日", t: "参加 Unreal Fest Seoul 2025（COEX）——两个月后开始用虚幻引擎重制" },
-        { d: "2025 年 9 月 17 日", t: "K-Style Expo / AsiaStartupExpo（2025 Q3）——入围七家路演企业，面向 5 位评委与投资人进行英文 IR 发表，并担任首位发表。" },
+        { d: "2025 年 9 月 17 日", t: "K-Style Expo 2025 Q3（线上）——入选七家路演企业，面向评委与投资人进行英文 IR 发表，并担任首位发表。" },
+        { d: "2025 年 9 月 19 日", t: "AsiaStartupExpo 2025 Q3（线上）——入围亚洲十家创业公司短名单，面向全球投资人进行英文路演" },
         { d: "2025 年 9 月 19 日", t: "2025 全球商务圆桌会（文化体育观光部·韩国内容振兴院，COEX）——与多个海外商务中心进行一对一出口洽谈" },
         { d: "2025 年 9 月 25–26 日", t: "StartupCon 2025 —— 与七家国内外投资机构进行一对一会谈" },
         { d: "2025 年 10 月 6 日", t: "英文媒体 KoreaProductPost 刊登 Fighting Nations 专题报道" },
@@ -644,7 +649,8 @@ const I18N = {
         { d: "2025年5月24日", t: "原作小説『SERAPHIM: The Awakening of Iron Dragon』を Amazon で刊行 — 世界はゲームより先にありました" },
         { d: "2025年夏", t: "Unityでプロトタイプ制作" },
         { d: "2025年8月25〜26日", t: "Unreal Fest Seoul 2025 に参加（COEX）——2か月後にアンリアルでの作り直しを始めました" },
-        { d: "2025年9月17日", t: "K-Style Expo / AsiaStartupExpo（2025 Q3）——ピッチ 7 社のショートリストに選ばれ、審査員 5 名と投資家の前で英語 IR 発表。発表順は 1 番目でした。" },
+        { d: "2025年9月17日", t: "K-Style Expo 2025 Q3（オンライン）——ピッチ 7 社に選ばれ、審査員と投資家の前で英語 IR 発表。発表順は 1 番目でした。" },
+        { d: "2025年9月19日", t: "AsiaStartupExpo 2025 Q3（オンライン）——アジアのスタートアップ 10 社のショートリストに選ばれ、グローバル投資家に英語でピッチ" },
         { d: "2025年9月19日", t: "グローバル・ビジネス・ラウンドテーブル 2025（文化体育観光部・韓国コンテンツ振興院、COEX）——海外ビジネスセンターとの 1 対 1 輸出商談" },
         { d: "2025年9月25〜26日", t: "StartupCon 2025 — 国内外の投資会社 7 社と 1 対 1 ミーティング" },
         { d: "2025年10月6日", t: "英文メディア KoreaProductPost に Fighting Nations の紹介記事が掲載" },
@@ -765,7 +771,8 @@ const I18N = {
         { d: "24 de mayo de 2025", t: "Se publica en Amazon SERAPHIM: The Awakening of Iron Dragon — el mundo existía antes que el juego" },
         { d: "Verano 2025", t: "Prototipo en Unity" },
         { d: "25–26 de agosto de 2025", t: "Asistencia a Unreal Fest Seoul 2025 (COEX); dos meses después empezó la reconstrucción en Unreal" },
-        { d: "17 de septiembre de 2025", t: "K-Style Expo / AsiaStartupExpo (Q3 2025): preseleccionados entre 7 startups, con presentación IR en inglés ante 5 jueces e inversores. Abrimos la sesión." },
+        { d: "17 de septiembre de 2025", t: "K-Style Expo Q3 2025 (en línea): seleccionados entre 7 startups para presentar, con IR en inglés ante jueces e inversores. Abrimos la sesión." },
+        { d: "19 de septiembre de 2025", t: "AsiaStartupExpo Q3 2025 (en línea): preseleccionados entre 10 startups asiáticas, con pitch en inglés ante inversores globales" },
         { d: "19 de septiembre de 2025", t: "Global Business Round Table 2025 (Ministerio de Cultura, Deporte y Turismo · KOCCA, COEX): reuniones de exportación uno a uno con centros de negocio en el exterior" },
         { d: "25–26 de septiembre de 2025", t: "StartupCon 2025: reuniones uno a uno con siete inversores coreanos e internacionales" },
         { d: "6 de octubre de 2025", t: "Fighting Nations aparece en KoreaProductPost, medio coreano en inglés" },
@@ -886,7 +893,8 @@ const I18N = {
         { d: "24 de maio de 2025", t: "Publicação na Amazon de SERAPHIM: The Awakening of Iron Dragon — o mundo existia antes do jogo" },
         { d: "Verão 2025", t: "Protótipo em Unity" },
         { d: "25–26 de agosto de 2025", t: "Presença na Unreal Fest Seoul 2025 (COEX); dois meses depois começou a reconstrução em Unreal" },
-        { d: "17 de setembro de 2025", t: "K-Style Expo / AsiaStartupExpo (Q3 2025): pré-selecionados entre 7 startups, com apresentação IR em inglês perante 5 jurados e investidores. Abrimos a sessão." },
+        { d: "17 de setembro de 2025", t: "K-Style Expo Q3 2025 (online): selecionados entre 7 startups para apresentar, com IR em inglês perante jurados e investidores. Abrimos a sessão." },
+        { d: "19 de setembro de 2025", t: "AsiaStartupExpo Q3 2025 (online): pré-selecionados entre 10 startups asiáticas, com pitch em inglês perante investidores globais" },
         { d: "19 de setembro de 2025", t: "Global Business Round Table 2025 (Ministério da Cultura, Desporto e Turismo · KOCCA, COEX): reuniões de exportação um-a-um com centros de negócios no estrangeiro" },
         { d: "25–26 de setembro de 2025", t: "StartupCon 2025: reuniões um-a-um com sete investidores coreanos e internacionais" },
         { d: "6 de outubro de 2025", t: "Fighting Nations em destaque na KoreaProductPost, meio coreano em inglês" },
@@ -1007,7 +1015,8 @@ const I18N = {
         { d: "24 mai 2025", t: "Parution sur Amazon de SERAPHIM: The Awakening of Iron Dragon — le monde existait avant le jeu" },
         { d: "Été 2025", t: "Prototype sous Unity" },
         { d: "25–26 août 2025", t: "Participation à l’Unreal Fest Seoul 2025 (COEX) — la refonte sous Unreal a commencé deux mois plus tard" },
-        { d: "17 septembre 2025", t: "K-Style Expo / AsiaStartupExpo (T3 2025) — présélectionnés parmi 7 startups, pitch IR en anglais devant 5 jurés et des investisseurs. Nous ouvrions la séance." },
+        { d: "17 septembre 2025", t: "K-Style Expo T3 2025 (en ligne) — sélectionnés parmi 7 startups pour pitcher, présentation IR en anglais devant jurés et investisseurs. Nous ouvrions la séance." },
+        { d: "19 septembre 2025", t: "AsiaStartupExpo T3 2025 (en ligne) — présélectionnés parmi 10 startups asiatiques, pitch en anglais devant des investisseurs internationaux" },
         { d: "19 septembre 2025", t: "Global Business Round Table 2025 (ministère de la Culture, des Sports et du Tourisme · KOCCA, COEX) — rendez-vous export en tête-à-tête avec des centres d’affaires à l’étranger" },
         { d: "25–26 septembre 2025", t: "StartupCon 2025 — rendez-vous en tête-à-tête avec sept investisseurs coréens et internationaux" },
         { d: "6 octobre 2025", t: "Fighting Nations présenté dans KoreaProductPost, média coréen anglophone" },
@@ -1128,7 +1137,8 @@ const I18N = {
         { d: "24. Mai 2025", t: "SERAPHIM: The Awakening of Iron Dragon erscheint bei Amazon — die Welt gab es vor dem Spiel" },
         { d: "Sommer 2025", t: "Prototyp in Unity" },
         { d: "25.–26. August 2025", t: "Teilnahme an der Unreal Fest Seoul 2025 (COEX) — zwei Monate später begann der Umbau in Unreal" },
-        { d: "17. September 2025", t: "K-Style Expo / AsiaStartupExpo (Q3 2025) — als eines von 7 Startups auf der Shortlist, IR-Pitch auf Englisch vor 5 Juroren und Investoren. Wir eröffneten die Runde." },
+        { d: "17. September 2025", t: "K-Style Expo Q3 2025 (online) — als eines von 7 Startups zum Pitch ausgewählt, IR-Präsentation auf Englisch vor Juroren und Investoren. Wir eröffneten die Runde." },
+        { d: "19. September 2025", t: "AsiaStartupExpo Q3 2025 (online) — als eines von 10 asiatischen Startups auf der Shortlist, Pitch auf Englisch vor globalen Investoren" },
         { d: "19. September 2025", t: "Global Business Round Table 2025 (Ministerium für Kultur, Sport und Tourismus · KOCCA, COEX) — Eins-zu-eins-Exportgespräche mit Auslandsbüros" },
         { d: "25.–26. September 2025", t: "StartupCon 2025 — Eins-zu-eins-Gespräche mit sieben koreanischen und internationalen Investoren" },
         { d: "6. Oktober 2025", t: "Fighting Nations im englischsprachigen koreanischen Medium KoreaProductPost vorgestellt" },
@@ -1249,7 +1259,8 @@ const I18N = {
         { d: "24 мая 2025", t: "Роман SERAPHIM: The Awakening of Iron Dragon вышел на Amazon — мир появился раньше игры" },
         { d: "Лето 2025", t: "Прототип на Unity" },
         { d: "25–26 августа 2025", t: "Участие в Unreal Fest Seoul 2025 (COEX) — через два месяца началась переработка на Unreal" },
-        { d: "17 сентября 2025", t: "K-Style Expo / AsiaStartupExpo (Q3 2025) — вошли в шорт-лист из 7 стартапов, IR-питч на английском перед 5 судьями и инвесторами. Мы выступали первыми." },
+        { d: "17 сентября 2025", t: "K-Style Expo Q3 2025 (онлайн) — вошли в число 7 стартапов для питча, IR-презентация на английском перед судьями и инвесторами. Мы выступали первыми." },
+        { d: "19 сентября 2025", t: "AsiaStartupExpo Q3 2025 (онлайн) — вошли в шорт-лист из 10 азиатских стартапов, питч на английском перед глобальными инвесторами" },
         { d: "19 сентября 2025", t: "Global Business Round Table 2025 (Министерство культуры, спорта и туризма · KOCCA, COEX) — экспортные встречи один на один с зарубежными бизнес-центрами" },
         { d: "25–26 сентября 2025", t: "StartupCon 2025 — встречи один на один с семью корейскими и зарубежными инвесторами" },
         { d: "6 октября 2025", t: "Fighting Nations в англоязычном корейском издании KoreaProductPost" },
@@ -1371,7 +1382,8 @@ const I18N = {
         { d: "‏24 مايو 2025", t: "صدور رواية SERAPHIM: The Awakening of Iron Dragon على أمازون — العالم وُجد قبل اللعبة" },
         { d: "صيف 2025", t: "نموذج أولي على Unity" },
         { d: "‏25–26 أغسطس 2025", t: "حضور Unreal Fest Seoul 2025 (COEX) — وبعد شهرين بدأت إعادة البناء على Unreal" },
-        { d: "‏17 سبتمبر 2025", t: "‏K-Style Expo / AsiaStartupExpo (الربع الثالث 2025) — ضمن القائمة القصيرة لسبع شركات ناشئة، وعرض IR بالإنجليزية أمام 5 محكّمين ومستثمرين، وكنّا أول المتحدّثين." },
+        { d: "‏17 سبتمبر 2025", t: "‏K-Style Expo الربع الثالث 2025 (عبر الإنترنت) — اخترنا ضمن 7 شركات ناشئة للعرض، وقدّمنا عرض IR بالإنجليزية أمام المحكّمين والمستثمرين، وكنّا أول المتحدّثين." },
+        { d: "‏19 سبتمبر 2025", t: "‏AsiaStartupExpo الربع الثالث 2025 (عبر الإنترنت) — ضمن القائمة القصيرة لعشر شركات ناشئة آسيوية، وعرض بالإنجليزية أمام مستثمرين عالميين" },
         { d: "‏19 سبتمبر 2025", t: "‏Global Business Round Table 2025 (وزارة الثقافة والرياضة والسياحة · وكالة كوكا، COEX) — لقاءات تصدير ثنائية مع مراكز الأعمال في الخارج" },
         { d: "‏25–26 سبتمبر 2025", t: "‏StartupCon 2025 — لقاءات ثنائية مع سبع جهات استثمارية كورية ودولية" },
         { d: "‏6 أكتوبر 2025", t: "‏تقرير عن Fighting Nations في KoreaProductPost، وسيلة إعلام كورية بالإنجليزية" },
