@@ -18,6 +18,11 @@ const LINKS = {
 // 링크가 없는 항목(우리가 안에서 한 일, 상시 주소가 없는 공모)은 "" 로 둔다.
 // 주소는 2026-08-16 에 검색으로 확인한 것만 넣었다 — 추측으로 채우지 않는다.
 const JOURNEY_LINKS = [
+  "https://www.gstar.or.kr",       // 지스타 G-CON — 2019년부터 매년
+  "https://tgs.cesa.or.jp",        // 도쿄 게임쇼 2019 참가
+  "https://www.gamescom.global",   // 게임스컴 2022 부스
+  "https://tgs.cesa.or.jp",        // 도쿄 게임쇼 2022 부스
+  "https://www.ces.tech",          // CES 2023 부스
   "https://www.amazon.com/SERAPHIM-Awakening-Dragon-Kent-Kim/dp/B0F98RTPT2",  // 원작 소설 세라핌 출간
   "",                              // 유니티 프로토타입 — 우리가 한 일
   "",                              // 언리얼 페스트 서울 2025 — 회차별이라 상시 주소 없음
@@ -37,7 +42,7 @@ const JOURNEY_LINKS = [
   "https://neowizquest.com/"       // 네오위즈 퀘스트
 ];
 // 🌐 는 온라인 개최다 — K-Style Expo·AsiaStartupExpo 둘 다 Zoom 피칭이라 개최국 국기가 없다.
-const JOURNEY_FLAGS = ["🇺🇸", "", "🇰🇷", "🌐", "🌐", "🇰🇷", "🇰🇷", "🇰🇷", "🇹🇭", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷"];
+const JOURNEY_FLAGS = ["🇰🇷", "🇯🇵", "🇩🇪", "🇯🇵", "🇺🇸", "🇺🇸", "", "🇰🇷", "🌐", "🌐", "🇰🇷", "🇰🇷", "🇰🇷", "🇹🇭", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷"];
 
 // 로드맵 각 단계의 공식 사이트. 순서는 각 언어 roadmap.items 와 1:1 로 맞춘다(인덱스로 붙는다).
 // "" 면 그 항목은 링크 없이 제목 텍스트로 나온다 — WORKS 카드와 같은 규칙이다.
@@ -319,6 +324,11 @@ const I18N = {
         "A visitor playing Fighting Nations on a gamepad at the stand."
       ],
       events: [
+        { d: "Every year since 2019", t: "G-CON conference at G-STAR, Busan" },
+        { d: "September 2019", t: "Tokyo Game Show" },
+        { d: "August 2022", t: "Deother booth at gamescom, Germany" },
+        { d: "September 2022", t: "Deother booth at Tokyo Game Show" },
+        { d: "January 2023", t: "Deother booth at CES, USA" },
         { d: "24 May 2025", t: "SERAPHIM: The Awakening of Iron Dragon published on Amazon — the world existed before the game did" },
         { d: "Summer 2025", t: "Unity prototype" },
         { d: "25–26 August 2025", t: "Attended Unreal Fest Seoul 2025 (COEX) — the rebuild in Unreal started two months later" },
@@ -449,6 +459,11 @@ const I18N = {
         "관람객이 패드를 잡고 Fighting Nations 를 직접 플레이했습니다."
       ],
       events: [
+        { d: "2019년부터 매년", t: "부산 지스타 G-CON 컨퍼런스 참가" },
+        { d: "2019년 9월", t: "도쿄 게임쇼 참가" },
+        { d: "2022년 8월", t: "독일 게임스컴에 디아더 부스 참가" },
+        { d: "2022년 9월", t: "도쿄 게임쇼에 디아더 부스 참가" },
+        { d: "2023년 1월", t: "미국 CES 에 디아더 부스 참가" },
         { d: "2025년 5월 24일", t: "원작 소설 『SERAPHIM: The Awakening of Iron Dragon』 아마존 출간 — 게임보다 세계가 먼저 있었습니다" },
         { d: "2025년 여름", t: "유니티로 프로토타입 제작" },
         { d: "2025년 8월 25~26일", t: "언리얼 페스트 서울 2025 참가 (코엑스) — 두 달 뒤 언리얼로 재제작을 시작했습니다" },
@@ -577,6 +592,11 @@ const I18N = {
         "来访者手持手柄，在展位上试玩《Fighting Nations》。"
       ],
       events: [
+        { d: "2019 年起每年", t: "参加釜山 G-STAR 的 G-CON 大会" },
+        { d: "2019 年 9 月", t: "参加东京电玩展" },
+        { d: "2022 年 8 月", t: "以 Deother 名义在德国 gamescom 设展位" },
+        { d: "2022 年 9 月", t: "以 Deother 名义在东京电玩展设展位" },
+        { d: "2023 年 1 月", t: "以 Deother 名义在美国 CES 设展位" },
         { d: "2025 年 5 月 24 日", t: "原作小说《SERAPHIM: The Awakening of Iron Dragon》在亚马逊出版 —— 世界先于游戏而存在" },
         { d: "2025 年夏", t: "以 Unity 完成原型" },
         { d: "2025 年 8 月 25–26 日", t: "参加 Unreal Fest Seoul 2025（COEX）——两个月后开始用虚幻引擎重制" },
@@ -704,6 +724,11 @@ const I18N = {
         "来場者がパッドを握って Fighting Nations を実際にプレイ。"
       ],
       events: [
+        { d: "2019年から毎年", t: "釜山 G-STAR の G-CON カンファレンスに参加" },
+        { d: "2019年9月", t: "東京ゲームショウに参加" },
+        { d: "2022年8月", t: "ドイツ gamescom に Deother ブース出展" },
+        { d: "2022年9月", t: "東京ゲームショウに Deother ブース出展" },
+        { d: "2023年1月", t: "米国 CES に Deother ブース出展" },
         { d: "2025年5月24日", t: "原作小説『SERAPHIM: The Awakening of Iron Dragon』を Amazon で刊行 — 世界はゲームより先にありました" },
         { d: "2025年夏", t: "Unityでプロトタイプ制作" },
         { d: "2025年8月25〜26日", t: "Unreal Fest Seoul 2025 に参加（COEX）——2か月後にアンリアルでの作り直しを始めました" },
@@ -831,6 +856,11 @@ const I18N = {
         "Un visitante juega a Fighting Nations con mando en el stand."
       ],
       events: [
+        { d: "Cada año desde 2019", t: "Conferencia G-CON en G-STAR, Busan" },
+        { d: "Septiembre de 2019", t: "Tokyo Game Show" },
+        { d: "Agosto de 2022", t: "Stand de Deother en gamescom, Alemania" },
+        { d: "Septiembre de 2022", t: "Stand de Deother en el Tokyo Game Show" },
+        { d: "Enero de 2023", t: "Stand de Deother en el CES, Estados Unidos" },
         { d: "24 de mayo de 2025", t: "Se publica en Amazon SERAPHIM: The Awakening of Iron Dragon — el mundo existía antes que el juego" },
         { d: "Verano 2025", t: "Prototipo en Unity" },
         { d: "25–26 de agosto de 2025", t: "Asistencia a Unreal Fest Seoul 2025 (COEX); dos meses después empezó la reconstrucción en Unreal" },
@@ -958,6 +988,11 @@ const I18N = {
         "Um visitante a jogar Fighting Nations com comando no stand."
       ],
       events: [
+        { d: "Todos os anos desde 2019", t: "Conferência G-CON no G-STAR, Busan" },
+        { d: "Setembro de 2019", t: "Tokyo Game Show" },
+        { d: "Agosto de 2022", t: "Stand da Deother na gamescom, Alemanha" },
+        { d: "Setembro de 2022", t: "Stand da Deother no Tokyo Game Show" },
+        { d: "Janeiro de 2023", t: "Stand da Deother na CES, Estados Unidos" },
         { d: "24 de maio de 2025", t: "Publicação na Amazon de SERAPHIM: The Awakening of Iron Dragon — o mundo existia antes do jogo" },
         { d: "Verão 2025", t: "Protótipo em Unity" },
         { d: "25–26 de agosto de 2025", t: "Presença na Unreal Fest Seoul 2025 (COEX); dois meses depois começou a reconstrução em Unreal" },
@@ -1085,6 +1120,11 @@ const I18N = {
         "Un visiteur joue à Fighting Nations à la manette sur le stand."
       ],
       events: [
+        { d: "Chaque année depuis 2019", t: "Conférence G-CON au G-STAR, Busan" },
+        { d: "Septembre 2019", t: "Tokyo Game Show" },
+        { d: "Août 2022", t: "Stand Deother à la gamescom, Allemagne" },
+        { d: "Septembre 2022", t: "Stand Deother au Tokyo Game Show" },
+        { d: "Janvier 2023", t: "Stand Deother au CES, États-Unis" },
         { d: "24 mai 2025", t: "Parution sur Amazon de SERAPHIM: The Awakening of Iron Dragon — le monde existait avant le jeu" },
         { d: "Été 2025", t: "Prototype sous Unity" },
         { d: "25–26 août 2025", t: "Participation à l’Unreal Fest Seoul 2025 (COEX) — la refonte sous Unreal a commencé deux mois plus tard" },
@@ -1212,6 +1252,11 @@ const I18N = {
         "Ein Besucher spielt Fighting Nations mit dem Gamepad am Stand."
       ],
       events: [
+        { d: "Jedes Jahr seit 2019", t: "G-CON-Konferenz auf der G-STAR in Busan" },
+        { d: "September 2019", t: "Tokyo Game Show" },
+        { d: "August 2022", t: "Deother-Stand auf der gamescom, Deutschland" },
+        { d: "September 2022", t: "Deother-Stand auf der Tokyo Game Show" },
+        { d: "Januar 2023", t: "Deother-Stand auf der CES, USA" },
         { d: "24. Mai 2025", t: "SERAPHIM: The Awakening of Iron Dragon erscheint bei Amazon — die Welt gab es vor dem Spiel" },
         { d: "Sommer 2025", t: "Prototyp in Unity" },
         { d: "25.–26. August 2025", t: "Teilnahme an der Unreal Fest Seoul 2025 (COEX) — zwei Monate später begann der Umbau in Unreal" },
@@ -1339,6 +1384,11 @@ const I18N = {
         "Посетитель играет в Fighting Nations с геймпадом на стенде."
       ],
       events: [
+        { d: "Каждый год с 2019-го", t: "Конференция G-CON на G-STAR в Пусане" },
+        { d: "Сентябрь 2019", t: "Tokyo Game Show" },
+        { d: "Август 2022", t: "Стенд Deother на gamescom, Германия" },
+        { d: "Сентябрь 2022", t: "Стенд Deother на Tokyo Game Show" },
+        { d: "Январь 2023", t: "Стенд Deother на CES, США" },
         { d: "24 мая 2025", t: "Роман SERAPHIM: The Awakening of Iron Dragon вышел на Amazon — мир появился раньше игры" },
         { d: "Лето 2025", t: "Прототип на Unity" },
         { d: "25–26 августа 2025", t: "Участие в Unreal Fest Seoul 2025 (COEX) — через два месяца началась переработка на Unreal" },
@@ -1467,6 +1517,11 @@ const I18N = {
         "أحد الزوار يلعب Fighting Nations بذراع التحكّم في المنصّة."
       ],
       events: [
+        { d: "كل عام منذ 2019", t: "مؤتمر G-CON ضمن G-STAR في بوسان" },
+        { d: "سبتمبر 2019", t: "معرض طوكيو للألعاب" },
+        { d: "أغسطس 2022", t: "جناح Deother في gamescom بألمانيا" },
+        { d: "سبتمبر 2022", t: "جناح Deother في معرض طوكيو للألعاب" },
+        { d: "يناير 2023", t: "جناح Deother في CES بالولايات المتحدة" },
         { d: "‏24 مايو 2025", t: "صدور رواية SERAPHIM: The Awakening of Iron Dragon على أمازون — العالم وُجد قبل اللعبة" },
         { d: "صيف 2025", t: "نموذج أولي على Unity" },
         { d: "‏25–26 أغسطس 2025", t: "حضور Unreal Fest Seoul 2025 (COEX) — وبعد شهرين بدأت إعادة البناء على Unreal" },
