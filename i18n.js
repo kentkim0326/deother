@@ -324,8 +324,8 @@ const I18N = {
         "A visitor playing Fighting Nations on a gamepad at the stand."
       ],
       events: [
-        { d: "Every year since 2019", t: "G-CON conference at G-STAR, Busan" },
-        { d: "September 2019", t: "Tokyo Game Show" },
+        { d: "Every year since 2019", t: "Attended the G-CON conference at G-STAR, Busan" },
+        { d: "September 2019", t: "Attended Tokyo Game Show" },
         { d: "August 2022", t: "Deother booth at gamescom, Germany" },
         { d: "September 2022", t: "Deother booth at Tokyo Game Show" },
         { d: "January 2023", t: "Deother booth at CES, USA" },
@@ -856,8 +856,8 @@ const I18N = {
         "Un visitante juega a Fighting Nations con mando en el stand."
       ],
       events: [
-        { d: "Cada año desde 2019", t: "Conferencia G-CON en G-STAR, Busan" },
-        { d: "Septiembre de 2019", t: "Tokyo Game Show" },
+        { d: "Cada año desde 2019", t: "Asistencia a la conferencia G-CON en G-STAR, Busan" },
+        { d: "Septiembre de 2019", t: "Asistencia al Tokyo Game Show" },
         { d: "Agosto de 2022", t: "Stand de Deother en gamescom, Alemania" },
         { d: "Septiembre de 2022", t: "Stand de Deother en el Tokyo Game Show" },
         { d: "Enero de 2023", t: "Stand de Deother en el CES, Estados Unidos" },
@@ -988,8 +988,8 @@ const I18N = {
         "Um visitante a jogar Fighting Nations com comando no stand."
       ],
       events: [
-        { d: "Todos os anos desde 2019", t: "Conferência G-CON no G-STAR, Busan" },
-        { d: "Setembro de 2019", t: "Tokyo Game Show" },
+        { d: "Todos os anos desde 2019", t: "Participação na conferência G-CON no G-STAR, Busan" },
+        { d: "Setembro de 2019", t: "Participação no Tokyo Game Show" },
         { d: "Agosto de 2022", t: "Stand da Deother na gamescom, Alemanha" },
         { d: "Setembro de 2022", t: "Stand da Deother no Tokyo Game Show" },
         { d: "Janeiro de 2023", t: "Stand da Deother na CES, Estados Unidos" },
@@ -1120,8 +1120,8 @@ const I18N = {
         "Un visiteur joue à Fighting Nations à la manette sur le stand."
       ],
       events: [
-        { d: "Chaque année depuis 2019", t: "Conférence G-CON au G-STAR, Busan" },
-        { d: "Septembre 2019", t: "Tokyo Game Show" },
+        { d: "Chaque année depuis 2019", t: "Participation à la conférence G-CON au G-STAR, Busan" },
+        { d: "Septembre 2019", t: "Participation au Tokyo Game Show" },
         { d: "Août 2022", t: "Stand Deother à la gamescom, Allemagne" },
         { d: "Septembre 2022", t: "Stand Deother au Tokyo Game Show" },
         { d: "Janvier 2023", t: "Stand Deother au CES, États-Unis" },
@@ -1252,8 +1252,8 @@ const I18N = {
         "Ein Besucher spielt Fighting Nations mit dem Gamepad am Stand."
       ],
       events: [
-        { d: "Jedes Jahr seit 2019", t: "G-CON-Konferenz auf der G-STAR in Busan" },
-        { d: "September 2019", t: "Tokyo Game Show" },
+        { d: "Jedes Jahr seit 2019", t: "Teilnahme an der G-CON-Konferenz auf der G-STAR in Busan" },
+        { d: "September 2019", t: "Teilnahme an der Tokyo Game Show" },
         { d: "August 2022", t: "Deother-Stand auf der gamescom, Deutschland" },
         { d: "September 2022", t: "Deother-Stand auf der Tokyo Game Show" },
         { d: "Januar 2023", t: "Deother-Stand auf der CES, USA" },
@@ -1384,8 +1384,8 @@ const I18N = {
         "Посетитель играет в Fighting Nations с геймпадом на стенде."
       ],
       events: [
-        { d: "Каждый год с 2019-го", t: "Конференция G-CON на G-STAR в Пусане" },
-        { d: "Сентябрь 2019", t: "Tokyo Game Show" },
+        { d: "Каждый год с 2019-го", t: "Участие в конференции G-CON на G-STAR в Пусане" },
+        { d: "Сентябрь 2019", t: "Участие в Tokyo Game Show" },
         { d: "Август 2022", t: "Стенд Deother на gamescom, Германия" },
         { d: "Сентябрь 2022", t: "Стенд Deother на Tokyo Game Show" },
         { d: "Январь 2023", t: "Стенд Deother на CES, США" },
@@ -1517,8 +1517,8 @@ const I18N = {
         "أحد الزوار يلعب Fighting Nations بذراع التحكّم في المنصّة."
       ],
       events: [
-        { d: "كل عام منذ 2019", t: "مؤتمر G-CON ضمن G-STAR في بوسان" },
-        { d: "سبتمبر 2019", t: "معرض طوكيو للألعاب" },
+        { d: "كل عام منذ 2019", t: "حضور مؤتمر G-CON ضمن G-STAR في بوسان" },
+        { d: "سبتمبر 2019", t: "حضور معرض طوكيو للألعاب" },
         { d: "أغسطس 2022", t: "جناح Deother في gamescom بألمانيا" },
         { d: "سبتمبر 2022", t: "جناح Deother في معرض طوكيو للألعاب" },
         { d: "يناير 2023", t: "جناح Deother في CES بالولايات المتحدة" },
