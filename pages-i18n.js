@@ -4443,6 +4443,7 @@ const PAGES = {
               "2026년 3월 21일 · Epic MegaGrants (상반기) · 접수 완료",
               "2026년 3월 25일 마감 · 게임더하기 (콘진원 해외진출 지원) · 접수 완료",
               "2026년 3월 27일 마감 · 해외마켓 참가지원사업 · 접수 완료",
+              "2026년 3월 27일 마감 · 2026 코리아콘텐츠위크(2026KCW) 중국 진출 참가기업 (콘진원) · 접수 완료",
               "2026년 3월 31일 마감 · 제5회 AI·공공데이터 활용 창업 경진대회 · 접수 완료",
               "2026년 3월 31일 마감 · 게임아이콘 서울 2026 · 접수 완료",
               "2026년 4월 1일 마감 · 게임 상용화 지원사업 · 접수 완료",
@@ -4450,10 +4451,14 @@ const PAGES = {
               "2026년 4월 3일 · 게임스컴 2026 한국공동관 (독일) · 접수 완료",
               "2026년 4월 3일 · 도쿄게임쇼 2026 한국공동관 · 접수 완료",
               "2026년 4월 3일 · 차이나조이 2026 · 접수 완료",
+              "2026년 4월 3일 마감 · 2026 대한민국 혁신창업상 공모전 · 접수 완료",
               "2026년 4월 12일 마감 · 스마일게이트 인디게임 공모전 · 접수 완료",
+              "2026년 4월 30일 마감 · 퀄컴 AI 이노베이터 프로그램 (QAIPI) 2026-APAC — 온디바이스 AI · 접수 완료",
               "2026년 5월 7일 마감 · 서울 플레이업 AI 게임 챌린지 · 접수 완료",
+              "2026년 5월 19일 마감 · 2026 대한민국 콘텐츠 대상 — 스토리부문 (콘진원) · 접수 완료",
               "2026년 6월 3일 마감 · 스마일게이트 멤버십(SGM) 인디게임 18기 · 접수 완료",
               "2026년 6월 25일 마감 · GIGDC 2026 글로벌 인디 게임제작 경진대회 — 밀리버스 · 접수 완료",
+              "2026년 6월 26일 마감 · 문화체육관광 인공지능·데이터 활용 공모전 (문체부) · 접수 완료",
               "2026년 7월 20일 · 스웨덴 게임 컨퍼런스 2026 · 접수 완료",
               "2026년 7월 31일 마감 · 2026 경기 가상융합 콘텐츠 챌린지 (총상금 1,000만원) — 밀리버스 · 미선정",
               "2026년 8월 15일 · GWB 게임 어워드 (텐센트) — Fighting Nations · 접수 완료, 11월 시상식",
@@ -4651,7 +4656,7 @@ const PAGES = {
           p: [
             "이 페이지는 도전 계획입니다. 선정 결과가 아닙니다. 어디에 붙었는지는 결과가 나온 뒤에 메인 페이지의 여정 연표에 적습니다 — 지금까지 그렇게 해 왔습니다.",
             "날짜는 각 행사의 공지와 예년 일정을 함께 정리한 것이라, 공식 공지가 나오면 그쪽이 맞습니다. 확인되는 대로 이 페이지를 고칩니다.",
-            "마지막 갱신: 2026년 8월 16일."
+            "마지막 갱신: 2026년 8월 19일."
           ]
         }
       ],
@@ -4717,11 +4722,15 @@ const PAGES = {
               "21 March 2026 · Epic MegaGrants (H1) · submitted",
               "deadline 25 March 2026 · Game Plus — overseas launch support (KOCCA) · submitted",
               "deadline 27 March 2026 · Overseas market participation support programme · submitted",
+              "deadline 27 March 2026 · Korea Contents Week 2026 (KCW) — China market entry, KOCCA · submitted",
               "deadline 31 March 2026 · 5th AI & Public Data Startup Competition · submitted",
               "deadline 31 March 2026 · Game Icon Seoul 2026 · submitted",
               "deadline 1 April 2026 · Game commercialisation support programme · submitted",
+              "deadline 3 April 2026 · Korea Innovation Startup Awards 2026 · submitted",
               "deadline 12 April 2026 · Smilegate Indie Game Contest · submitted",
+              "deadline 30 April 2026 · Qualcomm AI Innovator Program (QAIPI) 2026-APAC — on-device AI · submitted",
               "deadline 7 May 2026 · Seoul Play Up AI Game Challenge · submitted",
+              "deadline 19 May 2026 · Korea Content Awards 2026 — Story division (KOCCA) · submitted",
               "deadline 3 June 2026 · Smilegate Membership (SGM) indie game batch 18 · submitted",
               "15 August 2026 · GWB Game Awards (Tencent) — Fighting Nations · submitted, ceremony in November",
               "16 August 2026 · Taipei Indie Game Award 2027 — Fighting Nations · submitted, finalists announced 14 October",
@@ -4742,6 +4751,7 @@ const PAGES = {
               "18 August 2026 · Content IP Market 2026 (COEX, 80 companies selected) · submitted",
               "deadline 12 March 2026 · 2026 Gyeonggi Startup Contest — G-Star Audition · submitted",
               "deadline 25 June 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · submitted",
+              "deadline 26 June 2026 · Culture, Sports and Tourism AI & Data Contest (Ministry of Culture, Sports and Tourism) · submitted",
               "deadline 31 July 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · not selected",
               "3 April 2026 · gamescom 2026 Korea pavilion (Germany) · submitted",
               "3 April 2026 · ChinaJoy 2026 · submitted"
@@ -4932,7 +4942,7 @@ const PAGES = {
           p: [
             "This page is a plan we are entering. It is not a list of results. Where we are actually accepted goes on the journey timeline on the front page once we know — that is how we have handled it so far.",
             "The dates combine each event's announcements with the schedule it has kept in past years. Where an official announcement differs, the announcement is right, and we correct this page as we confirm each one.",
-            "Last updated: 16 August 2026."
+            "Last updated: 19 August 2026."
           ]
         }
       ],
@@ -5004,6 +5014,7 @@ const PAGES = {
               "2026 年 3 月 21 日 · Epic MegaGrants （上半年） · 已递交",
               "2026 年 3 月 25 日截止 · Game Plus 海外发行扶持（韩国内容振兴院） · 已递交",
               "2026 年 3 月 27 日截止 · 海外市场参展扶持项目 · 已递交",
+              "2026 年 3 月 27 日截止 · 2026 韩国内容周（KCW）中国市场参展企业（韩国内容振兴院） · 已递交",
               "2026 年 3 月 31 日截止 · 第 5 届 AI·公共数据创业竞赛 · 已递交",
               "2026 年 3 月 31 日截止 · Game Icon Seoul 2026 · 已递交",
               "2026 年 4 月 1 日截止 · 游戏商用化扶持项目 · 已递交",
@@ -5011,10 +5022,14 @@ const PAGES = {
               "2026 年 4 月 3 日 · gamescom 2026 韩国联合馆（德国） · 已递交",
               "2026 年 4 月 3 日 · 东京电玩展 2026 韩国联合馆 · 已递交",
               "2026 年 4 月 3 日 · ChinaJoy 2026 · 已递交",
+              "2026 年 4 月 3 日截止 · 2026 大韩民国革新创业奖大赛 · 已递交",
               "2026 年 4 月 12 日截止 · Smilegate 独立游戏大赛 · 已递交",
+              "2026 年 4 月 30 日截止 · 高通 AI 创新者计划（QAIPI）2026-APAC — 端侧 AI · 已递交",
               "2026 年 5 月 7 日截止 · 首尔 Play Up AI 游戏挑战赛 · 已递交",
+              "2026 年 5 月 19 日截止 · 2026 大韩民国内容大奖 — 故事部门（韩国内容振兴院） · 已递交",
               "2026 年 6 月 3 日截止 · Smilegate Membership（SGM）独立游戏第 18 期 · 已递交",
               "2026 年 6 月 25 日截止 · GIGDC 2026 全球独立游戏制作大赛 — Miliverse · 已递交",
+              "2026 年 6 月 26 日截止 · 文化体育观光 人工智能·数据应用大赛（韩国文化体育观光部） · 已递交",
               "2026 年 7 月 20 日 · 瑞典游戏大会 2026 · 已递交",
               "2026 年 7 月 31 日截止 · 2026 京畿虚拟融合内容挑战赛 — Miliverse · 未入选",
               "2026 年 8 月 15 日 · GWB 游戏大奖（腾讯）— Fighting Nations · 已递交，11 月颁奖",
@@ -5212,7 +5227,7 @@ const PAGES = {
           p: [
             "这一页是我们的挑战计划，不是入选名单。实际入选了哪些，等结果出来后写进首页的历程年表——一直以来我们都是这么做的。",
             "日期综合了各展会的公告与往年惯例。官方公告与此不同时，以公告为准，我们逐一确认后修正本页。",
-            "最后更新：2026 年 8 月 16 日。"
+            "最后更新：2026 年 8 月 19 日。"
           ]
         }
       ],
@@ -5284,6 +5299,7 @@ const PAGES = {
               "2026年3月21日 · Epic MegaGrants （上半期） · 応募済み",
               "2026年3月25日締切 · ゲームプラス 海外進出支援（韓国コンテンツ振興院） · 応募済み",
               "2026年3月27日締切 · 海外マーケット参加支援事業 · 応募済み",
+              "2026年3月27日締切 · 2026 コリアコンテンツウィーク（KCW）中国進出 参加企業（韓国コンテンツ振興院） · 応募済み",
               "2026年3月31日締切 · 第 5 回 AI・公共データ活用 創業コンペティション · 応募済み",
               "2026年3月31日締切 · ゲームアイコン ソウル 2026 · 応募済み",
               "2026年4月1日締切 · ゲーム商用化支援事業 · 応募済み",
@@ -5291,10 +5307,14 @@ const PAGES = {
               "2026年4月3日 · gamescom 2026 韓国共同館（ドイツ） · 応募済み",
               "2026年4月3日 · 東京ゲームショウ 2026 韓国共同館 · 応募済み",
               "2026年4月3日 · ChinaJoy 2026 · 応募済み",
+              "2026年4月3日締切 · 2026 大韓民国 革新創業賞 · 応募済み",
               "2026年4月12日締切 · スマイルゲート インディーゲームコンテスト · 応募済み",
+              "2026年4月30日締切 · クアルコム AI イノベーター プログラム（QAIPI）2026-APAC — オンデバイス AI · 応募済み",
               "2026年5月7日締切 · ソウル プレイアップ AI ゲームチャレンジ · 応募済み",
+              "2026年5月19日締切 · 2026 大韓民国コンテンツ大賞 — ストーリー部門（韓国コンテンツ振興院） · 応募済み",
               "2026年6月3日締切 · スマイルゲート メンバーシップ（SGM）インディーゲーム 18 期 · 応募済み",
               "2026年6月25日締切 · GIGDC 2026 グローバル インディーゲーム制作コンテスト — ミリバース · 応募済み",
+              "2026年6月26日締切 · 文化体育観光 人工知能・データ活用コンテスト（韓国文化体育観光部） · 応募済み",
               "2026年7月20日 · スウェーデン ゲーム カンファレンス 2026 · 応募済み",
               "2026年7月31日締切 · 2026 京畿 バーチャル融合コンテンツ チャレンジ — ミリバース · 選外",
               "2026年8月15日 · GWB ゲームアワード（テンセント）— Fighting Nations · 応募済み、11月に授賞式",
@@ -5492,7 +5512,7 @@ const PAGES = {
           p: [
             "このページは挑戦する計画です。選出結果ではありません。どこに通ったかは、結果が出てからトップページの歩みの年表に書きます——これまでもそうしてきました。",
             "日付は各イベントの告知と例年の日程を突き合わせて整理したものです。公式告知が違えば公式が正しく、確認でき次第このページを直します。",
-            "最終更新：2026年8月16日。"
+            "最終更新：2026年8月19日。"
           ]
         }
       ],
@@ -5560,11 +5580,15 @@ const PAGES = {
               "21 de marzo de 2026 · Epic MegaGrants (1.er semestre) · presentado",
               "cierre 25 de marzo de 2026 · Game Plus — apoyo al lanzamiento internacional (KOCCA) · presentado",
               "cierre 27 de marzo de 2026 · Programa de apoyo a la participación en mercados exteriores · presentado",
+              "cierre 27 de marzo de 2026 · Korea Contents Week 2026 (KCW) — entrada al mercado chino, KOCCA · presentado",
               "cierre 31 de marzo de 2026 · 5.º Concurso de Emprendimiento con IA y Datos Públicos · presentado",
               "cierre 31 de marzo de 2026 · Game Icon Seoul 2026 · presentado",
               "cierre 1 de abril de 2026 · Programa de apoyo a la comercialización de videojuegos · presentado",
+              "cierre 3 de abril de 2026 · Premios de Innovación Emprendedora de Corea 2026 · presentado",
               "cierre 12 de abril de 2026 · Concurso de Juegos Indie de Smilegate · presentado",
+              "cierre 30 de abril de 2026 · Qualcomm AI Innovator Program (QAIPI) 2026-APAC — IA en el dispositivo · presentado",
               "cierre 7 de mayo de 2026 · Seoul Play Up AI Game Challenge · presentado",
+              "cierre 19 de mayo de 2026 · Premios de Contenidos de Corea 2026 — categoría Historia (KOCCA) · presentado",
               "cierre 3 de junio de 2026 · Smilegate Membership (SGM), 18.ª promoción indie · presentado",
               "15 de agosto de 2026 · GWB Game Awards (Tencent) — Fighting Nations · presentado; gala en noviembre",
               "16 de agosto de 2026 · Taipei Indie Game Award 2027 — Fighting Nations · presentado; finalistas el 14 de octubre",
@@ -5583,6 +5607,7 @@ const PAGES = {
               "17 de agosto de 2026 · 21.ª Gyeonggi Game Audition — Fighting Nations · presentado",
               "18 de agosto de 2026 · Content IP Market 2026 (COEX, 80 empresas seleccionadas) · presentado",
               "cierre 25 de junio de 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · presentado",
+              "cierre 26 de junio de 2026 · Concurso de IA y datos de Cultura, Deporte y Turismo (Ministerio de Cultura, Deporte y Turismo) · presentado",
               "cierre 31 de julio de 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · no seleccionado",
               "3 de abril de 2026 · ChinaJoy 2026 · presentado"
             ]
@@ -5772,7 +5797,7 @@ const PAGES = {
           p: [
             "Esta página es un plan al que nos presentamos. No es una lista de resultados. Dónde nos aceptan de verdad se publica en la línea de tiempo de la portada cuando lo sabemos: así lo hemos hecho hasta ahora.",
             "Las fechas combinan los anuncios de cada evento con el calendario que han mantenido en años anteriores. Si un anuncio oficial dice otra cosa, manda el anuncio, y corregimos esta página a medida que lo confirmamos.",
-            "Última actualización: 16 de agosto de 2026."
+            "Última actualización: 19 de agosto de 2026."
           ]
         }
       ],
@@ -5840,11 +5865,15 @@ const PAGES = {
               "21 de março de 2026 · Epic MegaGrants (1.º semestre) · submetido",
               "prazo 25 de março de 2026 · Game Plus — apoio ao lançamento internacional (KOCCA) · submetido",
               "prazo 27 de março de 2026 · Programa de apoio à participação em mercados internacionais · submetido",
+              "prazo 27 de março de 2026 · Korea Contents Week 2026 (KCW) — entrada no mercado chinês, KOCCA · submetido",
               "prazo 31 de março de 2026 · 5.º Concurso de Empreendedorismo com IA e Dados Públicos · submetido",
               "prazo 31 de março de 2026 · Game Icon Seoul 2026 · submetido",
               "prazo 1 de abril de 2026 · Programa de apoio à comercialização de jogos · submetido",
+              "prazo 3 de abril de 2026 · Prémios de Inovação Empreendedora da Coreia 2026 · submetido",
               "prazo 12 de abril de 2026 · Concurso de Jogos Indie da Smilegate · submetido",
+              "prazo 30 de abril de 2026 · Qualcomm AI Innovator Program (QAIPI) 2026-APAC — IA no dispositivo · submetido",
               "prazo 7 de maio de 2026 · Seoul Play Up AI Game Challenge · submetido",
+              "prazo 19 de maio de 2026 · Prémios de Conteúdos da Coreia 2026 — categoria História (KOCCA) · submetido",
               "prazo 3 de junho de 2026 · Smilegate Membership (SGM), 18.ª turma indie · submetido",
               "15 de agosto de 2026 · GWB Game Awards (Tencent) — Fighting Nations · submetido; gala em novembro",
               "16 de agosto de 2026 · Taipei Indie Game Award 2027 — Fighting Nations · submetido; finalistas a 14 de outubro",
@@ -5863,6 +5892,7 @@ const PAGES = {
               "17 de agosto de 2026 · 21.ª Gyeonggi Game Audition — Fighting Nations · submetido",
               "18 de agosto de 2026 · Content IP Market 2026 (COEX, 80 empresas selecionadas) · submetido",
               "prazo 25 de junho de 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · submetido",
+              "prazo 26 de junho de 2026 · Concurso de IA e dados de Cultura, Desporto e Turismo (Ministério da Cultura, Desporto e Turismo) · submetido",
               "prazo 31 de julho de 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · não selecionado",
               "3 de abril de 2026 · ChinaJoy 2026 · submetido"
             ]
@@ -6052,7 +6082,7 @@ const PAGES = {
           p: [
             "Esta página é um plano a que nos candidatamos. Não é uma lista de resultados. Onde somos efetivamente aceites vai para a cronologia da página inicial quando soubermos — foi assim que sempre fizemos.",
             "As datas combinam os anúncios de cada evento com o calendário que têm mantido em anos anteriores. Quando um anúncio oficial diz outra coisa, manda o anúncio, e corrigimos esta página à medida que confirmamos.",
-            "Última atualização: 16 de agosto de 2026."
+            "Última atualização: 19 de agosto de 2026."
           ]
         }
       ],
@@ -6121,11 +6151,15 @@ const PAGES = {
               "21 mars 2026 · Epic MegaGrants (1er semestre) · déposé",
               "clôture 25 mars 2026 · Game Plus — aide au lancement à l'international (KOCCA) · déposé",
               "clôture 27 mars 2026 · Programme d'aide à la participation aux marchés étrangers · déposé",
+              "clôture 27 mars 2026 · Korea Contents Week 2026 (KCW) — accès au marché chinois, KOCCA · déposé",
               "clôture 31 mars 2026 · 5e concours de création d'entreprise IA et données publiques · déposé",
               "clôture 31 mars 2026 · Game Icon Seoul 2026 · déposé",
               "clôture 1 avril 2026 · Programme d'aide à la commercialisation de jeux · déposé",
+              "clôture 3 avril 2026 · Prix coréens de l’innovation entrepreneuriale 2026 · déposé",
               "clôture 12 avril 2026 · Concours de jeux indépendants Smilegate · déposé",
+              "clôture 30 avril 2026 · Qualcomm AI Innovator Program (QAIPI) 2026-APAC — IA embarquée · déposé",
               "clôture 7 mai 2026 · Seoul Play Up AI Game Challenge · déposé",
+              "clôture 19 mai 2026 · Korea Content Awards 2026 — catégorie Récit (KOCCA) · déposé",
               "clôture 3 juin 2026 · Smilegate Membership (SGM), 18e promotion indé · déposé",
               "15 août 2026 · GWB Game Awards (Tencent) — Fighting Nations · déposé ; cérémonie en novembre",
               "16 août 2026 · Taipei Indie Game Award 2027 — Fighting Nations · déposé ; finalistes le 14 octobre",
@@ -6143,6 +6177,7 @@ const PAGES = {
               "17 août 2026 · 21e Gyeonggi Game Audition — Fighting Nations · déposé",
               "18 août 2026 · Content IP Market 2026 (COEX, 80 entreprises retenues) · déposé",
               "clôture 25 juin 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · déposé",
+              "clôture 26 juin 2026 · Concours IA et données Culture, Sports et Tourisme (ministère de la Culture, des Sports et du Tourisme) · déposé",
               "clôture 31 juillet 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · non retenu",
               "3 avril 2026 · ChinaJoy 2026 · déposé"
             ]
@@ -6332,7 +6367,7 @@ const PAGES = {
           p: [
             "Cette page est un plan auquel nous postulons. Ce n'est pas une liste de résultats. Là où nous sommes réellement retenus figure sur la frise du parcours en page d'accueil, une fois que nous le savons — c'est ainsi que nous avons procédé jusqu'ici.",
             "Les dates combinent les annonces de chaque événement et le calendrier qu'ils ont tenu les années précédentes. Quand une annonce officielle diffère, c'est elle qui fait foi, et nous corrigeons cette page à mesure que nous confirmons.",
-            "Dernière mise à jour : 16 août 2026."
+            "Dernière mise à jour : 19 août 2026."
           ]
         }
       ],
@@ -6400,11 +6435,15 @@ const PAGES = {
               "21. März 2026 · Epic MegaGrants (1. Halbjahr) · eingereicht",
               "Frist 25. März 2026 · Game Plus — Förderung für den Auslandsstart (KOCCA) · eingereicht",
               "Frist 27. März 2026 · Förderprogramm für Auslandsmarkt-Teilnahme · eingereicht",
+              "Frist 27. März 2026 · Korea Contents Week 2026 (KCW) — Markteintritt China, KOCCA · eingereicht",
               "Frist 31. März 2026 · 5. Gründerwettbewerb KI & offene Daten · eingereicht",
               "Frist 31. März 2026 · Game Icon Seoul 2026 · eingereicht",
               "Frist 1. April 2026 · Förderprogramm zur Spiele-Kommerzialisierung · eingereicht",
+              "Frist 3. April 2026 · Korea Innovation Startup Awards 2026 · eingereicht",
               "Frist 12. April 2026 · Smilegate-Indie-Game-Wettbewerb · eingereicht",
+              "Frist 30. April 2026 · Qualcomm AI Innovator Program (QAIPI) 2026-APAC — On-Device-KI · eingereicht",
               "Frist 7. Mai 2026 · Seoul Play Up AI Game Challenge · eingereicht",
+              "Frist 19. Mai 2026 · Korea Content Awards 2026 — Kategorie Story (KOCCA) · eingereicht",
               "Frist 3. Juni 2026 · Smilegate Membership (SGM), 18. Indie-Jahrgang · eingereicht",
               "15. August 2026 · GWB Game Awards (Tencent) — Fighting Nations · eingereicht; Verleihung im November",
               "16. August 2026 · Taipei Indie Game Award 2027 — Fighting Nations · eingereicht; Finalisten am 14. Oktober",
@@ -6423,6 +6462,7 @@ const PAGES = {
               "17. August 2026 · 21. Gyeonggi Game Audition — Fighting Nations · eingereicht",
               "18. August 2026 · Content IP Market 2026 (COEX, 80 Unternehmen ausgewählt) · eingereicht",
               "Frist 25. Juni 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · eingereicht",
+              "Frist 26. Juni 2026 · KI- und Datenwettbewerb für Kultur, Sport und Tourismus (Ministerium für Kultur, Sport und Tourismus) · eingereicht",
               "Frist 31. Juli 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · nicht ausgewählt",
               "3. April 2026 · ChinaJoy 2026 · eingereicht"
             ]
@@ -6612,7 +6652,7 @@ const PAGES = {
           p: [
             "Diese Seite ist ein Plan, für den wir uns bewerben. Sie ist keine Liste von Ergebnissen. Wo wir tatsächlich angenommen werden, steht auf der Zeitleiste der Startseite, sobald wir es wissen — so haben wir es bisher gehalten.",
             "Die Termine verbinden die Ankündigungen der Veranstalter mit dem Kalender, den sie in früheren Jahren eingehalten haben. Weicht eine offizielle Ankündigung ab, gilt die Ankündigung, und wir korrigieren diese Seite, sobald wir es bestätigen können.",
-            "Zuletzt aktualisiert: 16. August 2026."
+            "Zuletzt aktualisiert: 19. August 2026."
           ]
         }
       ],
@@ -6681,11 +6721,15 @@ const PAGES = {
               "21 марта 2026 · Epic MegaGrants (1-е полугодие) · подано",
               "дедлайн 25 марта 2026 · Game Plus — поддержка выхода на зарубежные рынки (KOCCA) · подано",
               "дедлайн 27 марта 2026 · Программа поддержки участия в зарубежных маркетах · подано",
+              "дедлайн 27 марта 2026 · Korea Contents Week 2026 (KCW) — выход на рынок Китая, KOCCA · подано",
               "дедлайн 31 марта 2026 · 5-й конкурс стартапов на базе ИИ и открытых данных · подано",
               "дедлайн 31 марта 2026 · Game Icon Seoul 2026 · подано",
               "дедлайн 1 апреля 2026 · Программа поддержки коммерциализации игр · подано",
+              "дедлайн 3 апреля 2026 · Korea Innovation Startup Awards 2026 · подано",
               "дедлайн 12 апреля 2026 · Конкурс инди-игр Smilegate · подано",
+              "дедлайн 30 апреля 2026 · Qualcomm AI Innovator Program (QAIPI) 2026-APAC — ИИ на устройстве · подано",
               "дедлайн 7 мая 2026 · Seoul Play Up AI Game Challenge · подано",
+              "дедлайн 19 мая 2026 · Korea Content Awards 2026 — номинация «История» (KOCCA) · подано",
               "дедлайн 3 июня 2026 · Smilegate Membership (SGM), 18-й инди-набор · подано",
               "15 августа 2026 · GWB Game Awards (Tencent) — Fighting Nations · подано; церемония в ноябре",
               "16 августа 2026 · Taipei Indie Game Award 2027 — Fighting Nations · подано; финалисты 14 октября",
@@ -6703,6 +6747,7 @@ const PAGES = {
               "дедлайн 18 августа 2025 · 2025 Korea–Brunei Startup Networking and Pitching Competition (ИИ и игры, отобрано 6 компаний) · не отобрано",
               "17 августа 2026 · 21-й Gyeonggi Game Audition — Fighting Nations · подано",
               "дедлайн 25 июня 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · подано",
+              "дедлайн 26 июня 2026 · Конкурс ИИ и данных в сфере культуры, спорта и туризма (Министерство культуры, спорта и туризма) · подано",
               "дедлайн 31 июля 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · не отобрано",
               "3 апреля 2026 · ChinaJoy 2026 · подано"
             ]
@@ -6892,7 +6937,7 @@ const PAGES = {
           p: [
             "Эта страница — план, по которому мы подаёмся. Это не список результатов. Куда нас действительно взяли, попадает на ленту пути на главной странице, когда мы это узнаём, — так мы делали и раньше.",
             "Даты собраны из объявлений самих событий и того расписания, которого они держались в прошлые годы. Если официальное объявление говорит иное, право за объявлением, и мы правим эту страницу по мере подтверждения.",
-            "Последнее обновление: 16 августа 2026 года."
+            "Последнее обновление: 19 августа 2026 года."
           ]
         }
       ],
@@ -6962,13 +7007,18 @@ const PAGES = {
               "‏21 مارس 2026 · Epic MegaGrants (النصف الأول) · قُدِّم",
               "‏الموعد النهائي 25 مارس 2026 · Game Plus — دعم الإطلاق الدولي (وكالة كوكا) · قُدِّم",
               "‏الموعد النهائي 27 مارس 2026 · برنامج دعم المشاركة في الأسواق الخارجية · قُدِّم",
+              "‏الموعد النهائي 27 مارس 2026 · Korea Contents Week 2026 (KCW) — دخول السوق الصينية (وكالة كوكا) · قُدِّم",
               "‏الموعد النهائي 31 مارس 2026 · المسابقة الخامسة لريادة الأعمال بالذكاء الاصطناعي والبيانات العامة · قُدِّم",
               "‏الموعد النهائي 31 مارس 2026 · Game Icon Seoul 2026 · قُدِّم",
               "‏الموعد النهائي 1 أبريل 2026 · برنامج دعم تسويق الألعاب · قُدِّم",
+              "‏الموعد النهائي 3 أبريل 2026 · جوائز كوريا للابتكار وريادة الأعمال 2026 · قُدِّم",
               "‏الموعد النهائي 12 أبريل 2026 · مسابقة Smilegate للألعاب المستقلة · قُدِّم",
+              "‏الموعد النهائي 30 أبريل 2026 · برنامج Qualcomm AI Innovator (QAIPI) 2026-APAC — الذكاء الاصطناعي على الجهاز · قُدِّم",
               "‏الموعد النهائي 7 مايو 2026 · تحدي سيول Play Up لألعاب الذكاء الاصطناعي · قُدِّم",
+              "‏الموعد النهائي 19 مايو 2026 · جوائز كوريا للمحتوى 2026 — فرع القصة (وكالة كوكا) · قُدِّم",
               "‏الموعد النهائي 3 يونيو 2026 · عضوية Smilegate (SGM) — الدفعة 18 للألعاب المستقلة · قُدِّم",
               "‏الموعد النهائي 25 يونيو 2026 · مسابقة GIGDC 2026 العالمية لصناعة الألعاب المستقلة — Miliverse · قُدِّم",
+              "‏الموعد النهائي 26 يونيو 2026 · مسابقة الذكاء الاصطناعي والبيانات في الثقافة والرياضة والسياحة (وزارة الثقافة والرياضة والسياحة) · قُدِّم",
               "‏الموعد النهائي 31 يوليو 2026 · تحدي محتوى الاندماج الافتراضي كيونغي 2026 — Miliverse · لم يُختَر",
               "‏15 أغسطس 2026 · GWB Game Awards (تنسنت) — Fighting Nations · قُدِّم، والحفل في نوفمبر",
               "‏16 أغسطس 2026 · Taipei Indie Game Award 2027 — Fighting Nations · قُدِّم، وتُعلن القائمة النهائية في 14 أكتوبر",
@@ -7172,7 +7222,7 @@ const PAGES = {
           p: [
             "هذه الصفحة خطة نتقدّم بها، لا قائمة نتائج. أما أين قُبلنا فعلًا فيُكتب في خط المسيرة على الصفحة الرئيسية حين نعرف — هكذا فعلنا حتى الآن.",
             "المواعيد تجمع بين إعلانات كل حدث والجدول الذي التزم به في السنوات الماضية. وحين يختلف الإعلان الرسمي فالإعلان هو الصحيح، ونصحّح هذه الصفحة كلما تأكّدنا.",
-            "آخر تحديث: 16 أغسطس 2026."
+            "آخر تحديث: 19 أغسطس 2026."
           ]
         }
       ],
