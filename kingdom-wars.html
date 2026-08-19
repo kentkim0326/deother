@@ -48,6 +48,11 @@
   </div>
 </main>
 
+<!-- 주제가. #pAudio 가 있으면 page.js(pSetupAudio)가 진입 시 재생을 시도한다.
+     브라우저가 첫 방문 자동재생을 막으면 우하단 버튼 또는 첫 클릭으로 시작된다. -->
+<audio id="pAudio" src="assets/kingdom-theme.mp3" loop preload="auto"></audio>
+<button id="pAudioToggle" class="audio-toggle" type="button" aria-label="주제가 재생" hidden>♪</button>
+
 <footer>
   <div class="wrap foot">
     <span>© 2026 Deother Co., Ltd.</span>

@@ -240,15 +240,37 @@ itch 실물이 "pipeline test build, 코어 루프 미탑재"라고 명시하므
 스포일러 금지선이 `pages-i18n.js` 의 `soomba` 블록 위에 못박혀 있다 —
 빌런의 정체·결말(시간문 레이스)·환도 이후 구간·Whisper 의 정체는 쓰지 않는다.
 
-### 상세페이지의 오디오 (kwonline · timewars)
+### 상세페이지의 오디오 (상세 11종 중 7종)
 
-`kwonline.html`·`timewars.html`·`turfking.html` 에는 진입 시 배경음이 흐른다. `page.js` 의 `pSetupAudio()` 가
+배경음이 있는 페이지는 **`kwonline` · `timewars` · `turfking` · `miliverse` · `kingdom-wars` ·
+`jangbogo` · `deathguide`** 일곱이다. `page.js` 의 `pSetupAudio()` 가
 `#pAudio` 가 있는 페이지에서만 동작한다. **브라우저가 첫 방문 자동재생을 막으므로**,
 막히면 첫 클릭이나 우하단 토글 버튼으로 시작된다 — 우회 불가한 브라우저 정책이다.
-음원은 `assets/kwo-theme.mp3`(EDM) · `assets/timewars-theme.mp3`(Coldplay 스타일).
-둘 다 원본 WAV 를 ffmpeg 로 mp3 160kbps 로 최적화했다(각 5MB).
+음원과 출처(전부 원본을 ffmpeg 로 **mp3 160kbps · 44.1kHz · 스테레오**로 변환했다):
+
+| 파일 | 원본 | 길이 · 크기 |
+|---|---|---|
+| `kwo-theme.mp3` | `F:\KW_MMO\assets\0725  Kingdom Wars EDM.wav` (EDM) | 4:20 · 5.2MB |
+| `timewars-theme.mp3` | `F:\C드라이브_백업_2026-08-12\음악_음성\Time Wars English_ Cold Play.wav` | 4:15 · 5.1MB |
+| `turfking-theme.mp3` | `F:\C드라이브_백업_2026-08-12\음악_음성\Turf King English.wav` | 1:57 · 2.3MB |
+| `miliverse-theme.mp3` | `F:\Miliverse\public\Miliverse_theme1.mp3` (게임이 쓰는 그 곡) | 2:15 · 2.7MB |
+| `kingdom-theme.mp3` | `F:\새 폴더\Kingdom Wars.wav` | 4:29 · 5.4MB |
+| `jangbogo-theme.mp3` | `F:\cheonghaejin\assets\audio\theme.mp3` (청해진 프로젝트) | 5:22 · 6.4MB |
+| `deathguide-theme.mp3` | `F:\Reaper\RawAudio\M_DeathGuideTheme.wav` | 3:20 · 4.0MB |
+
+**볼륨은 `page.js` 의 `pSetupAudio()` 한 곳에서 정한다 — `audio.volume = 0.35`**(2026-08-19,
+대표님이 「너무 크다」고 해서 0.7 에서 낮췄다). **일곱 페이지 공용이라 여기만 고치면 전부 바뀐다.**
+일곱 곡의 실측 라우드니스가 -13.0 ~ -14.8 LUFS 로 1.8 LU 안에 모여 있어 곡별 보정은 필요 없다.
+
+**KWO 와 킹덤워즈는 서로 다른 곡이다.** KWO 는 `KW_MMO` 의 EDM, 킹덤워즈는 `F:\새 폴더` 의
+동명 곡이다 — 이름이 같다고 한쪽을 지우지 말 것.
+**「파일당 3MB」 기준은 일부러 따르지 않았다**(대표님 결정, 2026-08-19). 160kbps 를 지키면
+3분 넘는 곡은 3MB 를 넘는데, 음질 기준을 기존 `kwo`·`timewars` 와 맞추는 쪽을 택했다.
 새 상세에 배경음을 넣으려면 그 html 에 `<audio id="pAudio" src="..." loop>` 한 줄과
 `<button id="pAudioToggle" class="audio-toggle" hidden>♪</button>` 만 넣으면 된다 — 로직은 공용이다.
+**아직 음원이 없는 상세는 `soomba` · `wallstreet` 둘이다.** 드라이브 전체를 훑었으나 없다 —
+`F:\Soomba\Zombie\Content\Audio\` 는 언리얼 스타터 콘텐츠뿐이고(`F:\새 폴더\zombie.wav` 는
+6.9초짜리 효과음이라 주제가가 아니다), `F:\stock100` 에는 오디오 파일이 0개다.
 KWO 상세엔 이 배경음 외에 **영어 주제가 영상 3편**도 `P_LAYOUT` 으로 배치돼 있다
 (O423 은 쇼츠라 `vertical:true`, 나머지 둘은 가로).
 

@@ -405,7 +405,7 @@ function pSetupAudio() {
   const audio = document.getElementById("pAudio");
   const btn = document.getElementById("pAudioToggle");
   if (!audio || !btn) return;
-  audio.volume = 0.7;
+  audio.volume = 0.35; // 배경음이라 낮게 — 대표님 지시(2026-08-19). 7개 상세 공용이다
   btn.hidden = false;
 
   const sync = () => {
