@@ -241,6 +241,11 @@ section.alt { background: var(--bg-2); }
   display: grid; grid-template-columns: 220px 1fr;
   gap: clamp(32px, 5vw, 64px); padding-block: clamp(48px, 7vw, 80px);
 }
+/* 그리드 항목의 기본값 min-width:auto 는 내용의 min-content 아래로 못 줄어든다.
+   터프킹의 로스터 줄(.roster-row)이 602px 을 요구해서 430px 화면에서 본문이
+   통째로 밀려 나갔다 — 가로 스크롤이 생긴다. 0 으로 풀어야 좁은 화면에서 접힌다.
+   상세 11종이 전부 이 레이아웃을 쓰므로 한 곳만 고치면 된다. */
+.doc-toc, .doc-body { min-width: 0; }
 .doc-toc {
   position: sticky; top: 90px; align-self: start;
   display: flex; flex-direction: column; gap: 10px;
