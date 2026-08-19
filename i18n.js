@@ -263,7 +263,7 @@ const I18N = {
       title: "Fighting Nations",
       tagline: "No guns. No blades. Bare-handed martial arts only — starting 1v1, built toward a 64-fighter martial arts battle royale.",
       cta: "Play the build",
-      ctaSub: "Free · Windows · 4.2 GB"
+      ctaSub: "Free · Windows · 4.6 GB"
     },
     why: {
       heading: "The gap nobody filled",
@@ -294,7 +294,7 @@ const I18N = {
     features: {
       heading: "What makes it different",
       items: [
-        { t: "No weapons, ever", b: "Muay Thai, Taekwondo, kung fu, judo, Pencak Silat and more — twelve styles and growing. Weapons stay out, partly by design and partly because parents shouldn't have to worry." },
+        { t: "No weapons, ever", b: "Muay Thai, Taekwondo, kung fu, judo, Pencak Silat and more — eleven styles and growing. Weapons stay out, partly by design and partly because parents shouldn't have to worry." },
         { t: "Team play, not just duels", b: "It begins 1v1 with two gamepads on one screen. Multiplayer is in testing now. Then 2v2, larger teams — and a 64-fighter battle royale as the destination." },
         { t: "Skills are the item, not just skins", b: "You buy and deepen martial arts styles themselves, not only cosmetics. Free to play, with progression that means something." },
         { t: "Your country's martial art", b: "Every fighter carries a nation and its fighting tradition. Characters from 13 countries speak their own language, so players hear themselves in the game. Character models are being rebuilt with MetaHuman." }
@@ -355,7 +355,7 @@ const I18N = {
         { date: "September 2026", title: "Steam page", body: "Registering through Steamworks Direct and putting up a Coming Soon page, so wishlists start building before release." },
         { date: "October 2026", title: "Epic Games Store", body: "Applying for distribution alongside Steam." },
         { date: "In development", title: "Online multiplayer", body: "1v1 netcode first, then 2v2 team play. Character models move to MetaHuman along the way." },
-        { date: "2026–2027", title: "Xbox console", body: "Applying to Microsoft's ID@Xbox programme to bring the game onto console." },
+        { date: "H1 2027", title: "Xbox console", body: "Applying to Microsoft's ID@Xbox programme to bring the game onto console." },
         { date: "The goal", title: "Martial arts battle royale", body: "1v1 today. 2v2 next. Then larger team modes — and finally a 64-fighter bracket in one arena, nothing but bare hands. Sixty-four is not an arbitrary number: it is a tournament bracket, and this game came from a tournament." }
       ]
     },
@@ -376,7 +376,7 @@ const I18N = {
     songs: { heading: "In your language", lead: "Theme song and gameplay, recorded in the languages our fighters speak." },
     ip: { heading: "The stories behind them", lead: "Novels and web serials, written in-house.", note: "Every world our games are set in started as a manuscript. We are not licensing someone else's IP — we write it, and a game is one way of telling it.", book: "Seraphim came out in hardcover — back cover, spine, front. A 75,000-word novel, on Amazon under ISBN 9798285120018. Fighting Nations is set in this world." },
     works: { trailer: "Trailer", play: "Play", more: "Read more", heading: "What we have built", lead: "Ten games built, and the IP behind them — novels and web serials — written in-house.", note: "Martial arts from 200 nations, the coordinates of real cities, squads wearing their flags — there is always a country in our games. Not to make any one of them stronger, but so that a player from anywhere can find their place in it.", items: {
-      fn: { t: "Fighting Nations", b: "A 3D fighting game with no weapons — just the martial arts of the world, one style per fighter. Team battles on destructible stages, with the long-term goal of 64-player battle royale. In development and playable now.", s: ["21 fighters","11 martial arts","6 stages"] },
+      fn: { t: "Fighting Nations", b: "A 3D fighting game with no weapons — just the martial arts of the world, one style per fighter. Team battles on destructible stages, with the long-term goal of 64-player battle royale. In development and playable now.", s: ["19 fighters","11 martial arts","6 stages"] },
       kingdom: { t: "Kingdom Wars", b: "Pick a nation and a commander, then take the Moon sector by sector — 49 of them, turn by turn, in the browser. Killstreaks, battle grades and loot drops. Live in four languages." },
       miliverse: { t: "Milliverse", b: "Web3 strategy game played on the real world map. Buy tiles, deploy weapons and troops, fight other players for territory. Live in four languages, with real weather and day-night data feeding the battles." },
       jangbogo: { t: "Jang Bogo: King of the Seas", b: "A 9th-century maritime-trade management sim about the sea king Jang Bogo. Build wealth through trade on a real world map, sweep pirates aside with turtle ships, and grow your power through ties with people across the seas. Alternate history from the original novel — reaching North America 650 years before Columbus. Playable right in the browser." },
@@ -399,7 +399,7 @@ const I18N = {
       title: "Fighting Nations",
       tagline: "총·칼 없이 오직 맨손 무술로. 1:1에서 시작해 64인 무술 배틀로얄을 지향합니다.",
       cta: "빌드 플레이하기",
-      ctaSub: "무료 · Windows · 4.2 GB"
+      ctaSub: "무료 · Windows · 4.6 GB"
     },
     why: {
       heading: "아무도 채우지 않은 공백",
@@ -430,7 +430,7 @@ const I18N = {
     features: {
       heading: "이 게임만의 것",
       items: [
-        { t: "무기는 없습니다", b: "무에타이, 태권도, 쿵푸, 유도, 펜짝 실랏 — 12가지 무술에서 계속 늘려갑니다. 무기를 빼는 건 설계이기도 하고, 부모가 걱정하지 않아도 되게 하려는 것이기도 합니다." },
+        { t: "무기는 없습니다", b: "무에타이, 태권도, 쿵푸, 유도, 펜짝 실랏 — 11종 무술에서 계속 늘려갑니다. 무기를 빼는 건 설계이기도 하고, 부모가 걱정하지 않아도 되게 하려는 것이기도 합니다." },
         { t: "1:1을 넘어 팀전으로", b: "지금은 게임패드 두 개로 한 화면에서 1:1입니다. 멀티플레이어는 테스트 중입니다. 다음이 2:2, 그다음 팀 규모 확대 — 종착점은 64인 무술 배틀로얄입니다." },
         { t: "스킨이 아니라 기술을 삽니다", b: "외형만이 아니라 무술 스킬 자체를 구매하고 키웁니다. 무료 게임이되, 성장에 의미가 있습니다." },
         { t: "당신 나라의 무술", b: "각 파이터는 한 나라와 그 나라의 무술을 대표합니다. 13개국 캐릭터가 각자의 모국어로 말합니다 — 인도, 중국, 파키스탄, 미국, 영국, 브라질, 러시아, 태국, 인도네시아, 나이지리아, 한국, 일본. 캐릭터 모델은 메타휴먼으로 다시 만들고 있습니다." }
@@ -490,7 +490,7 @@ const I18N = {
         { date: "2026년 9월", title: "스팀 페이지", body: "Steamworks Direct로 등록하고 출시 예정 페이지를 올립니다. 출시 전부터 위시리스트를 모으기 위해서입니다." },
         { date: "2026년 10월", title: "에픽 게임즈 스토어", body: "스팀과 함께 유통 신청을 넣습니다." },
         { date: "개발 중", title: "온라인 멀티플레이어", body: "1:1 넷코드가 먼저이고 그다음이 2:2 팀전입니다. 그 사이 캐릭터 모델을 메타휴먼으로 옮깁니다." },
-        { date: "2026~2027년", title: "엑스박스 콘솔", body: "마이크로소프트 ID@Xbox 프로그램에 신청해 콘솔로 갑니다." },
+        { date: "2027년 상반기", title: "엑스박스 콘솔", body: "마이크로소프트 ID@Xbox 프로그램에 신청해 콘솔로 갑니다." },
         { date: "목표", title: "무술 배틀로얄", body: "지금은 1:1. 다음은 2:2. 그다음 팀 규모를 키우고, 마지막에는 맨손 64명이 한 경기장에. 64는 임의의 숫자가 아닙니다 — 토너먼트 대진표이고, 이 게임은 대회에서 시작됐습니다." }
       ]
     },
@@ -511,7 +511,7 @@ const I18N = {
     songs: { heading: "당신의 언어로", lead: "파이터들이 쓰는 언어로 녹음한 주제가와 게임플레이." },
     ip: { heading: "우리가 가진 이야기", lead: "소설과 웹소설. 직접 씁니다.", note: "게임의 배경이 되는 세계는 모두 원고에서 시작했습니다. 남의 IP를 빌려 쓰는 것이 아니라 우리가 쓰고, 게임은 그 이야기를 전하는 하나의 방식입니다.", book: "Seraphim은 하드커버로 나왔습니다 — 뒤표지, 책등, 앞표지. 7만 5천 단어 장편이고 ISBN 9798285120018 로 아마존에 올라 있습니다. Fighting Nations가 이 세계를 배경으로 합니다." },
     works: { trailer: "트레일러", play: "플레이", more: "자세히", heading: "우리가 만든 것", lead: "게임 열 종을 만들었습니다. 그 바탕이 되는 IP — 소설·웹소설 — 도 직접 씁니다.", note: "200개국의 무술, 실제 도시의 좌표, 국기를 단 부대 — 우리 게임에는 늘 국가가 있습니다. 어느 나라를 강하게 만들기 위해서가 아니라, 어느 나라 사람이든 자기 자리를 찾을 수 있게 하기 위해서입니다.", items: {
-      fn: { t: "Fighting Nations", b: "무기가 없는 3D 격투게임입니다. 세계의 무술만으로 싸우고, 파이터마다 다른 유파를 씁니다. 부서지는 스테이지 위에서 팀으로 붙으며, 최종 목표는 64인 배틀로얄입니다. 개발 중이며 지금 플레이할 수 있습니다.", s: ["파이터 21명","무술 11종","스테이지 6곳"] },
+      fn: { t: "Fighting Nations", b: "무기가 없는 3D 격투게임입니다. 세계의 무술만으로 싸우고, 파이터마다 다른 유파를 씁니다. 부서지는 스테이지 위에서 팀으로 붙으며, 최종 목표는 64인 배틀로얄입니다. 개발 중이며 지금 플레이할 수 있습니다.", s: ["파이터 19명","무술 11종","스테이지 6곳"] },
       kingdom: { t: "Kingdom Wars", b: "국가와 사령관을 고르고 달의 49개 섹터를 한 칸씩 빼앗는 턴제 전략. 브라우저에서 바로 합니다. 연승 배수, 전투 등급, 전리품 드랍까지. 4개 언어로 서비스 중." },
       miliverse: { t: "밀리버스", b: "실제 세계 지도 위에서 벌어지는 Web3 전략 게임. 타일을 사고 무기와 병사를 배치해 다른 플레이어와 영토를 두고 싸웁니다. 4개 언어로 서비스 중이며, 실제 날씨와 낮밤 데이터가 전투에 반영됩니다." },
       jangbogo: { t: "북미대륙을 발견한 장보고", b: "9세기 해상왕 장보고의 해상무역 경영 시뮬레이션. 실제 세계 지도 위에서 교역으로 부를 쌓고, 거북선으로 해적을 소탕하며, 각지의 인물과 관계를 맺어 세력을 넓힙니다. 원작 소설의 대체역사 — 콜럼버스보다 650년 먼저 북미에 닿는 길. 브라우저에서 바로 플레이." },
@@ -533,7 +533,7 @@ const I18N = {
       studio: "Deother 有限公司 — 以 IP 为核心的游戏工作室",
       title: "Fighting Nations",
       tagline: "没有枪，没有刀，只有赤手空拳的武术。从 1v1 起步，走向 64 人武术大逃杀。",
-      cta: "开始试玩", ctaSub: "免费 · Windows · 4.2 GB"
+      cta: "开始试玩", ctaSub: "免费 · Windows · 4.6 GB"
     },
     why: {
       heading: "无人填补的空白",
@@ -564,7 +564,7 @@ const I18N = {
     features: {
       heading: "与众不同之处",
       items: [
-        { t: "永远没有武器", b: "泰拳、跆拳道、功夫、柔道、班卡苏拉——十二种流派并持续增加。不放武器，一半是设计考量，一半是不想让家长担心。" },
+        { t: "永远没有武器", b: "泰拳、跆拳道、功夫、柔道、班卡苏拉——十一种流派并持续增加。不放武器，一半是设计考量，一半是不想让家长担心。" },
         { t: "不止决斗，更是团队", b: "现在是两个手柄、一块屏幕的 1v1。联机正在测试。接下来是 2v2——目标是完整的武术大逃杀。" },
         { t: "买的是招式，不只是皮肤", b: "你购买并精进的是武术流派本身，而不只是外观。免费游玩，但成长有意义。" },
         { t: "属于你国家的武术", b: "每位格斗家都代表一个国家及其武术传统。13 个国家的角色以母语说话，让玩家在游戏里听见自己。角色模型正以 MetaHuman 重制。" }
@@ -623,7 +623,7 @@ const I18N = {
         { date: "2026 年 9 月", title: "Steam 页面", body: "通过 Steamworks Direct 注册并上线「即将推出」页面，让愿望单在发行前就开始累积。" },
         { date: "2026 年 10 月", title: "Epic 游戏商城", body: "与 Steam 同步提交发行申请。" },
         { date: "开发中", title: "在线多人", body: "先做 1v1 联机，再做 2v2 团队战。期间角色模型迁移到 MetaHuman。" },
-        { date: "2026–2027 年", title: "Xbox 主机", body: "申请微软 ID@Xbox 计划，将游戏带上主机。" },
+        { date: "2027 年上半年", title: "Xbox 主机", body: "申请微软 ID@Xbox 计划，将游戏带上主机。" },
         { date: "终点", title: "武术大逃杀", body: "今天是 1v1，接着 2v2，随后扩大团队规模，最终 64 人赤手同场。64 并非随意选定——那是一张淘汰赛对阵表，而这款游戏正源自一场大赛。" }
       ]
     },
@@ -643,7 +643,7 @@ const I18N = {
     songs: { heading: "用你的语言", lead: "主题曲与实机画面，以角色们所说的语言录制。" },
     ip: { heading: "支撑作品的故事", lead: "小说与网络连载，全部自己创作。", note: "我们游戏所在的世界，都始于一份手稿。这不是借用他人的 IP——我们自己写，而游戏是讲述这些故事的一种方式。", book: "《Seraphim》已出版精装本——封底、书脊、封面。全书 7 万 5 千词，以 ISBN 9798285120018 在亚马逊上架。《Fighting Nations》就以这个世界为舞台。" },
     works: { trailer: "预告片", play: "开始游戏", more: "了解更多", heading: "我们做出来的东西", lead: "十款游戏。支撑它们的 IP——小说与网络连载——也全部自己创作。", note: "两百个国家的武术、真实城市的坐标、佩戴国旗的部队——我们的游戏里始终有国家。不是为了让某一国更强，而是让来自任何地方的玩家都能找到自己的位置。", items: {
-      fn: { t: "Fighting Nations", b: "一款没有武器的 3D 格斗游戏——只用世界各地的武术，每位角色一种流派。在可破坏的场景中进行团队对战，长期目标是 64 人大逃杀。开发中，现已可玩。", s: ["21 名角色","11 种武术","6 个场景"] },
+      fn: { t: "Fighting Nations", b: "一款没有武器的 3D 格斗游戏——只用世界各地的武术，每位角色一种流派。在可破坏的场景中进行团队对战，长期目标是 64 人大逃杀。开发中，现已可玩。", s: ["19 名角色","11 种武术","6 个场景"] },
       kingdom: { t: "Kingdom Wars", b: "选择国家与指挥官，在浏览器里一格一格拿下月球的 49 个区块。连胜加成、战斗评级、战利品掉落。四种语言运营中。" },
       miliverse: { t: "Milliverse", b: "在真实世界地图上进行的 Web3 战略游戏。购买地块、部署武器与士兵，与其他玩家争夺领土。四种语言上线运营，真实天气与昼夜数据会影响战斗。" },
       jangbogo: { t: "张保皋：海上之王", b: "以9世纪海上王张保皋为主角的海上贸易经营模拟。在真实世界地图上通过贸易积累财富，用龟船扫荡海盗，并与各地人物结缘以扩张势力。源自原著小说的架空历史——比哥伦布早650年抵达北美。在浏览器中即可畅玩。" },
@@ -665,7 +665,7 @@ const I18N = {
       studio: "株式会社ディアザー — IP発のゲームスタジオ",
       title: "Fighting Nations",
       tagline: "銃も刀もなし。素手の武術だけ。1対1から始め、64人の武術バトルロイヤルを目指します。",
-      cta: "ビルドをプレイ", ctaSub: "無料 · Windows · 4.2 GB"
+      cta: "ビルドをプレイ", ctaSub: "無料 · Windows · 4.6 GB"
     },
     why: {
       heading: "誰も埋めなかった隙間",
@@ -696,7 +696,7 @@ const I18N = {
     features: {
       heading: "この作品だけのもの",
       items: [
-        { t: "武器は出しません", b: "ムエタイ、テコンドー、カンフー、柔道、シラット——十二の流派から増やしていきます。武器を外すのは設計であり、保護者に心配をかけないためでもあります。" },
+        { t: "武器は出しません", b: "ムエタイ、テコンドー、カンフー、柔道、シラット——十一の流派から増やしていきます。武器を外すのは設計であり、保護者に心配をかけないためでもあります。" },
         { t: "1対1の先へ、チーム戦へ", b: "今はゲームパッド二つ、一画面での1対1。オンラインはテスト中です。次が2対2、目標は武術バトルロイヤルです。" },
         { t: "買うのはスキンでなく技", b: "見た目だけでなく武術スキルそのものを購入し、育てます。基本無料でも、成長に意味があります。" },
         { t: "あなたの国の武術", b: "各ファイターは一つの国とその武術を背負います。13カ国のキャラクターがそれぞれの母語で話し、プレイヤーは自分の言葉をゲームの中で聞きます。キャラクターモデルはMetaHumanで作り直しています。" }
@@ -755,7 +755,7 @@ const I18N = {
         { date: "2026年9月", title: "Steam ページ", body: "Steamworks Direct で登録し「近日公開」ページを公開。発売前からウィッシュリストを積み上げます。" },
         { date: "2026年10月", title: "Epic Games Store", body: "Steam と並行して配信申請を出します。" },
         { date: "開発中", title: "オンライン対戦", body: "まず1対1のネットコード、次に2対2のチーム戦。並行してキャラクターモデルをMetaHumanへ移行します。" },
-        { date: "2026〜2027年", title: "Xbox コンソール", body: "マイクロソフトのID@Xboxプログラムに申請し、コンソールへ。" },
+        { date: "2027年上半期", title: "Xbox コンソール", body: "マイクロソフトのID@Xboxプログラムに申請し、コンソールへ。" },
         { date: "目標", title: "武術バトルロイヤル", body: "今は1対1。次に2対2。さらにチーム規模を広げ、最後は素手の64人が一つのアリーナに。64は適当な数字ではありません——トーナメント表であり、この作品は大会から生まれました。" }
       ]
     },
@@ -775,7 +775,7 @@ const I18N = {
     songs: { heading: "あなたの言語で", lead: "ファイターたちが話す言語で録音した主題歌とゲームプレイ。" },
     ip: { heading: "その背後にある物語", lead: "小説とウェブ小説。自分たちで書いています。", note: "ゲームの舞台となる世界は、すべて原稿から始まりました。他社のIPを借りるのではなく、自分たちで書く。ゲームはその物語を伝える一つの方法です。", book: "『Seraphim』はハードカバーで刊行されました——裏表紙、背、表紙。7万5千語の長編で、ISBN 9798285120018 として Amazon に並んでいます。Fighting Nations はこの世界を舞台にしています。" },
     works: { trailer: "トレーラー", play: "プレイ", more: "詳しく", heading: "作ってきたもの", lead: "十本のゲームを作りました。その土台となるIP——小説とウェブ小説——も自分たちで書いています。", note: "200カ国の武術、実在する都市の座標、国旗を掲げた部隊——私たちのゲームにはいつも国があります。どこか一国を強くするためではなく、どの国の人でも自分の居場所を見つけられるようにするためです。", items: {
-      fn: { t: "Fighting Nations", b: "武器のない3D格闘ゲームです。世界の武術だけで戦い、ファイターごとに流派が違います。壊れるステージでのチーム戦、最終目標は64人バトルロイヤル。開発中、いま遊べます。", s: ["ファイター21人","武術11種","ステージ6"] },
+      fn: { t: "Fighting Nations", b: "武器のない3D格闘ゲームです。世界の武術だけで戦い、ファイターごとに流派が違います。壊れるステージでのチーム戦、最終目標は64人バトルロイヤル。開発中、いま遊べます。", s: ["ファイター19人","武術11種","ステージ6"] },
       kingdom: { t: "Kingdom Wars", b: "国と司令官を選び、月の49セクターを一つずつ奪っていくターン制ストラテジー。ブラウザですぐ遊べます。連勝ボーナス、戦闘評価、戦利品ドロップつき。4言語で稼働中。" },
       miliverse: { t: "Milliverse", b: "現実の世界地図の上で戦うWeb3ストラテジー。タイルを買い、武器と兵士を配置し、他のプレイヤーと領土を奪い合います。4言語で稼働中、実際の天候と昼夜のデータが戦闘に反映されます。" },
       jangbogo: { t: "チャン・ボゴ：海の王", b: "9世紀の海の王チャン・ボゴ（張保皋）を主人公にした海上交易経営シミュレーション。現実の世界地図の上で交易によって富を築き、亀甲船で海賊を掃討し、各地の人物と縁を結んで勢力を広げます。原作小説の改変歴史——コロンブスより650年早く北米に到達する物語。ブラウザですぐに遊べます。" },
@@ -797,7 +797,7 @@ const I18N = {
       studio: "Deother Co., Ltd. — estudio de juegos basado en IP",
       title: "Fighting Nations",
       tagline: "Sin armas de fuego ni cuchillas. Solo artes marciales a mano limpia: empieza en 1v1, apunta a un battle royale de 64 luchadores.",
-      cta: "Jugar la versión", ctaSub: "Gratis · Windows · 4,2 GB"
+      cta: "Jugar la versión", ctaSub: "Gratis · Windows · 4,6 GB"
     },
     why: {
       heading: "El hueco que nadie llenó",
@@ -828,7 +828,7 @@ const I18N = {
     features: {
       heading: "Lo que lo hace distinto",
       items: [
-        { t: "Nunca hay armas", b: "Muay thai, taekwondo, kung-fu, judo, Pencak Silat y más: doce estilos y creciendo. Las armas quedan fuera, en parte por diseño y en parte para que los padres no tengan que preocuparse." },
+        { t: "Nunca hay armas", b: "Muay thai, taekwondo, kung-fu, judo, Pencak Silat y más: once estilos y creciendo. Las armas quedan fuera, en parte por diseño y en parte para que los padres no tengan que preocuparse." },
         { t: "Equipos, no solo duelos", b: "Empieza en 1v1 con dos mandos en una pantalla. El multijugador está en pruebas. Después 2v2, y la meta es un battle royale de artes marciales." },
         { t: "La habilidad es el objeto, no solo la piel", b: "Compras y profundizas los propios estilos marciales, no solo cosméticos. Free to play, con una progresión que significa algo." },
         { t: "El arte marcial de tu país", b: "Cada luchador lleva consigo una nación y su tradición marcial. Personajes de 13 países hablan su propio idioma, para que los jugadores se escuchen a sí mismos en el juego. Los modelos se están rehaciendo con MetaHuman." }
@@ -887,7 +887,7 @@ const I18N = {
         { date: "Septiembre 2026", title: "Página de Steam", body: "Registro por Steamworks Direct y página de Próximamente, para acumular listas de deseos antes del lanzamiento." },
         { date: "Octubre 2026", title: "Epic Games Store", body: "Solicitud de distribución en paralelo a Steam." },
         { date: "En desarrollo", title: "Multijugador en línea", body: "Primero el netcode 1v1, después el 2v2. Por el camino, los modelos pasan a MetaHuman." },
-        { date: "2026–2027", title: "Consola Xbox", body: "Solicitud al programa ID@Xbox de Microsoft para llegar a consola." },
+        { date: "1.er semestre de 2027", title: "Consola Xbox", body: "Solicitud al programa ID@Xbox de Microsoft para llegar a consola." },
         { date: "La meta", title: "Battle royale de artes marciales", body: "Hoy 1v1. Luego 2v2. Después modos por equipos más grandes y, al final, un cuadro de 64 luchadores en una arena, solo con las manos. El 64 no es arbitrario: es un cuadro de torneo, y este juego nació de un torneo." }
       ]
     },
@@ -907,7 +907,7 @@ const I18N = {
     songs: { heading: "En tu idioma", lead: "Tema musical y gameplay, grabados en las lenguas que hablan nuestros luchadores." },
     ip: { heading: "Las historias detrás", lead: "Novelas y seriales, escritos por nosotros.", note: "Todos los mundos donde ocurren nuestros juegos empezaron siendo un manuscrito. No licenciamos la IP de nadie: la escribimos, y el juego es una forma de contarla.", book: "Seraphim se publicó en tapa dura: contracubierta, lomo y cubierta. Una novela de 75.000 palabras, en Amazon con el ISBN 9798285120018. Fighting Nations transcurre en este mundo." },
     works: { trailer: "Tráiler", play: "Jugar", more: "Saber más", heading: "Lo que hemos construido", lead: "Diez juegos construidos. Y la IP que hay detrás —novelas y seriales— la escribimos nosotros.", note: "Artes marciales de doscientas naciones, coordenadas de ciudades reales, escuadrones con su bandera: en nuestros juegos siempre hay un país. No para hacer más fuerte a ninguno, sino para que un jugador de cualquier lugar encuentre su sitio.", items: {
-      fn: { t: "Fighting Nations", b: "Un juego de lucha en 3D sin armas: solo las artes marciales del mundo, un estilo por luchador. Combates por equipos en escenarios destructibles, con el objetivo a largo plazo de un battle royale de 64 jugadores. En desarrollo y jugable ya.", s: ["21 luchadores","11 artes marciales","6 escenarios"] },
+      fn: { t: "Fighting Nations", b: "Un juego de lucha en 3D sin armas: solo las artes marciales del mundo, un estilo por luchador. Combates por equipos en escenarios destructibles, con el objetivo a largo plazo de un battle royale de 64 jugadores. En desarrollo y jugable ya.", s: ["19 luchadores","11 artes marciales","6 escenarios"] },
       kingdom: { t: "Kingdom Wars", b: "Elige nación y comandante y toma la Luna sector a sector: 49 en total, por turnos, en el navegador. Rachas de victorias, calificación de combate y botín. Disponible en cuatro idiomas." },
       miliverse: { t: "Milliverse", b: "Juego de estrategia Web3 sobre el mapa del mundo real. Compra casillas, despliega armas y tropas y disputa territorio a otros jugadores. Activo en cuatro idiomas, con clima real y ciclo día-noche influyendo en los combates." },
       jangbogo: { t: "Jang Bogo: Rey de los Mares", b: "Un simulador de gestión de comercio marítimo del siglo IX protagonizado por el rey del mar Jang Bogo. Sobre un mapa del mundo real acumulas riqueza comerciando, barres a los piratas con barcos tortuga y amplías tu poder tejiendo lazos con gente de todos los mares. Historia alternativa de la novela original: llegar a Norteamérica 650 años antes que Colón. Se juega directamente en el navegador." },
@@ -929,7 +929,7 @@ const I18N = {
       studio: "Deother Co., Ltd. — estúdio de jogos baseado em IP",
       title: "Fighting Nations",
       tagline: "Sem armas de fogo nem lâminas. Só artes marciais de mãos livres: começa em 1v1 e caminha para um battle royale de 64 lutadores.",
-      cta: "Jogar a versão", ctaSub: "Grátis · Windows · 4,2 GB"
+      cta: "Jogar a versão", ctaSub: "Grátis · Windows · 4,6 GB"
     },
     why: {
       heading: "A lacuna que ninguém preencheu",
@@ -960,7 +960,7 @@ const I18N = {
     features: {
       heading: "O que o distingue",
       items: [
-        { t: "Nunca há armas", b: "Muay thai, taekwondo, kung fu, judo, Pencak Silat e mais — doze estilos e a crescer. As armas ficam de fora, em parte por desenho e em parte para os pais não terem de se preocupar." },
+        { t: "Nunca há armas", b: "Muay thai, taekwondo, kung fu, judo, Pencak Silat e mais — onze estilos e a crescer. As armas ficam de fora, em parte por desenho e em parte para os pais não terem de se preocupar." },
         { t: "Equipas, não apenas duelos", b: "Começa em 1v1 com dois comandos num ecrã. O multijogador está em testes. Depois 2v2 — e o objetivo é um battle royale de artes marciais." },
         { t: "Compram-se técnicas, não só skins", b: "Compra e aprofunda os próprios estilos marciais, não apenas cosméticos. Free to play, com uma progressão que significa alguma coisa." },
         { t: "A arte marcial do teu país", b: "Cada lutador carrega uma nação e a sua tradição marcial. Personagens de 13 países falam a sua própria língua, para que os jogadores se ouçam no jogo. Os modelos estão a ser refeitos com MetaHuman." }
@@ -1019,7 +1019,7 @@ const I18N = {
         { date: "Setembro 2026", title: "Página Steam", body: "Registo via Steamworks Direct e página Brevemente, para juntar wishlists antes do lançamento." },
         { date: "Outubro 2026", title: "Epic Games Store", body: "Pedido de distribuição em paralelo com a Steam." },
         { date: "Em desenvolvimento", title: "Multijogador online", body: "Primeiro o netcode 1v1, depois o 2v2. Pelo caminho, os modelos passam para MetaHuman." },
-        { date: "2026–2027", title: "Consola Xbox", body: "Candidatura ao programa ID@Xbox da Microsoft para chegar à consola." },
+        { date: "1.º semestre de 2027", title: "Consola Xbox", body: "Candidatura ao programa ID@Xbox da Microsoft para chegar à consola." },
         { date: "O objetivo", title: "Battle royale de artes marciais", body: "Hoje 1v1. Depois 2v2. A seguir modos de equipa maiores e, por fim, um quadro de 64 lutadores numa arena, só com as mãos. O 64 não é arbitrário: é um quadro de torneio, e este jogo nasceu de um torneio." }
       ]
     },
@@ -1039,7 +1039,7 @@ const I18N = {
     songs: { heading: "Na tua língua", lead: "Tema musical e gameplay, gravados nas línguas que os nossos lutadores falam." },
     ip: { heading: "As histórias por trás", lead: "Romances e séries web, escritos por nós.", note: "Todos os mundos onde os nossos jogos acontecem começaram como um manuscrito. Não licenciamos a IP de ninguém: escrevemo-la, e o jogo é uma forma de a contar.", book: "Seraphim saiu em capa dura — contracapa, lombada e capa. Um romance de 75 000 palavras, na Amazon com o ISBN 9798285120018. Fighting Nations passa-se neste mundo." },
     works: { trailer: "Trailer", play: "Jogar", more: "Saber mais", heading: "O que construímos", lead: "Dez jogos construídos. E a IP por trás deles — romances e séries web — é escrita internamente.", note: "Artes marciais de duzentas nações, coordenadas de cidades reais, esquadrões com a sua bandeira — há sempre um país nos nossos jogos. Não para tornar algum deles mais forte, mas para que um jogador de qualquer lugar encontre o seu lugar.", items: {
-      fn: { t: "Fighting Nations", b: "Um jogo de luta 3D sem armas — apenas as artes marciais do mundo, um estilo por lutador. Combates por equipas em cenários destrutíveis, com o objetivo a longo prazo de um battle royale de 64 jogadores. Em desenvolvimento e já jogável.", s: ["21 lutadores","11 artes marciais","6 cenários"] },
+      fn: { t: "Fighting Nations", b: "Um jogo de luta 3D sem armas — apenas as artes marciais do mundo, um estilo por lutador. Combates por equipas em cenários destrutíveis, com o objetivo a longo prazo de um battle royale de 64 jogadores. Em desenvolvimento e já jogável.", s: ["19 lutadores","11 artes marciais","6 cenários"] },
       kingdom: { t: "Kingdom Wars", b: "Escolhe nação e comandante e toma a Lua setor a setor: 49 ao todo, por turnos, no navegador. Sequências de vitórias, classificação de combate e loot. Disponível em quatro línguas." },
       miliverse: { t: "Milliverse", b: "Jogo de estratégia Web3 sobre o mapa do mundo real. Compra tiles, coloca armas e tropas e disputa território com outros jogadores. Ativo em quatro línguas, com clima real e ciclo dia-noite a influenciar os combates." },
       jangbogo: { t: "Jang Bogo: Rei dos Mares", b: "Um simulador de gestão de comércio marítimo do século IX protagonizado pelo rei do mar Jang Bogo. Num mapa do mundo real, acumulas riqueza a comerciar, varres os piratas com navios-tartaruga e alargas o teu poder criando laços com gente de todos os mares. História alternativa do romance original — chegar à América do Norte 650 anos antes de Colombo. Joga-se diretamente no navegador." },
@@ -1061,7 +1061,7 @@ const I18N = {
       studio: "Deother Co., Ltd. — studio de jeux fondé sur ses IP",
       title: "Fighting Nations",
       tagline: "Ni armes à feu ni lames. Uniquement les arts martiaux à mains nues : du 1v1 aujourd'hui vers un battle royale à 64 combattants.",
-      cta: "Jouer la version", ctaSub: "Gratuit · Windows · 4,2 Go"
+      cta: "Jouer la version", ctaSub: "Gratuit · Windows · 4,6 Go"
     },
     why: {
       heading: "Le vide que personne n'a comblé",
@@ -1092,7 +1092,7 @@ const I18N = {
     features: {
       heading: "Ce qui le distingue",
       items: [
-        { t: "Jamais d'armes", b: "Muay-thaï, taekwondo, kung-fu, judo, Pencak Silat et d'autres — douze styles, et la liste s'allonge. Les armes restent dehors, par choix de conception et pour que les parents n'aient pas à s'inquiéter." },
+        { t: "Jamais d'armes", b: "Muay-thaï, taekwondo, kung-fu, judo, Pencak Silat et d'autres — onze styles, et la liste s'allonge. Les armes restent dehors, par choix de conception et pour que les parents n'aient pas à s'inquiéter." },
         { t: "L'équipe, pas seulement le duel", b: "Cela commence en 1v1, deux manettes sur un écran. Le multijoueur est en test. Ensuite le 2v2 — et l'objectif est un battle royale d'arts martiaux." },
         { t: "On achète des techniques, pas que des skins", b: "On achète et on approfondit les styles martiaux eux-mêmes, pas seulement l'apparence. Free to play, avec une progression qui a du sens." },
         { t: "L'art martial de votre pays", b: "Chaque combattant porte une nation et sa tradition martiale. Les personnages de 13 pays parlent leur propre langue : les joueurs s'entendent dans le jeu. Les modèles sont refaits avec MetaHuman." }
@@ -1151,7 +1151,7 @@ const I18N = {
         { date: "Septembre 2026", title: "Page Steam", body: "Inscription via Steamworks Direct et page « Prochainement », pour accumuler des listes de souhaits avant la sortie." },
         { date: "Octobre 2026", title: "Epic Games Store", body: "Demande de distribution en parallèle de Steam." },
         { date: "En développement", title: "Multijoueur en ligne", body: "D'abord le netcode 1v1, ensuite le 2v2. En chemin, les modèles passent à MetaHuman." },
-        { date: "2026–2027", title: "Console Xbox", body: "Candidature au programme ID@Xbox de Microsoft pour arriver sur console." },
+        { date: "1er semestre 2027", title: "Console Xbox", body: "Candidature au programme ID@Xbox de Microsoft pour arriver sur console." },
         { date: "L'objectif", title: "Battle royale d'arts martiaux", body: "1v1 aujourd'hui. 2v2 ensuite. Puis des modes d'équipe plus larges, et enfin un tableau de 64 combattants dans une même arène, à mains nues. Soixante-quatre n'est pas un chiffre au hasard : c'est un tableau de tournoi, et ce jeu est né d'un tournoi." }
       ]
     },
@@ -1171,7 +1171,7 @@ const I18N = {
     songs: { heading: "Dans votre langue", lead: "Thème musical et séquences de jeu, enregistrés dans les langues que parlent nos combattants." },
     ip: { heading: "Les histoires derrière", lead: "Romans et feuilletons, écrits en interne.", note: "Chaque monde où se déroulent nos jeux a commencé par un manuscrit. Nous n'exploitons pas la propriété intellectuelle d'un autre : nous l'écrivons, et le jeu est une façon de la raconter.", book: "Seraphim est paru en édition reliée — quatrième de couverture, dos, couverture. Un roman de 75 000 mots, sur Amazon sous l'ISBN 9798285120018. Fighting Nations se déroule dans ce monde." },
     works: { trailer: "Bande-annonce", play: "Jouer", more: "En savoir plus", heading: "Ce que nous avons construit", lead: "Dix jeux construits. Et la propriété intellectuelle qui les porte — romans et feuilletons — est écrite en interne.", note: "Les arts martiaux de deux cents nations, les coordonnées de villes réelles, des escouades portant leur drapeau : il y a toujours un pays dans nos jeux. Non pour en rendre un plus fort, mais pour qu'un joueur de n'importe où y trouve sa place.", items: {
-      fn: { t: "Fighting Nations", b: "Un jeu de combat en 3D sans armes : rien que les arts martiaux du monde, un style par combattant. Des affrontements en équipe sur des décors destructibles, avec pour objectif à terme un battle royale à 64 joueurs. En développement, jouable dès maintenant.", s: ["21 combattants","11 arts martiaux","6 décors"] },
+      fn: { t: "Fighting Nations", b: "Un jeu de combat en 3D sans armes : rien que les arts martiaux du monde, un style par combattant. Des affrontements en équipe sur des décors destructibles, avec pour objectif à terme un battle royale à 64 joueurs. En développement, jouable dès maintenant.", s: ["19 combattants","11 arts martiaux","6 décors"] },
       kingdom: { t: "Kingdom Wars", b: "Choisissez une nation et un commandant, puis prenez la Lune secteur par secteur : 49 en tout, au tour par tour, dans le navigateur. Séries de victoires, notes de combat et butin. Disponible en quatre langues." },
       miliverse: { t: "Milliverse", b: "Jeu de stratégie Web3 sur la carte du monde réel. Achetez des tuiles, déployez armes et troupes, disputez le territoire aux autres joueurs. En ligne en quatre langues, avec météo réelle et cycle jour-nuit qui pèsent sur les combats." },
       jangbogo: { t: "Jang Bogo : Roi des Mers", b: "Un simulateur de gestion du commerce maritime au IXe siècle, avec pour héros le roi des mers Jang Bogo. Sur une carte du monde réel, vous bâtissez votre fortune par le commerce, balayez les pirates avec des navires-tortues et étendez votre puissance en nouant des liens avec les gens de toutes les mers. Une uchronie tirée du roman original — atteindre l'Amérique du Nord 650 ans avant Colomb. Jouable directement dans le navigateur." },
@@ -1193,7 +1193,7 @@ const I18N = {
       studio: "Deother Co., Ltd. — IP-basiertes Spielestudio",
       title: "Fighting Nations",
       tagline: "Keine Schusswaffen, keine Klingen. Nur Kampfkunst mit bloßen Händen — Start bei 1v1, Ziel ist eine Battle Royale mit 64 Kämpfern.",
-      cta: "Build spielen", ctaSub: "Kostenlos · Windows · 4,2 GB"
+      cta: "Build spielen", ctaSub: "Kostenlos · Windows · 4,6 GB"
     },
     why: {
       heading: "Die Lücke, die niemand füllte",
@@ -1224,7 +1224,7 @@ const I18N = {
     features: {
       heading: "Was es anders macht",
       items: [
-        { t: "Niemals Waffen", b: "Muay Thai, Taekwondo, Kung-Fu, Judo, Pencak Silat und mehr — zwölf Stile, Tendenz steigend. Waffen bleiben draußen: teils Design, teils damit Eltern sich keine Sorgen machen müssen." },
+        { t: "Niemals Waffen", b: "Muay Thai, Taekwondo, Kung-Fu, Judo, Pencak Silat und mehr — elf Stile, Tendenz steigend. Waffen bleiben draußen: teils Design, teils damit Eltern sich keine Sorgen machen müssen." },
         { t: "Team statt nur Duell", b: "Es beginnt mit 1v1, zwei Controller an einem Bildschirm. Multiplayer ist im Test. Danach 2v2 — und das Ziel ist eine Kampfkunst-Battle-Royale." },
         { t: "Man kauft Technik, nicht nur Skins", b: "Man kauft und vertieft die Kampfstile selbst, nicht nur Kosmetik. Free to Play, aber mit Fortschritt, der etwas bedeutet." },
         { t: "Die Kampfkunst deines Landes", b: "Jeder Kämpfer trägt eine Nation und deren Kampftradition. Figuren aus 13 Ländern sprechen ihre eigene Sprache — Spieler hören sich selbst im Spiel. Die Modelle werden mit MetaHuman neu gebaut." }
@@ -1283,7 +1283,7 @@ const I18N = {
         { date: "September 2026", title: "Steam-Seite", body: "Registrierung über Steamworks Direct und eine „Demnächst\"-Seite, damit Wunschlisten schon vor dem Release wachsen." },
         { date: "Oktober 2026", title: "Epic Games Store", body: "Vertriebsantrag parallel zu Steam." },
         { date: "In Arbeit", title: "Online-Multiplayer", body: "Zuerst 1v1-Netcode, dann 2v2-Teamspiel. Unterwegs wechseln die Charaktermodelle auf MetaHuman." },
-        { date: "2026–2027", title: "Xbox-Konsole", body: "Bewerbung bei Microsofts ID@Xbox-Programm für den Weg auf die Konsole." },
+        { date: "1. Halbjahr 2027", title: "Xbox-Konsole", body: "Bewerbung bei Microsofts ID@Xbox-Programm für den Weg auf die Konsole." },
         { date: "Das Ziel", title: "Kampfkunst-Battle-Royale", body: "Heute 1v1. Dann 2v2. Danach größere Teammodi — und am Ende ein Feld von 64 Kämpfern in einer Arena, nur mit bloßen Händen. 64 ist keine willkürliche Zahl: Es ist ein Turnierbaum, und dieses Spiel stammt aus einem Turnier." }
       ]
     },
@@ -1303,7 +1303,7 @@ const I18N = {
     songs: { heading: "In deiner Sprache", lead: "Titelsong und Spielszenen, aufgenommen in den Sprachen unserer Kämpfer." },
     ip: { heading: "Die Geschichten dahinter", lead: "Romane und Web-Serials, selbst geschrieben.", note: "Jede Welt, in der unsere Spiele stattfinden, begann als Manuskript. Wir lizenzieren keine fremde IP — wir schreiben sie, und ein Spiel ist eine Art, sie zu erzählen.", book: "Seraphim ist als Hardcover erschienen — Rückseite, Buchrücken, Vorderseite. Ein Roman mit 75.000 Wörtern, bei Amazon unter der ISBN 9798285120018. Fighting Nations spielt in dieser Welt." },
     works: { trailer: "Trailer", play: "Spielen", more: "Mehr erfahren", heading: "Was wir gebaut haben", lead: "Zehn Spiele gebaut. Und die IP dahinter — Romane und Web-Serials — schreiben wir selbst.", note: "Kampfkünste aus zweihundert Nationen, Koordinaten echter Städte, Trupps mit ihrer Flagge — in unseren Spielen gibt es immer ein Land. Nicht um eines davon stärker zu machen, sondern damit Spielerinnen und Spieler von überall ihren Platz darin finden.", items: {
-      fn: { t: "Fighting Nations", b: "Ein 3D-Kampfspiel ohne Waffen — nur die Kampfkünste der Welt, pro Kämpfer ein Stil. Teamkämpfe auf zerstörbaren Bühnen, langfristiges Ziel ist eine Battle Royale für 64 Spielerinnen und Spieler. In Entwicklung und schon spielbar.", s: ["21 Kämpfer","11 Kampfkünste","6 Bühnen"] },
+      fn: { t: "Fighting Nations", b: "Ein 3D-Kampfspiel ohne Waffen — nur die Kampfkünste der Welt, pro Kämpfer ein Stil. Teamkämpfe auf zerstörbaren Bühnen, langfristiges Ziel ist eine Battle Royale für 64 Spielerinnen und Spieler. In Entwicklung und schon spielbar.", s: ["19 Kämpfer","11 Kampfkünste","6 Bühnen"] },
       kingdom: { t: "Kingdom Wars", b: "Nation und Kommandant wählen, dann den Mond Sektor für Sektor nehmen — 49 davon, rundenbasiert, im Browser. Siegesserien, Kampfwertungen und Beute. In vier Sprachen verfügbar." },
       miliverse: { t: "Milliverse", b: "Web3-Strategiespiel auf der echten Weltkarte. Kacheln kaufen, Waffen und Truppen stationieren, mit anderen Spielern um Gebiete kämpfen. In vier Sprachen live, echtes Wetter und Tag-Nacht-Daten fließen in die Kämpfe ein." },
       jangbogo: { t: "Jang Bogo: König der Meere", b: "Eine Handels-Wirtschaftssimulation aus dem 9. Jahrhundert um den Seekönig Jang Bogo. Auf einer echten Weltkarte häufst du durch Handel Reichtum an, fegst Piraten mit Schildkrötenschiffen beiseite und mehrst deine Macht durch Bündnisse mit Menschen aller Meere. Alternative Geschichte aus dem Originalroman — Nordamerika 650 Jahre vor Kolumbus erreichen. Direkt im Browser spielbar." },
@@ -1325,7 +1325,7 @@ const I18N = {
       studio: "Deother Co., Ltd. — студия, растущая из собственных IP",
       title: "Fighting Nations",
       tagline: "Ни огнестрела, ни клинков. Только боевые искусства голыми руками — начинаем с 1 на 1, идём к королевской битве на 64 бойца.",
-      cta: "Сыграть в сборку", ctaSub: "Бесплатно · Windows · 4,2 ГБ"
+      cta: "Сыграть в сборку", ctaSub: "Бесплатно · Windows · 4,6 ГБ"
     },
     why: {
       heading: "Пробел, который никто не закрыл",
@@ -1356,7 +1356,7 @@ const I18N = {
     features: {
       heading: "Чем отличается",
       items: [
-        { t: "Оружия не будет", b: "Муай-тай, тхэквондо, кунг-фу, дзюдо, пенчак-силат и другие — двенадцать стилей, и список растёт. Оружие остаётся снаружи: отчасти замысел, отчасти чтобы родителям не о чем было волноваться." },
+        { t: "Оружия не будет", b: "Муай-тай, тхэквондо, кунг-фу, дзюдо, пенчак-силат и другие — одиннадцать стилей, и список растёт. Оружие остаётся снаружи: отчасти замысел, отчасти чтобы родителям не о чем было волноваться." },
         { t: "Команда, а не только дуэль", b: "Сейчас это 1 на 1 с двумя геймпадами на одном экране. Сетевой режим в тестах. Дальше 2 на 2 — а цель — королевская битва боевых искусств." },
         { t: "Покупают приёмы, а не только скины", b: "Вы покупаете и углубляете сами боевые стили, а не только внешний вид. Free-to-play, но прогресс что-то значит." },
         { t: "Боевое искусство вашей страны", b: "Каждый боец несёт свою страну и её боевую традицию. Персонажи из 13 стран говорят на родном языке — игрок слышит себя в игре. Модели пересобираются на MetaHuman." }
@@ -1415,7 +1415,7 @@ const I18N = {
         { date: "Сентябрь 2026", title: "Страница в Steam", body: "Регистрация через Steamworks Direct и страница «Скоро», чтобы списки желаемого росли ещё до релиза." },
         { date: "Октябрь 2026", title: "Epic Games Store", body: "Заявка на дистрибуцию параллельно со Steam." },
         { date: "В разработке", title: "Онлайн-мультиплеер", body: "Сначала нет­код 1 на 1, затем командный режим 2 на 2. Попутно модели переводим на MetaHuman." },
-        { date: "2026–2027", title: "Консоль Xbox", body: "Заявка в программу Microsoft ID@Xbox для выхода на консоль." },
+        { date: "1-е полугодие 2027", title: "Консоль Xbox", body: "Заявка в программу Microsoft ID@Xbox для выхода на консоль." },
         { date: "Цель", title: "Королевская битва боевых искусств", body: "Сегодня 1 на 1. Затем 2 на 2. Потом более крупные командные режимы — и в итоге сетка из 64 бойцов на одной арене, только голыми руками. 64 — не случайное число: это турнирная сетка, а игра выросла из турнира." }
       ]
     },
@@ -1435,7 +1435,7 @@ const I18N = {
     songs: { heading: "На вашем языке", lead: "Заглавная тема и игровой процесс, записанные на языках наших бойцов." },
     ip: { heading: "Истории, которые за ними стоят", lead: "Романы и веб-сериалы. Мы пишем их сами.", note: "Каждый мир, в котором происходят наши игры, начинался с рукописи. Мы не берём чужую интеллектуальную собственность — мы пишем свою, а игра лишь один из способов её рассказать.", book: "«Seraphim» вышел в твёрдом переплёте — задняя обложка, корешок, передняя. Роман на 75 000 слов, на Amazon под ISBN 9798285120018. Fighting Nations происходит в этом мире." },
     works: { trailer: "Трейлер", play: "Играть", more: "Подробнее", heading: "Что мы построили", lead: "Десять игр сделано. И IP за ними — романы и веб-сериалы — мы пишем сами.", note: "Боевые искусства двухсот стран, координаты настоящих городов, отряды под своими флагами — в наших играх всегда есть страна. Не для того, чтобы сделать какую-то сильнее, а чтобы игрок откуда угодно нашёл в ней своё место.", items: {
-      fn: { t: "Fighting Nations", b: "3D-файтинг без оружия — только боевые искусства мира, у каждого бойца свой стиль. Командные бои на разрушаемых аренах; дальняя цель — королевская битва на 64 игрока. В разработке, играть можно уже сейчас.", s: ["21 боец","11 боевых искусств","6 арен"] },
+      fn: { t: "Fighting Nations", b: "3D-файтинг без оружия — только боевые искусства мира, у каждого бойца свой стиль. Командные бои на разрушаемых аренах; дальняя цель — королевская битва на 64 игрока. В разработке, играть можно уже сейчас.", s: ["19 бойцов","11 боевых искусств","6 арен"] },
       kingdom: { t: "Kingdom Wars", b: "Выберите страну и командира и забирайте Луну сектор за сектором — всего 49, пошагово, прямо в браузере. Серии побед, оценки боя и трофеи. Доступна на четырёх языках." },
       miliverse: { t: "Milliverse", b: "Web3-стратегия на настоящей карте мира. Покупайте тайлы, размещайте оружие и войска, отбивайте территорию у других игроков. Работает на четырёх языках, реальная погода и смена дня и ночи влияют на бой." },
       jangbogo: { t: "Чан Бого: Король морей", b: "Симулятор управления морской торговлей IX века о морском короле Чан Бого. На настоящей карте мира вы копите богатство торговлей, сметаете пиратов кораблями-черепахами и расширяете влияние, заводя связи с людьми всех морей. Альтернативная история из оригинального романа — достичь Северной Америки на 650 лет раньше Колумба. Играется прямо в браузере." },
@@ -1457,7 +1457,7 @@ const I18N = {
       studio: "شركة Deother — استوديو ألعاب قائم على ملكيته الفكرية",
       title: "Fighting Nations",
       tagline: "لا أسلحة نارية ولا نصال. فنون قتالية بالأيدي المجردة فقط — نبدأ بمواجهة فردية ونتجه إلى باتل رويال بـ64 مقاتلًا.",
-      cta: "جرّب النسخة", ctaSub: "مجاني · ويندوز · 4.2 غيغابايت"
+      cta: "جرّب النسخة", ctaSub: "مجاني · ويندوز · 4.6 غيغابايت"
     },
     why: {
       heading: "الفراغ الذي لم يملأه أحد",
@@ -1488,7 +1488,7 @@ const I18N = {
     features: {
       heading: "ما يميزها",
       items: [
-        { t: "لا سلاح أبدًا", b: "مواي تاي، تايكوندو، كونغ فو، جودو، بنجاك سيلات وغيرها — اثنا عشر أسلوبًا والعدد يزداد. إبقاء السلاح خارجًا قرار تصميمي، وأيضًا كي لا يقلق الأهل." },
+        { t: "لا سلاح أبدًا", b: "مواي تاي، تايكوندو، كونغ فو، جودو، بنجاك سيلات وغيرها — أحد عشر أسلوبًا والعدد يزداد. إبقاء السلاح خارجًا قرار تصميمي، وأيضًا كي لا يقلق الأهل." },
         { t: "فريق، لا مبارزة فقط", b: "تبدأ بمواجهة فردية بيدي تحكم على شاشة واحدة. اللعب الشبكي قيد الاختبار. ثم 2 ضد 2 — والهدف باتل رويال للفنون القتالية." },
         { t: "تشتري المهارات لا المظهر فقط", b: "تشتري أساليب القتال نفسها وتطوّرها، لا الأزياء وحدها. اللعبة مجانية، لكن التقدّم فيها له معنى." },
         { t: "فن بلدك القتالي", b: "كل مقاتل يحمل بلدًا وتقليده القتالي. شخصيات من 13 دولة تتحدث لغاتها، فيسمع اللاعبون أنفسهم داخل اللعبة. ويجري إعادة بناء نماذج الشخصيات باستخدام MetaHuman." }
@@ -1548,7 +1548,7 @@ const I18N = {
         { date: "سبتمبر 2026", title: "صفحة Steam", body: "التسجيل عبر Steamworks Direct وإطلاق صفحة «قريبًا» لتتراكم قوائم الرغبات قبل الإصدار." },
         { date: "أكتوبر 2026", title: "‏Epic Games Store", body: "تقديم طلب التوزيع بالتوازي مع Steam." },
         { date: "قيد التطوير", title: "اللعب الجماعي عبر الإنترنت", body: "أولًا شبكة المواجهة الفردية، ثم الطور الجماعي 2 ضد 2. وفي الأثناء تنتقل نماذج الشخصيات إلى MetaHuman." },
-        { date: "‏2026–2027", title: "منصة Xbox", body: "التقديم إلى برنامج ID@Xbox من مايكروسوفت للوصول إلى المنصات المنزلية." },
+        { date: "‏النصف الأول من 2027", title: "منصة Xbox", body: "التقديم إلى برنامج ID@Xbox من مايكروسوفت للوصول إلى المنصات المنزلية." },
         { date: "الهدف", title: "باتل رويال للفنون القتالية", body: "اليوم واحد ضد واحد. ثم 2 ضد 2. ثم أطوار جماعية أكبر، وأخيرًا 64 مقاتلًا في حلبة واحدة بأيديهم المجردة. والرقم 64 ليس اعتباطيًا: إنه جدول بطولة، وهذه اللعبة وُلدت من بطولة." }
       ]
     },
@@ -1568,7 +1568,7 @@ const I18N = {
     songs: { heading: "بلغتك", lead: "أغنية الشارة ولقطات من اللعب، مسجّلة بلغات مقاتلينا." },
     ip: { heading: "الحكايات التي وراءها", lead: "روايات وسلاسل إلكترونية، نكتبها بأنفسنا.", note: "كل عالَم تدور فيه ألعابنا بدأ مخطوطةً. نحن لا نستأجر ملكية فكرية لأحد — نكتبها، واللعبة إحدى طرق روايتها.", book: "صدر «Seraphim» بغلاف مقوّى — الغلاف الخلفي والكعب والغلاف الأمامي. رواية من 75٬000 كلمة، متاحة على أمازون برقم ISBN 9798285120018. وتدور أحداث Fighting Nations في هذا العالم." },
     works: { trailer: "المقطع الدعائي", play: "العب", more: "اقرأ المزيد", heading: "ما بنيناه", lead: "عشر ألعاب مبنية. والملكية الفكرية خلفها — روايات وسلاسل إلكترونية — نكتبها بأنفسنا.", note: "فنون قتالية من مئتَي دولة، وإحداثيات مدن حقيقية، وفرق ترفع أعلامها — في ألعابنا حضور دائم للأوطان. لا لنجعل واحدة منها أقوى، بل ليجد اللاعب من أي مكان موضعه فيها.", items: {
-      fn: { t: "Fighting Nations", b: "لعبة قتال ثلاثية الأبعاد بلا أسلحة — فنون العالم القتالية وحدها، لكل مقاتل أسلوبه. معارك جماعية على ساحات قابلة للتحطيم، والهدف البعيد معركة ملكية لأربعة وستين لاعبًا. قيد التطوير ويمكن لعبها الآن.", s: ["21 مقاتلًا","11 فنًا قتاليًا","6 ساحات"] },
+      fn: { t: "Fighting Nations", b: "لعبة قتال ثلاثية الأبعاد بلا أسلحة — فنون العالم القتالية وحدها، لكل مقاتل أسلوبه. معارك جماعية على ساحات قابلة للتحطيم، والهدف البعيد معركة ملكية لأربعة وستين لاعبًا. قيد التطوير ويمكن لعبها الآن.", s: ["19 مقاتلًا","11 فنًا قتاليًا","6 ساحات"] },
       kingdom: { t: "Kingdom Wars", b: "اختر دولة وقائدًا ثم استولِ على القمر قطاعًا بعد قطاع — 49 قطاعًا، بالأدوار، من المتصفح مباشرة. سلاسل انتصارات وتقييمات للمعارك وغنائم. متاحة بأربع لغات." },
       miliverse: { t: "Milliverse", b: "لعبة استراتيجية Web3 على خريطة العالم الحقيقية. اشترِ المربّعات وانشر الأسلحة والجنود ونازع اللاعبين الآخرين على الأرض. تعمل بأربع لغات، وبيانات الطقس الحقيقي والليل والنهار تؤثر في المعارك." },
       jangbogo: { t: "جانغ بوغو: ملك البحار", b: "محاكاة لإدارة التجارة البحرية في القرن التاسع، بطلها ملك البحار جانغ بوغو. على خريطة العالم الحقيقية تراكم الثروة بالتجارة، وتكتسح القراصنة بسفن السلحفاة، وتوسّع نفوذك بعقد صلات مع أهل البحار جميعًا. تاريخ بديل من الرواية الأصلية — بلوغ أمريكا الشمالية قبل كولومبوس بـ650 عامًا. تُلعب مباشرة في المتصفح." },

@@ -4447,10 +4447,10 @@ const PAGES = {
               "2026년 3월 31일 마감 · 제5회 AI·공공데이터 활용 창업 경진대회 · 접수 완료",
               "2026년 3월 31일 마감 · 게임아이콘 서울 2026 · 접수 완료",
               "2026년 4월 1일 마감 · 게임 상용화 지원사업 · 접수 완료",
-              "2026년 4월 3일 · 게임스컴 아시아 2026 한국공동관 (태국) · 접수 완료",
-              "2026년 4월 3일 · 게임스컴 2026 한국공동관 (독일) · 접수 완료",
-              "2026년 4월 3일 · 도쿄게임쇼 2026 한국공동관 · 접수 완료",
-              "2026년 4월 3일 · 차이나조이 2026 · 접수 완료",
+              "2026년 4월 3일 · 게임스컴 아시아 2026 한국공동관 (태국) · 미선정",
+              "2026년 4월 3일 · 게임스컴 2026 한국공동관 (독일) · 미선정",
+              "2026년 4월 3일 · 도쿄게임쇼 2026 한국공동관 · 미선정",
+              "2026년 4월 3일 · 차이나조이 2026 · 미선정",
               "2026년 4월 3일 마감 · 2026 대한민국 혁신창업상 공모전 · 접수 완료",
               "2026년 4월 12일 마감 · 스마일게이트 인디게임 공모전 · 접수 완료",
               "2026년 4월 30일 마감 · 퀄컴 AI 이노베이터 프로그램 (QAIPI) 2026-APAC — 온디바이스 AI · 접수 완료",
@@ -4736,8 +4736,8 @@ const PAGES = {
               "16 August 2026 · Taipei Indie Game Award 2027 — Fighting Nations · submitted, finalists announced 14 October",
               "16 August 2026 · Epic MegaGrants (H2) — Fighting Nations · submitted, under review",
               "16 August 2026 · Xsolla Funding Club — Fighting Nations · submitted, under review",
-              "3 April 2026 · gamescom asia 2026 Korea pavilion (Thailand) · submitted",
-              "3 April 2026 · Tokyo Game Show 2026 Korea pavilion · submitted",
+              "3 April 2026 · gamescom asia 2026 Korea pavilion (Thailand) · not selected",
+              "3 April 2026 · Tokyo Game Show 2026 Korea pavilion · not selected",
               "20 July 2026 · Sweden Game Conference 2026 · submitted",
               "18 August 2026 · Gaming Istanbul GIST 2026 (3 companies selected) — Fighting Nations · submitted",
               "18 August 2026 · Mobidictum Indie Desk 2026 (Istanbul) — Fighting Nations · submitted",
@@ -4753,8 +4753,8 @@ const PAGES = {
               "deadline 25 June 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · submitted",
               "deadline 26 June 2026 · Culture, Sports and Tourism AI & Data Contest (Ministry of Culture, Sports and Tourism) · submitted",
               "deadline 31 July 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · not selected",
-              "3 April 2026 · gamescom 2026 Korea pavilion (Germany) · submitted",
-              "3 April 2026 · ChinaJoy 2026 · submitted"
+              "3 April 2026 · gamescom 2026 Korea pavilion (Germany) · not selected",
+              "3 April 2026 · ChinaJoy 2026 · not selected"
             ]
           }
         },
@@ -5018,10 +5018,10 @@ const PAGES = {
               "2026 年 3 月 31 日截止 · 第 5 届 AI·公共数据创业竞赛 · 已递交",
               "2026 年 3 月 31 日截止 · Game Icon Seoul 2026 · 已递交",
               "2026 年 4 月 1 日截止 · 游戏商用化扶持项目 · 已递交",
-              "2026 年 4 月 3 日 · gamescom asia 2026 韩国联合馆（泰国） · 已递交",
-              "2026 年 4 月 3 日 · gamescom 2026 韩国联合馆（德国） · 已递交",
-              "2026 年 4 月 3 日 · 东京电玩展 2026 韩国联合馆 · 已递交",
-              "2026 年 4 月 3 日 · ChinaJoy 2026 · 已递交",
+              "2026 年 4 月 3 日 · gamescom asia 2026 韩国联合馆（泰国） · 未入选",
+              "2026 年 4 月 3 日 · gamescom 2026 韩国联合馆（德国） · 未入选",
+              "2026 年 4 月 3 日 · 东京电玩展 2026 韩国联合馆 · 未入选",
+              "2026 年 4 月 3 日 · ChinaJoy 2026 · 未入选",
               "2026 年 4 月 3 日截止 · 2026 大韩民国革新创业奖大赛 · 已递交",
               "2026 年 4 月 12 日截止 · Smilegate 独立游戏大赛 · 已递交",
               "2026 年 4 月 30 日截止 · 高通 AI 创新者计划（QAIPI）2026-APAC — 端侧 AI · 已递交",
@@ -5303,10 +5303,10 @@ const PAGES = {
               "2026年3月31日締切 · 第 5 回 AI・公共データ活用 創業コンペティション · 応募済み",
               "2026年3月31日締切 · ゲームアイコン ソウル 2026 · 応募済み",
               "2026年4月1日締切 · ゲーム商用化支援事業 · 応募済み",
-              "2026年4月3日 · gamescom asia 2026 韓国共同館（タイ） · 応募済み",
-              "2026年4月3日 · gamescom 2026 韓国共同館（ドイツ） · 応募済み",
-              "2026年4月3日 · 東京ゲームショウ 2026 韓国共同館 · 応募済み",
-              "2026年4月3日 · ChinaJoy 2026 · 応募済み",
+              "2026年4月3日 · gamescom asia 2026 韓国共同館（タイ） · 選外",
+              "2026年4月3日 · gamescom 2026 韓国共同館（ドイツ） · 選外",
+              "2026年4月3日 · 東京ゲームショウ 2026 韓国共同館 · 選外",
+              "2026年4月3日 · ChinaJoy 2026 · 選外",
               "2026年4月3日締切 · 2026 大韓民国 革新創業賞 · 応募済み",
               "2026年4月12日締切 · スマイルゲート インディーゲームコンテスト · 応募済み",
               "2026年4月30日締切 · クアルコム AI イノベーター プログラム（QAIPI）2026-APAC — オンデバイス AI · 応募済み",
@@ -5594,9 +5594,9 @@ const PAGES = {
               "16 de agosto de 2026 · Taipei Indie Game Award 2027 — Fighting Nations · presentado; finalistas el 14 de octubre",
               "16 de agosto de 2026 · Epic MegaGrants (2.º semestre) — Fighting Nations · presentado, en revisión",
               "16 de agosto de 2026 · Xsolla Funding Club — Fighting Nations · presentado, en revisión",
-              "3 de abril de 2026 · Pabellón coreano de gamescom asia 2026 (Tailandia) · presentado",
-              "3 de abril de 2026 · Pabellón coreano de gamescom 2026 (Alemania) · presentado",
-              "3 de abril de 2026 · Pabellón coreano del Tokyo Game Show 2026 · presentado",
+              "3 de abril de 2026 · Pabellón coreano de gamescom asia 2026 (Tailandia) · no seleccionado",
+              "3 de abril de 2026 · Pabellón coreano de gamescom 2026 (Alemania) · no seleccionado",
+              "3 de abril de 2026 · Pabellón coreano del Tokyo Game Show 2026 · no seleccionado",
               "20 de julio de 2026 · Sweden Game Conference 2026 · presentado",
               "18 de agosto de 2026 · Gaming Istanbul GIST 2026 (3 empresas seleccionadas) — Fighting Nations · presentado",
               "18 de agosto de 2026 · Mobidictum Indie Desk 2026 (Estambul) — Fighting Nations · presentado",
@@ -5609,7 +5609,7 @@ const PAGES = {
               "cierre 25 de junio de 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · presentado",
               "cierre 26 de junio de 2026 · Concurso de IA y datos de Cultura, Deporte y Turismo (Ministerio de Cultura, Deporte y Turismo) · presentado",
               "cierre 31 de julio de 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · no seleccionado",
-              "3 de abril de 2026 · ChinaJoy 2026 · presentado"
+              "3 de abril de 2026 · ChinaJoy 2026 · no seleccionado"
             ]
           }
         },
@@ -5879,9 +5879,9 @@ const PAGES = {
               "16 de agosto de 2026 · Taipei Indie Game Award 2027 — Fighting Nations · submetido; finalistas a 14 de outubro",
               "16 de agosto de 2026 · Epic MegaGrants (2.º semestre) — Fighting Nations · submetido, em análise",
               "16 de agosto de 2026 · Xsolla Funding Club — Fighting Nations · submetido, em análise",
-              "3 de abril de 2026 · Pavilhão coreano da gamescom asia 2026 (Tailândia) · submetido",
-              "3 de abril de 2026 · Pavilhão coreano da gamescom 2026 (Alemanha) · submetido",
-              "3 de abril de 2026 · Pavilhão coreano da Tokyo Game Show 2026 · submetido",
+              "3 de abril de 2026 · Pavilhão coreano da gamescom asia 2026 (Tailândia) · não selecionado",
+              "3 de abril de 2026 · Pavilhão coreano da gamescom 2026 (Alemanha) · não selecionado",
+              "3 de abril de 2026 · Pavilhão coreano da Tokyo Game Show 2026 · não selecionado",
               "20 de julho de 2026 · Sweden Game Conference 2026 · submetido",
               "18 de agosto de 2026 · Gaming Istanbul GIST 2026 (3 empresas selecionadas) — Fighting Nations · submetido",
               "18 de agosto de 2026 · Mobidictum Indie Desk 2026 (Istambul) — Fighting Nations · submetido",
@@ -5894,7 +5894,7 @@ const PAGES = {
               "prazo 25 de junho de 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · submetido",
               "prazo 26 de junho de 2026 · Concurso de IA e dados de Cultura, Desporto e Turismo (Ministério da Cultura, Desporto e Turismo) · submetido",
               "prazo 31 de julho de 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · não selecionado",
-              "3 de abril de 2026 · ChinaJoy 2026 · submetido"
+              "3 de abril de 2026 · ChinaJoy 2026 · não selecionado"
             ]
           }
         },
@@ -6165,9 +6165,9 @@ const PAGES = {
               "16 août 2026 · Taipei Indie Game Award 2027 — Fighting Nations · déposé ; finalistes le 14 octobre",
               "16 août 2026 · Epic MegaGrants (2e semestre) — Fighting Nations · déposé, en cours d'examen",
               "16 août 2026 · Xsolla Funding Club — Fighting Nations · déposé, en cours d'examen",
-              "3 avril 2026 · Pavillon coréen de gamescom asia 2026 (Thaïlande) · déposé",
-              "3 avril 2026 · Pavillon coréen de gamescom 2026 (Allemagne) · déposé",
-              "3 avril 2026 · Pavillon coréen du Tokyo Game Show 2026 · déposé",
+              "3 avril 2026 · Pavillon coréen de gamescom asia 2026 (Thaïlande) · non retenu",
+              "3 avril 2026 · Pavillon coréen de gamescom 2026 (Allemagne) · non retenu",
+              "3 avril 2026 · Pavillon coréen du Tokyo Game Show 2026 · non retenu",
               "20 juillet 2026 · Sweden Game Conference 2026 · déposé",
               "18 août 2026 · Gaming Istanbul GIST 2026 (3 entreprises retenues) — Fighting Nations · déposé",
               "18 août 2026 · Mobidictum Indie Desk 2026 (Istanbul) — Fighting Nations · déposé",
@@ -6179,7 +6179,7 @@ const PAGES = {
               "clôture 25 juin 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · déposé",
               "clôture 26 juin 2026 · Concours IA et données Culture, Sports et Tourisme (ministère de la Culture, des Sports et du Tourisme) · déposé",
               "clôture 31 juillet 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · non retenu",
-              "3 avril 2026 · ChinaJoy 2026 · déposé"
+              "3 avril 2026 · ChinaJoy 2026 · non retenu"
             ]
           }
         },
@@ -6449,9 +6449,9 @@ const PAGES = {
               "16. August 2026 · Taipei Indie Game Award 2027 — Fighting Nations · eingereicht; Finalisten am 14. Oktober",
               "16. August 2026 · Epic MegaGrants (2. Halbjahr) — Fighting Nations · eingereicht, in Prüfung",
               "16. August 2026 · Xsolla Funding Club — Fighting Nations · eingereicht, in Prüfung",
-              "3. April 2026 · Koreanischer Pavillon der gamescom asia 2026 (Thailand) · eingereicht",
-              "3. April 2026 · Koreanischer Pavillon der gamescom 2026 (Deutschland) · eingereicht",
-              "3. April 2026 · Koreanischer Pavillon der Tokyo Game Show 2026 · eingereicht",
+              "3. April 2026 · Koreanischer Pavillon der gamescom asia 2026 (Thailand) · nicht ausgewählt",
+              "3. April 2026 · Koreanischer Pavillon der gamescom 2026 (Deutschland) · nicht ausgewählt",
+              "3. April 2026 · Koreanischer Pavillon der Tokyo Game Show 2026 · nicht ausgewählt",
               "20. Juli 2026 · Sweden Game Conference 2026 · eingereicht",
               "18. August 2026 · Gaming Istanbul GIST 2026 (3 Unternehmen ausgewählt) — Fighting Nations · eingereicht",
               "18. August 2026 · Mobidictum Indie Desk 2026 (Istanbul) — Fighting Nations · eingereicht",
@@ -6464,7 +6464,7 @@ const PAGES = {
               "Frist 25. Juni 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · eingereicht",
               "Frist 26. Juni 2026 · KI- und Datenwettbewerb für Kultur, Sport und Tourismus (Ministerium für Kultur, Sport und Tourismus) · eingereicht",
               "Frist 31. Juli 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · nicht ausgewählt",
-              "3. April 2026 · ChinaJoy 2026 · eingereicht"
+              "3. April 2026 · ChinaJoy 2026 · nicht ausgewählt"
             ]
           }
         },
@@ -6735,9 +6735,9 @@ const PAGES = {
               "16 августа 2026 · Taipei Indie Game Award 2027 — Fighting Nations · подано; финалисты 14 октября",
               "16 августа 2026 · Epic MegaGrants (2-е полугодие) — Fighting Nations · подано, на рассмотрении",
               "16 августа 2026 · Xsolla Funding Club — Fighting Nations · подано, на рассмотрении",
-              "3 апреля 2026 · Корейский павильон gamescom asia 2026 (Таиланд) · подано",
-              "3 апреля 2026 · Корейский павильон gamescom 2026 (Германия) · подано",
-              "3 апреля 2026 · Корейский павильон Tokyo Game Show 2026 · подано",
+              "3 апреля 2026 · Корейский павильон gamescom asia 2026 (Таиланд) · не отобрано",
+              "3 апреля 2026 · Корейский павильон gamescom 2026 (Германия) · не отобрано",
+              "3 апреля 2026 · Корейский павильон Tokyo Game Show 2026 · не отобрано",
               "20 июля 2026 · Sweden Game Conference 2026 · подано",
               "18 августа 2026 · Content IP Market 2026 (COEX, отобрано 80 компаний) · подано",
               "18 августа 2026 · Gaming Istanbul GIST 2026 (отобрано 3 компании) — Fighting Nations · подано",
@@ -6749,7 +6749,7 @@ const PAGES = {
               "дедлайн 25 июня 2026 · GIGDC 2026 Global Indie Game Making Contest — Miliverse · подано",
               "дедлайн 26 июня 2026 · Конкурс ИИ и данных в сфере культуры, спорта и туризма (Министерство культуры, спорта и туризма) · подано",
               "дедлайн 31 июля 2026 · 2026 Gyeonggi Virtual-Convergence Content Challenge — Miliverse · не отобрано",
-              "3 апреля 2026 · ChinaJoy 2026 · подано"
+              "3 апреля 2026 · ChinaJoy 2026 · не отобрано"
             ]
           }
         },
@@ -7024,9 +7024,9 @@ const PAGES = {
               "‏16 أغسطس 2026 · Taipei Indie Game Award 2027 — Fighting Nations · قُدِّم، وتُعلن القائمة النهائية في 14 أكتوبر",
               "‏16 أغسطس 2026 · Epic MegaGrants (النصف الثاني) — Fighting Nations · قُدِّم، قيد المراجعة",
               "‏16 أغسطس 2026 · Xsolla Funding Club — Fighting Nations · قُدِّم، قيد المراجعة",
-              "‏3 أبريل 2026 · الجناح الكوري في gamescom asia 2026 (تايلاند) · قُدِّم",
-              "‏3 أبريل 2026 · الجناح الكوري في gamescom 2026 (ألمانيا) · قُدِّم",
-              "‏3 أبريل 2026 · الجناح الكوري في Tokyo Game Show 2026 · قُدِّم",
+              "‏3 أبريل 2026 · الجناح الكوري في gamescom asia 2026 (تايلاند) · لم يُختَر",
+              "‏3 أبريل 2026 · الجناح الكوري في gamescom 2026 (ألمانيا) · لم يُختَر",
+              "‏3 أبريل 2026 · الجناح الكوري في Tokyo Game Show 2026 · لم يُختَر",
               "‏20 يوليو 2026 · Sweden Game Conference 2026 · قُدِّم",
               "‏18 أغسطس 2026 · Content IP Market 2026 (COEX، اختيار 80 شركة) · قُدِّم",
               "‏18 أغسطس 2026 · Gaming Istanbul GIST 2026 (اختيار 3 شركات) — Fighting Nations · قُدِّم",
@@ -7034,7 +7034,7 @@ const PAGES = {
               "‏21 يوليو 2025 · برنامج 2025 لدخول الشركات الصغيرة والمتوسطة إلى أسواق الشرق الأوسط (جمعية الشركات الناشئة الكورية) · لم يُختَر",
               "‏28 يوليو 2025 · ‏2025 Content Startup Battlefield (وكالة كوكا الكورية) · لم يُختَر",
               "‏17 أغسطس 2026 · النسخة 21 من Gyeonggi Game Audition — Fighting Nations · قُدِّم",
-              "‏3 أبريل 2026 · ChinaJoy 2026 · قُدِّم"
+              "‏3 أبريل 2026 · ChinaJoy 2026 · لم يُختَر"
             ]
           }
         },
