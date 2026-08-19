@@ -12,7 +12,7 @@
   --accent: #e63030;
   --accent-dim: #8f1d1d;
   --line: #26262f;
-  --max: 1080px;
+  --max: 1200px;
   --pad: clamp(20px, 5vw, 48px);
 }
 
@@ -109,8 +109,8 @@ nav a:hover { color: var(--fg); border-bottom-color: var(--accent); }
 .hero .wrap { position: relative; }
 /* 히어로: 왼쪽 글, 오른쪽 커버 아트 */
 .hero-grid {
-  display: grid; grid-template-columns: 1.1fr 0.9fr;
-  gap: clamp(28px, 5vw, 64px); align-items: center;
+  display: grid; grid-template-columns: 1fr 1.15fr;
+  gap: clamp(28px, 4vw, 56px); align-items: center;
 }
 .hero-art {
   width: 100%; height: auto; border-radius: 12px;
@@ -278,6 +278,14 @@ section.alt { background: var(--bg-2); }
 /* 히어로 안에서는 위 여백 없이 커버 이미지 자리를 그대로 차지한다 */
 .hero-slides { margin-top: 0; }
 .hero-slides .slide-track { box-shadow: 0 26px 70px rgba(0,0,0,.6); }
+/* 히어로 이미지는 오른쪽 바깥 여백까지 내보내 크게 보여준다.
+   왼쪽 글은 그리드에 그대로 있어 상단 로고와 왼쪽 끝이 계속 맞는다.
+   .hero 가 overflow:hidden 이라 가로 스크롤은 생기지 않는다.
+   margin-inline-end 는 논리 속성이라 아랍어(RTL)에서는 반대편으로 나간다.
+   창이 --max 보다 좁으면 min(0px, ...) 이 0 이 되어 아무 일도 하지 않는다. */
+@media (min-width: 1100px) {
+  .hero-slides { margin-inline-end: min(0px, calc((var(--max) - 100vw) / 2)); }
+}
 .slide-track {
   position: relative; aspect-ratio: 16 / 9; border-radius: 12px;
   overflow: hidden; border: 1px solid var(--line); background: #000;
