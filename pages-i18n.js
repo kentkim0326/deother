@@ -4474,7 +4474,7 @@ const PAGES = {
         },
         {
           h: "지금까지 받은 것",
-          p: ["공모전만 낸 것이 아니라, 필요한 기술은 직접 배웠습니다. 2019년 유니티 워크숍으로 시작해, 2025년 8월 이후로만 열다섯 과정을 수료했습니다 — 유니티와 언리얼 엔진, 생성형 AI와 리얼리티 캡처, 블록체인·솔리디티, e스포츠 대회 기획, 그리고 인공지능·디지털 자산 국제표준. 그 사이에 상도 하나 받았습니다."],
+          p: ["공모전만 낸 것이 아니라, 필요한 기술은 직접 배웠습니다. 2019년 유니티 워크숍으로 시작해, 2025년 8월 이후로만 열아홉 과정을 수료했습니다 — 유니티와 언리얼 엔진, 생성형 AI와 리얼리티 캡처, 블록체인·솔리디티, e스포츠 대회 기획, 그리고 인공지능·디지털 자산 국제표준. 그 사이에 상도 둘 받았습니다."],
           list: {
             h: "교육 수료와 수상",
             items: [
@@ -4492,11 +4492,14 @@ const PAGES = {
               "2026년 5월 9일 · 한국인터넷진흥원(KISA) 「2026 블록체인 밋업데이 — 솔리디티 언어 학습과 활용계획」 · ✅ 수료",
               "2026년 5월 28일 · 한국정보통신기술협회(TTA) 「디지털 자산의 미래와 전략」 세미나 (4시간) · ✅ 수료",
               "2026년 5월 30일 · 한국인터넷진흥원(KISA) 「2026 블록체인 밋업데이 — 블록체인 월렛 개발하기」 · ✅ 수료",
+              "2026년 6월 1일 · 「제107회 전국체전·제46회 전국장애인체전 in 제주」 공모전 응원가 부문 (제주특별자치도) · 🏆 우수상",
+              "2026년 6월 13일 · 한국인터넷진흥원(KISA) 「2026 블록체인 밋업데이 — 예금토큰의 이해와 기능 구현」 · ✅ 수료",
               "2026년 6월 27일 · 한국인터넷진흥원(KISA) 「2026 블록체인 밋업데이 — 탈중앙화 프라이버시 플랫폼(DPP)의 이해와 보안 기술 실습」 · ✅ 수료",
               "2026년 7월 12일 · 한국인터넷진흥원(KISA) 「2026 블록체인 밋업데이 — 생성형 AI를 활용한 블록체인 서비스 개발」 · ✅ 수료",
               "2026년 7월 23일 · 경기콘텐츠진흥원 「2026 경기 가상융합 캠퍼스」 정규 과정 — 언리얼 엔진의 비주얼 스크립팅 활용 콘텐츠 제작 (20시간) · ✅ 수료",
               "2026년 7월 30일 · 경기콘텐츠진흥원 「2026 경기 가상융합 캠퍼스」 정규 과정 — 언리얼 엔진을 이용한 시네마틱 영상 제작 (20시간) · ✅ 수료",
-              "2026년 8월 6일 · 경기콘텐츠진흥원 「2026 경기 가상융합 캠퍼스」 정규 과정 — 언리얼 엔진과 AI를 활용한 AI NPC 제작 (20시간) · ✅ 수료"
+              "2026년 8월 6일 · 경기콘텐츠진흥원 「2026 경기 가상융합 캠퍼스」 정규 과정 — 언리얼 엔진과 AI를 활용한 AI NPC 제작 (20시간) · ✅ 수료",
+              "2026년 8월 13일 · 경기콘텐츠진흥원 「2026 경기 가상융합 캠퍼스」 정규 과정 — 생성형 AI 활용 애셋 제작 (20시간) · ✅ 수료",
             ]
           }
         },
@@ -4760,7 +4763,7 @@ const PAGES = {
         },
         {
           h: "What we have earned",
-          p: ["We did not only send entries — we went and learned what we needed. It began with a one-week Unity workshop in 2019, and fifteen more courses have followed since August 2025 alone: Unity and Unreal Engine, generative AI and reality capture, blockchain and Solidity, esports tournament planning, international standards for AI and digital assets. And one award along the way."],
+          p: ["We did not only send entries — we went and learned what we needed. It began with a one-week Unity workshop in 2019, and nineteen more courses have followed since August 2025 alone: Unity and Unreal Engine, generative AI and reality capture, blockchain and Solidity, esports tournament planning, international standards for AI and digital assets. And two awards along the way."],
           list: {
             h: "Courses completed and awards",
             items: [
@@ -4778,11 +4781,14 @@ const PAGES = {
               "9 May 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: learning Solidity and planning its use · ✅ completed",
               "28 May 2026 · Telecommunications Technology Association (TTA) — The future and strategy of digital assets (4 hours) · ✅ completed",
               "30 May 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: building a blockchain wallet · ✅ completed",
+              "1 June 2026 · 107th National Sports Festival and 46th National Para Games in Jeju — cheering-song category (Jeju Province) · 🏆 Excellence Award",
+              "13 June 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: understanding and implementing deposit tokens · ✅ completed",
               "27 June 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: decentralised privacy platforms (DPP) and hands-on security · ✅ completed",
               "12 July 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: building blockchain services with generative AI · ✅ completed",
               "23 July 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: content creation with Unreal Engine visual scripting (20 hours) · ✅ completed",
               "30 July 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: cinematic filmmaking in Unreal Engine (20 hours) · ✅ completed",
-              "6 August 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: building AI NPCs with Unreal Engine and AI (20 hours) · ✅ completed"
+              "6 August 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: building AI NPCs with Unreal Engine and AI (20 hours) · ✅ completed",
+              "13 August 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: asset creation with generative AI (20 hours) · ✅ completed",
             ]
           }
         },
@@ -5045,7 +5051,7 @@ const PAGES = {
         },
         {
           h: "至今获得的",
-          p: ["我们不只是递交作品，需要的技术就去学。起点是 2019 年的 Unity 工作坊，仅 2025 年 8 月以来就结业了十五门课程 —— 虚幻引擎与 Unity、生成式 AI 与实景捕捉、区块链与 Solidity、电竞赛事策划，以及人工智能和数字资产国际标准，其间还获得了一个奖项。"],
+          p: ["我们不只是递交作品，需要的技术就去学。起点是 2019 年的 Unity 工作坊，仅 2025 年 8 月以来就结业了十九门课程 —— 虚幻引擎与 Unity、生成式 AI 与实景捕捉、区块链与 Solidity、电竞赛事策划，以及人工智能和数字资产国际标准，其间还获得了两个奖项。"],
           list: {
             h: "结业课程与获奖",
             items: [
@@ -5063,11 +5069,14 @@ const PAGES = {
               "2026 年 5 月 9 日 · 韩国互联网振兴院（KISA）「2026 区块链 Meetup Day — Solidity 语言学习与应用规划」 · ✅ 结业",
               "2026 年 5 月 28 日 · 韩国信息通信技术协会（TTA）「数字资产的未来与战略」研讨会 （4 小时） · ✅ 结业",
               "2026 年 5 月 30 日 · 韩国互联网振兴院（KISA）「2026 区块链 Meetup Day — 开发区块链钱包」 · ✅ 结业",
+              "2026 年 6 月 1 日 · 「第107届全国体育大会·第46届全国残疾人体育大会 in 济州」征集 助威歌曲组（济州特别自治道） · 🏆 优秀奖",
+              "2026 年 6 月 13 日 · 韩国互联网振兴院（KISA）「2026 区块链 Meetup Day — 存款代币的理解与功能实现」 · ✅ 结业",
               "2026 年 6 月 27 日 · 韩国互联网振兴院（KISA）「2026 区块链 Meetup Day — 去中心化隐私平台（DPP）理解与安全技术实操」 · ✅ 结业",
               "2026 年 7 月 12 日 · 韩国互联网振兴院（KISA）「2026 区块链 Meetup Day — 用生成式 AI 开发区块链服务」 · ✅ 结业",
               "2026 年 7 月 23 日 · 京畿内容振兴院「2026 京畿虚拟融合校区」正规课程 — 用虚幻引擎蓝图制作内容（20 小时） · ✅ 结业",
               "2026 年 7 月 30 日 · 京畿内容振兴院「2026 京畿虚拟融合校区」正规课程 — 用虚幻引擎制作电影级影像（20 小时） · ✅ 结业",
-              "2026 年 8 月 6 日 · 京畿内容振兴院「2026 京畿虚拟融合校区」正规课程 — 用虚幻引擎与 AI 制作 AI NPC（20 小时） · ✅ 结业"
+              "2026 年 8 月 6 日 · 京畿内容振兴院「2026 京畿虚拟融合校区」正规课程 — 用虚幻引擎与 AI 制作 AI NPC（20 小时） · ✅ 结业",
+              "2026 年 8 月 13 日 · 京畿内容振兴院「2026 京畿虚拟融合校区」正规课程 — 生成式 AI 资产制作（20 小时） · ✅ 结业",
             ]
           }
         },
@@ -5330,7 +5339,7 @@ const PAGES = {
         },
         {
           h: "これまでに得たもの",
-          p: ["応募しただけではありません。必要な技術は自分で学びました。2019年の Unity ワークショップから始まり、2025年8月以降だけで十五の課程を修了しました — Unity とアンリアルエンジン、生成 AI とリアリティキャプチャ、ブロックチェーンと Solidity、eスポーツ大会企画、人工知能・デジタル資産の国際標準。その間に受賞も一つあります。"],
+          p: ["応募しただけではありません。必要な技術は自分で学びました。2019年の Unity ワークショップから始まり、2025年8月以降だけで十九の課程を修了しました — Unity とアンリアルエンジン、生成 AI とリアリティキャプチャ、ブロックチェーンと Solidity、eスポーツ大会企画、人工知能・デジタル資産の国際標準。その間に受賞も二つあります。"],
           list: {
             h: "修了課程と受賞",
             items: [
@@ -5348,11 +5357,14 @@ const PAGES = {
               "2026年5月9日 · 韓国インターネット振興院（KISA）「2026 ブロックチェーン ミートアップデー — Solidity 言語の学習と活用計画」 · ✅ 修了",
               "2026年5月28日 · 韓国情報通信技術協会（TTA）「デジタル資産の未来と戦略」セミナー （4時間） · ✅ 修了",
               "2026年5月30日 · 韓国インターネット振興院（KISA）「2026 ブロックチェーン ミートアップデー — ブロックチェーン ウォレット開発」 · ✅ 修了",
+              "2026年6月1日 · 「第107回 全国体育大会・第46回 全国障害者体育大会 in 済州」コンテスト 応援歌部門（済州特別自治道） · 🏆 優秀賞",
+              "2026年6月13日 · 韓国インターネット振興院（KISA）「2026 ブロックチェーン ミートアップデー — 預金トークンの理解と機能実装」 · ✅ 修了",
               "2026年6月27日 · 韓国インターネット振興院（KISA）「2026 ブロックチェーン ミートアップデー — 分散型プライバシー基盤（DPP）の理解とセキュリティ実習」 · ✅ 修了",
               "2026年7月12日 · 韓国インターネット振興院（KISA）「2026 ブロックチェーン ミートアップデー — 生成 AI を活用したブロックチェーンサービス開発」 · ✅ 修了",
               "2026年7月23日 · 京畿コンテンツ振興院「2026 京畿 バーチャル融合キャンパス」正規課程 — アンリアルエンジンのビジュアルスクリプティング活用コンテンツ制作（20時間） · ✅ 修了",
               "2026年7月30日 · 京畿コンテンツ振興院「2026 京畿 バーチャル融合キャンパス」正規課程 — アンリアルエンジンによるシネマティック映像制作（20時間） · ✅ 修了",
-              "2026年8月6日 · 京畿コンテンツ振興院「2026 京畿 バーチャル融合キャンパス」正規課程 — アンリアルエンジンと AI による AI NPC 制作（20時間） · ✅ 修了"
+              "2026年8月6日 · 京畿コンテンツ振興院「2026 京畿 バーチャル融合キャンパス」正規課程 — アンリアルエンジンと AI による AI NPC 制作（20時間） · ✅ 修了",
+              "2026年8月13日 · 京畿コンテンツ振興院「2026 京畿 バーチャル融合キャンパス」正規課程 — 生成 AI によるアセット制作（20時間） · ✅ 修了",
             ]
           }
         },
@@ -5615,7 +5627,7 @@ const PAGES = {
         },
         {
           h: "Lo que hemos obtenido",
-          p: ["No solo enviamos candidaturas: aprendimos lo que hacía falta. Empezó con un taller de Unity de una semana en 2019 y, solo desde agosto de 2025, hemos completado quince cursos más —Unity y Unreal Engine, IA generativa y captura de realidad, blockchain y Solidity, planificación de torneos de esports, estándares internacionales de IA y activos digitales— y un premio por el camino."],
+          p: ["No solo enviamos candidaturas: aprendimos lo que hacía falta. Empezó con un taller de Unity de una semana en 2019 y, solo desde agosto de 2025, hemos completado diecinueve cursos más —Unity y Unreal Engine, IA generativa y captura de realidad, blockchain y Solidity, planificación de torneos de esports, estándares internacionales de IA y activos digitales— y dos premios por el camino."],
           list: {
             h: "Cursos completados y premios",
             items: [
@@ -5633,11 +5645,14 @@ const PAGES = {
               "9 de mayo de 2026 · Agencia de Internet y Seguridad de Corea (KISA) — Blockchain Meetup Day 2026: aprender Solidity y planificar su uso · ✅ completado",
               "28 de mayo de 2026 · Asociación de Tecnología de Telecomunicaciones (TTA) — El futuro y la estrategia de los activos digitales (4 horas) · ✅ completado",
               "30 de mayo de 2026 · Agencia de Internet y Seguridad de Corea (KISA) — Blockchain Meetup Day 2026: desarrollar una cartera blockchain · ✅ completado",
+              "1 de junio de 2026 · 107.º Festival Nacional de Deportes y 46.º Juegos Paranacionales en Jeju — categoría de canción de ánimo (Provincia de Jeju) · 🏆 Premio de Excelencia",
+              "13 de junio de 2026 · Agencia de Internet y Seguridad de Corea (KISA) — Blockchain Meetup Day 2026: comprensión e implementación de tokens de depósito · ✅ completado",
               "27 de junio de 2026 · Agencia de Internet y Seguridad de Corea (KISA) — Blockchain Meetup Day 2026: plataformas de privacidad descentralizadas (DPP) y práctica de seguridad · ✅ completado",
               "12 de julio de 2026 · Agencia de Internet y Seguridad de Corea (KISA) — Blockchain Meetup Day 2026: servicios blockchain con IA generativa · ✅ completado",
               "23 de julio de 2026 · Agencia de Contenidos de Gyeonggi — Gyeonggi Metaverse Campus 2026: contenidos con scripting visual de Unreal Engine (20 horas) · ✅ completado",
               "30 de julio de 2026 · Agencia de Contenidos de Gyeonggi — Gyeonggi Metaverse Campus 2026: cine con Unreal Engine (20 horas) · ✅ completado",
-              "6 de agosto de 2026 · Agencia de Contenidos de Gyeonggi — Gyeonggi Metaverse Campus 2026: NPC con IA en Unreal Engine (20 horas) · ✅ completado"
+              "6 de agosto de 2026 · Agencia de Contenidos de Gyeonggi — Gyeonggi Metaverse Campus 2026: NPC con IA en Unreal Engine (20 horas) · ✅ completado",
+              "13 de agosto de 2026 · Agencia de Contenidos de Gyeonggi — Gyeonggi Metaverse Campus 2026: creación de assets con IA generativa (20 horas) · ✅ completado",
             ]
           }
         },
@@ -5900,7 +5915,7 @@ const PAGES = {
         },
         {
           h: "O que já conquistámos",
-          p: ["Não enviámos apenas candidaturas: fomos aprender o que era preciso. Começou com um workshop de Unity de uma semana em 2019 e, só desde agosto de 2025, concluímos mais quinze cursos — Unity e Unreal Engine, IA generativa e captura de realidade, blockchain e Solidity, planeamento de torneios de esports, normas internacionais de IA e ativos digitais — e um prémio pelo caminho."],
+          p: ["Não enviámos apenas candidaturas: fomos aprender o que era preciso. Começou com um workshop de Unity de uma semana em 2019 e, só desde agosto de 2025, concluímos mais dezanove cursos — Unity e Unreal Engine, IA generativa e captura de realidade, blockchain e Solidity, planeamento de torneios de esports, normas internacionais de IA e ativos digitais — e dois prémios pelo caminho."],
           list: {
             h: "Cursos concluídos e prémios",
             items: [
@@ -5918,11 +5933,14 @@ const PAGES = {
               "9 de maio de 2026 · Agência de Internet e Segurança da Coreia (KISA) — Blockchain Meetup Day 2026: aprender Solidity e planear a sua utilização · ✅ concluído",
               "28 de maio de 2026 · Associação de Tecnologia de Telecomunicações (TTA) — O futuro e a estratégia dos ativos digitais (4 horas) · ✅ concluído",
               "30 de maio de 2026 · Agência de Internet e Segurança da Coreia (KISA) — Blockchain Meetup Day 2026: desenvolver uma carteira blockchain · ✅ concluído",
+              "1 de junho de 2026 · 107.º Festival Nacional de Desporto e 46.º Jogos Paranacionais em Jeju — categoria de canção de incentivo (Província de Jeju) · 🏆 Prémio de Excelência",
+              "13 de junho de 2026 · Agência de Internet e Segurança da Coreia (KISA) — Blockchain Meetup Day 2026: compreender e implementar tokens de depósito · ✅ concluído",
               "27 de junho de 2026 · Agência de Internet e Segurança da Coreia (KISA) — Blockchain Meetup Day 2026: plataformas de privacidade descentralizadas (DPP) e prática de segurança · ✅ concluído",
               "12 de julho de 2026 · Agência de Internet e Segurança da Coreia (KISA) — Blockchain Meetup Day 2026: serviços blockchain com IA generativa · ✅ concluído",
               "23 de julho de 2026 · Agência de Conteúdos de Gyeonggi — Gyeonggi Metaverse Campus 2026: conteúdos com scripting visual do Unreal Engine (20 horas) · ✅ concluído",
               "30 de julho de 2026 · Agência de Conteúdos de Gyeonggi — Gyeonggi Metaverse Campus 2026: cinema com Unreal Engine (20 horas) · ✅ concluído",
-              "6 de agosto de 2026 · Agência de Conteúdos de Gyeonggi — Gyeonggi Metaverse Campus 2026: NPC com IA no Unreal Engine (20 horas) · ✅ concluído"
+              "6 de agosto de 2026 · Agência de Conteúdos de Gyeonggi — Gyeonggi Metaverse Campus 2026: NPC com IA no Unreal Engine (20 horas) · ✅ concluído",
+              "13 de agosto de 2026 · Agência de Conteúdos de Gyeonggi — Gyeonggi Metaverse Campus 2026: criação de assets com IA generativa (20 horas) · ✅ concluído",
             ]
           }
         },
@@ -6185,7 +6203,7 @@ const PAGES = {
         },
         {
           h: "Ce que nous avons obtenu",
-          p: ["Nous n'avons pas fait qu'envoyer des candidatures : nous sommes allés apprendre ce qu'il fallait. Cela a commencé par un atelier Unity d'une semaine en 2019, et quinze formations ont suivi depuis août 2025 seulement — Unity et Unreal Engine, IA générative et capture de réalité, blockchain et Solidity, organisation de tournois d'esport, normes internationales de l'IA et des actifs numériques — et un prix en chemin."],
+          p: ["Nous n'avons pas fait qu'envoyer des candidatures : nous sommes allés apprendre ce qu'il fallait. Cela a commencé par un atelier Unity d'une semaine en 2019, et dix-neuf formations ont suivi depuis août 2025 seulement — Unity et Unreal Engine, IA générative et capture de réalité, blockchain et Solidity, organisation de tournois d'esport, normes internationales de l'IA et des actifs numériques — et deux prix en chemin."],
           list: {
             h: "Formations validées et prix",
             items: [
@@ -6203,11 +6221,14 @@ const PAGES = {
               "9 mai 2026 · Agence coréenne de l'internet et de la sécurité (KISA) — Blockchain Meetup Day 2026 : apprendre Solidity et planifier son usage · ✅ validé",
               "28 mai 2026 · Association coréenne des technologies de télécommunication (TTA) — L'avenir et la stratégie des actifs numériques (4 heures) · ✅ validé",
               "30 mai 2026 · Agence coréenne de l'internet et de la sécurité (KISA) — Blockchain Meetup Day 2026 : développer un portefeuille blockchain · ✅ validé",
+              "1er juin 2026 · 107e Festival national des sports et 46e Jeux paranationaux à Jeju — catégorie chant d'encouragement (province de Jeju) · 🏆 Prix d'excellence",
+              "13 juin 2026 · Agence coréenne de l'internet et de la sécurité (KISA) — Blockchain Meetup Day 2026 : comprendre et implémenter les jetons de dépôt · ✅ validé",
               "27 juin 2026 · Agence coréenne de l'internet et de la sécurité (KISA) — Blockchain Meetup Day 2026 : plateformes de confidentialité décentralisées (DPP) et pratique de la sécurité · ✅ validé",
               "12 juillet 2026 · Agence coréenne de l'internet et de la sécurité (KISA) — Blockchain Meetup Day 2026 : services blockchain et IA générative · ✅ validé",
               "23 juillet 2026 · Agence des contenus de Gyeonggi — Gyeonggi Metaverse Campus 2026 : contenus en scripting visuel Unreal Engine (20 heures) · ✅ validé",
               "30 juillet 2026 · Agence des contenus de Gyeonggi — Gyeonggi Metaverse Campus 2026 : cinématique sous Unreal Engine (20 heures) · ✅ validé",
-              "6 août 2026 · Agence des contenus de Gyeonggi — Gyeonggi Metaverse Campus 2026 : PNJ pilotés par IA sous Unreal Engine (20 heures) · ✅ validé"
+              "6 août 2026 · Agence des contenus de Gyeonggi — Gyeonggi Metaverse Campus 2026 : PNJ pilotés par IA sous Unreal Engine (20 heures) · ✅ validé",
+              "13 août 2026 · Agence des contenus de Gyeonggi — Gyeonggi Metaverse Campus 2026 : création d'assets avec l'IA générative (20 heures) · ✅ validé",
             ]
           }
         },
@@ -6470,7 +6491,7 @@ const PAGES = {
         },
         {
           h: "Was wir erreicht haben",
-          p: ["Wir haben nicht nur eingereicht — wir haben gelernt, was nötig war. Angefangen hat es 2019 mit einem einwöchigen Unity-Workshop; allein seit August 2025 kamen fünfzehn Kurse dazu: Unity und Unreal Engine, generative KI und Reality Capture, Blockchain und Solidity, Planung von Esport-Turnieren, internationale Standards für KI und digitale Vermögenswerte. Dazu eine Auszeichnung."],
+          p: ["Wir haben nicht nur eingereicht — wir haben gelernt, was nötig war. Angefangen hat es 2019 mit einem einwöchigen Unity-Workshop; allein seit August 2025 kamen neunzehn Kurse dazu: Unity und Unreal Engine, generative KI und Reality Capture, Blockchain und Solidity, Planung von Esport-Turnieren, internationale Standards für KI und digitale Vermögenswerte. Dazu zwei Auszeichnungen."],
           list: {
             h: "Abgeschlossene Kurse und Auszeichnungen",
             items: [
@@ -6488,11 +6509,14 @@ const PAGES = {
               "9. Mai 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: Solidity lernen und einsetzen · ✅ abgeschlossen",
               "28. Mai 2026 · Telecommunications Technology Association (TTA) — Zukunft und Strategie digitaler Vermögenswerte (4 Stunden) · ✅ abgeschlossen",
               "30. Mai 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: eine Blockchain-Wallet entwickeln · ✅ abgeschlossen",
+              "1. Juni 2026 · 107. Nationales Sportfest und 46. Nationale Para-Spiele in Jeju — Kategorie Anfeuerungslied (Provinz Jeju) · 🏆 Exzellenzpreis",
+              "13. Juni 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: Einlagentoken verstehen und implementieren · ✅ abgeschlossen",
               "27. Juni 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: dezentrale Privacy-Plattformen (DPP) und Security-Praxis · ✅ abgeschlossen",
               "12. Juli 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: Blockchain-Dienste mit generativer KI · ✅ abgeschlossen",
               "23. Juli 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: Inhalte mit Visual Scripting in der Unreal Engine (20 Stunden) · ✅ abgeschlossen",
               "30. Juli 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: Cinematics in der Unreal Engine (20 Stunden) · ✅ abgeschlossen",
-              "6. August 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: KI-NPCs mit Unreal Engine und KI (20 Stunden) · ✅ abgeschlossen"
+              "6. August 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: KI-NPCs mit Unreal Engine und KI (20 Stunden) · ✅ abgeschlossen",
+              "13. August 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: Asset-Erstellung mit generativer KI (20 Stunden) · ✅ abgeschlossen",
             ]
           }
         },
@@ -6755,7 +6779,7 @@ const PAGES = {
         },
         {
           h: "Что мы получили",
-          p: ["Мы не только подавали заявки — мы шли и учились тому, что нужно. Началось это с недельного воркшопа по Unity в 2019 году, а только с августа 2025 года пройдено ещё пятнадцать курсов: Unity и Unreal Engine, генеративный ИИ и reality capture, блокчейн и Solidity, организация киберспортивных турниров, международные стандарты ИИ и цифровых активов. И одна награда по пути."],
+          p: ["Мы не только подавали заявки — мы шли и учились тому, что нужно. Началось это с недельного воркшопа по Unity в 2019 году, а только с августа 2025 года пройдено ещё девятнадцать курсов: Unity и Unreal Engine, генеративный ИИ и reality capture, блокчейн и Solidity, организация киберспортивных турниров, международные стандарты ИИ и цифровых активов. И две награды по пути."],
           list: {
             h: "Пройденные курсы и награды",
             items: [
@@ -6773,11 +6797,14 @@ const PAGES = {
               "9 мая 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: изучение Solidity и план его применения · ✅ пройдено",
               "28 мая 2026 · Telecommunications Technology Association (TTA) — будущее и стратегия цифровых активов (4 ч.) · ✅ пройдено",
               "30 мая 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: разработка блокчейн-кошелька · ✅ пройдено",
+              "1 июня 2026 · 107-й Национальный спортивный фестиваль и 46-е Национальные пара-игры на Чеджу — категория песни поддержки (провинция Чеджу) · 🏆 Премия за отличие",
+              "13 июня 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: депозитные токены — понимание и реализация · ✅ пройдено",
               "27 июня 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: децентрализованные платформы приватности (DPP) и практика безопасности · ✅ пройдено",
               "12 июля 2026 · Korea Internet & Security Agency (KISA) — Blockchain Meetup Day 2026: блокчейн-сервисы на генеративном ИИ · ✅ пройдено",
               "23 июля 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: контент на визуальном скриптинге Unreal Engine (20 часов) · ✅ пройдено",
               "30 июля 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: кинематографика в Unreal Engine (20 часов) · ✅ пройдено",
-              "6 августа 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: ИИ-NPC на Unreal Engine (20 часов) · ✅ пройдено"
+              "6 августа 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: ИИ-NPC на Unreal Engine (20 часов) · ✅ пройдено",
+              "13 августа 2026 · Gyeonggi Content Agency — Gyeonggi Metaverse Campus 2026: создание ассетов с помощью генеративного ИИ (20 часов) · ✅ пройдено",
             ]
           }
         },
@@ -7040,7 +7067,7 @@ const PAGES = {
         },
         {
           h: "ما حصلنا عليه",
-          p: ["لم نكتفِ بالتقديم — تعلّمنا ما نحتاجه. بدأ الأمر بورشة Unity لمدة أسبوع عام 2019، ومنذ أغسطس 2025 وحده أنهينا خمس عشرة دورة أخرى: Unity وUnreal Engine، والذكاء الاصطناعي التوليدي والتقاط الواقع، والبلوك تشين وSolidity، وتخطيط بطولات الرياضات الإلكترونية، والمعايير الدولية للذكاء الاصطناعي والأصول الرقمية. ونلنا جائزة واحدة في الطريق."],
+          p: ["لم نكتفِ بالتقديم — تعلّمنا ما نحتاجه. بدأ الأمر بورشة Unity لمدة أسبوع عام 2019، ومنذ أغسطس 2025 وحده أنهينا تسع عشرة دورة أخرى: Unity وUnreal Engine، والذكاء الاصطناعي التوليدي والتقاط الواقع، والبلوك تشين وSolidity، وتخطيط بطولات الرياضات الإلكترونية، والمعايير الدولية للذكاء الاصطناعي والأصول الرقمية. ونلنا جائزتين في الطريق."],
           list: {
             h: "دورات مُنجَزة وجوائز",
             items: [
@@ -7058,11 +7085,14 @@ const PAGES = {
               "‏9 مايو 2026 · الوكالة الكورية للإنترنت والأمن (KISA) — يوم ملتقى البلوك تشين 2026: تعلّم لغة Solidity وخطة استخدامها · ✅ مُنجَز",
               "‏28 مايو 2026 · جمعية تقنية الاتصالات (TTA) — مستقبل الأصول الرقمية واستراتيجيتها (4 ساعات) · ✅ مُنجَز",
               "‏30 مايو 2026 · الوكالة الكورية للإنترنت والأمن (KISA) — يوم ملتقى البلوك تشين 2026: تطوير محفظة بلوك تشين · ✅ مُنجَز",
+              "‏1 يونيو 2026 · مهرجان الرياضة الوطني 107 وألعاب البارا الوطنية 46 في جيجو — فئة أغنية التشجيع (مقاطعة جيجو) · 🏆 جائزة التميّز",
+              "‏13 يونيو 2026 · الوكالة الكورية للإنترنت والأمن (KISA) — يوم ملتقى البلوك تشين 2026: فهم رموز الودائع وتنفيذ وظائفها · ✅ مُنجَز",
               "‏27 يونيو 2026 · الوكالة الكورية للإنترنت والأمن (KISA) — يوم ملتقى البلوك تشين 2026: منصّات الخصوصية اللامركزية (DPP) وتطبيقات الأمن · ✅ مُنجَز",
               "‏12 يوليو 2026 · الوكالة الكورية للإنترنت والأمن (KISA) — يوم ملتقى البلوك تشين 2026: بناء خدمات بلوك تشين بالذكاء الاصطناعي التوليدي · ✅ مُنجَز",
               "‏23 يوليو 2026 · وكالة محتوى كيونغي — حرم كيونغي للاندماج الافتراضي 2026: إنتاج المحتوى بالبرمجة المرئية في Unreal Engine (20 ساعة) · ✅ مُنجَز",
               "‏30 يوليو 2026 · وكالة محتوى كيونغي — حرم كيونغي للاندماج الافتراضي 2026: صناعة اللقطات السينمائية في Unreal Engine (20 ساعة) · ✅ مُنجَز",
-              "‏6 أغسطس 2026 · وكالة محتوى كيونغي — حرم كيونغي للاندماج الافتراضي 2026: بناء شخصيات NPC بالذكاء الاصطناعي في Unreal Engine (20 ساعة) · ✅ مُنجَز"
+              "‏6 أغسطس 2026 · وكالة محتوى كيونغي — حرم كيونغي للاندماج الافتراضي 2026: بناء شخصيات NPC بالذكاء الاصطناعي في Unreal Engine (20 ساعة) · ✅ مُنجَز",
+              "‏13 أغسطس 2026 · وكالة محتوى كيونغي — حرم كيونغي للاندماج الافتراضي 2026: إنشاء الأصول بالذكاء الاصطناعي التوليدي (20 ساعة) · ✅ مُنجَز",
             ]
           }
         },
