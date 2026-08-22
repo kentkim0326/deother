@@ -39,10 +39,11 @@ const JOURNEY_LINKS = [
   "",                              // CGDC 2025 — 회차별이라 상시 주소 없음
   "",                              // 중앙대 인디게임 부스 — 상시 주소 없음
   "",                              // NC 바르코 공모전 — 회차별이라 상시 주소 없음
-  "https://neowizquest.com/"       // 네오위즈 퀘스트
+  "https://neowizquest.com/",      // 네오위즈 퀘스트
+  ""                               // 제1회 동그라미재단 AI 컨퍼런스 발표 — 회차별이라 상시 주소 없음
 ];
 // 🌐 는 온라인 개최다 — K-Style Expo·AsiaStartupExpo 둘 다 Zoom 피칭이라 개최국 국기가 없다.
-const JOURNEY_FLAGS = ["🇰🇷", "🇯🇵", "🇩🇪", "🇯🇵", "🇺🇸", "🇺🇸", "", "🇰🇷", "🌐", "🌐", "🇰🇷", "🇰🇷", "🇰🇷", "🇹🇭", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷"];
+const JOURNEY_FLAGS = ["🇰🇷", "🇯🇵", "🇩🇪", "🇯🇵", "🇺🇸", "🇺🇸", "", "🇰🇷", "🌐", "🌐", "🇰🇷", "🇰🇷", "🇰🇷", "🇹🇭", "", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷", "🇰🇷"];
 
 // 로드맵 각 단계의 공식 사이트. 순서는 각 언어 roadmap.items 와 1:1 로 맞춘다(인덱스로 붙는다).
 // "" 면 그 항목은 링크 없이 제목 텍스트로 나온다 — WORKS 카드와 같은 규칙이다.
@@ -345,7 +346,8 @@ const I18N = {
         { d: "6–7 November 2025", t: "Attended the Console Game Developer Conference (CGDC) 2025 in Pangyo — groundwork for the console step on our roadmap" },
         { d: "29 November 2025", t: "Global Game Challenge 2025 — Outstanding Indie Game Invitational: selected as one of about 20 titles and exhibited at Chung-Ang University (hosted by the Korean Game Society)" },
         { d: "31 December 2025", t: "Submitted to NC Soft's 2nd VARCO Game Contest" },
-        { d: "16 January 2026", t: "Entered NEOWIZ Quest, a narrative indie game competition with a ₩165M prize pool" }
+        { d: "16 January 2026", t: "Entered NEOWIZ Quest, a narrative indie game competition with a ₩165M prize pool" },
+        { d: "21 August 2026", t: "Spoke at the 1st Circle Foundation AI Conference — \"50 apps and 8 games in six months\" (Jongno, Seoul). Four months earlier we had completed the same foundation's AI academy" }
       ]
     },
     roadmap: {
@@ -480,7 +482,8 @@ const I18N = {
         { d: "2025년 11월 6~7일", t: "콘솔게임 개발자 컨퍼런스(CGDC) 2025 참석 — 판교. 로드맵의 콘솔 진출을 준비하는 자리였습니다" },
         { d: "2025년 11월 29일", t: "글로벌게임챌린지 2025 「우수 인디게임 초청전」 — 20작품 내외 선정작으로 초청되어 중앙대학교 100주년기념관에서 전시 (한국게임학회 주최)" },
         { d: "2025년 12월 31일", t: "NC소프트 제2회 바르코 게임 공모전 접수" },
-        { d: "2026년 1월 16일", t: "네오위즈 퀘스트 내러티브 인디게임 공모전 접수 (총 상금 1억 6,500만원)" }
+        { d: "2026년 1월 16일", t: "네오위즈 퀘스트 내러티브 인디게임 공모전 접수 (총 상금 1억 6,500만원)" },
+        { d: "2026년 8월 21일", t: "제1회 동그라미재단 AI 컨퍼런스에서 발표 — 「6개월 동안 앱 50개, 게임 8개 만들기」 (서울 종로). 넉 달 전 이 재단의 AI 아카데미를 수료했던 자리입니다" }
       ]
     },
     roadmap: {
@@ -613,7 +616,8 @@ const I18N = {
         { d: "2025 年 11 月 6–7 日", t: "参加主机游戏开发者大会（CGDC）2025（板桥）——为路线图中的主机平台进军做准备" },
         { d: "2025 年 11 月 29 日", t: "全球游戏挑战赛 2025「优秀独立游戏邀请展」——入选约 20 款作品之一，于中央大学百年纪念馆参展（韩国游戏学会主办）" },
         { d: "2025 年 12 月 31 日", t: "报名 NC Soft 第二届 VARCO 游戏大赛" },
-        { d: "2026 年 1 月 16 日", t: "报名 NEOWIZ Quest 叙事独立游戏大赛（总奖金 1.65 亿韩元）" }
+        { d: "2026 年 1 月 16 日", t: "报名 NEOWIZ Quest 叙事独立游戏大赛（总奖金 1.65 亿韩元）" },
+        { d: "2026 年 8 月 21 日", t: "在第一届圆形基金会 AI 大会发表 ——「六个月做 50 个应用、8 款游戏」（首尔钟路）。四个月前正是在这里结业于该基金会的 AI 学院" }
       ]
     },
     roadmap: {
@@ -745,7 +749,8 @@ const I18N = {
         { d: "2025年11月6〜7日", t: "コンソールゲーム開発者カンファレンス（CGDC）2025 に参加（板橋）— ロードマップのコンソール進出に向けた足がかり" },
         { d: "2025年11月29日", t: "グローバル ゲーム チャレンジ 2025「優秀インディーゲーム招待展」— 約 20 作品の選定作として招待され、中央大学校 100 周年記念館で展示（韓国ゲーム学会主催）" },
         { d: "2025年12月31日", t: "NCソフト第2回VARCOゲームコンテストに応募" },
-        { d: "2026年1月16日", t: "ネオウィズ・クエスト（ナラティブ系インディーゲームコンペ、賞金総額1億6500万ウォン）に応募" }
+        { d: "2026年1月16日", t: "ネオウィズ・クエスト（ナラティブ系インディーゲームコンペ、賞金総額1億6500万ウォン）に応募" },
+        { d: "2026年8月21日", t: "第1回 Circle Foundation AI カンファレンスで発表 —「6か月でアプリ 50 本、ゲーム 8 本」（ソウル鍾路）。4か月前に同財団の AI アカデミーを修了した場所です" }
       ]
     },
     roadmap: {
@@ -877,7 +882,8 @@ const I18N = {
         { d: "6–7 de noviembre de 2025", t: "Asistencia a la Console Game Developer Conference (CGDC) 2025 en Pangyo: preparación para el paso a consola de nuestra hoja de ruta" },
         { d: "29 noviembre 2025", t: "Global Game Challenge 2025, Muestra de Juegos Indie Destacados: seleccionados entre unos 20 títulos y expuestos en la Universidad Chung-Ang (organiza la Korean Game Society)" },
         { d: "31 diciembre 2025", t: "Presentado al 2.º Concurso VARCO de NC Soft" },
-        { d: "16 enero 2026", t: "Presentado a NEOWIZ Quest, concurso de juegos indie narrativos (bolsa de 165 millones de wones)" }
+        { d: "16 enero 2026", t: "Presentado a NEOWIZ Quest, concurso de juegos indie narrativos (bolsa de 165 millones de wones)" },
+        { d: "21 agosto 2026", t: "Ponencia en la 1.ª Conferencia de IA de la Circle Foundation: «50 apps y 8 juegos en seis meses» (Jongno, Seúl). Cuatro meses antes completamos la academia de IA de esa misma fundación" }
       ]
     },
     roadmap: {
@@ -1009,7 +1015,8 @@ const I18N = {
         { d: "6–7 de novembro de 2025", t: "Presença na Console Game Developer Conference (CGDC) 2025 em Pangyo: preparação para o passo das consolas no nosso roteiro" },
         { d: "29 novembro 2025", t: "Global Game Challenge 2025, Mostra de Jogos Indie em Destaque: selecionados entre cerca de 20 títulos e expostos na Universidade Chung-Ang (organização da Korean Game Society)" },
         { d: "31 dezembro 2025", t: "Inscrito no 2.º Concurso VARCO da NC Soft" },
-        { d: "16 janeiro 2026", t: "Inscrito no NEOWIZ Quest, concurso de jogos indie narrativos (prémios de 165 milhões de wones)" }
+        { d: "16 janeiro 2026", t: "Inscrito no NEOWIZ Quest, concurso de jogos indie narrativos (prémios de 165 milhões de wones)" },
+        { d: "21 agosto 2026", t: "Apresentação na 1.ª Conferência de IA da Circle Foundation: «50 apps e 8 jogos em seis meses» (Jongno, Seul). Quatro meses antes concluímos a academia de IA da mesma fundação" }
       ]
     },
     roadmap: {
@@ -1141,7 +1148,8 @@ const I18N = {
         { d: "6–7 novembre 2025", t: "Participation à la Console Game Developer Conference (CGDC) 2025 à Pangyo — préparation de l'étape console de notre feuille de route" },
         { d: "29 novembre 2025", t: "Global Game Challenge 2025, exposition sur invitation des meilleurs jeux indépendants — sélectionnés parmi une vingtaine de titres et exposés à l'université Chung-Ang (organisée par la Korean Game Society)" },
         { d: "31 décembre 2025", t: "Candidature au 2e concours VARCO de NC Soft" },
-        { d: "16 janvier 2026", t: "Candidature à NEOWIZ Quest, concours de jeux indépendants narratifs (165 M₩ de dotation)" }
+        { d: "16 janvier 2026", t: "Candidature à NEOWIZ Quest, concours de jeux indépendants narratifs (165 M₩ de dotation)" },
+        { d: "21 août 2026", t: "Intervention à la 1re conférence IA de la Circle Foundation — « 50 applis et 8 jeux en six mois » (Jongno, Séoul). Quatre mois plus tôt, nous avions suivi l'académie IA de cette même fondation" }
       ]
     },
     roadmap: {
@@ -1273,7 +1281,8 @@ const I18N = {
         { d: "6.–7. November 2025", t: "Teilnahme an der Console Game Developer Conference (CGDC) 2025 in Pangyo — Vorbereitung des Konsolen-Schritts unserer Roadmap" },
         { d: "29. November 2025", t: "Global Game Challenge 2025, Einladungsausstellung herausragender Indie-Spiele — als eines von rund 20 Titeln ausgewählt und an der Chung-Ang-Universität ausgestellt (veranstaltet von der Korean Game Society)" },
         { d: "31. Dezember 2025", t: "Einreichung beim 2. VARCO Game Contest von NC Soft" },
-        { d: "16. Januar 2026", t: "Teilnahme an NEOWIZ Quest, einem Wettbewerb für narrative Indie-Spiele (165 Mio. ₩ Preisgeld)" }
+        { d: "16. Januar 2026", t: "Teilnahme an NEOWIZ Quest, einem Wettbewerb für narrative Indie-Spiele (165 Mio. ₩ Preisgeld)" },
+        { d: "21. August 2026", t: "Vortrag auf der 1. KI-Konferenz der Circle Foundation — „50 Apps und 8 Spiele in sechs Monaten“ (Jongno, Seoul). Vier Monate zuvor hatten wir die KI-Akademie derselben Stiftung abgeschlossen" }
       ]
     },
     roadmap: {
@@ -1405,7 +1414,8 @@ const I18N = {
         { d: "6–7 ноября 2025", t: "Участие в Console Game Developer Conference (CGDC) 2025 в Пангё — подготовка к консольному этапу нашей дорожной карты" },
         { d: "29 ноября 2025", t: "Global Game Challenge 2025, выставка лучших инди-игр по приглашению — отобраны в число примерно 20 работ и представлены в Университете Чунг-Ан (организатор — Korean Game Society)" },
         { d: "31 декабря 2025", t: "Заявка на 2-й конкурс VARCO от NC Soft" },
-        { d: "16 января 2026", t: "Заявка на NEOWIZ Quest — конкурс нарративных инди-игр с призовым фондом 165 млн вон" }
+        { d: "16 января 2026", t: "Заявка на NEOWIZ Quest — конкурс нарративных инди-игр с призовым фондом 165 млн вон" },
+        { d: "21 августа 2026", t: "Доклад на 1-й ИИ-конференции фонда Circle Foundation — «50 приложений и 8 игр за шесть месяцев» (Чонно, Сеул). Четырьмя месяцами ранее мы окончили ИИ-академию этого же фонда" }
       ]
     },
     roadmap: {
@@ -1538,7 +1548,8 @@ const I18N = {
         { d: "‏6–7 نوفمبر 2025", t: "‏حضور مؤتمر مطوّري ألعاب المنصّات (CGDC) 2025 في بانغيو — تمهيدًا لخطوة المنصّات في خارطة طريقنا" },
         { d: "‏29 نوفمبر 2025", t: "‏Global Game Challenge 2025 — معرض الألعاب المستقلة المتميّزة بالدعوة: اختيرت ضمن نحو 20 عملاً وعُرضت في جامعة تشونغ-آنغ (بتنظيم الجمعية الكورية للألعاب)" },
         { d: "‏31 ديسمبر 2025", t: "التقديم لمسابقة VARCO الثانية من NC Soft" },
-        { d: "‏16 يناير 2026", t: "المشاركة في NEOWIZ Quest لألعاب الإندي السردية (مجموع الجوائز 165 مليون وون)" }
+        { d: "‏16 يناير 2026", t: "المشاركة في NEOWIZ Quest لألعاب الإندي السردية (مجموع الجوائز 165 مليون وون)" },
+        { d: "‏21 أغسطس 2026", t: "‏محاضرة في المؤتمر الأول للذكاء الاصطناعي لمؤسسة Circle Foundation — «50 تطبيقًا و8 ألعاب في ستة أشهر» (جونغنو، سول). قبل أربعة أشهر أنهينا أكاديمية الذكاء الاصطناعي في المؤسسة نفسها" }
       ]
     },
     roadmap: {
