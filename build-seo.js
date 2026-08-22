@@ -90,7 +90,7 @@ function inject(file, lines) {
   if (re.test(html)) {
     html = html.replace(re, block);
   } else {
-    const m = html.match(/<main>\s*/);
+    const m = html.match(/<main\b[^>]*>\s*/);   // index.html 은 <main id="top"> 이다
     if (!m) throw new Error(file + ": <main> 을 찾지 못했다");
     const at = m.index + m[0].length;
     html = html.slice(0, at) + block + "\n\n" + html.slice(at);
