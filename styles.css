@@ -563,3 +563,13 @@ footer { padding: 52px 0; color: var(--fg-faint); font-size: 14px; }
 .event .ev-link::after { content: " ↗"; font-size: 12px; opacity: .45; }
 .event .ev-link:hover { color: var(--accent); border-bottom-color: var(--accent-dim); }
 .event .ev-link:hover::after { opacity: 1; }
+
+/* 검색엔진용 정적 텍스트 (build-seo.js 가 각 html 의 <noscript> 에 박는다).
+   자바스크립트가 켜져 있으면 브라우저가 아예 렌더하지 않는다 — 방문자에겐 안 보인다.
+   네이버 Yeti 처럼 JS 를 실행하지 않는 크롤러가 읽는 자리이고,
+   JS 를 끈 사람이 들어왔을 때도 읽을 수 있도록 크기만 잡아 둔다. */
+.seo-text { padding-block: 48px; max-width: 760px; }
+.seo-text h1 { font-size: 32px; line-height: 1.25; margin: 0 0 12px; }
+.seo-text h2 { font-size: 20px; margin: 28px 0 8px; }
+.seo-text p, .seo-text li { color: var(--fg-dim); }
+.seo-text ul { padding-inline-start: 20px; }

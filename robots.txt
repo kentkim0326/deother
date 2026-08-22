@@ -1,0 +1,6 @@
+# 모든 검색엔진 허용. 네이버 Yeti 도 여기를 먼저 본다.
+User-agent: *
+Allow: /
+
+# 사이트맵 — build-seo.js 가 만든다
+Sitemap: https://deother.vercel.app/sitemap.xml
