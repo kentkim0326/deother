@@ -180,7 +180,16 @@ node build-seo.js founder.html    # 한 페이지만
 - **번역을 고친 뒤에는 다시 돌린다.** 안 돌리면 크롤러가 옛 문장을 읽는다.
 - `sitemap.xml` 도 이 스크립트가 만든다. `robots.txt` 는 손으로 쓴 고정 파일이다.
 
-**아직 `founder.html` 만 넣었다**(2026-08-22). 나머지 11개는 `node build-seo.js` 한 번이면 된다.
+**12개 페이지 전부 넣었다**(2026-08-22). 크롤러가 보는 글자 수(JS 미실행 기준):
+
+```
+festivals 9,590 · index 3,321 · founder 2,768 · jangbogo 2,642 · miliverse 2,533
+kwonline 2,177 · kingdom-wars 1,868 · soomba 1,563 · timewars 1,197
+wallstreet 1,121 · turfking 1,068 · deathguide 953
+```
+
+※ `index.html` 은 `<main id="top">` 이라 `<main>` 만 찾으면 못 잡는다 — 스크립트가
+  `/<main\b[^>]*>/` 로 받는다. 새 페이지를 만들 때도 `<main>` 이 있어야 삽입된다.
 
 **⚠️ `<meta name="description">` 은 검색 결과에 그대로 나온다.** 정적이라 i18n 과 따로 논다 —
 **숫자를 고칠 때 여기도 같이 고쳐야 한다.** 실제로 `founder.html` 이 「21 books」로 낡아 있었다
